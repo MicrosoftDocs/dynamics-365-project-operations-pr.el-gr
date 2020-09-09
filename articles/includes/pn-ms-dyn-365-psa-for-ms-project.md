@@ -1,0 +1,1 @@
+<span data-ttu-id="7fb5a-101">Dynamics 365 Project Service Automation Πρόσθετο για το Microsoft Project</span><span class="sxs-lookup"><span data-stu-id="7fb5a-101">Dynamics 365 Project Service Automation Add-in for Microsoft Project</span></span>

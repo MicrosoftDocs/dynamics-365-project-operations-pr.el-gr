@@ -1,0 +1,1 @@
+<span data-ttu-id="15824-101">Ισχύει για την έκδοση 2.4.4.30 ή προηγούμενη έκδοση της εφαρμογής Project Service στην έκδοση 9.x του Dynamics 365 (online)</span><span class="sxs-lookup"><span data-stu-id="15824-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>

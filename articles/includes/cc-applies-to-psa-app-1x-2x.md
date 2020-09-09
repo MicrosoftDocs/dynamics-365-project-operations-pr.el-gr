@@ -1,0 +1,1 @@
+<span data-ttu-id="cfd61-101">Ισχύει για τις εκδόσεις 2.x και 1.x της εφαρμογής Project Service</span><span class="sxs-lookup"><span data-stu-id="cfd61-101">Applies to Project Service app versions 2.x and 1.x</span></span>

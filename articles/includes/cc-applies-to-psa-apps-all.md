@@ -1,0 +1,1 @@
+<span data-ttu-id="7e670-101">Ισχύει για τις εκδόσεις 3.x, 2.x και 1.x της εφαρμογής Project Service</span><span class="sxs-lookup"><span data-stu-id="7e670-101">Applies to Project Service app versions 3.x, 2.x, and 1.x</span></span>
