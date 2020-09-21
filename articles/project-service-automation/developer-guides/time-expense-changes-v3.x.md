@@ -1,0 +1,33 @@
+---
+title: Αλλαγές χρόνου και δαπανών (Project Service Automation 3.x)
+description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις αλλαγές της λύσης για τον χρόνο και τις δαπάνες.
+author: makk
+manager: kfend
+ms.custom:
+- dyn365-projectservice
+ms.date: 03/15/2019
+ms.topic: article
+ms.prod: Project Service
+ms.service: business-applications
+ms.assetid: cf603cc4-8951-4de9-9dfa-84223898e294
+ms.author: makk
+audience: admin
+search.audienceType:
+- admin
+- customizer
+search.app:
+- D365PS
+ms.openlocfilehash: e7bb5eea854824c8b8831216b3e0de649cbcbe47
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: el-GR
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3751527"
+---
+# <a name="time-and-expense-changes-project-service-automation-3x"></a>Αλλαγές χρόνου και δαπανών (Project Service Automation 3.x)
+
+Στην έκδοση 3.0 του Dynamics 365 Project Service Automation, οι προβολές χρόνου και δαπανών έχουν ενημερωθεί ώστε να επωφελούνται από το νέο πλαίσιο πλατφόρμας για τα προσαρμοσμένα στοιχεία ελέγχου.
+
+Προηγουμένως, οι προβολές ημερολογίου και πλέγματος για χρόνο και δαπάνες εφαρμόζονταν ως στοιχεία ελέγχου DHTMLX. Τα τεχνουργήματα που σχετίζονται με αυτήν την υλοποίηση του ημερολογίου και των προβολών πλέγματος έχουν πλέον ξεπεραστεί (απορρίφθηκαν).
+
+Για την πλήρη λίστα των πόρων που δεν χρησιμοποιούνται δείτε [Πόροι web που δεν χρησιμοποιούνται στο Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
