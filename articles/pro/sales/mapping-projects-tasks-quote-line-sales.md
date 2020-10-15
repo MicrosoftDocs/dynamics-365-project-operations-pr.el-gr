@@ -1,0 +1,92 @@
+---
+title: Αντιστοίχιση έργων και εργασιών σε μια γραμμή προσφοράς βάσει έργου
+description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο αντιστοίχισης έργων και εργασιών σε μια γραμμή εργασιών που βασίζονται σε έργα.
+author: rumant
+manager: Annbe
+ms.date: 10/05/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
+ms.sourcegitcommit: 6b396ccf5e76230a42a2f933a3aaa5b8149790bb
+ms.translationtype: HT
+ms.contentlocale: el-GR
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3964907"
+---
+# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a><span data-ttu-id="dbf55-103">Αντιστοίχιση έργων και εργασιών σε μια γραμμή προσφοράς βάσει έργου</span><span class="sxs-lookup"><span data-stu-id="dbf55-103">Map projects and tasks to a project-based quote line</span></span>
+
+<span data-ttu-id="dbf55-104">_**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_</span><span class="sxs-lookup"><span data-stu-id="dbf55-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+
+<span data-ttu-id="dbf55-105">Σε γραμμές προσφοράς βάσει έργου, μπορείτε να αντιστοιχίσετε τις συγκεκριμένες εργασίες ενός έργου που έχει ήδη συσχετιστεί με μια γραμμή προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="dbf55-105">On project-based quote lines, you can map the specific tasks of a project that is already associated to a quote line.</span></span>
+
+<span data-ttu-id="dbf55-106">Όταν αντιστοιχίζετε εργασίες σε μια γραμμή προσφοράς, τα ακόλουθα στοιχεία που καθορίσατε στη γραμμή προσφοράς θα εφαρμοστούν μόνο σε αυτές τις εργασίες:</span><span class="sxs-lookup"><span data-stu-id="dbf55-106">When you map tasks to a quote line, the following items you defined on the quote line will only apply to those tasks:</span></span>
+
+- <span data-ttu-id="dbf55-107">Μέθοδος χρέωσης</span><span class="sxs-lookup"><span data-stu-id="dbf55-107">Billing method</span></span>
+- <span data-ttu-id="dbf55-108">Επιλογές χρέωσης</span><span class="sxs-lookup"><span data-stu-id="dbf55-108">Chargeability options</span></span>
+- <span data-ttu-id="dbf55-109">Όριο που δεν πρέπει να υπερβαίνεται</span><span class="sxs-lookup"><span data-stu-id="dbf55-109">Not-to-exceed limits</span></span>
+- <span data-ttu-id="dbf55-110">Πελάτες</span><span class="sxs-lookup"><span data-stu-id="dbf55-110">Customers</span></span>
+
+<span data-ttu-id="dbf55-111">Για παράδειγμα, μπορεί να έχετε ένα έργο όπου μια φάση έχει προκαθορισμένη τιμή και όλες οι άλλες φάσεις είναι χρόνος και υλικό.</span><span class="sxs-lookup"><span data-stu-id="dbf55-111">For example, you might have a project where one phase is fixed price and all the other phases are time and materials.</span></span> <span data-ttu-id="dbf55-112">Σε αυτήν την περίπτωση, μπορείτε να συσχετίσετε την πρώτη φάση και όλες τις θυγατρικές της εργασίες στη γραμμή προσφοράς για αυτήν τη φάση με μια μέθοδο χρέωσης προκαθορισμένης τιμής.</span><span class="sxs-lookup"><span data-stu-id="dbf55-112">In this case, you can associate the first phase, and all of its child tasks, to the quote line for that phase with a fixed price billing method.</span></span> <span data-ttu-id="dbf55-113">Στη συνέχεια, μπορείτε να συσχετίσετε όλες τις άλλες φάσεις με τη γραμμή προσφοράς χρόνου και με βάση τα υλικά.</span><span class="sxs-lookup"><span data-stu-id="dbf55-113">You can then associate all the other phases to the time and materials-based quote line.</span></span>
+
+## <a name="associate-tasks-to-project-based-quote-lines"></a><span data-ttu-id="dbf55-114">Συσχέτιση εργασιών με γραμμές προσφοράς βάσει έργου</span><span class="sxs-lookup"><span data-stu-id="dbf55-114">Associate tasks to project-based quote lines</span></span>
+
+<span data-ttu-id="dbf55-115">Μπορείτε να συσχετίσετε εργασίες με γραμμές προσφοράς από τις παρακάτω θέσεις:</span><span class="sxs-lookup"><span data-stu-id="dbf55-115">You can associate tasks with quote lines from the following locations:</span></span>
+
+- <span data-ttu-id="dbf55-116">Σελίδα **Έργο** > καρτέλα **Τιμολόγηση εργασίας** (προαιρετικά)</span><span class="sxs-lookup"><span data-stu-id="dbf55-116">**Project** page > **Task billing** tab (optimal)</span></span>
+- <span data-ttu-id="dbf55-117">Σελίδα **Γραμμή προσφοράς** καρτέλα > **Χρεώσιμες εργασίες**</span><span class="sxs-lookup"><span data-stu-id="dbf55-117">**Quote Line** page > **Chargeable tasks** tab</span></span> 
+
+### <a name="from-the-project-page"></a><span data-ttu-id="dbf55-118">Από τη σελίδα έργου</span><span class="sxs-lookup"><span data-stu-id="dbf55-118">From the Project page</span></span>
+
+<span data-ttu-id="dbf55-119">Η σελίδα **Έργο** παρέχει τη βέλτιστη εμπειρία για τη συσχέτιση εργασιών με γραμμές προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="dbf55-119">The **Project** page provides the optimal experience for associating tasks to quote lines.</span></span> <span data-ttu-id="dbf55-120">Μπορείτε να χρησιμοποιήσετε αυτήν τη σελίδα για να επιλέξετε πολλές εργασίες και να τις συσχετίσετε όλες καθώς και τις θυγατρικές εργασίες τους, στην επιλεγμένη γραμμή προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="dbf55-120">You can use this page to select multiple tasks and associate all of them, plus their child tasks, to the selected quote line.</span></span>
+
+1. <span data-ttu-id="dbf55-121">Στην καρτέλα **Γενικά** μιας γραμμή προσφοράς βάσει έργου, επαληθεύστε ότι το πεδίο **Έργο** είναι συμπληρωμένο.</span><span class="sxs-lookup"><span data-stu-id="dbf55-121">On the **General** tab of a project–based quote line, verify the **Project** field is filled out.</span></span>
+2. <span data-ttu-id="dbf55-122">Στο πεδίο **Συμπεριληφθείσες εργασίες**, επιλέξτε **Μόνο επιλεγμένες εργασίες**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-122">In the **Included tasks** field, select **Selected tasks only**.</span></span>
+3. <span data-ttu-id="dbf55-123">Αποθηκεύστε τη γραμμή προσφοράς βάσει έργου.</span><span class="sxs-lookup"><span data-stu-id="dbf55-123">Save the project-based quote line.</span></span> <span data-ttu-id="dbf55-124">Όταν ανανεώνεται η φόρμα, εμφανίζεται η καρτέλα **Χρεώσιμες εργασίες**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-124">When the form refreshes, the **Chargeable tasks** tab displays.</span></span>
+4. <span data-ttu-id="dbf55-125">Στην καρτέλα **Γενικά**, επιλέξτε τη σύνδεση για το έργο από το πεδίο **Έργο**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-125">On the **General** tab, select the link for the project from the **Project** field.</span></span>
+5. <span data-ttu-id="dbf55-126">Στη σελίδα **Έργο**, επιλέξτε την καρτέλα **Χρέωση εργασίας**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-126">On the **Project** page, select the **Task billing** tab.</span></span>
+6. <span data-ttu-id="dbf55-127">Στο δεύτερο πλέγμα, το οποίο ισχύει για τη ρύθμιση χρέωσης για συγκεκριμένες εργασίες, επιλέξτε μία ή περισσότερες εργασίες και, στη συνέχεια, επιλέξτε **Συσχετίσεις γραμμών προσφοράς**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-127">In the second grid, which applies to task-specific billing setup, select one or more tasks and then select **Associate quote lines**.</span></span>
+7. <span data-ttu-id="dbf55-128">Στη σελίδα παραθύρου διαλόγου που εμφανίζεται, επιλέξτε μια γραμμή προσφοράς που εμφανίζει γραμμές προσφοράς βάσει έργου στην προσφορά.</span><span class="sxs-lookup"><span data-stu-id="dbf55-128">In the dialog page that appears, select a quote line that displays project-based quote lines on the quote.</span></span>
+8. <span data-ttu-id="dbf55-129">Στο πεδίο **Τύπος χρέωσης**, δηλώστε εάν αυτές οι εργασίες είναι φορολογήσιμες ή μη.</span><span class="sxs-lookup"><span data-stu-id="dbf55-129">In the **Billing type** field, indicate if these tasks are chargeable or non-chargeable.</span></span>
+9. <span data-ttu-id="dbf55-130">Επιλέξτε το πλαίσιο ελέγχου για να υποδείξετε εάν ο συσχετισμός θα πρέπει να περιλαμβάνει θυγατρικές εργασίες για τις επιλεγμένες εργασίες.</span><span class="sxs-lookup"><span data-stu-id="dbf55-130">Select the check box to indicate if the association should include child tasks of the selected tasks.</span></span> <span data-ttu-id="dbf55-131">Αν επιλέξετε το πλαίσιο θα γίνει συσχετισμός των θυγατρικών εργασιών των επιλεγμένων εργασιών στη γραμμή προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="dbf55-131">Checking the box will associate the child tasks of the selected tasks to the quote line.</span></span>
+10. <span data-ttu-id="dbf55-132">Επιλέξτε **ΟΚ** για να κλείσετε το παράθυρο διαλόγου.</span><span class="sxs-lookup"><span data-stu-id="dbf55-132">Select **OK** to close the dialog.</span></span>
+
+### <a name="from-the-quote-line-page"></a><span data-ttu-id="dbf55-133">Από τη σελίδα "γραμμή προσφοράς"</span><span class="sxs-lookup"><span data-stu-id="dbf55-133">From the Quote line page</span></span>
+
+<span data-ttu-id="dbf55-134">Μπορείτε να συσχετίσετε εργασίες έργου με γραμμές προσφοράς από την καρτέλα **Χρεώσιμες εργασίες** στη σελίδα **Γραμμή προσφοράς**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-134">You can associate project tasks to quote lines from the **Chargeable tasks** tab on **Quote line** page.</span></span>
+
+>[!NOTE]
+><span data-ttu-id="dbf55-135">Το βέλτιστο σημείο για να συσχετίσετε εργασίες έργου με γραμμές προσφοράς είναι η καρτέλα **Χρέωση εργασιών** στη σελίδα **Έργο**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-135">The optimal place to associate project tasks to quote lines is on the **Task billing** tab on the **Project** page.</span></span> <span data-ttu-id="dbf55-136">Εάν συσχετίσετε εργασίες από την καρτέλα **Χρεώσιμες εργασίες** στη σελίδα **Γραμμή προσφοράς**, πρέπει να συσχετίσετε με μη αυτόματο τρόπο κάθε έργο.</span><span class="sxs-lookup"><span data-stu-id="dbf55-136">If you associate tasks from the **Chargeable tasks** tab on **Quote line** page, you must manually associate each project.</span></span>
+
+1. <span data-ttu-id="dbf55-137">Στην καρτέλα **Γενικά** μιας γραμμής προσφοράς βάσει έργου, επαληθεύστε ότι το έργο επιλέχθηκε στο πεδίο **Έργο**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-137">On the **General** tab of a project–based quote line, verify that there is a project selected in the **Project** field.</span></span>
+2. <span data-ttu-id="dbf55-138">Στο πεδίο **Συμπεριληφθείσες εργασίες**, επιλέξτε **Μόνο επιλεγμένες εργασίες**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-138">In the **Included tasks** field, select **Selected tasks only**.</span></span>
+3. <span data-ttu-id="dbf55-139">Αποθηκεύστε τη γραμμή προσφοράς βάσει έργου.</span><span class="sxs-lookup"><span data-stu-id="dbf55-139">Save the project-based quote line.</span></span> <span data-ttu-id="dbf55-140">Όταν ανανεώνεται η φόρμα, εμφανίζεται η καρτέλα **Χρεώσιμες εργασίες**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-140">When the form refreshes, the **Chargeable tasks** tab displays.</span></span>
+4. <span data-ttu-id="dbf55-141">Στην καρτέλα **Χρεώσιμες εργασίες**, επιλέξτε **Προσθήκη εργασίας γραμμής προσφοράς**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-141">On the **Chargeable tasks** tab, select **Add a quote line task**.</span></span>
+5. <span data-ttu-id="dbf55-142">Στη σελίδα **Εργασία γραμμής προσφοράς**, στο πεδίο **Εργασίες** επιλέξτε την εργασία και στο πεδίο **Τύπος χρέωσης**, επιλέξτε **Αποθήκευση**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-142">On the **Quote line task** page, in the **Tasks** field, select the task and in the **Billing type** field, select **Save**.</span></span> 
+6. <span data-ttu-id="dbf55-143">Κλείστε τη σελίδα.</span><span class="sxs-lookup"><span data-stu-id="dbf55-143">Close the page.</span></span> <span data-ttu-id="dbf55-144">Η επιλεγμένη εργασία συσχετίζεται πλέον με τη γραμμή προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="dbf55-144">The selected task is now associated to the quote line.</span></span>
+
+## <a name="disassociate-tasks-from-projectbased-quote-lines"></a><span data-ttu-id="dbf55-145">Καταργήστε τη συσχέτιση εργασιών από γραμμές προσφοράς βάσει έργου</span><span class="sxs-lookup"><span data-stu-id="dbf55-145">Disassociate tasks from project–based quote lines</span></span>
+
+### <a name="from-the-project-page"></a><span data-ttu-id="dbf55-146">Από τη σελίδα έργου</span><span class="sxs-lookup"><span data-stu-id="dbf55-146">From the Project page</span></span>
+
+<span data-ttu-id="dbf55-147">Αυτή η μέθοδος παρέχει τη βέλτιστη εμπειρία για την κατάργηση συσχέτισης εργασιών από γραμμές προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="dbf55-147">This method provides the most optimal experience for disassociating tasks from quote lines.</span></span> <span data-ttu-id="dbf55-148">Μπορείτε να επιλέξετε πολλές εργασίες και να τις αποσυσχετίσετε όλες καθώς και τις θυγατρικές εργασίες τους, από την επιλεγμένη γραμμή προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="dbf55-148">You can select multiple tasks and disassociate all of the them, plus their child tasks, from the selected quote line.</span></span>
+
+1. <span data-ttu-id="dbf55-149">Στην καρτέλα **Γενικά** μιας γραμμής προσφοράς βάσει έργου, στο πεδίο **Έργο** επιλέξτε τη σύνδεση έργου.</span><span class="sxs-lookup"><span data-stu-id="dbf55-149">On the **General** tab of a project–based quote line, in the **Project** field, select the project link.</span></span>
+2. <span data-ttu-id="dbf55-150">Στη σελίδα **Έργο**, επιλέξτε την καρτέλα **Χρέωση εργασίας**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-150">On the **Project** page, select the **Task billing** tab.</span></span>
+3. <span data-ttu-id="dbf55-151">Στο δεύτερο πλέγμα, το οποίο ισχύει για τη ρύθμιση χρέωσης για συγκεκριμένες εργασίες, επιλέξτε μία ή περισσότερες εργασίες και, στη συνέχεια, επιλέξτε **Κατάργηση συσχέτισης γραμμών προσφοράς**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-151">In the second grid, which applies to task-specific billing setup, select one or more tasks, and then select **Disassociate quote lines**.</span></span>
+4. <span data-ttu-id="dbf55-152">Στη σελίδα παραθύρου διαλόγου που εμφανίζεται, επιλέξτε μια γραμμή προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="dbf55-152">In the dialog page that appears, select a quote line.</span></span>
+5. <span data-ttu-id="dbf55-153">Επιλέξτε το πλαίσιο ελέγχου για να υποδείξετε εάν ο συσχετισμός θα πρέπει να καταργηθεί από θυγατρικές εργασίες για τις επιλεγμένες εργασίες.</span><span class="sxs-lookup"><span data-stu-id="dbf55-153">Select the check box to indicate whether the association should also be removed from child tasks of the selected tasks.</span></span> <span data-ttu-id="dbf55-154">Αν επιλέξετε το πλαίσιο θα γίνει κατάργηση του συσχετισμού των θυγατρικών εργασιών των επιλεγμένων εργασιών στη γραμμή προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="dbf55-154">Checking the box will also disassociate the child tasks of the selected tasks to the quote line.</span></span>
+6. <span data-ttu-id="dbf55-155">Επιλέξτε **OK**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-155">Select **OK**.</span></span> <span data-ttu-id="dbf55-156">Ένα μήνυμα προειδοποίησης σας ενημερώνει ότι εάν καταργήσετε αυτήν τη συσχέτιση, θα είναι δυνατή η αντιστροφή των πραγματικών στοιχείων που είχαν καταγραφεί προηγουμένως στην εργασία.</span><span class="sxs-lookup"><span data-stu-id="dbf55-156">A warning message informs you that if you remove this association, any actuals previously recorded on the task could be reversed.</span></span> 
+7. <span data-ttu-id="dbf55-157">Κάντε κλικ στο **OK** για να συνεχίσετε και να καταργήσετε τη συσχέτιση μεταξύ της εργασίας και της γραμμή προσφοράς βάσει έργου.</span><span class="sxs-lookup"><span data-stu-id="dbf55-157">Select **OK** to continue and remove the association between the task and the project-based quote line.</span></span>
+
+### <a name="from-the-quote-line-page"></a><span data-ttu-id="dbf55-158">Από τη σελίδα "γραμμή προσφοράς"</span><span class="sxs-lookup"><span data-stu-id="dbf55-158">From the Quote line page</span></span>
+
+<span data-ttu-id="dbf55-159">Μπορείτε να καταργήσετε τη συσχέτιση εργασιών έργου με γραμμές προσφοράς από την καρτέλα **Χρεώσιμες εργασίες** στη σελίδα **Γραμμή προσφοράς**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-159">You can also disassociate project tasks to quote lines from the **Chargeable tasks** tab on **Quote line** page.</span></span>
+
+1. <span data-ttu-id="dbf55-160">Στην καρτέλα **Χρεώσιμες εργασίες**, επιλέξτε **Διαγραφή εργασίας γραμμής προσφοράς**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-160">On the **Chargeable tasks** tab, select **Delete a quote line task**.</span></span>
+2. <span data-ttu-id="dbf55-161">Επιλέξτε **OK**.</span><span class="sxs-lookup"><span data-stu-id="dbf55-161">Select **OK**.</span></span> <span data-ttu-id="dbf55-162">Ένα μήνυμα προειδοποίησης σας ενημερώνει ότι εάν καταργήσετε αυτήν τη συσχέτιση, θα είναι δυνατή η αντιστροφή των πραγματικών στοιχείων που είχαν καταγραφεί προηγουμένως στην εργασία.</span><span class="sxs-lookup"><span data-stu-id="dbf55-162">A warning message informs you that if you remove this association, any actuals previously recorded on the task could be reversed.</span></span> 
+3. <span data-ttu-id="dbf55-163">Κάντε κλικ στο **OK** για να συνεχίσετε και να καταργήσετε τη συσχέτιση μεταξύ της εργασίας και της γραμμή προσφοράς βάσει έργου.</span><span class="sxs-lookup"><span data-stu-id="dbf55-163">Select **OK** to continue and remove the association between the task and the project-based quote line.</span></span>
+
+>[!NOTE]
+> <span data-ttu-id="dbf55-164">Αυτή η διαδικασία δεν διαγράφει την εργασία από το έργο.</span><span class="sxs-lookup"><span data-stu-id="dbf55-164">This procedure doesn't delete the task from the project.</span></span> <span data-ttu-id="dbf55-165">Καταργεί μόνο τη συσχέτιση εργασιών από τη γραμμή προσφοράς βάσει έργου.</span><span class="sxs-lookup"><span data-stu-id="dbf55-165">It only removes the task association from the project-based quote line.</span></span>
