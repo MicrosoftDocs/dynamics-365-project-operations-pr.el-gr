@@ -9,55 +9,55 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: f051d70f3dfe3b241dc0a206c0cdfda000f87c76
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896686"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076806"
 ---
-# <a name="set-up-expense-categories"></a>Ρύθμιση κατηγοριών εξόδων
+# <a name="set-up-expense-categories"></a><span data-ttu-id="4ccd9-103">Ρύθμιση κατηγοριών εξόδων</span><span class="sxs-lookup"><span data-stu-id="4ccd9-103">Set up expense categories</span></span>
 
-_**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
+<span data-ttu-id="4ccd9-104">_**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_</span><span class="sxs-lookup"><span data-stu-id="4ccd9-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-Όταν οι υπάλληλοι δημιουργούν αναφορές εξόδων, κάθε δαπάνη την οποία καταγράφουν πρέπει να συσχετίζεται με μια κατηγορία εξόδων. Οι κατηγορίες δαπανών προέρχονται από κοινόχρηστες κατηγορίες, οι οποίες είναι δυνατό να χρησιμοποιηθούν από κοινού σε όλες τις νομικές οντότητες του οργανισμού σας. Ανάλογα με τον τρόπο με τον οποίο καθορίζεται ο οργανισμός σας, αυτές οι κατηγορίες δαπανών μπορούν επίσης να χρησιμοποιηθούν από κοινού σε άλλες περιοχές. Με βάση τον ορισμό του οργανισμού σας και την καθοδήγησή σας από την ομάδα υλοποίησης, πρέπει να καθορίσετε εάν οι κατηγορίες που χρησιμοποιούνται στη διαχείριση δαπανών θα χρησιμοποιηθούν μόνο στη διαχείριση εξόδων ή θα πρέπει να είναι κοινόχρηστες σε άλλες περιοχές.
+<span data-ttu-id="4ccd9-105">Όταν οι υπάλληλοι δημιουργούν αναφορές εξόδων, κάθε δαπάνη την οποία καταγράφουν πρέπει να συσχετίζεται με μια κατηγορία εξόδων.</span><span class="sxs-lookup"><span data-stu-id="4ccd9-105">When employees create expense reports, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="4ccd9-106">Οι κατηγορίες δαπανών προέρχονται από κοινόχρηστες κατηγορίες, οι οποίες είναι δυνατό να χρησιμοποιηθούν από κοινού σε όλες τις νομικές οντότητες του οργανισμού σας.</span><span class="sxs-lookup"><span data-stu-id="4ccd9-106">Expense categories are derived from shared categories that can be shared across the legal entities in your organization.</span></span> <span data-ttu-id="4ccd9-107">Ανάλογα με τον τρόπο με τον οποίο καθορίζεται ο οργανισμός σας, αυτές οι κατηγορίες δαπανών μπορούν επίσης να χρησιμοποιηθούν από κοινού σε άλλες περιοχές.</span><span class="sxs-lookup"><span data-stu-id="4ccd9-107">Depending on how your organization is defined, these expense categories can also be shared in other areas.</span></span> <span data-ttu-id="4ccd9-108">Με βάση τον ορισμό του οργανισμού σας και την καθοδήγησή σας από την ομάδα υλοποίησης, πρέπει να καθορίσετε εάν οι κατηγορίες που χρησιμοποιούνται στη διαχείριση δαπανών θα χρησιμοποιηθούν μόνο στη διαχείριση εξόδων ή θα πρέπει να είναι κοινόχρηστες σε άλλες περιοχές.</span><span class="sxs-lookup"><span data-stu-id="4ccd9-108">Based on the definition of your organization and guidance from the implementation team, you must determine whether the categories that are used in Expense management will be used only in Expense management or should be shared in other areas.</span></span>
 
 > [!NOTE]
-> Αυτές οι κατηγορίες είναι δυνατό να κατανεμηθούν μεταξύ της διαχείρισης έργου και της λογιστικής και της διαχείρισης εξόδων ή μεταξύ διαχείρισης έργου και λογιστικής και παραγωγής. Ωστόσο, δεν είναι δυνατή η κοινή χρήση τους μεταξύ διαχείρισης εξόδων και παραγωγής.
+> <span data-ttu-id="4ccd9-109">Αυτές οι κατηγορίες είναι δυνατό να κατανεμηθούν μεταξύ της διαχείρισης έργου και της λογιστικής και της διαχείρισης εξόδων ή μεταξύ διαχείρισης έργου και λογιστικής και παραγωγής.</span><span class="sxs-lookup"><span data-stu-id="4ccd9-109">These categories can be shared between Project management and accounting and Expense management, or between Project management and accounting and Production.</span></span> <span data-ttu-id="4ccd9-110">Ωστόσο, δεν είναι δυνατή η κοινή χρήση τους μεταξύ διαχείρισης εξόδων και παραγωγής.</span><span class="sxs-lookup"><span data-stu-id="4ccd9-110">However, they can't be shared between Expense management and Production.</span></span>
 
-Για να μπορέσετε να ξεκινήσετε τη διαδικασία εγκατάστασης, θα πρέπει να λάβετε τις παρακάτω αποφάσεις για κάθε κατηγορία εξόδων:
+<span data-ttu-id="4ccd9-111">Για να μπορέσετε να ξεκινήσετε τη διαδικασία εγκατάστασης, θα πρέπει να λάβετε τις παρακάτω αποφάσεις για κάθε κατηγορία εξόδων:</span><span class="sxs-lookup"><span data-stu-id="4ccd9-111">Before you can begin the setup process, the following decisions must be made for each expense category:</span></span>
 
-- Ποια είναι η κατηγορία εξόδων; Τα παραδείγματα περιλαμβάνουν κατηγορίες για πτήσεις, ξενοδοχεία ή χιλιόμετρα.
-- Μπορεί η κατηγορία εξόδων να χρησιμοποιηθεί και στη διαχείριση έργου και στη λογιστική; Αν μπορεί, πρέπει να έχετε αποφασίσει για τα εξής:
+- <span data-ttu-id="4ccd9-112">Ποια είναι η κατηγορία εξόδων;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-112">What is the expense category?</span></span> <span data-ttu-id="4ccd9-113">Τα παραδείγματα περιλαμβάνουν κατηγορίες για πτήσεις, ξενοδοχεία ή χιλιόμετρα.</span><span class="sxs-lookup"><span data-stu-id="4ccd9-113">Examples include categories for flights, hotel, or mileage.</span></span>
+- <span data-ttu-id="4ccd9-114">Μπορεί η κατηγορία εξόδων να χρησιμοποιηθεί και στη διαχείριση έργου και στη λογιστική;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-114">Can the expense category also be used in Project management and accounting?</span></span> <span data-ttu-id="4ccd9-115">Αν μπορεί, πρέπει να έχετε αποφασίσει για τα εξής:</span><span class="sxs-lookup"><span data-stu-id="4ccd9-115">If it can, you must also make the following decisions:</span></span>
 
-    - Ποιοι λογαριασμοί κόστους θα χρησιμοποιηθούν για τις ακόλουθες δαπάνες;
+    - <span data-ttu-id="4ccd9-116">Ποιοι λογαριασμοί κόστους θα χρησιμοποιηθούν για τις ακόλουθες δαπάνες;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-116">Which cost accounts will be used for the following expenses?</span></span>
 
-        - Κόστος
-        - Εκχώρηση μισθοδοσίας
-        - WIP-τιμή κόστους
-        - Κόστος-στοιχείο
-        - WIP-τιμή κόστους-στοιχείο
-        - Συσσωρευμένη απώλεια
-        - WIP-συσσωρευμένη απώλεια
+        - <span data-ttu-id="4ccd9-117">Κόστος</span><span class="sxs-lookup"><span data-stu-id="4ccd9-117">Cost</span></span>
+        - <span data-ttu-id="4ccd9-118">Εκχώρηση μισθοδοσίας</span><span class="sxs-lookup"><span data-stu-id="4ccd9-118">Payroll allocation</span></span>
+        - <span data-ttu-id="4ccd9-119">WIP-τιμή κόστους</span><span class="sxs-lookup"><span data-stu-id="4ccd9-119">WIP-cost value</span></span>
+        - <span data-ttu-id="4ccd9-120">Κόστος-στοιχείο</span><span class="sxs-lookup"><span data-stu-id="4ccd9-120">Cost-item</span></span>
+        - <span data-ttu-id="4ccd9-121">WIP-τιμή κόστους-στοιχείο</span><span class="sxs-lookup"><span data-stu-id="4ccd9-121">WIP-cost value-item</span></span>
+        - <span data-ttu-id="4ccd9-122">Συσσωρευμένη απώλεια</span><span class="sxs-lookup"><span data-stu-id="4ccd9-122">Accrued loss</span></span>
+        - <span data-ttu-id="4ccd9-123">WIP-συσσωρευμένη απώλεια</span><span class="sxs-lookup"><span data-stu-id="4ccd9-123">WIP-accrued loss</span></span>
 
-    - Ποιοι λογαριασμοί εσόδων θα χρησιμοποιηθούν για τις ακόλουθες πηγές εσόδων;
+    - <span data-ttu-id="4ccd9-124">Ποιοι λογαριασμοί εσόδων θα χρησιμοποιηθούν για τις ακόλουθες πηγές εσόδων;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-124">Which revenue accounts will be used for the following sources of revenue?</span></span>
 
-        - Τιμολογημένα έσοδα
-        - Συσσωρευμένα έσοδα - τιμή πωλήσεων
-        - WIP-τιμή πωλήσεων
-        - Συσσωρευμένα έσοδα-παραγωγή
-        - WIP-παραγωγή
-        - Συσσωρευμένα έσοδα-κέρδος
-        - WIP-κέρδος
-        - Συσσωρευμένα έσοδα-συνδρομή
-        - WIP-συνδρομή
+        - <span data-ttu-id="4ccd9-125">Τιμολογημένα έσοδα</span><span class="sxs-lookup"><span data-stu-id="4ccd9-125">Invoiced revenue</span></span>
+        - <span data-ttu-id="4ccd9-126">Συσσωρευμένα έσοδα - τιμή πωλήσεων</span><span class="sxs-lookup"><span data-stu-id="4ccd9-126">Accrued revenue-sales value</span></span>
+        - <span data-ttu-id="4ccd9-127">WIP-τιμή πωλήσεων</span><span class="sxs-lookup"><span data-stu-id="4ccd9-127">WIP-sales value</span></span>
+        - <span data-ttu-id="4ccd9-128">Συσσωρευμένα έσοδα-παραγωγή</span><span class="sxs-lookup"><span data-stu-id="4ccd9-128">Accrued revenue-production</span></span>
+        - <span data-ttu-id="4ccd9-129">WIP-παραγωγή</span><span class="sxs-lookup"><span data-stu-id="4ccd9-129">WIP-production</span></span>
+        - <span data-ttu-id="4ccd9-130">Συσσωρευμένα έσοδα-κέρδος</span><span class="sxs-lookup"><span data-stu-id="4ccd9-130">Accrued revenue-profit</span></span>
+        - <span data-ttu-id="4ccd9-131">WIP-κέρδος</span><span class="sxs-lookup"><span data-stu-id="4ccd9-131">WIP-profit</span></span>
+        - <span data-ttu-id="4ccd9-132">Συσσωρευμένα έσοδα-συνδρομή</span><span class="sxs-lookup"><span data-stu-id="4ccd9-132">Accrued revenue-subscription</span></span>
+        - <span data-ttu-id="4ccd9-133">WIP-συνδρομή</span><span class="sxs-lookup"><span data-stu-id="4ccd9-133">WIP-subscription</span></span>
 
-- Ποιος είναι ο τύπος εξόδων;
-- Ποια είναι η προεπιλεγμένη μέθοδος πληρωμής για την κατηγορία εξόδων;
-- Οι δαπάνες στην κατηγορία εξόδων πρέπει να είναι αναλυτικές;
-- Ποιος είναι ο κύριος προεπιλεγμένος λογαριασμός για την κατηγορία εξόδων;
-- Ποια είναι η προεπιλεγμένη ομάδα φόρου πωλήσεων είδους για την κατηγορία εξόδων;
-- Επιτρέπονται επιπλέον μέθοδοι πληρωμής για την κατηγορία εξόδων; Εάν ναι, ποιες είναι αυτές;
-- Υπάρχουν υποκατηγορίες σε αυτήν την κατηγορία εξόδων; Αν υπάρχουν υποκατηγορίες, πρέπει να έχετε αποφασίσει για τα εξής:
+- <span data-ttu-id="4ccd9-134">Ποιος είναι ο τύπος εξόδων;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-134">What is the expense type?</span></span>
+- <span data-ttu-id="4ccd9-135">Ποια είναι η προεπιλεγμένη μέθοδος πληρωμής για την κατηγορία εξόδων;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-135">What is the default payment method for the expense category?</span></span>
+- <span data-ttu-id="4ccd9-136">Οι δαπάνες στην κατηγορία εξόδων πρέπει να είναι αναλυτικές;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-136">Do expenses in the expense category have to be itemized?</span></span>
+- <span data-ttu-id="4ccd9-137">Ποιος είναι ο κύριος προεπιλεγμένος λογαριασμός για την κατηγορία εξόδων;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-137">What is the main default account for the expense category?</span></span>
+- <span data-ttu-id="4ccd9-138">Ποια είναι η προεπιλεγμένη ομάδα φόρου πωλήσεων είδους για την κατηγορία εξόδων;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-138">What is the default item sales tax group for the expense category?</span></span>
+- <span data-ttu-id="4ccd9-139">Επιτρέπονται επιπλέον μέθοδοι πληρωμής για την κατηγορία εξόδων;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-139">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="4ccd9-140">Εάν ναι, ποιες είναι αυτές;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-140">If so, what are they?</span></span>
+- <span data-ttu-id="4ccd9-141">Υπάρχουν υποκατηγορίες σε αυτήν την κατηγορία εξόδων;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-141">Are there subcategories in this expense category?</span></span> <span data-ttu-id="4ccd9-142">Αν υπάρχουν υποκατηγορίες, πρέπει να έχετε αποφασίσει για τα εξής:</span><span class="sxs-lookup"><span data-stu-id="4ccd9-142">If there are subcategories, you must also make the following decisions:</span></span>
 
-    - Αποκλείεται καμία από τις υποκατηγορίες από την είσπραξη φόρων;
-    - Ποια είναι η ομάδα φόρου πωλήσεων ειδών στις υποκατηγορίες;
+    - <span data-ttu-id="4ccd9-143">Αποκλείεται καμία από τις υποκατηγορίες από την είσπραξη φόρων;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-143">Are any of the subcategories excluded from tax recovery?</span></span>
+    - <span data-ttu-id="4ccd9-144">Ποια είναι η ομάδα φόρου πωλήσεων ειδών στις υποκατηγορίες;</span><span class="sxs-lookup"><span data-stu-id="4ccd9-144">What is the item sales tax group of the subcategories?</span></span>

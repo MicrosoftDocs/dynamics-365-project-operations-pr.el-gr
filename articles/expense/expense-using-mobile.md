@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,224 +15,224 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897046"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076918"
 ---
-# <a name="expense-using-mobile"></a>Έξοδο με χρήση κινητής τηλεφωνίας
+# <a name="expense-using-mobile"></a><span data-ttu-id="355dc-103">Έξοδο με χρήση κινητής τηλεφωνίας</span><span class="sxs-lookup"><span data-stu-id="355dc-103">Expense using mobile</span></span>
 
-_**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
+<span data-ttu-id="355dc-104">_**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_</span><span class="sxs-lookup"><span data-stu-id="355dc-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον χώρο εργασίας κινητών συσκευών **Διαχείρισης εξόδων**. Αυτός ο χώρος εργασίας επιτρέπει στους χρήστες την καταγραφή και την αποστολή μιας απόδειξης, έτσι ώστε να μπορούν να την επισυνάψουν σε μια αναφορά εξόδων αργότερα. Οι χρήστες μπορούν επίσης να δημιουργήσουν γρήγορα μια γραμμή εξόδων χρησιμοποιώντας μια συνημμένη απόδειξη και να δημιουργήσουν και να διαχειριστούν τις αναφορές εξόδων τους. Επιπλέον, οι υπεύθυνοι έγκρισης μπορούν να χρησιμοποιήσουν τον χώρο εργασίας για κινητές συσκευές **Διαχείριση εξόδων** για να προβάλουν αναφορές εξόδων που τους έχουν ανατεθεί και, είτε να εγκρίνουν, είτε να απορρίπτουν αυτές τις αναφορές εξόδων.
+<span data-ttu-id="355dc-105">Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον χώρο εργασίας κινητών συσκευών **Διαχείρισης εξόδων**.</span><span class="sxs-lookup"><span data-stu-id="355dc-105">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="355dc-106">Αυτός ο χώρος εργασίας επιτρέπει στους χρήστες την καταγραφή και την αποστολή μιας απόδειξης, έτσι ώστε να μπορούν να την επισυνάψουν σε μια αναφορά εξόδων αργότερα.</span><span class="sxs-lookup"><span data-stu-id="355dc-106">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="355dc-107">Οι χρήστες μπορούν επίσης να δημιουργήσουν γρήγορα μια γραμμή εξόδων χρησιμοποιώντας μια συνημμένη απόδειξη και να δημιουργήσουν και να διαχειριστούν τις αναφορές εξόδων τους.</span><span class="sxs-lookup"><span data-stu-id="355dc-107">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="355dc-108">Επιπλέον, οι υπεύθυνοι έγκρισης μπορούν να χρησιμοποιήσουν τον χώρο εργασίας για κινητές συσκευές **Διαχείριση εξόδων** για να προβάλουν αναφορές εξόδων που τους έχουν ανατεθεί και, είτε να εγκρίνουν, είτε να απορρίπτουν αυτές τις αναφορές εξόδων.</span><span class="sxs-lookup"><span data-stu-id="355dc-108">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
-Αυτός ο χώρος εργασίας κινητών συσκευών προορίζεται για χρήση μαζί με την εφαρμογή Dynamics 365 Unified Ops για κινητές συσκευές.
+<span data-ttu-id="355dc-109">Αυτός ο χώρος εργασίας κινητών συσκευών προορίζεται για χρήση μαζί με την εφαρμογή Dynamics 365 Unified Ops για κινητές συσκευές.</span><span class="sxs-lookup"><span data-stu-id="355dc-109">This mobile workspace is intended to be used with the Dynamics 365 Unified Ops mobile app.</span></span>
 
-Πολλοί οργανισμοί απαιτούν να επισυνάπτεται αντίγραφο μιας απόδειξης σε μια αναφορά εξόδων που σχετίζεται με ταξίδι ή την εργασία, την οποία ο εργαζόμενος υποβάλλει για επιστροφή. Ο χώρος εργασίας για κινητές συσκευές **Διαχείρισης εξόδων** δίνει τη δυνατότητα στους χρήστες να δημιουργήσουν γρήγορα νέες γραμμές εξόδων στη φορητή συσκευή της επιλογής τους, χρησιμοποιώντας μια συνημμένη φωτογραφία μιας απόδειξης. Εναλλακτικά, οι χρήστες μπορούν να καταγράψουν μια φωτογραφία μιας απόδειξης και, στη συνέχεια, να την επισυνάψουν σε μια αναφορά εξόδων αργότερα. Οι υπάλληλοι μπορούν επίσης να δημιουργήσουν και να διαχειριστούν τις αναφορές εξόδων τους και, στη συνέχεια, να τις υποβάλουν για έγκριση και καταβολή, χρησιμοποιώντας την κινητή συσκευή τους.
+<span data-ttu-id="355dc-110">Πολλοί οργανισμοί απαιτούν να επισυνάπτεται αντίγραφο μιας απόδειξης σε μια αναφορά εξόδων που σχετίζεται με ταξίδι ή την εργασία, την οποία ο εργαζόμενος υποβάλλει για επιστροφή.</span><span class="sxs-lookup"><span data-stu-id="355dc-110">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="355dc-111">Ο χώρος εργασίας για κινητές συσκευές **Διαχείρισης εξόδων** δίνει τη δυνατότητα στους χρήστες να δημιουργήσουν γρήγορα νέες γραμμές εξόδων στη φορητή συσκευή της επιλογής τους, χρησιμοποιώντας μια συνημμένη φωτογραφία μιας απόδειξης.</span><span class="sxs-lookup"><span data-stu-id="355dc-111">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="355dc-112">Εναλλακτικά, οι χρήστες μπορούν να καταγράψουν μια φωτογραφία μιας απόδειξης και, στη συνέχεια, να την επισυνάψουν σε μια αναφορά εξόδων αργότερα.</span><span class="sxs-lookup"><span data-stu-id="355dc-112">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="355dc-113">Οι υπάλληλοι μπορούν επίσης να δημιουργήσουν και να διαχειριστούν τις αναφορές εξόδων τους και, στη συνέχεια, να τις υποβάλουν για έγκριση και καταβολή, χρησιμοποιώντας την κινητή συσκευή τους.</span><span class="sxs-lookup"><span data-stu-id="355dc-113">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
-Συγκεκριμένα, ο χώρος εργασίας για κινητές συσκευές **Διαχείρισης εξόδων** δίνει τη δυνατότητα στους χρήστες να εκτελούν αυτές τις εργασίες:
+<span data-ttu-id="355dc-114">Συγκεκριμένα, ο χώρος εργασίας για κινητές συσκευές **Διαχείρισης εξόδων** δίνει τη δυνατότητα στους χρήστες να εκτελούν αυτές τις εργασίες:</span><span class="sxs-lookup"><span data-stu-id="355dc-114">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Λήψη φωτογραφίας μιας απόδειξης. Αποστολή της φωτογραφίας της απόδειξης και επισύναψη σε μια αναφορά εξόδων αργότερα.
-- Αποστολή αρχείου ως καταγεγραμμένη απόδειξη. Στη συνέχεια, μπορείτε να επισυνάψετε αυτό το αρχείο σε μια αναφορά εξόδων αργότερα.
-- Δημιουργία μια νέας γραμμής εξόδων χρησιμοποιώντας μια συνημμένη απόδειξη. Στη συνέχεια, μπορείτε να προσθέσετε το στοιχείο γραμμής σε μια αναφορά εξόδων αργότερα και να το υποβάλετε για έγκριση και επιστροφή.
+- <span data-ttu-id="355dc-115">Λήψη φωτογραφίας μιας απόδειξης.</span><span class="sxs-lookup"><span data-stu-id="355dc-115">Take a photo of a receipt.</span></span> <span data-ttu-id="355dc-116">Αποστολή της φωτογραφίας της απόδειξης και επισύναψη σε μια αναφορά εξόδων αργότερα.</span><span class="sxs-lookup"><span data-stu-id="355dc-116">Upload the receipt photo and attach it to an expense report later.</span></span>
+- <span data-ttu-id="355dc-117">Αποστολή αρχείου ως καταγεγραμμένη απόδειξη.</span><span class="sxs-lookup"><span data-stu-id="355dc-117">Upload a file as a captured receipt.</span></span> <span data-ttu-id="355dc-118">Στη συνέχεια, μπορείτε να επισυνάψετε αυτό το αρχείο σε μια αναφορά εξόδων αργότερα.</span><span class="sxs-lookup"><span data-stu-id="355dc-118">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="355dc-119">Δημιουργία μια νέας γραμμής εξόδων χρησιμοποιώντας μια συνημμένη απόδειξη.</span><span class="sxs-lookup"><span data-stu-id="355dc-119">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="355dc-120">Στη συνέχεια, μπορείτε να προσθέσετε το στοιχείο γραμμής σε μια αναφορά εξόδων αργότερα και να το υποβάλετε για έγκριση και επιστροφή.</span><span class="sxs-lookup"><span data-stu-id="355dc-120">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-Μπορείτε επίσης να χρησιμοποιήσετε αυτές τις δυνατότητες:
+<span data-ttu-id="355dc-121">Μπορείτε επίσης να χρησιμοποιήσετε αυτές τις δυνατότητες:</span><span class="sxs-lookup"><span data-stu-id="355dc-121">You can also use these features:</span></span>
 
-- Δημιουργία μιας νέας αναφοράς εξόδων.
-- Επισύναψη συναλλαγών με πιστωτική κάρτα και άλλων εξόδων που έχουν ήδη δημιουργηθεί προηγουμένως σε μια αναφορά εξόδων.
-- Δημιουργία νέων εξόδων για μια αναφορά εξόδων.
-- Επισύναψη μιας απόδειξης σε οποιοδήποτε έξοδο για μια αναφορά εξόδων, είτε με τη λήψη μιας φωτογραφίας της απόδειξης είτε με την αποστολή ενός αρχείου ως απόδειξη που έχει καταγραφεί.
-- Ανάλογα με την πολιτική εξόδων της εταιρείας, προσθέτετε τη λίστα των επισκεπτών σε ένα έξοδο.
-- Ανάλογα με την πολιτική εξόδων της εταιρείας, επιμερίζετε τα έξοδα.
-- Υποβάλετε μια αναφορά εξόδων για έγκριση και πληρωμή.
-- Εγκρίνετε ή να απορρίπτετε αναφορές εξόδων για τις οποίες σας έχει ανατεθεί υπεύθυνος έγκρισης.
+- <span data-ttu-id="355dc-122">Δημιουργία μιας νέας αναφοράς εξόδων.</span><span class="sxs-lookup"><span data-stu-id="355dc-122">Create a new expense report.</span></span>
+- <span data-ttu-id="355dc-123">Επισύναψη συναλλαγών με πιστωτική κάρτα και άλλων εξόδων που έχουν ήδη δημιουργηθεί προηγουμένως σε μια αναφορά εξόδων.</span><span class="sxs-lookup"><span data-stu-id="355dc-123">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="355dc-124">Δημιουργία νέων εξόδων για μια αναφορά εξόδων.</span><span class="sxs-lookup"><span data-stu-id="355dc-124">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="355dc-125">Επισύναψη μιας απόδειξης σε οποιοδήποτε έξοδο για μια αναφορά εξόδων, είτε με τη λήψη μιας φωτογραφίας της απόδειξης είτε με την αποστολή ενός αρχείου ως απόδειξη που έχει καταγραφεί.</span><span class="sxs-lookup"><span data-stu-id="355dc-125">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="355dc-126">Ανάλογα με την πολιτική εξόδων της εταιρείας, προσθέτετε τη λίστα των επισκεπτών σε ένα έξοδο.</span><span class="sxs-lookup"><span data-stu-id="355dc-126">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="355dc-127">Ανάλογα με την πολιτική εξόδων της εταιρείας, επιμερίζετε τα έξοδα.</span><span class="sxs-lookup"><span data-stu-id="355dc-127">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="355dc-128">Υποβάλετε μια αναφορά εξόδων για έγκριση και πληρωμή.</span><span class="sxs-lookup"><span data-stu-id="355dc-128">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="355dc-129">Εγκρίνετε ή να απορρίπτετε αναφορές εξόδων για τις οποίες σας έχει ανατεθεί υπεύθυνος έγκρισης.</span><span class="sxs-lookup"><span data-stu-id="355dc-129">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Προαπαιτούμενα στοιχεία
-Οι προϋποθέσεις ποικίλλουν, με βάση την έκδοση που έχει αναπτυχθεί για τον οργανισμό σας.
+## <a name="prerequisites"></a><span data-ttu-id="355dc-130">Προαπαιτούμενα στοιχεία</span><span class="sxs-lookup"><span data-stu-id="355dc-130">Prerequisites</span></span>
+<span data-ttu-id="355dc-131">Οι προϋποθέσεις ποικίλλουν, με βάση την έκδοση που έχει αναπτυχθεί για τον οργανισμό σας.</span><span class="sxs-lookup"><span data-stu-id="355dc-131">The prerequisites vary, based on the version that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Προϋποθέσεις εάν χρησιμοποιείτε το Dynamics 365 Finance 
-Εάν το Finance έχει αναπτυχθεί για τον οργανισμό σας, ο διαχειριστής συστήματος πρέπει να δημοσιεύσει τον χώρο εργασίας για κινητές συσκευές **Διαχείριση εξόδων**. 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a><span data-ttu-id="355dc-132">Προϋποθέσεις εάν χρησιμοποιείτε το Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="355dc-132">Prerequisites if you use Dynamics 365 Finance</span></span> 
+<span data-ttu-id="355dc-133">Εάν το Finance έχει αναπτυχθεί για τον οργανισμό σας, ο διαχειριστής συστήματος πρέπει να δημοσιεύσει τον χώρο εργασίας για κινητές συσκευές **Διαχείριση εξόδων**.</span><span class="sxs-lookup"><span data-stu-id="355dc-133">If Finance has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> 
 
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Προϋποθέσεις εάν χρησιμοποιείτε την έκδοση 1611 με την ενημέρωση πλατφόρμας 3 ή νεότερη έκδοση
-Εάν έχει αναπτυχθεί η έκδοση 1611 με την ενημέρωση πλατφόρμας 3 ή μεταγενέστερη για τον οργανισμό σας, ο διαχειριστής του συστήματος πρέπει να τηρήσει τις ακόλουθες προϋποθέσεις. 
+### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="355dc-134">Προϋποθέσεις εάν χρησιμοποιείτε την έκδοση 1611 με την ενημέρωση πλατφόρμας 3 ή νεότερη έκδοση</span><span class="sxs-lookup"><span data-stu-id="355dc-134">Prerequisites if you use version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="355dc-135">Εάν έχει αναπτυχθεί η έκδοση 1611 με την ενημέρωση πλατφόρμας 3 ή μεταγενέστερη για τον οργανισμό σας, ο διαχειριστής του συστήματος πρέπει να τηρήσει τις ακόλουθες προϋποθέσεις.</span><span class="sxs-lookup"><span data-stu-id="355dc-135">If version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Προαπαιτούμενα στοιχεία</th>
-<th>Ρόλος</th>
-<th>Περιγραφή</th>
+<th><span data-ttu-id="355dc-136">Προαπαιτούμενα στοιχεία</span><span class="sxs-lookup"><span data-stu-id="355dc-136">Prerequisite</span></span></th>
+<th><span data-ttu-id="355dc-137">Ρόλος</span><span class="sxs-lookup"><span data-stu-id="355dc-137">Role</span></span></th>
+<th><span data-ttu-id="355dc-138">Περιγραφή</span><span class="sxs-lookup"><span data-stu-id="355dc-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Εφαρμογή KB 4019015.</td>
-<td>Διαχειριστής συστήματος</td>
-<td>Το KB 4019015 είναι μια X++ ενημέρωση και επιδιόρθωση μεταδεδομένων που περιέχει τον χώρο εργασίας κινητών συσκευών <strong>Διαχείριση εξόδων</strong>. Για την εφαρμογή του KB 4019015, ο διαχειριστής του συστήματός σας πρέπει να ακολουθήσει τα παρακάτω βήματα.
+<td><span data-ttu-id="355dc-139">Εφαρμογή KB 4019015.</span><span class="sxs-lookup"><span data-stu-id="355dc-139">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="355dc-140">Διαχειριστής συστήματος</span><span class="sxs-lookup"><span data-stu-id="355dc-140">System administrator</span></span></td>
+<td><span data-ttu-id="355dc-141">Το KB 4019015 είναι μια X++ ενημέρωση και επιδιόρθωση μεταδεδομένων που περιέχει τον χώρο εργασίας κινητών συσκευών <strong>Διαχείριση εξόδων</strong>.</span><span class="sxs-lookup"><span data-stu-id="355dc-141">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="355dc-142">Για την εφαρμογή του KB 4019015, ο διαχειριστής του συστήματός σας πρέπει να ακολουθήσει τα παρακάτω βήματα.</span><span class="sxs-lookup"><span data-stu-id="355dc-142">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Λήψη ενημερώσεων από Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Εγκαταστήστε την επιδιόρθωση μεταδεδομένων </a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Δημιουργήστε ένα πακέτο με δυνατότητα ανάπτυξης</a> που περιέχει τα μοντέλα <strong>ApplicationSuite</strong> και <strong>ExpenseMobile</strong> και, στη συνέχεια, φορτώστε το πακέτο που έχει αναπτυχθεί σε LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Εφαρμόστε το πακέτο με δυνατότητα ανάπτυξης</a>.</li>
+<li><span data-ttu-id="355dc-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Λήψη ενημερώσεων από Lifecycle Services</a>.</span><span class="sxs-lookup"><span data-stu-id="355dc-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Download updates from Lifecycle Services</a>.</span></span></li>
+<li><span data-ttu-id="355dc-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Εγκαταστήστε την επιδιόρθωση μεταδεδομένων </a>.</span><span class="sxs-lookup"><span data-stu-id="355dc-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="355dc-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Δημιουργήστε ένα πακέτο με δυνατότητα ανάπτυξης</a> που περιέχει τα μοντέλα <strong>ApplicationSuite</strong> και <strong>ExpenseMobile</strong> και, στη συνέχεια, φορτώστε το πακέτο που έχει αναπτυχθεί σε LCS.</span><span class="sxs-lookup"><span data-stu-id="355dc-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="355dc-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Εφαρμόστε το πακέτο με δυνατότητα ανάπτυξης</a>.</span><span class="sxs-lookup"><span data-stu-id="355dc-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Δημοσιεύστε το χώρο εργασίας για κινητές συσκευές <strong>Διαχείριση εξόδων</strong>.</td>
-<td>Διαχειριστής συστήματος</td>
-<td>Δείτε <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Δημοσίευση χώρου εργασίας κινητών συσκευών</a>.</td>
+<td><span data-ttu-id="355dc-147">Δημοσιεύστε το χώρο εργασίας για κινητές συσκευές <strong>Διαχείριση εξόδων</strong>.</span><span class="sxs-lookup"><span data-stu-id="355dc-147">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="355dc-148">Διαχειριστής συστήματος</span><span class="sxs-lookup"><span data-stu-id="355dc-148">System administrator</span></span></td>
+<td><span data-ttu-id="355dc-149">Δείτε <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Δημοσίευση χώρου εργασίας κινητών συσκευών</a>.</span><span class="sxs-lookup"><span data-stu-id="355dc-149">See <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Λήψη και εγκατάσταση της εφαρμογής Dynamics 365 Unified Ops για κινητές συσκευές
-Λήψη και εγκατάσταση της εφαρμογής Dynamics 365 Unified Ops για κινητές συσκευές:
+## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a><span data-ttu-id="355dc-150">Λήψη και εγκατάσταση της εφαρμογής Dynamics 365 Unified Ops για κινητές συσκευές</span><span class="sxs-lookup"><span data-stu-id="355dc-150">Download and install the Dynamics 365 Unified Ops mobile app</span></span>
+<span data-ttu-id="355dc-151">Λήψη και εγκατάσταση της εφαρμογής Dynamics 365 Unified Ops για κινητές συσκευές:</span><span class="sxs-lookup"><span data-stu-id="355dc-151">Download and install the Dynamics 365 Unified Ops mobile app:</span></span>
 
-- [Για τηλέφωνα Android](https://go.microsoft.com/fwlink/?linkid=850662)
-- [Για iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="355dc-152">Για τηλέφωνα Android</span><span class="sxs-lookup"><span data-stu-id="355dc-152">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="355dc-153">Για iPhones</span><span class="sxs-lookup"><span data-stu-id="355dc-153">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Συνδεθείτε στην εφαρμογή για κινητές συσκευές
-1. Ανοίξτε την εφαρμογή για κινητές συσκευές.
-2. Καταχωρίστε τη διεύθυνση URL του Dynamics 365.
-4. Την πρώτη φορά που θα συνδεθείτε, θα σας ζητηθεί το όνομα χρήστη και ο κωδικός πρόσβασής σας. Εισαγάγετε τα διαπιστευτήρια σας.
-5. Αφού συνδεθείτε, εμφανίζονται οι διαθέσιμοι χώροι εργασίας για την εταιρεία σας. Εάν ο διαχειριστής του συστήματός σας δημοσιεύσει έναν νέο χώρο εργασίας αργότερα, θα πρέπει να ανανεώσετε τη λίστα των χώρων εργασίας κινητών συσκευών.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="355dc-154">Συνδεθείτε στην εφαρμογή για κινητές συσκευές</span><span class="sxs-lookup"><span data-stu-id="355dc-154">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="355dc-155">Ανοίξτε την εφαρμογή για κινητές συσκευές.</span><span class="sxs-lookup"><span data-stu-id="355dc-155">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="355dc-156">Καταχωρίστε τη διεύθυνση URL του Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="355dc-156">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="355dc-157">Την πρώτη φορά που θα συνδεθείτε, θα σας ζητηθεί το όνομα χρήστη και ο κωδικός πρόσβασής σας.</span><span class="sxs-lookup"><span data-stu-id="355dc-157">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="355dc-158">Εισαγάγετε τα διαπιστευτήρια σας.</span><span class="sxs-lookup"><span data-stu-id="355dc-158">Enter your credentials.</span></span>
+5. <span data-ttu-id="355dc-159">Αφού συνδεθείτε, εμφανίζονται οι διαθέσιμοι χώροι εργασίας για την εταιρεία σας.</span><span class="sxs-lookup"><span data-stu-id="355dc-159">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="355dc-160">Εάν ο διαχειριστής του συστήματός σας δημοσιεύσει έναν νέο χώρο εργασίας αργότερα, θα πρέπει να ανανεώσετε τη λίστα των χώρων εργασίας κινητών συσκευών.</span><span class="sxs-lookup"><span data-stu-id="355dc-160">If your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Κάντε καταγραφή μιας απόδειξης με χρήση του χώρο εργασίας κινητών συσκευών Διαχείρισης εξόδων
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="355dc-161">Κάντε καταγραφή μιας απόδειξης με χρήση του χώρο εργασίας κινητών συσκευών Διαχείρισης εξόδων</span><span class="sxs-lookup"><span data-stu-id="355dc-161">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. Στην κινητή συσκευή σας, ανοίξτε τον χώρο εργασίας **Διαχείριση εξόδων**.
-2. Επιλέξτε **Αποτύπωση απόδειξης**.
-3. Επιλέξτε **Λήψη φωτογραφίας** ή **Επιλογή εικόνας**.
-4. Ακολουθήστε ένα από αυτά τα βήματα:
+1. <span data-ttu-id="355dc-162">Στην κινητή συσκευή σας, ανοίξτε τον χώρο εργασίας **Διαχείριση εξόδων**.</span><span class="sxs-lookup"><span data-stu-id="355dc-162">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="355dc-163">Επιλέξτε **Αποτύπωση απόδειξης**.</span><span class="sxs-lookup"><span data-stu-id="355dc-163">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="355dc-164">Επιλέξτε **Λήψη φωτογραφίας** ή **Επιλογή εικόνας**.</span><span class="sxs-lookup"><span data-stu-id="355dc-164">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="355dc-165">Ακολουθήστε ένα από αυτά τα βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-165">Follow one of these steps:</span></span>
 
-   - Εάν επιλέξατε **Λήψη φωτογραφίας**, ακολουθήστε τα παρακάτω βήματα:
+   - <span data-ttu-id="355dc-166">Εάν επιλέξατε **Λήψη φωτογραφίας** , ακολουθήστε τα παρακάτω βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-166">If you selected **Take photo** , follow these steps:</span></span>
 
-      1. Μεταβαίνετε στην κάμερα στην κινητή συσκευή σας, ώστε να μπορέσετε να βγάλετε μια φωτογραφία της απόδειξης. 
-      2. Όταν ολοκληρώσετε τη λήψη της φωτογραφίας, επιλέξτε **OK** για να αποδεχτείτε τη φωτογραφία.
-      3. Προαιρετικό: εισαγάγετε ένα όνομα για τη φωτογραφία και καταχωρείτε τις σημειώσεις.
+      1. <span data-ttu-id="355dc-167">Μεταβαίνετε στην κάμερα στην κινητή συσκευή σας, ώστε να μπορέσετε να βγάλετε μια φωτογραφία της απόδειξης.</span><span class="sxs-lookup"><span data-stu-id="355dc-167">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> 
+      2. <span data-ttu-id="355dc-168">Όταν ολοκληρώσετε τη λήψη της φωτογραφίας, επιλέξτε **OK** για να αποδεχτείτε τη φωτογραφία.</span><span class="sxs-lookup"><span data-stu-id="355dc-168">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+      3. <span data-ttu-id="355dc-169">Προαιρετικό: εισαγάγετε ένα όνομα για τη φωτογραφία και καταχωρείτε τις σημειώσεις.</span><span class="sxs-lookup"><span data-stu-id="355dc-169">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - Εάν επιλέξατε **Επιλογή εικόνας**, ακολουθήστε τα παρακάτω βήματα:
+    - <span data-ttu-id="355dc-170">Εάν επιλέξατε **Επιλογή εικόνας** , ακολουθήστε τα παρακάτω βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-170">If you selected **Choose image** , follow these steps:</span></span>
 
-        1. Επιλέξτε μια εικόνα από τη λίστα.
-        2. Προαιρετικό: εισαγάγετε ένα όνομα για την εικόνα και καταχωρείτε τυχόν σημειώσεις.
+        1. <span data-ttu-id="355dc-171">Επιλέξτε μια εικόνα από τη λίστα.</span><span class="sxs-lookup"><span data-stu-id="355dc-171">Select an image in the list.</span></span>
+        2. <span data-ttu-id="355dc-172">Προαιρετικό: εισαγάγετε ένα όνομα για την εικόνα και καταχωρείτε τυχόν σημειώσεις.</span><span class="sxs-lookup"><span data-stu-id="355dc-172">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. Επιλέξτε **Τέλος**.
+5. <span data-ttu-id="355dc-173">Επιλέξτε **Τέλος**.</span><span class="sxs-lookup"><span data-stu-id="355dc-173">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Εισαγάγετε άμεσα τα έξοδα με χρήση του χώρο εργασίας κινητών συσκευών Διαχείρισης εξόδων
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="355dc-174">Εισαγάγετε άμεσα τα έξοδα με χρήση του χώρο εργασίας κινητών συσκευών Διαχείρισης εξόδων</span><span class="sxs-lookup"><span data-stu-id="355dc-174">Quickly enter expenses by using the Expense management mobile workspace</span></span>
 
-1. Στην κινητή συσκευή σας, ανοίξτε τον χώρο εργασίας **Διαχείριση εξόδων**.
-2. Επιλέξτε **Γρήγορη καταχώρηση εξόδων**.
-3. Επιλέξτε την κατηγορία εξόδων. Εμφανίζεται μια λίστα με κατηγορίες εξόδων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης. Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό. Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Εάν η κατηγορία σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση. Αναζητήστε με βάση την κατηγορία εξόδων ή μεταβείτε στην αναζήτηση με βάση τον τύπο εξόδων.
-4. Εισαγάγετε την ημερομηνία συναλλαγής του εξόδου.
-5. Προαιρετικό: καταχωρείστε τον έμπορο για το έξοδο.
-6. Εισαγάγετε το ποσό του εξόδου.
-7. Επιλέξτε τη νομισματική μονάδα του εξόδου. Εμφανίζεται μια λίστα με κωδικούς νομισματικών μονάδων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης. Από προεπιλογή, φορτώνονται 400 νομισματικές μονάδες αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό. Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Εάν η νομισματική μονάδα σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση. Αναζητήστε με βάση νομισματική μονάδα ή μεταβείτε στην αναζήτηση με βάση το όνομα.
-8. Επιλέξτε **Λήψη φωτογραφίας** ή **Επιλογή εικόνας**.
-9. Ακολουθήστε ένα από αυτά τα βήματα:
+1. <span data-ttu-id="355dc-175">Στην κινητή συσκευή σας, ανοίξτε τον χώρο εργασίας **Διαχείριση εξόδων**.</span><span class="sxs-lookup"><span data-stu-id="355dc-175">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="355dc-176">Επιλέξτε **Γρήγορη καταχώρηση εξόδων**.</span><span class="sxs-lookup"><span data-stu-id="355dc-176">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="355dc-177">Επιλέξτε την κατηγορία εξόδων.</span><span class="sxs-lookup"><span data-stu-id="355dc-177">Select the expense category.</span></span> <span data-ttu-id="355dc-178">Εμφανίζεται μια λίστα με κατηγορίες εξόδων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης.</span><span class="sxs-lookup"><span data-stu-id="355dc-178">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="355dc-179">Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό.</span><span class="sxs-lookup"><span data-stu-id="355dc-179">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="355dc-180">Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="355dc-180">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="355dc-181">Εάν η κατηγορία σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση.</span><span class="sxs-lookup"><span data-stu-id="355dc-181">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="355dc-182">Αναζητήστε με βάση την κατηγορία εξόδων ή μεταβείτε στην αναζήτηση με βάση τον τύπο εξόδων.</span><span class="sxs-lookup"><span data-stu-id="355dc-182">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="355dc-183">Εισαγάγετε την ημερομηνία συναλλαγής του εξόδου.</span><span class="sxs-lookup"><span data-stu-id="355dc-183">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="355dc-184">Προαιρετικό: καταχωρείστε τον έμπορο για το έξοδο.</span><span class="sxs-lookup"><span data-stu-id="355dc-184">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="355dc-185">Εισαγάγετε το ποσό του εξόδου.</span><span class="sxs-lookup"><span data-stu-id="355dc-185">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="355dc-186">Επιλέξτε τη νομισματική μονάδα του εξόδου.</span><span class="sxs-lookup"><span data-stu-id="355dc-186">Select the currency of the expense.</span></span> <span data-ttu-id="355dc-187">Εμφανίζεται μια λίστα με κωδικούς νομισματικών μονάδων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης.</span><span class="sxs-lookup"><span data-stu-id="355dc-187">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="355dc-188">Από προεπιλογή, φορτώνονται 400 νομισματικές μονάδες αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό.</span><span class="sxs-lookup"><span data-stu-id="355dc-188">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="355dc-189">Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="355dc-189">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="355dc-190">Εάν η νομισματική μονάδα σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση.</span><span class="sxs-lookup"><span data-stu-id="355dc-190">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="355dc-191">Αναζητήστε με βάση νομισματική μονάδα ή μεταβείτε στην αναζήτηση με βάση το όνομα.</span><span class="sxs-lookup"><span data-stu-id="355dc-191">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="355dc-192">Επιλέξτε **Λήψη φωτογραφίας** ή **Επιλογή εικόνας**.</span><span class="sxs-lookup"><span data-stu-id="355dc-192">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="355dc-193">Ακολουθήστε ένα από αυτά τα βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-193">Follow one of these steps:</span></span>
 
-    - Εάν επιλέξατε **Λήψη φωτογραφίας**, μεταβαίνετε στην κάμερα στην κινητή συσκευή σας, ώστε να μπορέσετε να βγάλετε μια φωτογραφία της απόδειξης. Όταν ολοκληρώσετε τη λήψη της φωτογραφίας, επιλέξτε **OK** για να αποδεχτείτε τη φωτογραφία.
-    - Εάν επιλέξατε **Επιλογή εικόνας**, επιλέξτε μια εικόνα από τη λίστα.
+    - <span data-ttu-id="355dc-194">Εάν επιλέξατε **Λήψη φωτογραφίας** , μεταβαίνετε στην κάμερα στην κινητή συσκευή σας, ώστε να μπορέσετε να βγάλετε μια φωτογραφία της απόδειξης.</span><span class="sxs-lookup"><span data-stu-id="355dc-194">If you selected **Take photo** , you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="355dc-195">Όταν ολοκληρώσετε τη λήψη της φωτογραφίας, επιλέξτε **OK** για να αποδεχτείτε τη φωτογραφία.</span><span class="sxs-lookup"><span data-stu-id="355dc-195">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="355dc-196">Εάν επιλέξατε **Επιλογή εικόνας** , επιλέξτε μια εικόνα από τη λίστα.</span><span class="sxs-lookup"><span data-stu-id="355dc-196">If you selected **Choose image** , select an image in the list.</span></span>
 
-10. Επιλέξτε **Τέλος**.
+10. <span data-ttu-id="355dc-197">Επιλέξτε **Τέλος**.</span><span class="sxs-lookup"><span data-stu-id="355dc-197">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Εγκρίνετε μια αναφορά εξόδων με χρήση του χώρου εργασίας για κινητές συσκευές Διαχείρισης δαπανών (εάν χρησιμοποιείτε την ενημέρωση Ιουλίου 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="355dc-198">Εγκρίνετε μια αναφορά εξόδων με χρήση του χώρου εργασίας για κινητές συσκευές Διαχείρισης δαπανών (εάν χρησιμοποιείτε την ενημέρωση Ιουλίου 2017)</span><span class="sxs-lookup"><span data-stu-id="355dc-198">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. Στην κινητή συσκευή σας, ανοίξτε τον χώρο εργασίας **Διαχείριση εξόδων**.
-2. Στις **εγκρίσεις εξόδων** εμφανίζεται ο αριθμός των αναφορών εξόδων που έχουν ανατεθεί σε εσάς για έγκριση. Ο αριθμός ενημερώνεται περίπου κάθε 30 λεπτά. Επιλέξτε **Εγκρίσεις εξόδων**.
+1. <span data-ttu-id="355dc-199">Στην κινητή συσκευή σας, ανοίξτε τον χώρο εργασίας **Διαχείριση εξόδων**.</span><span class="sxs-lookup"><span data-stu-id="355dc-199">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="355dc-200">Στις **εγκρίσεις εξόδων** εμφανίζεται ο αριθμός των αναφορών εξόδων που έχουν ανατεθεί σε εσάς για έγκριση.</span><span class="sxs-lookup"><span data-stu-id="355dc-200">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="355dc-201">Ο αριθμός ενημερώνεται περίπου κάθε 30 λεπτά.</span><span class="sxs-lookup"><span data-stu-id="355dc-201">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="355dc-202">Επιλέξτε **Εγκρίσεις εξόδων**.</span><span class="sxs-lookup"><span data-stu-id="355dc-202">Select **Expense approvals**.</span></span>
 
-    Εμφανίζεται η λίστα των αναφορών εξόδων που έχουν ανατεθεί σε εσάς για έγκριση.
+    <span data-ttu-id="355dc-203">Εμφανίζεται η λίστα των αναφορών εξόδων που έχουν ανατεθεί σε εσάς για έγκριση.</span><span class="sxs-lookup"><span data-stu-id="355dc-203">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Επιλέξτε μια αναφορά εξόδων για να προβάλετε τις λεπτομέρειες εξόδων αυτής.
-4. Επιλέξτε ένα έξοδο για να προβάλετε τις λεπτομέρειες αυτού. Οι πληροφορίες που εμφανίζονται για ένα έξοδο περιλαμβάνουν όλες τις λεπτομέρειες της απόδειξης, επισκέπτη και επιμερισμού.
-5. Επιστρέψτε στη σελίδα **Αναφορά εξόδων**, επιλέξτε για να εγκρίνετε ή να απορρίψετε την αναφορά εξόδων.
-6. Καταγράψτε τυχόν σχόλια για την ενέργεια έγκρισης.
-7. Επιλέξτε **Τέλος**.
+3. <span data-ttu-id="355dc-204">Επιλέξτε μια αναφορά εξόδων για να προβάλετε τις λεπτομέρειες εξόδων αυτής.</span><span class="sxs-lookup"><span data-stu-id="355dc-204">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="355dc-205">Επιλέξτε ένα έξοδο για να προβάλετε τις λεπτομέρειες αυτού.</span><span class="sxs-lookup"><span data-stu-id="355dc-205">Select an expense to view the details for it.</span></span> <span data-ttu-id="355dc-206">Οι πληροφορίες που εμφανίζονται για ένα έξοδο περιλαμβάνουν όλες τις λεπτομέρειες της απόδειξης, επισκέπτη και επιμερισμού.</span><span class="sxs-lookup"><span data-stu-id="355dc-206">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="355dc-207">Επιστρέψτε στη σελίδα **Αναφορά εξόδων** , επιλέξτε για να εγκρίνετε ή να απορρίψετε την αναφορά εξόδων.</span><span class="sxs-lookup"><span data-stu-id="355dc-207">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="355dc-208">Καταγράψτε τυχόν σχόλια για την ενέργεια έγκρισης.</span><span class="sxs-lookup"><span data-stu-id="355dc-208">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="355dc-209">Επιλέξτε **Τέλος**.</span><span class="sxs-lookup"><span data-stu-id="355dc-209">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Δημιουργήστε μια νέα αναφορά εξόδων και κάντε υποβολή της για έγκριση με χρήση του χώρου εργασίας για κινητές συσκευές Διαχείρισης δαπανών (εάν χρησιμοποιείτε την ενημέρωση Ιουλίου 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="355dc-210">Δημιουργήστε μια νέα αναφορά εξόδων και κάντε υποβολή της για έγκριση με χρήση του χώρου εργασίας για κινητές συσκευές Διαχείρισης δαπανών (εάν χρησιμοποιείτε την ενημέρωση Ιουλίου 2017)</span><span class="sxs-lookup"><span data-stu-id="355dc-210">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. Στην κινητή συσκευή σας, ανοίξτε τον χώρο εργασίας **Διαχείριση εξόδων**.
-2. Επιλέξτε **Καταχώρηση εξόδων**.
-3. Επιλέξτε **Νέα αναφορά** ή επιλέξτε μια υπάρχουσα αναφορά εξόδων από τη λίστα.
-4. Για νέες αναφορές εξόδων, καταγράψτε το σκοπό και τυχόν πρόσθετες πληροφορίες που είναι διαθέσιμες. Αυτές οι πληροφορίες ποικίλλουν, ανάλογα με τον τρόπο με τον οποίο η διαχείριση δαπανών έχει ρυθμιστεί για την εταιρεία σας.
-5. Επιλέξτε **Τέλος**.
-6. Για να προσθέσετε υφιστάμενα έξοδα, όπως συναλλαγές με πιστωτικές κάρτες, στην αναφορά εξόδων, επιλέξτε **Επισύναψη**.
-7. Επιλέξτε ένα ή περισσότερα έξοδα στη λίστα.
-8. Επιλέξτε **Τέλος**.
-9. Για να προσθέσετε νέο έξοδο στην αναφορά εξόδων, επιλέξτε **Νέο έξοδο**.
-10. Επιλέξτε την κατηγορία του εξόδου. Εμφανίζεται μια λίστα με κατηγορίες εξόδων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης. Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό. Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Εάν η κατηγορία σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση. Αναζητήστε με βάση την κατηγορία εξόδων ή μεταβείτε στην αναζήτηση με βάση τον τύπο εξόδων.
-11. Προαιρετικό: καταχωρείστε τον έμπορο για το έξοδο.
-12. Εισαγάγετε την ημερομηνία συναλλαγής του εξόδου.
-13. Εισαγάγετε το ποσό του εξόδου.
-14. Επιλέξτε τη νομισματική μονάδα του εξόδου. Εμφανίζεται μια λίστα με κωδικούς νομισματικών μονάδων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης. Από προεπιλογή, φορτώνονται 400 νομισματικές μονάδες αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό. Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Εάν η νομισματική μονάδα σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση. Αναζητήστε με βάση νομισματική μονάδα ή μεταβείτε στην αναζήτηση με βάση το όνομα.
-15. Επιλέξτε **Τέλος**.
-16. Για να προσθέσετε περισσότερες λεπτομέρειες στο έξοδο, επιλέξτε **Προσθήκη περισσότερων λεπτομερειών**. Τα διαθέσιμα πεδία εξαρτώνται από τη ρύθμιση παραμέτρων της διαχείρισης εξόδων για την εταιρεία σας.
-17. Εάν η πολιτική της εταιρείας απαιτεί απόδειξη για το έξοδο, επιλέξτε " **Αποδείξεις** και, στη συνέχεια, ακολουθήστε τα εξής βήματα:
+1. <span data-ttu-id="355dc-211">Στην κινητή συσκευή σας, ανοίξτε τον χώρο εργασίας **Διαχείριση εξόδων**.</span><span class="sxs-lookup"><span data-stu-id="355dc-211">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="355dc-212">Επιλέξτε **Καταχώρηση εξόδων**.</span><span class="sxs-lookup"><span data-stu-id="355dc-212">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="355dc-213">Επιλέξτε **Νέα αναφορά** ή επιλέξτε μια υπάρχουσα αναφορά εξόδων από τη λίστα.</span><span class="sxs-lookup"><span data-stu-id="355dc-213">Select **New report** , or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="355dc-214">Για νέες αναφορές εξόδων, καταγράψτε το σκοπό και τυχόν πρόσθετες πληροφορίες που είναι διαθέσιμες.</span><span class="sxs-lookup"><span data-stu-id="355dc-214">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="355dc-215">Αυτές οι πληροφορίες ποικίλλουν, ανάλογα με τον τρόπο με τον οποίο η διαχείριση δαπανών έχει ρυθμιστεί για την εταιρεία σας.</span><span class="sxs-lookup"><span data-stu-id="355dc-215">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="355dc-216">Επιλέξτε **Τέλος**.</span><span class="sxs-lookup"><span data-stu-id="355dc-216">Select **Done**.</span></span>
+6. <span data-ttu-id="355dc-217">Για να προσθέσετε υφιστάμενα έξοδα, όπως συναλλαγές με πιστωτικές κάρτες, στην αναφορά εξόδων, επιλέξτε **Επισύναψη**.</span><span class="sxs-lookup"><span data-stu-id="355dc-217">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="355dc-218">Επιλέξτε ένα ή περισσότερα έξοδα στη λίστα.</span><span class="sxs-lookup"><span data-stu-id="355dc-218">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="355dc-219">Επιλέξτε **Τέλος**.</span><span class="sxs-lookup"><span data-stu-id="355dc-219">Select **Done**.</span></span>
+9. <span data-ttu-id="355dc-220">Για να προσθέσετε νέο έξοδο στην αναφορά εξόδων, επιλέξτε **Νέο έξοδο**.</span><span class="sxs-lookup"><span data-stu-id="355dc-220">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="355dc-221">Επιλέξτε την κατηγορία του εξόδου.</span><span class="sxs-lookup"><span data-stu-id="355dc-221">Select the category for the expense.</span></span> <span data-ttu-id="355dc-222">Εμφανίζεται μια λίστα με κατηγορίες εξόδων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης.</span><span class="sxs-lookup"><span data-stu-id="355dc-222">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="355dc-223">Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό.</span><span class="sxs-lookup"><span data-stu-id="355dc-223">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="355dc-224">Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="355dc-224">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="355dc-225">Εάν η κατηγορία σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση.</span><span class="sxs-lookup"><span data-stu-id="355dc-225">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="355dc-226">Αναζητήστε με βάση την κατηγορία εξόδων ή μεταβείτε στην αναζήτηση με βάση τον τύπο εξόδων.</span><span class="sxs-lookup"><span data-stu-id="355dc-226">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="355dc-227">Προαιρετικό: καταχωρείστε τον έμπορο για το έξοδο.</span><span class="sxs-lookup"><span data-stu-id="355dc-227">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="355dc-228">Εισαγάγετε την ημερομηνία συναλλαγής του εξόδου.</span><span class="sxs-lookup"><span data-stu-id="355dc-228">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="355dc-229">Εισαγάγετε το ποσό του εξόδου.</span><span class="sxs-lookup"><span data-stu-id="355dc-229">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="355dc-230">Επιλέξτε τη νομισματική μονάδα του εξόδου.</span><span class="sxs-lookup"><span data-stu-id="355dc-230">Select the currency of the expense.</span></span> <span data-ttu-id="355dc-231">Εμφανίζεται μια λίστα με κωδικούς νομισματικών μονάδων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης.</span><span class="sxs-lookup"><span data-stu-id="355dc-231">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="355dc-232">Από προεπιλογή, φορτώνονται 400 νομισματικές μονάδες αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό.</span><span class="sxs-lookup"><span data-stu-id="355dc-232">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="355dc-233">Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="355dc-233">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="355dc-234">Εάν η νομισματική μονάδα σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση.</span><span class="sxs-lookup"><span data-stu-id="355dc-234">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="355dc-235">Αναζητήστε με βάση νομισματική μονάδα ή μεταβείτε στην αναζήτηση με βάση το όνομα.</span><span class="sxs-lookup"><span data-stu-id="355dc-235">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="355dc-236">Επιλέξτε **Τέλος**.</span><span class="sxs-lookup"><span data-stu-id="355dc-236">Select **Done**.</span></span>
+16. <span data-ttu-id="355dc-237">Για να προσθέσετε περισσότερες λεπτομέρειες στο έξοδο, επιλέξτε **Προσθήκη περισσότερων λεπτομερειών**.</span><span class="sxs-lookup"><span data-stu-id="355dc-237">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="355dc-238">Τα διαθέσιμα πεδία εξαρτώνται από τη ρύθμιση παραμέτρων της διαχείρισης εξόδων για την εταιρεία σας.</span><span class="sxs-lookup"><span data-stu-id="355dc-238">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="355dc-239">Εάν η πολιτική της εταιρείας απαιτεί απόδειξη για το έξοδο, επιλέξτε " **Αποδείξεις** και, στη συνέχεια, ακολουθήστε τα εξής βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-239">If company policy requires a receipt for the expense, select **Receipts** , and then follow these steps:</span></span>
 
-    1. Επιλέξτε **Αποτύπωση απόδειξης** ή **Επισύναψη απόδειξης**.
-    2. Ακολουθήστε ένα από αυτά τα βήματα:
+    1. <span data-ttu-id="355dc-240">Επιλέξτε **Αποτύπωση απόδειξης** ή **Επισύναψη απόδειξης**.</span><span class="sxs-lookup"><span data-stu-id="355dc-240">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="355dc-241">Ακολουθήστε ένα από αυτά τα βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-241">Follow one of these steps:</span></span>
 
-        - Εάν επιλέξατε **Αποτύπωση απόδειξης**, ακολουθήστε τα παρακάτω βήματα:
+        - <span data-ttu-id="355dc-242">Εάν επιλέξατε **Αποτύπωση απόδειξης** , ακολουθήστε τα παρακάτω βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-242">If you selected **Capture receipt** , follow these steps:</span></span>
 
-            1. Επιλέξτε **Λήψη φωτογραφίας** ή **Επιλογή εικόνας**.
-            2. Ακολουθήστε ένα από αυτά τα βήματα:
+            1. <span data-ttu-id="355dc-243">Επιλέξτε **Λήψη φωτογραφίας** ή **Επιλογή εικόνας**.</span><span class="sxs-lookup"><span data-stu-id="355dc-243">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="355dc-244">Ακολουθήστε ένα από αυτά τα βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-244">Follow one of these steps:</span></span>
 
-                - Εάν επιλέξατε **Λήψη φωτογραφίας**, ακολουθήστε τα παρακάτω βήματα:
+                - <span data-ttu-id="355dc-245">Εάν επιλέξατε **Λήψη φωτογραφίας** , ακολουθήστε τα παρακάτω βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-245">If you selected **Take photo** , follow these steps:</span></span>
 
-                    1. Μεταβαίνετε στην κάμερα στην κινητή συσκευή σας, ώστε να μπορέσετε να βγάλετε μια φωτογραφία της απόδειξης. Όταν ολοκληρώσετε τη λήψη της φωτογραφίας, επιλέξτε **OK** για να αποδεχτείτε τη φωτογραφία.
-                    2. Προαιρετικό: εισαγάγετε ένα όνομα για τη φωτογραφία και καταχωρείτε τις σημειώσεις.
+                    1. <span data-ttu-id="355dc-246">Μεταβαίνετε στην κάμερα στην κινητή συσκευή σας, ώστε να μπορέσετε να βγάλετε μια φωτογραφία της απόδειξης.</span><span class="sxs-lookup"><span data-stu-id="355dc-246">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="355dc-247">Όταν ολοκληρώσετε τη λήψη της φωτογραφίας, επιλέξτε **OK** για να αποδεχτείτε τη φωτογραφία.</span><span class="sxs-lookup"><span data-stu-id="355dc-247">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="355dc-248">Προαιρετικό: εισαγάγετε ένα όνομα για τη φωτογραφία και καταχωρείτε τις σημειώσεις.</span><span class="sxs-lookup"><span data-stu-id="355dc-248">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - Εάν επιλέξατε **Επιλογή εικόνας**, ακολουθήστε τα παρακάτω βήματα:
+                - <span data-ttu-id="355dc-249">Εάν επιλέξατε **Επιλογή εικόνας** , ακολουθήστε τα παρακάτω βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-249">If you selected **Choose image** , follow these steps:</span></span>
 
-                    1. Επιλέξτε μια εικόνα από τη λίστα.
-                    2. Προαιρετικό: εισαγάγετε ένα όνομα για την εικόνα και καταχωρείτε τυχόν σημειώσεις.
+                    1. <span data-ttu-id="355dc-250">Επιλέξτε μια εικόνα από τη λίστα.</span><span class="sxs-lookup"><span data-stu-id="355dc-250">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="355dc-251">Προαιρετικό: εισαγάγετε ένα όνομα για την εικόνα και καταχωρείτε τυχόν σημειώσεις.</span><span class="sxs-lookup"><span data-stu-id="355dc-251">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  Επιλέξτε **Τέλος**.
+            3.  <span data-ttu-id="355dc-252">Επιλέξτε **Τέλος**.</span><span class="sxs-lookup"><span data-stu-id="355dc-252">Select **Done**.</span></span>
 
-        - Εάν επιλέξατε **Επισύναψη απόδειξης**, ακολουθήστε τα παρακάτω βήματα:
+        - <span data-ttu-id="355dc-253">Εάν επιλέξατε **Επισύναψη απόδειξης** , ακολουθήστε τα παρακάτω βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-253">If you selected **Attach receipt** , follow these steps:</span></span>
 
-            1.  Επιλέξτε μια ή περισσότερες εικόνες στη λίστα.
-            2.  Επιλέξτε **Τέλος**.
+            1.  <span data-ttu-id="355dc-254">Επιλέξτε μια ή περισσότερες εικόνες στη λίστα.</span><span class="sxs-lookup"><span data-stu-id="355dc-254">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="355dc-255">Επιλέξτε **Τέλος**.</span><span class="sxs-lookup"><span data-stu-id="355dc-255">Select **Done**.</span></span>
 
-    3. Επιλέξτε το κουμπί **Επιστροφή** για να επιστρέψετε στις λεπτομέρειες του εξόδου.
+    3. <span data-ttu-id="355dc-256">Επιλέξτε το κουμπί **Επιστροφή** για να επιστρέψετε στις λεπτομέρειες του εξόδου.</span><span class="sxs-lookup"><span data-stu-id="355dc-256">Select the **Back** button to return to the expense details.</span></span>
 
-18. Εάν η πολιτική της εταιρείας απαιτεί επισκέπτες για το έξοδο, επιλέξτε **Επισκέπτες** και, στη συνέχεια, ακολουθήστε τα εξής βήματα:
+18. <span data-ttu-id="355dc-257">Εάν η πολιτική της εταιρείας απαιτεί επισκέπτες για το έξοδο, επιλέξτε **Επισκέπτες** και, στη συνέχεια, ακολουθήστε τα εξής βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-257">If company policy requires guests for the expense, select **Guests** , and then follow these steps:</span></span>
 
-    1. Επιλέξτε **Επισκέπτης**, **Προηγούμενοι επισκέπτες** ή **Συνάδελφοι**.
-    2. Ακολουθήστε ένα από αυτά τα βήματα:
+    1. <span data-ttu-id="355dc-258">Επιλέξτε **Επισκέπτης** , **Προηγούμενοι επισκέπτες** ή **Συνάδελφοι**.</span><span class="sxs-lookup"><span data-stu-id="355dc-258">Select **Guest** , **Previous guests** , or **Coworkers**.</span></span>
+    2. <span data-ttu-id="355dc-259">Ακολουθήστε ένα από αυτά τα βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-259">Follow one of these steps:</span></span>
 
-        - Εάν επιλέξατε **Επισκέπτης**, ακολουθήστε τα παρακάτω βήματα:
+        - <span data-ttu-id="355dc-260">Εάν επιλέξατε **Επισκέπτης** , ακολουθήστε τα παρακάτω βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-260">If you selected **Guest** , follow these steps:</span></span>
 
-            1. Πληκτρολογήστε το όνομα του επισκέπτη.
-            2. Προαιρετικό: Καταχωρείστε στον οργανισμό ή/και στη χώρα του επισκέπτη.
-            3. Προαιρετικό: Πληκτρολογήστε τον τίτλο του επισκέπτη.
-            4. Επιλέξτε **Τέλος**.
+            1. <span data-ttu-id="355dc-261">Πληκτρολογήστε το όνομα του επισκέπτη.</span><span class="sxs-lookup"><span data-stu-id="355dc-261">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="355dc-262">Προαιρετικό: Καταχωρείστε στον οργανισμό ή/και στη χώρα του επισκέπτη.</span><span class="sxs-lookup"><span data-stu-id="355dc-262">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="355dc-263">Προαιρετικό: Πληκτρολογήστε τον τίτλο του επισκέπτη.</span><span class="sxs-lookup"><span data-stu-id="355dc-263">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="355dc-264">Επιλέξτε **Τέλος**.</span><span class="sxs-lookup"><span data-stu-id="355dc-264">Select **Done**.</span></span>
 
-        - Εάν επιλέξατε **Προηγούμενοι επισκέπτες**, ακολουθήστε τα παρακάτω βήματα:
+        - <span data-ttu-id="355dc-265">Εάν επιλέξατε **Προηγούμενοι επισκέπτες** , ακολουθήστε τα παρακάτω βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-265">If you selected **Previous guests** , follow these steps:</span></span>
 
-            1. Επιλέξτε έναν ή περισσότερους προηγούμενους επισκέπτες στη λίστα. Θα δείτε μια λίστα προηγούμενων καλεσμένων που έχετε προσθέσει σε προηγούμενες αναφορές εξόδων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης. Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό. Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Εάν ο προηγούμενος επισκέπτης σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση. Πραγματοποιήστε αναζήτηση με βάση το όνομα ή μεταβείτε στην αναζήτηση με βάση τον οργανισμό, τη χώρα ή τον τίτλο.
-            2. Επιλέξτε **Τέλος**.
+            1. <span data-ttu-id="355dc-266">Επιλέξτε έναν ή περισσότερους προηγούμενους επισκέπτες στη λίστα.</span><span class="sxs-lookup"><span data-stu-id="355dc-266">Select one or more previous guests in the list.</span></span> <span data-ttu-id="355dc-267">Θα δείτε μια λίστα προηγούμενων καλεσμένων που έχετε προσθέσει σε προηγούμενες αναφορές εξόδων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης.</span><span class="sxs-lookup"><span data-stu-id="355dc-267">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="355dc-268">Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό.</span><span class="sxs-lookup"><span data-stu-id="355dc-268">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="355dc-269">Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="355dc-269">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="355dc-270">Εάν ο προηγούμενος επισκέπτης σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση.</span><span class="sxs-lookup"><span data-stu-id="355dc-270">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="355dc-271">Πραγματοποιήστε αναζήτηση με βάση το όνομα ή μεταβείτε στην αναζήτηση με βάση τον οργανισμό, τη χώρα ή τον τίτλο.</span><span class="sxs-lookup"><span data-stu-id="355dc-271">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="355dc-272">Επιλέξτε **Τέλος**.</span><span class="sxs-lookup"><span data-stu-id="355dc-272">Select **Done**.</span></span>
 
-        - Εάν επιλέξατε **Συνάδελφοι**, ακολουθήστε τα παρακάτω βήματα:
+        - <span data-ttu-id="355dc-273">Εάν επιλέξατε **Συνάδελφοι** , ακολουθήστε τα παρακάτω βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-273">If you selected **Coworkers** , follow these steps:</span></span>
 
-            1. Επιλέξτε έναν ή περισσότερους συναδέλφους στη λίστα. Εμφανίζεται μια λίστα συναδέλφων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης. Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό. Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Εάν ο συνάδελφός σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση. Πραγματοποιήστε αναζήτηση με βάση το όνομα ή μεταβείτε στην αναζήτηση με βάση εταιρεία ή τίτλο.
-            2. Επιλέξτε **Τέλος**.
+            1. <span data-ttu-id="355dc-274">Επιλέξτε έναν ή περισσότερους συναδέλφους στη λίστα.</span><span class="sxs-lookup"><span data-stu-id="355dc-274">Select one or more coworkers in the list.</span></span> <span data-ttu-id="355dc-275">Εμφανίζεται μια λίστα συναδέλφων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης.</span><span class="sxs-lookup"><span data-stu-id="355dc-275">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="355dc-276">Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό.</span><span class="sxs-lookup"><span data-stu-id="355dc-276">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="355dc-277">Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="355dc-277">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="355dc-278">Εάν ο συνάδελφός σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση.</span><span class="sxs-lookup"><span data-stu-id="355dc-278">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="355dc-279">Πραγματοποιήστε αναζήτηση με βάση το όνομα ή μεταβείτε στην αναζήτηση με βάση εταιρεία ή τίτλο.</span><span class="sxs-lookup"><span data-stu-id="355dc-279">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="355dc-280">Επιλέξτε **Τέλος**.</span><span class="sxs-lookup"><span data-stu-id="355dc-280">Select **Done**.</span></span>
 
-    3. Επιλέξτε το κουμπί **Επιστροφή** για να επιστρέψετε στις λεπτομέρειες του εξόδου.
+    3. <span data-ttu-id="355dc-281">Επιλέξτε το κουμπί **Επιστροφή** για να επιστρέψετε στις λεπτομέρειες του εξόδου.</span><span class="sxs-lookup"><span data-stu-id="355dc-281">Select the **Back** button to return to the expense details.</span></span>
 
-19. Εάν η πολιτική της εταιρείας απαιτεί η απόδειξη να είναι επιμερισμένη, επιλέξτε **Επιμερισμός** και, στη συνέχεια, ακολουθήστε τα εξής βήματα:
+19. <span data-ttu-id="355dc-282">Εάν η πολιτική της εταιρείας απαιτεί η απόδειξη να είναι επιμερισμένη, επιλέξτε **Επιμερισμός** και, στη συνέχεια, ακολουθήστε τα εξής βήματα:</span><span class="sxs-lookup"><span data-stu-id="355dc-282">If company policy requires that the expense be itemized, select **Itemize** , and then follow these steps:</span></span>
 
-    1. Επιλέξτε την πρώτη ημερομηνία για επιμερισμό.
-    2. Επιλέξτε **Προσθήκη επιμερισμού**.
-    3. Επιλέξτε την υποκατηγορία για τον επιμερισμό του εξόδου. Εμφανίζεται μια λίστα με υποκατηγορίες εξόδων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης. Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό. Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Εάν η υποκατηγορία σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση. Αναζήτηση με όνομα υποκατηγορίας εξόδων.
-    4. Καταγράψτε το ποσό συναλλαγής για τον επιμερισμό.
-    5. Επεξεργαστείτε την ημερομηνία συναλλαγής εάν απαιτείται.
-    6. Επιλέξτε **Τέλος**.
-    7. Επαναλάβετε τα προηγούμενα βήματα, μέχρι να τελειώσετε με την προσθήκη όλων των επιμερισμών για την επιλεγμένη ημερομηνία.
-    8. Για περισσότερες ημέρες, μπορείτε να επιλέξετε **Αντιγραφή στην επόμενη ημέρα** για να αντιγράψετε τους επιμερισμούς στην επόμενη ημέρα. Εναλλακτικά, μπορείτε να επιλέξετε την ημερομηνία για επιμερισμό και, στη συνέχεια, να προσθέσετε επιμερισμούς όπως κάνατε για την πρώτη ημερομηνία.
-    9. Αφού ολοκληρώσετε τον επιμερισμό του εξόδου, επιλέξτε το **Επιστροφή** για να επιστρέψετε στις λεπτομέρειες των εξόδων.
+    1. <span data-ttu-id="355dc-283">Επιλέξτε την πρώτη ημερομηνία για επιμερισμό.</span><span class="sxs-lookup"><span data-stu-id="355dc-283">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="355dc-284">Επιλέξτε **Προσθήκη επιμερισμού**.</span><span class="sxs-lookup"><span data-stu-id="355dc-284">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="355dc-285">Επιλέξτε την υποκατηγορία για τον επιμερισμό του εξόδου.</span><span class="sxs-lookup"><span data-stu-id="355dc-285">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="355dc-286">Εμφανίζεται μια λίστα με υποκατηγορίες εξόδων που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης.</span><span class="sxs-lookup"><span data-stu-id="355dc-286">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="355dc-287">Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό.</span><span class="sxs-lookup"><span data-stu-id="355dc-287">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="355dc-288">Για περισσότερες πληροφορίες, οι προγραμματιστές να ανατρέξουν στο [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="355dc-288">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="355dc-289">Εάν η υποκατηγορία σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση** για να εκτελέσετε αναζήτηση με σύνδεση.</span><span class="sxs-lookup"><span data-stu-id="355dc-289">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="355dc-290">Αναζήτηση με όνομα υποκατηγορίας εξόδων.</span><span class="sxs-lookup"><span data-stu-id="355dc-290">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="355dc-291">Καταγράψτε το ποσό συναλλαγής για τον επιμερισμό.</span><span class="sxs-lookup"><span data-stu-id="355dc-291">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="355dc-292">Επεξεργαστείτε την ημερομηνία συναλλαγής εάν απαιτείται.</span><span class="sxs-lookup"><span data-stu-id="355dc-292">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="355dc-293">Επιλέξτε **Τέλος**.</span><span class="sxs-lookup"><span data-stu-id="355dc-293">Select **Done**.</span></span>
+    7. <span data-ttu-id="355dc-294">Επαναλάβετε τα προηγούμενα βήματα, μέχρι να τελειώσετε με την προσθήκη όλων των επιμερισμών για την επιλεγμένη ημερομηνία.</span><span class="sxs-lookup"><span data-stu-id="355dc-294">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="355dc-295">Για περισσότερες ημέρες, μπορείτε να επιλέξετε **Αντιγραφή στην επόμενη ημέρα** για να αντιγράψετε τους επιμερισμούς στην επόμενη ημέρα.</span><span class="sxs-lookup"><span data-stu-id="355dc-295">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="355dc-296">Εναλλακτικά, μπορείτε να επιλέξετε την ημερομηνία για επιμερισμό και, στη συνέχεια, να προσθέσετε επιμερισμούς όπως κάνατε για την πρώτη ημερομηνία.</span><span class="sxs-lookup"><span data-stu-id="355dc-296">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="355dc-297">Αφού ολοκληρώσετε τον επιμερισμό του εξόδου, επιλέξτε το **Επιστροφή** για να επιστρέψετε στις λεπτομέρειες των εξόδων.</span><span class="sxs-lookup"><span data-stu-id="355dc-297">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. Επιλέξτε το κουμπί **Επιστροφή** για να επιστρέψετε στη σελίδα **Αναφορά εξόδων**.
-21. Επαναλάβετε τα προηγούμενα βήματα, μέχρι να τελειώσετε με την προσθήκη όλων των εξόδων.
-22. Επιλέξτε **Υποβολή**.
-23. Καταγράψτε τυχόν σχόλια για τον υπεύθυνο έγκρισης.
-24. Επιλέξτε **Τέλος**.
+20. <span data-ttu-id="355dc-298">Επιλέξτε το κουμπί **Επιστροφή** για να επιστρέψετε στη σελίδα **Αναφορά εξόδων**.</span><span class="sxs-lookup"><span data-stu-id="355dc-298">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="355dc-299">Επαναλάβετε τα προηγούμενα βήματα, μέχρι να τελειώσετε με την προσθήκη όλων των εξόδων.</span><span class="sxs-lookup"><span data-stu-id="355dc-299">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="355dc-300">Επιλέξτε **Υποβολή**.</span><span class="sxs-lookup"><span data-stu-id="355dc-300">Select **Submit**.</span></span>
+23. <span data-ttu-id="355dc-301">Καταγράψτε τυχόν σχόλια για τον υπεύθυνο έγκρισης.</span><span class="sxs-lookup"><span data-stu-id="355dc-301">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="355dc-302">Επιλέξτε **Τέλος**.</span><span class="sxs-lookup"><span data-stu-id="355dc-302">Select **Done**.</span></span>

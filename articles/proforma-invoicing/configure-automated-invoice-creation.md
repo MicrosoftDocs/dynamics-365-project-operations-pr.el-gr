@@ -1,55 +1,47 @@
 ---
-title: Ρύθμιση παραμέτρων αυτοματοποιημένης δημιουργίας τιμολογίων
+title: Ρύθμιση παραμέτρων αυτόματης δημιουργίας τιμολογίων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ρύθμισης παραμέτρων του συστήματος ώστε να δημιουργεί αυτόματα τιμολόγια.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 764fd4568619e4f5676ee3cbf7fce14ffb069548
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.author: rumant
+ms.openlocfilehash: 4e7572f2bc6201960ac01ce521adf39ac2577dbe
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898126"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076809"
 ---
-# <a name="configure-automated-invoice-creation"></a>Ρύθμιση παραμέτρων αυτοματοποιημένης δημιουργίας τιμολογίων
+# <a name="configure-automatic-invoice-creation"></a><span data-ttu-id="d667c-103">Ρύθμιση παραμέτρων αυτόματης δημιουργίας τιμολογίων</span><span class="sxs-lookup"><span data-stu-id="d667c-103">Configure automatic invoice creation</span></span>
 
-_**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
+<span data-ttu-id="d667c-104">_**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_</span><span class="sxs-lookup"><span data-stu-id="d667c-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-Ολοκληρώστε τα παρακάτω βήματα για να ρυθμίσετε τις παραμέτρους μιας αυτοματοποιημένης εκτέλεσης τιμολογίων στο Project Operations (Λειτουργίες έργου).
 
-1. Μεταβείτε στις **Ρυθμίσεις** \> **Μαζικές εργασίες**.
-2. Δημιουργήστε μια μαζική εργασία και ονομάστε την **Δημιουργία τιμολογίων λειτουργιών έργου**. Το όνομα της μαζικής εργασίας πρέπει να περιλαμβάνει τον όρο "δημιουργία τιμολογίων".
-3. Στο πεδίο **Τύπος εργασίας**, επιλέξτε **Κανένας**. Από προεπιλογή, οι επιλογές **Συχνότητα καθημερινά** και **Είναι ενεργό** έχουν οριστεί σε **Ναι**.
-4. Επιλέξτε **Εκτέλεση ροής εργασίας**. Στο παράθυρο διαλόγου **Αναζήτηση καρτέλας**, θα δείτε τρεις ροές εργασιών:
+<span data-ttu-id="d667c-105">Ολοκληρώστε τα παρακάτω βήματα για να ρυθμίσετε τις παραμέτρους μιας αυτοματοποιημένης εκτέλεσης τιμολογίων στο Dynamics 365 Project Operations.</span><span class="sxs-lookup"><span data-stu-id="d667c-105">Complete the following steps to configure an automated invoice run in Dynamics 365 Project operations.</span></span>
 
-    - ProcessRunCaller
-    - ProcessRunner
-    - UpdateRoleUtilization
+1. <span data-ttu-id="d667c-106">Μεταβείτε στις **Ρυθμίσεις** > **Μαζικές εργασίες**.</span><span class="sxs-lookup"><span data-stu-id="d667c-106">Go to **Settings** > **Batch jobs**.</span></span>
+2. <span data-ttu-id="d667c-107">Δημιουργήστε μια μαζική εργασία και ονομάστε την **Δημιουργία τιμολογίων λειτουργιών έργου**.</span><span class="sxs-lookup"><span data-stu-id="d667c-107">Create a batch job, and name it **Project operations create invoices**.</span></span> <span data-ttu-id="d667c-108">Το όνομα της μαζικής εργασίας πρέπει να περιλαμβάνει τις λέξεις "δημιουργία τιμολογίων".</span><span class="sxs-lookup"><span data-stu-id="d667c-108">The name of the batch job must include the words "create invoices."</span></span>
+3. <span data-ttu-id="d667c-109">Στο πεδίο **Τύπος εργασίας** , επιλέξτε **Κανένας**.</span><span class="sxs-lookup"><span data-stu-id="d667c-109">In the **Job Type** field, select **None**.</span></span> <span data-ttu-id="d667c-110">Από προεπιλογή, οι επιλογές **Συχνότητα καθημερινά** και **Είναι ενεργό** έχουν οριστεί σε **Ναι**.</span><span class="sxs-lookup"><span data-stu-id="d667c-110">By default, the **Frequency Daily** and **Is Active** options are set to **Yes**.</span></span>
+4. <span data-ttu-id="d667c-111">Επιλέξτε **Εκτέλεση ροής εργασίας**.</span><span class="sxs-lookup"><span data-stu-id="d667c-111">Select **Run Workflow**.</span></span> <span data-ttu-id="d667c-112">Στο παράθυρο διαλόγου **Αναζήτηση καρτέλας** , θα δείτε τρεις ροές εργασιών:</span><span class="sxs-lookup"><span data-stu-id="d667c-112">In the **Look Up Record** dialog box, you will see three workflows:</span></span>
 
-5. Επιλέξτε **ProcessRunCaller** και μετά επιλέξτε **Προσθήκη**.
-6. Στο επόμενο παράθυρο διαλόγου, κάντε κλικ στο κουμπί **ΟΚ**. Μια ροή εργασίας **Αναμονή** ακολουθείται από μια ροή εργασίας **Διαδικασία**.
+    - <span data-ttu-id="d667c-113">ProcessRunCaller</span><span class="sxs-lookup"><span data-stu-id="d667c-113">ProcessRunCaller</span></span>
+    - <span data-ttu-id="d667c-114">ProcessRunner</span><span class="sxs-lookup"><span data-stu-id="d667c-114">ProcessRunner</span></span>
+    - <span data-ttu-id="d667c-115">UpdateRoleUtilization</span><span class="sxs-lookup"><span data-stu-id="d667c-115">UpdateRoleUtilization</span></span>
 
-    Μπορείτε επίσης να επιλέξετε **ProcessRunner** στο βήμα 5. Στη συνέχεια, όταν επιλέξετε **OK**, μια ροή εργασιών **Διαδικασία** ακολουθείται από μια ροή εργασιών **Αναμονή**.
+5. <span data-ttu-id="d667c-116">Επιλέξτε **ProcessRunCaller** και μετά επιλέξτε **Προσθήκη**.</span><span class="sxs-lookup"><span data-stu-id="d667c-116">Select **ProcessRunCaller** , and then select **Add**.</span></span>
+6. <span data-ttu-id="d667c-117">Στο επόμενο παράθυρο διαλόγου, κάντε κλικ στο κουμπί **ΟΚ**.</span><span class="sxs-lookup"><span data-stu-id="d667c-117">In the next dialog box, select **OK**.</span></span> <span data-ttu-id="d667c-118">Μια ροή εργασίας **Αναμονή** ακολουθείται από μια ροή εργασίας **Διαδικασία**.</span><span class="sxs-lookup"><span data-stu-id="d667c-118">A **Sleep** workflow is followed by a **Process** workflow.</span></span>
 
-Οι ροές εργασιών **ProcessRunCaller** και **ProcessRunner** δημιουργούν τιμολόγια. Το **ProcessRunCaller** καλεί **ProcessRunner**. Το **ProcessRunner** είναι η ροή εργασιών που δημιουργεί πράγματι τα τιμολόγια. Διατρέχει όλες τις γραμμές σύμβασης για τις οποίες πρέπει να δημιουργηθούν τιμολόγια και δημιουργεί τιμολόγια για αυτές τις γραμμές. Για να καθορίσετε τις γραμμές σύμβασης για τις οποίες πρέπει να δημιουργηθούν τιμολόγια, η εργασία εξετάζει τις ημερομηνίες εκτέλεσης του τιμολογίου για τις γραμμές της σύμβασης. Εάν οι γραμμές σύμβασης που ανήκουν σε μία σύμβαση έχουν την ίδια ημερομηνία εκτέλεσης τιμολογίου, οι συναλλαγές συνδυάζονται σε ένα τιμολόγιο που έχει δύο γραμμές τιμολογίου. Εάν δεν υπάρχουν συναλλαγές για τη δημιουργία τιμολογίων, η εργασία θα παραλείψει τη δημιουργία τιμολογίων.
+  > [!NOTE]
+  > <span data-ttu-id="d667c-119">Μπορείτε επίσης να επιλέξετε **ProcessRunner** στο βήμα 5.</span><span class="sxs-lookup"><span data-stu-id="d667c-119">You can also select **ProcessRunner** in step 5.</span></span> <span data-ttu-id="d667c-120">Στη συνέχεια, όταν επιλέξετε **OK** , μια ροή εργασιών **Διαδικασία** ακολουθείται από μια ροή εργασιών **Αναμονή**.</span><span class="sxs-lookup"><span data-stu-id="d667c-120">Then, when you select **OK** , a **Process** workflow is followed by a **Sleep** workflow.</span></span>
 
-Αφού ολοκληρωθεί η εκτέλεση του **ProcessRunner**, καλεί το **ProcessRunCaller**, παρέχει την ώρα λήξης και κλείνει. Το **ProcessRunCaller** ξεκινά ένα χρονόμετρο που εκτελείται για 24 ώρες από την καθορισμένη ώρα λήξης. Στο τέλος του χρονοδιακόπτη, το **ProcessRunCaller** έχει κλείσει.
+<span data-ttu-id="d667c-121">Οι ροές εργασιών **ProcessRunCaller** και **ProcessRunner** δημιουργούν τιμολόγια.</span><span class="sxs-lookup"><span data-stu-id="d667c-121">The **ProcessRunCaller** and **ProcessRunner** workflows create invoices.</span></span> <span data-ttu-id="d667c-122">Το **ProcessRunCaller** καλεί **ProcessRunner**.</span><span class="sxs-lookup"><span data-stu-id="d667c-122">**ProcessRunCaller** calls **ProcessRunner**.</span></span> <span data-ttu-id="d667c-123">Το **ProcessRunner** είναι η ροή εργασιών που δημιουργεί πράγματι τα τιμολόγια.</span><span class="sxs-lookup"><span data-stu-id="d667c-123">**ProcessRunner** is the workflow that actually creates the invoices.</span></span> <span data-ttu-id="d667c-124">Διατρέχει όλες τις γραμμές σύμβασης για τις οποίες πρέπει να δημιουργηθούν τιμολόγια και δημιουργεί τιμολόγια για αυτές τις γραμμές.</span><span class="sxs-lookup"><span data-stu-id="d667c-124">It goes through all the contract lines that invoices must be created for, and it creates invoices for those lines.</span></span> <span data-ttu-id="d667c-125">Για να καθορίσετε τις γραμμές σύμβασης για τις οποίες πρέπει να δημιουργηθούν τιμολόγια, η εργασία εξετάζει τις ημερομηνίες εκτέλεσης του τιμολογίου για τις γραμμές της σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="d667c-125">To determine the contract lines that invoices must be created for, the job looks at invoice run dates for the contract lines.</span></span> <span data-ttu-id="d667c-126">Εάν οι γραμμές σύμβασης που ανήκουν σε μία σύμβαση έχουν την ίδια ημερομηνία εκτέλεσης τιμολογίου, οι συναλλαγές συνδυάζονται σε ένα τιμολόγιο που έχει δύο γραμμές τιμολογίου.</span><span class="sxs-lookup"><span data-stu-id="d667c-126">If contract lines that belong to one contract have the same invoice run date, the transactions are combined into one invoice that has two invoice lines.</span></span> <span data-ttu-id="d667c-127">Εάν δεν υπάρχουν συναλλαγές για τη δημιουργία τιμολογίων, η εργασία θα παραλείψει τη δημιουργία τιμολογίων.</span><span class="sxs-lookup"><span data-stu-id="d667c-127">If there are no transactions to create invoices for, the job skips invoice creation.</span></span>
 
-Η μαζική εργασία διεργασίας για τη δημιουργία τιμολογίων είναι μια επαναλαμβανόμενη εργασία. Εάν αυτή η μαζική διεργασία εκτελείται πολλές φορές, δημιουργούνται πολλές παρουσίες της εργασίας και προκαλούν σφάλματα. Επομένως, θα πρέπει να ξεκινήσετε τη μαζική διεργασία μόνο μία φορά και θα πρέπει να την επανεκκινήσετε μόνο εάν σταματήσει να εκτελείται.
+<span data-ttu-id="d667c-128">Αφού ολοκληρωθεί η εκτέλεση του **ProcessRunner** , καλεί το **ProcessRunCaller** , παρέχει την ώρα λήξης και κλείνει.</span><span class="sxs-lookup"><span data-stu-id="d667c-128">After **ProcessRunner** has finished running, it calls **ProcessRunCaller** , provides the end time, and is closed.</span></span> <span data-ttu-id="d667c-129">Το **ProcessRunCaller** ξεκινά ένα χρονόμετρο που εκτελείται για 24 ώρες από την καθορισμένη ώρα λήξης.</span><span class="sxs-lookup"><span data-stu-id="d667c-129">**ProcessRunCaller** then starts a timer that runs for 24 hours from the specified end time.</span></span> <span data-ttu-id="d667c-130">Στο τέλος του χρονοδιακόπτη, το **ProcessRunCaller** έχει κλείσει.</span><span class="sxs-lookup"><span data-stu-id="d667c-130">At the end of the timer, **ProcessRunCaller** is closed.</span></span>
+
+<span data-ttu-id="d667c-131">Η μαζική εργασία διεργασίας για τη δημιουργία τιμολογίων είναι μια επαναλαμβανόμενη εργασία.</span><span class="sxs-lookup"><span data-stu-id="d667c-131">The batch process job for creating invoices is a recurrent job.</span></span> <span data-ttu-id="d667c-132">Εάν αυτή η μαζική διεργασία εκτελείται πολλές φορές, δημιουργούνται πολλές παρουσίες της εργασίας και προκαλούν σφάλματα.</span><span class="sxs-lookup"><span data-stu-id="d667c-132">If this batch process is run many times, multiple instances of the job are created and cause errors.</span></span> <span data-ttu-id="d667c-133">Επομένως, θα πρέπει να ξεκινήσετε τη μαζική διεργασία μόνο μία φορά και θα πρέπει να την επανεκκινήσετε μόνο εάν σταματήσει να εκτελείται.</span><span class="sxs-lookup"><span data-stu-id="d667c-133">Therefore, you should start the batch process only one time, and you should restart it only if it stops running.</span></span>
 
 > [!NOTE]
-> Η μαζική τιμολόγηση εκτελείται μόνο για γραμμές σύμβασης έργου που έχουν ρυθμιστεί από χρονοδιαγράμματα τιμολογίων. Μια γραμμή σύμβασης με μέθοδο χρέωσης σταθερής τιμής πρέπει να έχει ρυθμισμένα ορόσημα. Μια γραμμή σύμβασης έργου με μέθοδο χρέωσης χρόνου και υλικού θα πρέπει να έχει ρυθμιστεί ως χρονοδιάγραμμα τιμολογίου βάσει ημερομηνίας. Το ίδιο ισχύει και για τη γραμμή σύμβασης βάσει έργου.     
+> <span data-ttu-id="d667c-134">Η μαζική τιμολόγηση εκτελείται μόνο για γραμμές σύμβασης έργου που έχουν ρυθμιστεί από χρονοδιαγράμματα τιμολογίων.</span><span class="sxs-lookup"><span data-stu-id="d667c-134">Batch invoicing only runs for project contract lines that are configured by invoice schedules.</span></span> <span data-ttu-id="d667c-135">Μια γραμμή σύμβασης με μέθοδο χρέωσης σταθερής τιμής πρέπει να έχει ρυθμισμένα ορόσημα.</span><span class="sxs-lookup"><span data-stu-id="d667c-135">A contract line with a fixed price billing method must have milestones configured.</span></span> <span data-ttu-id="d667c-136">Μια γραμμή σύμβασης έργου με μέθοδο χρέωσης χρόνου και υλικού θα πρέπει να έχει ρυθμιστεί ως χρονοδιάγραμμα τιμολογίου βάσει ημερομηνίας.</span><span class="sxs-lookup"><span data-stu-id="d667c-136">A project contract line with a time and material billing method will need a date-based invoice schedule set up.</span></span> <span data-ttu-id="d667c-137">Το ίδιο ισχύει και για τη γραμμή σύμβασης βάσει έργου.</span><span class="sxs-lookup"><span data-stu-id="d667c-137">The same applies to a project-based contract line.</span></span>     
