@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948885"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096622"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Εφαρμογή δεδομένων επίδειξης Project Operations σε ένα περιβάλλον που φιλοξενείται σε cloud του Finance
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
->[Σημαντικό] Αυτό το θέμα ισχύει μόνο για το Microsoft Dynamics 365 Finance έκδοση 10.0.13 και μπορεί να εκτελεστεί μόνο σε περιβάλλον που φιλοξενείται από Cloud. Ολοκληρώστε τα βήματα σε αυτό το θέμα **ΠΡΙΝ** εφαρμόσετε τις ενημερώσεις ποιότητας στο περιβάλλον.
+> [!IMPORTANT]
+> Αυτό το θέμα ισχύει μόνο για το Microsoft Dynamics 365 Finance έκδοση 10.0.13 και μπορεί να εκτελεστεί μόνο σε περιβάλλον που φιλοξενείται από Cloud. Ολοκληρώστε τα βήματα σε αυτό το θέμα **ΠΡΙΝ** εφαρμόσετε τις ενημερώσεις ποιότητας στο περιβάλλον.
 
 1. Στο έργο σας LCS, ανοίξτε τη σελίδα **Λεπτομέρειες περιβάλλοντος**. Σημειώστε ότι περιλαμβάνονται οι λεπτομέρειες που απαιτούνται για τη σύνδεση στο περιβάλλον με τη χρήση του πρωτοκόλλου Remote Desktop Protocol (RDP).
 
