@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948877"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076781"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Εφαρμόστε τη ρύθμιση επίδειξης και τα δεδομένα ρύθμισης παραμέτρων για την ελαφριά ανάπτυξη του Project Operations - συμφωνία για προτιμολόγηση
 
@@ -25,7 +25,7 @@ _**Ελαφριά ανάπτυξη - συμφωνία για προτιμολό�
 
 ![Μετεγκατάσταση ρύθμισης παραμέτρων](./media/1ConfigurationMigration.png)
 
-4. Στη σελίδα 2 του οδηγού CMT, επιλέξτε **Office 365** ως **Τύπο ανάπτυξης**.
+4. Στη σελίδα 2 του οδηγού CMT, επιλέξτε **Microsoft 365** ως **Τύπο ανάπτυξης**.
 5. Επιλέξτε τα πλαίσια ελέγχου **Εμφάνιση μιας λίστας με τους διαθέσιμους οργανισμούς** και **Εμφάνιση πρόσθετων κριτηρίων**.
 6. Επιλέξτε την περιοχή του μισθωτή σας, καταχωρίστε τα διαπιστευτήριά σας και, στη συνέχεια, επιλέξτε **Σύνδεση**.
 

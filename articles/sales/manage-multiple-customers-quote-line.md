@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076792"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Διαχείριση πολλών πελατών σε γραμμές προσφοράς βάσει έργου
+
+_**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
 Οι γραμμές προσφοράς που βασίζονται σε έργο υποστηρίζουν σενάρια όπου κάθε γραμμή προσφοράς έχει μια λίστα πελατών που την πληρώνουν. Αυτή η λίστα πελατών στη γραμμή προσφοράς βάσει έργου μπορεί να είναι ίδια με τη λίστα των πελατών της προσφοράς. Μπορείτε, επίσης, να αλλάξετε τη λίστα των πελατών ώστε να είναι διαφορετική. Για να δημιουργήσετε την τελική σύμβαση έργου όταν κερδίζεται μια προσφορά έργου, η λίστα πελατών στη γραμμή προσφοράς που βασίζεται σε έργο αντιγράφεται στην αντίστοιχη γραμμή σύμβασης βάσει έργου. Οι πελάτες της προσφοράς που βασίζεται σε έργο αντιγράφονται στη σύμβαση έργου.
 
