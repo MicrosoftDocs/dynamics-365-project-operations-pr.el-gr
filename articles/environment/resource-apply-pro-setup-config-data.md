@@ -1,23 +1,33 @@
 ---
-title: Ρύθμιση και εφαρμογή δεδομένων ρύθμισης παραμέτρων στο Common Data Service for Project Operations
+title: Ρύθμιση και εφαρμογή δεδομένων ρύθμισης παραμέτρων στο Common Data Service
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ρύθμισης και εφαρμογής των δεδομένων διαμόρφωσης στο Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076789"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401128"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Ρύθμιση και εφαρμογή δεδομένων ρύθμισης παραμέτρων στο Common Data Service for Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Ρύθμιση και εφαρμογή δεδομένων ρύθμισης παραμέτρων στο Common Data Service 
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
+
+## <a name="prerequisites"></a>Προϋποθέσεις
+
+Προτού ξεκινήσετε τη ρύθμιση των δεδομένων στο Common Data Service (CD), πρέπει να πληρούνται οι ακόλουθες προϋποθέσεις:
+
+1.  Παροχή ενός περιβάλλοντος CDS και ενός Dynamics 365 Finance περιβάλλοντος για το Project Operations.
+2.  Οι πληροφορίες νομικής οντότητας από το Dynamics 365 Finance είναι κοινόχρηστες στο περιβάλλον CDS. Αυτό σημαίνει ότι η οντότητα **Εταιρεία** στο CDS έχει τις ακόλουθες εταιρικές καρτέλες:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Εγκατάσταση δεδομένων ρύθμισης παραμέτρων και διαμόρφωσης
 
@@ -79,11 +89,11 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 ![Πόροι με δυνατότητα κράτησης](./media/8BookableResources.png)
 
-3. Στην καρτέλα **Γενικά** , επιλέξτε τον χρήστη διαχειριστή. Επαληθεύστε ότι η ζώνη ώρας ταιριάζει με αυτήν στην οποία βρίσκεστε. 
+3. Στην καρτέλα **Γενικά**, επιλέξτε τον χρήστη διαχειριστή. Επαληθεύστε ότι η ζώνη ώρας ταιριάζει με αυτήν στην οποία βρίσκεστε. 
 
 ![Νέος πόρος με δυνατότητα κράτησης](./media/9NewBookableResource.png)
 
-4. Στην καρτέλα **Προγραμματισμός** , στο πεδίο **Εταιρεία** , επιλέξτε την εταιρεία **USPM** και μετά επιλέξτε **Αποθήκευση**. 
+4. Στην καρτέλα **Προγραμματισμός**, στο πεδίο **Εταιρεία**, επιλέξτε την εταιρεία **USPM** και μετά επιλέξτε **Αποθήκευση**. 
 
 ![Καρτέλα προγραμματισμού](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
  
 12. Ενημερώστε τα παρακάτω πεδία:
 
- - **Προεπιλεγμένη εταιρεία** : USPM
- - **Προεπιλεγμένη οργανωτική μονάδα** : Contoso Robotics Global
- - **Συχνότητα τιμολογίου** : έβδομη και τελευταία ημέρα
- - **Πρότυπο ωρών εργασίας** : Αλλάξτε στο πρότυπο που δημιουργήσατε.
+ - **Προεπιλεγμένη εταιρεία**: USPM
+ - **Προεπιλεγμένη οργανωτική μονάδα**: Contoso Robotics Global
+ - **Συχνότητα τιμολογίου**: έβδομη και τελευταία ημέρα
+ - **Πρότυπο ωρών εργασίας**: Αλλάξτε στο πρότυπο που δημιουργήσατε.
 
 13. Επιλέξτε **Αποθήκευση**. 
 

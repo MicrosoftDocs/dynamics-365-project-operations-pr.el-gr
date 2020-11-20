@@ -3,17 +3,17 @@ title: Προσδιορισμός του τύπου ανάπτυξής σας
 description: Αυτό το θέμα παρέχει πληροφορίες για να σας βοηθήσει να καθορίσετε τον σωστό τύπο ανάπτυξης του Project Operations για την εταιρεία σας.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076920"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401218"
 ---
 # <a name="determine-your-deployment-type"></a>Προσδιορισμός του τύπου ανάπτυξής σας
 
@@ -25,11 +25,11 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Υπάρχοντες πελάτες του Dynamics που χρησιμοποιούν το Dynamics 365 Project Service Automation
-Το Project Operations περιλαμβάνει τις δυνατότητες που παρέχονται με το Project Service Automation. Μια διαδρομή αναβάθμισης θα κυκλοφορήσει για αυτούς τους πελάτες στο μέλλον.
+Το Project Operations περιλαμβάνει τις δυνατότητες που παρέχονται με το Project Service Automation. Θα κυκλοφορήσει μια διαδρομή αναβάθμισης για αυτούς τους πελάτες στο κύμα έκδοσης 1 του 2021.
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Υπάρχοντες πελάτες του Dynamics 365 Finance που χρησιμοποιούν τη διαχείριση έργου και λογιστικής 
 
-Οι υπάρχοντες πελάτες του Finance που χρησιμοποιούν τη λειτουργικότητα "Διαχείριση έργου και λογιστικής" μπορούν να συνεχίσουν να χρησιμοποιούν αυτό το στοιχείο ως έχει. Δείτε [Project Operations για σενάρια εφοδιασμένα/παραγγελίας παραγωγής](#pma).
+Οι υφιστάμενοι πελάτες του Finance που χρησιμοποιούν τη λειτουργικότητα "Διαχείριση έργου και Λογιστική" μπορούν να συνεχίσουν να τη χρησιμοποιούν ως έχει. Δείτε [Project Operations για σενάρια εφοδιασμένα/παραγγελίας παραγωγής](#pma).
 
 
 ## <a name="deployment-types"></a>Τύποι ανάπτυξης
@@ -47,12 +47,13 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 Η ελαφριά ανάπτυξη περιλαμβάνει τις εξής δυνατότητες:
 
+- Διαδικασία πωλήσεων για έργα που επεκτείνουν τις εμπειρίες εφαρμογής Dynamics 365 Sales
 - Προγραμματισμός έργου με χρήση του Microsoft Project for the Web
 - Πολυδιάστατη τιμολόγηση
 - Ενοποιημένη διαχείριση πόρων
 - Παρακολούθηση χρόνου
 - Βασικά έξοδα
-- Πρόταση τιμολογίου
+- Προτιμολόγια και τιμολόγηση πελάτη 
 
 #### <a name="deployment-steps"></a>Βήματα ανάπτυξης
 Καθορίστε το καλύτερο μοντέλο ανάπτυξης του Project Operations χρησιμοποιώντας το [ερωτηματολόγιο ανάπτυξης](https://aka.ms/provisionprojectoperations).
@@ -62,7 +63,8 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>Project Operations για σενάρια πόρων/μη εφοδιασμένα
 Το Project Operations για σενάρια πόρου/μη εφοδιασμένα περιλαμβάνουν τις ακόλουθες δυνατότητες:
-  
+ 
+- Διαδικασία πωλήσεων για έργα που επεκτείνουν την εφαρμογή Dynamics 365 Sales
 - Προγραμματισμός έργου με χρήση του Microsoft Project for the Web
 - Πολυδιάστατη τιμολόγηση
 - Ενοποιημένη διαχείριση πόρων
@@ -70,8 +72,8 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 - Βασικά έξοδα
 - Πλήρες έξοδο
 - Απόδειξη OCR
-- Πλήρης τιμολόγηση
-- Αναγνώριση εσόδων
+- Προτιμολόγια και τιμολόγηση πελάτη 
+- Αναγνώριση εσόδων για έργα
 
 #### <a name="deployment-steps"></a>Βήματα ανάπτυξης
 Καθορίστε το καλύτερο μοντέλο ανάπτυξης του Project Operations χρησιμοποιώντας το [ερωτηματολόγιο ανάπτυξης](https://aka.ms/provisionprojectoperations).
