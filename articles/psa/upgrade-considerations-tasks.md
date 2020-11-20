@@ -2,7 +2,7 @@
 title: Ζητήματα αναβάθμισης για τη δομή ανάλυσης εργασίας
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την αναβάθμιση της δομής ανάλυσης εργασίας από το Project Service Automation 2.x σε 3.x.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076998"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121803"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Ζητήματα αναβάθμισης για τη δομή ανάλυσης εργασίας
 Αυτό το θέμα παρέχει πληροφορίες σχετικά με την αναβάθμιση της δομής ανάλυσης εργασίας από το Project Service Automation 2.x σε 3.x. Αυτό το θέμα προσδιορίζει την εύρυθμη κατάσταση ενός έργου στο Project Service Automation (PSA) που απαιτείται για μια επιτυχημένη αναβάθμιση. Υπάρχουν επίσης πληροφορίες σχετικά με τις συνηθισμένες συνθήκες αποκλεισμού που θα προκαλέσουν την αποτυχία της αναβάθμισης. Για περισσότερες πληροφορίες σχετικά με τον καθορισμό εργασιών έργου και των λειτουργιών τους εντός χρονοδιαγράμματος έργου δείτε [Χρονοδιαγράμματα έργου](project-creating.md).

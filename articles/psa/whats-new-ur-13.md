@@ -3,7 +3,7 @@ title: Τι νέο υπάρχει ή άλλαξε στο Project Service Automat
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με το τι νέο υπάρχει Project Service Automation, έκδοση ενημέρωσης 13, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 435b70255dd0053a496362c9ced9e742cfcca843
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcb05b640966e760a7a74a306a3f0a39594baed8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076876"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121623"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Τι νέο υπάρχει στο Project Service Automation, έκδοση ενημέρωσης 13, V3
 Είμαστε στην ευχάριστη θέση να ανακοινώσουμε την πιο πρόσφατη ενημέρωση για την εφαρμογή Dynamics 365 Project Service Automation (PSA). Αυτή η έκδοση περιλαμβάνει ορισμένες σημαντικές βελτιώσεις όσον αφορά την ποιότητα, την απόδοση και τη χρηστικότητα. Αυτή η έκδοση είναι συμβατή με το Dynamics 365 9.x. Για να πραγματοποιήσετε ενημέρωση σε αυτήν την έκδοση, επισκεφθείτε το κέντρο διαχείρισης για το Dynamics 365 online και μεταβείτε στη σελίδα λύσεων για να εγκαταστήσετε την ενημέρωση. Για περισσότερες πληροφορίες, δείτε [Εγκατάσταση, ενημέρωση ή κατάργηση μιας προτιμώμενης λύσης](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -53,6 +53,6 @@ ms.locfileid: "4076876"
 - Sales
 
      - Διορθώθηκε: Διπλότυπες καρτέλες τύπου συναλλαγής επιστρέφουν ένα σφάλμα κατά τη δημιουργία καρτελών τιμής ρόλου.
-     - Διορθώθηκε: Επιπλέον κουμπιά για **Νέα ευκαιρία** , **Προσφορά** , **Γραμμή παραγγελίας** και **Προσθήκη προϊόντος** εμφανίζονται στις εντολές για Ευκαιρίες, Προσφορές, Προϊόντα παραγγελίας και στο υποπλέγμα γραμμών βάσει έργου.
+     - Διορθώθηκε: Τα επιπλέον κουμπιά για τα στοιχεία **Νέα ευκαιρία**, **Προσφορά**, **Γραμμή παραγγελίας** και **Προσθήκη προϊόντων** είναι ορατά στις εντολές για Ευκαιρίες, Προσφορές, Προϊόντα παραγγελιών και στο υποπλέγμα γραμμών βάσει έργου.
 
 

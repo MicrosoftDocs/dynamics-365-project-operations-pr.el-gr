@@ -3,7 +3,7 @@ title: Προβολή χρεώσιμης χρήσης για πόρους
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την προβολή χρήσης του πόρου.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076938"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122163"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Προβολή χρεώσιμης χρήσης για πόρους
  
@@ -46,7 +46,7 @@ ms.locfileid: "4076938"
 
 1. Μεταβείτε στα στοιχεία **Πόροι** \> **Πόροι**. 
 2. Επιλέξτε έναν πόρο για να ανοίξετε την καρτέλα. 
-3. Στην καρτέλα **Project Service** , μπορείτε να ορίσετε τη χρήση του προορισμού του πόρου.
+3. Στην καρτέλα **Project Service**, μπορείτε να ορίσετε τη χρήση του προορισμού του πόρου.
 
 > ![Στιγμιότυπο οθόνης χρήσης της καρτέλας Project Service για να ορίσετε τη χρήση-στόχο](media/FAQ-utilization-2.png)
  
@@ -68,7 +68,7 @@ ms.locfileid: "4076938"
 
 1. Για να κάνετε τη ρύθμιση μεταβείτε στα στοιχεία **Πόροι** \> **Πόροι**. 
 2. Επιλέξτε έναν πόρο, ανοίξτε την καρτέλα και, στη συνέχεια, επιλέξτε **Project Service**. 
-3. Στο πλέγμα **Ρόλος πόρου** , βεβαιωθείτε ότι υπάρχει ένας ρόλος για τον πόρο και ότι το στοιχείο **Είναι προεπιλογή** έχει οριστεί σε **Ναι**.
+3. Στο πλέγμα **Ρόλος πόρου**, βεβαιωθείτε ότι υπάρχει ένας ρόλος για τον πόρο και ότι το στοιχείο **Είναι προεπιλογή** έχει οριστεί σε **Ναι**.
  
 ### <a name="change-billing-type-for-resource-role"></a>Αλλάξτε τον τύπο χρέωσης για αυτόν το ρόλο πόρου
 

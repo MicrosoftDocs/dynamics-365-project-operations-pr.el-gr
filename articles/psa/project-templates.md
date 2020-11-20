@@ -3,7 +3,7 @@ title: Πρότυπα έργων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο χρήσης των προτύπων έργου για τη γρήγορη ρύθμιση του έργου.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bb82a312114e9814f5ce65a1698455582fd252e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4fd618e15524c5cef5b6da9b282f449e3dfb7973
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077078"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123018"
 ---
 # <a name="project-templates"></a>Πρότυπα έργων 
 
@@ -49,7 +49,7 @@ ms.locfileid: "4077078"
 
 > ![Γρήγορη δημιουργία: Παράθυρο διαλόγου έργου](media/project-11.png)
 
-- Κατά τη δημιουργία ενός έργου επιλέγοντας **Νέο έργο** , εμφανίζεται η σελίδα **Έργο** πριν από την αποθήκευση της καρτέλας. Στο πεδίο **Επιλογή προτύπου** , επιλέξτε ένα από τα προκαθορισμένα πρότυπα έργου στον οργανισμό.
+- Κατά τη δημιουργία ενός έργου επιλέγοντας **Νέο έργο**, εμφανίζεται η σελίδα **Έργο** πριν από την αποθήκευση της καρτέλας. Στο πεδίο **Επιλογή προτύπου**, επιλέξτε ένα από τα προκαθορισμένα πρότυπα έργου στον οργανισμό.
 - Χρησιμοποιήστε τη **Δημιουργία έργου από ένα πρότυπο** στη σελίδα **Οντότητα προτύπου**.
 
 ## <a name="copying-components-of-template-to-project"></a>Αντιγραφή στοιχείων προτύπου σε έργο
