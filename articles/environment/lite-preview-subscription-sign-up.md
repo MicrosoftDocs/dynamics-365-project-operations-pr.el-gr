@@ -1,21 +1,21 @@
 ---
-title: Εγγραφή για μια συνδρομή προεπισκόπησης
+title: Εγγραφή για μια συνδρομή προεπισκόπησης - lite
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο εγγραφής και την ελαφριά ανάπτυξη του Project Operations - συμφωνία για προτιμολόγηση.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076779"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175891"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Εγγραφή για τη συνδρομή προεπισκόπησης για την ελαφριά ανάπτυξη – συμφωνία για προτιμολόγηση
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Εγγραφή για μια συνδρομή προεπισκόπησης - lite 
 
 Αυτό το θέμα εξηγεί τον τρόπο εγγραφής στην προεπισκόπηση προσφοράς συνεργάτη και τον τρόπο ελαφριάς ανάπτυξης του Dynamics 365 Project Operations - συμφωνία για προτιμολόγηση.
 
@@ -67,7 +67,7 @@ ms.locfileid: "4076779"
 
 ![Αρχική σελίδα του κέντρου διαχείρισης](./media/14AdminPortal.png)
 
-2. Στη σελίδα **Ενεργοί χρήστες** , επιλέξτε τους χρήστες στους οποίους θέλετε να αναθέσετε μια άδεια χρήσης.
+2. Στη σελίδα **Ενεργοί χρήστες**, επιλέξτε τους χρήστες στους οποίους θέλετε να αναθέσετε μια άδεια χρήσης.
 
 ![Εκχώρηση αδειών χρήσης](./media/15AssignLicenses.png)
 

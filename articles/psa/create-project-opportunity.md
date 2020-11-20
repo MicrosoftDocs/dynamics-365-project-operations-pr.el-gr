@@ -3,7 +3,7 @@ title: Δημιουργία ευκαιρίας έργου
 description: Πώς γίνεται η δημιουργία ευκαιρίας έργου στο Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077108"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133233"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Δημιουργία ευκαιρίας έργου (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4077108"
   
 2.  Επιλέξτε **Νέο**.  
   
-3.  Στην περιοχή **Σύνοψη** , εισαγάγετε τα στοιχεία της εταιρείας και άλλες πληροφορίες της ευκαιρίας.  
+3.  Στην περιοχή **Σύνοψη**, εισαγάγετε τα στοιχεία της εταιρείας και άλλες πληροφορίες της ευκαιρίας.  
   
 4.  Προσθέστε τυχόν σημειώσεις και δραστηριότητες, (για παράδειγμα, τηλεφωνικές κλήσεις ή μηνύματα ηλεκτρονικού ταχυδρομείου), που σχετίζονται με αυτόν τον υποψήφιο πελάτη. Για να μάθετε περισσότερα σχετικά με την προσθήκη σημειώσεις και δραστηριότητες, ανατρέξτε στην ενότητα [παρακολούθηση των σημειώσεις, εργασίες, κλήσεις ή μήνυμα ηλεκτρονικού ταχυδρομείου με δραστηριότητες](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   

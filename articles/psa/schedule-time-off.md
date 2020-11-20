@@ -3,7 +3,7 @@ title: Προγραμματισμός άδειας
 description: Πώς γίνεται ο προγραμματισμός άδειας στο Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077141"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132198"
 ---
 # <a name="schedule-time-off-project-service"></a>Προγραμματισμός άδειας (Project Service)
 
@@ -35,13 +35,13 @@ ms.locfileid: "4077141"
   
 1.  Μεταβείτε στην **Project Service > Εγγραφές χρόνου**. Έτσι, εμφανίζετε το ημερολόγιό σας.  
   
-2.  Πατήστε **Προηγούμενο** ή **Επόμενο** , για να δείτε το ημερολόγιό σας για την προηγούμενη ή την επόμενη εβδομάδα. Κάντε κλικ στο κουμπί **Σήμερα** , για να επιστρέψετε στην τρέχουσα εβδομάδα.  
+2.  Πατήστε **Προηγούμενο** ή **Επόμενο**, για να δείτε το ημερολόγιό σας για την προηγούμενη ή την επόμενη εβδομάδα. Κάντε κλικ στο κουμπί **Σήμερα**, για να επιστρέψετε στην τρέχουσα εβδομάδα.  
   
 3.  Για να εισαγάγετε το χρόνο σας, είτε κάντε κλικ στο κουμπί **Νέο** ή κάντε διπλό κλικ στο ημερολόγιο της ημέρας για την οποία θέλετε να εισαγάγετε την ώρα.  
   
 4.  Συμπληρώστε τα πεδία στη φόρμα **Εισαγωγή ώρας**.  
   
-5.  Στην επιλογή **Τύπος** , επιλέξτε **Διακοπές** ή **Απουσία**.  
+5.  Στην επιλογή **Τύπος**, επιλέξτε **Διακοπές** ή **Απουσία**.  
   
 6.  Επιλέξτε **Αποθήκευση**.  
   

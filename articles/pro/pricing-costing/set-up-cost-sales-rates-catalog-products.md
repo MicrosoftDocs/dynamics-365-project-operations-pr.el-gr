@@ -1,21 +1,21 @@
 ---
-title: Καθορισμός τιμών κόστους και πωλήσεων για τα προϊόντα καταλόγου
+title: Ρύθμιση συντελεστών πωλήσεων και κόστους για τα προϊόντα καταλόγου - lite
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ρύθμισης των ποσοστών κόστους και πώλησης για στοιχεία στον κατάλογο προϊόντων.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5178a9143536bf4b2573403125325017861cdd5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 135b182af73bdab7a3520589431332ad059ec497
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076983"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176701"
 ---
-# <a name="set-up-cost-and-sales-rates-for-catalog-products"></a>Καθορισμός τιμών κόστους και πωλήσεων για τα προϊόντα καταλόγου
+# <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>Ρύθμιση συντελεστών πωλήσεων και κόστους για τα προϊόντα καταλόγου - lite
 
 _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
 

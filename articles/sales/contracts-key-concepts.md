@@ -1,21 +1,21 @@
 ---
-title: Βασικές έννοιες - Συμβάσεις έργου
+title: Συμβάσεις έργων - Βασικές έννοιες
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις βασικές έννοιες των συμβάσεων έργου στο Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076852"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175531"
 ---
-# <a name="key-concepts---project-contracts"></a>Βασικές έννοιες - Συμβάσεις έργου
+# <a name="project-contracts---key-concepts"></a>Συμβάσεις έργων - Βασικές έννοιες
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 

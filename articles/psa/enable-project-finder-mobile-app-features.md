@@ -3,7 +3,7 @@ title: Ενεργοποίηση δυνατοτήτων εφαρμογής Projec
 description: Πώς γίνεται η ενεργοποίηση δυνατοτήτων εφαρμογής Project Finder Mobile για το Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 749c5682dc2e639843a0a8a085fe8af65502d433
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076923"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132963"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Ενεργοποίηση δυνατοτήτων εφαρμογής Project Finder Mobile (Project Service)
 
@@ -42,7 +42,7 @@ ms.locfileid: "4076923"
   
 2. Επιλέξτε τη ρύθμιση παραμέτρων που θέλετε να χρησιμοποιήσετε για τις δυνατότητες της εφαρμογής Project Finder Mobile.  
   
-3. Στην περιοχή **Γενικά** , ορίστε το στοιχείο **Οι απαιτήσεις πόρων είναι ορατές στους πόρους** σε **Ναι**.  
+3. Στην περιοχή **Γενικά**, ορίστε το στοιχείο **Οι απαιτήσεις πόρων είναι ορατές στους πόρους** σε **Ναι**.  
   
 4. Ορίστε το στοιχείο **Να επιτρέπεται η ενημέρωση δεξιότητας από πόρο** σε **Ναι**.  
   

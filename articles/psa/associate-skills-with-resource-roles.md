@@ -3,7 +3,7 @@ title: Συσχετισμός δεξιοτήτων με ρόλους πόρων
 description: Πώς γίνεται ο συσχετισμός δεξιοτήτων με ρόλους πόρων στο Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b4d5fe145fc39afc1a909e0ff274c19e9a36d7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70c4b5cfca1495cb887ad6034542c46fd4cb079c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077033"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130263"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Συσχετισμός δεξιοτήτων με ρόλους πόρων (Project Service)
 
@@ -35,9 +35,9 @@ ms.locfileid: "4077033"
   
 2.  Κάντε κλικ στο ρόλο πόρων στον οποίο θέλετε να προσθέσετε δεξιότητες.  
   
-3.  Στην περιοχή **Δεξιότητες** κάντε κλικ στο **+** , για να προσθέσετε μια δεξιότητα.  
+3.  Στην περιοχή **Δεξιότητες** κάντε κλικ στο **+**, για να προσθέσετε μια δεξιότητα.  
   
-4.  Στο παράθυρο απαίτησης τεχνογνωσίας ρόλου, επιλέξτε το πεδίο **Δεξιότητα** , πατήστε το κουμπί **Αναζήτηση** και, στη συνέχεια, επιλέξτε μια δεξιότητα.  
+4.  Στο παράθυρο απαίτησης τεχνογνωσίας ρόλου, επιλέξτε το πεδίο **Δεξιότητα**, πατήστε το κουμπί **Αναζήτηση** και, στη συνέχεια, επιλέξτε μια δεξιότητα.  
   
 5.  Επιλέξτε μια επάρκεια για τη εν λόγω δεξιότητα και, στη συνέχεια, κάντε κλικ στο κουμπί **Αποθήκευση**.  
   

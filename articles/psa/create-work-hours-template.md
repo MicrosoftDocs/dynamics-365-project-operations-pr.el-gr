@@ -3,7 +3,7 @@ title: Δημιουργία προτύπου ωρών εργασίας
 description: Πώς γίνεται η δημιουργία ενός προτύπου ωρών εργασίας στο Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076926"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133053"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Δημιουργήστε ένα πρότυπο ωρών εργασίας (Project Service)
 
@@ -45,7 +45,7 @@ ms.locfileid: "4076926"
   
 2.  Επιλέξτε τον πόρο στον οποίο θέλετε να βασιστούν οι ώρες εργασίας σας.  
   
-3.  Πατήστε **Αποθήκευση ημερολογίου ως** , εισαγάγετε το όνομα για το πρότυπο ωρών εργασίας και, στη συνέχεια, πατήστε **Αποθήκευση**.  
+3.  Πατήστε **Αποθήκευση ημερολογίου ως**, εισαγάγετε το όνομα για το πρότυπο ωρών εργασίας και, στη συνέχεια, πατήστε **Αποθήκευση**.  
   
 4.  Όταν ολοκληρώσετε τις αλλαγές των επιλογών, επιλέξτε **Αποθήκευση και κλείσιμο**.  
   

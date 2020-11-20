@@ -3,7 +3,7 @@ title: Συσχετισμός δεξιοτήτων με πόρους
 description: Πώς γίνεται ο συσχετισμός δεξιοτήτων με ειδικούς πόρους στο Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9b025f9856b60e97facf15b6f2edcc8a1e59874b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e322f331b37132fa0478d190c10f3bf67c22fda3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077034"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130444"
 ---
 # <a name="associate-skills-with-resources-project-service"></a>Συσχετισμός δεξιοτήτων με πόρους (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4077034"
   
 2.  Κάντε διπλό κλικ στον πόρο στον οποίο θέλετε να προσθέσετε δεξιότητες.  
   
-3.  Στην περιοχή **Δεξιότητες** κάντε κλικ στο **+** , για να προσθέσετε μια δεξιότητα.  
+3.  Στην περιοχή **Δεξιότητες** κάντε κλικ στο **+**, για να προσθέσετε μια δεξιότητα.  
   
 4.  Στην αναδυόμενη οθόνη, συμπληρώστε τα πεδία ανάλογα με τις ανάγκες και, στη συνέχεια, πατήστε το κουμπί **Αποθήκευση** στην κάτω δεξιά γωνία της οθόνης.  
   
