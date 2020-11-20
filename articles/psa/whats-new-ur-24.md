@@ -3,7 +3,7 @@ title: Τι νέο υπάρχει ή άλλαξε στο Project Service Automat
 description: Αυτό το θέμα παραθέτει τις δυνατότητες και επιδιορθώσεις που είναι διαθέσιμες στο Project Service Automation, έκδοση ενημέρωσης 24, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076868"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126573"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Τι νέο υπάρχει στο Project Service Automation, έκδοση ενημέρωσης 24, V3
 
@@ -67,7 +67,7 @@ ms.locfileid: "4076868"
 
 Διορθώθηκαν τα ακόλουθα ζητήματα:
 
-- Στο **Χρονοδιάγραμμα έργου** , όταν αλλάζετε από το **Μη αυτόματο** στο **Αυτόματο** , η αυτόματη αποθήκευση δεν ολοκληρώνεται.
+- Στο **Χρονοδιάγραμμα έργου**, όταν αλλάζετε από το **Μη αυτόματο** στο **Αυτόματο**, η αυτόματη αποθήκευση δεν ολοκληρώνεται.
 - Το κόστος δαπανών δεν πρέπει να υπολογίζεται προς τη διακύμανση στο **Πλέγμα παρακολούθησης έργου**.
 - Ασυνεπής συμπεριφορά για στήλες **Ετικετών εκτιμήσεων** κατά τη διάρκεια της φόρτωσης σε σχέση με την αλλαγή του τύπου **Χρονικής φάσης**.
 - Το πραγματικό κόστος ενός έργου ενδέχεται να μην αντικατοπτρίζει τα σύνολα από τα **Πραγματικά στοιχεία**.

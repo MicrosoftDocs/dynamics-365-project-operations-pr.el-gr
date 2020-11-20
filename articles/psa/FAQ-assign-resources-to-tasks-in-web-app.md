@@ -3,7 +3,7 @@ title: Πώς μπορώ να αναθέσω έναν πόρο με δυνατό
 description: Μια επισκόπηση των τρόπων με τους οποίους μπορείτε να αναθέσετε πόρους με δυνατότητα κράτησης.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077104"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125178"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Πώς μπορώ να αναθέσω έναν πόρο με δυνατότητα κράτησης σε μια εργασία από την εφαρμογή web (εφαρμογή Project Service v2.x);
 

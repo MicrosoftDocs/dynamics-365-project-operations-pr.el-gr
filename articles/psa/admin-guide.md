@@ -3,7 +3,7 @@ title: Οδηγός διαχειριστή
 description: Οδηγίες βήμα προς βήμα για τη διαχείριση του Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7462a57ad750f255cfb48dbbeda7f899f51ecfa7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bce13430f56b4c72453c90a259e3ffb3a63d8a3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076953"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129541"
 ---
 # <a name="administrator-guide-project-service"></a>Οδηγός διαχείρισης (Project Service)
 
@@ -36,7 +36,7 @@ ms.locfileid: "4076953"
 - [Ρύθμιση παραμέτρων του Project Service Automation](configure.md)
 - [Ρύθμιση χρονικών μονάδων](set-up-time-units.md)
 - [Ορισμός νομισματικών μονάδων και συναλλαγματικών ισοτιμιών](set-up-currencies-exchange-rates.md)
-- [Δημιουργία οργανωτικών μονάδων](create-organizational-units.md)
+- [Δημιουργία οργανικών μονάδων](create-organizational-units.md)
 - [Ρύθμιση συχνοτήτων τιμολογίων](set-up-invoice-frequencies.md)
 - [Ρύθμιση παραμέτρων κατηγοριών συναλλαγών](configure-transaction-categories.md)
 - [Ρύθμιση παραμέτρων κατηγοριών εξόδων](configure-expense-categories.md)

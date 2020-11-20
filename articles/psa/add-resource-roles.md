@@ -3,7 +3,7 @@ title: Προσθήκη ρόλων πόρων
 description: Τρόπος για να αντιστοιχίσετε έναν ρόλο σε πόρους Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47bb6bc5e52553db77d6fe0eda2181069ddcbc2b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 378c43e206f9295d445b1323b1c67f9d573df713
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077112"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129588"
 ---
 # <a name="add-resource-roles-project-service"></a>Προσθήκη ρόλων πόρου (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4077112"
 
 Ορίστε ποσοστά χρήσης προορισμού για κάθε ρόλο. Αυτές οι ρυθμίσεις καθορίζουν τη διαθεσιμότητα και τη χρήση πόρων, κατά τη στελέχωση έργων και την ανάλυση πραγματικών στοιχείων.  
   
-1.  Μεταβείτε στο ρόλο πόρου για τον οποίο θέλετε να ρυθμίσετε τις παραμέτρους χρήσης ( **Project Service > Ρόλος πόρου** ).  
+1.  Μεταβείτε στο ρόλο πόρου για τον οποίο θέλετε να ρυθμίσετε τις παραμέτρους χρήσης (**Project Service > Ρόλος πόρου**).  
   
 2.  Κάντε κλικ στο κάτω βέλος δίπλα από το ρόλο πόρου, στο επάνω μέρος της οθόνης.  
   
@@ -39,7 +39,7 @@ ms.locfileid: "4077112"
   
 4.  Επιλέξτε **Προσθήκη νέας χρήσης ρόλου**.  
   
-5.  Στην περιοχή **Γενικά** , συμπληρώστε τα πεδία ανάλογα με τις ανάγκες σας.  
+5.  Στην περιοχή **Γενικά**, συμπληρώστε τα πεδία ανάλογα με τις ανάγκες σας.  
   
 6.  Κάντε κλικ στο κουμπί **Αποθήκευση** ή **Αποθήκευση και κλείσιμο**.  
   

@@ -3,7 +3,7 @@ title: Ρύθμιση πρόσθετων ρυθμίσεων παραμέτρων
 description: Πώς γίνεται η ρύθμιση πρόσθετων ρυθμίσεων παραμέτρων στο Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076916"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129363"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Ρύθμιση πρόσθετων ρυθμίσεων παραμέτρων (Project Service)
 
@@ -54,9 +54,9 @@ ms.locfileid: "4076916"
   
 2. Επιλέξτε τη ρύθμιση παραμέτρων που θέλετε να ρυθμίσετε (αυτές που δημιουργήσατε κατά την πρώτη εγκατάσταση του [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]) ή κάντε κλικ στο κουμπί **Δημιουργία** για να δημιουργήσετε μια νέα.  
   
-3. Στην περιοχή **Γενικά** , ορίστε όλες τις επιλογές για τις παραμέτρους του έργου σας.  
+3. Στην περιοχή **Γενικά**, ορίστε όλες τις επιλογές για τις παραμέτρους του έργου σας.  
   
-4. Στην περιοχή **Τιμοκατάλογος** , κάντε κλικ στο κουμπί **+** για να προσθέσετε έναν τιμοκατάλογο, επιλέξτε έναν τιμοκατάλογο στην αναπτυσσόμενη λίστα **Τιμοκατάλογος παραμέτρων έργου** και, στη συνέχεια, κάντε κλικ στο κουμπί **Αποθήκευση**.  
+4. Στην περιοχή **Τιμοκατάλογος**, κάντε κλικ στο κουμπί **+** για να προσθέσετε έναν τιμοκατάλογο, επιλέξτε έναν τιμοκατάλογο στην αναπτυσσόμενη λίστα **Τιμοκατάλογος παραμέτρων έργου** και, στη συνέχεια, κάντε κλικ στο κουμπί **Αποθήκευση**.  
   
 5. Επιλέξτε το κουμπί **Αποθήκευση** στην κάτω δεξιά γωνία της οθόνης.  
 

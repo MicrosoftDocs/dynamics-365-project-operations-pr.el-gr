@@ -3,7 +3,7 @@ title: Χρήση του προσθέτου Project Service για προγρα�
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την προσθήκη, τη ρύθμιση παραμέτρων και τη χρήση του πρόσθετου Microsoft Project για το Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077046"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129678"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Χρησιμοποιήστε το πρόσθετο Project Service Automation για να προγραμματίσετε την εργασία σας στο Microsoft Project
 
@@ -59,7 +59,7 @@ To [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] �
 ## <a name="read-from-a-template"></a>Ανάγνωση από πρότυπο  
  Κάντε ανάγνωση από ένα πρότυπο που δημιουργήσατε στο [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] και αντιγράψατε στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], για να ξεκινήσετε τον σχεδιασμό του έργου. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Δημιουργία προτύπου έργου (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  Από την καρτέλα **Project Service** , κάντε κλικ στις επιλογές **Ανάγνωση** > **Πρότυπο έργου Project Service Automation**.  
+1.  Από την καρτέλα **Project Service**, κάντε κλικ στις επιλογές **Ανάγνωση** > **Πρότυπο έργου Project Service Automation**.  
 
 2.  Επιλέξτε ένα πρότυπο έργου από τη λίστα και, στη συνέχεια, κάντε κλικ στο κουμπί **Άνοιγμα**.  
 
@@ -78,7 +78,7 @@ To [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] �
 
 1.  Από την καρτέλα Project Service, επιλέξτε μια γραμμή και κάντε κλικ στο κουμπί **Εύρεση πόρων**.  
 
-2.  Στην οθόνη **Κράτηση πόρου** , επιλέξτε τον πόρο που θέλετε να χρησιμοποιήσετε για το έργο.  
+2.  Στην οθόνη **Κράτηση πόρου**, επιλέξτε τον πόρο που θέλετε να χρησιμοποιήσετε για το έργο.  
 
 3.  Κάντε κλικ στο κουμπί **Κράτηση** και, στη συνέχεια, κάντε κλικ στο κουμπί **ΟΚ**.  
 
@@ -95,11 +95,11 @@ To [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] �
 |   **Χρήση** του [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]    |    Εισάγεται στην οθόνη **Εκτιμήσεις έργου** του [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |
 
 **Για να εισαγάγετε και να δημοσιεύσετε το έργο σας**  
-1. Από την καρτέλα **Project Service** , κάντε κλικ στις επιλογές **Δημοσίευση** > **Νέο έργο Project Service Automation**.  
+1. Από την καρτέλα **Project Service**, κάντε κλικ στις επιλογές **Δημοσίευση** > **Νέο έργο Project Service Automation**.  
 
-2. Στο παράθυρο διαλόγου **Δημοσίευση σε ένα νέο έργο στο Project Service** , καταχωρίστε το **Όνομα έργου** και επιλέξτε **Πελάτης**.  
+2. Στο παράθυρο διαλόγου **Δημοσίευση σε ένα νέο έργο στο Project Service**, καταχωρίστε το **Όνομα έργου** και επιλέξτε **Πελάτης**.  
 
-3. Προαιρετικά επιλέξτε **Σύνδεση πλάνου έργου στο Project Service Automation** , για να συνδέσετε το αρχείο σχεδίου του Project με το Project Service Automation.  
+3. Προαιρετικά επιλέξτε **Σύνδεση πλάνου έργου στο Project Service Automation**, για να συνδέσετε το αρχείο σχεδίου του Project με το Project Service Automation.  
 
 4. Κάντε κλικ στην επιλογή **Δημοσίευση**.  
 
@@ -139,11 +139,11 @@ To [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] �
 
 2. Επιλέξτε **Προς έγγραφα έργου του Project Service Automation**.  
 
-3. Στο παράθυρο διαλόγου **Ενεργοποίηση ανοίγματος στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , επιλέξτε **Ναι** ή **Όχι**.  
+3. Στο παράθυρο διαλόγου **Ενεργοποίηση ανοίγματος στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, επιλέξτε **Ναι** ή **Όχι**.  
 
-   - Αν κάνετε κλικ στο **Ναι** , θα έχετε τη δυνατότητα να επιλέξετε το κουμπί **Άνοιγμα στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** στο Project Service Automation, να εκκινήσετε το [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] και να φορτώσετε το αρχείο έργου από τη βιβλιοθήκη εγγράφων του SharePoint.  
+   - Αν κάνετε κλικ στο **Ναι**, θα έχετε τη δυνατότητα να επιλέξετε το κουμπί **Άνοιγμα στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** στο Project Service Automation, να εκκινήσετε το [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] και να φορτώσετε το αρχείο έργου από τη βιβλιοθήκη εγγράφων του SharePoint.  
 
-   - Αν κάνετε κλικ στο **Όχι** , η σύνδεση για το κουμπί **Άνοιγμα στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** δεν θα λειτουργεί.  
+   - Αν κάνετε κλικ στο **Όχι**, η σύνδεση για το κουμπί **Άνοιγμα στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** δεν θα λειτουργεί.  
 
 4. Το αρχείο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] είναι διαθέσιμο στο [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] στην περιοχή **Έγγραφα** του εκάστοτε έργου [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
@@ -153,22 +153,22 @@ To [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] �
 
 2. Επιλέξτε **Προς έγγραφα έργου του Project Service Automation**.  
 
-3. Στο παράθυρο διαλόγου **Ενεργοποίηση ανοίγματος στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , επιλέξτε **Ναι** ή **Όχι**.  
+3. Στο παράθυρο διαλόγου **Ενεργοποίηση ανοίγματος στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, επιλέξτε **Ναι** ή **Όχι**.  
 
-   - Αν κάνετε κλικ στο **Ναι** , θα έχετε τη δυνατότητα να επιλέξετε το κουμπί **Άνοιγμα στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** στο Project Service Automation, να εκκινήσετε το [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] και να φορτώσετε το αρχείο έργου από τη βιβλιοθήκη εγγράφων του SharePoint.  
+   - Αν κάνετε κλικ στο **Ναι**, θα έχετε τη δυνατότητα να επιλέξετε το κουμπί **Άνοιγμα στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** στο Project Service Automation, να εκκινήσετε το [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] και να φορτώσετε το αρχείο έργου από τη βιβλιοθήκη εγγράφων του SharePoint.  
 
-   - Αν κάνετε κλικ στο **Όχι** , η σύνδεση για το κουμπί **Άνοιγμα στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** δεν θα λειτουργεί.  
+   - Αν κάνετε κλικ στο **Όχι**, η σύνδεση για το κουμπί **Άνοιγμα στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** δεν θα λειτουργεί.  
 
 4. Το αρχείο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] είναι διαθέσιμο στο [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] στην περιοχή **Έγγραφα** του εκάστοτε έργου [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 ## <a name="publish--your-project-as-a-template"></a>Δημοσίευση του έργου σας ως προτύπου  
  Μπορείτε να αποθηκεύσετε το έργο σας και να το χρησιμοποιήσετε ξανά αποθηκεύοντάς το ως πρότυπο έργου στο [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Τα πρότυπα έργου είναι σχέδια με δυνατότητα επανάληψης χρήσης στο [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Δημιουργία προτύπου έργου (Project Service Automation)](../psa/create-project-template.md)  
 
-1. Από την καρτέλα **Project Service** , κάντε κλικ στις επιλογές **Δημοσίευση** > **Νέο πρότυπο έργου Project Service Automation**.  
+1. Από την καρτέλα **Project Service**, κάντε κλικ στις επιλογές **Δημοσίευση** > **Νέο πρότυπο έργου Project Service Automation**.  
 
-2. Στο πρότυπο **Δημοσίευση σε ένα νέο έργο στο Project Service** , καταχωρίστε **Όνομα προτύπου έργου**.  
+2. Στο πρότυπο **Δημοσίευση σε ένα νέο έργο στο Project Service**, καταχωρίστε **Όνομα προτύπου έργου**.  
 
-3. Προαιρετικά επιλέξτε **Σύνδεση πλάνου έργου στο Project Service Automation** , για να συνδέσετε το αρχείο έργου με το [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+3. Προαιρετικά επιλέξτε **Σύνδεση πλάνου έργου στο Project Service Automation**, για να συνδέσετε το αρχείο έργου με το [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 4. Κάντε κλικ στην επιλογή **Δημοσίευση**.  
 

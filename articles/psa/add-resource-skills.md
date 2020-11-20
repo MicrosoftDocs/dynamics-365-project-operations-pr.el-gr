@@ -3,7 +3,7 @@ title: Προθήκη δεξιοτήτων πόρων
 description: Πώς γίνεται ο συσχετισμός δεξιοτήτων με πόρους στο Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1a11861308f9bda200061880447497fd2c57b32e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 44b3d3cbb36a00e7f07160b6216ead183bc32422
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076890"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129633"
 ---
 # <a name="add-resource-skills-project-service"></a>Προσθήκη δεξιοτήτων πόρου (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4076890"
   
 2. Επιλέξτε **Νέο**.  
   
-3. Στην περιοχή **Γενικά** , πληκτρολογήστε ένα όνομα για τη δεξιότητα στο "Όνομα" και, στη συνέχεια, συμπληρώστε τα άλλα πεδία ανάλογα με τις ανάγκες σας.  
+3. Στην περιοχή **Γενικά**, πληκτρολογήστε ένα όνομα για τη δεξιότητα στο "Όνομα" και, στη συνέχεια, συμπληρώστε τα άλλα πεδία ανάλογα με τις ανάγκες σας.  
   
 4. Επιλέξτε **Αποθήκευση**.  
   

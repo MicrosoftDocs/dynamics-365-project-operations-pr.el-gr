@@ -3,7 +3,7 @@ title: Κράτηση καθορισμένων πόρων από απαιτήσ�
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την κράτηση καθορισμένων πόρων για μια απαίτηση γενικού πόρου.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077121"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125898"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Κράτηση καθορισμένων πόρων από απαιτήσεις πόρων
 
@@ -31,14 +31,14 @@ ms.locfileid: "4077121"
 
 Μπορείτε να κάνετε κράτηση ενός καθορισμένου πόρου για να αντικαταστήσετε έναν γενικό πόρο που διαθέτει μια απαίτηση πόρου.
 
-1. Στο Project Service Automation (PSA), στη σελίδα **Έργα** , επιλέξτε την καρτέλα **Ομάδα**.
+1. Στο Project Service Automation (PSA), στη σελίδα **Έργα**, επιλέξτε την καρτέλα **Ομάδα**.
 2. Επιλέξτε τον γενικό πόρο που διαθέτει μια απαίτηση πόρου από τη λίστα και, μετά επιλέξτε **Κράτηση**. Εναλλακτικά, ανοίξτε την απαίτηση πόρου και, στη συνέχεια κάντε κλικ στην **Κράτηση**.
 
 
 ![Κράτηση γενικού μέλους ομάδας](media/RM-how-to-14.png)
 
 
-3. Στη σελίδα **Βοηθός χρονοδιαγράμματος** , επιλέξτε έναν καθορισμένο πόρο για να κάνετε κράτηση στην ομάδα έργου σας και πατήστε **Κράτηση**.
+3. Στη σελίδα **Βοηθός χρονοδιαγράμματος**, επιλέξτε έναν καθορισμένο πόρο για να κάνετε κράτηση στην ομάδα έργου σας και πατήστε **Κράτηση**.
 
 ![Κράτηση γενικού μέλους ομάδας με χρήση του βοηθού χρονοδιαγράμματος](media/RM-how-to-15.png)
 
