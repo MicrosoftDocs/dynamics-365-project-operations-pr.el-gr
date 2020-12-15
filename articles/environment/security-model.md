@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124368"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642903"
 ---
 # <a name="security-model"></a>Μοντέλο ασφαλείας
 
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
-Το Microsoft Dynamics 365 Project Operations περιέχει ένα μοναδικό μοντέλο ασφαλείας το οποίο επιτρέπει σε ένα επιχειρηματικό μοντέλο ασφαλείας βάσει ρόλου να συνεργαστεί με τις Ομάδες Microsoft Office. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Το Microsoft Dynamics 365 Project Operations περιέχει ένα μοναδικό μοντέλο ασφαλείας που επιτρέπει ένα μοντέλο επιχειρηματικής ασφάλειας βάσει ρόλων που συνεργάζεται με τις Ομάδες Microsoft Office. 
 
 
 ## <a name="security-roles"></a>Ρόλοι ασφαλείας

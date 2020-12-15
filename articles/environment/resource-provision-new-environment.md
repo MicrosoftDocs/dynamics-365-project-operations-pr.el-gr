@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121173"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642971"
 ---
 # <a name="provision-a-new-environment"></a>Παροχή ενός νέου περιβάλλοντος
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο παροχής ενός νέου περιβάλλοντος Dynamics 365 Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο προμήθειας ενός νέου περιβάλλοντος Dynamics 365 Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βάσει πόρων.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Ενεργοποίηση αυτόματης παροχής Project Operations σε ένα έργο LCS
 
@@ -120,7 +122,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 ![Εφαρμογή λύσεων](./media/13ApplySolutions.png)
 
-5. Επιλέξτε και τις δύο λύσεις, **Αντιστοίχιση οντότητας διπλής εγγραφής Dynamics 365 Finance and Operations** και **Αντιστοιχίσεις οντότητας διπλής εγγραφής Dynamics 365 Project Operations** και, στη συνέχεια, επιλέξτε **Εφαρμογή**.
+5. Επιλέξτε και τις δύο λύσεις, τον **Χάρτη οντοτήτων διπλής γραφής Dynamics 365 Finance and Operations** και **Χάρτες οντοτήτων διπλής γραφής Dynamics 365 Project Operations** και, στη συνέχεια, επιλέξτε **Εφαρμογή**.
 
 ![Επιβεβαίωση λύσεων](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 | --- | --- | --- | --- | --- | --- |
 | **Ρόλοι πόρων έργου για όλες τις εταιρείες (bookableresourcecategories)** | No | Ναι | Common Data Service | No | Μη διαθέσιμο |
 | **Νομικές οντότητες (cdm\_εταιρείες)** | No | Ναι | Εφαρμογές Finance and Operations | No | Μη διαθέσιμο |
+| **Καθολικό (msdyn_ledgers)** | No | Ναι | Εφαρμογές Finance and Operations | Ναι | Ναι, εφαρμογές Finance and Operations |
 | **Πραγματικές τιμές ενοποίησης Project Operations (msdyn\_πραγματικές τιμές)** | No | No | Μη διαθέσιμο | Ναι | No |
 | **Γραμμές σύμβασης βάσει έργου (salesorderdetails)** | No | No | Μη διαθέσιμο | No | No |
 | **Οντότητα ενοποίησης για σχέσεις συναλλαγών έργου (msdyn\_transactionconnections)** | No | No | Μη διαθέσιμο | No | Μη διαθέσιμο |

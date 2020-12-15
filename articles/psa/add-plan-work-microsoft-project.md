@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129678"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642768"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Χρησιμοποιήστε το πρόσθετο Project Service Automation για να προγραμματίσετε την εργασία σας στο Microsoft Project
 
@@ -92,7 +92,7 @@ To [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] �
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  **Γράφημα Gantt** του [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]   | Εισάγεται στην οθόνη **Δομή ανάλυσης εργασίας** του [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. |
 | **Φύλλο πόρων** του [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] |   Εισάγεται στην οθόνη **Μέλη ομάδας έργου** του [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]   |
-|   **Χρήση** του [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]    |    Εισάγεται στην οθόνη **Εκτιμήσεις έργου** του [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |
+|   **Χρήση** του [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]    |    Εισάγει στην οθόνη **Εκτιμήσεις έργου** του [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].     |
 
 **Για να εισαγάγετε και να δημοσιεύσετε το έργο σας**  
 1. Από την καρτέλα **Project Service**, κάντε κλικ στις επιλογές **Δημοσίευση** > **Νέο έργο Project Service Automation**.  
@@ -173,6 +173,59 @@ To [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] �
 4. Κάντε κλικ στην επιλογή **Δημοσίευση**.  
 
 Η σύνδεση του αρχείου έργου με το [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] καθιστά το αρχείο έργου βασικό και ορίζει τη δομή ανάλυσης εργασίας στο πρότυπο [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] μόνο για ανάγνωση.  Για να κάνετε αλλαγές στο σχέδιο έργου, πρέπει να το δημιουργήσετε στο [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] και να το δημοσιεύσετε ως ενημέρωση στο [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Ανάγνωση χρονοδιαγράμματος φορτωμένου πόρου
+
+Όταν διαβάζετε ένα έργο από το Project Service Automation, το ημερολόγιο του πόρου δεν συγχρονίζεται με το πρόγραμμα-πελάτη επιφάνειας εργασίας. Εάν υπάρχουν διαφορές στη διάρκεια της εργασίας, στην προσπάθεια ή στο τέλος, αυτό συμβαίνει πιθανώς επειδή οι πόροι και το πρόγραμμα-πελάτης επιφάνειας εργασίας δεν διαθέτουν το ίδιο ημερολόγιο προτύπου ώρας εργασίας που εφαρμόζεται στο έργο.
+
+
+## <a name="data-synchronization"></a>Συγχρονισμός δεδομένων
+
+Στον ακόλουθο πίνακα περιγράφονται ο τρόπος με τον οποίο συγχρονίζονται τα δεδομένα μεταξύ του Project Service Automation και του πρόσθετου επιφάνειας εργασίας του Microsoft Project.
+
+| **Οντότητα** | **Πεδίο** | **Microsoft Project σε Project Service Automation** | **Project Service Automation σε Microsoft Project** |
+| --- | --- | --- | --- |
+| Εργασία έργου | Προθεσμία | ● | - |
+| Εργασία έργου | Εκτιμώμενη προσπάθεια | ● | - |
+| Εργασία έργου | Αναγνωριστικό προγράμματος-πελάτη MS Project | ● | - |
+| Εργασία έργου | Γονική εργασία | ● | - |
+| Εργασία έργου | Project | ● | - |
+| Εργασία έργου | Εργασία έργου | ● | - |
+| Εργασία έργου | Όνομα εργασίας έργου | ● | - |
+| Εργασία έργου | Μονάδα πόρων (Δεν χρησιμοποιείται στην έκδοση 3.0) | ● | - |
+| Εργασία έργου | Προγραμματισμένη διάρκεια | ● | - |
+| Εργασία έργου | Ημερομηνία έναρξης | ● | - |
+| Εργασία έργου | Αναγνωριστικό WBS | ● | - |
+
+| **Οντότητα** | **Πεδίο** | **Microsoft Project σε Project Service Automation** | **Project Service Automation σε Microsoft Project** |
+| --- | --- | --- | --- |
+| Μέλος ομάδας | Αναγνωριστικό προγράμματος-πελάτη MS Project | ● | - |
+| Μέλος ομάδας | Όνομα θέσης | ● | - |
+| Μέλος ομάδας | έργο | ● | ● |
+| Μέλος ομάδας | Ομάδα έργου | ● | ● |
+| Μέλος ομάδας | Μονάδα πόρων | - | ● |
+| Μέλος ομάδας | Ρόλος | - | ● |
+| Μέλος ομάδας | Ώρες εργασίας | Δεν έχει συγχρονιστεί | Δεν έχει συγχρονιστεί |
+
+| **Οντότητα** | **Πεδίο** | **Microsoft Project σε Project Service Automation** | **Project Service Automation σε Microsoft Project** |
+| --- | --- | --- | --- |
+| Ανάθεση πόρου | Ημερομηνία "Από" | ● | - |
+| Ανάθεση πόρου | Ώρες | ● | - |
+| Ανάθεση πόρου | Αναγνωριστικό προγράμματος-πελάτη MS Project | ● | - |
+| Ανάθεση πόρου | Προγραμματισμένη εργασία | ● | - |
+| Ανάθεση πόρου | Project | ● | - |
+| Ανάθεση πόρου | Ομάδα έργου | ● | - |
+| Ανάθεση πόρου | Ανάθεση πόρου | ● | - |
+| Ανάθεση πόρου | Κλείσιμο εργασίας | ● | - |
+| Ανάθεση πόρου | Έως σήμερα | ● | - |
+
+| **Οντότητα** | **Πεδίο** | **Microsoft Project σε Project Service Automation** | **Project Service Automation σε Microsoft Project** |
+| --- | --- | --- | --- |
+| Εξαρτήσεις εργασίας έργου | Εξάρτηση εργασίας έργου | ● | - |
+| Εξαρτήσεις εργασίας έργου | Τύπος σύνδεσης | ● | - |
+| Εξαρτήσεις εργασίας έργου | Εργασία προκατόχου | ● | - |
+| Εξαρτήσεις εργασίας έργου | Project | ● | - |
+| Εξαρτήσεις εργασίας έργου | Εργασία διαδόχου | ● | - |
 
 ### <a name="see-also"></a>Δείτε επίσης  
  [Οδηγός υπευθύνου έργου](../psa/project-manager-guide.md)

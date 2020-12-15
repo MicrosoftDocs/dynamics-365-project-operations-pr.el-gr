@@ -1,5 +1,5 @@
 ---
-title: Δημιουργία μιας επί τούτου προπληρωμής σε μια σύμβαση - lite
+title: Δημιουργία μιας επί τούτου προπληρωμής σε μια σύμβαση
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη δημιουργία μιας προκαταβολής σε μια σύμβαση, ανάλογα με τις ανάγκες.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181362"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595977"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Δημιουργία μιας επί τούτου προπληρωμής σε μια σύμβαση - lite
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Δημιουργία μιας επί τούτου προπληρωμής σε μια σύμβαση
 
-_**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
+_**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
 Το Microsoft Dynamics 365 Project Operations υποστηρίζει σενάρια τιμολόγησης που περιλαμβάνουν προπληρωμές και προκαταβολές. Η διεργασία για τη χρήση **προκαταβολών** στο **Project Operations** είναι παρόμοια με τις συμβάσεις **προπληρωμής**. 
 

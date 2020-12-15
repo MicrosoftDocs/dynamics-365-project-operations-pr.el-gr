@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121218"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642273"
 ---
 # <a name="currency"></a>Νομισματική μονάδα
 
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Οι νομισματικές μονάδες καθορίζουν τις τιμές των προϊόντων στον κατάλογο προϊόντων και το κόστος συναλλαγών, όπως οι παραγγελίες πωλήσεων. Εάν οι πελάτες σας είναι διασκορπισμένοι σε διάφορες γεωγραφικές περιοχές, προσθέστε τα νομίσματά τους για να διαχειριστείτε τις συναλλαγές. Προσθέστε τα νομίσματα που είναι πιο κατάλληλα για τις τρέχουσες και μελλοντικές επαγγελματικές σας ανάγκες.  
 

@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121128"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642958"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Εγγραφή για συνδρομές προεπισκόπησης του Project Operations για σενάρια πόρων/ μη εφοδιασμένα
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Αυτό το θέμα επεξηγεί τον τρόπο εγγραφής στην προσφορά προεπισκόπησης/συνεργάτη και την ανάπτυξη του περιβάλλοντος Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα.
 
@@ -31,18 +33,18 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 Όταν λάβετε μια έγκριση [αιτήματος προεπισκόπησης](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), θα λάβετε τρεις προσφορές από τη Microsoft μέσω ηλεκτρονικού ταχυδρομείου. Αυτές οι προσφορές σάς δίνουν τη δυνατότητα να αναπτύξετε την προεπισκόπηση του Project Operations:
 
-- Dynamics 365 Project Operations (CRM) – Προεπισκόπηση δοκιμαστικής έκδοσης
+- Dynamics 365 Project Operations (CRM) - Δοκιμή έκδοσης προεπισκόπησης
 - Office 365 Project Operations - Προεπισκόπηση δοκιμαστικής έκδοσης
 - Dynamics 365 Finance - Προεπισκόπηση δοκιμαστικής έκδοσης
 
 > [!IMPORTANT]
 > Μόνο ένα άτομο, ο διαχειριστής μισθωτή, σε έναν οργανισμό πρέπει να εκτελέσει αυτήν την εργασία. Εάν δεν είστε ο συνδρομητής σε αυτήν την έκδοση, περιμένετε έως ότου ολοκληρωθεί η εγγραφή του οργανισμού σας και λάβετε τα διαπιστευτήρια χρήστη σας.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – Προεπισκόπηση δοκιμαστικής έκδοσης 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - Δοκιμή έκδοσης προεπισκόπησης 
 
 Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε συνδεθεί σε ένα πρόγραμμα περιήγησης με το λογαριασμό εργασίας χρήστη του μισθωτή όπου θέλετε να γίνει προεπισκόπηση του Project Operations.
 
-1. Εξαργυρώστε τον κωδικό πρώτης προσφοράς, **Dynamics 365 Project Operations (CRM) - Προεπισκόπηση δοκιμαστικής έκδοσης** με επικόλληση στη διεύθυνση URL του προγράμματος περιήγησης.
+1. Εξαργυρώστε τον κωδικό πρώτης προσφοράς, **Dynamics 365 Project Operations (CRM) - Δοκιμή έκδοσης προεπισκόπησης** επικολλώντας τον στη διεύθυνση URL του προγράμματος περιήγησης.
 
 ![Εξαργύρωση προσφοράς](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 ![Εκχώρηση αδειών χρήσης](./media/15AssignLicenses.png)
 
-3. Επαληθεύστε ότι έχει επιλεγεί η άδεια χρήσης **Προεπισκόπηση Dynamics 365 Project Operations (CRM)** και **Office 365 Project Operations - Προεπισκόπηση** και επιλέξτε **Αποθήκευση αλλαγών**.
+3. Επαληθεύστε ότι η άδεια χρήσης του **Dynamics 365 Project Operations (CRM) έκδοση προεπισκόπησης** και του **Office 365** έχουν επιλεγεί και επιλέξτε **Αποθήκευση αλλαγών**.
 
 > [!NOTE]
 > Η δοκιμαστική έκδοση του Finance δεν χρειάζεται να ανατεθεί σε χρήστη.
