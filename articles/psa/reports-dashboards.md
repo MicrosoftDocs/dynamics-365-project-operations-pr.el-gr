@@ -18,23 +18,25 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f3a667823ac2b789bb106a1831cb7b6a56baf4c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 5573bdaf05cb430131d92be771fb91900fb5453a
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120408"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147788"
 ---
-# <a name="dashboards"></a><span data-ttu-id="46ca9-103">Πίνακες εργαλείων</span><span class="sxs-lookup"><span data-stu-id="46ca9-103">Dashboards</span></span>
+# <a name="dashboards"></a><span data-ttu-id="f0876-103">Πίνακες εργαλείων</span><span class="sxs-lookup"><span data-stu-id="f0876-103">Dashboards</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="46ca9-104">Το Dynamics 365 Project Service Automation περιλαμβάνει δύο πίνακες εργαλείων συστήματος: **Διαχειριστής πρακτικής** και **Διαχειριστής πόρων**.</span><span class="sxs-lookup"><span data-stu-id="46ca9-104">Dynamics 365 Project Service Automation includes two system dashboards: **Practice Manager** and **Resource Manager**.</span></span>
+<span data-ttu-id="f0876-104">Το Dynamics 365 Project Service Automation περιλαμβάνει δύο πίνακες εργαλείων συστήματος: **Διαχειριστής πρακτικής** και **Διαχειριστής πόρων**.</span><span class="sxs-lookup"><span data-stu-id="f0876-104">Dynamics 365 Project Service Automation includes two system dashboards: **Practice Manager** and **Resource Manager**.</span></span>
 
-## <a name="practice-manager"></a><span data-ttu-id="46ca9-105">Διαχειριστής πρακτικής</span><span class="sxs-lookup"><span data-stu-id="46ca9-105">Practice Manager</span></span> 
+## <a name="practice-manager"></a><span data-ttu-id="f0876-105">Διαχειριστής πρακτικής</span><span class="sxs-lookup"><span data-stu-id="f0876-105">Practice Manager</span></span> 
 
-<span data-ttu-id="46ca9-106">Ο πίνακας εργαλείων **Διαχειριστής πρακτικής** δίνει στους υπεύθυνους πρακτικής μια εμπειρία πινάκων εργαλείων γραφικών για την παρακολούθηση του κόστους, των πωλήσεων και του περιθωρίου ακαθάριστου κέρδους και χρήσης.</span><span class="sxs-lookup"><span data-stu-id="46ca9-106">The **Practice Manager** dashboard gives practice managers a graphical dashboard experience for tracking costs, sales, and gross margin and utilization.</span></span> <span data-ttu-id="46ca9-107">Επίσης, οι διαχειριστές πρακτικής μεταβάλλουν τις πληροφορίες κατά διάφορες διαστάσεις, όπως ο ρόλος "πελάτης", "έργο" ή "πόρος".</span><span class="sxs-lookup"><span data-stu-id="46ca9-107">It also lets practice managers slice the information by various dimensions, such as customer, project, or resource role.</span></span> <span data-ttu-id="46ca9-108">Για περισσότερες πληροφορίες σχετικά με το πώς μπορείτε να δημιουργήσετε και να προσαρμόσετε πίνακες εργαλείων δείτε [Δημιουργία ή επεξεργασία πινάκων εργαλείων](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).</span><span class="sxs-lookup"><span data-stu-id="46ca9-108">For more information about how to create and customize dashboards, see [Create or edit dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).</span></span>
+<span data-ttu-id="f0876-106">Ο πίνακας εργαλείων **Διαχειριστής πρακτικής** δίνει στους υπεύθυνους πρακτικής μια εμπειρία πινάκων εργαλείων γραφικών για την παρακολούθηση του κόστους, των πωλήσεων και του περιθωρίου ακαθάριστου κέρδους και χρήσης.</span><span class="sxs-lookup"><span data-stu-id="f0876-106">The **Practice Manager** dashboard gives practice managers a graphical dashboard experience for tracking costs, sales, and gross margin and utilization.</span></span> <span data-ttu-id="f0876-107">Επίσης, οι διαχειριστές πρακτικής μεταβάλλουν τις πληροφορίες κατά διάφορες διαστάσεις, όπως ο ρόλος "πελάτης", "έργο" ή "πόρος".</span><span class="sxs-lookup"><span data-stu-id="f0876-107">It also lets practice managers slice the information by various dimensions, such as customer, project, or resource role.</span></span> <span data-ttu-id="f0876-108">Για περισσότερες πληροφορίες σχετικά με το πώς μπορείτε να δημιουργήσετε και να προσαρμόσετε πίνακες εργαλείων δείτε [Δημιουργία ή επεξεργασία πινάκων εργαλείων](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).</span><span class="sxs-lookup"><span data-stu-id="f0876-108">For more information about how to create and customize dashboards, see [Create or edit dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).</span></span>
 
-## <a name="resource-manager"></a><span data-ttu-id="46ca9-109">Διαχειριστής πόρων</span><span class="sxs-lookup"><span data-stu-id="46ca9-109">Resource Manager</span></span> 
+## <a name="resource-manager"></a><span data-ttu-id="f0876-109">Διαχειριστής πόρων</span><span class="sxs-lookup"><span data-stu-id="f0876-109">Resource Manager</span></span> 
 
-<span data-ttu-id="46ca9-110">Ο πίνακας εργαλείων **Διαχειριστής πόρων** παρέχει στους διαχειριστές πόρων μια εμπειρία πινάκων εργαλείων με γραφικά για την παρακολούθηση των αιτήσεων πόρων και της ζήτησης και της χρήσης των πόρων.</span><span class="sxs-lookup"><span data-stu-id="46ca9-110">The **Resource Manager** dashboard gives resource managers a graphical dashboard experience for monitoring resource requests, and resource demand and utilization.</span></span> <span data-ttu-id="46ca9-111">Επίσης, οι διαχειριστές πόρων της εταιρείας σας αναλύουν τις εποπτευόμενες πληροφορίες σε διάφορες διαστάσεις.</span><span class="sxs-lookup"><span data-stu-id="46ca9-111">It also lets resource managers slice the monitored information by various dimensions.</span></span>
+<span data-ttu-id="f0876-110">Ο πίνακας εργαλείων **Διαχειριστής πόρων** παρέχει στους διαχειριστές πόρων μια εμπειρία πινάκων εργαλείων με γραφικά για την παρακολούθηση των αιτήσεων πόρων και της ζήτησης και της χρήσης των πόρων.</span><span class="sxs-lookup"><span data-stu-id="f0876-110">The **Resource Manager** dashboard gives resource managers a graphical dashboard experience for monitoring resource requests, and resource demand and utilization.</span></span> <span data-ttu-id="f0876-111">Επίσης, οι διαχειριστές πόρων της εταιρείας σας αναλύουν τις εποπτευόμενες πληροφορίες σε διάφορες διαστάσεις.</span><span class="sxs-lookup"><span data-stu-id="f0876-111">It also lets resource managers slice the monitored information by various dimensions.</span></span>
