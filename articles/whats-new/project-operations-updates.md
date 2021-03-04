@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: acafb97b2bb20deaf12db12cd9238cf5ad0817a9
-ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
+ms.openlocfilehash: b90de169bd9ed2c408f1fded20a6fe95f55ce230
+ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689410"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5141207"
 ---
 # <a name="project-operations-updates"></a>Ενημερώσεις Project Operations
 
@@ -26,36 +26,40 @@ _**Ισχύει για:** Project Operations για μη εφοδιασμένα 
 
 Το Dynamics 365 Project Operations αποτελείται από δύο στοιχεία:
 
-- Το Project Operations σε περιβάλλον Common Data Service (CDs) καλύπτει δυνατότητες από την ευκαιρία για την προτιμολόγηση. Το CDS χρησιμοποιείται στην lite ανάπτυξη και στην ανάπτυξη σεναρίων βασισμένων σε πόρους/μη εφοδιασμένα του Project Operations.
+- Το Project Operations σε περιβάλλον Dataverse καλύπτει δυνατότητες από την ευκαιρία για την προτιμολόγηση. Το Dataverse χρησιμοποιείται στην lite ανάπτυξη και στην ανάπτυξη σεναρίων βασισμένων σε πόρους/μη εφοδιασμένα του Project Operations.
 - Η διαχείριση έργου και η λογιστική στο Dynamics 365 Finance περιβάλλον καλύπτουν τις δυνατότητες διαχείρισης εξόδων, τη λογιστική έργου και την αναγνώριση εσόδων. Το περιβάλλον εφραμογής Finance and Operations χρησιμοποιείται στο Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους και στο Project Operations για εφοδιασμένα σενάρια ή σενάρια βασισμένα σε παραγωγή.
 
 ## <a name="project-operations-latest-version"></a>Πιο πρόσφατη έκδοση του Project Operations
 
-| Project Operations σε περιβάλλον CDS | Διαχείριση έργου και λογιστικής σε περιβάλλοντα εφαρμογής Finance and Operations |
+| Project Operations σε περιβάλλον Dataverse | Διαχείριση έργου και λογιστικής σε περιβάλλοντα εφαρμογής Finance and Operations |
 | --- | --- |
-| 4.5.0.134 | 10.0.15 |
+| 4.7.0.95 | 10.0.16 |
 
-Project Operations Δεκέμβριος 2020 σημειώσεις έκδοσης για [Βάσει πόρων/μη εφοδιασμένα](whats-new-dec-2020-resource-based.md).
+Σημειώσεις έκδοσης του Project Operations για τον Ιανουαρίου του 2021 για σενάρια [Πόρων/μη εφοδιασμένα](whats-new-feb-2021-resource-based.md), [Lite ανάπτυξη](../pro/whats-new/whats-new-feb-2021-lite.md) και [εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
 
-## <a name="release-schedule-for-project-operations-on-cds-environment"></a>Χρονοδιάγραμμα έκδοσης για το Project Operations σε περιβάλλον CDS
+## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Χρονοδιάγραμμα έκδοσης για το Project Operations σε περιβάλλον Dataverse
 
-Οι ενημερώσεις για το Project Operations σε περιβάλλον CDS είναι διαθέσιμες κάθε μήνα. 
+Οι ενημερώσεις για το Project Operations σε περιβάλλον Dataverse είναι διαθέσιμες κάθε μήνα. 
 
 | Σταθμός   | Περιοχή        | Τρέχουσα έκδοση | Επόμενη έκδοση | Γενικώς διαθέσιμο |
 |-----------|---------------|-----------------|--------------|---------------------|
+| Σταθμός 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
+|   &nbsp;  | Πρώτη έκδοση |  4.7.0.95       | TBD     | 19-Φεβρ-21           |
 | Σταθμός 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Νότια Αμερική |  4.5.0.134       | TBD     | 08-Ιαν-21           |
-|    &nbsp; | Καναδάς        |  4.5.0.134       | TBD     | 08-Ιαν-21          |
-|   &nbsp;  | Ινδία         |  4.5.0.134       | TBD     | 08-Ιαν-21           |
+|   &nbsp;  | Νότια Αμερική |  4.7.0.95       | TBD     | 19-Φεβρ-21           |
+|    &nbsp; | Καναδάς        |  4.7.0.95       | TBD     | 19-Φεβρ-21           |
+|   &nbsp;  | Ινδία         |  4.7.0.95       | TBD     | 19-Φεβρ-21           |
+|   &nbsp;  | Γαλλία         |  4.7.0.95       | TBD     | 19-Φεβρ-21           |
+|   &nbsp;  | Ηνωμένα Αραβικά Εμιράτα         |  4.7.0.95       | TBD     | 19-Φεβρ-21           |
 | Σταθμός 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Ιαπωνία         |  4.5.0.134       | TBD     | 15-Ιαν-21           |
-|   &nbsp;  | Ασία-Ειρηνικός  |  4.5.0.134       | TBD     | 15-Ιαν-21           |
-|   &nbsp;  | Μεγάλη Βρετανία |  4.5.0.134       | TBD     | 15-Ιαν-21           |
-|   &nbsp;  | Ωκεανία       |  4.5.0.134       | TBD     | 15-Ιαν-21           |
+|   &nbsp;  | Ιαπωνία         |  4.7.0.95       | TBD     | 26-Φεβρ-21           |
+|   &nbsp;  | Ασία-Ειρηνικός  |  4.7.0.95       | TBD     | 26-Φεβρ-21           |
+|   &nbsp;  | Μεγάλη Βρετανία |  4.7.0.95       | TBD     | 26-Φεβρ-21           |
+|   &nbsp;  | Ωκεανία       |  4.7.0.95       | TBD     | 26-Φεβρ-21           |
 | Σταθμός 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Ευρώπη        |  4.4.0.70       | 4.5.0.134     | 11-Δεκ-20           |
+|   &nbsp;  | Ευρώπη        |  4.6.0.161       | 4.7.0.95     | 12-Φεβρ-21           |
 | Σταθμός 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Βόρεια Αμερική |  4.4.0.70       | 4.5.0.134     | 18-Δεκ-20           |
+|   &nbsp;  | Βόρεια Αμερική |  4.6.0.161       | 4.7.0.95     | 19-Φεβρ-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Χρονοδιάγραμμα έκδοσης για τη διαχείριση έργου και τη λογιστική στο περιβάλλον εφαρμογής Finance and Operations
 
@@ -63,13 +67,13 @@ Project Operations Δεκέμβριος 2020 σημειώσεις έκδοσης
 
 | Υποστηριζόμενη έκδοση | Γενικά διαθέσιμο (αυτόματη ενημέρωση) |
 | --- | --- |
+| 10.0.16 | 22 Ιανουαρίου 2021 |
 | 10.0.15 | 4 Δεκεμβρίου 2020 |
-| 10.0.14 | 23 Οκτωβρίου 2020 |
+
 
 Οι στοχευμένες ημερομηνίες διάθεσης υπόκεινται σε αλλαγές. Για περισσότερες πληροφορίες, ανατρέξτε στο θέμα [Διαθεσιμότητα ενημέρωσης υπηρεσίας](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
 
 | Ημερομηνία κυκλοφορίας-στόχος | Γενικά διαθέσιμο (αυτόματη ενημέρωση) |
 | --- | --- |
-| 10.0.16 | 22 Ιανουαρίου 2021 |
-| 10.0.17 | 1 Φεβρουαρίου 2021 |
-
+| 10.0.17 | 19 Μαρτίου 2021 |
+| 10.0.18 | 16 Απριλίου 2021 |
