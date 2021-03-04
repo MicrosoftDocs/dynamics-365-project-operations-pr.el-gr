@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700680"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727880"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει τον Δεκέμβριο του 2020 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 
@@ -24,6 +24,8 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 - Project Operations σε περιβάλλον Dataverse έκδοση 4.5.0.134
 - Διαχείριση έργου και λογιστικής στο περιβάλλον Dynamics 365 Finance έκδοση 10.0.15
+
+Για πληροφορίες σχετικά με τον τρόπο ενημέρωσης σε αυτήν την έκδοση, ανατρέξτε στο θέμα [Ενημέρωση Project Operations στο περιβάλλον Finance](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>Δυνατότητες που περιλαμβάνονται σε αυτήν την έκδοση
 Τα ακόλουθα χαρακτηριστικά περιλαμβάνονται σε αυτήν την έκδοση:

@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b075b926585e27b8811f999e41dcb271277d360e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 35a76cad8c6ddaa84038746ace6a7e1e5623388f
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077061"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960067"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Προβολή μιας αναφοράς εξόδων από τη γενική λογιστική ή τις προμήθειες
-
-[!include [banner](../includes/banner.md)]
 
 Όταν εκτελείτε ένα ερώτημα για την προβολή συναλλαγών στη γενική λογιστική ή τις προμήθειες, το ερώτημα μπορεί να επιστρέψει πάρα πολλές πληροφορίες. Επομένως, ενδεχομένως να θέλετε να περιορίσετε την αναζήτησή σας. Για να βρείτε τις πληροφορίες που χρειάζεστε, μπορείτε να κάνετε λεπτομερή έρευνα σε μια συναλλαγή για να δείτε την αναφορά εξόδων στην οποία εμφανίστηκαν.
 

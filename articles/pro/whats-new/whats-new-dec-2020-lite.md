@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6a001cea56411865599a5c0a41fe47682dad35c2
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: bfa13ab74031eb52c128fed16a31e3a8167e8bde
+ms.sourcegitcommit: ec8ab099a03725de9f61edfdeb90fbefae54cd4e
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700816"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4707673"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Τι νέο υπάρχει για τον Δεκέμβριος 2020 - lite ανάπτυξη Project Operations - συμφωνία για προτιμολόγηση
 
@@ -24,7 +24,7 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
 
   - Project Operations σε περιβάλλον Dataverse έκδοση 4.5.0.134 
 
-Ο παρακάτω πίνακας παραθέτει τις ενημερώσεις στο Project Operations σε περιβάλλον Dataverse έκδοση 4.4.0.70.
+Ο παρακάτω πίνακας παραθέτει τις ενημερώσεις στο Project Operations σε περιβάλλον Dataverse έκδοση 4.5.0.134.
 
 | **Περιοχή δυνατοτήτων** | **Αριθμός αναφοράς** | **Ενημέρωση ποιότητας** |
 | --- | --- | --- |

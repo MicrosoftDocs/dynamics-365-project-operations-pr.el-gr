@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 825b6c131c8a65b99d5b7ebdadcd6389886f2d11
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d6b9d4fa0f69b4b0fe4bd1786958d22e5580a321
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077065"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960877"
 ---
 # <a name="personal-expenses-on-an-expense-report"></a>Προσωπικά έξοδα σε μια αναφορά εξόδων
-
-[!include [banner](../includes/banner.md)]
 
 Κατά τη διάρκεια του επαγγελματικού ταξιδιού, οι εργαζόμενοι μπορεί να χρεώνουν μερικές φορές προσωπικές δαπάνες στις εταιρικές πιστωτικές κάρτες τους. Εάν δεν καθορίσετε μια διεργασία για το χειρισμό προσωπικών εξόδων, η διαδικασία έγκρισης για τις αναφορές εξόδων μπορεί να διακοπεί όταν οι εργαζόμενοι υποβάλουν τις αναλυτικές αναφορές εξόδων. 
 
