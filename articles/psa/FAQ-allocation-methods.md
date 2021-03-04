@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e1ceb7ea5484a1d099c4709eda48d34ecd9bac2e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131356"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151613"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Μέθοδοι εκχώρησης κρατήσεων στο Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Είτε προσθέτετε ένα μέλος της ομάδας απευθείας σε ένα έργο στην καρτέλα **Ομάδα** ή κάνετε κράτηση ενός πόρου για ένα έργο ή μιας απαίτησης από τον πίνακα χρονοδιαγράμματος, υπάρχουν διαφορετικές μέθοδοι κατανομής κράτησης που μπορείτε να χρησιμοποιήσετε. Αυτό το θέμα εξηγεί τον τρόπο λειτουργίας της κάθε μεθόδου και ποιες μεθόδους μπορεί να επιφέρουν υπερβολική κράτηση πόρων.
 
