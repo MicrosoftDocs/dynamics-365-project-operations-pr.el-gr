@@ -48,3 +48,6 @@ ms.locfileid: "5146079"
  [Οδηγός υπεύθυνου έργου](../psa/project-manager-guide.md)   
  [Οδηγός υπεύθυνου πόρων](../psa/resource-manager-guide.md)   
  [Οδηγός Χρόνου, Εξόδων και Συνεργασίας](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

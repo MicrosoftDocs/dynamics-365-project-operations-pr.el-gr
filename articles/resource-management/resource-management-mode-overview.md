@@ -48,3 +48,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 Κράτηση πόρου από απαίτηση πόρου:
 - [Ανάθεση γενικών πόρων με δυνατότητα κράτησης σε μια εργασία και δημιουργία απαιτήσεων πόρου](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Κράτηση καθορισμένων πόρων από απαιτήσεις πόρων](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

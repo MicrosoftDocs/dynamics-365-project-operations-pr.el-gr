@@ -20,3 +20,6 @@ ms.locfileid: "4514527"
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
 Μπορείτε να χρησιμοποιήσετε το Dynamics 365 Field Service για να δημιουργήσετε πόρους με δυνατότητα κράτησης για χρήση στο περιβάλλον του Dynamics 365 Project Operations. Για να δημιουργήσετε αυτούς τους πόρους, ανατρέξτε στοθέμα  [Ρύθμιση πόρων με δυνατότητα κράτησης](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

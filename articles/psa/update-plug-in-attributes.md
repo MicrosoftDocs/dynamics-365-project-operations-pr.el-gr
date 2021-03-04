@@ -68,3 +68,6 @@ ms.locfileid: "5147068"
 
 9. Κλείστε το εργαλείο καταχώρισης προσθήκης.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

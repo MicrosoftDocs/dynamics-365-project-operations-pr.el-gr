@@ -153,3 +153,6 @@ ms.locfileid: "4764819"
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Αντιστοίχιση ορόσημων της γραμμής σύμβασης έργου στα έργα και τις συμβάσεις (PSA 3.x σε Dynamics) - πρότυπο v2:
 
 [![Αντιστοίχιση ορόσημου γραμμής σύμβασης έργου με πρότυπο έκδοσης δύο](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ ms.locfileid: "5149993"
 
 3. Επιλέξτε τον πόρο που θέλετε να αναθέσετε στην εργασία.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

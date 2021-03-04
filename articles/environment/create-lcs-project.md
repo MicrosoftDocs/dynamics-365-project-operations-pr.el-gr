@@ -36,3 +36,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 Χρησιμοποιήστε αυτό το έργο LCS για την ανάπτυξη του περιβάλλοντος Project Operations.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

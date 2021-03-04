@@ -209,3 +209,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 
 Το περιβάλλον Project Operations έχει πλέον δοθεί και ρυθμιστεί. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

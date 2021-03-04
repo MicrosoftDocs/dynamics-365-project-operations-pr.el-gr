@@ -113,3 +113,6 @@ USSI, η νομική οντότητα δανεισμού πρέπει να δη
 Για περισσότερες πληροφορίες, ανατρέξτε στην ενότητα [Ρύθμιση παραμέτρων διεταιρικής τιμολόγησης έργων](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

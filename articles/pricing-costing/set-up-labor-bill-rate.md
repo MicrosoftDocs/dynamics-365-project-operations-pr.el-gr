@@ -55,3 +55,6 @@ _ **Ισχύει για:** Project Operations για σενάρια βασισμ
     | Developer | Fabrikam US | Fabrikam US - Robotics | $150 |
 
 3. Επισυνάψτε τον τιμοκατάλογο, **Συντελεστές χρέωσης Fabrikam US** στον τιμοκατάλογο έργου της σύμβασης έργου ή σε ένα συγκεκριμένο λογαριασμό.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

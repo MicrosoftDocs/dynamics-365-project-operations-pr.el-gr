@@ -73,3 +73,6 @@ ms.locfileid: "5150128"
  [Οδηγός υπεύθυνου λογαριασμού](../psa/account-manager-guide.md)   
  [Οδηγός υπεύθυνου έργου](../psa/project-manager-guide.md)   
  [Οδηγός υπεύθυνου πόρων](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

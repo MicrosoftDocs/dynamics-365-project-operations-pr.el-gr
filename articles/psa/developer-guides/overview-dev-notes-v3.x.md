@@ -33,3 +33,6 @@ ms.locfileid: "5148688"
 - [Αλλαγές χρόνου και δαπανών (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [Αλλαγές διαχείρισης πόρων (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [Πόροι web που δεν χρησιμοποιούνται στο Project Service Automation 3.x](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

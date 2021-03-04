@@ -106,3 +106,6 @@ ms.locfileid: "5151433"
 
 8. Επαναλάβετε τα βήματα 1 έως και 7 για τη δεύτερη προσθήκη.
 9. Κλείστε το εργαλείο PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

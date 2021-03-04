@@ -64,3 +64,6 @@ ms.locfileid: "5143633"
 
     -   Διόρθωση: όταν οι χρήστες κάνουν αναβάθμιση από 2. X σε 3. X, θα επιτρέπονται έργα με τιμή NULL για το όνομα του έργου.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

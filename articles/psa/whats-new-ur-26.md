@@ -74,3 +74,6 @@ ms.locfileid: "5143558"
 - Όταν επιλέγετε μια γραμμή βάσει έργου σε μια προσφορά ή μια σύμβαση, το κουμπί **Πρόταση** θα πρέπει να είναι ορατό μόνο όταν επιλέγετε μια γραμμή βασισμένη σε προϊόντα που σχετίζεται με ένα υπάρχον προϊόν.
 - Διαίρεση του προνομίου **Create_Product** από το προνόμιο **Create_ProjectContract**.
 - Η διαγραφή μιας γραμμής τιμολογίου προκαλεί αποτυχία αναφοράς null στο **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

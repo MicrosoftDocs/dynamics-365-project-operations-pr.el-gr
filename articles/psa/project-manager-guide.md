@@ -95,3 +95,6 @@ ms.locfileid: "5148283"
  [Οδηγός υπεύθυνου πόρων](../psa/resource-manager-guide.md)   
  [Οδηγός Χρόνου, Εξόδων και Συνεργασίας](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

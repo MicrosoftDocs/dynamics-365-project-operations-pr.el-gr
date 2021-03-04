@@ -49,3 +49,6 @@ ms.locfileid: "4076894"
     | Ημερομηνία λήξης    | Καταγράψτε την ημερομηνία λήξης για τη διαδικασία συγχρονισμού για τις συναθροίσεις παραγωγικής ικανότητας πόρων. |
 
 [![Διαδικασία συγχρονισμού](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

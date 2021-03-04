@@ -52,3 +52,6 @@ ms.locfileid: "5145763"
  [Οδηγός υπεύθυνου λογαριασμού](../psa/account-manager-guide.md) [Οδηγός υπεύθυνου έργου](../psa/project-manager-guide.md)   
  [Οδηγός υπεύθυνου πόρων](../psa/resource-manager-guide.md)   
  [Οδηγός Χρόνου, Εξόδων και Συνεργασίας](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

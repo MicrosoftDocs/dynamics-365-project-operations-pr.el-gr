@@ -134,3 +134,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 13. Επιλέξτε **Αποθήκευση**. 
 
 ![Ενημερωμένες παράμετροι έργου](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

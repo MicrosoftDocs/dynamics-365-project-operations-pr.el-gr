@@ -44,3 +44,6 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
 2. Εγκαταστήστε το **Microsoft Dynamics 365 Project Operations** από τη λίστα ανάπτυξης των εφαρμογών Dynamics 365. Για περισσότερες πληροφορίες, ανατρέξτε στη [Διαχείριση εφαρμογών Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

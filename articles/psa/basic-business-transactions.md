@@ -149,3 +149,6 @@ ms.locfileid: "5149903"
 | Διόρθωση προσχέδιου τιμολογίου       | GUID συναλλαγών γραμμής τιμολογίου | Αντικατάσταση          | msdyn_invoicelinetransaction | Χρεωμένες πωλήσεις GUID            | Αρχική           | msdyn_actual       |
 | Επιβεβαίωση διόρθωσης τιμολογίου     | GUID καθολικών χρεώσιμων πωλήσεων    | Αντιστροφή          | msdyn_actual                 | Χρεωμένες πωλήσεις GUID            | Αρχική           | msdyn_actual       |
 | Πραγματικό GUID νέων πωλήσεων με χρέωση | Αντικατάσταση                     | msdyn_actual       | Χρεωμένες πωλήσεις GUID            | Αρχική                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

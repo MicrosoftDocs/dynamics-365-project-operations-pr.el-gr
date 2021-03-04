@@ -107,3 +107,6 @@ ms.locfileid: "5147835"
 Η εικόνα που ακολουθεί εμφανίζει τις αλλαγές που πραγματοποιούνται για εγκεκριμένες καταχωρήσεις δαπανών, όταν αυτές ανακαλούνται.
 
 ![Μεταβάσεις κατάστασης καταχωρήσεων δαπανών](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

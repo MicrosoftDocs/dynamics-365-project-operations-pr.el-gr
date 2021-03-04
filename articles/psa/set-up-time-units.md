@@ -47,3 +47,6 @@ ms.locfileid: "5149768"
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Ρύθμιση παραμέτρων του Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

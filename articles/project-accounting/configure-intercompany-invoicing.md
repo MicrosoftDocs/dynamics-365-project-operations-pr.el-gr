@@ -101,3 +101,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
           - **Εταιρεία πόρων** = **Contoso Robotics UK**
           - **Τιμή χρέωσης** = **200 USD**
       9. Μεταβείτε στις **Πωλήσεις** > **Συμβάσεις έργου** και επισυνάψτε τον τιμοκατάλογο των **Τιμών χρέωσης του Adventure Works** στον τιμοκατάλογο του έργου Adventure Works της σύμβασης έργου.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

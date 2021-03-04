@@ -37,3 +37,6 @@ ms.locfileid: "4960742"
 |Ξενοδοχείο         |EUR 725              |EUR 557                        |EUR 168                          |
 |Γεύματα         |EUR 346              |EUR 284                        |EUR 62                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

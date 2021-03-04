@@ -45,3 +45,6 @@ ms.locfileid: "5145268"
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Ρύθμιση πόρων](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

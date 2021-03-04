@@ -198,3 +198,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

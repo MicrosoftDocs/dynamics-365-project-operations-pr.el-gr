@@ -105,3 +105,6 @@ ms.locfileid: "5148193"
  [Επισκόπηση του Project Service](../psa/overview.md)   
  [Οδηγός Χρόνου, Εξόδων και Συνεργασίας](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

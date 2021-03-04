@@ -78,3 +78,6 @@ ms.locfileid: "4643083"
 5. Προσθέστε **msdyn_bookableresourceid** στο **όνομα πεδίου**.
 
  ![Φόρμα νέου ονόματος πεδίου διάστασης τιμολόγησης](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

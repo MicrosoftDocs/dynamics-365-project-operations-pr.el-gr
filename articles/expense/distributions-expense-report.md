@@ -30,3 +30,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 | Ναύλος τρένου   | DKK 578              | DKK 405                         | DKK 173                         |
 | Ξενοδοχείο        | EUR 725              | EUR 557                         | EUR 168                         |
 | Γεύματα        | EUR 346              | EUR 284                         | EUR 62                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

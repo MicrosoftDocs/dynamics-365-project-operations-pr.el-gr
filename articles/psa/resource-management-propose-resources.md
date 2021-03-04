@@ -113,3 +113,6 @@ ms.locfileid: "5147518"
 Για να προβάλετε περισσότερες λεπτομέρειες σχετικά με έναν μεμονωμένο πόρο, κάντε δεξί κλικ σε αυτόν για να ανοίξετε την καρτέλα πόρου.
 
 ![Κάρτα πόρου](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

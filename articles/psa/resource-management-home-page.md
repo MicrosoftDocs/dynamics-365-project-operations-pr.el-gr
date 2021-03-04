@@ -41,3 +41,6 @@ ms.locfileid: "5147563"
 - [Προκαταρκτικές απαιτήσεις](resource-management-softbook-requirements.md)
 - [Μοντέλα δεξιοτήτων και επάρκειας](resource-management-skills-proficiency.md)
 - [Συνήθεις ερωτήσεις για τη διαχείριση πόρων](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

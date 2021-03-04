@@ -55,3 +55,6 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
 ## <a name="see-also"></a>Δείτε επίσης
 
 - [Επισκόπηση εγκρίσεων](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

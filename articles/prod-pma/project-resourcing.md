@@ -55,3 +55,6 @@ ms.locfileid: "4076902"
 - [Επιδόσεις προγραμματισμού πόρων έργου](project-scheduling-performance.md)
 - [Ρύθμιση ρόλων σε πρότυπα δομής ανάλυσης εργασίας](set-up-roles-wbs-template.md)
 - [Κάλυψη πόρου για προγραμματισμένους πόρους](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

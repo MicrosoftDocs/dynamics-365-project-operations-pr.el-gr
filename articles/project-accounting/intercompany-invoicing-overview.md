@@ -43,3 +43,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 - [Ρύθμιση παραμέτρων διεταιρικής τιμολόγησης](configure-intercompany-invoicing.md)
 - [Καταγραφή διεταιρικών συναλλαγών](create-intercompany-transactions.md)
 - [Δημιουργία διεταιρικών τιμολογίων πελατών και προμηθευτών](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

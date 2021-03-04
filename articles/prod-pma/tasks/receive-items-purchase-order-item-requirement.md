@@ -56,3 +56,6 @@ ms.locfileid: "4077083"
 21. Στο πεδίο **Απόδειξη προϊόντος** , πληκτρολογήστε μια τιμή.
 22. Επιλέξτε **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

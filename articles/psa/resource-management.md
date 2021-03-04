@@ -53,3 +53,6 @@ ms.locfileid: "5147427"
 - [Κράτηση καθορισμένων πόρων από απαιτήσεις πόρων](book-named-resource.md)
 - [Υποβολή αίτησης πόρου](submit-resource-request.md)
 - [Αποδοχή ή απόρριψη ενός πόρου έργου που προτείνεται από μια αίτηση πόρου](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

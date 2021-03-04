@@ -73,3 +73,6 @@ ms.locfileid: "5144863"
 > ![Δείγμα δεδομένων για την οντότητα τυπικού τίτλου ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

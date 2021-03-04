@@ -91,3 +91,6 @@ ms.locfileid: "4175891"
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Εγκαταστήστε μια διαμόρφωση CDS και τα δεδομένα επίδειξης ρύθμισης παραμέτρων
 
 Εγκαταστήστε τη διαμόρφωση CDS και ρυθμίστε τα δεδομένα επίδειξης ακολουθώντας τις οδηγίες στο θέμα, [Εφαρμογή δεδομένων ρύθμισης επίδειξης και δεδομένων διαμόρφωσης](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

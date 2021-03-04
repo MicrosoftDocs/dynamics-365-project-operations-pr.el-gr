@@ -52,3 +52,6 @@ ms.locfileid: "5144728"
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Ρύθμιση παραμέτρων του Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

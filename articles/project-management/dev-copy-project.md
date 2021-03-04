@@ -112,3 +112,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

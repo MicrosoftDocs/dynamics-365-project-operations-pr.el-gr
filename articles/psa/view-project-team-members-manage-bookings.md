@@ -57,3 +57,6 @@ ms.locfileid: "5144008"
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Οδηγός υπευθύνου έργου](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

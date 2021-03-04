@@ -95,3 +95,6 @@ ms.locfileid: "4960292"
 Το Finance θα επικοινωνήσει με το Cognitive Services για την εξαγωγή των δεδομένων πεδίων. Οι Cognitive Services θα διατηρήσουν ένα αντίγραφο της απόδειξής σας για 24 ώρες, ενώ γίνεται η επεξεργασία. Μετά την ολοκλήρωση της επεξεργασίας, οι Cognitive Services θα αφαιρέσουν την απόδειξη. Οι αποδείξεις παραμένουν αποθηκευμένες στο Finance.
 
 Για περισσότερες πληροφορίες, ανατρέξτε στο θέμα [Ενεργοποίηση κατανόησης αποδείξεων με τη νέα δυνατότητα Αναγνώρισης φορμών](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

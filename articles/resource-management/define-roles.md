@@ -20,3 +20,6 @@ ms.locfileid: "4514529"
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
 Μπορείτε να χρησιμοποιήσετε τη λειτουργικότητα που παρέχεται στο Dynamics 365 Field Service για να καθορίσετε τους ρόλους στο περιβάλλον του Dynamics 365 Project Operations. Για να ολοκληρώσετε αυτήν την εγκατάσταση, ανατρέξτε στην ενότητα [Ρύθμιση κατηγοριών πόρων με δυνατότητα κράτησης](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

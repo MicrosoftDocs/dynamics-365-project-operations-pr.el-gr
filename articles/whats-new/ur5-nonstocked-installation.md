@@ -125,3 +125,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
  
  ![Συγχρονισμός αντιστοίχισης καθολικού](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

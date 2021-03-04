@@ -429,3 +429,6 @@ final class TSTimesheetDetails_Extension
 1. Η εφαρμογή επιχειρεί να τοποθετήσει την προεπιλεγμένη κατηγορία από τον πόρο έργου. Αυτή η προεπιλεγμένη κατηγορία ορίζεται στις μεθόδους **getCurrentUserResource** και **getDelegatedResourcesForCurrentUser** στην κλάση **TSTimesheetSettingsService**.
 2. Εάν η προεπιλεγμένη κατηγορία δεν παρέχεται σε επίπεδο πόρου έργου, η εφαρμογή επιχειρεί να την αποσύρει από τη δραστηριότητα του έργου. Αυτή η προεπιλεγμένη κατηγορία ορίζεται στη μέθοδο **getActivitiesForProject** στην κλάση **TSTimesheetProjectService**.
 3. Εάν η προεπιλεγμένη κατηγορία δεν παρέχεται σε επίπεδο δραστηριότητας έργου, η προεπιλεγμένη κατηγορία λαμβάνεται από τις παραμέτρους έργου. Αυτή η προεπιλεγμένη κατηγορία ορίζεται στη μέθοδο **getProjectDetailsbyRule** στην κλάση **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

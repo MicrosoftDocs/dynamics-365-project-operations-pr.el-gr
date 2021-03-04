@@ -52,3 +52,6 @@ ms.locfileid: "4643218"
 7. Επιλέξτε **ΟΚ** για να κλείσετε τη σελίδα και επιλέξτε **Βήμα ενημέρωσης**.
 8. Επαναλάβετε τα βήματα 2-7 για τη δεύτερη προσθήκη **PreOperationQuoteLineDetail**. Για αυτήν την προσθήκη, χρειάζεται να ενημερώσετε το βήμα **Ενημέρωση msdyn_quotelinetransaction**.
 9. Κλείστε το **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

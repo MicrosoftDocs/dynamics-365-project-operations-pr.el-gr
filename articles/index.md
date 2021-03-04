@@ -42,3 +42,6 @@ To Project Operations είναι ισχυρό από μόνο του αλλά μ
 - [Επισκόπηση Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Επισκόπηση του κύματος έκδοσης 1 2020 του Dynamics 365 Project Operations](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

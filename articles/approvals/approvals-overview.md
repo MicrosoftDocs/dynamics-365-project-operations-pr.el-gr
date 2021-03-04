@@ -59,3 +59,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 3. Επιλέξτε **Αποθήκευση**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

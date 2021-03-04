@@ -106,3 +106,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
   - Σύστημα Project Operations
   - Σύστημα έργου
   - Σύστημα διπλής εγγραφής του Project Operations (Αυτός ο ρόλος είναι απαραίτητος εάν αναπτύσσετε μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους του Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

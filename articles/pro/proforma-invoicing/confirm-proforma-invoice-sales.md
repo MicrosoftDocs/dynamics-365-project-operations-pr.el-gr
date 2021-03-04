@@ -273,3 +273,6 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

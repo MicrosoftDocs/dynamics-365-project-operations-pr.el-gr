@@ -83,3 +83,6 @@ ms.locfileid: "4076898"
 Η εικόνα που ακολουθεί δείχνει ένα παράδειγμα των αντιστοιχίσεων εργασιών προτύπου στην ενοποίηση δεδομένων. Η αντιστοίχιση εμφανίζει τις πληροφορίες πεδίου που θα συγχρονιστούν από το Project Service Automation στο Finance.
 
 [![Αντιστοίχιση προτύπου](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

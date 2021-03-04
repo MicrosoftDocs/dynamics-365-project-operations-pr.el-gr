@@ -96,3 +96,6 @@ ms.locfileid: "5144593"
     ```
 
 6. Αποθηκεύστε και δημοσιεύστε τις προσαρμογές.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ ms.locfileid: "4077054"
 
 > [!NOTE]
 > Δεν μπορείτε να τροποποιήσετε μια προσφορά έργου μετά την αλλαγή της κατάστασης σε **Στάλθηκε**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

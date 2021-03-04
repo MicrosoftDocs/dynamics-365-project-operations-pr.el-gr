@@ -60,3 +60,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 [Διαχείριση εκτιμήσεων εσόδων](rev-rec-completed-contract-method.md)
 
 [Κόστος ολοκλήρωσης μεθόδων](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

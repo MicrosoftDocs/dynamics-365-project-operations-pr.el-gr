@@ -51,3 +51,6 @@ ms.locfileid: "5149858"
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Οδηγός υπεύθυνου πόρων](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

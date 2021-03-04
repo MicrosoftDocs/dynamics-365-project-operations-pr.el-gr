@@ -124,3 +124,6 @@ ms.locfileid: "4077055"
 > Η αντιστοίχιση εμφανίζει τις πληροφορίες πεδίου που θα συγχρονιστούν από το Project Service Automation στο Finance.
 
 [![Αντιστοίχιση προτύπων του Project Service Automation με το Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ ms.locfileid: "5146888"
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Οδηγός υπεύθυνου λογαριασμού](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

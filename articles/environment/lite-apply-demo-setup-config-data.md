@@ -74,3 +74,6 @@ _**Ελαφριά ανάπτυξη - συμφωνία για προτιμολό�
     -   Χαρακτηριστικό του πόρου με δυνατότητα κράτησης
 
     ![Ολοκλήρωση εισαγωγής](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

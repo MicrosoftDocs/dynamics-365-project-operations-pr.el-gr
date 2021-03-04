@@ -59,3 +59,6 @@ ms.locfileid: "5145403"
 
 ![Απαίτηση πόρου](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

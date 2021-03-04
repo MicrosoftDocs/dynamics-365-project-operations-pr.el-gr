@@ -64,3 +64,6 @@ ms.locfileid: "4076975"
 32. Στο πεδίο **Τιμολόγηση** , καταχωρίστε έναν αριθμό.
 33. Επιλέξτε **Αποθήκευση**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

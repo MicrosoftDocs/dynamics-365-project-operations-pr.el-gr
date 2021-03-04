@@ -52,3 +52,6 @@ ms.locfileid: "5148238"
 - [Πρότυπα έργων](project-templates.md)
 - [Στάδια έργου](project-stages.md)
 - [Ρυθμίσεις έργου](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -297,3 +297,6 @@ ms.locfileid: "5144503"
 
 > [!div class="mx-imgBorder"]
 > ![Στιγμιότυπο οθόνης ενεργών πόρων με δυνατότητα κράτησης](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

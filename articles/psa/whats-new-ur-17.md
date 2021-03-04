@@ -57,3 +57,6 @@ ms.locfileid: "5143714"
 - Διόρθωση: όταν η κλάση συναλλαγής είναι **Ώρα**, η **Ομάδα μονάδας** δεν είναι επεξεργάσιμη για όλες τις οντότητες συμπεριλαμβανομένων των **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** και **ContractLineDetails**. Ωστόσο, η **Μονάδα** είναι μη επεξεργάσιμη μόνο για **JournalLine** και **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

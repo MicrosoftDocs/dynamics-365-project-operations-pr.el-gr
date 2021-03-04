@@ -49,3 +49,6 @@ ms.locfileid: "4076905"
 - [Καταχώριση χρόνου έργου]( project-time-entry-mobile-workspace.md)
 - [Φύλλα κατανομής χρόνου έργου σε μια κινητή συσκευή](Mobile-timesheets.md)
 - [Εφαρμόστε προσαρμοσμένα πεδία για την εφαρμογή Microsoft Dynamics 365 Project Timesheet για κινητές συσκευές σε iOS και Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

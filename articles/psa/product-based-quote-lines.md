@@ -82,3 +82,6 @@ ms.locfileid: "5151253"
 
 > ![Επισήμανση αριθμού χρηστών και μηνών ως παράγοντες ποιότητας](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

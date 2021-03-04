@@ -68,3 +68,6 @@ ms.locfileid: "5144639"
 > ![Να μην συμπεριληφθούν όλα τα απαιτούμενα στοιχεία.](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

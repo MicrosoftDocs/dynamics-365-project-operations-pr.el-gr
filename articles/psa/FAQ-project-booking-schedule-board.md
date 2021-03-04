@@ -91,3 +91,6 @@ ms.locfileid: "5146528"
 
 4. Τώρα που έχει γίνει κράτηση του πόρου, πρέπει να αναθέσετε τις εργασίες με μη αυτόματο τρόπο.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

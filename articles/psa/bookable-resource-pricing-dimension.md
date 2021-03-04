@@ -76,3 +76,6 @@ ms.locfileid: "5144998"
 5. Προσθέστε το **msdyn_projectteam** στο πεδίο **Λογικό όνομα οντότητας** και **msdyn_bookableresourceid** στο πεδίο **Όνομα πεδίου**. Αποθηκεύστε την καρτέλα.
 
  ![Φόρμα νέου ονόματος πεδίου διάστασης τιμολόγησης](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

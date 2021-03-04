@@ -98,3 +98,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 Εγκαταστήστε τα δεδομένα ρύθμισης παραμέτρων και διαμόρφωσης του CDS, όπως περιγράφεται στο θέμα [Ρύθμιση και εφαρμογή δεδομένων στο Common Data Service](resource-apply-pro-setup-config-data.md).
 Ολοκληρώστε αυτό το βήμα μόνο αφού αναπτυχθεί το περιβάλλον επίδειξης Finance και τα δεδομένα επίδειξης στο FO είναι έτοιμα.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

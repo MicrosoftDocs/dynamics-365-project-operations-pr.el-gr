@@ -76,3 +76,6 @@ ms.locfileid: "4076904"
 
 Για περισσότερες πληροφορίες, ανατρέξτε στην ενότητα [Λήψη στοιχείων σχετικά με την παραγγελία αγοράς από απαίτηση είδους](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

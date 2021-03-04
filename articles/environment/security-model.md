@@ -81,3 +81,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 Για περισσότερες πληροφορίες σχετικά με την ασφάλεια στο Finance, ανατρέξτε στην ενότητα [Ασφάλεια βασισμένη σε ρόλους](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

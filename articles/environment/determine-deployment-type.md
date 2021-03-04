@@ -98,3 +98,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 Για αυτήν την ανάπτυξη, ανατρέξτε στο θέμα [Εγγραφή για προεπισκόπηση συνδρομών](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) και [Παροχή νέου περιβάλλοντος](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

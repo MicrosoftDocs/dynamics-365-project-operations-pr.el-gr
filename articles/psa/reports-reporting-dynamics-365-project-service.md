@@ -52,3 +52,6 @@ ms.locfileid: "5147698"
 - [Εργασία με το μοντέλο δεδομένων Project Service](reports-working-project-service-data-model.md)
 - [Πίνακες εργαλείων](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

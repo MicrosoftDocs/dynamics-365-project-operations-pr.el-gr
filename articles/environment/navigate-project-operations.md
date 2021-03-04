@@ -38,3 +38,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 > [!NOTE]
 > Μπορείτε να αποκτήσετε πρόσβαση στο Project Operations στο Common Data Service και στη μονάδα **Διαχείριση έργου και λογιστική** απευθείας χρησιμοποιώντας τις αντίστοιχες διευθύνσεις URL. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

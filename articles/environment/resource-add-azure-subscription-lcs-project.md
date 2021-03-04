@@ -70,3 +70,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 Έχετε συνδέσει με επιτυχία τη συνδρομή σας Azure. Τώρα, μπορείτε να αναπτύξετε Dynamics 365 Finance περιβάλλοντα που φιλοξενούνται από cloud.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

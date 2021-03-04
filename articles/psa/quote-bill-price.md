@@ -44,3 +44,6 @@ ms.locfileid: "5147866"
 - [Ομάδες μονάδων και μονάδες](advanced-units.md)
 - [Νομισματική μονάδα πολλαπλών μονάδων](advanced-currency.md)
 - [Καταγραφή πραγματικών τιμών](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

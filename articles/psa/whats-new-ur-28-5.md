@@ -42,3 +42,6 @@ ms.locfileid: "5146618"
 
 - Υποβάθμιση επιδόσεων αναζήτησης βοήθειας χρονοδιαγράμματος
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

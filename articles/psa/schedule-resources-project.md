@@ -83,3 +83,6 @@ ms.locfileid: "5150443"
   
 ### <a name="additional-resources"></a>Πρόσθετοι πόροι  
  [Οδηγός υπεύθυνου πόρων](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

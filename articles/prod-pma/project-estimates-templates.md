@@ -170,3 +170,6 @@ else **null**
 [![Αντιστοίχιση προτύπου των συναλλαγών εκτίμησης εξόδων](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Αντιστοίχιση προτύπου των εκτιμήσεων εξόδων](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

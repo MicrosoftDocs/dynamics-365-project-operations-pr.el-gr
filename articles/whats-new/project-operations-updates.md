@@ -77,3 +77,6 @@ _**Ισχύει για:** Project Operations για μη εφοδιασμένα 
 | --- | --- |
 | 10.0.17 | 19 Μαρτίου 2021 |
 | 10.0.18 | 16 Απριλίου 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

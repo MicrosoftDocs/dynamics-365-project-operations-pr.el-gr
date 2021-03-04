@@ -58,3 +58,6 @@ ms.locfileid: "4077076"
 ### <a name="videos"></a>Βίντεο
 
 Δείτε τα βίντεο με τις διαδικασίες που είναι πλέον διαθέσιμα στο [Κανάλι του Microsoft Dynamics 365 στο YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

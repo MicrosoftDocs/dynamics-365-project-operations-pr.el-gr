@@ -140,3 +140,6 @@ ms.locfileid: "4077048"
 [![Αντιστοίχιση προτύπου - Ενημέρωση πραγματικών τιμών](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Αντιστοίχιση προτύπου - Ενημέρωση συναλλαγής](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
