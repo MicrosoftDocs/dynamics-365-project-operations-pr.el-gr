@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121803"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149543"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Ζητήματα αναβάθμισης για τη δομή ανάλυσης εργασίας
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Αυτό το θέμα παρέχει πληροφορίες σχετικά με την αναβάθμιση της δομής ανάλυσης εργασίας από το Project Service Automation 2.x σε 3.x. Αυτό το θέμα προσδιορίζει την εύρυθμη κατάσταση ενός έργου στο Project Service Automation (PSA) που απαιτείται για μια επιτυχημένη αναβάθμιση. Υπάρχουν επίσης πληροφορίες σχετικά με τις συνηθισμένες συνθήκες αποκλεισμού που θα προκαλέσουν την αποτυχία της αναβάθμισης. Για περισσότερες πληροφορίες σχετικά με τον καθορισμό εργασιών έργου και των λειτουργιών τους εντός χρονοδιαγράμματος έργου δείτε [Χρονοδιαγράμματα έργου](project-creating.md).
 
 ## <a name="key-entities"></a>Βασικές οντότητες

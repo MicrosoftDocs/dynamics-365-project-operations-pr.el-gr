@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077107"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148643"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Αλλαγές διαχείρισης πόρων (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Οι ενότητες αυτού του θέματος παρέχουν πληροφορίες σχετικά με τις αλλαγές που έχουν γίνει στην περιοχή διαχείρισης πόρων του Dynamics 365 Project Service Automation έκδοση 3.x.
 
 ## <a name="project-estimates"></a>Εκτιμήσεις έργων
 
-Αντί να βασιστούν στην οντότητα **msdyn\_projecttask** ( **Εργασία έργου** ), οι εκτιμήσεις έργου βασίζονται στην οντότητα **msdyn\_resourceassignment** ( **Ανάθεση πόρου** ). Οι αναθέσεις πόρων έχουν γίνει η "προέλευση της αλήθειας" για τον προγραμματισμό και την τιμολόγηση των εργασιών.
+Αντί να βασιστούν στην οντότητα **msdyn\_projecttask** (**Εργασία έργου**), οι εκτιμήσεις έργου βασίζονται στην οντότητα **msdyn\_resourceassignment** (**Ανάθεση πόρου**). Οι αναθέσεις πόρων έχουν γίνει η "προέλευση της αλήθειας" για τον προγραμματισμό και την τιμολόγηση των εργασιών.
 
 ## <a name="line-tasks"></a>Εργασίες γραμμής
 
@@ -65,7 +67,7 @@ ms.locfileid: "4077107"
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Πεδία χρονοδιαγράμματος στην οντότητα εργασίας έργου
 
-Τα πεδία στην οντότητα **msdyn\_projecttask** δεν χρησιμοποιούνται πλέον ή έχουν μετακινηθεί στην οντότητα **msdyn\_resourceassignment** ή πλέον αναφέρονται από την οντότητα **msdyn\_projectteam** ( **Μέλος ομάδας έργου** ).
+Τα πεδία στην οντότητα **msdyn\_projecttask** δεν χρησιμοποιούνται πλέον ή έχουν μετακινηθεί στην οντότητα **msdyn\_resourceassignment** ή πλέον αναφέρονται από την οντότητα **msdyn\_projectteam** (**Μέλος ομάδας έργου**).
 
 | Πεδίο που δεν χρησιμοποιείται πλέον στο msdyn\_projecttask (Εργασία έργου) | Νέο πεδίο στο msdyn\_resourceassignment (Ανάθεση πόρου) | Σχόλιο |
 |---|---|---|
@@ -77,7 +79,7 @@ ms.locfileid: "4077107"
 
 ## <a name="schedule-contour"></a>Καμπύλη χρονοδιαγράμματος
 
-Η καμπύλη χρονοδιαγράμματος αποθηκεύεται στο πεδίο **Προγραμματισμένη εργασία** ( **\_msdyn** plannedwork) κάθε οντότητας **Ανάθεση πόρου** ( **msdyn\_resourceassignment** ).
+Η καμπύλη χρονοδιαγράμματος αποθηκεύεται στο πεδίο **Προγραμματισμένη εργασία** (**\_msdyn** plannedwork) κάθε οντότητας **Ανάθεση πόρου** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Δομή
 
@@ -139,7 +141,7 @@ ms.locfileid: "4077107"
 
 ## <a name="pricing-dimensions"></a>Διαστάσεις τιμολόγησης
 
-Στο PSA 3.x, τα πεδία διάστασης τιμολόγησης που αφορούν πόρους (όπως **Ρόλος** και **Οργανική μονάδα** ) έχουν καταργηθεί από την οντότητα **msdyn\_projecttask**. Είναι δυνατή η ανάκτηση αυτών των πεδίων από το αντίστοιχο μέλος της ομάδας έργου ( **msdyn\_projectteam** ) της ανάθεσης πόρου ( **msdyn\_resourceassignment** ) όταν δημιουργούνται εκτιμήσεις του έργου. Ένα νέο πεδίο **msdyn\_organizationalunit** , έχει προστεθεί στην οντότητα **msdyn\_projectteam**.
+Στο PSA 3.x, τα πεδία διάστασης τιμολόγησης που αφορούν πόρους (όπως **Ρόλος** και **Οργανική μονάδα**) έχουν καταργηθεί από την οντότητα **msdyn\_projecttask**. Είναι δυνατή η ανάκτηση αυτών των πεδίων από το αντίστοιχο μέλος της ομάδας έργου (**msdyn\_projectteam**) της ανάθεσης πόρου (**msdyn\_resourceassignment**) όταν δημιουργούνται εκτιμήσεις του έργου. Ένα νέο πεδίο **msdyn\_organizationalunit**, έχει προστεθεί στην οντότητα **msdyn\_projectteam**.
 
 | Πεδίο που δεν χρησιμοποιείται πλέον στο msdyn\_projecttask (Εργασία έργου) | Πεδίο από το msdyn\_projectteam (Μέλος ομάδας έργου) το οποίο χρησιμοποιείται. |
 |---|---|
@@ -155,12 +157,12 @@ ms.locfileid: "4077107"
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Τα παρακάτω πεδία έχουν προστεθεί στην οντότητα **msdyn\_resourceassignment** :
+Τα παρακάτω πεδία έχουν προστεθεί στην οντότητα **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Τα παρακάτω πεδία για προγραμματισμένο, πραγματικό και υπολειπόμενο κόστος και πωλήσεις παραμένουν αμετάβλητα στην οντότητα **msdyn\_projecttask** :
+Τα παρακάτω πεδία για προγραμματισμένο, πραγματικό και υπολειπόμενο κόστος και πωλήσεις παραμένουν αμετάβλητα στην οντότητα **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
