@@ -18,32 +18,35 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c1ec99ea0951d24939463d33c64f72fce44ba5b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 55979dc8076ec2b226492060a7c034fbd62b325a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145448"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291484"
 ---
-# <a name="approve-time-and-expenses-project-service"></a><span data-ttu-id="675fa-103">Έγκριση χρόνου και δαπανών (Project Service)</span><span class="sxs-lookup"><span data-stu-id="675fa-103">Approve time and expenses (Project Service)</span></span>
+# <a name="approve-time-and-expenses-project-service"></a><span data-ttu-id="c360c-103">Έγκριση χρόνου και δαπανών (Project Service)</span><span class="sxs-lookup"><span data-stu-id="c360c-103">Approve time and expenses (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="675fa-104">Αφού οι σύμβουλοι εισαγάγουν το χρόνο και τα έξοδα για ένα έργο, θα πρέπει να τα εγκρίνετε ώστε να είναι σωστή η τιμολόγησή τους ή η χρέωσή τους αναφορικά με έργα.</span><span class="sxs-lookup"><span data-stu-id="675fa-104">After consultants enter their time and expenses for a project, you need to approve them so they are properly billed or costed to projects.</span></span>  
+<span data-ttu-id="c360c-104">Αφού οι σύμβουλοι εισαγάγουν το χρόνο και τα έξοδα για ένα έργο, θα πρέπει να τα εγκρίνετε ώστε να είναι σωστή η τιμολόγησή τους ή η χρέωσή τους αναφορικά με έργα.</span><span class="sxs-lookup"><span data-stu-id="c360c-104">After consultants enter their time and expenses for a project, you need to approve them so they are properly billed or costed to projects.</span></span>  
   
-1.  <span data-ttu-id="675fa-105">Μεταβείτε στο μενού **Project Service > Εγκρίσεις**.</span><span class="sxs-lookup"><span data-stu-id="675fa-105">Go to **Project Service > Approvals**.</span></span>  
+1.  <span data-ttu-id="c360c-105">Μεταβείτε στο μενού **Project Service > Εγκρίσεις**.</span><span class="sxs-lookup"><span data-stu-id="c360c-105">Go to **Project Service > Approvals**.</span></span>  
   
-2.  <span data-ttu-id="675fa-106">Κάντε κλικ στο στοιχείο προς έγκριση.</span><span class="sxs-lookup"><span data-stu-id="675fa-106">Click the item to approve.</span></span>  
+2.  <span data-ttu-id="c360c-106">Κάντε κλικ στο στοιχείο προς έγκριση.</span><span class="sxs-lookup"><span data-stu-id="c360c-106">Click the item to approve.</span></span>  
   
-3.  <span data-ttu-id="675fa-107">Στις καρτέλες **Καταχωρήσεις χρόνου**, **Καταχωρήσεις εξόδων** και **Απουσία/διακοπές**, εξετάστε κάθε στοιχείο και κάντε τις απαραίτητες αλλαγές.</span><span class="sxs-lookup"><span data-stu-id="675fa-107">In the **Time Entries**, **Expense Entries**, and **Absence/Vacation** tabs, review each item and make changes as necessary.</span></span>  
+3.  <span data-ttu-id="c360c-107">Στις καρτέλες **Καταχωρήσεις χρόνου**, **Καταχωρήσεις εξόδων** και **Απουσία/διακοπές**, εξετάστε κάθε στοιχείο και κάντε τις απαραίτητες αλλαγές.</span><span class="sxs-lookup"><span data-stu-id="c360c-107">In the **Time Entries**, **Expense Entries**, and **Absence/Vacation** tabs, review each item and make changes as necessary.</span></span>  
   
-4.  <span data-ttu-id="675fa-108">Για να εγκρίνετε ένα στοιχείο, επιλέξτε το και κάντε κλικ στο κουμπί **Έγκριση**.</span><span class="sxs-lookup"><span data-stu-id="675fa-108">To approve an item, select it and click **Approve**.</span></span> <span data-ttu-id="675fa-109">Μπορείτε να επιλέξετε και να εγκρίνετε πολλά στοιχεία ταυτόχρονα.</span><span class="sxs-lookup"><span data-stu-id="675fa-109">You can select and approve multiple items at once.</span></span>  
+4.  <span data-ttu-id="c360c-108">Για να εγκρίνετε ένα στοιχείο, επιλέξτε το και κάντε κλικ στο κουμπί **Έγκριση**.</span><span class="sxs-lookup"><span data-stu-id="c360c-108">To approve an item, select it and click **Approve**.</span></span> <span data-ttu-id="c360c-109">Μπορείτε να επιλέξετε και να εγκρίνετε πολλά στοιχεία ταυτόχρονα.</span><span class="sxs-lookup"><span data-stu-id="c360c-109">You can select and approve multiple items at once.</span></span>  
   
-5.  <span data-ttu-id="675fa-110">Για να απορρίψετε ένα στοιχείο, επιλέξτε το και κάντε κλικ στο κουμπί **Απόρριψη**.</span><span class="sxs-lookup"><span data-stu-id="675fa-110">To reject an item, select it and click **Reject**.</span></span> <span data-ttu-id="675fa-111">Μπορείτε να επιλέξετε και να απορρίψετε πολλά στοιχεία ταυτόχρονα.</span><span class="sxs-lookup"><span data-stu-id="675fa-111">You can select and reject multiple items at once.</span></span>  
+5.  <span data-ttu-id="c360c-110">Για να απορρίψετε ένα στοιχείο, επιλέξτε το και κάντε κλικ στο κουμπί **Απόρριψη**.</span><span class="sxs-lookup"><span data-stu-id="c360c-110">To reject an item, select it and click **Reject**.</span></span> <span data-ttu-id="c360c-111">Μπορείτε να επιλέξετε και να απορρίψετε πολλά στοιχεία ταυτόχρονα.</span><span class="sxs-lookup"><span data-stu-id="c360c-111">You can select and reject multiple items at once.</span></span>  
   
-6.  <span data-ttu-id="675fa-112">Για να προβάλετε γραφήματα χρόνου και εξόδων κατά έργο, κάντε κλικ στο κουμπί **Πίνακας εργαλείων**.</span><span class="sxs-lookup"><span data-stu-id="675fa-112">To view charts of time and expenses by project, click **Dashboard**.</span></span>  
+6.  <span data-ttu-id="c360c-112">Για να προβάλετε γραφήματα χρόνου και εξόδων κατά έργο, κάντε κλικ στο κουμπί **Πίνακας εργαλείων**.</span><span class="sxs-lookup"><span data-stu-id="c360c-112">To view charts of time and expenses by project, click **Dashboard**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="675fa-113">Δείτε επίσης</span><span class="sxs-lookup"><span data-stu-id="675fa-113">See Also</span></span>  
- [<span data-ttu-id="675fa-114">Οδηγός υπευθύνου έργου</span><span class="sxs-lookup"><span data-stu-id="675fa-114">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="c360c-113">Δείτε επίσης</span><span class="sxs-lookup"><span data-stu-id="c360c-113">See Also</span></span>  
+ [<span data-ttu-id="c360c-114">Οδηγός υπευθύνου έργου</span><span class="sxs-lookup"><span data-stu-id="c360c-114">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
