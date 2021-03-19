@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177871"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272658"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Επισκόπηση γραμμών σύμβασης βάσει προϊόντων - lite
 
 _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
 
-Μπορείτε να δημιουργήσετε γραμμές σύμβασης βασισμένες σε προϊόντα στο Dynamics 365 Project Operations. Οι γραμμές σύμβασης που βασίζονται σε προϊόντα μπορούν να μη αυτόματα δημιουργημένες γραμμές ή μπορούν να είναι στοιχεία από τον κατάλογο προϊόντων.
+Μπορείτε να δημιουργήσετε γραμμές σύμβασης βάσει προϊόντων στο Dynamics 365 Project Operations. Οι γραμμές σύμβασης που βασίζονται σε προϊόντα μπορούν να μη αυτόματα δημιουργημένες γραμμές ή μπορούν να είναι στοιχεία από τον κατάλογο προϊόντων.
 
 ## <a name="product-catalog"></a>Κατάλογος προϊόντων
 

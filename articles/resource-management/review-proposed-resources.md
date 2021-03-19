@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 54a0924da17eac86e2fa400540e629f6d803aa35
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: fa0515b9d6a0023c05c37d2bcfa6a403f48927cb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401173"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279273"
 ---
 # <a name="review-proposed-resources"></a>Έλεγχος προτεινόμενων πόρων
 
@@ -58,7 +58,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 Εάν εμφανίζεται ένα βέλος προς τα δεξιά δίπλα σε έναν μεμονωμένο πόρο με δυνατότητα κράτησης στον πίνακα χρονοδιαγράμματος, ο πόρος μπορεί να αναπτυχθεί ώστε να εμφανίζει λεπτομέρειες σχετικά με την εργασία στην οποία έχει γίνει κράτηση ο πόρος.
 
-Επειδή το Dynamics 365 Project Operations χρησιμοποιεί τη μηχανή Universal Resource Scheduling, εάν έχετε εγκατεστημένο και το Dynamics 365 Field Service, μπορείτε να προβάλετε τις λεπτομέρειες των κρατήσεων πόρων για τα έργα, τις εντολές εργασίας και οποιεσδήποτε άλλες οντότητες στις οποίες έχετε επεκτείνει τον προγραμματισμό.
+Επειδή το Dynamics 365 Project Operations χρησιμοποιεί τη μηχανή Universal Resource Scheduling, εάν έχετε εγκατεστημένο το Dynamics 365 Field Service, μπορείτε να προβάλετε τις λεπτομέρειες των κρατήσεων πόρων για τα έργα, τις παραγγελίες εργασίας και οποιεσδήποτε άλλες οντότητες στις οποίες έχετε επεκτείνει τον προγραμματισμό.
 
 Για να προβάλετε περισσότερες λεπτομέρειες σχετικά με έναν μεμονωμένο πόρο, κάντε δεξί κλικ σε αυτόν για να ανοίξετε την καρτέλα πόρου.
 

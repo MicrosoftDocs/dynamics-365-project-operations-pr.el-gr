@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180237"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277563"
 ---
 # <a name="project-quote-settings"></a>Ρυθμίσεις προσφοράς έργου
 
@@ -22,7 +22,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 Αυτό το άρθρο περιγράφει τις πληροφορίες που εφαρμόζονται σε μια προσφορά έργου. Σε αυτές περιλαμβάνονται οι ρυθμίσεις που επηρεάζουν όλες τις γραμμές προσφοράς και οι πληροφορίες σχετικά με την προσφορά που συνοψίζονται σε όλα τα στοιχεία γραμμής για την οδήγηση των KPI της προσφοράς έργου.
 
-Ο παρακάτω πίνακας παραθέτει τα πεδία συνοπτικών πληροφοριών για μια προσφορά έργου που είναι μοναδικές για το Dynamics 365 Project Operations ή έχουν ορισμένες σημαντικές αλλαγές στη συμπεριφορά από τις προσφορές του Dynamics 365 Sales.
+Ο παρακάτω πίνακας περιλαμβάνει τα πεδία συνοπτικών πληροφοριών σε μια προσφορά έργου που είναι μοναδικά στο Dynamics 365 Project Operations ή έχουν ορισμένες σημαντικές αλλαγές στη συμπεριφορά από προσφορές του Dynamics 365 Sales.
 
 | **Πεδίο** | **Θέση** | **Περιγραφή** | **Κατάντη επίπτωση** |
 | --- | --- | --- | --- |

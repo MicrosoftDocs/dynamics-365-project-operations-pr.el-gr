@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7fce84c9cc1f9c1beda73f403c052f779d10559f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2b6a34e6c744e4b8ad9400f05844fefa005536a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120813"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275898"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
-To Microsoft Dynamics 365 Project Operations συνδέει τις ομάδες πωλήσεων, τον ανεφοδιασμό, τη διαχείριση έργου και τη χρηματοδότηση σε μία ενιαία εφαρμογή για να κερδίζονται περισσότερες ευκαιρίες, να επιταχύνεται η παροχή του έργου και να μεγιστοποιείται η κερδοφορία.
+Το Microsoft Dynamics 365 Project Operations συνδέει ομάδες πωλήσεων, πόρων, διαχείρισης έργων και χρηματοοικονομικών σε μία μόνο εφαρμογή για να κερδίσει περισσότερες συμφωνίες, να επιταχύνει την παράδοση έργων και να μεγιστοποιήσει την κερδοφορία.
 
 -   **Οι επικεφαλής λαμβάνουν επιχειρηματικές πληροφορίες** για να αυξήσουν την ορατότητα σε όλες τις ομάδες, τα δεδομένα και τις διεργασίες, καθώς και τις δυνατότητες AI για καλύτερες και ταχύτερες επιχειρηματικές αποφάσεις.
 -   **Ενεργοποιούνται οι πωλήσεις** για να κερδίζονται περισσότερες ευκαιρίες και να επιταχύνεται ο κύκλος πωλήσεων με γρήγορες και ακριβείς προσφορές, ευέλικτη τιμολόγηση και χωρίς προβλήματα μεταβάσεις από εκτίμηση σε εκτέλεση.
@@ -40,7 +40,7 @@ To Project Operations είναι ισχυρό από μόνο του αλλά μ
 Για περισσότερες πληροφορίες, ανατρέξτε στο:
 
 - [Επισκόπηση Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Επισκόπηση του κύματος έκδοσης 1 2020 του Dynamics 365 Project Operations](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
+- [Επισκόπηση του κύματος 1 της έκδοσης Dynamics 365 Project Operations 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
 
 

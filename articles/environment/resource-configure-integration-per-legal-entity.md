@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ccdbdce6b7d006adc9be2b5f3573dd8e79dd2b8d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122883"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276978"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Ρύθμιση παραμέτρων για την ενοποίηση του Project Operations ανά νομική οντότητα 
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Αυτό το θέμα αναλύει τα βήματα που απαιτούνται για τη ρύθμιση των παραμέτρων του Dynamics 365 Project Operations ανά νομική οντότητα.
+Αυτό το θέμα σάς καθοδηγεί στα βήματα που απαιτούνται για τη ρύθμιση παραμέτρων του Dynamics 365 Project Operations ανά νομική οντότητα.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Ενεργοποίηση βασικών δυνατοτήτων στο Dynamics 365 Finance
 
