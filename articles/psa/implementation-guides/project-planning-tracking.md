@@ -18,30 +18,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 363483d7a63ce028b3378e021a210b4c8d8e4623
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a5859f66536f44d7dbad05e74693200212acebd4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149093"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275178"
 ---
-# <a name="project-planning-and-tracking"></a><span data-ttu-id="45b00-103">Σχεδιασμός και παρακολούθηση έργων</span><span class="sxs-lookup"><span data-stu-id="45b00-103">Project planning and tracking</span></span>
+# <a name="project-planning-and-tracking"></a><span data-ttu-id="7e704-103">Σχεδιασμός και παρακολούθηση έργων</span><span class="sxs-lookup"><span data-stu-id="7e704-103">Project planning and tracking</span></span>
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="45b00-104">Η εφαρμογή Project Service βοηθάει τους οργανισμούς υπηρεσιών να προσδιορίσουν τις ευκαιρίες, να υποβάλουν προσφορές, να επιτύχουν συμβατικές συμφωνίες, να διαχειρίζονται πόρους, να παρακολουθούν χρόνο και έξοδα, να τιμολογούν τους πελάτες και να παρέχουν έργα εγκαίρως και εντός του προϋπολογισμού.</span><span class="sxs-lookup"><span data-stu-id="45b00-104">The Project Service application helps service organizations identify opportunities, submit bids, reach contractual agreements, manage resources, track time and expenses, invoice customers, and deliver projects on time and within budget.</span></span> 
+<span data-ttu-id="7e704-104">Η εφαρμογή Project Service βοηθάει τους οργανισμούς υπηρεσιών να προσδιορίσουν τις ευκαιρίες, να υποβάλουν προσφορές, να επιτύχουν συμβατικές συμφωνίες, να διαχειρίζονται πόρους, να παρακολουθούν χρόνο και έξοδα, να τιμολογούν τους πελάτες και να παρέχουν έργα εγκαίρως και εντός του προϋπολογισμού.</span><span class="sxs-lookup"><span data-stu-id="7e704-104">The Project Service application helps service organizations identify opportunities, submit bids, reach contractual agreements, manage resources, track time and expenses, invoice customers, and deliver projects on time and within budget.</span></span> 
 
-<span data-ttu-id="45b00-105">Η σύνδεση PDF που ήταν προηγουμένως σε αυτό το θέμα έχει καταργηθεί και το περιεχόμενο έχει μετακινηθεί στα εξής θέματα:</span><span class="sxs-lookup"><span data-stu-id="45b00-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
+<span data-ttu-id="7e704-105">Η σύνδεση PDF που ήταν προηγουμένως σε αυτό το θέμα έχει καταργηθεί και το περιεχόμενο έχει μετακινηθεί στα εξής θέματα:</span><span class="sxs-lookup"><span data-stu-id="7e704-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
 
-- [<span data-ttu-id="45b00-106">Χρονοδιαγράμματα έργου</span><span class="sxs-lookup"><span data-stu-id="45b00-106">Project schedules</span></span>](../project-creating.md)
-- [<span data-ttu-id="45b00-107">Έσοδα και κόστη έργου</span><span class="sxs-lookup"><span data-stu-id="45b00-107">Project costs and revenue</span></span>](../project-estimating.md)
-- [<span data-ttu-id="45b00-108">Εκτιμήσεις πωλήσεων και έργων</span><span class="sxs-lookup"><span data-stu-id="45b00-108">Sales estimates and projects</span></span>](../project-leveraging.md)
-- [<span data-ttu-id="45b00-109">Παρακολούθηση της προόδου και του κόστους ενός έργου</span><span class="sxs-lookup"><span data-stu-id="45b00-109">Project progress and cost consumption</span></span>](../project-tracking.md)
-- [<span data-ttu-id="45b00-110">Πρότυπα έργων</span><span class="sxs-lookup"><span data-stu-id="45b00-110">Project templates</span></span>](../project-templates.md)
-- [<span data-ttu-id="45b00-111">Στάδια έργου</span><span class="sxs-lookup"><span data-stu-id="45b00-111">Project stages</span></span>](../project-stages.md)
-- [<span data-ttu-id="45b00-112">Ρυθμίσεις έργου</span><span class="sxs-lookup"><span data-stu-id="45b00-112">Project settings</span></span>](../project-settings.md)
+- [<span data-ttu-id="7e704-106">Χρονοδιαγράμματα έργου</span><span class="sxs-lookup"><span data-stu-id="7e704-106">Project schedules</span></span>](../project-creating.md)
+- [<span data-ttu-id="7e704-107">Έσοδα και κόστη έργου</span><span class="sxs-lookup"><span data-stu-id="7e704-107">Project costs and revenue</span></span>](../project-estimating.md)
+- [<span data-ttu-id="7e704-108">Εκτιμήσεις πωλήσεων και έργων</span><span class="sxs-lookup"><span data-stu-id="7e704-108">Sales estimates and projects</span></span>](../project-leveraging.md)
+- [<span data-ttu-id="7e704-109">Παρακολούθηση της προόδου και του κόστους ενός έργου</span><span class="sxs-lookup"><span data-stu-id="7e704-109">Project progress and cost consumption</span></span>](../project-tracking.md)
+- [<span data-ttu-id="7e704-110">Πρότυπα έργων</span><span class="sxs-lookup"><span data-stu-id="7e704-110">Project templates</span></span>](../project-templates.md)
+- [<span data-ttu-id="7e704-111">Στάδια έργου</span><span class="sxs-lookup"><span data-stu-id="7e704-111">Project stages</span></span>](../project-stages.md)
+- [<span data-ttu-id="7e704-112">Ρυθμίσεις έργου</span><span class="sxs-lookup"><span data-stu-id="7e704-112">Project settings</span></span>](../project-settings.md)
 
 > [!NOTE]
-> <span data-ttu-id="45b00-113">Αυτό το θέμα θα καταργηθεί σε μια μελλοντική ενημέρωση τεκμηρίωσης.</span><span class="sxs-lookup"><span data-stu-id="45b00-113">This topic will be removed in a future documentation update.</span></span> 
+> <span data-ttu-id="7e704-113">Αυτό το θέμα θα καταργηθεί σε μια μελλοντική ενημέρωση τεκμηρίωσης.</span><span class="sxs-lookup"><span data-stu-id="7e704-113">This topic will be removed in a future documentation update.</span></span> 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
