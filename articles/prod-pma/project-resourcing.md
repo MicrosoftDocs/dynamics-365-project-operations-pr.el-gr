@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2bab78628333f2d8a6996277ca3a9e63052e939
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076902"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289099"
 ---
 # <a name="project-resourcing-home-page"></a>Αρχική σελίδα πόρων έργου
 
@@ -51,8 +51,8 @@ ms.locfileid: "4076902"
 - [Δημιουργία νέου έργου](create-new-project.md)
 - [Ρύθμιση τιμολόγησης βάσει ρόλων](set-up-role-based-pricing.md)
 - [Δημιουργία ομάδας έργου](create-project-team.md)
-- [Συγχρονισμός παραγωγικής ικανότητας πόρου](synchronize-resource-capacity.md)
-- [Επιδόσεις προγραμματισμού πόρων έργου](project-scheduling-performance.md)
+- [Συγχρονισμός χωρητικότητας πόρων](synchronize-resource-capacity.md)
+- [Επιδόσεις χρονοδιαγράμματος πόρου έργου](project-scheduling-performance.md)
 - [Ρύθμιση ρόλων σε πρότυπα δομής ανάλυσης εργασίας](set-up-roles-wbs-template.md)
 - [Κάλυψη πόρου για προγραμματισμένους πόρους](resource-fulfillment-planned-resources.md)
 
