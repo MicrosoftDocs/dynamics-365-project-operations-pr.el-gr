@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401218"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479564"
 ---
 # <a name="determine-your-deployment-type"></a>Προσδιορισμός του τύπου ανάπτυξής σας
 
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
 > [!IMPORTANT]
-> Αφού αγοράσετε την άδεια χρήσης, ξεκινήστε από εδώ για να προσδιορίσετε το μοντέλο καλύτερης ανάπτυξης του Dynamics 365 Project Operations χρησιμοποιώντας την [καθοδηγούμενη ροή εγκατάστασης](https://aka.ms/provisionprojectoperations).
+> Αφού αγοράσετε την άδεια χρήσης, ξεκινήστε εδώ για να προσδιορίσετε το καλύτερο μοντέλο ανάπτυξης του Dynamics 365 Project Operations χρησιμοποιώντας τη [ροή καθοδηγούμενης εγκατάστασης](https://aka.ms/provisionprojectoperations).
 > Αφού ολοκληρώσετε την καθοδηγούμενη ροή εγκατάστασης, θα κατευθυνθείτε στη σωστή πύλη διαχείρισης για να ολοκληρώσετε την εγκατάσταση. Ανατρέξτε στις λεπτομέρειες ανάπτυξης για να ολοκληρώσετε την εγκατάσταση.
 
 
@@ -31,6 +31,9 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 Οι υφιστάμενοι πελάτες του Finance που χρησιμοποιούν τη λειτουργικότητα "Διαχείριση έργου και Λογιστική" μπορούν να συνεχίσουν να τη χρησιμοποιούν ως έχει. Δείτε [Project Operations για σενάρια εφοδιασμένα/παραγγελίας παραγωγής](#pma).
 
+
+## <a name="deployment-regions"></a>Περιοχές ανάπτυξης
+Για να προσδιορίσετε ποιες περιοχές υποστηρίζουν την ανάπτυξη του Project Operations, ανατρέξτε στο θέμα [Γεωγραφική διαθεσιμότητα για το Dynamics 365 και αναφορά Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Επιλέξτε **Προβολή αναφοράς** και αναπτύξτε την επιλογή **Dynamics 365 > Operations Apps > Dynamics 365 Project Operations** για προβολή των υποστηριζόμενων περιοχών.
 
 ## <a name="deployment-types"></a>Τύποι ανάπτυξης
 Το Project Operations υποστηρίζει πολλές επιλογές ανάπτυξης για να ταιριάζουν με τις απαιτήσεις σας. Είτε είστε νέος είτε υφιστάμενος πελάτης του Dynamics 365, το Project Operations μπορεί να υποστηρίξει τις ανάγκες σας.

@@ -3,17 +3,17 @@ title: Συμπεριφορά περιβάλλοντος εργασίας χρή
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη συμπεριφορά του περιβάλλοντος εργασίας για καταχώρηση χρόνου.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124503"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499614"
 ---
 # <a name="time-entry-ui-behavior"></a>Συμπεριφορά περιβάλλοντος εργασίας χρήστη καταχώρησης χρόνου
 
@@ -21,6 +21,19 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 
 Το πλέγμα **Εβδομαδιαία καταχώρηση χρόνου** είναι ένα προσαρμοσμένο στοιχείο ελέγχου με δύο κύριες ενότητες **Διαστάσεις** και **Διάρκεια**.
+
+## <a name="keyboard-shortcuts"></a>Συντομεύσεις πληκτρολογίου
+| Ενέργεια        | Συντόμευση                  |
+|------------   |------------------------   |
+| Δημιουργία           | Alt + Shift + n           |
+| Αντιγραφή σειράς      | Alt + Shift + c           |
+| Επεξεργασία καταχώρησης    | Alt + Shift + e           |
+| Επεξεργασία σειράς      | Alt + Shift + Ctrl + e    |
+| Άνοιγμα καταχώρησης    | Alt + Shift + o           |
+| Υποβολή        | Alt + Shift + s           |
+| Ανάκληση        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Αντιγραφή εβδομάδας     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Διαστάσεις
 Η ενότητα **Διαστάσεις** δείχνει τις διαστάσεις με τις οποίες μπορείτε να καταχωρήσετε τον χρόνο. Οι ακόλουθες διαστάσεις υποστηρίζονται:

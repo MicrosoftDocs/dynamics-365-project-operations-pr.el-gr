@@ -1,19 +1,19 @@
 ---
 title: Αντιγραφή έργου
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την αντιγραφή έργων στο Dynamics 365 Project Operations.
+description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την αντιγραφή έρων στο Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131793"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479519"
 ---
 # <a name="copy-a-project"></a>Αντιγραφή έργου
 
@@ -21,7 +21,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 Με το Dynamics 365 Project Operations, μπορείτε να δημιουργήσετε γρήγορα νέα έργα επιλέγοντας **Αντιγραφή έργου** στη φόρμα **Έργα**. Για να αντιγράψετε ένα έργο, ανοίξτε το έργο που θέλετε να αντιγράψετε και, στη συνέχεια, επιλέξτε **Αντιγραφή έργου**. Η ενέργεια θα αντιγράψει τα εξής:
 
-- Ιδιότητες έργου
+- Ιδιότητες έργου (Η εκτιμώμενη ημερομηνία έναρξης αντιγράφεται από το έργο προέλευσης)
 - Δομή ανάλυσης εργασίας
 - Μέλη ομάδας έργου
 - Εκτιμήσεις έργων
