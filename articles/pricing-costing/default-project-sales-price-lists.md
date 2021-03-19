@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130938"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275583"
 ---
 # <a name="default-price-lists"></a>Προεπιλεγμένοι τιμοκατάλογοι
 
@@ -21,7 +21,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 ## <a name="sales-price-lists"></a>Τιμοκατάλογοι πωλήσεων
 
-Κάθε προσφορά έργου και σύμβαση στο Dynamics 365 Project Operations περιέχει έναν προεπιλεγμένο τιμοκατάλογο πωλήσεων. 
+Κάθε προσφορά και σύμβαση έργου στο Dynamics 365 Project Operations περιλαμβάνει έναν προεπιλεγμένο τιμοκατάλογο πωλήσεων. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Προεπιλεγμένος τιμοκατάλογος για προσφορές έργου
 Το σύστημα ολοκληρώνει την ακόλουθη διεργασία για να προσδιορίσει τον τιμοκατάλογο που θα προεπιλεγεί σε μια προσφορά έργου:

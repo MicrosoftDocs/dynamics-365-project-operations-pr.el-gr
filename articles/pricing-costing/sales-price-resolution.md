@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119553"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274953"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Επίλυση τιμών πώλησης για εκτιμήσεις και πραγματικές τιμές
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Όταν οι τιμές πωλήσεων σε εκτιμήσεις και πραγματικές τιμές επιλύονται στο Dynamics 365 Project Operations, το σύστημα χρησιμοποιεί για πρώτη φορά την ημερομηνία και τη νομισματική μονάδα της σχετικής προσφοράς έργου ή σύμβασης για την επίλυση του τιμοκαταλόγου πωλήσεων. Αφού επιλυθεί ο τιμοκατάλογος πωλήσεων, το σύστημα επιλύει τις τιμές πωλήσεων ή χρέωσης.
+Όταν επιλύονται οι τιμές πωλήσεων για εκτιμήσεις και πραγματικές τιμές στο Dynamics 365 Project Operations, το σύστημα χρησιμοποιεί πρώτα την ημερομηνία και τη νομισματική μονάδα της σχετικής προσφοράς ή σύμβασης έργου για την επίλυση του τιμοκαταλόγου πωλήσεων. Αφού επιλυθεί ο τιμοκατάλογος πωλήσεων, το σύστημα επιλύει τις τιμές πωλήσεων ή χρέωσης.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Επιλύστε συντελεστές πωλήσεων σε πραγματικές και εκτιμώμενες γραμμές χρόνου
 

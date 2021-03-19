@@ -1,6 +1,6 @@
 ---
 title: Επανασχεδιασμός αναφορών δαπανών
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την επανασχεδίαση της εμπειρίας για την καταχώρηση της αναφοράς εξόδων στο Microsoft Dynamics 365 Finance. Η νέα εμπειρία απλοποιεί τη διαδικασία ολοκλήρωσης των αναφορών εξόδων και μειώνει το χρόνο που απαιτείται.
+description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την επανασχεδίαση της εμπειρίας για την καταχώρηση της αναφοράς εξόδων.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960247"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271983"
 ---
 # <a name="redesigned-expense-reports"></a>Επανασχεδιασμός αναφορών δαπανών
 
@@ -40,12 +40,6 @@ ms.locfileid: "4960247"
 - Προστίθεται ένα νέο στοιχείο μενού για την προβολή του πεδίου εξόδων.
 - Δεν καταργούνται τα υπάρχοντα στοιχεία μενού για τις αναφορές εξόδων (η υπάρχουσα σελίδα) ή τα πεδία αναφοράς εξόδων.
 - Οι ροές εργασιών και τυχόν εγκρίσεις σάς μεταφέρουν ακόμα στη σελίδα με τις υπάρχουσες αναφορές εξόδων.
-
-## <a name="getting-started-video-for-new-users"></a>Βίντεο για γρήγορα αποτελέσματα για νέους χρήστες
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Το [Βίντεο εμπειρίας εξόδων στο Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (που εμφανίζεται παραπάνω) περιλαμβάνεται στη [Λίστα αναπαραγωγής Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) που είναι διαθέσιμη στο YouTube.
 
 ## <a name="new-features"></a>Νέες δυνατότητες
 

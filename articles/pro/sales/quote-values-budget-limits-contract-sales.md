@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180953"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272433"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Πληροφορίες σύνοψης σε μια προσφορά έργου - lite
 
@@ -21,7 +21,7 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
 
 Αυτό το άρθρο περιγράφει τις πληροφορίες που εφαρμόζονται σε μια προσφορά έργου. Σε αυτές περιλαμβάνονται οι ρυθμίσεις που επηρεάζουν όλες τις γραμμές προσφοράς και οι πληροφορίες σχετικά με την προσφορά που συνοψίζονται σε όλα τα στοιχεία γραμμής για την οδήγηση των KPI της προσφοράς έργου.
 
-Ο παρακάτω πίνακας παραθέτει τα πεδία συνοπτικών πληροφοριών για μια προσφορά έργου που είναι μοναδικές για το Dynamics 365 Project Operations ή έχουν ορισμένες σημαντικές αλλαγές στη συμπεριφορά από τις προσφορές του Dynamics 365 Sales.
+Ο παρακάτω πίνακας περιλαμβάνει τα πεδία συνοπτικών πληροφοριών σε μια προσφορά έργου που είναι μοναδικά στο Dynamics 365 Project Operations ή έχουν ορισμένες σημαντικές αλλαγές στη συμπεριφορά από προσφορές του Dynamics 365 Sales.
 
 | **Πεδίο** | **Θέση** | **Περιγραφή** | **Κατάντη επίπτωση** |
 | --- | --- | --- | --- |
