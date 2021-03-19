@@ -8,15 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 727fadb93f870eaded60e060d6b4c981ce276945
-ms.sourcegitcommit: 454b0ec941cca06852236771bc77dc1651f94e48
+ms.openlocfilehash: 9eb58bf4d25062d3cc37d2e8bcce7efe2e826954
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514527"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279858"
 ---
-# <a name="create-resources"></a><span data-ttu-id="c57b8-103">Δημιουργία πόρων</span><span class="sxs-lookup"><span data-stu-id="c57b8-103">Create resources</span></span>
+# <a name="create-resources"></a><span data-ttu-id="d9191-103">Δημιουργία πόρων</span><span class="sxs-lookup"><span data-stu-id="d9191-103">Create resources</span></span>
 
-<span data-ttu-id="c57b8-104">_**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_</span><span class="sxs-lookup"><span data-stu-id="c57b8-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="d9191-104">_**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_</span><span class="sxs-lookup"><span data-stu-id="d9191-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="c57b8-105">Μπορείτε να χρησιμοποιήσετε το Dynamics 365 Field Service για να δημιουργήσετε πόρους με δυνατότητα κράτησης για χρήση στο περιβάλλον του Dynamics 365 Project Operations.</span><span class="sxs-lookup"><span data-stu-id="c57b8-105">You can use Dynamics 365 Field Service to create bookable resources to use in your Dynamics 365 Project Operations environment.</span></span> <span data-ttu-id="c57b8-106">Για να δημιουργήσετε αυτούς τους πόρους, ανατρέξτε στοθέμα  [Ρύθμιση πόρων με δυνατότητα κράτησης](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).</span><span class="sxs-lookup"><span data-stu-id="c57b8-106">To create these resources, see [Set up bookable resources](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).</span></span>
+<span data-ttu-id="d9191-105">Μπορείτε να χρησιμοποιήσετε το Dynamics 365 Field Service για να δημιουργήσετε πόρους με δυνατότητα κράτησης για χρήση στο περιβάλλον του Dynamics 365 Project Operations.</span><span class="sxs-lookup"><span data-stu-id="d9191-105">You can use Dynamics 365 Field Service to create bookable resources to use in your Dynamics 365 Project Operations environment.</span></span> <span data-ttu-id="d9191-106">Για να δημιουργήσετε αυτούς τους πόρους, ανατρέξτε στοθέμα  [Ρύθμιση πόρων με δυνατότητα κράτησης](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).</span><span class="sxs-lookup"><span data-stu-id="d9191-106">To create these resources, see [Set up bookable resources](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
