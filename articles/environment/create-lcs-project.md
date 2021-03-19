@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 463c1e206090b8c85ff67f4fc38a15932749a834
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175621"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290224"
 ---
 # <a name="start-a-new-lcs-project"></a>Έναρξη νέου έργου LCS
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Χρησιμοποιήστε το Lifecycle Services (LCS) για τη διαχείριση των περιβαλλόντων του Dynamics 365 Project Operations. Ολοκληρώστε τα παρακάτω βήματα για να δημιουργήσετε ένα νέο έργο LCS.
+Χρησιμοποιήστε το Lifecycle Services (LCS) για να διαχειριστείτε τα περιβάλλοντα του Dynamics 365 Project Operations. Ολοκληρώστε τα παρακάτω βήματα για να δημιουργήσετε ένα νέο έργο LCS.
 
 1. Μεταβείτε στο [LCS](https://lcs.dynamics.com/Logon/Index) και επιλέξτε **Σύνδεση** χρησιμοποιώντας τον λογαριασμό που χρησιμοποιήσατε για να εγγραφείτε.
 2. Εάν σας ζητηθεί, αποδεχτείτε τους νομικούς όρους και τους όρους προστασίας προσωπικών δεδομένων.
