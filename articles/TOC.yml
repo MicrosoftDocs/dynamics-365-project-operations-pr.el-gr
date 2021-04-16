@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Τι νέο υπάρχει
       items:
+        - name: Απρίλιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Μάρτιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: Φεβρουάριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
@@ -64,7 +66,7 @@
           items:
             - name: Επισκόπηση διαχείρισης ευκαιριών έργου
               href: sales/manage-project-based-opportunities.md
-            - name: Ρυθμίσεις ευκαιρίας βάσει έργου
+            - name: Λεπτομέρειες κεφαλίδας για ευκαιρίες βάσει έργου
               href: sales/opportunity-header.md
             - name: Γραμμές ευκαιρίας βάσει έργου
               href: sales/project-based-lines.md
@@ -78,23 +80,27 @@
           items:
             - name: Επισκόπηση διαχείρισης προσφορών έργου
               href: pro/sales/manage-quotes-sales.md
-            - name: Έννοιες προσφορών έργου
+            - name: Έννοιες μοναδικές για προσφορές βάσει έργου
               href: sales/quotes-key-concepts.md
-            - name: Ρυθμίσεις προσφορών έργου
+            - name: Λεπτομέρειες κεφαλίδας για προσφορές βάσει έργου
               href: sales/quote-values-budget-limits-contract.md
             - name: Διαχείριση πολλών πελατών σε προσφορά έργου
               href: sales/manage-multiple-customers-quote.md
             - name: Διαχείριση τιμοκαταλόγων έργου σε μια προσφορά
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Γραμμές προσφοράς βάσει έργου
               items:
                 - name: Επισκόπηση γραμμών προσφοράς βάσει έργου
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Διαχείριση πολλών πελατών σε γραμμές προσφοράς βάσει έργου
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Αντιστοίχιση έργων και εργασιών σε γραμμές προσφοράς βάσει έργου
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Ρύθμιση παραμέτρων χρεώσιμων στοιχείων για γραμμές προσφοράς βάσει έργου
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Ρύθμιση παραμέτρων των χρεώσιμων στοιχείων μιας γραμμής προσφοράς έργου
                   href: sales/configure-chargeable-quoteline.md
-                - name: Δημιουργία εκτιμήσεων σε μια γραμμή προσφοράς
+                - name: Εκτίμηση μιας γραμμής προσφοράς έργου
                   href: sales/create-estimate-quote-line.md
                 - name: Εισαγωγή εκτιμήσεων από ένα έργο σε γραμμή προσφοράς βάσει έργου
                   href: sales/import-estimate-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: Επισκόπηση διαχείρισης συμβάσεων έργου
               href: pro/sales/manage-contracts-sales.md
-            - name: Έννοιες συμβάσεων έργου
+            - name: Έννοιες μοναδικές για συμβάσεις βάσει έργου
               href: sales/contracts-key-concepts.md
-            - name: Ρυθμίσεις σύμβασης έργου
+            - name: Λεπτομέρειες κεφαλίδας για συμβάσεις βάσει έργου
               href: sales/project-contract-settings.md
             - name: Διαχείριση τιμοκαταλόγων έργου σε συμβάσεις έργου
               href: sales/contracts-manage-project-price-lists.md
@@ -119,12 +125,14 @@
             - name: Γραμμές σύμβασης βάσει έργου
               items:
                 - name: Επισκόπηση γραμμών σύμβασης βάσει έργου
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Διαχείριση πολλών πελατών σε γραμμές σύμβασης βάσει έργου
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: Ρύθμιση παραμέτρων χρεώσιμων στοιχείων μιας γραμμής σύμβασης βάσει έργου
-                  href: sales/configure-chargeable-contract-line.md
-                - name: Εκτίμηση μιας γραμμής σύμβασης βάσει έργου
+                - name: Αντιστοίχιση έργων και εργασιών σε μια γραμμή σύμβασης έργου
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Ρύθμιση παραμέτρων χρεώσιμων στοιχείων για μια γραμμή σύμβασης έργου
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Εκτίμηση μιας γραμμής σύμβασης έργου
                   href: sales/create-estimate-contract-line.md
                 - name: Εισαγωγή εκτιμήσεων από ένα έργο σε γραμμή σύμβασης βάσει έργου
                   href: sales/import-estimate-project-contract-line.md
@@ -132,8 +140,6 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: Επιβεβαίωση σύμβασης έργου
               href: pro/sales/confirm-contract-sales.md
-            - name: Αντιγραφή σύμβασης έργου
-              href: pro/sales/copy-project-contracts-sales.md
             - name: Προκαταβολές και προπληρωμές
               items:
                 - name: Συμβάσεις βάσει προπληρωμών και προκαταβολών
@@ -146,16 +152,16 @@
       items:
         - name: Ρύθμιση τιμοκαταλόγου
           items:
-            - name: Ρύθμιση τιμοκαταλόγων
+            - name: Ορισμός τιμοκαταλόγου
               href: pricing-costing/price-list-setup.md
-            - name: Τιμοκατάλογοι προϊόντος
-              href: pricing-costing/product-price-list.md
             - name: Ρύθμιση των συντελεστών χρέωσης εργασίας
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: Ρύθμιση των συντελεστών κόστους εργασίας
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: Ρύθμιση συντελεστών κόστους και πωλήσεων για τα έξοδα
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Ρύθμιση συντελεστών κόστους και πωλήσεων για τα υλικά
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Προεπιλογές και παρακάμψεις
           items:
             - name: Προεπιλεγμένοι τιμοκατάλογοι
@@ -168,6 +174,8 @@
               href: pricing-costing/sales-price-resolution.md
             - name: Αντιγραφή τιμοκαταλόγων
               href: pricing-costing/copy-price-lists.md
+            - name: Απενεργοποίηση τιμοκαταλόγων
+              href: pricing-costing/deactivatepricelists.md
         - name: Διαστάσεις τιμολόγησης
           items:
             - name: Επισκόπηση διαστάσεων τιμολόγησης
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: Δημιουργία αναθέσεων
               href: project-management/create-assignments.md
-        - name: Έργα εκτίμησης
+        - name: Χρηματοοικονομικές εκτιμήσεις για έργα
           items:
-            - name: Επισκόπηση έργων εκτίμησης
+            - name: Έννοιες χρηματοοικονομικής εκτίμησης
               href: project-management/estimating-projects-overview.md
-            - name: Εκτιμήσεις πόρων
+            - name: Χρηματοοικονομικές εκτιμήσεις για τον χρόνο πόρων για έργα
               href: project-management/resource-estimates.md
-            - name: Δημιουργία εκτιμήσεων εξόδου
+            - name: Χρηματοοικονομικές εκτιμήσεις για έξοδα σε έργα
               href: project-management/create-expense-estimates.md
+            - name: Χρηματοοικονομικές εκτιμήσεις για υλικά σε έργα
+              href: project-management/create-material-estimate.md
         - name: Παρακολούθηση έργου
           items:
-            - name: Επισκόπηση παρακολούθησης έργων
+            - name: Παρακολούθηση προσπάθειας έργου
               href: project-management/project-tracking-overview.md
+            - name: Παρακολούθηση κόστους εργασίας σε έργα
+              href: project-management/project-cost-tracking.md
+            - name: Παρακολούθηση εσόδων εργασίας σε έργα
+              href: project-management/project-sales-tracking.md
             - name: Ενημέρωση εκτίμησης κατά την ολοκλήρωση
               href: project-management/update-completed-estimate.md
         - name: Μέλη ομάδας έργου
@@ -248,6 +262,8 @@
           items:
             - name: Ανάπτυξη προτύπων έργου με την Αντιγραφή έργου
               href: project-management/dev-copy-project.md
+            - name: Χρήση API χρονοδιαγράμματος (Δημόσια έκδοση προεπισκόπησης)
+              href: project-management/schedule-api-preview.md
     - name: Διαχείριση πόρων
       items:
         - name: Βασικές έννοιες
@@ -366,6 +382,10 @@
           items:
             - name: Επιστροφή ΦΠΑ
               href: expense/vat-recovery.md
+    - name: Χρήση υλικών
+      items:
+        - name: Καταγραφή χρήσης υλικού σε έργα και εργασίες έργων
+          href: material/material-usage-log.md
     - name: Εγκρίσεις
       items:
         - name: Επισκόπηση εγκρίσεων
@@ -378,6 +398,8 @@
       items:
         - name: Επισκόπηση πραγματικών τιμών
           href: actuals/actuals-overview.md
+        - name: Σύνδεση των πραγματικών τιμών με τις αρχικές καρτέλες
+          href: actuals/linkingactuals.md
         - name: Ημερολόγια διόρθωσης
           items:
             - name: Δημιουργία και επιβεβαίωση Ημερολογίων διόρθωσης
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: Προτιμολόγηση
           items:
-            - name: Διαχείριση λίστας εκκρεμοτήτων χρέωσης έργου
+            - name: Διαχείριση λίστας εκκρεμοτήτων χρέωσης βάσει έργου
               href: proforma-invoicing/manage-billing-backlog.md
-            - name: Διαχείριση κατάστασης για τη μη υπέρβαση και των επικυρώσεων
+            - name: Διαχείριση κατάστασης για μη υπέρβαση και των επικυρώσεων
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: Μη αυτόματη δημιουργία προτιμολογίου έργου
+            - name: Προτιμολόγια βάσει έργου
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: Διαχείριση προτιμολογίου έργου
+            - name: Διαχείριση προτιμολογίου βάσει έργου
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: Τιμολόγιο μιας προκαταβολής ή προπληρωμής
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Επιβεβαίωση προτιμολογίου έργου
+            - name: Επιβεβαίωση προτιμολογίου βάσει έργου
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: Ρύθμιση παραμέτρων αυτοματοποίησης τιμολογίου έργου
+            - name: Δημιουργία διορθωτικών τιμολογίων βάσει έργου
+              href: proforma-invoicing/corrective-invoices.md
+            - name: Ρύθμιση παραμέτρων αυτοματοποίησης τιμολογίου βάσει έργου
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Λογιστική έργου
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: Τι νέο υπάρχει
       items:
+        - name: Τι νέο υπάρχει Απρίλιος 2021 - ελαφριά ανάπτυξη
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 'Τι νέο υπάρχει, Μάρτιος 2021 - ελαφριά ανάπτυξη'
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: 'Τι νέο υπάρχει, Φεβρουάριος 2021 - ελαφριά ανάπτυξη'
@@ -486,7 +512,7 @@
           items:
             - name: Επισκόπηση ευκαιριών έργου
               href: sales/manage-project-based-opportunities.md
-            - name: Ρυθμίσεις ευκαιρίας έργου
+            - name: Λεπτομέρειες κεφαλίδας για ευκαιρίες έργου
               href: pro/sales/opportunity-header-sales.md
             - name: Διαχείριση γραμμών ευκαιρίας βάσει προϊόντων
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: Επισκόπηση προσφορών βάσει έργου
               href: pro/sales/manage-quotes-sales.md
-            - name: Έννοιες προσφοράς έργου
+            - name: Έννοιες μοναδικές για προσφορές έργων
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Ρυθμίσεις προσφοράς έργου
+            - name: Λεπτομέρειες κεφαλίδας για προσφορές έργου
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: Πολλοί πελάτες σε προσφορές έργου
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +568,9 @@
           items:
             - name: Επισκόπηση συμβάσεων βάσει έργου
               href: pro/sales/manage-contracts-sales.md
-            - name: Έννοιες σύμβασης έργου
+            - name: Έννοιες μοναδικές για συμβάσεις έργου
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: Ρυθμίσεις σύμβασης έργου
+            - name: Λεπτομέρειες κεφαλίδας για συμβάσεις έργου
               href: pro/sales/project-contract-settings-sales.md
             - name: Πολλοί πελάτες σε συμβάσεις έργου
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: Ρύθμιση τιμοκαταλόγου
           items:
-            - name: Ρύθμιση τιμοκαταλόγων
+            - name: Ορισμός τιμοκαταλόγου
               href: pricing-costing/price-list-setup.md
-            - name: Ρύθμιση τιμοκαταλόγου πωλήσεων
-              href: pricing-costing/sales-price-list-setup.md
-            - name: Ρύθμιση των συντελεστών χρέωσης εργασίας - ελαφριά
+            - name: Ρύθμιση τιμοκαταλόγων προϊόντων
+              href: pricing-costing/product-price-list.md
+            - name: Ρύθμιση των συντελεστών χρέωσης για εργασία
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: Ρύθμιση των συντελεστών κόστους εργασίας - ελαφριά
+            - name: Ρύθμιση των συντελεστών κόστους για εργασία
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: Ρύθμιση συντελεστών πωλήσεων και κόστους για τα προϊόντα καταλόγου - ελαφριά
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: Ρύθμιση συντελεστών κόστους και πωλήσεων για τα έξοδα
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: Ρύθμιση συντελεστών κόστους και πωλήσεων για τα υλικά
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: Προεπιλογές και παρακάμψεις
           items:
             - name: Προεπιλεγμένοι τιμοκατάλογοι
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Παράκαμψη τιμοκαταλόγων πωλήσεων έργου
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Επίλυση τιμών κόστους σε εκτιμήσεις και πραγματικές τιμές - ελαφριά
+            - name: Επίλυση τιμών κόστους σε εκτιμήσεις και πραγματικές τιμές έργου
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Επίλυση τιμών πωλήσεων για εκτιμήσεις και πραγματικές τιμές - ελαφριά
+            - name: Επίλυση τιμών πωλήσεων για εκτιμήσεις και πραγματικές τιμές έργου
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Αντιγραφή τιμοκαταλόγων
               href: pricing-costing/copy-price-lists.md
+            - name: Απενεργοποίηση τιμοκαταλόγων έργου
+              href: pricing-costing/deactivatepricelists.md
         - name: Διαστάσεις τιμολόγησης
           items:
             - name: Επισκόπηση διαστάσεων τιμολόγησης
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: Δημιουργία αναθέσεων
               href: project-management/create-assignments.md
-        - name: Έργα εκτίμησης
+        - name: Χρηματοοικονομικές εκτιμήσεις για έργα
           items:
-            - name: Επισκόπηση έργων εκτίμησης
+            - name: Έννοιες χρηματοοικονομικής εκτίμησης
               href: project-management/estimating-projects-overview.md
-            - name: Εκτιμήσεις πόρων
+            - name: Χρηματοοικονομικές εκτιμήσεις για τον χρόνο πόρων για έργα
               href: project-management/resource-estimates.md
-            - name: Δημιουργία εκτιμήσεων εξόδου
+            - name: Χρηματοοικονομικές εκτιμήσεις για έξοδα σε έργα
               href: project-management/create-expense-estimates.md
+            - name: Χρηματοοικονομικές εκτιμήσεις για υλικά σε έργα
+              href: project-management/create-material-estimate.md
         - name: Παρακολούθηση έργου
           items:
-            - name: Επισκόπηση παρακολούθησης έργων
+            - name: Παρακολούθηση προσπάθειας έργου
               href: project-management/project-tracking-overview.md
+            - name: Παρακολούθηση κόστους εργασίας σε έργα
+              href: project-management/project-cost-tracking.md
+            - name: Παρακολούθηση εσόδων εργασίας σε έργα
+              href: project-management/project-sales-tracking.md
             - name: Ενημέρωση εκτίμησης κατά την ολοκλήρωση
               href: project-management/update-completed-estimate.md
         - name: Μέλη ομάδας έργου
@@ -694,6 +728,8 @@
           items:
             - name: Ανάπτυξη προτύπων έργου με την Αντιγραφή έργου
               href: project-management/dev-copy-project.md
+            - name: Χρήση API χρονοδιαγράμματος (Δημόσια έκδοση προεπισκόπησης)
+              href: project-management/schedule-api-preview.md
     - name: Διαχείριση πόρων
       items:
         - name: Βασικές έννοιες
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: Καταχώρηση εξόδων (ελαφριά)
           href: expense/basic-expense.md
+    - name: Χρήση υλικών
+      items:
+        - name: Καταγραφή χρήσης υλικού σε έργα και εργασίες έργων
+          href: material/material-usage-log.md
     - name: Εγκρίσεις
       items:
         - name: Επισκόπηση εγκρίσεων
@@ -780,6 +820,8 @@
       items:
         - name: Επισκόπηση πραγματικών τιμών
           href: actuals/actuals-overview.md
+        - name: Σύνδεση των πραγματικών τιμών με τις αρχικές καρτέλες
+          href: actuals/linkingactuals.md
         - name: Ημερολόγια διόρθωσης
           items:
             - name: Δημιουργία και επιβεβαίωση Ημερολογίων διόρθωσης
@@ -788,9 +830,9 @@
       items:
         - name: Διαχείριση λίστας εκκρεμοτήτων χρέωσης έργου
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
-        - name: Διαχείριση κατάστασης για τη μη υπέρβαση και των επικυρώσεων
+        - name: Διαχείριση κατάστασης για μη υπέρβαση και των επικυρώσεων
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Μη αυτόματη δημιουργία προτιμολογίου έργου
+        - name: Προτιμολόγια έργου
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: Διαχείριση προτιμολογίου έργου
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: Τι νέο υπάρχει
       items:
+        - name: 'Τι νέο υπάρχει, Μάρτιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: 'Τι νέο υπάρχει, Ιανουάριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: 'Τι νέο υπάρχει, Δεκέμβριος 2020 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: Τιμολόγηση έργου
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: Εκτέλεση προτάσεων τιμολογίου έργου
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: Συμβάσεις έργων
       href: prod-pma/project-contracts.md
     - name: Δημιουργία σύνθετων συμβάσεων για χρέωση με βάση την πρόοδο
@@ -952,6 +998,10 @@
       items:
         - name: Χρονοδιάγραμμα έκδοσης ενημέρωσης για το Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 30, V3'
+          href: psa/whats-new-ur-30.md
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 29.5, Άμεση επιδιόρθωση, V3'
+          href: psa/whats-new-ur-29-5.md
         - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 29, V3'
           href: psa/whats-new-ur-29.md
         - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 28.6, Άμεση επιδιόρθωση, V3'
