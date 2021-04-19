@@ -3,17 +3,17 @@ title: Προσδιορισμός του τύπου ανάπτυξής σας
 description: Αυτό το θέμα παρέχει πληροφορίες για να σας βοηθήσει να καθορίσετε τον σωστό τύπο ανάπτυξης του Project Operations για την εταιρεία σας.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479564"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663594"
 ---
 # <a name="determine-your-deployment-type"></a>Προσδιορισμός του τύπου ανάπτυξής σας
 
@@ -44,7 +44,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 - [Project Operations για σενάρια πόρων/μη εφοδιασμένα](#integrated)
 - [Project Operations για σενάρια εφοδιασμένα/παραγγελίας παραγωγής](#pma)
 
-Το Project Operations υποστηρίζει σενάρια με απόθεμα/παραγγελίας παραγωγής και σενάρια χωρίς απόθεμα/βάσει πόρου στο ίδιο περιβάλλον μέσω διαμορφώσεων σε επίπεδο νομικής οντότητας. Για παράδειγμα, η Contoso μπορεί να χρησιμοποιήσει τις δυνατότητες αποθήκευσης/παραγγελίας παραγωγής στις αμερικάνικες εγκαταστάσεις παραγωγής (Νομική οντότητα = Contoso Manufacturing United States). Η Contoso μπορεί να χρησιμοποιήσει τις δυνατότητες που βασίζονται σε μη εφοδιασμένο/πόρο στο Contoso Robotics Arms που εξυπηρετεί το Ηνωμένο Βασίλειο (Νομική οντότητα = Contoso Robotics United Kingdom).
+Το Project Operations υποστηρίζει σενάρια με απόθεμα/παραγγελίας παραγωγής και σενάρια χωρίς απόθεμα/βάσει πόρου στο ίδιο περιβάλλον μέσω διαμορφώσεων σε επίπεδο νομικής οντότητας. Για παράδειγμα, η Contoso μπορεί να χρησιμοποιήσει δυνατότητες παραγγελίας αποθέματος/παραγωγής στις εγκαταστάσεις παραγωγής στις Η.Π.Α. (Νομική οντότητα = Contoso Manufacturing United States). Η Contoso μπορεί να χρησιμοποιήσει μη εφοδιασμένες/βάσει πόρων δυνατότητες στην εγκατάσταση σέρβις Contoso Robotics Arms στο Η.Β. (Νομική οντότητα = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση
 
@@ -56,7 +56,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 - Ενοποιημένη διαχείριση πόρων
 - Παρακολούθηση χρόνου
 - Βασικά έξοδα
-- Προτιμολόγια και τιμολόγηση πελάτη 
+- Προτιμολόγηση proforma για αναθεώρηση και επεξεργασία από υπεύθυνο έργου 
 
 #### <a name="deployment-steps"></a>Βήματα ανάπτυξης
 Καθορίστε το καλύτερο μοντέλο ανάπτυξης του Project Operations χρησιμοποιώντας το [ερωτηματολόγιο ανάπτυξης](https://aka.ms/provisionprojectoperations).
@@ -94,7 +94,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 - Πλήρης τιμολόγηση
 - Αναγνώριση εσόδων
 - Παραγγελίες παραγωγής
-- Υποστήριξη υλικών
+- Υποστήριξη εφοδιασμένων υλικών με απόθεμα
 
 #### <a name="deployment-steps"></a>Βήματα ανάπτυξης
 Καθορίστε το καλύτερο μοντέλο ανάπτυξης του Project Operations χρησιμοποιώντας το [ερωτηματολόγιο ανάπτυξης](https://aka.ms/provisionprojectoperations).

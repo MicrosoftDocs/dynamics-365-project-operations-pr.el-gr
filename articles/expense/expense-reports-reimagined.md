@@ -3,7 +3,7 @@ title: Νέα σύλληψη αναφορών εξόδων
 description: Αυτό θέμα εξηγεί την επανασχεδιασμένη και εκ νέου εμπνευσμένη εμπειρία για την καταχώρηση της αναφοράς δαπανών.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499716"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717695"
 ---
 # <a name="expense-reports-reimagined"></a>Νέα σύλληψη αναφορών δαπανών
 
@@ -41,11 +41,7 @@ ms.locfileid: "5499716"
 - Δεν καταργούνται τα υπάρχοντα στοιχεία μενού για τις αναφορές εξόδων (η υπάρχουσα σελίδα) ή τα πεδία αναφοράς εξόδων.
 - Οι ροές εργασιών και τυχόν εγκρίσεις σάς μεταφέρουν ακόμα στη σελίδα με τις υπάρχουσες αναφορές εξόδων.
 
-## <a name="getting-started-video-for-new-users"></a>Βίντεο για γρήγορα αποτελέσματα για νέους χρήστες
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Το [Βίντεο εμπειρίας εξόδων στο Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (που εμφανίζεται παραπάνω) περιλαμβάνεται στη [Λίστα αναπαραγωγής Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) που είναι διαθέσιμη στο YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Νέες δυνατότητες
 

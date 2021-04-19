@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272793"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858088"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Αντιστοίχιση έργων και εργασιών σε μια γραμμή σύμβασης βάσει έργου - lite
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Αντιστοίχιση έργων και εργασιών σε μια γραμμή σύμβασης βάσει έργου 
 
-_**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
+_**Ισχύει για:** ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση, Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
 Σε γραμμές σύμβασης βάσει έργου, μπορείτε να αντιστοιχίσετε συγκεκριμένες εργασίες σε ένα έργο με τη γραμμή σύμβασης.
 
