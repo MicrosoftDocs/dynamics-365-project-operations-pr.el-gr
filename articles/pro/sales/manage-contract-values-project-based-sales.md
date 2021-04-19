@@ -1,5 +1,5 @@
 ---
-title: Εργασία με γραμμές σύμβασης βάσει έργου - lite
+title: Επισκόπηση γραμμών σύμβασης βάσει έργου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την εργασία με γραμμές σύμβασης βάσει έργου.
 author: rumant
 manager: Annbe
@@ -8,64 +8,628 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3b0ff564c2cf9bc5681e14efbfa7983d6959c155
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 824fdd54d7b513b49afd1a6d76d3387df81418e2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273288"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858158"
 ---
-# <a name="work-with-projectbased-contract-lines---lite"></a><span data-ttu-id="1b723-103">Εργασία με γραμμές σύμβασης βάσει έργου - lite</span><span class="sxs-lookup"><span data-stu-id="1b723-103">Work with project–based contract lines - lite</span></span>
+# <a name="project-based-contract-lines-overview"></a><span data-ttu-id="731a2-103">Επισκόπηση γραμμών σύμβασης βάσει έργου</span><span class="sxs-lookup"><span data-stu-id="731a2-103">Project-based contract lines overview</span></span>
 
-<span data-ttu-id="1b723-104">_**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_</span><span class="sxs-lookup"><span data-stu-id="1b723-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="731a2-104">_**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_</span><span class="sxs-lookup"><span data-stu-id="731a2-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="1b723-105">Οι γραμμές σύμβασης βάσει έργου στο Dynamics 365 Project Operations έχουν σχεδιαστεί για τη διατήρηση των συμβάσεων εκτίμησης και χρέωσης για συγκεκριμένα στοιχεία της εργασίας έργου σε μια δέσμευση.</span><span class="sxs-lookup"><span data-stu-id="1b723-105">Project-based contract lines in Dynamics 365 Project Operations are designed to hold the estimate and billing agreements for specific components of project work on an engagement.</span></span> <span data-ttu-id="1b723-106">Η δομή μιας γραμμής σύμβασης βάσει έργου επεκτείνεται για εκτιμήσεις έργων και σενάρια χρέωσης με τις ακόλουθες έννοιες:</span><span class="sxs-lookup"><span data-stu-id="1b723-106">The structure of a project–based contract line is extended for project estimates and billing scenarios with the following concepts:</span></span>
+<span data-ttu-id="731a2-105">Οι γραμμές σύμβασης βάσει έργου στο Dynamics 365 Project Operations έχουν σχεδιαστεί για τη διατήρηση των συμβάσεων εκτίμησης και χρέωσης για συγκεκριμένα στοιχεία της εργασίας έργου σε μια δέσμευση.</span><span class="sxs-lookup"><span data-stu-id="731a2-105">Project-based contract lines in Dynamics 365 Project Operations are designed to hold the estimate and billing agreements for specific components of project work on an engagement.</span></span> <span data-ttu-id="731a2-106">Η δομή μιας γραμμής σύμβασης βάσει έργου επεκτείνεται για εκτιμήσεις έργων και σενάρια χρέωσης με τις ακόλουθες έννοιες:</span><span class="sxs-lookup"><span data-stu-id="731a2-106">The structure of a project–based contract line is extended for project estimates and billing scenarios with the following concepts:</span></span>
 
-- <span data-ttu-id="1b723-107">Μέθοδος χρέωσης</span><span class="sxs-lookup"><span data-stu-id="1b723-107">Billing method</span></span>
-- <span data-ttu-id="1b723-108">Αντιστοίχιση έργου και εργασιών</span><span class="sxs-lookup"><span data-stu-id="1b723-108">Project and task mapping</span></span>
-- <span data-ttu-id="1b723-109">Κατηγορίες συναλλαγής που περιλαμβάνονται</span><span class="sxs-lookup"><span data-stu-id="1b723-109">Included transaction classes</span></span>
-- <span data-ttu-id="1b723-110">Όριο που δεν πρέπει να υπερβαίνεται</span><span class="sxs-lookup"><span data-stu-id="1b723-110">Not-to-exceed limit</span></span>
-- <span data-ttu-id="1b723-111">Ρύθμιση χρέωσης</span><span class="sxs-lookup"><span data-stu-id="1b723-111">Chargeability setup</span></span>
-- <span data-ttu-id="1b723-112">Εκτιμήσεις χρησιμοποιώντας τις λεπτομέρειες γραμμής σύμβασης</span><span class="sxs-lookup"><span data-stu-id="1b723-112">Estimates using contract line details</span></span>
-- <span data-ttu-id="1b723-113">Πελάτης γραμμής σύμβασης</span><span class="sxs-lookup"><span data-stu-id="1b723-113">Contract line customers</span></span>
+- <span data-ttu-id="731a2-107">Μέθοδος χρέωσης</span><span class="sxs-lookup"><span data-stu-id="731a2-107">Billing method</span></span>
+- <span data-ttu-id="731a2-108">Αντιστοίχιση έργου και εργασιών</span><span class="sxs-lookup"><span data-stu-id="731a2-108">Project and task mapping</span></span>
+- <span data-ttu-id="731a2-109">Κατηγορίες συναλλαγής που περιλαμβάνονται</span><span class="sxs-lookup"><span data-stu-id="731a2-109">Included transaction classes</span></span>
+- <span data-ttu-id="731a2-110">Όριο που δεν πρέπει να υπερβαίνεται</span><span class="sxs-lookup"><span data-stu-id="731a2-110">Not-to-exceed limit</span></span>
+- <span data-ttu-id="731a2-111">Ρύθμιση χρέωσης</span><span class="sxs-lookup"><span data-stu-id="731a2-111">Chargeability setup</span></span>
+- <span data-ttu-id="731a2-112">Εκτιμήσεις χρησιμοποιώντας τις λεπτομέρειες γραμμής σύμβασης</span><span class="sxs-lookup"><span data-stu-id="731a2-112">Estimates using contract line details</span></span>
+- <span data-ttu-id="731a2-113">Πελάτης γραμμής σύμβασης</span><span class="sxs-lookup"><span data-stu-id="731a2-113">Contract line customers</span></span>
 
-<span data-ttu-id="1b723-114">Ο παρακάτω πίνακας περιλαμβάνει τα πεδία στην καρτέλα **Γενικά** των γραμμών σύμβασης βάσει έργου που σας βοηθούν να ορίσετε τη βάση μιας λεπτομερούς εκτίμησης, της αρχικής εκτίμησης και των λεπτομερειών χρέωσης για την εργασία βάσει έργου.</span><span class="sxs-lookup"><span data-stu-id="1b723-114">The following table includes the fields on the **General** tab of project–based contract lines that help set up the basis for a detailed, ground–up estimate and billing arrangements for project–based work.</span></span>
+<span data-ttu-id="731a2-114">Ο παρακάτω πίνακας περιλαμβάνει τα πεδία στην καρτέλα **Γενικά** των γραμμών σύμβασης βάσει έργου που σας βοηθούν να ορίσετε τη βάση μιας λεπτομερούς εκτίμησης, της αρχικής εκτίμησης και των λεπτομερειών χρέωσης για την εργασία βάσει έργου.</span><span class="sxs-lookup"><span data-stu-id="731a2-114">The following table includes the fields on the **General** tab of project–based contract lines that help set up the basis for a detailed, ground–up estimate and billing arrangements for project–based work.</span></span>
 
-| <span data-ttu-id="1b723-115">Πεδίο</span><span class="sxs-lookup"><span data-stu-id="1b723-115">Field</span></span> | <span data-ttu-id="1b723-116">Περιγραφή</span><span class="sxs-lookup"><span data-stu-id="1b723-116">Description</span></span> | <span data-ttu-id="1b723-117">Κατάντη επίπτωση</span><span class="sxs-lookup"><span data-stu-id="1b723-117">Downstream impact</span></span> |
+| <span data-ttu-id="731a2-115">Πεδίο</span><span class="sxs-lookup"><span data-stu-id="731a2-115">Field</span></span> | <span data-ttu-id="731a2-116">Περιγραφή</span><span class="sxs-lookup"><span data-stu-id="731a2-116">Description</span></span> | <span data-ttu-id="731a2-117">Κατάντη επίπτωση</span><span class="sxs-lookup"><span data-stu-id="731a2-117">Downstream impact</span></span> |
 | --- | --- | --- |
-| <span data-ttu-id="1b723-118">**Όνομα**.</span><span class="sxs-lookup"><span data-stu-id="1b723-118">**Name**</span></span> | <span data-ttu-id="1b723-119">Όνομα της γραμμής σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-119">Name of the contract line.</span></span> <span data-ttu-id="1b723-120">Με αυτόν τον τρόπο προσδιορίζεται το διακριτό στοιχείο της σύμβασης που εκτιμάται.</span><span class="sxs-lookup"><span data-stu-id="1b723-120">This identifies the discrete component of the contract that is being estimated.</span></span> <span data-ttu-id="1b723-121">Για μια σύμβαση έργου που έχει δημιουργηθεί από μια προσφορά, αυτή η τιμή αντιγράφεται από μια αντίστοιχη τιμή της γραμμής προσφοράς βάσει έργου.</span><span class="sxs-lookup"><span data-stu-id="1b723-121">For a project contract created from a quote, this value is copied from a corresponding value of the project-based quote line.</span></span> | <span data-ttu-id="1b723-122">Το όνομα που αντιγράφηκε στη γραμμή τιμολογίου βάσει έργου που δημιουργείται από αυτήν τη γραμμή σύμβασης κατά τη δημιουργία του τιμολογίου.</span><span class="sxs-lookup"><span data-stu-id="1b723-122">The name copied over to the project invoice line that is created from this contract line when the invoice is created.</span></span> |
-| <span data-ttu-id="1b723-123">**Μέθοδος χρέωσης**</span><span class="sxs-lookup"><span data-stu-id="1b723-123">**Billing Method**</span></span> | <span data-ttu-id="1b723-124">Σε μια σύμβαση έργου που έχει δημιουργηθεί από μια προσφορά, αυτή η τιμή αντιγράφεται από το αντίστοιχο πεδίο της γραμμής προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="1b723-124">On a project contract created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="1b723-125">Πρόκειται για ένα σύνολο επιλογών που αντιπροσωπεύει τα δύο κύρια συμβαλλόμενα μοντέλα που υποστηρίζονται από το Project Operations:</span><span class="sxs-lookup"><span data-stu-id="1b723-125">This is an option set that represents the two main contracting models supported by Project Operations:</span></span></br><span data-ttu-id="1b723-126">- **Σταθερή τιμή**</span><span class="sxs-lookup"><span data-stu-id="1b723-126">- **Fixed Price**</span></span></br><span data-ttu-id="1b723-127">- **Χρόνος και υλικό**</span><span class="sxs-lookup"><span data-stu-id="1b723-127">- **Time and Material**</span></span> | <span data-ttu-id="1b723-128">Με βάση τη μέθοδο χρέωσης της γραμμής σύμβασης αναφοράς, η πραγματική συναλλαγή θα διεκπεραιωθεί.</span><span class="sxs-lookup"><span data-stu-id="1b723-128">Based on the billing method of the referenced contract line, the actual transaction will be processed.</span></span> <span data-ttu-id="1b723-129">Εάν η γραμμή σύμβασης στην οποία γίνεται αναφορά από την πραγματική τιμή έχει μια μέθοδο χρέωσης χρόνου και υλικού, δημιουργούνται καρτέλες πραγματικών μη τιμολογημένων πωλήσεων και κόστους.</span><span class="sxs-lookup"><span data-stu-id="1b723-129">If the contract line referenced by the actual has a time and material billing method, cost and unbilled sales actual records are created.</span></span> <span data-ttu-id="1b723-130">Εάν η γραμμή σύμβασης στην οποία γίνεται αναφορά από την πραγματική τιμή έχει μια μέθοδο χρέωσης με σταθερή τιμή, δημιουργείται μόνο μια πραγματική δαπάνη.</span><span class="sxs-lookup"><span data-stu-id="1b723-130">If the contract line referenced by the actual has a fixed price billing method, only a cost actual is created.</span></span> |
-| <span data-ttu-id="1b723-131">**Project**</span><span class="sxs-lookup"><span data-stu-id="1b723-131">**Project**</span></span> | <span data-ttu-id="1b723-132">Χρησιμοποιήστε αυτό το πεδίο για να προσδιορίσετε το έργο που θα χρησιμοποιηθεί για την παροχή της εργασίας σε αυτήν τη δέσμευση.</span><span class="sxs-lookup"><span data-stu-id="1b723-132">Use this field to identify the project that will be used to deliver the work on this engagement.</span></span> | <span data-ttu-id="1b723-133">Αυτή η τιμή θα χρησιμοποιηθεί σε συνδυασμό με τις **Εργασίες που περιλαμβάνονται** και τις **Κατηγορίες συναλλαγών που περιλαμβάνονται** για την επίλυση της αναφοράς γραμμής σύμβασης σε μια καρτέλα πραγματικής τιμής ή γραμμής εκτίμησης.</span><span class="sxs-lookup"><span data-stu-id="1b723-133">This value will be used in conjunction with **Included Tasks** and **Included Transaction Classes** to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="1b723-134">**Εργασίες που περιλαμβάνονται**</span><span class="sxs-lookup"><span data-stu-id="1b723-134">**Included Tasks**</span></span> | <span data-ttu-id="1b723-135">Υποδεικνύει εάν αυτή η γραμμή σύμβασης περιλαμβάνει όλες τις εργασίες έργου για το επιλεγμένο έργο ή μόνο ένα υποσύνολο των εργασιών.</span><span class="sxs-lookup"><span data-stu-id="1b723-135">Indicates if this contract line includes all project tasks for the selected project or only a subset of the tasks.</span></span> <span data-ttu-id="1b723-136">Πρόκειται για μια σύνολο επιλογών που έχει τις ακόλουθες πιθανές τιμές:</span><span class="sxs-lookup"><span data-stu-id="1b723-136">This is an option set that has the following possible values:</span></span></br><span data-ttu-id="1b723-137">- **Όλες οι εργασίες έργων**</span><span class="sxs-lookup"><span data-stu-id="1b723-137">- **All Project Tasks**</span></span></br><span data-ttu-id="1b723-138">- **Επιλεγμένες εργασίες έργου μόνο**.</span><span class="sxs-lookup"><span data-stu-id="1b723-138">- **Selected Project Tasks Only**.</span></span> <span data-ttu-id="1b723-139">Μια κενή τιμή σε αυτό το πεδίο ισούται με την επιλογή **Όλες οι εργασίες έργου**.</span><span class="sxs-lookup"><span data-stu-id="1b723-139">A blank value in this field is equal to selecting **All Project Tasks**.</span></span> | <span data-ttu-id="1b723-140">Εάν έχετε επιλέξει **Μόνο οι επιλεγμένες εργασίες**, μπορείτε να επιλέξετε συγκεκριμένες εργασίες και να τις συσχετίσετε με αυτήν τη γραμμή σύμβασης στην καρτέλα **Ρύθμιση χρέωσης εργασίας** στη σελίδα **Έργο**.</span><span class="sxs-lookup"><span data-stu-id="1b723-140">If **Selected Tasks Only** is selected, you can select specific tasks and associate them to this contract line on the **Task Billing Setup** tab on the **Project** page.</span></span> <span data-ttu-id="1b723-141">Αυτή η τιμή θα χρησιμοποιηθεί σε συνδυασμό με τις κατηγορίες **Έργο** και **Συναλλαγή που περιλαμβάνεται** για την επίλυση της αναφοράς γραμμής σύμβασης σε μια καρτέλα πραγματικής τιμής ή γραμμής εκτίμησης.</span><span class="sxs-lookup"><span data-stu-id="1b723-141">The value will be used in conjunction with **Project** and **Included Transaction** classes to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="1b723-142">**Συμπερίληψη χρόνου**</span><span class="sxs-lookup"><span data-stu-id="1b723-142">**Include Time**</span></span> | <span data-ttu-id="1b723-143">Μια σημαία υποδεικνύει εάν οι συναλλαγές χρόνου ή το κόστος εργασίας στο επιλεγμένο έργο θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-143">A flag indicates if time transactions or labor costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="1b723-144">Μια τιμή **Όχι** υποδεικνύει εάν οι συναλλαγές χρόνου ή το κόστος εργασίας θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-144">A **No** value indicates that the time transactions or labor cost will not be included on this contract line.</span></span> <span data-ttu-id="1b723-145">Μια τιμή **Ναι** υποδεικνύει ότι αυτό θα γίνει.</span><span class="sxs-lookup"><span data-stu-id="1b723-145">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="1b723-146">Αυτή η τιμή θα χρησιμοποιηθεί σε συνδυασμό με το έργο για την επίλυση της αναφοράς γραμμής σύμβασης σε μια καρτέλα πραγματικής τιμής ή γραμμής εκτίμησης.</span><span class="sxs-lookup"><span data-stu-id="1b723-146">This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="1b723-147">**Συμπερίληψη εξόδου**</span><span class="sxs-lookup"><span data-stu-id="1b723-147">**Include Expense**</span></span> | <span data-ttu-id="1b723-148">Μια σημαία υποδεικνύει εάν τα κόστη στο επιλεγμένο έργο θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-148">A flag indicates if expense costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="1b723-149">Μια τιμή **Όχι** υποδεικνύει ότι τα κόστη δεν θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-149">A **No** value indicates that the expense cost will not be included on this contract line.</span></span> <span data-ttu-id="1b723-150">Μια τιμή **Ναι** υποδεικνύει ότι αυτό θα γίνει.</span><span class="sxs-lookup"><span data-stu-id="1b723-150">A **Yes** value indicates that it will.</span></span> | <span data-ttu-id="1b723-151">Αυτή η τιμή θα χρησιμοποιηθεί σε συνδυασμό με το έργο για την επίλυση της αναφοράς γραμμής σύμβασης σε μια καρτέλα πραγματικής τιμής ή γραμμής εκτίμησης.</span><span class="sxs-lookup"><span data-stu-id="1b723-151">This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="1b723-152">**Συμπερίληψη χρέωσης**</span><span class="sxs-lookup"><span data-stu-id="1b723-152">**Include Fee**</span></span> | <span data-ttu-id="1b723-153">Μια σημαία υποδεικνύει εάν οι χρεώσεις στο επιλεγμένο έργο θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-153">A flag indicates if fees on the selected project will be included on this contract line.</span></span> <span data-ttu-id="1b723-154">Μια τιμή **Όχι** υποδεικνύει ότι οι χρεώσεις δεν θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-154">A **No** value indicates that the fees will not be included on this contract line.</span></span> <span data-ttu-id="1b723-155">Μια τιμή **Ναι** υποδεικνύει ότι αυτό θα γίνει.</span><span class="sxs-lookup"><span data-stu-id="1b723-155">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="1b723-156">Αυτή η τιμή θα χρησιμοποιηθεί σε συνδυασμό με το έργο για την επίλυση της αναφοράς γραμμής σύμβασης σε μια καρτέλα πραγματικής τιμής ή γραμμής εκτίμησης.</span><span class="sxs-lookup"><span data-stu-id="1b723-156">This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
-| <span data-ttu-id="1b723-157">**Συμβατικό ποσό**</span><span class="sxs-lookup"><span data-stu-id="1b723-157">**Contracted Amount**</span></span> | <span data-ttu-id="1b723-158">Σε μια γραμμή σύμβασης με προκαθορισμένη τιμή, αυτό το ποσό είναι η τιμή που έχει συμφωνηθεί και η οποία θα τιμολογηθεί στον πελάτη για όλα τα στοιχεία εργασίας που σχετίζονται με αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-158">On a fixed price contract line, this amount is the agreed-on value that will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="1b723-159">Σε μια γραμμή σύμβασης χρόνου και υλικού, αυτό το ποσό είναι μια εκτιμώμενη τιμή η οποία θα τιμολογηθεί στον πελάτη για όλα τα στοιχεία εργασίας που σχετίζονται με αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-159">On a time and material contract line, this amount is an estimated value of what will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="1b723-160">Σε μια σύμβαση έργου που έχει δημιουργηθεί από μια προσφορά, αυτή η τιμή αντιγράφεται από το αντίστοιχο πεδίο της γραμμής προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="1b723-160">On a project contract that is created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="1b723-161">Όταν μια γραμμή σύμβασης με βάση ένα έργο έχει λεπτομέρειες σχετικά με τη γραμμή, αυτό το πεδίο είναι κλειδωμένο για επεξεργασία και συνοψίζεται από το ποσό στις λεπτομέρειες της γραμμής σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-161">When a project–based contract line has line details, this field is locked for editing and is summarized from the amount on the contract line details.</span></span> | <span data-ttu-id="1b723-162">Όταν η γραμμή σύμβασης περιέχει λεπτομέρειες σχετικά με τη γραμμή, αυτή η τιμή μπορεί να τροποποιηθεί με την αλλαγή των ποσών στις λεπτομέρειες της γραμμής.</span><span class="sxs-lookup"><span data-stu-id="1b723-162">When the contract line has line details, this value can be modified by changing the amounts on the line details.</span></span> <span data-ttu-id="1b723-163">Σε μια γραμμή σύμβασης με προκαθορισμένη τιμή, αυτή η τιμή χρησιμοποιείται για τη δημιουργία του ποσού πριν από τη φορολόγηση των περιοδικών ορόσημων χρέωσης.</span><span class="sxs-lookup"><span data-stu-id="1b723-163">On a fixed price contract line, this value is used to generate the amount before tax on periodic billing milestones.</span></span> |
-| <span data-ttu-id="1b723-164">**Εκτιμώμενος φόρος**</span><span class="sxs-lookup"><span data-stu-id="1b723-164">**Estimated Tax**</span></span> | <span data-ttu-id="1b723-165">Ο χρήστης μπορεί να επεξεργαστεί αυτό το πεδίο για να εισαγαγάγει το υπολογιζόμενο ποσό φόρου στη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-165">The user can edit this field to input the estimated tax amount on the contract line.</span></span> <span data-ttu-id="1b723-166">Όταν μια γραμμή σύμβασης με βάση ένα έργο έχει λεπτομέρειες σχετικά με τη γραμμή, αυτό το πεδίο είναι κλειδωμένο για επεξεργασία και συνοψίζεται από το ποσό φόρου στις λεπτομέρειες της γραμμής σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-166">When a project–based contract line has line details, this field is locked for editing and is summarized from the tax amount on the contract line details.</span></span> | <span data-ttu-id="1b723-167">Όταν η γραμμή σύμβασης περιέχει λεπτομέρειες σχετικά με τη γραμμή, αυτή η τιμή μπορεί να τροποποιηθεί με την αλλαγή των ποσών φόρου στις λεπτομέρειες της γραμμής.</span><span class="sxs-lookup"><span data-stu-id="1b723-167">When the contract line has line details, this value can be modified by changing the tax amounts on the line details.</span></span> <span data-ttu-id="1b723-168">Σε μια γραμμή σύμβασης με προκαθορισμένη τιμή, αυτή η τιμή χρησιμοποιείται για τη δημιουργία του φόρου σε περιοδικά ορόσημα χρέωσης.</span><span class="sxs-lookup"><span data-stu-id="1b723-168">On a fixed price contract line, this value is used to generate the tax on periodic billing milestones.</span></span> |
-| <span data-ttu-id="1b723-169">**Συμβατικό ποσό μετά από φόρο**</span><span class="sxs-lookup"><span data-stu-id="1b723-169">**Contracted Amount after Tax**</span></span> | <span data-ttu-id="1b723-170">Το ποσό γραμμής σύμβασης μετά από φόρο.</span><span class="sxs-lookup"><span data-stu-id="1b723-170">The contract line amount after tax.</span></span> <span data-ttu-id="1b723-171">Αυτό το πεδίο είναι μόνο για ανάγνωση και υπολογίζεται ως **Ποσό σύμβασης + Φόρος**.</span><span class="sxs-lookup"><span data-stu-id="1b723-171">This field is read-only and is calculated as **Contracted Amount + Tax**.</span></span> | <span data-ttu-id="1b723-172">Σε μια γραμμή σύμβασης με προκαθορισμένη τιμή, αυτή η τιμή χρησιμοποιείται για τη δημιουργία περιοδικών ορόσημων χρέωσης.</span><span class="sxs-lookup"><span data-stu-id="1b723-172">On a fixed price contract line, this value is used to generate periodic billing milestones.</span></span> |
-| <span data-ttu-id="1b723-173">**Όριο που δεν πρέπει να υπερβαίνεται**</span><span class="sxs-lookup"><span data-stu-id="1b723-173">**Not-to-Exceed Limit**</span></span> | <span data-ttu-id="1b723-174">Ο χρήστης μπορεί να επεξεργαστεί αυτό το πεδίο και είναι διαθέσιμο μόνο σε γραμμές σύμβασης βάσει έργου που έχουν ορίσει τη μέθοδο χρέωσης ως ώρα και υλικό.</span><span class="sxs-lookup"><span data-stu-id="1b723-174">The user can edit this field and it is only available on project-based contract lines that have the billing method set as time and material.</span></span> | <span data-ttu-id="1b723-175">Ο χρήστης μπορεί να επεξεργαστεί αυτό το πεδίο.</span><span class="sxs-lookup"><span data-stu-id="1b723-175">The user can edit this field.</span></span> <span data-ttu-id="1b723-176">Όταν μια πραγματική για την ώρα και το υλικό αναφέρεται σε αυτήν τη γραμμή σύμβασης για τον χρόνο και το υλικό, το ποσό στην πραγματική τιμή αξιολογείται με βάση το όριο που δεν πρέπει να υπερβαίνει τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-176">When an actual for time and material references this contract line for time and material, the amount on the actual is evaluated against the not-to-exceed limit on the contract line.</span></span> <span data-ttu-id="1b723-177">Αυτή η αξιολόγηση ολοκληρώνεται αφού καταληφθούν τα ποσά που έχουν ήδη δαπανηθεί και δεσμευτεί.</span><span class="sxs-lookup"><span data-stu-id="1b723-177">This evaluation is completed after  the already spent and committed amounts are accounted for.</span></span> |
-| <span data-ttu-id="1b723-178">**Προϋπολογισμός πελάτη**</span><span class="sxs-lookup"><span data-stu-id="1b723-178">**Customer Budget**</span></span> | <span data-ttu-id="1b723-179">Αυτό το πεδίο είναι επεξεργάσιμο και αντιγράφεται από το αντίστοιχο πεδίο στη γραμμή σύμβασης αν η σύμβαση έχει δημιουργηθεί από μια προσφορά.</span><span class="sxs-lookup"><span data-stu-id="1b723-179">This field is editable and is copied from the corresponding field on the quote line if the contract was created from a quote.</span></span> | <span data-ttu-id="1b723-180">Αυτό το πεδίο χρησιμοποιείται μόνο για πληροφορίες και δεν έχει καμία κατάντη σημασία.</span><span class="sxs-lookup"><span data-stu-id="1b723-180">This field is only used for information and does not have any downstream significance.</span></span> |
+| <span data-ttu-id="731a2-118">**Όνομα**.</span><span class="sxs-lookup"><span data-stu-id="731a2-118">**Name**</span></span> | <span data-ttu-id="731a2-119">Όνομα της γραμμής σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-119">Name of the contract line.</span></span> <span data-ttu-id="731a2-120">Με αυτόν τον τρόπο προσδιορίζεται το διακριτό στοιχείο της σύμβασης που εκτιμάται.</span><span class="sxs-lookup"><span data-stu-id="731a2-120">This identifies the discrete component of the contract that is being estimated.</span></span> <span data-ttu-id="731a2-121">Για μια σύμβαση έργου που έχει δημιουργηθεί από μια προσφορά, αυτή η τιμή αντιγράφεται από μια αντίστοιχη τιμή της γραμμής προσφοράς βάσει έργου.</span><span class="sxs-lookup"><span data-stu-id="731a2-121">For a project contract created from a quote, this value is copied from a corresponding value of the project-based quote line.</span></span> | <span data-ttu-id="731a2-122">Το όνομα που αντιγράφηκε στη γραμμή τιμολογίου βάσει έργου που δημιουργείται από αυτήν τη γραμμή σύμβασης κατά τη δημιουργία του τιμολογίου.</span><span class="sxs-lookup"><span data-stu-id="731a2-122">The name copied over to the project invoice line that is created from this contract line when the invoice is created.</span></span> |
+| <span data-ttu-id="731a2-123">**Μέθοδος χρέωσης**</span><span class="sxs-lookup"><span data-stu-id="731a2-123">**Billing Method**</span></span> | <span data-ttu-id="731a2-124">Σε μια σύμβαση έργου που έχει δημιουργηθεί από μια προσφορά, αυτή η τιμή αντιγράφεται από το αντίστοιχο πεδίο της γραμμής προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="731a2-124">On a project contract created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="731a2-125">Πρόκειται για ένα σύνολο επιλογών που αντιπροσωπεύει τα δύο κύρια συμβαλλόμενα μοντέλα που υποστηρίζονται από το Project Operations:</span><span class="sxs-lookup"><span data-stu-id="731a2-125">This is an option set that represents the two main contracting models supported by Project Operations:</span></span></br><span data-ttu-id="731a2-126">- **Σταθερή τιμή**</span><span class="sxs-lookup"><span data-stu-id="731a2-126">- **Fixed Price**</span></span></br><span data-ttu-id="731a2-127">- **Χρόνος και υλικό**</span><span class="sxs-lookup"><span data-stu-id="731a2-127">- **Time and Material**</span></span> | <span data-ttu-id="731a2-128">Με βάση τη μέθοδο χρέωσης της γραμμής σύμβασης αναφοράς, η πραγματική συναλλαγή θα διεκπεραιωθεί.</span><span class="sxs-lookup"><span data-stu-id="731a2-128">Based on the billing method of the referenced contract line, the actual transaction will be processed.</span></span> <span data-ttu-id="731a2-129">Εάν η γραμμή σύμβασης στην οποία γίνεται αναφορά από την πραγματική τιμή έχει μια μέθοδο χρέωσης χρόνου και υλικού, δημιουργούνται καρτέλες πραγματικών μη τιμολογημένων πωλήσεων και κόστους.</span><span class="sxs-lookup"><span data-stu-id="731a2-129">If the contract line referenced by the actual has a time and material billing method, cost and unbilled sales actual records are created.</span></span> <span data-ttu-id="731a2-130">Εάν η γραμμή σύμβασης στην οποία γίνεται αναφορά από την πραγματική τιμή έχει μια μέθοδο χρέωσης με σταθερή τιμή, δημιουργείται μόνο μια πραγματική δαπάνη.</span><span class="sxs-lookup"><span data-stu-id="731a2-130">If the contract line referenced by the actual has a fixed price billing method, only a cost actual is created.</span></span> |
+| <span data-ttu-id="731a2-131">**Project**</span><span class="sxs-lookup"><span data-stu-id="731a2-131">**Project**</span></span> | <span data-ttu-id="731a2-132">Χρησιμοποιήστε αυτό το πεδίο για να προσδιορίσετε το έργο που θα χρησιμοποιηθεί για την παροχή της εργασίας σε αυτήν τη δέσμευση.</span><span class="sxs-lookup"><span data-stu-id="731a2-132">Use this field to identify the project that will be used to deliver the work on this engagement.</span></span> | <span data-ttu-id="731a2-133">Αυτή η τιμή θα χρησιμοποιηθεί σε συνδυασμό με τις **εργασίες που περιλαμβάνονται** και τις **κλάσεις συναλλαγών που περιλαμβάνονται** για την επίλυση της αναφοράς γραμμής σύμβασης σε μια πραγματική καρτέλα ή μια καρτέλα γραμμής εκτίμησης.</span><span class="sxs-lookup"><span data-stu-id="731a2-133">This value will be used in conjunction with **Included Tasks** and **Included Transaction Classes** to resolve the contract line reference on an actual or estimate line record.</span></span> |
+| <span data-ttu-id="731a2-134">**Εργασίες που περιλαμβάνονται**</span><span class="sxs-lookup"><span data-stu-id="731a2-134">**Included Tasks**</span></span> | <span data-ttu-id="731a2-135">Υποδεικνύει εάν αυτή η γραμμή σύμβασης περιλαμβάνει όλες τις εργασίες έργου για το επιλεγμένο έργο ή μόνο ένα υποσύνολο των εργασιών.</span><span class="sxs-lookup"><span data-stu-id="731a2-135">Indicates if this contract line includes all project tasks for the selected project or only a subset of the tasks.</span></span> <span data-ttu-id="731a2-136">Πρόκειται για μια σύνολο επιλογών που έχει τις ακόλουθες πιθανές τιμές:</span><span class="sxs-lookup"><span data-stu-id="731a2-136">This is an option set that has the following possible values:</span></span></br><span data-ttu-id="731a2-137">- **Όλες οι εργασίες έργων**</span><span class="sxs-lookup"><span data-stu-id="731a2-137">- **All Project Tasks**</span></span></br><span data-ttu-id="731a2-138">- **Επιλεγμένες εργασίες έργου μόνο**.</span><span class="sxs-lookup"><span data-stu-id="731a2-138">- **Selected Project Tasks Only**.</span></span> <span data-ttu-id="731a2-139">Μια κενή τιμή σε αυτό το πεδίο ισούται με την επιλογή **Όλες οι εργασίες έργου**.</span><span class="sxs-lookup"><span data-stu-id="731a2-139">A blank value in this field is equal to selecting **All Project Tasks**.</span></span> | <span data-ttu-id="731a2-140">Εάν έχετε επιλέξει **Μόνο οι επιλεγμένες εργασίες**, μπορείτε να επιλέξετε συγκεκριμένες εργασίες και να τις συσχετίσετε με αυτήν τη γραμμή σύμβασης στην καρτέλα **Ρύθμιση χρέωσης εργασίας** στη σελίδα **Έργο**.</span><span class="sxs-lookup"><span data-stu-id="731a2-140">If **Selected Tasks Only** is selected, you can select specific tasks and associate them to this contract line on the **Task Billing Setup** tab on the **Project** page.</span></span> <span data-ttu-id="731a2-141">Αυτή η τιμή θα χρησιμοποιηθεί σε συνδυασμό με τις κατηγορίες **Έργο** και **Συναλλαγή που περιλαμβάνεται** για την επίλυση της αναφοράς γραμμής σύμβασης σε μια καρτέλα πραγματικής τιμής ή γραμμής εκτίμησης.</span><span class="sxs-lookup"><span data-stu-id="731a2-141">The value will be used in conjunction with **Project** and **Included Transaction** classes to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="731a2-142">**Συμπερίληψη χρόνου**</span><span class="sxs-lookup"><span data-stu-id="731a2-142">**Include Time**</span></span> | <span data-ttu-id="731a2-143">Μια τιμή **Ναι**/**Όχι** υποδεικνύει εάν οι συναλλαγές χρόνου ή το κόστος εργασίας στο επιλεγμένο έργο θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-143">A **Yes**/**No** value indicates if time transactions or labor costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="731a2-144">Μια τιμή **Όχι** υποδεικνύει εάν οι συναλλαγές χρόνου ή το κόστος εργασίας θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-144">A **No** value indicates that the time transactions or labor cost will not be included on this contract line.</span></span> <span data-ttu-id="731a2-145">Μια τιμή **Ναι** υποδεικνύει ότι αυτό θα γίνει.</span><span class="sxs-lookup"><span data-stu-id="731a2-145">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="731a2-146">Αυτή η τιμή χρησιμοποιείται σε συνδυασμό με το έργο για την επίλυση της αναφοράς γραμμής σύμβασης σε μια πραγματική ή μια εκτιμώμενη γραμμή εκτίμησης.</span><span class="sxs-lookup"><span data-stu-id="731a2-146">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="731a2-147">**Συμπερίληψη εξόδου**</span><span class="sxs-lookup"><span data-stu-id="731a2-147">**Include Expense**</span></span> | <span data-ttu-id="731a2-148">Μια τιμή **Ναι**/**Όχι** υποδεικνύει εάν τα κόστη εξόδων στο επιλεγμένο έργο θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-148">A **Yes**/**No** value indicates if expense costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="731a2-149">Μια τιμή **Όχι** υποδεικνύει ότι τα κόστη δεν θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-149">A **No** value indicates that the expense cost will not be included on this contract line.</span></span> <span data-ttu-id="731a2-150">Μια τιμή **Ναι** υποδεικνύει ότι αυτό θα γίνει.</span><span class="sxs-lookup"><span data-stu-id="731a2-150">A **Yes** value indicates that it will.</span></span> | <span data-ttu-id="731a2-151">Αυτή η τιμή χρησιμοποιείται σε συνδυασμό με το έργο για την επίλυση της αναφοράς γραμμής σύμβασης σε μια πραγματική ή μια εκτιμώμενη γραμμή εκτίμησης.</span><span class="sxs-lookup"><span data-stu-id="731a2-151">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="731a2-152">**Συμπερίληψη υλικών**</span><span class="sxs-lookup"><span data-stu-id="731a2-152">**Include Materials**</span></span> | <span data-ttu-id="731a2-153">Μια τιμή **Ναι**/**Όχι** υποδεικνύει εάν τα κόστη υλικού στο επιλεγμένο έργο θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-153">A **Yes**/**No** value indicates if material costs on the selected project will be included on this contract line.</span></span> <span data-ttu-id="731a2-154">Μια τιμή **Όχι** υποδεικνύει ότι τα κόστη υλικού δεν θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-154">A **No** value indicates that the material costs will not be included on this contract line.</span></span> <span data-ttu-id="731a2-155">Μια τιμή **Ναι** υποδεικνύει ότι αυτό θα γίνει.</span><span class="sxs-lookup"><span data-stu-id="731a2-155">A **Yes** value indicates that it will.</span></span> | <span data-ttu-id="731a2-156">Αυτή η τιμή χρησιμοποιείται σε συνδυασμό με το έργο για την επίλυση της αναφοράς γραμμής σύμβασης σε μια πραγματική ή μια εκτιμώμενη γραμμή εκτίμησης.</span><span class="sxs-lookup"><span data-stu-id="731a2-156">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="731a2-157">**Συμπερίληψη χρέωσης**</span><span class="sxs-lookup"><span data-stu-id="731a2-157">**Include Fee**</span></span> | <span data-ttu-id="731a2-158">Μια τιμή **Ναι**/**Όχι** υποδεικνύει εάν οι χρεώσεις στο επιλεγμένο έργο θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-158">A **Yes**/**No** value indicates if fees on the selected project will be included on this contract line.</span></span> <span data-ttu-id="731a2-159">Μια τιμή **Όχι** υποδεικνύει ότι οι χρεώσεις δεν θα συμπεριληφθούν σε αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-159">A **No** value indicates that the fees will not be included on this contract line.</span></span> <span data-ttu-id="731a2-160">Μια τιμή **Ναι** υποδεικνύει ότι αυτό θα γίνει.</span><span class="sxs-lookup"><span data-stu-id="731a2-160">A **Yes** value indicates that they will.</span></span> | <span data-ttu-id="731a2-161">Αυτή η τιμή χρησιμοποιείται σε συνδυασμό με το έργο για την επίλυση της αναφοράς γραμμής σύμβασης σε μια πραγματική ή μια εκτιμώμενη γραμμή εκτίμησης.</span><span class="sxs-lookup"><span data-stu-id="731a2-161">This value is used in conjunction with the project to resolve the contract line reference on an actual or an estimate line record.</span></span> |
+| <span data-ttu-id="731a2-162">**Συμβατικό ποσό**</span><span class="sxs-lookup"><span data-stu-id="731a2-162">**Contracted Amount**</span></span> | <span data-ttu-id="731a2-163">Σε μια γραμμή σύμβασης με προκαθορισμένη τιμή, αυτό το ποσό είναι η τιμή που έχει συμφωνηθεί και η οποία θα τιμολογηθεί στον πελάτη για όλα τα στοιχεία εργασίας που σχετίζονται με αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-163">On a fixed price contract line, this amount is the agreed-on value that will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="731a2-164">Σε μια γραμμή σύμβασης χρόνου και υλικού, αυτό το ποσό είναι μια εκτιμώμενη τιμή η οποία θα τιμολογηθεί στον πελάτη για όλα τα στοιχεία εργασίας που σχετίζονται με αυτήν τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-164">On a time and material contract line, this amount is an estimated value of what will be invoiced to the customer for all the work components associated to this contract line.</span></span> <span data-ttu-id="731a2-165">Σε μια σύμβαση έργου που έχει δημιουργηθεί από μια προσφορά, αυτή η τιμή αντιγράφεται από το αντίστοιχο πεδίο της γραμμής προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="731a2-165">On a project contract that is created from a quote, this value is copied from the corresponding field on the quote line.</span></span> <span data-ttu-id="731a2-166">Όταν μια γραμμή σύμβασης με βάση ένα έργο έχει λεπτομέρειες σχετικά με τη γραμμή, αυτό το πεδίο είναι κλειδωμένο για επεξεργασία και συνοψίζεται από το ποσό στις λεπτομέρειες της γραμμής σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-166">When a project–based contract line has line details, this field is locked for editing and is summarized from the amount on the contract line details.</span></span> | <span data-ttu-id="731a2-167">Όταν η γραμμή σύμβασης περιέχει λεπτομέρειες σχετικά με τη γραμμή, αυτή η τιμή μπορεί να τροποποιηθεί με την αλλαγή των ποσών στις λεπτομέρειες της γραμμής.</span><span class="sxs-lookup"><span data-stu-id="731a2-167">When the contract line has line details, this value can be modified by changing the amounts on the line details.</span></span> <span data-ttu-id="731a2-168">Σε μια γραμμή σύμβασης με προκαθορισμένη τιμή, αυτή η τιμή χρησιμοποιείται για τη δημιουργία του ποσού πριν από τη φορολόγηση των περιοδικών ορόσημων χρέωσης.</span><span class="sxs-lookup"><span data-stu-id="731a2-168">On a fixed price contract line, this value is used to generate the amount before tax on periodic billing milestones.</span></span> |
+| <span data-ttu-id="731a2-169">**Εκτιμώμενος φόρος**</span><span class="sxs-lookup"><span data-stu-id="731a2-169">**Estimated Tax**</span></span> | <span data-ttu-id="731a2-170">Ο χρήστης μπορεί να επεξεργαστεί αυτό το πεδίο για να εισαγαγάγει το υπολογιζόμενο ποσό φόρου στη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-170">The user can edit this field to input the estimated tax amount on the contract line.</span></span> <span data-ttu-id="731a2-171">Όταν μια γραμμή σύμβασης με βάση ένα έργο έχει λεπτομέρειες σχετικά με τη γραμμή, αυτό το πεδίο είναι κλειδωμένο για επεξεργασία και συνοψίζεται από το ποσό φόρου στις λεπτομέρειες της γραμμής σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-171">When a project–based contract line has line details, this field is locked for editing and is summarized from the tax amount on the contract line details.</span></span> | <span data-ttu-id="731a2-172">Όταν η γραμμή σύμβασης περιέχει λεπτομέρειες σχετικά με τη γραμμή, αυτή η τιμή μπορεί να τροποποιηθεί με την αλλαγή των ποσών φόρου στις λεπτομέρειες της γραμμής.</span><span class="sxs-lookup"><span data-stu-id="731a2-172">When the contract line has line details, this value can be modified by changing the tax amounts on the line details.</span></span> <span data-ttu-id="731a2-173">Σε μια γραμμή σύμβασης με προκαθορισμένη τιμή, αυτή η τιμή χρησιμοποιείται για τη δημιουργία του φόρου σε περιοδικά ορόσημα χρέωσης.</span><span class="sxs-lookup"><span data-stu-id="731a2-173">On a fixed price contract line, this value is used to generate the tax on periodic billing milestones.</span></span> |
+| <span data-ttu-id="731a2-174">**Συμβατικό ποσό μετά από φόρο**</span><span class="sxs-lookup"><span data-stu-id="731a2-174">**Contracted Amount after Tax**</span></span> | <span data-ttu-id="731a2-175">Το ποσό γραμμής σύμβασης μετά από φόρο.</span><span class="sxs-lookup"><span data-stu-id="731a2-175">The contract line amount after tax.</span></span> <span data-ttu-id="731a2-176">Αυτό το πεδίο είναι μόνο για ανάγνωση και υπολογίζεται ως **Ποσό σύμβασης + Φόρος**.</span><span class="sxs-lookup"><span data-stu-id="731a2-176">This field is read only and is calculated as **Contracted Amount + Tax**.</span></span> | <span data-ttu-id="731a2-177">Σε μια γραμμή σύμβασης με προκαθορισμένη τιμή, αυτή η τιμή χρησιμοποιείται για τη δημιουργία περιοδικών ορόσημων χρέωσης.</span><span class="sxs-lookup"><span data-stu-id="731a2-177">On a fixed price contract line, this value is used to generate periodic billing milestones.</span></span> |
+| <span data-ttu-id="731a2-178">**Όριο που δεν πρέπει να υπερβαίνεται**</span><span class="sxs-lookup"><span data-stu-id="731a2-178">**Not-to-Exceed Limit**</span></span> | <span data-ttu-id="731a2-179">Ο χρήστης μπορεί να επεξεργαστεί αυτό το πεδίο και είναι διαθέσιμο μόνο σε γραμμές σύμβασης βάσει έργου που έχουν ορίσει τη μέθοδο χρέωσης ως ώρα και υλικό.</span><span class="sxs-lookup"><span data-stu-id="731a2-179">The user can edit this field and it is only available on project-based contract lines that have the billing method set as time and material.</span></span> | <span data-ttu-id="731a2-180">Ο χρήστης μπορεί να επεξεργαστεί αυτό το πεδίο.</span><span class="sxs-lookup"><span data-stu-id="731a2-180">The user can edit this field.</span></span> <span data-ttu-id="731a2-181">Όταν μια πραγματική για την ώρα και το υλικό αναφέρεται σε αυτήν τη γραμμή σύμβασης για τον χρόνο και το υλικό, το ποσό στην πραγματική τιμή αξιολογείται με βάση το όριο που δεν πρέπει να υπερβαίνει τη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-181">When an actual for time and material references this contract line for time and material, the amount on the actual is evaluated against the not-to-exceed limit on the contract line.</span></span> <span data-ttu-id="731a2-182">Αυτή η αξιολόγηση ολοκληρώνεται αφού καταληφθούν τα ποσά που έχουν ήδη δαπανηθεί και δεσμευτεί.</span><span class="sxs-lookup"><span data-stu-id="731a2-182">This evaluation is completed after  the already spent and committed amounts are accounted for.</span></span> |
+| <span data-ttu-id="731a2-183">**Προϋπολογισμός πελάτη**</span><span class="sxs-lookup"><span data-stu-id="731a2-183">**Customer Budget**</span></span> | <span data-ttu-id="731a2-184">Αυτό το πεδίο είναι επεξεργάσιμο και αντιγράφεται από το αντίστοιχο πεδίο στη γραμμή σύμβασης αν η σύμβαση έχει δημιουργηθεί από μια προσφορά.</span><span class="sxs-lookup"><span data-stu-id="731a2-184">This field is editable and is copied from the corresponding field on the quote line if the contract was created from a quote.</span></span> | <span data-ttu-id="731a2-185">Αυτό το πεδίο χρησιμοποιείται μόνο για πληροφορίες και δεν έχει καμία κατάντη σημασία.</span><span class="sxs-lookup"><span data-stu-id="731a2-185">This field is only used for information and does not have any downstream significance.</span></span> |
 
-## <a name="validation-rules-for-the-options-on-the-general-tab-of-project-based-contract-lines"></a><span data-ttu-id="1b723-181">Κανόνες επικύρωσης για τις επιλογές στην καρτέλα "Γενικά" των γραμμών σύμβασης βάσει έργου</span><span class="sxs-lookup"><span data-stu-id="1b723-181">Validation rules for the options on the General tab of project-based contract lines</span></span>
+## <a name="validation-rules-for-the-options-on-the-general-tab-of-project-based-contract-lines"></a><span data-ttu-id="731a2-186">Κανόνες επικύρωσης για τις επιλογές στην καρτέλα "Γενικά" των γραμμών σύμβασης βάσει έργου</span><span class="sxs-lookup"><span data-stu-id="731a2-186">Validation rules for the options on the General tab of project-based contract lines</span></span>
 
-<span data-ttu-id="1b723-182">Κανόνας 1: Εάν το πεδίο **Εργασίες που περιλαμβάνονται** είναι κενό ή έχει οριστεί σε **Όλες οι εργασίες έργου**, όλες οι εργασίες του έργου περιλαμβάνονται στη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-182">Rule 1: If the **Included Tasks** field is blank or set to **All Project Tasks**, all tasks of the project are included on the contract line.</span></span>
+<span data-ttu-id="731a2-187">Κανόνας 1: Εάν το πεδίο **Εργασίες που περιλαμβάνονται** είναι κενό ή έχει οριστεί σε **Όλες οι εργασίες έργου**, όλες οι εργασίες του έργου περιλαμβάνονται στη γραμμή σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-187">Rule 1: If the **Included Tasks** field is blank or set to **All Project Tasks**, all tasks of the project are included on the contract line.</span></span>
 
-<span data-ttu-id="1b723-183">Κανόνας 2: Όταν το πεδίο **Εργασίες που περιλαμβάνονται** είναι κενό ή ορίζεται ρητά στο στοιχείο **Όλες οι εργασίες έργου**, ένα έργο και μια συγκεκριμένη κλάση συναλλαγής είναι δυνατό να συμπεριληφθούν μόνο σε μια γραμμή σύμβασης βάσει έργου μιας σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-183">Rule 2: When the **Included Tasks** field is blank or explicitly set to **All Project Tasks**, a project and a certain transaction class can only be included on one project-based contract line of a contract.</span></span>
+<span data-ttu-id="731a2-188">Κανόνας 2: Όταν το πεδίο **Εργασίες που περιλαμβάνονται** είναι κενό ή ορίζεται ρητά στο στοιχείο **Όλες οι εργασίες έργου**, ένα έργο και μια συγκεκριμένη κλάση συναλλαγής είναι δυνατό να συμπεριληφθούν μόνο σε μια γραμμή σύμβασης βάσει έργου μιας σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-188">Rule 2: When the **Included Tasks** field is blank or explicitly set to **All Project Tasks**, a project and a certain transaction class can only be included on one project-based contract line of a contract.</span></span>
 
-<span data-ttu-id="1b723-184">Κανόνας 3: Όταν το πεδίο **Εργασίες που περιλαμβάνονται** ορίζεται στο στοιχείο **Επιλεγμένες εργασίες έργου μόνο**, ένα έργο και μια συγκεκριμένη κλάση συναλλαγής είναι δυνατό να συμπεριληφθούν μόνο πολλαπλές γραμμές σύμβασης βάσει έργου μιας σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="1b723-184">Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Only**, a project and a certain transaction class can be included on multiple project-based contract lines of a contract.</span></span>
+<span data-ttu-id="731a2-189">Κανόνας 3: Όταν το πεδίο **Εργασίες που περιλαμβάνονται** ορίζεται στο στοιχείο **Επιλεγμένες εργασίες έργου μόνο**, ένα έργο και μια συγκεκριμένη κλάση συναλλαγής είναι δυνατό να συμπεριληφθούν μόνο πολλαπλές γραμμές σύμβασης βάσει έργου μιας σύμβασης.</span><span class="sxs-lookup"><span data-stu-id="731a2-189">Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Only**, a project and a certain transaction class can be included on multiple project-based contract lines of a contract.</span></span>
 
-| <span data-ttu-id="1b723-185">Σύμβαση</span><span class="sxs-lookup"><span data-stu-id="1b723-185">Contract</span></span> | <span data-ttu-id="1b723-186">Γραμμή σύμβασης</span><span class="sxs-lookup"><span data-stu-id="1b723-186">Contract line</span></span> | <span data-ttu-id="1b723-187">Project</span><span class="sxs-lookup"><span data-stu-id="1b723-187">Project</span></span> | <span data-ttu-id="1b723-188">Εργασίες που περιλαμβάνονται</span><span class="sxs-lookup"><span data-stu-id="1b723-188">Included tasks</span></span>      | <span data-ttu-id="1b723-189">Συμπερίληψη χρόνου</span><span class="sxs-lookup"><span data-stu-id="1b723-189">Include time</span></span> | <span data-ttu-id="1b723-190">Συμπερίληψη εξόδου</span><span class="sxs-lookup"><span data-stu-id="1b723-190">Include expense</span></span> | <span data-ttu-id="1b723-191">Συμπερίληψη χρέωσης</span><span class="sxs-lookup"><span data-stu-id="1b723-191">Include fee</span></span> | <span data-ttu-id="1b723-192">Έγκυρο/Μη έγκυρο</span><span class="sxs-lookup"><span data-stu-id="1b723-192">Valid/not valid</span></span> | <span data-ttu-id="1b723-193">Αιτία</span><span class="sxs-lookup"><span data-stu-id="1b723-193">Reason</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|----------|---------------|---------|---------------------|--------------|-----------------|-------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="1b723-194">C1</span><span class="sxs-lookup"><span data-stu-id="1b723-194">C1</span></span>       | <span data-ttu-id="1b723-195">CL1</span><span class="sxs-lookup"><span data-stu-id="1b723-195">CL1</span></span>           | <span data-ttu-id="1b723-196">Π1</span><span class="sxs-lookup"><span data-stu-id="1b723-196">P1</span></span>      | <span data-ttu-id="1b723-197">Κενό</span><span class="sxs-lookup"><span data-stu-id="1b723-197">Blank</span></span>               | <span data-ttu-id="1b723-198">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-198">Yes</span></span>          | <span data-ttu-id="1b723-199">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-199">Yes</span></span>             | <span data-ttu-id="1b723-200">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-200">Yes</span></span>         | <span data-ttu-id="1b723-201">Μη έγκυρο</span><span class="sxs-lookup"><span data-stu-id="1b723-201">Not valid</span></span>       | <span data-ttu-id="1b723-202">Παραβίαση του Κανόνα #2.</span><span class="sxs-lookup"><span data-stu-id="1b723-202">Violation of Rule #2.</span></span> <span data-ttu-id="1b723-203">Ο χρόνος, η δαπάνη και οι χρεώσεις στο έργο P1 περιλαμβάνονται και στις δύο γραμμές σύμβασης, CL1 και CL2.</span><span class="sxs-lookup"><span data-stu-id="1b723-203">Time,   expense, and fees on project P1 are included on both contract lines, CL1 and   CL2.</span></span>                                                                                                                                                                                                                                                                                                              |
-| <span data-ttu-id="1b723-204">C1</span><span class="sxs-lookup"><span data-stu-id="1b723-204">C1</span></span>       | <span data-ttu-id="1b723-205">CL2</span><span class="sxs-lookup"><span data-stu-id="1b723-205">CL2</span></span>           | <span data-ttu-id="1b723-206">Π1</span><span class="sxs-lookup"><span data-stu-id="1b723-206">P1</span></span>      | <span data-ttu-id="1b723-207">Κενό</span><span class="sxs-lookup"><span data-stu-id="1b723-207">Blank</span></span>               | <span data-ttu-id="1b723-208">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-208">Yes</span></span>          | <span data-ttu-id="1b723-209">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-209">Yes</span></span>             | <span data-ttu-id="1b723-210">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-210">Yes</span></span>         | <span data-ttu-id="1b723-211">Μη έγκυρο</span><span class="sxs-lookup"><span data-stu-id="1b723-211">Not valid</span></span>       | <span data-ttu-id="1b723-212">Παραβίαση του Κανόνα #2.</span><span class="sxs-lookup"><span data-stu-id="1b723-212">Violation of Rule #2.</span></span> <span data-ttu-id="1b723-213">Ο χρόνος, η δαπάνη και οι χρεώσεις στο έργο P1 περιλαμβάνονται και στις δύο γραμμές σύμβασης, CL1 και CL2.</span><span class="sxs-lookup"><span data-stu-id="1b723-213">Time,   expense, and fees on project P1 are included on both contract lines, CL1 and   CL2.</span></span>                                                                                                                                                                                                                                                                                                              |
-| <span data-ttu-id="1b723-214">C1</span><span class="sxs-lookup"><span data-stu-id="1b723-214">C1</span></span>       | <span data-ttu-id="1b723-215">CL1</span><span class="sxs-lookup"><span data-stu-id="1b723-215">CL1</span></span>           | <span data-ttu-id="1b723-216">Π1</span><span class="sxs-lookup"><span data-stu-id="1b723-216">P1</span></span>      | <span data-ttu-id="1b723-217">Κενό</span><span class="sxs-lookup"><span data-stu-id="1b723-217">Blank</span></span>               | <span data-ttu-id="1b723-218">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-218">Yes</span></span>          | <span data-ttu-id="1b723-219">No</span><span class="sxs-lookup"><span data-stu-id="1b723-219">No</span></span>              | <span data-ttu-id="1b723-220">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-220">Yes</span></span>         | <span data-ttu-id="1b723-221">Μη έγκυρο</span><span class="sxs-lookup"><span data-stu-id="1b723-221">Not valid</span></span>       | <span data-ttu-id="1b723-222">Παραβίαση του Κανόνα #2.</span><span class="sxs-lookup"><span data-stu-id="1b723-222">Violation of Rule #2.</span></span> <span data-ttu-id="1b723-223">Ο χρόνος και οι χρεώσεις στο έργο P1 περιλαμβάνονται και στις δύο γραμμές σύμβασης, CL1 και CL2.</span><span class="sxs-lookup"><span data-stu-id="1b723-223">Time and   fees on project P1 are included on both contract lines, CL1 and CL2.</span></span>                                                                                                                                                                                                                                                                                                                          |
-| <span data-ttu-id="1b723-224">C1</span><span class="sxs-lookup"><span data-stu-id="1b723-224">C1</span></span>       | <span data-ttu-id="1b723-225">CL2</span><span class="sxs-lookup"><span data-stu-id="1b723-225">CL2</span></span>           | <span data-ttu-id="1b723-226">Π1</span><span class="sxs-lookup"><span data-stu-id="1b723-226">P1</span></span>      | <span data-ttu-id="1b723-227">Κενό</span><span class="sxs-lookup"><span data-stu-id="1b723-227">Blank</span></span>               | <span data-ttu-id="1b723-228">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-228">Yes</span></span>          | <span data-ttu-id="1b723-229">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-229">Yes</span></span>             | <span data-ttu-id="1b723-230">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-230">Yes</span></span>         | <span data-ttu-id="1b723-231">Μη έγκυρο</span><span class="sxs-lookup"><span data-stu-id="1b723-231">Not valid</span></span>       | <span data-ttu-id="1b723-232">Παραβίαση του Κανόνα #2.</span><span class="sxs-lookup"><span data-stu-id="1b723-232">Violation of Rule #2.</span></span> <span data-ttu-id="1b723-233">Ο χρόνος και οι χρεώσεις στο έργο P1 περιλαμβάνονται και στις δύο γραμμές σύμβασης, CL1 και CL2.</span><span class="sxs-lookup"><span data-stu-id="1b723-233">Time and   fees on project P1 are included on both contract lines, CL1 and CL2.</span></span>                                                                                                                                                                                                                                                                                                                          |
-| <span data-ttu-id="1b723-234">C1</span><span class="sxs-lookup"><span data-stu-id="1b723-234">C1</span></span>       | <span data-ttu-id="1b723-235">CL1</span><span class="sxs-lookup"><span data-stu-id="1b723-235">CL1</span></span>           | <span data-ttu-id="1b723-236">Π1</span><span class="sxs-lookup"><span data-stu-id="1b723-236">P1</span></span>      | <span data-ttu-id="1b723-237">Κενό</span><span class="sxs-lookup"><span data-stu-id="1b723-237">Blank</span></span>               | <span data-ttu-id="1b723-238">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-238">Yes</span></span>          | <span data-ttu-id="1b723-239">No</span><span class="sxs-lookup"><span data-stu-id="1b723-239">No</span></span>              | <span data-ttu-id="1b723-240">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-240">Yes</span></span>         | <span data-ttu-id="1b723-241">Έγκυρα</span><span class="sxs-lookup"><span data-stu-id="1b723-241">Valid</span></span>           | <span data-ttu-id="1b723-242">Ο χρόνος και οι χρεώσεις στο έργο P1 περιλαμβάνονται στο CL1.</span><span class="sxs-lookup"><span data-stu-id="1b723-242">Time and fees on project P1 are   included on the CL1.</span></span> <span data-ttu-id="1b723-243">Η δαπάνη στο έργο P1 περιλαμβάνεται στο CL2.</span><span class="sxs-lookup"><span data-stu-id="1b723-243">Expense on project P1 is included on CL2.</span></span> </br>   <span data-ttu-id="1b723-244">Δεν υπάρχει επικάλυψη σε αυτό που περιλαμβάνεται σε κάθε γραμμή σύμβασης και επομένως είναι έγκυρο.</span><span class="sxs-lookup"><span data-stu-id="1b723-244">There is no overlap in what is being included on each contract line and is   therefore valid.</span></span>                                                                                                                                                                                                                         |
-| <span data-ttu-id="1b723-245">C1</span><span class="sxs-lookup"><span data-stu-id="1b723-245">C1</span></span>       | <span data-ttu-id="1b723-246">CL2</span><span class="sxs-lookup"><span data-stu-id="1b723-246">CL2</span></span>           | <span data-ttu-id="1b723-247">Π1</span><span class="sxs-lookup"><span data-stu-id="1b723-247">P1</span></span>      | <span data-ttu-id="1b723-248">Κενό</span><span class="sxs-lookup"><span data-stu-id="1b723-248">Blank</span></span>               | <span data-ttu-id="1b723-249">No</span><span class="sxs-lookup"><span data-stu-id="1b723-249">No</span></span>           | <span data-ttu-id="1b723-250">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-250">Yes</span></span>             | <span data-ttu-id="1b723-251">No</span><span class="sxs-lookup"><span data-stu-id="1b723-251">No</span></span>          | <span data-ttu-id="1b723-252">Έγκυρα</span><span class="sxs-lookup"><span data-stu-id="1b723-252">Valid</span></span>           | <span data-ttu-id="1b723-253">Ο χρόνος και οι χρεώσεις στο έργο P1 περιλαμβάνονται στο CL1.</span><span class="sxs-lookup"><span data-stu-id="1b723-253">Time and fees on project P1 are   included on the CL1.</span></span> <span data-ttu-id="1b723-254">Η δαπάνη στο έργο P1 περιλαμβάνεται στο CL2.</span><span class="sxs-lookup"><span data-stu-id="1b723-254">Expense on project P1 is included on CL2.</span></span> </br>   <span data-ttu-id="1b723-255">Δεν υπάρχει επικάλυψη σε αυτό που περιλαμβάνεται σε κάθε γραμμή σύμβασης και επομένως είναι έγκυρο.</span><span class="sxs-lookup"><span data-stu-id="1b723-255">There is no overlap in what is being included on each contract line and is   therefore valid.</span></span>                                                                                                                                                                                                                         |
-| <span data-ttu-id="1b723-256">C1</span><span class="sxs-lookup"><span data-stu-id="1b723-256">C1</span></span>       | <span data-ttu-id="1b723-257">CL1</span><span class="sxs-lookup"><span data-stu-id="1b723-257">CL1</span></span>           | <span data-ttu-id="1b723-258">Π1</span><span class="sxs-lookup"><span data-stu-id="1b723-258">P1</span></span>      | <span data-ttu-id="1b723-259">Επιλεγμένες εργασίες μόνο</span><span class="sxs-lookup"><span data-stu-id="1b723-259">Selected tasks only</span></span> | <span data-ttu-id="1b723-260">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-260">Yes</span></span>          | <span data-ttu-id="1b723-261">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-261">Yes</span></span>             | <span data-ttu-id="1b723-262">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-262">Yes</span></span>         | <span data-ttu-id="1b723-263">Μη έγκυρο</span><span class="sxs-lookup"><span data-stu-id="1b723-263">Not valid</span></span>       | <span data-ttu-id="1b723-264">Παραβίαση του Κανόνα #2.</span><span class="sxs-lookup"><span data-stu-id="1b723-264">Violation of Rule #2.</span></span>   </br><span data-ttu-id="1b723-265">- Το C1 περιλαμβάνει χρόνο, έξοδα και χρεώσεις σε ένα υποσύνολο εργασιών στο έργο P1.</span><span class="sxs-lookup"><span data-stu-id="1b723-265">- C1 includes time, expenses, and fees on a subset of tasks on   project P1.</span></span> </br><span data-ttu-id="1b723-266">- Το CL2 περιλαμβάνει χρόνο, έξοδα και χρεώσεις για το σύνολο του έργου P1 και, επομένως, επικαλύπτεται με τα στοιχεία που περιλαμβάνονται στο C1.</span><span class="sxs-lookup"><span data-stu-id="1b723-266">- CL2 includes time, expenses, and fees for the whole   project P1 and therefore overlaps with what is included on C1.</span></span>                                                                                                                                                                                          |
-| <span data-ttu-id="1b723-267">C1</span><span class="sxs-lookup"><span data-stu-id="1b723-267">C1</span></span>       | <span data-ttu-id="1b723-268">CL2</span><span class="sxs-lookup"><span data-stu-id="1b723-268">CL2</span></span>           | <span data-ttu-id="1b723-269">Π1</span><span class="sxs-lookup"><span data-stu-id="1b723-269">P1</span></span>      | <span data-ttu-id="1b723-270">Κενό</span><span class="sxs-lookup"><span data-stu-id="1b723-270">Blank</span></span>               | <span data-ttu-id="1b723-271">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-271">Yes</span></span>          | <span data-ttu-id="1b723-272">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-272">Yes</span></span>             | <span data-ttu-id="1b723-273">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-273">Yes</span></span>         | <span data-ttu-id="1b723-274">Μη έγκυρο</span><span class="sxs-lookup"><span data-stu-id="1b723-274">Not valid</span></span>       | <span data-ttu-id="1b723-275">Παραβίαση του Κανόνα #2.</span><span class="sxs-lookup"><span data-stu-id="1b723-275">Violation of Rule #2.</span></span>   </br><span data-ttu-id="1b723-276">- Το C1 περιλαμβάνει χρόνο, έξοδα και χρεώσεις σε ένα υποσύνολο εργασιών στο έργο P1.</span><span class="sxs-lookup"><span data-stu-id="1b723-276">- C1 includes time, expenses, and fees on a subset of tasks on   project P1.</span></span> </br><span data-ttu-id="1b723-277">- Το CL2 περιλαμβάνει χρόνο, έξοδα και χρεώσεις για το σύνολο του έργου P1 και, επομένως, επικαλύπτεται με τα στοιχεία που περιλαμβάνονται στο C1.</span><span class="sxs-lookup"><span data-stu-id="1b723-277">- CL2 includes time, expenses, and fees for the whole   project P1 and therefore overlaps with what is included on C1.</span></span>                                                                                                                                                                                          |
-| <span data-ttu-id="1b723-278">C1</span><span class="sxs-lookup"><span data-stu-id="1b723-278">C1</span></span>       | <span data-ttu-id="1b723-279">CL1</span><span class="sxs-lookup"><span data-stu-id="1b723-279">CL1</span></span>           | <span data-ttu-id="1b723-280">Π1</span><span class="sxs-lookup"><span data-stu-id="1b723-280">P1</span></span>      | <span data-ttu-id="1b723-281">Επιλεγμένες εργασίες μόνο</span><span class="sxs-lookup"><span data-stu-id="1b723-281">Selected tasks only</span></span> | <span data-ttu-id="1b723-282">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-282">Yes</span></span>          | <span data-ttu-id="1b723-283">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-283">Yes</span></span>             | <span data-ttu-id="1b723-284">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-284">Yes</span></span>         | <span data-ttu-id="1b723-285">Έγκυρα</span><span class="sxs-lookup"><span data-stu-id="1b723-285">Valid</span></span>           | <span data-ttu-id="1b723-286">Σύμφωνα με τον κανόνα #3</span><span class="sxs-lookup"><span data-stu-id="1b723-286">Per Rule #3</span></span></br><span data-ttu-id="1b723-287">- Το C1 περιλαμβάνει χρόνο, έξοδα και χρεώσεις σε ένα υποσύνολο εργασιών στο έργο P1.</span><span class="sxs-lookup"><span data-stu-id="1b723-287">-  C1 includes time, expenses, and fees on a   subset of tasks on project P1.</span></span> </br> <span data-ttu-id="1b723-288">- Το CL2 περιλαμβάνει χρόνο, έξοδα και χρεώσεις για ένα υποσύνολο εργασιών στο έργο P1.</span><span class="sxs-lookup"><span data-stu-id="1b723-288">- CL2 includes time, expenses, and   fees for a subset of tasks on project P1.</span></span> </br> <span data-ttu-id="1b723-289">Η μόνη πρόσθετη επικύρωση είναι το υποσύνολο των εργασιών στο CL1, το οποίο διαφέρει από το υποσύνολο των εργασιών στο CL2, ώστε να διασφαλιστεί ότι δεν θα υπάρξουν επικαλύψεις.</span><span class="sxs-lookup"><span data-stu-id="1b723-289">The only additional   validation is on the subset of tasks on CL1, which is different from the subset of tasks on CL2 to ensure that there are no overlaps.</span></span> <span data-ttu-id="1b723-290">Αυτή η επικύρωση ολοκληρώνεται από το σύστημα όταν σχετίζονται οι εργασίες.</span><span class="sxs-lookup"><span data-stu-id="1b723-290">This validation   is completed by the system when tasks are associated.</span></span> |
-| <span data-ttu-id="1b723-291">C1</span><span class="sxs-lookup"><span data-stu-id="1b723-291">C1</span></span>       | <span data-ttu-id="1b723-292">CL2</span><span class="sxs-lookup"><span data-stu-id="1b723-292">CL2</span></span>           | <span data-ttu-id="1b723-293">Π1</span><span class="sxs-lookup"><span data-stu-id="1b723-293">P1</span></span>      | <span data-ttu-id="1b723-294">Επιλεγμένες εργασίες μόνο</span><span class="sxs-lookup"><span data-stu-id="1b723-294">Selected tasks only</span></span> | <span data-ttu-id="1b723-295">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-295">Yes</span></span>          | <span data-ttu-id="1b723-296">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-296">Yes</span></span>             | <span data-ttu-id="1b723-297">Ναι</span><span class="sxs-lookup"><span data-stu-id="1b723-297">Yes</span></span>         | <span data-ttu-id="1b723-298">Έγκυρα</span><span class="sxs-lookup"><span data-stu-id="1b723-298">Valid</span></span>           | <span data-ttu-id="1b723-299">Σύμφωνα με τον κανόνα #3</span><span class="sxs-lookup"><span data-stu-id="1b723-299">Per Rule #3</span></span></br><span data-ttu-id="1b723-300">- Το C1 περιλαμβάνει χρόνο, έξοδα και χρεώσεις σε ένα υποσύνολο εργασιών στο έργο P1.</span><span class="sxs-lookup"><span data-stu-id="1b723-300">-  C1 includes time, expenses, and fees on a   subset of tasks on project P1.</span></span> </br> <span data-ttu-id="1b723-301">- Το CL2 περιλαμβάνει χρόνο, έξοδα και χρεώσεις για ένα υποσύνολο εργασιών στο έργο P1.</span><span class="sxs-lookup"><span data-stu-id="1b723-301">- CL2 includes time, expenses, and   fees for a subset of tasks on project P1.</span></span> </br> <span data-ttu-id="1b723-302">Η μόνη πρόσθετη επικύρωση είναι το υποσύνολο των εργασιών στο CL1, το οποίο διαφέρει από το υποσύνολο των εργασιών στο CL2, ώστε να διασφαλιστεί ότι δεν θα υπάρξουν επικαλύψεις.</span><span class="sxs-lookup"><span data-stu-id="1b723-302">The only additional   validation is on the subset of tasks on CL1, which is different from the subset of tasks on CL2 to ensure that there are no overlaps.</span></span> <span data-ttu-id="1b723-303">Αυτή η επικύρωση ολοκληρώνεται από το σύστημα όταν σχετίζονται οι εργασίες.</span><span class="sxs-lookup"><span data-stu-id="1b723-303">This validation   is completed by the system when tasks are associated.</span></span> |
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="43" valign="top">
+                <p><span data-ttu-id="731a2-190">
+                    <strong>Σύμβαση</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="731a2-190">
+                    <strong>Contract</strong>
+                </span></span></p>
+            </td>
+            <td width="65" valign="top">
+                <p><span data-ttu-id="731a2-191">
+                    <strong>Γραμμή σύμβασης</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="731a2-191">
+                    <strong>Contract line</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="731a2-192">
+                    <strong>Project</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="731a2-192">
+                    <strong>Project</strong>
+                </span></span></p>
+            </td>
+            <td width="67" valign="top">
+                <p><span data-ttu-id="731a2-193">
+                    <strong>Εργασίες που περιλαμβάνονται</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="731a2-193">
+                    <strong>Included tasks</strong>
+                </span></span></p>
+            </td>
+            <td width="48" valign="top">
+                <p><span data-ttu-id="731a2-194">
+                    <strong>Συμπερίληψη χρόνου</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="731a2-194">
+                    <strong>Include Time</strong>
+                </span></span></p>
+            </td>
+            <td width="48" valign="top">
+                <p><span data-ttu-id="731a2-195">
+                    <strong>Συμπερίληψη εξόδου</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="731a2-195">
+                    <strong>Include Expense</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="731a2-196">
+                    <strong>Συμπερίληψη υλικών</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="731a2-196">
+                    <strong>Include Materials</strong>
+                </span></span></p>
+            </td>
+            <td width="42" valign="top">
+                <p><span data-ttu-id="731a2-197">
+                    <strong>Συμπερίληψη</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="731a2-197">
+                    <strong>Include</strong>
+                </span></span></p>
+                <p><span data-ttu-id="731a2-198">
+                    <strong>Χρέωση</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="731a2-198">
+                    <strong>Fee</strong>
+                </span></span></p>
+            </td>
+            <td width="53" valign="top">
+                <p><span data-ttu-id="731a2-199">
+                    <strong>Έγκυρο/ Μη έγκυρο</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="731a2-199">
+                    <strong>Valid/ Not valid</strong>
+                </span></span></p>
+            </td>
+            <td width="250" valign="top">
+                <p><span data-ttu-id="731a2-200">
+                    <strong>Αιτία</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="731a2-200">
+                    <strong>Reason</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="731a2-201">C1</span><span class="sxs-lookup"><span data-stu-id="731a2-201">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="731a2-202">CL1</span><span class="sxs-lookup"><span data-stu-id="731a2-202">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-203">Π1</span><span class="sxs-lookup"><span data-stu-id="731a2-203">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="731a2-204">Κενό</span><span class="sxs-lookup"><span data-stu-id="731a2-204">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-205">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-205">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-206">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-206">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-207">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-207">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-208">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-208">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="731a2-209">Μη έγκυρο</span><span class="sxs-lookup"><span data-stu-id="731a2-209">Not valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="731a2-210">Παραβίαση του Κανόνα #2.</span><span class="sxs-lookup"><span data-stu-id="731a2-210">Violation of Rule #2.</span></span> <span data-ttu-id="731a2-211">Ο χρόνος, το έξοδο, τα υλικά και οι χρεώσεις για το έργο P1 περιλαμβάνονται και στις δύο γραμμές σύμβασης CL1 και CL2.</span><span class="sxs-lookup"><span data-stu-id="731a2-211">Time, Expense, Materials, and Fees on P1 project are included on both Contract lines CL1 and CL2.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="731a2-212">C1</span><span class="sxs-lookup"><span data-stu-id="731a2-212">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="731a2-213">CL2</span><span class="sxs-lookup"><span data-stu-id="731a2-213">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-214">Π1</span><span class="sxs-lookup"><span data-stu-id="731a2-214">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="731a2-215">Κενό</span><span class="sxs-lookup"><span data-stu-id="731a2-215">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-216">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-216">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-217">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-217">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-218">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-218">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-219">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-219">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="731a2-220">C1</span><span class="sxs-lookup"><span data-stu-id="731a2-220">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="731a2-221">CL1</span><span class="sxs-lookup"><span data-stu-id="731a2-221">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-222">Π1</span><span class="sxs-lookup"><span data-stu-id="731a2-222">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="731a2-223">Κενό</span><span class="sxs-lookup"><span data-stu-id="731a2-223">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-224">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-224">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-225">No</span><span class="sxs-lookup"><span data-stu-id="731a2-225">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-226">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-226">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-227">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-227">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="731a2-228">Μη έγκυρο</span><span class="sxs-lookup"><span data-stu-id="731a2-228">Not valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="731a2-229">Παραβίαση του Κανόνα #2.</span><span class="sxs-lookup"><span data-stu-id="731a2-229">Violation of Rule #2.</span></span> <span data-ttu-id="731a2-230">Ο χρόνος, τα υλικά και οι χρεώσεις για το έργο P1 περιλαμβάνονται και στις δύο γραμμές σύμβασης CL1 και CL2.</span><span class="sxs-lookup"><span data-stu-id="731a2-230">Time, Materials, and Fees on P1 project are included on both Contract lines CL1 and CL2.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="731a2-231">C1</span><span class="sxs-lookup"><span data-stu-id="731a2-231">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="731a2-232">CL2</span><span class="sxs-lookup"><span data-stu-id="731a2-232">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-233">Π1</span><span class="sxs-lookup"><span data-stu-id="731a2-233">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="731a2-234">Κενό</span><span class="sxs-lookup"><span data-stu-id="731a2-234">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-235">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-235">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-236">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-236">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-237">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-237">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-238">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-238">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="731a2-239">C1</span><span class="sxs-lookup"><span data-stu-id="731a2-239">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="731a2-240">CL1</span><span class="sxs-lookup"><span data-stu-id="731a2-240">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-241">Π1</span><span class="sxs-lookup"><span data-stu-id="731a2-241">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="731a2-242">Κενό</span><span class="sxs-lookup"><span data-stu-id="731a2-242">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-243">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-243">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-244">No</span><span class="sxs-lookup"><span data-stu-id="731a2-244">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-245">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-245">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-246">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-246">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="731a2-247">Έγκυρη</span><span class="sxs-lookup"><span data-stu-id="731a2-247">Valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="731a2-248">Ο χρόνος, τα υλικά και οι χρεώσεις για το έργο P1 περιλαμβάνονται στο CL1.</span><span class="sxs-lookup"><span data-stu-id="731a2-248">Time, Materials, and Fees on P1 project are included on CL1.</span></span>
+                </p>
+                <ul>
+                    <li>
+<span data-ttu-id="731a2-249">Η δαπάνη στο έργο P1 περιλαμβάνεται στο CL2.</span><span class="sxs-lookup"><span data-stu-id="731a2-249">Expense on P1 project is included on CL2.</span></span>
+                    </li>
+                </ul>
+                <p>
+<span data-ttu-id="731a2-250">Δεν υπάρχει επικάλυψη σε ό,τι περιλαμβάνεται σε κάθε γραμμή σύμβασης και επομένως είναι έγκυρο.</span><span class="sxs-lookup"><span data-stu-id="731a2-250">No overlap in what is being included on each Contract line and therefore valid.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="731a2-251">C1</span><span class="sxs-lookup"><span data-stu-id="731a2-251">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="731a2-252">CL2</span><span class="sxs-lookup"><span data-stu-id="731a2-252">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-253">Π1</span><span class="sxs-lookup"><span data-stu-id="731a2-253">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="731a2-254">Κενό</span><span class="sxs-lookup"><span data-stu-id="731a2-254">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-255">No</span><span class="sxs-lookup"><span data-stu-id="731a2-255">No</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-256">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-256">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-257">No</span><span class="sxs-lookup"><span data-stu-id="731a2-257">No</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-258">No</span><span class="sxs-lookup"><span data-stu-id="731a2-258">No</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="731a2-259">C1</span><span class="sxs-lookup"><span data-stu-id="731a2-259">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="731a2-260">CL1</span><span class="sxs-lookup"><span data-stu-id="731a2-260">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-261">Π1</span><span class="sxs-lookup"><span data-stu-id="731a2-261">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="731a2-262">Επιλεγμένες εργασίες μόνο</span><span class="sxs-lookup"><span data-stu-id="731a2-262">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-263">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-263">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-264">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-264">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-265">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-265">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-266">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-266">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="731a2-267">Μη έγκυρο</span><span class="sxs-lookup"><span data-stu-id="731a2-267">Not valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="731a2-268">Παραβίαση του Κανόνα #2</span><span class="sxs-lookup"><span data-stu-id="731a2-268">Violation of Rule #2</span></span> </p>
+                <p>
+<span data-ttu-id="731a2-269">Το C1 περιλαμβάνει χρόνο, υλικά, δαπάνες και χρεώσεις σε ένα υποσύνολο εργασιών στο έργο P1.</span><span class="sxs-lookup"><span data-stu-id="731a2-269">C1 includes Time, Materials, Expenses and Fees on a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="731a2-270">Το CL2 περιλαμβάνει χρόνο, υλικά, δαπάνες και χρεώσεις για ολόκληρο το έργο P1 και ως εκ τούτου επικαλύπτεται με αυτά που περιλαμβάνονται στο C1.</span><span class="sxs-lookup"><span data-stu-id="731a2-270">CL2 includes Time, Materials, Expenses and Fees for the whole project P1 and therefore overlaps with what is included on C1.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="731a2-271">C1</span><span class="sxs-lookup"><span data-stu-id="731a2-271">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="731a2-272">CL2</span><span class="sxs-lookup"><span data-stu-id="731a2-272">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-273">Π1</span><span class="sxs-lookup"><span data-stu-id="731a2-273">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="731a2-274">Κενό</span><span class="sxs-lookup"><span data-stu-id="731a2-274">Blank</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-275">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-275">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-276">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-276">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-277">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-277">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-278">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-278">Yes</span></span> </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="250" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="731a2-279">C1</span><span class="sxs-lookup"><span data-stu-id="731a2-279">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="731a2-280">CL1</span><span class="sxs-lookup"><span data-stu-id="731a2-280">CL1</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-281">Π1</span><span class="sxs-lookup"><span data-stu-id="731a2-281">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="731a2-282">Επιλεγμένες εργασίες μόνο</span><span class="sxs-lookup"><span data-stu-id="731a2-282">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-283">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-283">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-284">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-284">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-285">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-285">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-286">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-286">Yes</span></span> </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="731a2-287">Έγκυρη</span><span class="sxs-lookup"><span data-stu-id="731a2-287">Valid</span></span> </p>
+            </td>
+            <td width="250" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="731a2-288">Σύμφωνα με τον κανόνα #3</span><span class="sxs-lookup"><span data-stu-id="731a2-288">Per Rule #3</span></span> </p>
+                <p>
+<span data-ttu-id="731a2-289">Το C1 περιλαμβάνει χρόνο, έξοδαμ υλικά και χρεώσεις σε ένα υποσύνολο εργασιών στο έργο P1.</span><span class="sxs-lookup"><span data-stu-id="731a2-289">C1 includes Time, Expenses, Materials, and Fees on a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="731a2-290">Το CL2 περιλαμβάνει χρόνο, έξοδαμ υλικά και χρεώσεις για ένα υποσύνολο εργασιών στο έργο P1.</span><span class="sxs-lookup"><span data-stu-id="731a2-290">CL2 includes Time, Expenses, Materials, and Fees for a subset of tasks on project P1.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="731a2-291">Η μόνη πρόσθετη επικύρωση είναι γύρω από το υποσύνολο εργασιών στο CL1 και διαφέρει από το υποσύνολο εργασιών στο CL2, ώστε να διασφαλιστεί ότι δεν υπάρχουν επικαλύπτονται εκεί.</span><span class="sxs-lookup"><span data-stu-id="731a2-291">The only additional validation is around the subset of tasks on CL1 is different from the subset of tasks on CL2 to ensure that there are no overlaps there.</span></span> <span data-ttu-id="731a2-292">Αυτό γίνεται από το σύστημα όταν σχετίζονται οι εργασίες.</span><span class="sxs-lookup"><span data-stu-id="731a2-292">This is done by the system when tasks are associated.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+<span data-ttu-id="731a2-293">C1</span><span class="sxs-lookup"><span data-stu-id="731a2-293">C1</span></span> </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+<span data-ttu-id="731a2-294">CL2</span><span class="sxs-lookup"><span data-stu-id="731a2-294">CL2</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-295">Π1</span><span class="sxs-lookup"><span data-stu-id="731a2-295">P1</span></span> </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+<span data-ttu-id="731a2-296">Επιλεγμένες εργασίες μόνο</span><span class="sxs-lookup"><span data-stu-id="731a2-296">Selected tasks only</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-297">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-297">Yes</span></span> </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+<span data-ttu-id="731a2-298">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-298">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-299">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-299">Yes</span></span> </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+<span data-ttu-id="731a2-300">Ναι</span><span class="sxs-lookup"><span data-stu-id="731a2-300">Yes</span></span> </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
