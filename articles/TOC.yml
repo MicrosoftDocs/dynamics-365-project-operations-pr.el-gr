@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: Ρύθμιση παραμέτρων για την ενοποίηση του Project Operations ανά νομική οντότητα
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Ρύθμιση παραμέτρων ενοποίησης διπλής εγγραφής
+          items:
+            - name: Επισκόπηση ενοποίησης διπλής εγγραφής
+              href: environment/resource-dual-write-overview.md
+            - name: Εκδόσεις χάρτη διπλής εγγραφής Project Operations
+              href: environment/resource-dual-write-maps.md
+            - name: Ρύθμιση Project Operations και ρύθμιση παραμέτρων ενοποίησης δεδομένων
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Εκτιμήσεις έργου και ενοποίηση πραγματικών τιμών
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Ενοποίηση τιμολογίων έργου
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Ενοποίηση διαχείρισης εξόδων
+              href: environment/resource-dual-write-expense.md
+            - name: Ενοποίηση τιμολογίων προμηθευτή
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Τι νέο υπάρχει
       items:
         - name: Απρίλιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: Καθορισμός ημερολογίων έργου
           href: project-management/define-project-calendars.md
+        - name: Λειτουργίες προγραμματισμού
+          href: project-management/scheduling-modes.md
         - name: Ενημέρωση έργου
           href: project-management/update-project.md
         - name: Αντιγραφή έργου
@@ -404,6 +422,12 @@
           items:
             - name: Δημιουργία και επιβεβαίωση Ημερολογίων διόρθωσης
               href: actuals/create-confirm-correction-journals.md
+    - name: Προμήθειες
+      items:
+        - name: Ρύθμιση παραμέτρων μη εφοδιασμένου υλικού και εκκρεμών τιμολογίων προμηθευτών
+          href: procurement/configure-materials-nonstocked.md
+        - name: Προμήθεια μη εφοδιασμένου υλικού για έργα με χρήση εκκρεμών τιμολογίων προμηθευτών
+          href: procurement/pending-vendor-invoices.md
     - name: Τιμολόγηση
       items:
         - name: Επισκόπηση διεργασίας τιμολόγησης
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Ρύθμιση παραμέτρων αυτοματοποίησης τιμολογίου βάσει έργου
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Διαχείριση προτάσεων τιμολογίου έργου
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Λογιστική έργου
       items:
         - name: Προεπιλογές οικονομικής διάστασης
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: Καθορισμός ημερολογίων έργου
           href: project-management/define-project-calendars.md
+        - name: Λειτουργίες προγραμματισμού
+          hreF: project-management/scheduling-modes.md
         - name: Ενημέρωση έργου
           href: project-management/update-project.md
         - name: Αντιγραφή έργου
@@ -848,6 +876,8 @@
   items:
     - name: Τι νέο υπάρχει
       items:
+        - name: 'Τι νέο υπάρχει, Απρίλιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 'Τι νέο υπάρχει, Μάρτιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: 'Τι νέο υπάρχει, Ιανουάριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
@@ -871,9 +901,9 @@
     - name: Ρύθμιση και χρήση πληρωμών προμηθευτών με πληρωμή κατά την πληρωμή
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Προσαύξηση κόστους έργου σε αποδείξεις αγορών
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Τιμολόγηση έργου
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Εκτέλεση προτάσεων τιμολογίου έργου
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Συμβάσεις έργων
@@ -998,6 +1028,8 @@
       items:
         - name: Χρονοδιάγραμμα έκδοσης ενημέρωσης για το Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 31, V3'
+          href: psa/whats-new-ur-31.md
         - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 30, V3'
           href: psa/whats-new-ur-30.md
         - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 29.5, Άμεση επιδιόρθωση, V3'
@@ -1327,7 +1359,7 @@
             - name: Προβολή χρήσης πόρων
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Οδηγός υπεύθυνου έργου
           items:
             - name: Οδηγός υπεύθυνου έργου (Project Service)
