@@ -17,46 +17,46 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dbdcb811bfeacf17e841d679f097c591c16cd4c0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a4ebc2e6ca3f6be0a05a7240d762d7a8cf92d81b
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281028"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949454"
 ---
-# <a name="project-service-automation-update-release-13-v3"></a><span data-ttu-id="3c59a-103">Τι νέο υπάρχει στο Project Service Automation, έκδοση ενημέρωσης 13, V3</span><span class="sxs-lookup"><span data-stu-id="3c59a-103">Project Service Automation Update Release 13, V3</span></span>
+# <a name="project-service-automation-update-release-13-v3"></a><span data-ttu-id="aa4dd-103">Τι νέο υπάρχει στο Project Service Automation, έκδοση ενημέρωσης 13, V3</span><span class="sxs-lookup"><span data-stu-id="aa4dd-103">Project Service Automation Update Release 13, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="3c59a-104">Είμαστε στην ευχάριστη θέση να ανακοινώσουμε την πιο πρόσφατη ενημέρωση για την εφαρμογή Dynamics 365 Project Service Automation (PSA).</span><span class="sxs-lookup"><span data-stu-id="3c59a-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="3c59a-105">Αυτή η έκδοση περιλαμβάνει ορισμένες σημαντικές βελτιώσεις όσον αφορά την ποιότητα, την απόδοση και τη χρηστικότητα.</span><span class="sxs-lookup"><span data-stu-id="3c59a-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="3c59a-106">Αυτή η έκδοση είναι συμβατή με το Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="3c59a-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="3c59a-107">Για να πραγματοποιήσετε ενημέρωση σε αυτήν την έκδοση, επισκεφθείτε το κέντρο διαχείρισης για το Dynamics 365 online και μεταβείτε στη σελίδα λύσεων για να εγκαταστήσετε την ενημέρωση.</span><span class="sxs-lookup"><span data-stu-id="3c59a-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="3c59a-108">Για περισσότερες πληροφορίες, δείτε [Εγκατάσταση, ενημέρωση ή κατάργηση μιας προτιμώμενης λύσης](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="3c59a-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="aa4dd-104">Είμαστε στην ευχάριστη θέση να ανακοινώσουμε την πιο πρόσφατη ενημέρωση για την εφαρμογή Dynamics 365 Project Service Automation (PSA).</span><span class="sxs-lookup"><span data-stu-id="aa4dd-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="aa4dd-105">Αυτή η έκδοση περιλαμβάνει ορισμένες σημαντικές βελτιώσεις όσον αφορά την ποιότητα, την απόδοση και τη χρηστικότητα.</span><span class="sxs-lookup"><span data-stu-id="aa4dd-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="aa4dd-106">Αυτή η έκδοση είναι συμβατή με το Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="aa4dd-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="aa4dd-107">Για να πραγματοποιήσετε ενημέρωση σε αυτήν την έκδοση, επισκεφθείτε το κέντρο διαχείρισης για το Dynamics 365 online και μεταβείτε στη σελίδα λύσεων για να εγκαταστήσετε την ενημέρωση.</span><span class="sxs-lookup"><span data-stu-id="aa4dd-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="aa4dd-108">Για περισσότερες πληροφορίες, δείτε [Εγκατάσταση, ενημέρωση ή κατάργηση μιας προτιμώμενης λύσης](/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="aa4dd-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="3c59a-109">Αυτό το θέμα παραθέτει τις νέες ή τροποποιημένες δυνατότητες και επιδιορθώσεις για το Project Service Automation V3, έκδοση ενημέρωσης 13.</span><span class="sxs-lookup"><span data-stu-id="3c59a-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13.</span></span> <span data-ttu-id="3c59a-110">Αυτή η έκδοση έχει αριθμό δομής V3.10.3.18 και είναι διαθέσιμη σύμφωνα με το παρακάτω χρονοδιάγραμμα:</span><span class="sxs-lookup"><span data-stu-id="3c59a-110">This version has a build number of V3.10.3.18 and is available on the following schedule:</span></span>
+<span data-ttu-id="aa4dd-109">Αυτό το θέμα παραθέτει τις νέες ή τροποποιημένες δυνατότητες και επιδιορθώσεις για το Project Service Automation V3, έκδοση ενημέρωσης 13.</span><span class="sxs-lookup"><span data-stu-id="aa4dd-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 13.</span></span> <span data-ttu-id="aa4dd-110">Αυτή η έκδοση έχει αριθμό δομής V3.10.3.18 και είναι διαθέσιμη σύμφωνα με το παρακάτω χρονοδιάγραμμα:</span><span class="sxs-lookup"><span data-stu-id="aa4dd-110">This version has a build number of V3.10.3.18 and is available on the following schedule:</span></span>
 
-- <span data-ttu-id="3c59a-111">**Γενική διαθεσιμότητα (αυτοενημέρωση):** Νοέμβριος 2019</span><span class="sxs-lookup"><span data-stu-id="3c59a-111">**General availability (self-update):** November 2019</span></span>
-- <span data-ttu-id="3c59a-112">**Αυτοενημέρωση:** Δεκέμβριος 2019</span><span class="sxs-lookup"><span data-stu-id="3c59a-112">**Auto-update:** December 2019</span></span>
+- <span data-ttu-id="aa4dd-111">**Γενική διαθεσιμότητα (αυτοενημέρωση):** Νοέμβριος 2019</span><span class="sxs-lookup"><span data-stu-id="aa4dd-111">**General availability (self-update):** November 2019</span></span>
+- <span data-ttu-id="aa4dd-112">**Αυτοενημέρωση:** Δεκέμβριος 2019</span><span class="sxs-lookup"><span data-stu-id="aa4dd-112">**Auto-update:** December 2019</span></span>
 
 
-## <a name="update-release-13"></a><span data-ttu-id="3c59a-113">Έκδοση κυκλοφορίας 13</span><span class="sxs-lookup"><span data-stu-id="3c59a-113">Update Release 13</span></span> 
+## <a name="update-release-13"></a><span data-ttu-id="aa4dd-113">Έκδοση κυκλοφορίας 13</span><span class="sxs-lookup"><span data-stu-id="aa4dd-113">Update Release 13</span></span> 
 
-### <a name="bug-fixes"></a><span data-ttu-id="3c59a-114">Επιδιορθώσεις σφαλμάτων</span><span class="sxs-lookup"><span data-stu-id="3c59a-114">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="aa4dd-114">Επιδιορθώσεις σφαλμάτων</span><span class="sxs-lookup"><span data-stu-id="aa4dd-114">Bug fixes</span></span>
 
-- <span data-ttu-id="3c59a-115">Χρόνος και έξοδα</span><span class="sxs-lookup"><span data-stu-id="3c59a-115">Time and Expense</span></span>
+- <span data-ttu-id="aa4dd-115">Χρόνος και έξοδα</span><span class="sxs-lookup"><span data-stu-id="aa4dd-115">Time and Expense</span></span>
 
-     - <span data-ttu-id="3c59a-116">Διορθώθηκε: Η λειτουργικότητα αναζήτησης στη σελίδα **έγκρισης εξόδων** δεν λειτουργεί κατά την αναζήτηση με βάση τον σκοπό των εξόδων.</span><span class="sxs-lookup"><span data-stu-id="3c59a-116">Fixed: Search functionality on the **Expense approval** page does not work when searching by expense purpose.</span></span>
+     - <span data-ttu-id="aa4dd-116">Διορθώθηκε: Η λειτουργικότητα αναζήτησης στη σελίδα **έγκρισης εξόδων** δεν λειτουργεί κατά την αναζήτηση με βάση τον σκοπό των εξόδων.</span><span class="sxs-lookup"><span data-stu-id="aa4dd-116">Fixed: Search functionality on the **Expense approval** page does not work when searching by expense purpose.</span></span>
 
-- <span data-ttu-id="3c59a-117">Διαχείριση πόρων</span><span class="sxs-lookup"><span data-stu-id="3c59a-117">Resource Management</span></span>
+- <span data-ttu-id="aa4dd-117">Διαχείριση πόρων</span><span class="sxs-lookup"><span data-stu-id="aa4dd-117">Resource Management</span></span>
 
-     - <span data-ttu-id="3c59a-118">Διορθώθηκε: Οι αριθμοί που υπάρχουν στην εναρμόνιση έχουν ενημερωθεί ώστε να δικαιολογούνται σωστά.</span><span class="sxs-lookup"><span data-stu-id="3c59a-118">Fixed: Numbers in the reconciliation have been updated to be right justified.</span></span>
-     - <span data-ttu-id="3c59a-119">Διορθώθηκε: Οι πόροι με όνομα δεν είναι δυνατό να ανατεθούν σε εργασίες μέσω της καρτέλας **Χρονοδιάγραμμα**.</span><span class="sxs-lookup"><span data-stu-id="3c59a-119">Fixed: Named Resources can't be assigned to tasks through the **Schedule** tab.</span></span>
+     - <span data-ttu-id="aa4dd-118">Διορθώθηκε: Οι αριθμοί που υπάρχουν στην εναρμόνιση έχουν ενημερωθεί ώστε να δικαιολογούνται σωστά.</span><span class="sxs-lookup"><span data-stu-id="aa4dd-118">Fixed: Numbers in the reconciliation have been updated to be right justified.</span></span>
+     - <span data-ttu-id="aa4dd-119">Διορθώθηκε: Οι πόροι με όνομα δεν είναι δυνατό να ανατεθούν σε εργασίες μέσω της καρτέλας **Χρονοδιάγραμμα**.</span><span class="sxs-lookup"><span data-stu-id="aa4dd-119">Fixed: Named Resources can't be assigned to tasks through the **Schedule** tab.</span></span>
 
-- <span data-ttu-id="3c59a-120">Διαχείριση έργων</span><span class="sxs-lookup"><span data-stu-id="3c59a-120">Project Management</span></span>
+- <span data-ttu-id="aa4dd-120">Διαχείριση έργων</span><span class="sxs-lookup"><span data-stu-id="aa4dd-120">Project Management</span></span>
 
-     - <span data-ttu-id="3c59a-121">Διορθώθηκε: Μηδενική εξαίρεση αναφοράς κατά την ανάθεση σε ένα μέλος ομάδας όταν λείπου πληροφορίες ρύθμισης από το **TransactionType** για την **Μονάδα** και το **DefaultGroup**.</span><span class="sxs-lookup"><span data-stu-id="3c59a-121">Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup information for **Unit** and **DefaultGroup**.</span></span>
+     - <span data-ttu-id="aa4dd-121">Διορθώθηκε: Μηδενική εξαίρεση αναφοράς κατά την ανάθεση σε ένα μέλος ομάδας όταν λείπου πληροφορίες ρύθμισης από το **TransactionType** για την **Μονάδα** και το **DefaultGroup**.</span><span class="sxs-lookup"><span data-stu-id="aa4dd-121">Fixed: Null reference exception when assigning team member when the **TransactionType** is missing setup information for **Unit** and **DefaultGroup**.</span></span>
 
-- <span data-ttu-id="3c59a-122">Sales</span><span class="sxs-lookup"><span data-stu-id="3c59a-122">Sales</span></span>
+- <span data-ttu-id="aa4dd-122">Sales</span><span class="sxs-lookup"><span data-stu-id="aa4dd-122">Sales</span></span>
 
-     - <span data-ttu-id="3c59a-123">Διορθώθηκε: Διπλότυπες καρτέλες τύπου συναλλαγής επιστρέφουν ένα σφάλμα κατά τη δημιουργία καρτελών τιμής ρόλου.</span><span class="sxs-lookup"><span data-stu-id="3c59a-123">Fixed: Duplicate transaction type records return an error when role price records are created.</span></span>
-     - <span data-ttu-id="3c59a-124">Διορθώθηκε: Τα επιπλέον κουμπιά για τα στοιχεία **Νέα ευκαιρία**, **Προσφορά**, **Γραμμή παραγγελίας** και **Προσθήκη προϊόντων** είναι ορατά στις εντολές για Ευκαιρίες, Προσφορές, Προϊόντα παραγγελιών και στο υποπλέγμα γραμμών βάσει έργου.</span><span class="sxs-lookup"><span data-stu-id="3c59a-124">Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.</span></span>
+     - <span data-ttu-id="aa4dd-123">Διορθώθηκε: Διπλότυπες καρτέλες τύπου συναλλαγής επιστρέφουν ένα σφάλμα κατά τη δημιουργία καρτελών τιμής ρόλου.</span><span class="sxs-lookup"><span data-stu-id="aa4dd-123">Fixed: Duplicate transaction type records return an error when role price records are created.</span></span>
+     - <span data-ttu-id="aa4dd-124">Διορθώθηκε: Τα επιπλέον κουμπιά για τα στοιχεία **Νέα ευκαιρία**, **Προσφορά**, **Γραμμή παραγγελίας** και **Προσθήκη προϊόντων** είναι ορατά στις εντολές για Ευκαιρίες, Προσφορές, Προϊόντα παραγγελιών και στο υποπλέγμα γραμμών βάσει έργου.</span><span class="sxs-lookup"><span data-stu-id="aa4dd-124">Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.</span></span>
 
 
 
