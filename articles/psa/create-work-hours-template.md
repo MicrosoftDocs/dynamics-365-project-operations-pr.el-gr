@@ -1,6 +1,6 @@
 ---
 title: Δημιουργία προτύπου ωρών εργασίας
-description: Πώς γίνεται η δημιουργία ενός προτύπου ωρών εργασίας στο Project Service
+description: Αυτό το θέμα περιγράφει πώς γίνεται η δημιουργία ενός προτύπου ωρών εργασίας στο Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,53 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285033"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981255"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="212e0-103">Δημιουργήστε ένα πρότυπο ωρών εργασίας (Project Service)</span><span class="sxs-lookup"><span data-stu-id="212e0-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="a4595-103">Δημιουργήστε ένα πρότυπο ωρών εργασίας (Project Service)</span><span class="sxs-lookup"><span data-stu-id="a4595-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="212e0-104">Για να μπορείτε να δημιουργήσετε χρονοδιαγράμματα έργων, πρέπει να ορίσετε ένα ημερολόγιο έργου το οποίο θα καθορίζει τον αριθμό των ωρών εργασίας που θα εξυπηρετούνται ανά ημέρα στο χρονοδιάγραμμα, καθώς και κάθε διακοπή εργασιών επιχείρησης.</span><span class="sxs-lookup"><span data-stu-id="212e0-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="212e0-105">Αυτό μπορείτε να το κάνετε με ένα πρότυπο ωρών εργασίας, το οποίο περιέχει λεπτομέρειες σχετικά με τις ώρες εργασίας ανά ημέρα, τα ρεπό και τυχόν άλλες διακοπές εργασιών της επιχείρησης.</span><span class="sxs-lookup"><span data-stu-id="212e0-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
-  
- <span data-ttu-id="212e0-106">Όταν δημιουργείτε ένα έργο, μπορείτε να συσχετίσετε ένα πρότυπο εργασίας στο ημερολόγιο έργου, για να εφαρμόσετε το χρονοδιάγραμμα για το έργο.</span><span class="sxs-lookup"><span data-stu-id="212e0-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
-  
- <span data-ttu-id="212e0-107">Υπάρχουν δύο τρόποι για να δημιουργήσετε ένα πρότυπο ωρών εργασίας:</span><span class="sxs-lookup"><span data-stu-id="212e0-107">There are two ways you can create a work hours template:</span></span>  
-  
--   <span data-ttu-id="212e0-108">Δημιουργήστε ένα πρότυπο ωρών εργασίας με βάση το ημερολόγιο ενός πόρου.</span><span class="sxs-lookup"><span data-stu-id="212e0-108">Create a work hours template based on a resource’s calendar.</span></span>  
-  
--   <span data-ttu-id="212e0-109">Δημιουργήστε ένα νέο πρότυπο ωρών εργασίας.</span><span class="sxs-lookup"><span data-stu-id="212e0-109">Create a new work hours template.</span></span>  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="212e0-110">Για να δημιουργήσετε ένα πρότυπο ωρών εργασίας βάσει ενός ημερολογίου πόρων</span><span class="sxs-lookup"><span data-stu-id="212e0-110">To create a work hours template based on a resource’s calendar</span></span>  
-  
-1.  <span data-ttu-id="212e0-111">Μεταβείτε στο μενού **Project Service > Πόροι**.</span><span class="sxs-lookup"><span data-stu-id="212e0-111">Go to **Project Service > Resources**.</span></span>  
-  
-2.  <span data-ttu-id="212e0-112">Επιλέξτε τον πόρο στον οποίο θέλετε να βασιστούν οι ώρες εργασίας σας.</span><span class="sxs-lookup"><span data-stu-id="212e0-112">Select the resource you want to base your work hours on.</span></span>  
-  
-3.  <span data-ttu-id="212e0-113">Πατήστε **Αποθήκευση ημερολογίου ως**, εισαγάγετε το όνομα για το πρότυπο ωρών εργασίας και, στη συνέχεια, πατήστε **Αποθήκευση**.</span><span class="sxs-lookup"><span data-stu-id="212e0-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
-  
-4.  <span data-ttu-id="212e0-114">Όταν ολοκληρώσετε τις αλλαγές των επιλογών, επιλέξτε **Αποθήκευση και κλείσιμο**.</span><span class="sxs-lookup"><span data-stu-id="212e0-114">When you’re done changing options, click **Save and Close**.</span></span>  
-  
-5.  <span data-ttu-id="212e0-115">Επιλέξτε το κουμπί **Αποθήκευση** στην κάτω δεξιά γωνία της οθόνης.</span><span class="sxs-lookup"><span data-stu-id="212e0-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
-  
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="212e0-116">Για να δημιουργήσετε ένα νέο πρότυπο ωρών εργασίας</span><span class="sxs-lookup"><span data-stu-id="212e0-116">To create a new work hours template</span></span>  
-  
-1.  <span data-ttu-id="212e0-117">Μεταβείτε στο μενού **Project Service > Πρότυπα ωρών εργασίας**.</span><span class="sxs-lookup"><span data-stu-id="212e0-117">Go to **Project Service > Work Hours Templates**.</span></span>  
-  
-2.  <span data-ttu-id="212e0-118">Επιλέξτε **Νέο**.</span><span class="sxs-lookup"><span data-stu-id="212e0-118">Click **New**.</span></span>  
-  
-3.  <span data-ttu-id="212e0-119">Πληκτρολογήστε ένα όνομα για το πρότυπο ωρών εργασίας.</span><span class="sxs-lookup"><span data-stu-id="212e0-119">Enter a name for the work hours template.</span></span>  
-  
-4.  <span data-ttu-id="212e0-120">Επιλέξτε έναν πόρο επάνω στον οποίο θα βασίσετε τις ώρες εργασίας και, στη συνέχεια, κάντε κλικ στο κουμπί **Αποθήκευση**.</span><span class="sxs-lookup"><span data-stu-id="212e0-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
-  
-### <a name="see-also"></a><span data-ttu-id="212e0-121">Δείτε επίσης</span><span class="sxs-lookup"><span data-stu-id="212e0-121">See Also</span></span>  
- [<span data-ttu-id="212e0-122">Ρύθμιση πόρων</span><span class="sxs-lookup"><span data-stu-id="212e0-122">Set up resources</span></span>](../psa/set-up-resources.md)
+<span data-ttu-id="a4595-104">Για να δημιουργήσετε και να διαχειριστείτε ένα έργο, πρέπει να εφαρμόσετε ένα πρότυπο ημερολογίου στο έργο.</span><span class="sxs-lookup"><span data-stu-id="a4595-104">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="a4595-105">Το πρότυπο ημερολογίου καθορίζει τα ακόλουθα χαρακτηριστικά του έργου:</span><span class="sxs-lookup"><span data-stu-id="a4595-105">The calendar template defines the following project attributes:</span></span>
+
+- <span data-ttu-id="a4595-106">Ώρες εργασίας, συμπεριλαμβανομένων των ωρών έναρξης και λήξης</span><span class="sxs-lookup"><span data-stu-id="a4595-106">Working hours, including start and end time</span></span>
+- <span data-ttu-id="a4595-107">Εργάσιμες ημέρες</span><span class="sxs-lookup"><span data-stu-id="a4595-107">Working days</span></span>
+- <span data-ttu-id="a4595-108">Εξαιρέσεις ημερολογίου, όπως για παράδειγμα, μη εργάσιμες ημέρες</span><span class="sxs-lookup"><span data-stu-id="a4595-108">Calendar exceptions such as non-working days</span></span>
+
+<span data-ttu-id="a4595-109">Το πρότυπο ημερολογίου που εφαρμόζεται σε ένα έργο είναι ένα αντίγραφο του προτύπου ημερολογίου που ορίζεται στις ρυθμίσεις του οργανισμού σας.</span><span class="sxs-lookup"><span data-stu-id="a4595-109">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a4595-110">Εάν αλλάξετε το πρότυπο ημερολογίου, αυτές οι αλλαγές δεν αναπαράγονται στις ώρες εργασίας του έργου.</span><span class="sxs-lookup"><span data-stu-id="a4595-110">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="a4595-111">Για να αλλάξετε τις ώρες εργασίας του έργου, πρέπει να εφαρμοστεί ένα νέο πρότυπο.</span><span class="sxs-lookup"><span data-stu-id="a4595-111">To change the working hours of the project, a new template must be applied.</span></span>
+
+<span data-ttu-id="a4595-112">Για να δημιουργήσετε ένα πρότυπο ημερολογίου για τον οργανισμό σας, υπάρχουν δύο βασικές απαιτήσεις:</span><span class="sxs-lookup"><span data-stu-id="a4595-112">To create a calendar template for your organization, there are two key requirements:</span></span>
+
+- <span data-ttu-id="a4595-113">Να καθορίσετε τις επιθυμητές ώρες εργασίας του προτύπου χρησιμοποιώντας έναν νέο ή υπάρχοντα πόρο με δυνατότητα κράτησης.</span><span class="sxs-lookup"><span data-stu-id="a4595-113">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="a4595-114">Να δημιουργήσετε ένα νέο πρότυπο ημερολογίου και συσχετίστε το πρότυπο με τον πόρο με δυνατότητα κράτησης.</span><span class="sxs-lookup"><span data-stu-id="a4595-114">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="a4595-115">**Ορισμός ωρών εργασίας του προτύπου**</span><span class="sxs-lookup"><span data-stu-id="a4595-115">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="a4595-116">Μεταβείτε στα στοιχεία **Πόροι** \> **Πόροι**.</span><span class="sxs-lookup"><span data-stu-id="a4595-116">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="a4595-117">Δημιουργήστε έναν νέο πόρο για αναφορά στο πρότυπο ημερολογίου ή επιλέξτε έναν υπάρχοντα πόρο.</span><span class="sxs-lookup"><span data-stu-id="a4595-117">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="a4595-118">Επιλέξτε την καρτέλα **Ώρες εργασίας** του πόρου και ολοκληρώστε τις οδηγίες στο στοιχείο [Ορισμός ωρών εργασίας για έναν πόρο](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) για τη ρύθμιση των κανόνων ημερολογίου.</span><span class="sxs-lookup"><span data-stu-id="a4595-118">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="a4595-119">**Δημιουργήστε ένα νέο πρότυπο ημερολογίου**</span><span class="sxs-lookup"><span data-stu-id="a4595-119">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="a4595-120">Μεταβείτε στο **Ρυθμίσεις** \> **Πρότυπο ημερολογίου**.</span><span class="sxs-lookup"><span data-stu-id="a4595-120">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="a4595-121">Επιλέξτε **Δημιουργία** και καταχωρήστε ένα όνομα, μια περιγραφή και έναν πόρο προτύπου.</span><span class="sxs-lookup"><span data-stu-id="a4595-121">Select **New**, and enter a name, description, and template resource.</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="a4595-122">Όταν γίνεται αναφορά ενός πόρου σε ένα πρότυπο ημερολογίου, ένα αντίγραφο του ημερολογίου του πόρου συσχετίζεται με το πρότυπο ημερολογίου.</span><span class="sxs-lookup"><span data-stu-id="a4595-122">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="a4595-123">Εάν αλλάξετε τις ώρες εργασίας της αλλαγής του αντιγραμμένου προτύπου, αυτές οι αλλαγές δεν αναπαράγονται στο πρότυπο ημερολογίου.</span><span class="sxs-lookup"><span data-stu-id="a4595-123">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+
+### <a name="see-also"></a><span data-ttu-id="a4595-124">Δείτε επίσης</span><span class="sxs-lookup"><span data-stu-id="a4595-124">See Also</span></span>  
+ [<span data-ttu-id="a4595-125">Ρύθμιση πόρων</span><span class="sxs-lookup"><span data-stu-id="a4595-125">Set up resources</span></span>](../psa/set-up-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
