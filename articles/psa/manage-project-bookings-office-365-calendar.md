@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275043"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950309"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Διαχείριση έργων και κρατήσεων στο ημερολόγιο (Project Service)
 
@@ -52,7 +52,7 @@ ms.locfileid: "5275043"
   
 - Θα χρειαστείτε διαπιστευτήρια καθολικού διαχειριστή ή διαχειριστή συστήματος του [!INCLUDE[pn_office_365](../includes/pn-office-365.md)].  
   
-- Ο διαχειριστής σας θα πρέπει να ρυθμίσει το προφίλ διακομιστή ηλεκτρονικού ταχυδρομείου και κάθε χρήστης θα πρέπει να ρυθμίσει τις παραμέτρους του γραμματοκιβωτίου του. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Ρύθμιση επεξεργασίας ηλεκτρονικού ταχυδρομείου μέσω συγχρονισμού από την πλευρά του διακομιστή](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Ο διαχειριστής σας θα πρέπει να ρυθμίσει το προφίλ διακομιστή ηλεκτρονικού ταχυδρομείου και κάθε χρήστης θα πρέπει να ρυθμίσει τις παραμέτρους του γραμματοκιβωτίου του. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Ρύθμιση επεξεργασίας ηλεκτρονικού ταχυδρομείου μέσω συγχρονισμού από την πλευρά του διακομιστή](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Ενεργοποίηση συγχρονισμού για τον οργανισμό σας (εργασία διαχειριστή)  
   

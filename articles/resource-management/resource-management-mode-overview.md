@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279453"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949949"
 ---
 # <a name="resource-management-modes-overview"></a>Επισκόπηση λειτουργιών διαχείρισης πόρου
 
@@ -29,11 +29,11 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 Για να διαχειριστείτε τους πόρους με την κεντρική λειτουργία, ανατρέξτε στο θέμα:
 
-- [Ανάθεση γενικών πόρων με δυνατότητα κράτησης σε μια εργασία και δημιουργία απαιτήσεων πόρου](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Κράτηση καθορισμένων πόρων από απαιτήσεις πόρων](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Υποβολή μιας αίτησης πόρου](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Κάλυψη αιτήματος πόρου](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Αποδοχή ή απόρριψη ενός πόρου έργου που προτείνεται από μια αίτηση πόρου](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Ανάθεση γενικών πόρων με δυνατότητα κράτησης σε μια εργασία και δημιουργία απαιτήσεων πόρου](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Κράτηση καθορισμένων πόρων από απαιτήσεις πόρων](/dynamics365/project-service/book-named-resource)
+- [Υποβολή μιας αίτησης πόρου](/dynamics365/project-service/submit-resource-request)
+- [Κάλυψη αιτήματος πόρου](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Αποδοχή ή απόρριψη ενός πόρου έργου που προτείνεται από μια αίτηση πόρου](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Υβριδική λειτουργία
 Για οργανισμούς που απαιτούν ευελιξία στην ανάθεση πόρων, η υβριδική λειτουργία παρέχει στους διαχειριστές έργου και στους διαχειριστές πόρων τη δυνατότητα να κάνουν κράτηση πόρων.
@@ -43,11 +43,11 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 Εκτός από τη διεργασία κεντρικής λειτουργίας που υποστηρίζεται, ανατρέξτε στα παρακάτω θέματα για να διαχειριστείτε όλες τις άλλες υποστηριζόμενες ροές κρατήσεων στην υβριδική λειτουργία:
 
 Κράτηση πόρου απευθείας σε έργο:
-- [Κράτηση καθορισμένων πόρων με δυνατότητα κράτησης σε μια ομάδα έργου και ανάθεση εργασιών](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Κράτηση καθορισμένων πόρων με δυνατότητα κράτησης σε μια ομάδα έργου και ανάθεση εργασιών](/dynamics365/project-service/assign-named-bookable-resource)
 
 Κράτηση πόρου από απαίτηση πόρου:
-- [Ανάθεση γενικών πόρων με δυνατότητα κράτησης σε μια εργασία και δημιουργία απαιτήσεων πόρου](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Κράτηση καθορισμένων πόρων από απαιτήσεις πόρων](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Ανάθεση γενικών πόρων με δυνατότητα κράτησης σε μια εργασία και δημιουργία απαιτήσεων πόρου](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Κράτηση καθορισμένων πόρων από απαιτήσεις πόρων](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

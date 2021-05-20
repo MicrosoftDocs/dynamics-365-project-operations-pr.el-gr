@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282288"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951389"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Είσοδος στο Project Service Automation
 
@@ -39,7 +39,7 @@ ms.locfileid: "5282288"
   
 - Τον κωδικό πρόσβασής σας  
   
-  Πιθανώς να λάβατε αυτές τις πληροφορίες σε ένα μήνυμα ηλεκτρονικού ταχυδρομείου από το διαχειριστή σας. Εάν δεν έχετε όλες αυτές τις πληροφορίες ή εάν αντιμετωπίζετε προβλήματα κατά την είσοδό σας, [Βρείτε τον διαχειριστή ή τον υπεύθυνο υποστήριξης](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  Πιθανώς να λάβατε αυτές τις πληροφορίες σε ένα μήνυμα ηλεκτρονικού ταχυδρομείου από το διαχειριστή σας. Εάν δεν έχετε όλες αυτές τις πληροφορίες ή εάν αντιμετωπίζετε προβλήματα κατά την είσοδό σας, [Βρείτε τον διαχειριστή ή τον υπεύθυνο υποστήριξης](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Ορίστε τις προσωπικές σας επιλογές για να επιτρέψετε το ηλεκτρονικό ταχυδρομείο  
  Πρέπει να ρυθμίσετε τις παραμέτρους του ηλεκτρονικού ταχυδρομείου για να επιτρέψετε σε άλλους χρήστες να στέλνουν μήνυμα ηλεκτρονικού ταχυδρομείου για λογαριασμό σας, έτσι ώστε το [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] να μπορεί να στέλνει ειδοποιήσεις μέσω ηλεκτρονικού ταχυδρομείου για λογαριασμό σας, όταν πρέπει να εγκρίνετε χρόνο και δαπάνες ή να εγγραφείτε για έργα.  

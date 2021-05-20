@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288138"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950219"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Τι νέο υπάρχει ή τι άλλαξε τον Δεκέμβριο 2020 στο Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 
@@ -141,7 +141,7 @@ _Ισχύει για: Project Operations για Εφοδιασμένα σενά�
 
 ## <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
 
-Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Dynamics 365 Finance, ανατρέξτε στην ενότητα [Ενημερώσεις κανονισμών](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Ένας άλλος τρόπος για να μάθετε σχετικά με τις ρυθμιστικές ενημερώσεις είναι να συνδεθείτε στο Lifecycle Services (LCS) και να προβάλετε τις προγραμματισμένες ρυθμιστικές ενημερώσεις χρησιμοποιώντας το εργαλείο αναζήτησης θεμάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Dynamics 365 Finance, ανατρέξτε στην ενότητα [Ενημερώσεις κανονισμών](/dynamics365/finance/localizations/regulatory-updates). Ένας άλλος τρόπος για να μάθετε σχετικά με τις ρυθμιστικές ενημερώσεις είναι να συνδεθείτε στο Lifecycle Services (LCS) και να προβάλετε τις προγραμματισμένες ρυθμιστικές ενημερώσεις χρησιμοποιώντας το εργαλείο αναζήτησης θεμάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

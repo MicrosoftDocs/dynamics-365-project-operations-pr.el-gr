@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290089"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950264"
 ---
 # <a name="deploy-project-operations---lite"></a>Ανάπτυξη Project Operations - lite
 
@@ -34,14 +34,14 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Εγκατάσταση του Project Operations σε νέο περιβάλλον CDS
 
-1. Ως [Καθολικός διαχειριστής ή Διαχειριστής του Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) με άδεια Project Operations, δημιουργήστε ένα νέο περιβάλλον CDS στο [Κέντρο διαχείρισης PowerPlatform](https://admin.powerplatform.com). Βεβαιωθείτε ότι η **Βάση δεδομένων CDS** και οι **Εφαρμογές Dynamics 365** έχουν ενεργοποιηθεί. Για περισσότερες πληροφορίες σχετικά με τα περιβάλλοντα παροχής, ανατρέξτε στο θέμα [Δημιουργία και διαχείριση περιβαλλόντων στο κέντρο διαχείρισης του Power Platform](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
+1. Ως [Καθολικός διαχειριστής ή Διαχειριστής του Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) με άδεια Project Operations, δημιουργήστε ένα νέο περιβάλλον CDS στο [Κέντρο διαχείρισης PowerPlatform](https://admin.powerplatform.com). Βεβαιωθείτε ότι η **Βάση δεδομένων CDS** και οι **Εφαρμογές Dynamics 365** έχουν ενεργοποιηθεί. Για περισσότερες πληροφορίες σχετικά με τα περιβάλλοντα παροχής, ανατρέξτε στο θέμα [Δημιουργία και διαχείριση περιβαλλόντων στο κέντρο διαχείρισης του Power Platform](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 2. Επιλέξτε **Microsoft Dynamics 365 Project Operations** από τη λίστα ανάπτυξης των εφαρμογών Dynamics 365.
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Εγκατάσταση του Project Operations σε υφιστάμενο περιβάλλον CDS
 
-1. Ως [Καθολικός διαχειριστής ή Διαχειριστής του Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) με άδεια Project Operations, εντοπίστε το περιβάλλον στο [Κέντρο διαχείρισης PowerPlatform](https://admin.powerplatform.com) στο οποίο θέλετε να εγκαταστήσετε το Project Operations.
-2. Εγκαταστήστε το **Microsoft Dynamics 365 Project Operations** από τη λίστα ανάπτυξης των εφαρμογών Dynamics 365. Για περισσότερες πληροφορίες, ανατρέξτε στη [Διαχείριση εφαρμογών Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
+1. Ως [Καθολικός διαχειριστής ή Διαχειριστής του Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) με άδεια Project Operations, εντοπίστε το περιβάλλον στο [Κέντρο διαχείρισης PowerPlatform](https://admin.powerplatform.com) στο οποίο θέλετε να εγκαταστήσετε το Project Operations.
+2. Εγκαταστήστε το **Microsoft Dynamics 365 Project Operations** από τη λίστα ανάπτυξης των εφαρμογών Dynamics 365. Για περισσότερες πληροφορίες, ανατρέξτε στη [Διαχείριση εφαρμογών Dynamics 365](/power-platform/admin/manage-apps).
 
 
 

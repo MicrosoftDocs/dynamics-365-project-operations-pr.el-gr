@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282648"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951434"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Προγραμματισμός πόρων για ένα έργο (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "5282648"
   
 Ο πίνακας χρονοδιαγράμματος εμφανίζει λίστα με τους πόρους και τη διαθεσιμότητά τους. Επιλέξτε έναν τρόπο λειτουργίας προβολής για να εμφανίσετε τη διαθεσιμότητα ανά **Ώρες**, **Ημέρα**, **Εβδομάδα** ή **Μήνα**.  
   
-Για να χρησιμοποιήσετε τον πίνακα χρονοδιαγράμματος, είναι σημαντικό να ρυθμίσετε τις παραμέτρους του. Για περισσότερες πληροφορίες, δείτε [Ρύθμιση παραμέτρων του πίνακα χρονοδιαγράμματος (Field Service ή Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Για να χρησιμοποιήσετε τον πίνακα χρονοδιαγράμματος, είναι σημαντικό να ρυθμίσετε τις παραμέτρους του. Για περισσότερες πληροφορίες, δείτε [Ρύθμιση παραμέτρων του πίνακα χρονοδιαγράμματος (Field Service ή Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Εάν χρησιμοποιείτε μια παλαιότερη έκδοση, για διαθεσιμότητα πόρου, ανατρέξτε στο θέμα [Προβολή διαθεσιμότητας πόρου](../psa/view-resource-availability.md).  
 

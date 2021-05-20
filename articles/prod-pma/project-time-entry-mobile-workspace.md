@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288874"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950174"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Χώρος εργασίας κινητών συσκευών καταχώρισης χρόνου έργου
 
@@ -48,7 +48,7 @@ ms.locfileid: "5288874"
 Οι προϋποθέσεις διαφέρουν, με βάση την έκδοση του Microsoft Dynamics 365 που έχει αναπτυχθεί για τον οργανισμό σας.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Προϋποθέσεις εάν χρησιμοποιείτε το Dynamics 365 Finance
-Εάν το Finance έχει αναπτυχθεί για τον οργανισμό σας, ο διαχειριστής συστήματος πρέπει να δημοσιεύσει τον χώρο εργασίας για κινητές συσκευές **Καταχώριση χρόνο έργου**. Για οδηγίες, ανατρέξτε στην ενότητα [Δημοσίευση χώρου εργασίας κινητών συσκευών](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Εάν το Finance έχει αναπτυχθεί για τον οργανισμό σας, ο διαχειριστής συστήματος πρέπει να δημοσιεύσει τον χώρο εργασίας για κινητές συσκευές **Καταχώριση χρόνο έργου**. Για οδηγίες, ανατρέξτε στην ενότητα [Δημοσίευση χώρου εργασίας κινητών συσκευών](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Προϋποθέσεις εάν χρησιμοποιείτε την έκδοση 1611 με την ενημέρωση πλατφόρμας 3 ή νεότερη έκδοση
 Εάν έχει αναπτυχθεί η έκδοση 1611 με την ενημέρωση πλατφόρμας 3 ή μεταγενέστερη για τον οργανισμό σας, ο διαχειριστής του συστήματος πρέπει να τηρήσει τις ακόλουθες προϋποθέσεις. 
@@ -68,17 +68,17 @@ ms.locfileid: "5288874"
 <td>Διαχειριστής συστήματος</td>
 <td>Το KB 4018050 είναι μια X++ ενημέρωση και επιδιόρθωση μεταδεδομένων που περιέχει τον χώρο εργασίας κινητών συσκευών <strong>Καταχώριση χρόνου έργου</strong>. Για την εφαρμογή του KB 4018050, ο διαχειριστής του συστήματός σας πρέπει να ακολουθήσει τα παρακάτω βήματα.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Πραγματοποιήστε λήψη της επιδιόρθωσης μεταδεδομένων από το Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Εγκαταστήστε την επιδιόρθωση μεταδεδομένων </a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Δημιουργήστε ένα πακέτο με δυνατότητα ανάπτυξης</a> που περιέχει τα μοντέλα <strong>ApplicationSuite</strong> και <strong>ProjectMobile</strong> και, στη συνέχεια, φορτώστε το πακέτο που έχει αναπτυχθεί σε LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Εφαρμόστε το πακέτο με δυνατότητα ανάπτυξης</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Πραγματοποιήστε λήψη της επιδιόρθωσης μεταδεδομένων από το Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Εγκαταστήστε την επιδιόρθωση μεταδεδομένων </a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Δημιουργήστε ένα πακέτο με δυνατότητα ανάπτυξης</a> που περιέχει τα μοντέλα <strong>ApplicationSuite</strong> και <strong>ProjectMobile</strong> και, στη συνέχεια, φορτώστε το πακέτο που έχει αναπτυχθεί σε LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Εφαρμόστε το πακέτο με δυνατότητα ανάπτυξης</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Δημοσιεύστε τον χώρο εργασίας κινητών συσκευών <strong>Καταχώριση χρόνου έργου</strong>.</td>
 <td>Διαχειριστής συστήματος</td>
-<td>Δείτε <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Δημοσίευση χώρου εργασίας κινητών συσκευών</a>.</td>
+<td>Δείτε <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Δημοσίευση χώρου εργασίας κινητών συσκευών</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ ms.locfileid: "5288874"
 2.  Επιλέξτε **Καταχώριση χρόνου**. Εμφανίζονται οι ημερομηνίες ημερολογίου για την τρέχουσα εβδομάδα.
 3.  Για μια επιλεγμένη ημερομηνία, επιλέξτε **Ενέργειες** &gt; **Νέα καταχώρηση**.
 4.  Εισαγάγετε τον αριθμό των ωρών προς καταγραφή.
-5.  Επιλέξτε το έργο για την καταχώρηση του χρόνου. Μια λίστα εμφανίζει τα έργα που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης. Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό. Για περισσότερες πληροφορίες, δείτε [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Επιλέξτε το έργο για την καταχώρηση του χρόνου. Μια λίστα εμφανίζει τα έργα που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης. Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό. Για περισσότερες πληροφορίες, δείτε [Πλατφόρμα για κινητές συσκευές](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Εάν το έργο σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση**. Πραγματοποιήστε αναζήτηση με βάση το όνομα ή μεταβείτε στην αναζήτηση με βάση το όνομα έργου ή πελάτη.
-7.  Επιλέξτε μια κατηγορία. Μια λίστα εμφανίζει τις κατηγορίες που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης. Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό. Για περισσότερες πληροφορίες, δείτε [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Επιλέξτε μια κατηγορία. Μια λίστα εμφανίζει τις κατηγορίες που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης. Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό. Για περισσότερες πληροφορίες, δείτε [Πλατφόρμα για κινητές συσκευές](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Εάν η κατηγορία σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση**. Αναζητήστε με βάση την κατηγορία ή μεταβείτε στην αναζήτηση με βάση το όνομα της κατηγορίας.
-9.  Επιλέξτε δραστηριότητα. Μια λίστα εμφανίζει τις δραστηριότητες που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης. Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό. Για περισσότερες πληροφορίες, δείτε [Πλατφόρμα για κινητές συσκευές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Επιλέξτε δραστηριότητα. Μια λίστα εμφανίζει τις δραστηριότητες που έχουν φορτωθεί στην εφαρμογή σας για χρήση εκτός σύνδεσης. Από προεπιλογή, φορτώνονται 50 στοιχεία αλλά ένας προγραμματιστής μπορεί να αλλάξει αυτόν τον αριθμό. Για περισσότερες πληροφορίες, δείτε [Πλατφόρμα για κινητές συσκευές](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Εάν η δραστηριότητά σας δεν βρίσκεται στη λίστα, επιλέξτε **Αναζήτηση**. Αναζητήστε με βάση τον αριθμό δραστηριότητας ή μεταβείτε στην αναζήτηση με βάση το σκοπό.
 
 11. Επιλέξτε την ιδιότητα γραμμής.
