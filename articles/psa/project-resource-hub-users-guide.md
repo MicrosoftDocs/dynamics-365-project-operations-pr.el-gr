@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283773"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948142"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Οδηγός χρήσης για το Κέντρο πόρων έργου
 
@@ -48,7 +48,7 @@ ms.locfileid: "5283773"
 ## <a name="install-the-mobile-app"></a>Εγκατάσταση της εφαρμογής για φορητές συσκευές
 Για να μπορέσετε να αρχίσετε να χρησιμοποιείτε την εφαρμογή Project Resource Hub θα πρέπει να εγκαταστήσετε την εφαρμογή για φορητές συσκευές στη συσκευή σας. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Εγκατάσταση του Dynamics 365 for phones and tablets και tablet](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Εγκατάσταση του Dynamics 365 for phones and tablets και tablet](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Βασική περιήγηση
 1.  Κατά τη σύνδεση στην εφαρμογή για φορητές συσκευές, θα δείτε τη σελίδα Οι εφαρμογές μου (MyApps) με τις εφαρμογές στις οποίες έχετε πρόσβαση. 
@@ -99,7 +99,7 @@ ms.locfileid: "5283773"
 5. Συνεχίστε με την εισαγωγή των εξόδων σας για την εβδομάδα. Όταν ολοκληρώσετε τη διαδικασία και όλα σας φαίνονται σωστά, κάντε κλικ στο κουμπί **Υποβολή**. Οι καταχωρίσεις των εξόδων σας θα ελεγχθούν και εγκριθούν από έναν υπεύθυνο.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Γενικές πληροφορίες σχετικά με τη χρήση την εφαρμογή για κινητές συσκευές 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Οδηγός βασικών δυνατοτήτων για φορητές συσκευές](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Οδηγός βασικών δυνατοτήτων για φορητές συσκευές](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Δείτε επίσης  
  [Επισκόπηση του Project Service](../psa/overview.md)   

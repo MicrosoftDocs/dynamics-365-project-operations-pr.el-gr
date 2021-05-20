@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277833"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948387"
 ---
 # <a name="manage-project-based-opportunities"></a>Διαχείριση ευκαιριών βάσει έργων
 
@@ -64,7 +64,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 >
 > Εάν η συμφωνία σας που βασίζεται σε έργο έχει ξεκινήσει με μια ευκαιρία, η επιχειρηματική διεργασία πώλησης ευκαιρίας έχει προτεραιότητα.
 
-Μπορείτε να επεξεργαστείτε τη ροή επιχειρηματικής διαδικασίας προϊόντος ή να δημιουργήσετε τις δικές σας ροές επιχειρηματικών διαδικασιών για την παρακολούθηση της διαδικασίας πωλήσεών σας, ανάλογα με τις ανάγκες. Για περισσότερες πληροφορίες σχετικά με τη ροή επιχειρηματικής διαδικασίας, ανατρέξτε στην ενότητα [Επισκόπηση ροών επιχειρηματικής διαδικασίας](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+Μπορείτε να επεξεργαστείτε τη ροή επιχειρηματικής διαδικασίας προϊόντος ή να δημιουργήσετε τις δικές σας ροές επιχειρηματικών διαδικασιών για την παρακολούθηση της διαδικασίας πωλήσεών σας, ανάλογα με τις ανάγκες. Για περισσότερες πληροφορίες σχετικά με τη ροή επιχειρηματικής διαδικασίας, ανατρέξτε στην ενότητα [Επισκόπηση ροών επιχειρηματικής διαδικασίας](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
