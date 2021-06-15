@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Τι νέο υπάρχει
       items:
+        - name: Μάιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Απρίλιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Μάρτιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Ρύθμιση κατηγοριών εξόδων
               href: expense/set-up-expense-categories.md
+            - name: Ρύθμιση διανυθείσας απόστασης με χρήση επιπέδων χρέωσης διανυθείσας απόστασης
+              href: expense/set-up-mileage.md
         - name: Προσωπικές δαπάνες
           href: expense/personal-expenses-expense-report.md
         - name: Διεταιρικά έξοδα
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Τι νέο υπάρχει
       items:
+        - name: 'Τι νέο υπάρχει, Μάιος 2021 - ελαφριά ανάπτυξη'
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Τι νέο υπάρχει Απρίλιος 2021 - ελαφριά ανάπτυξη
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 'Τι νέο υπάρχει, Μάρτιος 2021 - ελαφριά ανάπτυξη'
@@ -1026,8 +1032,10 @@
       href: psa/overview.md
     - name: Τι νέο υπάρχει
       items:
-        - name: Χρονοδιάγραμμα έκδοσης ενημέρωσης για το Project Service 3.x
+        - name: Ενημέρωση χρονοδιαγράμματος έκδοσης για το Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Προσαρμογή καταχώρησης εβδομαδιαίου χρόνου
               href: psa/time-entry-extensibility-v3.md
+            - name: Σύνολα έγκρισης
+              href: psa/approval-set.md
     - name: Συνήθεις ερωτήσεις και αντιμετώπιση προβλημάτων (3.x)
       items:
         - name: Γιατί η τιμή είναι μηδέν κατά προεπιλογή στις πραγματικές τιμές του κόστους εξόδων;
