@@ -2,11 +2,9 @@
 title: Δημιουργία σύνθετων συμβάσεων για χρέωση με βάση την πρόοδο
 description: Αυτό το θέμα επεξηγεί τον τρόπο δημιουργίας συμβάσεων έργου έτσι ώστε να μπορείτε να δημιουργήσετε τιμολόγια για πελάτες, με βάση ένα ποσοστό ολοκληρωμένης εργασίας.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3b445488100e0a8335a05505405953b173ff836c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289504"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999671"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Δημιουργία σύνθετων συμβάσεων για χρέωση με βάση την πρόοδο
 [!include [banner](../includes/banner.md)]

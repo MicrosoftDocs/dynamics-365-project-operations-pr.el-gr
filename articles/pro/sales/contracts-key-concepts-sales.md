@@ -2,18 +2,16 @@
 title: Συμβάσεις έργων - Βασικές έννοιες - lite
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις βασικές έννοιες των συμβάσεων έργου.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75c4b90e47c0b90ed3fea8dce1533057aa6137b9
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 0e00299b5717d0ae21ee8ca757239d8ce864f309
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663774"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003631"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>Έννοιες μοναδικές για συμβάσεις έργου
 

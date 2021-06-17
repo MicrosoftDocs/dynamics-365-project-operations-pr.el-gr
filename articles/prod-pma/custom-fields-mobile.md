@@ -2,11 +2,9 @@
 title: Εφαρμόστε προσαρμοσμένα πεδία για την εφαρμογή Microsoft Dynamics 365 Project Timesheet για κινητές συσκευές σε iOS και Android
 description: Αυτό το θέμα παρέχει συνήθη μοτίβα για τη χρήση επεκτάσεων για την εφαρμογή προσαρμοσμένων πεδίων.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270993"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003032"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Εφαρμόστε προσαρμοσμένα πεδία για την εφαρμογή Microsoft Dynamics 365 Project Timesheet για κινητές συσκευές σε iOS και Android
 
@@ -53,7 +51,7 @@ ms.locfileid: "5270993"
 
 | Τύπος τιμής | Τύπος              | Σημειώσεις |
 |-------------|-------------------|-------|
-| 1           | Συμβολοσειρά (και απαρίθμηση) | Το πεδίο εμφανίζεται ως πεδίο κειμένου. |
+| 0           | Συμβολοσειρά (και απαρίθμηση) | Το πεδίο εμφανίζεται ως πεδίο κειμένου. |
 | 1           | Integer           | Η τιμή εμφανίζεται ως αριθμός χωρίς δεκαδικά ψηφία. |
 | 2           | Πραγματική              | Η τιμή εμφανίζεται ως αριθμός με δεκαδικά ψηφία.<p>Για να εμφανίσετε την πραγματική τιμή ως νομισματική μονάδα στην εφαρμογή, χρησιμοποιήστε την ιδιότητα **fieldExtenededType**. Μπορείτε να χρησιμοποιήσετε την ιδιότητα **numberOfDecimals** για να ορίσετε τον αριθμό των δεκαδικών ψηφίων που εμφανίζονται.</p> |
 | 3           | Ημερομηνία              | Οι μορφές ημερομηνιών καθορίζονται από τη ρύθμιση **Μορφή αριθμού, ώρας και ημερομηνίας** του χρήστη που καθορίζεται στην περιοχή **Προτίμηση γλώσσας και χώρας/περιοχής** στις **Επιλογές χρήστη**. |

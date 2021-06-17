@@ -2,11 +2,9 @@
 title: Ενοποίηση του Microsoft Project client
 description: Ο προγραμματισμός και η συντήρηση ενός χρονοδιαγράμματος έργου μπορεί να είναι πολύπλοκα, επομένως οι διαχειριστές έργου πρέπει να χρησιμοποιούν τα εργαλεία που τους βοηθούν να διαχειρίζονται αυτήν την εργασία. Με την ενοποίηση με το Microsoft Project Client παρέχεται υποστήριξη για το άνοιγμα και τη διαχείριση μιας δομής ανάλυσης εργασίας έργου.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289324"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999446"
 ---
 # <a name="microsoft-project-client-integration"></a>Ενοποίηση του Microsoft Project client
 

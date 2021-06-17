@@ -2,11 +2,9 @@
 title: Παραγγελίες αγοράς για ένα έργο
 description: Αυτό το άρθρο περιγράφει τις διάφορες μεθόδους που μπορείτε να χρησιμοποιήσετε για τη δημιουργία παραγγελιών αγοράς για ένα έργο. Η μέθοδος που χρησιμοποιείτε εξαρτάται από το σκοπό της παραγγελίας αγοράς και από το πότε χρησιμοποιούνται τα αγορασμένα στοιχεία και χρεώνονται σε ένα έργο.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f3f5d196e0d7db4a6d8c4cfe834a335f4ef737c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3c3ce2d0c0fb3cecf22157db5cb37eb744027d0f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289189"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999356"
 ---
 # <a name="purchase-orders-for-a-project"></a>Παραγγελίες αγοράς για ένα έργο
 

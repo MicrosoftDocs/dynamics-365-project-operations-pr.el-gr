@@ -2,19 +2,17 @@
 title: Ρύθμιση Project Operations και ρύθμιση παραμέτρων ενοποίησης δεδομένων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη ρύθμιση και τη ρύθμιση παραμέτρων αντιστοιχίσεων διπλής εγγραφής Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: 1e9ca9407404274648f359be42d350137775ae55
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938988"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001066"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Ρύθμιση Project Operations και ρύθμιση παραμέτρων ενοποίησης δεδομένων
 

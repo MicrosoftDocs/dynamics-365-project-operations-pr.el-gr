@@ -2,18 +2,16 @@
 title: Ρύθμιση τιμοκαταλόγων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ρύθμισης των τιμοκαταλόγων πώλησης και κόστους.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 118c2bd6b59b509e5628ac00fc1607809458853b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275493"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005026"
 ---
 # <a name="set-up-price-lists"></a>Ρύθμιση τιμοκαταλόγων
 
