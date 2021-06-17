@@ -2,19 +2,17 @@
 title: Ρύθμιση παραμέτρων μη εφοδιασμένου υλικού και εκκρεμών τιμολογίων προμηθευτών
 description: Αυτό θέμα εξηγεί τον τρόπο ενεργοποίησης υλικών που δεν είναι σε απόθεμα και εκκρεμών τιμολογίων προμηθευτή.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880647"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993911"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Ρύθμιση παραμέτρων μη εφοδιασμένου υλικού και εκκρεμών τιμολογίων προμηθευτών
 
@@ -61,11 +59,11 @@ Dynamics 365 Finance:
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Ενεργοποίηση ροής εργασιών για δημιουργία λογαριασμών με βάση την οντότητα του πωλητή
 
-Η λύση Dual Write Orchestration παρέχει [Κύρια ενοποίηση στους προμηθευτές](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Ως προϋπόθεση για αυτήν τη δυνατότητα, τα δεδομένα πωλητή πρέπει να δημιουργηθούν στην οντότητα **Λογαριασμοί**. Ενεργοποίηση μιας διεργασίας ροής εργασιών προτύπου για τη δημιουργία προμηθευτών στον πίνακα **Λογαριασμοί** όπως περιγράφεται στην [Εναλλαγή μεταξύ σχεδίων προμηθευτών](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Η λύση Dual Write Orchestration παρέχει [Κύρια ενοποίηση στους προμηθευτές](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Ως προϋπόθεση για αυτήν τη δυνατότητα, τα δεδομένα πωλητή πρέπει να δημιουργηθούν στην οντότητα **Λογαριασμοί**. Ενεργοποίηση μιας διεργασίας ροής εργασιών προτύπου για τη δημιουργία προμηθευτών στον πίνακα **Λογαριασμοί** όπως περιγράφεται στην [Εναλλαγή μεταξύ σχεδίων προμηθευτών](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Ορισμός προϊόντων για δημιουργία ως ενεργών
 
-Το μη διαθέσιμο σε απόθεμα υλικό πρέπει να ρυθμιστεί ως **Προϊόντα που έχουν κυκλοφορήσει** στο Finance. Η λύση Dual Write Orchestration παρέχει μια έτοιμη [ενοποίηση προϊόντων που έχουν κυκλοφορήσει στον κατάλογο προϊόντων Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). Από προεπιλογή, τα προϊόντα από τα Οικονομικά συγχρονίζονται στο Dataverse σε μορφή προσχεδίου. Για να συγχρονίσετε το προϊόν σε ενεργή κατάσταση ώστε να μπορεί να χρησιμοποιηθεί απευθείας σε έγγραφα χρήσης υλικού ή σε εκκρεμή τιμολόγια προμηθευτών, μεταβείτε στο **σύστημα** > **διαχείριση** > **διαχείριση συστήματος** > **ρυθμίσεις συστήματος** και στην καρτέλα **πωλήσεις**, ορίστε το **Δημιουργία προϊόντων σε ενεργή κατάσταση** σε **Ναι**.
+Το μη διαθέσιμο σε απόθεμα υλικό πρέπει να ρυθμιστεί ως **Προϊόντα που έχουν κυκλοφορήσει** στο Finance. Η λύση Dual Write Orchestration παρέχει μια έτοιμη [ενοποίηση προϊόντων που έχουν κυκλοφορήσει στον κατάλογο προϊόντων Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). Από προεπιλογή, τα προϊόντα από τα Οικονομικά συγχρονίζονται στο Dataverse σε μορφή προσχεδίου. Για να συγχρονίσετε το προϊόν σε ενεργή κατάσταση ώστε να μπορεί να χρησιμοποιηθεί απευθείας σε έγγραφα χρήσης υλικού ή σε εκκρεμή τιμολόγια προμηθευτών, μεταβείτε στο **σύστημα** > **διαχείριση** > **διαχείριση συστήματος** > **ρυθμίσεις συστήματος** και στην καρτέλα **πωλήσεις**, ορίστε το **Δημιουργία προϊόντων σε ενεργή κατάσταση** σε **Ναι**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Ρύθμιση παραμέτρων προϋποθέσεων στο Οικονομικό
 

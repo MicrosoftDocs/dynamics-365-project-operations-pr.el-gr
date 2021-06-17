@@ -2,18 +2,16 @@
 title: Εφαρμογή ρύθμισης επίδειξης και δεδομένων ρύθμισης παραμέτρων - lite
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο εφαρμογής της ρύθμισης επίδειξης και των δεδομένων ρύθμισης παραμέτρων για το Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 694dbc74591de74895095a9da6e590069711fc83
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290134"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997151"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Εφαρμογή δεδομένων ρύθμισης παραμέτρων και ρύθμισης επίδειξης για το Project Operations - lite 
 
@@ -28,8 +26,8 @@ _**Ελαφριά ανάπτυξη - συμφωνία για προτιμολό�
 
 ## <a name="instructions"></a>Οδηγίες
 
-1. Πραγματοποιήστε λήψη του [πακέτου κύριων δεδομένων](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Μεταβείτε στον φάκελο *ProjOpsDemoDataSetupAndMaster-ενσωματωμένο CMT* και εκτελέστε το εκτελέσιμο αρχείο *DataMigrationUtility*.
+1. Πραγματοποιήστε λήψη του [πακέτου κύριων δεδομένων](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+2. Μεταβείτε στον φάκελο *ProjOpsSampleSetupData - CE μόνο CMT* και εκτελέστε το εκτελέσιμο αρχείο, *DataMigrationUtility*.
 3. Στη σελίδα 1 του Οδηγού ρύθμισης παραμέτρων του Common Data Service, επιλέξτε **Εισαγωγή δεδομένων** και, στη συνέχεια, επιλέξτε **Συνέχεια**.
 
     ![Μετεγκατάσταση ρύθμισης παραμέτρων](./media/1ConfigurationMigration.png)
@@ -41,7 +39,7 @@ _**Ελαφριά ανάπτυξη - συμφωνία για προτιμολό�
    ![Σύνδεση για ρύθμιση παραμέτρων](./media/2ConfigurationSignin.png)
 
 7. Στη σελίδα 3, από τη λίστα των οργανισμών του μισθωτή, επιλέξτε τον οργανισμό στον οποίο θέλετε να εισαγάγετε τα δεδομένα επίδειξης και, στη συνέχεια, επιλέξτε **Σύνδεση**.
-8. Στη σελίδα 4, επιλέξτε το συμπιεσμένο αρχείο *MasterAndSetupData* από τον μη συμπιεσμένο φάκελο *ProjOpsDemoDataSetupAndMaster - Ενσωματωμένο CMT*.
+8. Στη σελίδα 4, επιλέξτε το αρχείο zip, *SampleSetupAndConfigData* από τον μη συμπιεσμένο φάκελο, *ProjOpsSampleSetupData - CE μόνο CMT*.
 
    ![Αρχείο zip](./media/3ZipFile.png)
 
@@ -52,7 +50,7 @@ _**Ελαφριά ανάπτυξη - συμφωνία για προτιμολό�
    ![Εισαγωγή δεδομένων](./media/5ImportData.png)
 
 10. Η εισαγωγή θα διαρκέσει περίπου δύο-δέκα λεπτά, ανάλογα με την ταχύτητα του δικτύου σας. Αφού ολοκληρωθεί, τερματίστε τον οδηγό CMT. 
-11. Ελέγξτε τον οργανισμό σας για δεδομένα στις ακόλουθες 20 οντότητες:
+11. Ελέγξτε τον οργανισμό σας για δεδομένα στις ακόλουθες 18 οντότητες:
 
     -   Νομισματική μονάδα
     -   Λογαριασμ.

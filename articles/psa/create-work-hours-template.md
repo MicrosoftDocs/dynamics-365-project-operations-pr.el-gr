@@ -2,8 +2,6 @@
 title: Δημιουργία προτύπου ωρών εργασίας
 description: Αυτό το θέμα περιγράφει πώς γίνεται η δημιουργία ενός προτύπου ωρών εργασίας στο Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 105e3cb2ef7b904e96dc21013906e0b7444e3b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981255"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997196"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Δημιουργήστε ένα πρότυπο ωρών εργασίας (Project Service)
 
@@ -51,7 +49,7 @@ ms.locfileid: "5981255"
 
 1. Μεταβείτε στα στοιχεία **Πόροι** \> **Πόροι**.
 2. Δημιουργήστε έναν νέο πόρο για αναφορά στο πρότυπο ημερολογίου ή επιλέξτε έναν υπάρχοντα πόρο.
-3. Επιλέξτε την καρτέλα **Ώρες εργασίας** του πόρου και ολοκληρώστε τις οδηγίες στο στοιχείο [Ορισμός ωρών εργασίας για έναν πόρο](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) για τη ρύθμιση των κανόνων ημερολογίου.
+3. Επιλέξτε την καρτέλα **Ώρες εργασίας** του πόρου και ολοκληρώστε τις οδηγίες στο στοιχείο [Ορισμός ωρών εργασίας για έναν πόρο](/dynamics365/field-service/set-work-hours-resource.md) για τη ρύθμιση των κανόνων ημερολογίου.
 
 **Δημιουργήστε ένα νέο πρότυπο ημερολογίου**
 

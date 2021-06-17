@@ -2,18 +2,16 @@
 title: Ανάπτυξη Project Operations - lite
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο εγκατάστασης της ελαφριάς ανάπτυξη του Project Operations - συμφωνία για προτιμολόγηση.
 author: stsporen
-manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: cb1f1ad86e19d84d68a40b32b2fdb08dc4777a78
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950264"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995531"
 ---
 # <a name="deploy-project-operations---lite"></a>Ανάπτυξη Project Operations - lite
 

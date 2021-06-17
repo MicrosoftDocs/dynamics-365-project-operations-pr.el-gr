@@ -2,18 +2,16 @@
 title: Προσφορές - Βασικές έννοιες - lite
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη χρήση προσφορών έργου στο Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97488f8be003099210ed58dd5b609c8416474cd
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: bd225bfea6e04839b57dfcc9436315fe1cd6a204
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663954"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994272"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Έννοιες μοναδικές για προσφορές έργου
 

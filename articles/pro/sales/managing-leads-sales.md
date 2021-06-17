@@ -2,18 +2,16 @@
 title: Διαχείριση υποψήφιων πελατών - lite
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη διαχείριση υποψήφιων πελατών βάσει έργου (pro).
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e51920e3a95e89fe923d59ecd2498ba243f895f
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 67480459478ffb8a157a2943af919dc63721b779
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949724"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994721"
 ---
 # <a name="manage-leads---lite"></a>Διαχείριση υποψήφιων πελατών - lite
 

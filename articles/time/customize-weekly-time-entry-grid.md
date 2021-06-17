@@ -2,18 +2,16 @@
 title: Επέκταση χρονικών καταχωρήσεων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο με τον οποίο οι προγραμματιστές έχουν τη δυνατότητα επέκτασης του στοιχείου ελέγχου καταχώρησης ώρας.
 author: stsporen
-manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 02ed62c9ea27429b4b1d95d67d1607a090ab1dd2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277158"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995981"
 ---
 # <a name="extending-time-entries"></a>Επέκταση χρονικών καταχωρήσεων
 
