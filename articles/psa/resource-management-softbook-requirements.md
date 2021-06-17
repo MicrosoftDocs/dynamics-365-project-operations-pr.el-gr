@@ -2,8 +2,6 @@
 title: Απαιτήσεις προκαταρκτικής κράτησης
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο εκπλήρωσης των απαιτήσεων προκαταρκτικής κράτησης.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,49 +16,49 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 736d59976ad0f456a694cedbb28b516c90632fe6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bc58c805bfe1a3087600b8d4a6be2d1bcdd18188
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282918"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997916"
 ---
-# <a name="soft-book-requirements"></a><span data-ttu-id="90fcd-103">Απαιτήσεις προκαταρκτικής κράτησης</span><span class="sxs-lookup"><span data-stu-id="90fcd-103">Soft-book requirements</span></span>
+# <a name="soft-book-requirements"></a><span data-ttu-id="b862f-103">Απαιτήσεις προκαταρκτικής κράτησης</span><span class="sxs-lookup"><span data-stu-id="b862f-103">Soft-book requirements</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="90fcd-104">Είναι δυνατή η οριστική κράτηση μιας απαίτησης πόρου.</span><span class="sxs-lookup"><span data-stu-id="90fcd-104">A resource requirement can be hard-booked.</span></span> <span data-ttu-id="90fcd-105">Μια οριστική κράτηση δημιουργεί μια πρόταση που καταναλώνει την παραγωγική ικανότητα του πόρου.</span><span class="sxs-lookup"><span data-stu-id="90fcd-105">A hard booking creates a proposal that consumes a resource's capacity.</span></span> <span data-ttu-id="90fcd-106">Στη συνέχεια, η πρόταση αποστέλλεται εκ νέου στον αιτούντα για έγκριση.</span><span class="sxs-lookup"><span data-stu-id="90fcd-106">The proposal is then sent back to the requester for approval.</span></span> <span data-ttu-id="90fcd-107">Μια προκαταρκτική κράτηση προσθέτει έναν πόρο σε μια ομάδα έργου και έχει μια διαφορετική κατάσταση στον πίνακα χρονοδιαγράμματος, αλλά δεν καταναλώνει την παραγωγική ικανότητα του πόρου.</span><span class="sxs-lookup"><span data-stu-id="90fcd-107">A soft booking tentatively adds a resource to a project team and has a different status on the Schedule Board, but it doesn't consume the resource's capacity.</span></span> <span data-ttu-id="90fcd-108">Για να κάνετε προκαταρκτική κράτηση σε έναν πόρο από τον πίνακα χρονοδιαγράμματος ορίστε το πεδίο **Κατάσταση κράτησης** σε **Προκαταρκτική**.</span><span class="sxs-lookup"><span data-stu-id="90fcd-108">To soft-book a resource from the Schedule Board, set the **Booking Status** field to **Soft**.</span></span>
+<span data-ttu-id="b862f-104">Είναι δυνατή η οριστική κράτηση μιας απαίτησης πόρου.</span><span class="sxs-lookup"><span data-stu-id="b862f-104">A resource requirement can be hard-booked.</span></span> <span data-ttu-id="b862f-105">Μια οριστική κράτηση δημιουργεί μια πρόταση που καταναλώνει την παραγωγική ικανότητα του πόρου.</span><span class="sxs-lookup"><span data-stu-id="b862f-105">A hard booking creates a proposal that consumes a resource's capacity.</span></span> <span data-ttu-id="b862f-106">Στη συνέχεια, η πρόταση αποστέλλεται εκ νέου στον αιτούντα για έγκριση.</span><span class="sxs-lookup"><span data-stu-id="b862f-106">The proposal is then sent back to the requester for approval.</span></span> <span data-ttu-id="b862f-107">Μια προκαταρκτική κράτηση προσθέτει έναν πόρο σε μια ομάδα έργου και έχει μια διαφορετική κατάσταση στον πίνακα χρονοδιαγράμματος, αλλά δεν καταναλώνει την παραγωγική ικανότητα του πόρου.</span><span class="sxs-lookup"><span data-stu-id="b862f-107">A soft booking tentatively adds a resource to a project team and has a different status on the Schedule Board, but it doesn't consume the resource's capacity.</span></span> <span data-ttu-id="b862f-108">Για να κάνετε προκαταρκτική κράτηση σε έναν πόρο από τον πίνακα χρονοδιαγράμματος ορίστε το πεδίο **Κατάσταση κράτησης** σε **Προκαταρκτική**.</span><span class="sxs-lookup"><span data-stu-id="b862f-108">To soft-book a resource from the Schedule Board, set the **Booking Status** field to **Soft**.</span></span>
 
 ![Η κατάσταση κράτησης έχει οριστεί σε προκαταρκτική](media/Resource-Management-image77.png)
 
-<span data-ttu-id="90fcd-110">Όταν η καρτέλα **Ομάδα** βρίσκεται στην προβολή **Καθορισμένα μέλη ομάδας**, ο πόρος εμφανίζεται εκεί.</span><span class="sxs-lookup"><span data-stu-id="90fcd-110">When the **Team** tab is in the **Named Team Members** view, the resource appears there.</span></span> <span data-ttu-id="90fcd-111">Οι ώρες προκαταρκτικής κράτησης αναφέρονται στη στήλη **Ώρες προκαταρκτικής κράτησης**.</span><span class="sxs-lookup"><span data-stu-id="90fcd-111">The soft-booked hours are reported in the **Soft Booked Hours** column.</span></span>
+<span data-ttu-id="b862f-110">Όταν η καρτέλα **Ομάδα** βρίσκεται στην προβολή **Καθορισμένα μέλη ομάδας**, ο πόρος εμφανίζεται εκεί.</span><span class="sxs-lookup"><span data-stu-id="b862f-110">When the **Team** tab is in the **Named Team Members** view, the resource appears there.</span></span> <span data-ttu-id="b862f-111">Οι ώρες προκαταρκτικής κράτησης αναφέρονται στη στήλη **Ώρες προκαταρκτικής κράτησης**.</span><span class="sxs-lookup"><span data-stu-id="b862f-111">The soft-booked hours are reported in the **Soft Booked Hours** column.</span></span>
 
 ![Ώρες προκαταρκτικής κράτησης στην προβολή καθορισμένων μελών ομάδας](media/Resource-Management-image78.png)
 
-<span data-ttu-id="90fcd-113">Τα μέλη της ομάδας για τα οποία έχει γίνει προκαταρκτική κράτηση δεν αντιστοιχίζονται σε εργασίες.</span><span class="sxs-lookup"><span data-stu-id="90fcd-113">Soft-booked team members can be assigned to tasks.</span></span>
+<span data-ttu-id="b862f-113">Τα μέλη της ομάδας για τα οποία έχει γίνει προκαταρκτική κράτηση δεν αντιστοιχίζονται σε εργασίες.</span><span class="sxs-lookup"><span data-stu-id="b862f-113">Soft-booked team members can be assigned to tasks.</span></span>
 
 ![Τα μέλη της ομάδας για τα οποία έχει γίνει προκαταρκτική κράτηση δεν αντιστοιχίζονται σε εργασία](media/Resource-Management-image79.png)
 
-<span data-ttu-id="90fcd-115">Στην καρτέλα **Εναρμόνιση**, δεν εμφανίζονται κρατήσεις για έναν πόρο με προκαταρκτική κράτηση επειδή η καρτέλα **Εναρμόνιση** λαμβάνει υπόψη μόνο τις οριστικές κρατήσεις.</span><span class="sxs-lookup"><span data-stu-id="90fcd-115">On the **Reconciliation** tab, no bookings are shown for a soft-book resource, because the **Reconciliation** tab considers only hard-bookings.</span></span>
+<span data-ttu-id="b862f-115">Στην καρτέλα **Εναρμόνιση**, δεν εμφανίζονται κρατήσεις για έναν πόρο με προκαταρκτική κράτηση επειδή η καρτέλα **Εναρμόνιση** λαμβάνει υπόψη μόνο τις οριστικές κρατήσεις.</span><span class="sxs-lookup"><span data-stu-id="b862f-115">On the **Reconciliation** tab, no bookings are shown for a soft-book resource, because the **Reconciliation** tab considers only hard-bookings.</span></span>
 
 ![Πόρος με προκαταρκτική κράτηση χωρίς κράτηση στην καρτέλα "εναρμόνιση"](media/Resource-Management-image80.png)
 
 > [!NOTE]
-> <span data-ttu-id="90fcd-117">Δεν μπορείτε να κάνετε προκαταρκτική κράτηση σε έναν πόρο από μια απαίτηση η οποία δημιουργήθηκε από ένα γενικό μέλος της ομάδας.</span><span class="sxs-lookup"><span data-stu-id="90fcd-117">You can't soft-book a resource from a requirement that was generated from a generic team member.</span></span>
+> <span data-ttu-id="b862f-117">Δεν μπορείτε να κάνετε προκαταρκτική κράτηση σε έναν πόρο από μια απαίτηση η οποία δημιουργήθηκε από ένα γενικό μέλος της ομάδας.</span><span class="sxs-lookup"><span data-stu-id="b862f-117">You can't soft-book a resource from a requirement that was generated from a generic team member.</span></span>
 
-<span data-ttu-id="90fcd-118">Στον πίνακα χρονοδιαγράμματος, χρησιμοποιείται ένα άλλο χρώμα για προκαταρκτικές κρατήσεις για έναν πόρο.</span><span class="sxs-lookup"><span data-stu-id="90fcd-118">On the Schedule Board, a different coloring is used for soft bookings for a resource.</span></span>
+<span data-ttu-id="b862f-118">Στον πίνακα χρονοδιαγράμματος, χρησιμοποιείται ένα άλλο χρώμα για προκαταρκτικές κρατήσεις για έναν πόρο.</span><span class="sxs-lookup"><span data-stu-id="b862f-118">On the Schedule Board, a different coloring is used for soft bookings for a resource.</span></span>
 
 ![Προκαταρκτικές κρατήσεις στον πίνακα χρονοδιαγράμματος](media/Resource-Management-image81.png)
 
-<span data-ttu-id="90fcd-120">Για να μετατρέψετε μια προκαταρκτική κράτηση σε οριστική, στον πίνακα χρονοδιαγράμματος, κάντε δεξί κλικ στην προκαταρκτική κράτηση και, επιλέξτε **Αλλαγή κατάστασης** \> **Οριστική κράτηση** \> **Οριστική**.</span><span class="sxs-lookup"><span data-stu-id="90fcd-120">To convert a soft booking to a hard booking, on the Schedule Board, right-click the soft booking, and then select **Change Status** \> **Hard Book** \> **Hard**.</span></span>
+<span data-ttu-id="b862f-120">Για να μετατρέψετε μια προκαταρκτική κράτηση σε οριστική, στον πίνακα χρονοδιαγράμματος, κάντε δεξί κλικ στην προκαταρκτική κράτηση και, επιλέξτε **Αλλαγή κατάστασης** \> **Οριστική κράτηση** \> **Οριστική**.</span><span class="sxs-lookup"><span data-stu-id="b862f-120">To convert a soft booking to a hard booking, on the Schedule Board, right-click the soft booking, and then select **Change Status** \> **Hard Book** \> **Hard**.</span></span>
 
 ![Αλλαγή της κατάστασης κράτησης σε οριστική](media/Resource-Management-image82.png)
 
-<span data-ttu-id="90fcd-122">Η κράτηση αλλάζει και η κατάσταση αλλάζει στον πίνακα χρονοδιαγράμματος.</span><span class="sxs-lookup"><span data-stu-id="90fcd-122">The booking is changed, and the status is changed on the Schedule Board.</span></span> <span data-ttu-id="90fcd-123">Επειδή η κατάσταση της κράτησής είναι πλέον **Οριστική**, ο πόρος εμφανίζεται ως "κρατηθείς" και η χωρητικότητά του και η διαθεσιμότητά του προσαρμόζονται.</span><span class="sxs-lookup"><span data-stu-id="90fcd-123">Because the booking status is now **Hard**, the resource is shown as booked, and its capacity and availability are adjusted.</span></span>
+<span data-ttu-id="b862f-122">Η κράτηση αλλάζει και η κατάσταση αλλάζει στον πίνακα χρονοδιαγράμματος.</span><span class="sxs-lookup"><span data-stu-id="b862f-122">The booking is changed, and the status is changed on the Schedule Board.</span></span> <span data-ttu-id="b862f-123">Επειδή η κατάσταση της κράτησής είναι πλέον **Οριστική**, ο πόρος εμφανίζεται ως "κρατηθείς" και η χωρητικότητά του και η διαθεσιμότητά του προσαρμόζονται.</span><span class="sxs-lookup"><span data-stu-id="b862f-123">Because the booking status is now **Hard**, the resource is shown as booked, and its capacity and availability are adjusted.</span></span>
 
-<span data-ttu-id="90fcd-124">Μπορείτε να χρησιμοποιήσετε την ίδια μέθοδο για να ακυρώσετε μια προκαταρκτική κράτηση ή μια οριστική κράτηση από τον πίνακα χρονοδιαγράμματος.</span><span class="sxs-lookup"><span data-stu-id="90fcd-124">You can use the same method to cancel a hard booking or a soft booking from the Schedule Board.</span></span>
+<span data-ttu-id="b862f-124">Μπορείτε να χρησιμοποιήσετε την ίδια μέθοδο για να ακυρώσετε μια προκαταρκτική κράτηση ή μια οριστική κράτηση από τον πίνακα χρονοδιαγράμματος.</span><span class="sxs-lookup"><span data-stu-id="b862f-124">You can use the same method to cancel a hard booking or a soft booking from the Schedule Board.</span></span>
 
-<span data-ttu-id="90fcd-125">Για να μετατρέψετε έναν πόρο με προκαταρκτική κράτηση σε οριστική κράτηση στην καρτέλα **Ομάδα** του έργου, επιλέξτε τον πόρο και, στη συνέχεια, επιλέξτε **Επιβεβαίωση**.</span><span class="sxs-lookup"><span data-stu-id="90fcd-125">To convert a resource that is soft-booked to hard-booked on the project's **Team** tab, select the resource, and then select **Confirm**.</span></span>
+<span data-ttu-id="b862f-125">Για να μετατρέψετε έναν πόρο με προκαταρκτική κράτηση σε οριστική κράτηση στην καρτέλα **Ομάδα** του έργου, επιλέξτε τον πόρο και, στη συνέχεια, επιλέξτε **Επιβεβαίωση**.</span><span class="sxs-lookup"><span data-stu-id="b862f-125">To convert a resource that is soft-booked to hard-booked on the project's **Team** tab, select the resource, and then select **Confirm**.</span></span>
 
 ![Εντολή επιβεβαίωσης](media/Resource-Management-image83.png)
 
