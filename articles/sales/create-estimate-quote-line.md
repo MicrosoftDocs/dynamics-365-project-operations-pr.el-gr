@@ -2,11 +2,9 @@
 title: Δημιουργία εκτιμήσεων σε μια γραμμή προσφοράς
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο δημιουργίας μιας εκτίμησης σε μια γραμμή προσφοράς για ένα έργο.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f4010f7599b66c9ad9e49943c1c0d7d165493d60
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278463"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010291"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Δημιουργία εκτιμήσεων σε μια γραμμή προσφοράς
 

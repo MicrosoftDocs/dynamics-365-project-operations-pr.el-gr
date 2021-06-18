@@ -2,11 +2,9 @@
 title: Επιδόσεις χρονοδιαγράμματος πόρου έργου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο βελτίωσης των επιδόσεων του προγραμματισμού των πόρων για ένα μεγάλο αριθμό έργων.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 113023909f88cb4dd498190ef21b6955482b25dd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289009"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010021"
 ---
 # <a name="project-resource-scheduling-performance"></a>Επιδόσεις χρονοδιαγράμματος πόρου έργου
 

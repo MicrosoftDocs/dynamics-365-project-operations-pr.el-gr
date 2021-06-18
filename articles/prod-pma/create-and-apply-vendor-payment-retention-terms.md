@@ -2,11 +2,9 @@
 title: Δημιουργία και εφαρμογή όρων διατήρησης πληρωμής προμηθευτών
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ρύθμισης και διατήρησης των όρων διατήρησης για πληρωμές προμηθευτών.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 09bb30f55ee8e1f24634e9d8b7dea95bd3dbd24f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270948"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006326"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Δημιουργία και εφαρμογή όρων διατήρησης πληρωμής προμηθευτών
 

@@ -2,8 +2,6 @@
 title: Τι νέο υπάρχει ή άλλαξε στο Project Service Automation, έκδοση ενημέρωσης 22, V3
 description: Αυτό το θέμα παραθέτει τις δυνατότητες και επιδιορθώσεις που είναι διαθέσιμες στο Project Service Automation, έκδοση ενημέρωσης 22, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8863d321ad88d761d0fcbd82ca26562a69468f2f
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 5694aa27afe7618cfca6b27444393634a9686600
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949004"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006556"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Τι νέο υπάρχει στο Project Service Automation, έκδοση ενημέρωσης 22, V3
 

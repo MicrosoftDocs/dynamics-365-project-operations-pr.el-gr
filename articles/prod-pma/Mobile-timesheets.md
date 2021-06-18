@@ -2,11 +2,9 @@
 title: Φύλλα κατανομής χρόνου έργου σε μια κινητή συσκευή
 description: Τα φύλλα κατανομής χρόνου μου (βελτιστοποιημένα για κινητές συσκευές) επιτρέπουν στους εργαζομένους να δημιουργούν και να υποβάλλουν φύλλα κατανομής χρόνου έργου για να καταγράψουν τις ώρες τους για ένα συγκεκριμένο έργο σε μια κινητή συσκευή.
 author: abruer
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 8241e74e8d9fb5a748bedbd5e913adea0bafa450
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f079f0adc5123907723bb58d86592ff822141aac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271128"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005926"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Φύλλα κατανομής χρόνου έργου σε μια κινητή συσκευή
 

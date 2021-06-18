@@ -2,12 +2,10 @@
 title: Ρύθμιση προσαρμοσμένων πεδίων ως διαστάσεις τιμολόγησης
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη ρύθμιση προσαρμοσμένων διαστάσεων τιμολόγησης.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 81f926e0aa209dd83f9b850c2342bd35a4f236c3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282468"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008311"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Ρύθμιση προσαρμοσμένων πεδίων ως διαστάσεις τιμολόγησης 
 
@@ -74,8 +72,8 @@ ms.locfileid: "5282468"
 | Ρόλος        | Οργανωτική μονάδα    |Θέση εργασίας      |Τυπικός τίτλος      |Ώρες εργασίας πόρου      |  Αύξηση|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Επιτόπου            |                    |Υπερωρία                 |15     |
-|             | Contoso India|Τοπικά             |                    |Υπερωρία                 |10     |
-|             | Contoso US   |Τοπικά             |                    |Υπερωρία                 |20     |
+|             | Contoso India|Τοπικό             |                    |Υπερωρία                 |10     |
+|             | Contoso ΗΠΑ   |Τοπικό             |                    |Υπερωρία                 |20     |
 
 
 Εάν ένας πόρος από το Contoso India του οποίου τη βασική χρέωση είναι 100 USD εργάζεται στο χώρο και καταγράφει 8 ώρες κανονικού χρόνου και 2 ώρες υπερωριακής απασχόλησης στην καταχώριση ώρας, ο μηχανισμός τιμολόγησης Project Service θα χρησιμοποιήσει τη βασική ισοτιμία 100 για τις 8 ώρες για την εγγραφή 800 USD. Για τις 2 ώρες υπερωρίες, η αύξηση του 15% θα εφαρμοστεί στο βασικό συντελεστή 100, για να αποδοθεί μια τιμή μονάδας 115 USD και θα καταγραφεί ένα συνολικό κόστος 230 USD.
