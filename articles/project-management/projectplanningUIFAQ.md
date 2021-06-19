@@ -2,19 +2,17 @@
 title: Αντιμετώπιση προβλημάτων κατά την εργασία στο πλέγμα εργασιών
 description: Αυτό το θέμα παρέχει πληροφορίες αντιμετώπισης προβλημάτων που είναι απαραίτητες κατά την εργασία στο πλέγμα εργασιών.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286563"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213400"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Αντιμετώπιση προβλημάτων κατά την εργασία στο πλέγμα εργασιών 
 
@@ -57,7 +55,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
  ![Πεδίο τελικού σημείου PEX της παραμέτρου έργου](media/projectparameter.png)
 
 1. Προσθέστε το πεδίο **Τελικό σημείο PEX** στη σελίδα **Παράμετροι έργου**.
-2. Ενημερώστε το πεδίο με την ακόλουθη τιμή: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Ενημερώστε το πεδίο με την ακόλουθη τιμή: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Καταργήστε το πεδίο από τη σελίδα **Παράμετροι έργου**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Προνόμια για το Project for the web

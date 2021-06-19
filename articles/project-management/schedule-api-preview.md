@@ -2,18 +2,16 @@
 title: Χρήση API χρονοδιαγράμματος για την εκτέλεση λειτουργιών με οντότητες προγραμματισμού
 description: Αυτή θέμα παρέχει πληροφορίες και δείγματα για τη χρήση API χρονοδιαγράμματος.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950804"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116797"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Χρήση API χρονοδιαγράμματος για την εκτέλεση λειτουργιών με οντότητες προγραμματισμού
 
@@ -268,7 +266,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 - Κάθε χρήστης μπορεί να έχει μόνο μέγιστο αριθμό 10 ανοιχτών **OperationSets**.
 - Το Project Operations υποστηρίζει πλέον το πολύ έως 500 συνολικές εργασίες σε ένα έργο.
 - Η κατάσταση αποτυχίας και τα αρχεία καταγραφής αποτυχίας του **OperationSet** δεν είναι αυτή τη στιγμή διαθέσιμα.
-- Τα API προγραμματισμού είναι σε δημόσια προεπισκόπηση. Η χρήση αυτών των API σε περιβάλλον παραγωγής δεν υποστηρίζεται από τη Microsoft.
 - [Όρια και περιορισμοί για έργα και εργασίες](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Χειρισμός σφαλμάτων
