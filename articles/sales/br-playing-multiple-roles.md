@@ -2,18 +2,16 @@
 title: Υπολογίστε τις πωλήσεις και το κόστος του έργου όταν ένας πόρος με δυνατότητα κράτησης εκτελεί πολλαπλούς ρόλους σε ένα έργο
 description: Αυτό το θέμα εξηγεί τον τρόπο χρήσης των διαστάσεων τιμολόγησης για την υποστήριξη των εκτιμήσεων τιμολόγησης και κοστολόγησης για έναν πόρο που εκτελεί πολλαπλούς ρόλους σε ένα έργο.
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f01c9c6adfeedc11fcb04a7e8b8f5a55e5f8dc79
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7ef9765b7db1c6650fb0599bf5fb4b4b6304be69
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278823"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013666"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Υπολογίστε τις πωλήσεις και το κόστος του έργου όταν ένας πόρος με δυνατότητα κράτησης εκτελεί πολλαπλούς ρόλους σε ένα έργο 
 
