@@ -6,12 +6,12 @@ ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0cb62231eb3b387b610b7510023994dce66b1cc9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd62fb1d8e0b2d859cb7da8b99cb725af587ff2f
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995891"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304301"
 ---
 # <a name="time-entry-ui-behavior"></a>Συμπεριφορά περιβάλλοντος εργασίας χρήστη καταχώρησης χρόνου
 
@@ -23,9 +23,9 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 ## <a name="keyboard-shortcuts"></a>Συντομεύσεις πληκτρολογίου
 | Ενέργεια        | Συντόμευση                  |
 |------------   |------------------------   |
-| Δημιουργία           | Alt + Shift + n           |
+| Νέος           | Alt + Shift + n           |
 | Αντιγραφή σειράς      | Alt + Shift + c           |
-| Επεξεργασία καταχώρησης    | Alt + Shift + e           |
+| Χρονική καταχώρηση    | Alt + Shift + e           |
 | Επεξεργασία σειράς      | Alt + Shift + Ctrl + e    |
 | Άνοιγμα καταχώρησης    | Alt + Shift + o           |
 | Υποβολή        | Alt + Shift + s           |

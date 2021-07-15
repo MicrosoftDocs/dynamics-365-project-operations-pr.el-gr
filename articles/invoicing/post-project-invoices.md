@@ -6,12 +6,13 @@ ms.date: 01/29/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 13f16d42ffdc0a9a6f369c311dfd9e15ad3f7aff
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001516"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369016"
 ---
 # <a name="invoicing-process-overview"></a>Επισκόπηση επεξεργασίας τιμολογίων
 
@@ -25,7 +26,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 Ο διαχειριστής έργου μπορεί να εξετάζει μη χρεωμένες συναλλαγές πωλήσεων χρησιμοποιώντας τη μέθοδο χρέωσης χρόνου και υλικού στη [Λίστα εκκρεμοτήτων χρέωσης ώρας και υλικού](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) και χρέωση με προκαθορισμένη τιμή στα [Ορόσημα προκαθορισμένης τιμής](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Αυτές οι προβολές σάς επιτρέπουν να φιλτράρετε και να επιλέξετε συναλλαγές που πρέπει να συμπεριληφθούν στον επόμενο κύκλο χρέωσης και, στη συνέχεια, να τις επισημάνετε ως **Έτοιμο για τιμολόγηση**.
 
-Μπορείτε να [δημιουργήσετε με μη αυτόματο τρόπο ένα προτιμολόγιο](../proforma-invoicing/create-manual-proforma-invoice.md) ή να χρησιμοποιήσετε μια[περιοδική διαδικασία](../proforma-invoicing/configure-automated-invoice-creation.md). Ο διαχειριστής έργου μπορεί να [προσαρμόσει ένα προσχέδιο προτιμολογίου](../proforma-invoicing/manage-proforma-invoice.md) ανάλογα με τις ανάγκες και, στη συνέχεια, να το επιβεβαιώσει.
+Μπορείτε να [δημιουργήσετε με μη αυτόματο τρόπο ένα προτιμολόγιο](../proforma-invoicing/create-manual-proforma-invoice.md) ή να χρησιμοποιήσετε μια [περιοδική διαδικασία](../proforma-invoicing/configure-automated-invoice-creation.md). Ο διαχειριστής έργου μπορεί να [προσαρμόσει ένα προσχέδιο προτιμολογίου](../proforma-invoicing/manage-proforma-invoice.md) ανάλογα με τις ανάγκες και, στη συνέχεια, να το επιβεβαιώσει.
 
 Το επιβεβαιωμένο προτιμολόγιο αποστέλλεται στη λειτουργική μονάδα **Διαχείριση έργου και λογιστικής** στο Finance. Ο λογιστής έργου μορφοποιεί και ενημερώνει την πρόταση τιμολογίου έργου και, στη συνέχεια, καταχωρεί και εκτυπώνει το έγγραφο. Τα καταχωρημένα τιμολόγια έργου καταγράφονται στο γενικό καθολικό, καθώς και στους δευτερεύοντα καθολικά πελάτη και έργου.
 
