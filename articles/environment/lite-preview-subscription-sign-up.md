@@ -2,93 +2,70 @@
 title: Εγγραφή για μια συνδρομή προεπισκόπησης - lite
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο εγγραφής και την ελαφριά ανάπτυξη του Project Operations - συμφωνία για προτιμολόγηση.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997421"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334782"
 ---
-# <a name="sign-up-for-a-preview-subscription---lite"></a><span data-ttu-id="36096-103">Εγγραφή για μια συνδρομή προεπισκόπησης - lite</span><span class="sxs-lookup"><span data-stu-id="36096-103">Sign up for a preview subscription - lite</span></span> 
+# <a name="sign-up-for-a-preview-subscription---lite"></a><span data-ttu-id="a61f4-103">Εγγραφή για μια συνδρομή έκδοσης προεπισκόπησης - ελαφριά</span><span class="sxs-lookup"><span data-stu-id="a61f4-103">Sign up for a preview subscription - lite</span></span> 
 
-<span data-ttu-id="36096-104">Αυτό θέμα εξηγεί τον τρόπο εγγραφής στην προσφορά συνεργάτη προεπισκόπησης και ανάπτυξης του ελαφριού Dynamics 365 Project Operations - συμφωνία για την προτιμολόγηση.</span><span class="sxs-lookup"><span data-stu-id="36096-104">This topic explains how to subscribe to the preview partner offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
+<span data-ttu-id="a61f4-104">Αυτό θέμα εξηγεί τον τρόπο εγγραφής στη δοκιμαστική προσφορά και ανάπτυξης του Dynamics 365 Project Operations για ελαφρά ανάπτυξη - συμφωνία για προτιμολόγηση.</span><span class="sxs-lookup"><span data-stu-id="a61f4-104">This topic explains how to subscribe to the trial offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="36096-105">Αυτή η διαδικασία θα αλλάξει στις επερχόμενες εκδόσεις του Project Operations.</span><span class="sxs-lookup"><span data-stu-id="36096-105">This process will change in upcoming releases of Project Operations.</span></span>
+> <span data-ttu-id="a61f4-105">Αυτή η διαδικασία θα αλλάξει στις επερχόμενες εκδόσεις του Project Operations.</span><span class="sxs-lookup"><span data-stu-id="a61f4-105">This process will change in upcoming releases of Project Operations.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="36096-106">Προαπαιτούμενα στοιχεία</span><span class="sxs-lookup"><span data-stu-id="36096-106">Prerequisites</span></span>
-
-- <span data-ttu-id="36096-107">Θα λάβετε ένα μήνυμα ηλεκτρονικού ταχυδρομείου που θα σας προσκαλεί να συμμετάσχετε στην προεπισκόπηση.</span><span class="sxs-lookup"><span data-stu-id="36096-107">You'll receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="36096-108">Μπορείτε να ζητήσετε μια προεπισκόπηση στην [τοποθεσία Web του Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span><span class="sxs-lookup"><span data-stu-id="36096-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
-- <span data-ttu-id="36096-109">Ο χρήστης που αναπτύσσει την προεπισκόπηση πρέπει να έχει δικαιώματα καθολικού διαχειριστή μισθωτή Azure.</span><span class="sxs-lookup"><span data-stu-id="36096-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
-- <span data-ttu-id="36096-110">Εξετάστε όλους τους όρους και τις προϋποθέσεις.</span><span class="sxs-lookup"><span data-stu-id="36096-110">Review all terms and conditions.</span></span>
-
-## <a name="subscribe"></a><span data-ttu-id="36096-111">Συνδρομή</span><span class="sxs-lookup"><span data-stu-id="36096-111">Subscribe</span></span>
-
-<span data-ttu-id="36096-112">Όταν λάβετε μια έγκριση [αιτήματος προεπισκόπησης](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), θα λάβετε δύο προσφορές από τη Microsoft μέσω ηλεκτρονικού ταχυδρομείου.</span><span class="sxs-lookup"><span data-stu-id="36096-112">When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you'll receive two offers from Microsoft by email.</span></span> <span data-ttu-id="36096-113">Αυτές οι προσφορές σάς δίνουν τη δυνατότητα να αναπτύξετε την προεπισκόπηση του Project Operations:</span><span class="sxs-lookup"><span data-stu-id="36096-113">These offers allow you to deploy the Project Operations Preview:</span></span>
-
-- <span data-ttu-id="36096-114">Dynamics 365 Project Operations (CRM) - Δοκιμή έκδοσης προεπισκόπησης</span><span class="sxs-lookup"><span data-stu-id="36096-114">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
-- <span data-ttu-id="36096-115">Office 365 Project Operations - Προεπισκόπηση δοκιμαστικής έκδοσης</span><span class="sxs-lookup"><span data-stu-id="36096-115">Office 365 Project Operations - Preview Trial</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="a61f4-106">Προϋποθέσεις</span><span class="sxs-lookup"><span data-stu-id="a61f4-106">Prerequisites</span></span>
+- <span data-ttu-id="a61f4-107">Ο χρήστης που αναπτύσσει την προεπισκόπηση πρέπει να έχει δικαιώματα καθολικού διαχειριστή μισθωτή Azure.</span><span class="sxs-lookup"><span data-stu-id="a61f4-107">The user who deploys the preview must have Azure tenant global administrator rights.</span></span> <span data-ttu-id="a61f4-108">Μπορείτε να δημιουργήσετε έναν μισθωτή κατά τη διάρκεια της εξαργύρωσης της πρώτης προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="a61f4-108">You can create a tenant during the first offer redemption.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="36096-116">Μόνο ένα άτομο, ο διαχειριστής μισθωτή, σε έναν οργανισμό πρέπει να εκτελέσει αυτήν την εργασία.</span><span class="sxs-lookup"><span data-stu-id="36096-116">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="36096-117">Εάν δεν είστε ο συνδρομητής σε αυτήν την έκδοση, περιμένετε έως ότου ολοκληρωθεί η εγγραφή του οργανισμού σας και λάβετε τα διαπιστευτήρια χρήστη σας.</span><span class="sxs-lookup"><span data-stu-id="36096-117">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> <span data-ttu-id="a61f4-109">Μόνο ένα άτομο, ο διαχειριστής μισθωτή, σε έναν οργανισμό πρέπει να εκτελέσει αυτήν την εργασία.</span><span class="sxs-lookup"><span data-stu-id="a61f4-109">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="a61f4-110">Εάν δεν είστε ο συνδρομητής σε αυτήν την έκδοση, περιμένετε έως ότου ολοκληρωθεί η εγγραφή του οργανισμού σας και λάβετε τα διαπιστευτήρια χρήστη σας.</span><span class="sxs-lookup"><span data-stu-id="a61f4-110">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> 
+> <span data-ttu-id="a61f4-111">Οι δοκιμαστικές εκδόσεις είναι μίας χρήσης στον μισθωτή.</span><span class="sxs-lookup"><span data-stu-id="a61f4-111">Trials are single use in the tenant.</span></span> <span data-ttu-id="a61f4-112">Μπορείτε να εκτελέσετε μια δοκιμαστική έκδοση μόνο μία φορά.</span><span class="sxs-lookup"><span data-stu-id="a61f4-112">You can only run a trial one time.</span></span> <span data-ttu-id="a61f4-113">Συνιστούμε να δημιουργήσετε ένα νέο μισθωτή για τον σκοπό της δοκιμαστικής έκδοσης.</span><span class="sxs-lookup"><span data-stu-id="a61f4-113">We recommend that you create a new tenant for the purpose of the trial.</span></span>
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="36096-118">Dynamics 365 Project Operations (CRM) - Δοκιμή έκδοσης προεπισκόπησης</span><span class="sxs-lookup"><span data-stu-id="36096-118">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
+### <a name="dynamics-365-project-operations-trial"></a><span data-ttu-id="a61f4-114">Δοκιμαστική έκδοση Dynamics 365 Project Operations</span><span class="sxs-lookup"><span data-stu-id="a61f4-114">Dynamics 365 Project Operations trial</span></span> 
 
-<span data-ttu-id="36096-119">Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε συνδεθεί σε ένα πρόγραμμα περιήγησης με το λογαριασμό εργασίας χρήστη του μισθωτή όπου θέλετε να γίνει προεπισκόπηση του Project Operations.</span><span class="sxs-lookup"><span data-stu-id="36096-119">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
+<span data-ttu-id="a61f4-115">Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε συνδεθεί σε ένα πρόγραμμα περιήγησης με το λογαριασμό εργασίας χρήστη του μισθωτή όπου θέλετε να γίνει προεπισκόπηση του Project Operations.</span><span class="sxs-lookup"><span data-stu-id="a61f4-115">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
 
-1. <span data-ttu-id="36096-120">Εξαργυρώστε τον κωδικό πρώτης προσφοράς, **Dynamics 365 Project Operations (CRM) - Δοκιμή έκδοσης προεπισκόπησης** επικολλώντας τον στη διεύθυνση URL του προγράμματος περιήγησης.</span><span class="sxs-lookup"><span data-stu-id="36096-120">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
+1. <span data-ttu-id="a61f4-116">Μεταβείτε στη [Δοκιμή Project Operations](https://aka.ms/try-po) για να εξαργυρώσετε τον κωδικό πρώτης προσφοράς, **Dynamics 365 Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="a61f4-116">Go to [Project Operations Trial](https://aka.ms/try-po) to redeem the first offer code, **Dynamics 365 Project Operations**.</span></span>
+2. <span data-ttu-id="a61f4-117">Επιβεβαιώστε την παραγγελία σας.</span><span class="sxs-lookup"><span data-stu-id="a61f4-117">Confirm your order.</span></span>
 
-![Εξαργύρωση προσφοράς](./media/16RedeemFirstOfferNew.png)
+  <span data-ttu-id="a61f4-118">Θα δείτε ότι η προσφορά επιβεβαίωσης εξαργυρώθηκε με επιτυχία.</span><span class="sxs-lookup"><span data-stu-id="a61f4-118">You'll see the confirmation offer was successfully redeemed.</span></span>
 
-2. <span data-ttu-id="36096-122">Επιβεβαιώστε την παραγγελία σας.</span><span class="sxs-lookup"><span data-stu-id="36096-122">Confirm your order.</span></span>
-<span data-ttu-id="36096-123">![Επιβεβαιώστε την παραγγελία](./media/17ConfirmOrderNew.png)</span><span class="sxs-lookup"><span data-stu-id="36096-123">![Confirm the order](./media/17ConfirmOrderNew.png)</span></span>
-
-<span data-ttu-id="36096-124">Θα δείτε ότι η προσφορά επιβεβαίωσης έχει εξαργυρωθεί με επιτυχία.</span><span class="sxs-lookup"><span data-stu-id="36096-124">You'll see confirmation offer was successfully redeemed.</span></span>
-
-![Επιβεβαίωση](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="36096-126">Office 365 Project Operations - Προεπισκόπηση δοκιμαστικής έκδοσης</span><span class="sxs-lookup"><span data-stu-id="36096-126">Office 365 Project Operations - Preview Trial</span></span>
-
-<span data-ttu-id="36096-127">Επαναλάβετε τα ίδια βήματα όπως και με τον κωδικό πρώτης προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="36096-127">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="36096-128">Βεβαιωθείτε ότι έχετε προσθέσει τον κωδικό δεύτερης προσφοράς χρησιμοποιώντας τον ίδιο λογαριασμό χρήστη που χρησιμοποιήθηκε με τον κωδικό πρώτης προσφοράς.</span><span class="sxs-lookup"><span data-stu-id="36096-128">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
-
-## <a name="assign-licenses"></a><span data-ttu-id="36096-129">Εκχώρηση αδειών χρήσης</span><span class="sxs-lookup"><span data-stu-id="36096-129">Assign licenses</span></span>
+## <a name="assign-licenses"></a><span data-ttu-id="a61f4-119">Εκχώρηση αδειών χρήσης</span><span class="sxs-lookup"><span data-stu-id="a61f4-119">Assign licenses</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="36096-130">Θα χρειαστείτε πρόσβαση διαχειριστή στην πύλη του οργανισμού σας Microsoft 365 για να ολοκληρώσετε τα παρακάτω βήματα.</span><span class="sxs-lookup"><span data-stu-id="36096-130">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
+> <span data-ttu-id="a61f4-120">Θα χρειαστείτε πρόσβαση διαχειριστή στην πύλη του οργανισμού σας Microsoft 365 για να ολοκληρώσετε τα παρακάτω βήματα.</span><span class="sxs-lookup"><span data-stu-id="a61f4-120">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
 
 
-1. <span data-ttu-id="36096-131">Μεταβείτε στο [Κέντρο διαχείρισης της Microsoft 365](https://portal.office.com/) για να αναθέσετε τις άδειες χρήσης στους χρήστες σας.</span><span class="sxs-lookup"><span data-stu-id="36096-131">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+1. <span data-ttu-id="a61f4-121">Μεταβείτε στο [Κέντρο διαχείρισης της Microsoft 365](https://portal.office.com/) για να αναθέσετε τις άδειες χρήσης στους χρήστες σας.</span><span class="sxs-lookup"><span data-stu-id="a61f4-121">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+2. <span data-ttu-id="a61f4-122">Στη σελίδα **Ενεργοί χρήστες**, επιλέξτε τους χρήστες στους οποίους θέλετε να αναθέσετε μια άδεια χρήσης.</span><span class="sxs-lookup"><span data-stu-id="a61f4-122">On the **Active users** page, select the users that you want to assign a license to.</span></span>
+3. <span data-ttu-id="a61f4-123">Επαληθεύστε ότι έχει επιλεγεί η άδεια χρήσης **Dynamics 365 Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="a61f4-123">Verify that the **Dynamics 365 Project Operations** license is selected.</span></span> 
+4. <span data-ttu-id="a61f4-124">Επιλέξτε **Αποθήκευση αλλαγών**.</span><span class="sxs-lookup"><span data-stu-id="a61f4-124">Select **Save changes**.</span></span>
 
-![Αρχική σελίδα του κέντρου διαχείρισης](./media/14AdminPortal.png)
+## <a name="create-a-new-dataverse-environment"></a><span data-ttu-id="a61f4-125">Δημιουργία νέου περιβάλλοντος Dataverse</span><span class="sxs-lookup"><span data-stu-id="a61f4-125">Create a new Dataverse environment</span></span>
 
-2. <span data-ttu-id="36096-133">Στη σελίδα **Ενεργοί χρήστες**, επιλέξτε τους χρήστες στους οποίους θέλετε να αναθέσετε μια άδεια χρήσης.</span><span class="sxs-lookup"><span data-stu-id="36096-133">On the **Active users** page, select the users that you want to assign a license to.</span></span>
+1. <span data-ttu-id="a61f4-126">Δώστε ένα νέο περιβάλλον ανάπτυξης Project Operations Dataverse ακολουθώντας τις οδηγίες στο θέμα, [Μοντέλο ανάπτυξης Dataverse](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="a61f4-126">Provision a new Project Operations Dataverse deployment environment by following instructions in the topic, [Dataverse deployment model](lite-deployment.md).</span></span> <span data-ttu-id="a61f4-127">Όταν επιλέγετε τον τύπο περιβάλλοντος, βεβαιωθείτε ότι χρησιμοποιείτε τη **Δοκιμαστική έκδοση (βάσει συνδρομής)**.</span><span class="sxs-lookup"><span data-stu-id="a61f4-127">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
 
-![Εκχώρηση αδειών χρήσης](./media/15AssignLicenses.png)
+  ![Νέο περιβάλλον](./media/19CreateEnvironment.png)
 
-3. <span data-ttu-id="36096-135">Επαληθεύστε ότι έχουν επιλεγεί άδειες χρήσης του **Dynamics 365 Project Operations (CRM) Έκδοση προεπισκόπησης** και **Office 365 Project Operations - Έκδοση προεπισκόπησης**.</span><span class="sxs-lookup"><span data-stu-id="36096-135">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected.</span></span> 
-4. <span data-ttu-id="36096-136">Επιλέξτε **Αποθήκευση αλλαγών**.</span><span class="sxs-lookup"><span data-stu-id="36096-136">Select **Save changes**.</span></span>
+2. <span data-ttu-id="a61f4-129">Επιλέξτε τη ρύθμιση **Ενεργοποίηση εφαρμογών Dynamics 365** και αφήστε την **Αυτόματη ανάπτυξη αυτών των εφαρμογών** κενή.</span><span class="sxs-lookup"><span data-stu-id="a61f4-129">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
+3. <span data-ttu-id="a61f4-130">Επιλέξτε **Αποθήκευση** για τη δημιουργία του περιβάλλοντος.</span><span class="sxs-lookup"><span data-stu-id="a61f4-130">Select **Save** to create the environment.</span></span>
 
-## <a name="create-a-new-cds-environment"></a><span data-ttu-id="36096-137">Δημιουργία νέου περιβάλλοντος CDS</span><span class="sxs-lookup"><span data-stu-id="36096-137">Create a new CDS environment</span></span>
+  ![Προσθήκη βάσης δεδομένων](./media/20CreateEnvironment1.png)
 
-1. <span data-ttu-id="36096-138">Δώστε ένα νέο περιβάλλον ανάπτυξης Project Operations CDS ακολουθώντας τις οδηγίες στο θέμα, [Μοντέλο ανάπτυξης CDS](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="36096-138">Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md).</span></span> <span data-ttu-id="36096-139">Όταν επιλέγετε τον τύπο περιβάλλοντος, βεβαιωθείτε ότι χρησιμοποιείτε τη **Δοκιμαστική έκδοση (βάσει συνδρομής)**.</span><span class="sxs-lookup"><span data-stu-id="36096-139">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
-<span data-ttu-id="36096-140">![Νέο περιβάλλον](./media/19CreateEnvironment.png)</span><span class="sxs-lookup"><span data-stu-id="36096-140">![New environment](./media/19CreateEnvironment.png)</span></span>
-
-2. <span data-ttu-id="36096-141">Επιλέξτε τη ρύθμιση **Ενεργοποίηση εφαρμογών Dynamics 365** και αφήστε την **Αυτόματη ανάπτυξη αυτών των εφαρμογών** κενή.</span><span class="sxs-lookup"><span data-stu-id="36096-141">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
-3. <span data-ttu-id="36096-142">Επιλέξτε **Αποθήκευση** για τη δημιουργία του περιβάλλοντος.</span><span class="sxs-lookup"><span data-stu-id="36096-142">Select **Save** to create the environment.</span></span>
-
-![Προσθήκη βάσης δεδομένων](./media/20CreateEnvironment1.png)
-
-4. <span data-ttu-id="36096-144">Μετά τη δημιουργία του περιβάλλοντος, εγκαταστήστε τη λύση **Microsoft Dynamics 365 Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="36096-144">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
+4. <span data-ttu-id="a61f4-132">Μετά τη δημιουργία του περιβάλλοντος, εγκαταστήστε τη λύση **Microsoft Dynamics 365 Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="a61f4-132">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
 
 ![Εγκατάσταση λύσης](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="36096-146">Εγκαταστήστε μια διαμόρφωση CDS και τα δεδομένα επίδειξης ρύθμισης παραμέτρων</span><span class="sxs-lookup"><span data-stu-id="36096-146">Install a CDS configuration and setup demo data</span></span>
+## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="a61f4-134">Εγκαταστήστε μια διαμόρφωση CDS και τα δεδομένα επίδειξης ρύθμισης παραμέτρων</span><span class="sxs-lookup"><span data-stu-id="a61f4-134">Install a CDS configuration and setup demo data</span></span>
 
-<span data-ttu-id="36096-147">Εγκαταστήστε τη διαμόρφωση CDS και ρυθμίστε τα δεδομένα επίδειξης ακολουθώντας τις οδηγίες στο θέμα, [Εφαρμογή δεδομένων ρύθμισης επίδειξης και δεδομένων διαμόρφωσης](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="36096-147">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
+<span data-ttu-id="a61f4-135">Εγκαταστήστε τη διαμόρφωση CDS και ρυθμίστε τα δεδομένα επίδειξης ακολουθώντας τις οδηγίες στο θέμα, [Εφαρμογή δεδομένων ρύθμισης επίδειξης και δεδομένων διαμόρφωσης](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="a61f4-135">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

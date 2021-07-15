@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Ανάπτυξη περιβαλλόντων
           items:
+            - name: Μη αυτόματη ανάπτυξη της εφαρμογής Project Operations Dataverse με υποστήριξη διπλής εγγραφής
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Παροχή ενός νέου περιβάλλοντος
               href: environment/resource-provision-new-environment.md
             - name: Μοντέλο ασφαλείας
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Τι νέο υπάρχει
       items:
+        - name: Ιούλιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Ιούνιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: Μάιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: Απρίλιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
@@ -282,7 +288,7 @@
           items:
             - name: Ανάπτυξη προτύπων έργου με την Αντιγραφή έργου
               href: project-management/dev-copy-project.md
-            - name: Χρήση API χρονοδιαγράμματος (Δημόσια έκδοση προεπισκόπησης)
+            - name: Χρήση API χρονοδιαγράμματος προγράμματος (Δημόσια έκδοση προεπισκόπησης)
               href: project-management/schedule-api-preview.md
     - name: Διαχείριση πόρων
       items:
@@ -430,14 +436,12 @@
       items:
         - name: Ρύθμιση παραμέτρων μη εφοδιασμένου υλικού και εκκρεμών τιμολογίων προμηθευτών
           href: procurement/configure-materials-nonstocked.md
-        - name: Προμήθεια μη εφοδιασμένου υλικού για έργα με χρήση εκκρεμών τιμολογίων προμηθευτών
+        - name: Προμήθεια μη εφοδιασμένων υλικών για έργα με χρήση εκκρεμών τιμολογίων προμηθευτών
           href: procurement/pending-vendor-invoices.md
     - name: Τιμολόγηση
       items:
         - name: Επισκόπηση διεργασίας τιμολόγησης
           href: invoicing/post-project-invoices.md
-        - name: Διαχείριση προτάσεων τιμολογίου έργου
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Προτιμολόγηση
           items:
             - name: Διαχείριση λίστας εκκρεμοτήτων χρέωσης βάσει έργου
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Ρύθμιση παραμέτρων αυτοματοποίησης τιμολογίου βάσει έργου
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Διαχείριση προτάσεων τιμολογίου έργου
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Τιμολόγηση πελατών
+          items:
+            - name: Διαχείριση προτάσεων τιμολογίου έργου
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Διόρθωση λογιστικής σε προτάσεις προσχέδιου τιμολογίου έργου
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Διεταιρική τιμολόγηση
+          items:
+            - name: Επισκόπηση διεταιρικής τιμολόγησης
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Ρύθμιση παραμέτρων διεταιρικής τιμολόγησης
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Δημιουργία διεταιρικών συναλλαγών
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Δημιουργία διεταιρικών τιμολογίων πελατών και προμηθευτών
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Λογιστική έργου
       items:
         - name: Προεπιλογές οικονομικής διάστασης
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Ημερολόγιο ενοποίησης στο Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Διεταιρική τιμολόγηση
-          items:
-            - name: Επισκόπηση διεταιρικής τιμολόγησης
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Ρύθμιση παραμέτρων διεταιρικής τιμολόγησης
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Δημιουργία διεταιρικών συναλλαγών
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Δημιουργία διεταιρικών τιμολογίων πελατών και προμηθευτών
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Αναγνώριση εσόδων
       items:
         - name: Επισκόπηση αναγνώρισης εσόδων
@@ -512,9 +520,13 @@
           href: environment/security-model.md
     - name: Τι νέο υπάρχει
       items:
+        - name: 'Τι νέο υπάρχει, Ιούλιος 2021 - ελαφριά ανάπτυξη'
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: 'Τι νέο υπάρχει, Ιούνιος 2021 - ελαφριά ανάπτυξη'
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: 'Τι νέο υπάρχει, Μάιος 2021 - ελαφριά ανάπτυξη'
           href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: Τι νέο υπάρχει Απρίλιος 2021 - ελαφριά ανάπτυξη
+        - name: 'Τι νέο υπάρχει, Απρίλιος 2021 - ελαφριά ανάπτυξη'
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 'Τι νέο υπάρχει, Μάρτιος 2021 - ελαφριά ανάπτυξη'
           href: pro/whats-new/whats-new-mar-2021-lite.md
@@ -762,7 +774,7 @@
           items:
             - name: Ανάπτυξη προτύπων έργου με την Αντιγραφή έργου
               href: project-management/dev-copy-project.md
-            - name: Χρήση API χρονοδιαγράμματος (Δημόσια έκδοση προεπισκόπησης)
+            - name: Χρήση API χρονοδιαγράμματος προγράμματος (Δημόσια έκδοση προεπισκόπησης)
               href: project-management/schedule-api-preview.md
     - name: Διαχείριση πόρων
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Τι νέο υπάρχει
       items:
+        - name: 'Τι νέο υπάρχει, Ιούλιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: 'Τι νέο υπάρχει, Μάιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: 'Τι νέο υπάρχει, Απρίλιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 'Τι νέο υπάρχει, Μάρτιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
@@ -1034,6 +1050,10 @@
       items:
         - name: Ενημέρωση χρονοδιαγράμματος έκδοσης για το Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 31, V3'
