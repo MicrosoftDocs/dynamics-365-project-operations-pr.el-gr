@@ -832,6 +832,16 @@
           items:
             - name: Επισκόπηση χρήσης πόρου
               href: resource-management/resource-utilization-overview.md
+    - name: Διαχείριση υπεργολαβίας στο Project Operations
+      items:
+        - name: Διαχείριση επισκόπησης υπεργολαβιών
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Βασικές έννοιες στην υπεργολαβία
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Διαχείριση προμηθευτών και τιμοκαταλόγους έργων
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Οι υπεργολάβοι ως πόροι με δυνατότητα κράτησης
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Χρόνος
       items:
         - name: Επισκόπηση χρόνου
@@ -1050,6 +1060,8 @@
       items:
         - name: Ενημέρωση χρονοδιαγράμματος έκδοσης για το Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 32.5, V3'
