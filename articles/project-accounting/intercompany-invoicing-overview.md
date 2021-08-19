@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369376"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005391"
 ---
 # <a name="intercompany-invoicing-overview"></a>Επισκόπηση διεταιρικής τιμολόγησης
 
@@ -22,7 +22,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 Παρακάτω παρουσιάζεται ένα τυπικό σενάριο, όπου δύο νομικές οντότητες, η Contoso Robotics USA (το νομικό πρόσωπο που δανείζεται) και η Contoso Robotics UK. (το νομικό πρόσωπο που δανείζει) μοιράζονται πόρους για την παροχή ενός έργου για τον πελάτη, Adventure works. Για το συγκεκριμένο σενάριο, η Contoso Robotics USA έχει συμβάσεις για την παράδοση της εργασίας στην Adventure Works.
 
-![Διεταιρική τιμολόγηση](./media/IntercompanyScenario.png) 
+![Διεταιρική τιμολόγηση.](./media/IntercompanyScenario.png) 
 
 Το Dynamics 365 Project Operations χρησιμοποιεί την ακόλουθη ροή για την επεξεργασία διεταιρικών συναλλαγών:
 
@@ -35,7 +35,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 Στο ακόλουθο διάγραμμα απεικονίζεται η διεταιρική τιμολόγηση, όπως σχετίζεται με τα λογιστικά συμβάντα και τις αναμενόμενες καταχωρήσεις στο γενικό καθολικό.
 
-![Διεταιρική ροή](./media/IntercompanyFlow.png)
+![Διεταιρική ροή.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Πρόσθετοι πόροι
 
