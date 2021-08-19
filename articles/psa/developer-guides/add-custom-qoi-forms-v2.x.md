@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007996"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995221"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Προσθήκη νέων φορμών προσαρμοσμένης οντότητας (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ ms.locfileid: "6007996"
     - Κάντε εξαγωγή της φόρμας **Τα στοιχεία έργου μου** ως μέρος μιας μη διαχειριζόμενης λύσης και μετά αναζητήστε την τιμή **formId** στο αρχείο customization.xml της λύσης που έχει εξαχθεί.
     - Ανοίξτε τη φόρμα **Τα στοιχεία έργου μου** στο πρόγραμμα επεξεργασίας φορμών και, στη συνέχεια, αναζητήστε το καθολικά μοναδικό αναγνωριστικό (GUID) δίπλα στην παράμετρο **fromId** στην URL όπως φαίνεται στην παρακάτω απεικόνιση.
 
-    ![Η τιμή formId της νέας φόρμας στο URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Η τιμή formId της νέας φόρμας στο URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Δημιουργήστε μια αντιστοίχιση **msdyn\_ordertype** για την τιμή **formId** κάνοντας επεξεργασία του πόρου web msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Καταργήστε τον κώδικα από τον πόρο και αντικαταστήστε τον με τον ακόλουθο κώδικα.
 

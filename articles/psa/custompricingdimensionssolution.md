@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012316"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995266"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Δημιουργία προσαρμοσμένων λύσεων για διαστάσεις τιμολόγησης
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012316"
 1. Επιλέξτε **Ρυθμίσεις** > **Λύσεις** και, στη συνέχεια, επιλέξτε **Δημιουργία**. 
 2. Ονομάστε τη λύση, **\<your organization name> διαστάσεις τιμολόγησης**, καταχωρίστε τις υπόλοιπες πληροφορίες και μετά επιλέξτε **Αποθήκευση**.
 
-> ![Δημιουργία προσαρμοσμένης λύσης για διαστάσεις τιμολόγησης](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Δημιουργία προσαρμοσμένης λύσης για διαστάσεις τιμολόγησης.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Προσθήκη όλων των απαιτούμενων οντοτήτων και σχετικών στοιχείων στη Λύση διάστασης τιμολόγησης
 Θα πρέπει να προσθέσετε τις παρακάτω οντότητες Project Service στη λύση τιμολόγησης. Ολοκληρώστε τα βήματα σε αυτήν τη διαδικασία για να κάνετε κάποιες σημαντικές αλλαγές σχήματος στη λύση τιμολόγησης, έτσι ώστε οι οντότητες να συνειδητοποιήσουν τις νέες διαστάσεις τιμολόγησης.
@@ -54,16 +54,16 @@ ms.locfileid: "6012316"
 - Τιμή ρόλου 
 - Χρονική καταχώρηση 
 
-> ![Προσθήκη υπαρχουσών οντοτήτων στη λύση "διαστάσεις τιμολόγησης"](media/Existing-entities-to-PD-solution.png)
+> ![Προσθήκη υπαρχουσών οντοτήτων στη λύση "διαστάσεις τιμολόγησης".](media/Existing-entities-to-PD-solution.png)
 
-> ![Επιλέξτε στοιχεία λύσης](media/Dimension-Components.png)
+> ![Επιλέξτε στοιχεία λύσης.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Βεβαιωθείτε ότι θα συμπεριλάβετε όλες τις φόρμες και τις προβολές για κάθε μια από τις οντότητες που επιλέγονται.
 
 4. Όταν σας ζητηθεί να συμπεριλάβετε εξαρτημένες οντότητες για τις επιλεγμένες οντότητες, επιλέξτε **Όχι**.
 
-> ![Να μην συμπεριληφθούν όλα τα απαιτούμενα στοιχεία.](media/Do-not-include-required.png)
+> ![Να μην συμπεριληφθούν όλα τα σχετιζόμενα στοιχεία.](media/Do-not-include-required.png)
 
 
 
