@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998501"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008586"
 ---
 # <a name="product-based-quote-lines"></a>Γραμμές προσφοράς βάσει προϊόντων
 
@@ -58,7 +58,7 @@ ms.locfileid: "5998501"
 
 Μετά την εγκατάσταση του PSA, οι προεπιλεγμένοι τιμοκατάλογοι καταχωρούνται στις γραμμές με βάση το προϊόν σε μια προσφορά. Το πεδίο **Τιμολόγηση** ορίζεται σε **Παράκαμψη τιμολόγησης** ώστε να παρακάμπτει την τιμολόγηση ώστε να μπορείτε να επεξεργαστείτε την προεπιλεγμένη τιμή στις γραμμές προσφοράς.
 
-> ![Ρύθμιση παράκαμψης τιμολόγησης](media/basic-guide-10.png)
+> ![Ρύθμιση παράκαμψης τιμολόγησης.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Συντελεστές ποσότητας για τα προϊόντα
 
@@ -78,7 +78,7 @@ ms.locfileid: "5998501"
 
 Οι ιδιότητες **Αριθμός χρηστών** και **Αριθμός μηνών** μπορούν να επισημανθούν ως συντελεστές ποσότητας με επεξεργασία των ιδιοτήτων της γραμμής προϊόντων. 
 
-> ![Επισήμανση αριθμού χρηστών και μηνών ως παράγοντες ποιότητας](media/basic-guide-11.png)
+> ![Επισήμανση αριθμού χρηστών και μηνών ως παραγόντων ποιότητας.](media/basic-guide-11.png)
  
 
 

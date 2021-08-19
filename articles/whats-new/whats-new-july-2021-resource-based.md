@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433518"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008046"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει, Ιούλιος 2021 - Project Operations για σενάρια βάσει πόρων ή μη εφοδιασμένα σενάρια
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433518"
 
 Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
 
-   - Project Operations στο Microsoft Dataverse στην έκδοση περιβάλλοντος 4.12.0.148.
+   - Το Project Operations στην έκδοση περιβάλλοντος 4.12.0.148 ή 4.12.0.152 του Microsoft Dataverse.
    - Διαχείριση έργου και λογιστικής στο περιβάλλον Dynamics 365 Finance έκδοση 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Δυνατότητες που περιλαμβάνονται σε αυτήν την έκδοση
@@ -79,7 +79,7 @@ ms.locfileid: "6433518"
 | Γενικός                       | 2296857              | Παρακολούθηση προόδου για μεγάλης διάρκειας εργασίες.                                                                                                                                                                        |
 | Γενικός                       | 2253682              | Η λύση διπλής εγγραφής Project Operations δεν θα πρέπει να εγκαθίσταται όταν ο πυρήνας διπλής εγγραφής εγκαθίσταται σε ένα περιβάλλον χωρίς τη λύση συντονισμού διπλής εγγραφής.                                                |
 | Γενικός                       | 2316420              | Η βασική παροχή της υπηρεσίας έργου αποτυγχάνει όταν αλλάζει η επιχειρηματική μονάδα του χρήστη της εφαρμογής.                                                                                                                     |
-
+| Γενικός                       | 2376405              | Διορθωμένο θέμα ενημέρωσης με γνώμονα τον εκδότη (Η ενημέρωση ποιότητας είναι διαθέσιμη στην έκδοση 4.12.0.152)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Διαχείριση έργου και λογιστική στο Dynamics 365 Finance
 
 | Περιοχή δυνατοτήτων                      | Αριθμός αναφοράς | Ενημέρωση ποιότητας                                                                                                                                                                                                                                                                                                                |
