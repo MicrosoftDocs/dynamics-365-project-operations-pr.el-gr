@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015016"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985141"
 ---
 # <a name="manage-resource-requests-project-service"></a>Διαχείριση ερωτημάτων πόρων (Project Service)
 
@@ -43,7 +43,7 @@ ms.locfileid: "6015016"
   
    -   Επιλέξτε **Φίλτρο** για να εμφανίσετε το παράθυρο **Φίλτρο**, το οποίο σας επιτρέπει να φιλτράρετε τα αποτελέσματά σας βάσει οργανωτικής μονάδας, ρόλου, δεξιότητας ή άλλων χαρακτηριστικών.  
   
-       ![Οθόνη αιτήσεων πόρων του Project Service](../psa/media/project-service-resource-request-screen.png "Οθόνη αιτήσεων πόρων του Project Service")  
+       ![Οθόνη αιτήσεων πόρων του Project Service.](../psa/media/project-service-resource-request-screen.png "Οθόνη αιτήσεων πόρων του Project Service")  
   
 3. Στο ημερολόγιο του πόρου για τον οποίο θέλετε να κάνετε κράτηση, επιλέξτε τη χρονική περίοδο για την κράτηση του πόρου και, στη συνέχεια, είτε πατήστε **Κράτηση** για να κάνετε κράτηση στον πόρο ή **Πρόταση κράτησης** για να προτείνετε την κράτηση και να ζητήσετε από τον αιτούντα να την εγκρίνει. Κατά την κράτηση ενός πόρου, μπορείτε να κάνετε προκαταρκτική κράτηση ή οριστική κράτηση.  
   

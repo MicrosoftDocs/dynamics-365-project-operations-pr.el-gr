@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999896"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988111"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Συγχρονισμός πραγματικών τιμών έργου απευθείας από το Project Service Automation στο ημερολόγιο ενοποίησης έργου για καταχώρηση στο Finance and Operations
 
@@ -42,7 +42,7 @@ ms.locfileid: "5999896"
 
 Η εικόνα που ακολουθεί δείχνει τον τρόπο με τον οποίο συγχρονίζονται τα δεδομένα μεταξύ Project Service Automation και Finance.
 
-[![Ροή δεδομένων για την ενοποίηση του Project Service Automation με το Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Ροή δεδομένων για την ενοποίηση του Project Service Automation με το Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Πραγματικές τιμές έργου από το Project Service Automation
 
@@ -93,9 +93,9 @@ ms.locfileid: "5999896"
 
 Η εικόνα που ακολουθεί δείχνει ένα παράδειγμα των αντιστοιχίσεων εργασιών προτύπου στην ενοποίηση δεδομένων. Η αντιστοίχιση εμφανίζει τις πληροφορίες πεδίου που θα συγχρονιστούν από το Project Service Automation στο Finance.
 
-[![Αντιστοίχιση προτύπου - Πραγματικές τιμές](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Αντιστοίχιση προτύπου - Πραγματικές τιμές.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Αντιστοίχιση προτύπου - Συνδέσεις συναλλαγής](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Αντιστοίχιση προτύπου - Συνδέσεις συναλλαγής.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Εισαγωγή από τον πίνακα δημιουργίας σταδίων μετά την ενοποίηση από το Project Service Automation
 
@@ -135,9 +135,9 @@ ms.locfileid: "5999896"
 
 Οι εικόνες που ακολουθούν δείχνουν παραδείγματα των αντιστοιχίσεων εργασιών προτύπου στην ενοποίηση δεδομένων. Η αντιστοίχιση εμφανίζει τις πληροφορίες πεδίου που θα συγχρονιστούν από το Finance στο Project Service Automation.
 
-[![Αντιστοίχιση προτύπου - Ενημέρωση πραγματικών τιμών](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Αντιστοίχιση προτύπου - Ενημέρωση πραγματικών τιμών.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Αντιστοίχιση προτύπου - Ενημέρωση συναλλαγής](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Αντιστοίχιση προτύπου - Ενημέρωση συναλλαγών.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

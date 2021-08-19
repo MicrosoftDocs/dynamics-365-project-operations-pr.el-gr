@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015061"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985501"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Τιμολόγηση στο Project Service Automation
 
@@ -50,7 +50,7 @@ ms.locfileid: "6015061"
 
 - Στη σελίδα λίστας **Συμβάσεις έργου** ανοίξτε μια σύμβαση έργου και, στη συνέχεια επιλέξτε **Δημιουργία τιμολογίου**.
 
-    ![Δημιουργία τιμολογίων έργου για μια συγκεκριμένη σύμβαση έργου](media/CreateProjectInvoicesOneByOne.png)
+    ![Δημιουργία τιμολογίων έργου για μια συγκεκριμένη σύμβαση έργου.](media/CreateProjectInvoicesOneByOne.png)
 
     Δημιουργείται ένα τιμολόγιο για όλες τις συναλλαγές για την επιλεγμένη σύμβαση έργου που έχουν κατάσταση **Έτοιμο προς τιμολόγηση**. Στις συναλλαγές αυτές περιλαμβάνονται ο χρόνος, τα έξοδα, τα ορόσημα και οι γραμμές σύμβασης βάσει προϊόντων.
 
@@ -58,7 +58,7 @@ ms.locfileid: "6015061"
 
 1. Στη σελίδα λίστας **Συμβάσεις έργου**, επιλέξτε μία ή περισσότερες συμβάσεις έργου για τις οποίες θα πρέπει να δημιουργήσετε ένα τιμολόγιο και μετά επιλέξτε **Δημιουργία τιμολογίων έργων**.
 
-    ![Δημιουργία τιμολογίων έργων μαζικά](media/CreateProjectInvoicesBulk.png)
+    ![Δημιουργία τιμολογίων έργων μαζικά.](media/CreateProjectInvoicesBulk.png)
 
     Ένα μήνυμα προειδοποίησης σας ενημερώνει ότι ενδέχεται να υπάρξει καθυστέρηση πριν δημιουργηθούν τα τιμολόγια. Επίσης, εμφανίζεται η διεργασία.
 
