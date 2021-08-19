@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368881"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998461"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Αρχική σελίδα διαστάσεων τιμολόγησης και κοστολόγησης
 
@@ -41,7 +41,7 @@ ms.locfileid: "6368881"
 
 Το PSA διαθέτει ένα προεπιλεγμένο σύνολο διαστάσεων τιμολόγησης. Μπορείτε να τις δείτε μεταβαίνοντας στο **Project Service** > **Παράμετροι**. Στην καρτέλα της παραμέτρου, στην καρτέλα **Διαστάσεις τιμολόγησης βάσει ποσού** επαληθεύστε ότι ο ρόλος **msdyn_resourcecategory** και η οργανωτική μονάδα πόρου **msdyn_organizationalunit** έχουν τα πεδία **Ισχύει για τις πωλήσεις** και **Ισχύει για το κόστος** σε **Ναι**. Αυτό θα σας επιτρέψει να ορίσετε την τιμή και το κόστος για κάθε συνδυασμό ρόλου και οργανωτικής μονάδας.
 
-![Στιγμιότυπο οθόνης των παραμέτρων Project Service με επισήμανση "Ισχύει για πωλήσεις"](media/PS-OOB-parameters.png)
+![Στιγμιότυπο οθόνης των παραμέτρων Project Service με επισήμανση "Ισχύει για πωλήσεις".](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Εάν χρησιμοποιούσατε τα έτοιμα πεδία ρόλου και οργανωτικής μονάδας όπως οι διαστάσεις τιμολόγησης πριν από την έκδοση 3 του PSA, δεν θα υπάρξει καμία παρατηρήσιμη αλλαγή. Μπορείτε να συνεχίσετε να χρησιμοποιείτε το Project Service ως συνήθως. 

@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011191"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996256"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Χρήση ενός πόρου με δυνατότητα κράτησης ως διάστασης τιμολόγησης
 
@@ -64,18 +64,18 @@ ms.locfileid: "6011191"
 1. Κάντε διπλό κλικ στη γραμμή στο πλέγμα **Διαστάσεις τιμολόγησης** για να ανοίξετε τη σελίδα διάστασης **msdyn_bookableresource**.
 2. Στη σελίδα διάστασης, στην καρτέλα **Σχετικά**, επιλέξτε **Ονόματα πεδίων διάστασης τιμολόγησης**.
 
-  ![Καρτέλα ονομάτων πεδίων διάστασης τιμολόγησης](media/PD-fieldname.png)
+  ![Καρτέλα ονομάτων πεδίων διάστασης τιμολόγησης.](media/PD-fieldname.png)
 
 3. Στη συσχετισμένη προβολή που ανοίγει, επιλέξτε **Προσθήκη νέου ονόματος πεδίο διάστασης τιμολόγησης**.
 
-  ![Προσθήκη νέων πεδίων διάστασης τιμολόγησης](media/Add-NewPD-fieldname.png)
+  ![Προσθήκη νέων πεδίων διάστασης τιμολόγησης.](media/Add-NewPD-fieldname.png)
 
   Ανοίγει η σελίδα **Νέο όνομα πεδίου διάστασης τιμολόγησης** για το **msdyn_bookableresource**. 
 
 4. Στη σελίδα **Νέο όνομα πεδίου διάστασης τιμολόγησης**, προσθέστε **msdyn_projectteam** στο **Λογικό όνομα οντότητας**.
 5. Προσθέστε **msdyn_bookableresourceid** στο **όνομα πεδίου**.
 
- ![Φόρμα νέου ονόματος πεδίου διάστασης τιμολόγησης](media/PD-fieldname-Added.png)
+ ![Φόρμα νέου ονόματος πεδίου διάστασης τιμολόγησης.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
