@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 16cd38f2f190414d7be9c93e8ab90d55006f47e1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009976"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992791"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Συγχρονισμός εργασιών έργου απευθείας από το Project Service Automation στο Finance and Operations
 
@@ -39,7 +39,7 @@ ms.locfileid: "6009976"
 
 Η εικόνα που ακολουθεί δείχνει τον τρόπο με τον οποίο συγχρονίζονται τα δεδομένα μεταξύ Project Service Automation και Finance.
 
-[![Ροή δεδομένων για την ενοποίηση του Project Service Automation με το Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Ροή δεδομένων για την ενοποίηση του Project Service Automation με το Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Πρότυπο και εργασία
 
@@ -80,7 +80,7 @@ ms.locfileid: "6009976"
 
 Η εικόνα που ακολουθεί δείχνει ένα παράδειγμα των αντιστοιχίσεων εργασιών προτύπου στην ενοποίηση δεδομένων. Η αντιστοίχιση εμφανίζει τις πληροφορίες πεδίου που θα συγχρονιστούν από το Project Service Automation στο Finance.
 
-[![Αντιστοίχιση προτύπου](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![Αντιστοίχιση προτύπου.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

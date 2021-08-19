@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998951"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992431"
 ---
 # <a name="create-custom-fields-and-entities"></a>Δημιουργία προσαρμοσμένων πεδίων και οντοτήτων 
 
@@ -43,7 +43,7 @@ ms.locfileid: "5998951"
 2. Στην εξερεύνηση λύσεων, στο αριστερό παράθυρο περιήγησης, επιλέξτε **Οντότητες**.
 3. Κάντε κλικ στην επιλογή **Νέα** για να δημιουργήσετε μια νέα οντότητα που καλείται **Τυπικός τίτλος**. Πληκτρολογήστε τις απαιτούμενες υπόλοιπες πληροφορίες και, στη συνέχεια, πατήστε **Αποθήκευση**.
 
-> ![Ορισμός τυπικού τίτλου οντότητας](media/Standard-Title-entity-definition.png)
+> ![Ορισμός τυπικού τίτλου οντότητας.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Διαστάσεις που βασίζονται σε σύνολο επιλογών 
@@ -54,9 +54,9 @@ ms.locfileid: "5998951"
 2. Στην εξερεύνηση λύσεων, στο αριστερό παράθυρο περιήγησης, επιλέξτε **Σύνολα επιλογών**. 
 3. Επιλέξτε **Νέο** για να δημιουργήσετε ένα νέο σύνολο επιλογών, καταγράψτε τις υπόλοιπες απαιτούμενες πληροφορίες και πατήστε **Αποθήκευση**.
 
-> ![Η διάσταση τιμολόγησης που βασίζεται σε σύνολο επιλογών καλείται Τοποθεσία εργασίας πόρου ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Η διάσταση τιμολόγησης που βασίζεται σε σύνολο επιλογών καλείται Τοποθεσία εργασίας πόρου.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Η διάσταση τιμολόγησης που βασίζεται σε σύνολο επιλογών καλείται Ώρες εργασίας πόρου ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Η διάσταση τιμολόγησης που βασίζεται σε σύνολο επιλογών καλείται Ώρες εργασίας πόρου.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Δημιουργία δεδομένων για διαστάσεις βασισμένες σε οντότητες
@@ -68,7 +68,7 @@ ms.locfileid: "5998951"
 3. Κλείστε τη φόρμα. 
 4. Επαναλάβετε τα βήματα 1-3, για να δημιουργήσετε έναν άλλο τυπικό τίτλο για τον "επικεφαλής μηχανικό συστημάτων".
 
-> ![Δείγμα δεδομένων για την οντότητα τυπικού τίτλου ](media/ST-data.png)
+> ![Δείγμα δεδομένων για την οντότητα τυπικού τίτλου.](media/ST-data.png)
 
 
 

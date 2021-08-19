@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008671"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990496"
 ---
 # <a name="skills-and-proficiency-models"></a>Μοντέλα δεξιοτήτων και επάρκειας
 
@@ -33,7 +33,7 @@ ms.locfileid: "6008671"
 
 Για να διατηρήσετε το αρχείο φύλαξης δεξιοτήτων στο Project Service Automation, μεταβείτε στα στοιχεία **Πόροι** \> **Δεξιότητες πόρων**. 
 
-> ![Δεξιότητες πόρων](media/Resource-Management-image84.png)
+> ![Δεξιότητες πόρων.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Χρήση μοντέλων επάρκειας για την αξιολόγηση πόρων
 
@@ -43,7 +43,7 @@ ms.locfileid: "6008671"
 2. Στο νέο μοντέλο αξιολόγησης, καθορίστε την ελάχιστη τιμή αξιολόγησης, τη μέγιστη τιμή αξιολόγησης και την οντότητα που αξιολογείται.
 3. Στο υποπλέγμα **Τιμές αξιολόγησης** μπορείτε να καθορίσετε τις διαφορετικές τιμές αξιολόγησης, από την ελάχιστη έως τη μέγιστη.
 
-> ![Καθορισμένες ελάχιστες και μέγιστες αξιολογήσεις](media/Resource-Management-image85.png)
+> ![Καθορισμένες ελάχιστες και μέγιστες αξιολογήσεις.](media/Resource-Management-image85.png)
 
 Αυτές οι τιμές αξιολόγησης εμφανίζονται στα φίλτρα **"Απαιτήσεις πόρου**, **Πίνακας χρονοδιαγράμματος** και **Βοηθός χρονοδιαγράμματος**.
 

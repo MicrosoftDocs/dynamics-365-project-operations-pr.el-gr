@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997151"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993286"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Εφαρμογή δεδομένων ρύθμισης παραμέτρων και ρύθμισης επίδειξης για το Project Operations - lite 
 
@@ -30,24 +30,24 @@ _**Ελαφριά ανάπτυξη - συμφωνία για προτιμολό�
 2. Μεταβείτε στον φάκελο *ProjOpsSampleSetupData - CE μόνο CMT* και εκτελέστε το εκτελέσιμο αρχείο, *DataMigrationUtility*.
 3. Στη σελίδα 1 του Οδηγού ρύθμισης παραμέτρων του Common Data Service, επιλέξτε **Εισαγωγή δεδομένων** και, στη συνέχεια, επιλέξτε **Συνέχεια**.
 
-    ![Μετεγκατάσταση ρύθμισης παραμέτρων](./media/1ConfigurationMigration.png)
+    ![Μετεγκατάσταση ρύθμισης παραμέτρων.](./media/1ConfigurationMigration.png)
 
 4. Στη σελίδα 2 του οδηγού CMT, επιλέξτε **Microsoft 365** ως **Τύπο ανάπτυξης**.
 5. Επιλέξτε τα πλαίσια ελέγχου **Εμφάνιση μιας λίστας με τους διαθέσιμους οργανισμούς** και **Εμφάνιση πρόσθετων κριτηρίων**.
 6. Επιλέξτε την περιοχή του μισθωτή σας, καταχωρίστε τα διαπιστευτήριά σας και, στη συνέχεια, επιλέξτε **Σύνδεση**.
 
-   ![Σύνδεση για ρύθμιση παραμέτρων](./media/2ConfigurationSignin.png)
+   ![Σύνδεση για ρύθμιση παραμέτρων.](./media/2ConfigurationSignin.png)
 
 7. Στη σελίδα 3, από τη λίστα των οργανισμών του μισθωτή, επιλέξτε τον οργανισμό στον οποίο θέλετε να εισαγάγετε τα δεδομένα επίδειξης και, στη συνέχεια, επιλέξτε **Σύνδεση**.
 8. Στη σελίδα 4, επιλέξτε το αρχείο zip, *SampleSetupAndConfigData* από τον μη συμπιεσμένο φάκελο, *ProjOpsSampleSetupData - CE μόνο CMT*.
 
-   ![Αρχείο zip](./media/3ZipFile.png)
+   ![Αρχείο zip.](./media/3ZipFile.png)
 
-   ![Επιλογή αρχείου](./media/4SelectAFile.png)
+   ![Επιλογή αρχείου.](./media/4SelectAFile.png)
 
 9. Αφού επιλεγεί το συμπιεσμένο αρχείο, επιλέξτε **Εισαγωγή δεδομένων**.
 
-   ![Εισαγωγή δεδομένων](./media/5ImportData.png)
+   ![Εισαγωγή δεδομένων.](./media/5ImportData.png)
 
 10. Η εισαγωγή θα διαρκέσει περίπου δύο-δέκα λεπτά, ανάλογα με την ταχύτητα του δικτύου σας. Αφού ολοκληρωθεί, τερματίστε τον οδηγό CMT. 
 11. Ελέγξτε τον οργανισμό σας για δεδομένα στις ακόλουθες 18 οντότητες:
@@ -71,7 +71,7 @@ _**Ελαφριά ανάπτυξη - συμφωνία για προτιμολό�
     -   Συσχέτιση κατηγορίας πόρων με δυνατότητα κράτησης
     -   Χαρακτηριστικό του πόρου με δυνατότητα κράτησης
 
-    ![Ολοκλήρωση εισαγωγής](./media/6CompleteImport.png)
+    ![Ολοκλήρωση εισαγωγής.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

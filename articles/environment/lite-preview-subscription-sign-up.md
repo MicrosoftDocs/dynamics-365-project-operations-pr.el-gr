@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334782"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991531"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Εγγραφή για μια συνδρομή έκδοσης προεπισκόπησης - ελαφριά 
 
@@ -52,16 +52,16 @@ ms.locfileid: "6334782"
 
 1. Δώστε ένα νέο περιβάλλον ανάπτυξης Project Operations Dataverse ακολουθώντας τις οδηγίες στο θέμα, [Μοντέλο ανάπτυξης Dataverse](lite-deployment.md). Όταν επιλέγετε τον τύπο περιβάλλοντος, βεβαιωθείτε ότι χρησιμοποιείτε τη **Δοκιμαστική έκδοση (βάσει συνδρομής)**.
 
-  ![Νέο περιβάλλον](./media/19CreateEnvironment.png)
+  ![Νέο περιβάλλον.](./media/19CreateEnvironment.png)
 
 2. Επιλέξτε τη ρύθμιση **Ενεργοποίηση εφαρμογών Dynamics 365** και αφήστε την **Αυτόματη ανάπτυξη αυτών των εφαρμογών** κενή.  
 3. Επιλέξτε **Αποθήκευση** για τη δημιουργία του περιβάλλοντος.
 
-  ![Προσθήκη βάσης δεδομένων](./media/20CreateEnvironment1.png)
+  ![Προσθήκη βάσης δεδομένων.](./media/20CreateEnvironment1.png)
 
 4. Μετά τη δημιουργία του περιβάλλοντος, εγκαταστήστε τη λύση **Microsoft Dynamics 365 Project Operations**. 
 
-![Εγκατάσταση λύσης](./media/21InstallSolution.png)
+![Εγκατάσταση λύσης.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Εγκαταστήστε μια διαμόρφωση CDS και τα δεδομένα επίδειξης ρύθμισης παραμέτρων
 

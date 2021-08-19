@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ccca2f387ce3abef3b24cb96fdbcc69f3c0c075b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002240"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991486"
 ---
 # <a name="security-model"></a>Μοντέλο ασφαλείας
 
@@ -58,7 +58,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 Η αναζήτηση μέλους ομάδας στο παράθυρο διαλόγου **Διαχείριση ομάδας** περιορίζεται σε εκείνους που έχουν οριστεί ως μέλη της ομάδας ασφαλείας του περιβάλλοντος. Για περισσότερες πληροφορίες, δείτε [Έλεγχος πρόσβασης χρηστών σε περιβάλλοντα: ομάδες ασφαλείας και άδειες χρήσης](/power-platform/admin/control-user-access).
 
-![Λειτουργία ομαδοποίησης](./media/groupsmode.png)
+![Λειτουργία ομαδοποίησης.](./media/groupsmode.png)
 
 1. Το έργο δημιουργείται και ανήκει στο χρήστη που το δημιουργεί.
 2. Ο κάτοχος του έργου ενημερώνεται στην ομάδα.
