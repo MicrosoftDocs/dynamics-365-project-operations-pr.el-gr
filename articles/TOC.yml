@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Τι νέα υπάρχουν
       items:
+        - name: Οκτώβριος 2021 - Project Operations για σενάρια βασισμένα σε πόρους / μη εφοδιασμένα σενάρια
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: Σεπτέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: Αύγουστος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Ιούλιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
@@ -292,7 +296,7 @@
           items:
             - name: Ανάπτυξη προτύπων έργου με την Αντιγραφή έργου
               href: project-management/dev-copy-project.md
-            - name: Χρήση API χρονοδιαγράμματος προγράμματος (Δημόσια έκδοση προεπισκόπησης)
+            - name: Χρήση API χρονοδιαγράμματος προγράμματος
               href: project-management/schedule-api-preview.md
     - name: Διαχείριση πόρων
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Προμήθεια μη εφοδιασμένων υλικών για έργα με χρήση εκκρεμών τιμολογίων προμηθευτών
           href: procurement/pending-vendor-invoices.md
+        - name: Παραγγελία μη εφοδιασμένων υλικών για έργα με χρήση παραγγελιών αγοράς έργου
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Διατήρηση προμηθευτή
+          items:
+            - name: Επισκόπηση διατήρησης προμηθευτή
+              href: procurement/vendor-retention-overview.md
+            - name: Εγκατάσταση διατήρησης προμηθευτή
+              href: procurement/set-up-vendor-retention.md
     - name: Τιμολόγηση
       items:
         - name: Επισκόπηση διεργασίας τιμολόγησης
@@ -528,6 +540,10 @@
       items:
         - name: Τι νέα υπάρχουν για πρώιμη πρόσβαση στο κύμα 2 του 2021 - ελαφριά ανάπτυξη
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Τι νέα υπάρχουν, Οκτώβριος 2021 - ελαφριά ανάπτυξη'
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2021 - ελαφριά ανάπτυξη'
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: 'Τι νέα υπάρχουν, Αύγουστος 2021 - ελαφριά ανάπτυξη'
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: 'Τι νέα υπάρχουν, Ιούλιος 2021 - ελαφριά ανάπτυξη'
@@ -784,7 +800,7 @@
           items:
             - name: Ανάπτυξη προτύπων έργου με την Αντιγραφή έργου
               href: project-management/dev-copy-project.md
-            - name: Χρήση API χρονοδιαγράμματος προγράμματος (Δημόσια έκδοση προεπισκόπησης)
+            - name: Χρήση API χρονοδιαγράμματος προγράμματος
               href: project-management/schedule-api-preview.md
     - name: Διαχείριση πόρων
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Γραμμές για χρόνο στην υπεργολαβία
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Γραμμές για έξοδα στην υπεργολαβία
+        - name: Γραμμές για κατηγορίες εξόδων στην υπεργολαβία
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Γραμμές για προϊόντα στην υπεργολαβία
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Ενημέρωση χρονοδιαγράμματος έκδοσης για το Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 34, V3'
