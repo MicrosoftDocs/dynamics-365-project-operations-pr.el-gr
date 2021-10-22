@@ -2,16 +2,16 @@
 title: Εγγραφείτε για τις δοκιμαστικές εκδόσεις του Project Operations
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ανάπτυξης μια δοκιμαστικής έκδοσης του Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418457"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599213"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Εγγραφείτε για τις δοκιμαστικές εκδόσεις του Project Operations 
 
@@ -85,15 +85,9 @@ _**Ισχύει για:** Project Operations για μη εφοδιασμένα 
 
    Αφού ξεκινήσει η προμήθεια, θα ανακατευθυνθείτε στη λίστα περιβάλλοντος στο Κέντρο διαχείρισης Power Platform. Όσο η προμήθεια βρίσκεται σε εξέλιξη, η κατάσταση του περιβάλλοντός είναι **PreparingInstance**.
  
-  Μετά την ολοκλήρωση της προμήθειας, η κατάσταση του περιβάλλοντός σας είναι **Έτοιμο**.
+  Όταν ολοκληρωθεί η προμήθεια, η κατάσταση του περιβάλλοντός σας είναι **έτοιμο**. Η προμήθεια του περιβάλλοντος περιλαμβάνει την ανάπτυξη δεδομένων επίδειξης.
  
-4.  Όταν ολοκληρωθεί η προμήθεια, επιλέξτε την αντίστοιχη διεύθυνση URL του Microsoft Dataverse και τις διευθύνσεις URL των εφαρμογών Finance and Operations για να επικυρώσετε την ανάπτυξη.
-
-## <a name="demo-data-installation"></a>Εγκατάσταση δεδομένων επίδειξης
-
-Χρησιμοποιήστε τις παρακάτω συνδέσεις για να αποκτήσετε πρόσβαση σε πακέτα δεδομένων επίδειξης τόσο για μη εφοδιασμένο υλικό όσο και για σενάρια ελαφριάς ανάπτυξης. 
-- [Δεδομένα επίδειξης μη εφοδιασμένων υλικών](resource-apply-pro-setup-config-data.md)
-- [Δεδομένα ελαφριάς επίδειξης](lite-apply-demo-setup-config-data.md)
+4.  Επιλέξτε την αντίστοιχη διεύθυνση URL Microsoft Dataverse και τις διευθύνσεις URL των εφαρμογών Finance and Operations για να επικυρώσετε την ανάπτυξη.
 
 ## <a name="configuring-dual-write"></a>Ρύθμιση διπλής εγγραφής
 Για αναπτύξεις μη εφοδιασμένου υλικού μόνο, ρυθμίστε τις παραμέτρους των αντιστοιχίσεων διπλής εγγραφής. Για περισσότερες πληροφορίες, ανατρέξτε στο θέμα [Εκδόσεις αντιστοίχισης διπλής εγγραφής Project Operations](resource-dual-write-maps.md).
