@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Ενοποίηση τιμολογίων προμηθευτή
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Απεγκαταστήσετε το Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Τι νέα υπάρχουν
       items:
         - name: Οκτώβριος 2021 - Project Operations για σενάρια βασισμένα σε πόρους / μη εφοδιασμένα σενάρια
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Χρήση API χρονοδιαγράμματος προγράμματος
               href: project-management/schedule-api-preview.md
+            - name: Απόδοση API χρονοδιαγράμματος έργου
+              href: project-management/project-schedule-api-performance.md
     - name: Διαχείριση πόρων
       items:
         - name: Βασικές έννοιες
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Χρήση API χρονοδιαγράμματος προγράμματος
               href: project-management/schedule-api-preview.md
+            - name: Απόδοση API χρονοδιαγράμματος έργου
+              href: project-management/project-schedule-api-performance.md
     - name: Διαχείριση πόρων
       items:
         - name: Βασικές έννοιες
@@ -1102,6 +1108,8 @@
       items:
         - name: Ενημέρωση χρονοδιαγράμματος έκδοσης για το Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 35, V3'

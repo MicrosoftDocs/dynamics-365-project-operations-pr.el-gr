@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003861"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679209"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει, Ιούνιος 2021 - Project Operations για σενάρια βάσει πόρων ή μη εφοδιασμένα σενάρια
 
@@ -30,6 +30,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 - Δυνατότητα διαγραφής [Γραμμών πρότασης τιμολογίου έργου για σενάρια προσαρμογής](../invoicing/correct-project-invoice-proposals.md).
 - Οι γραμμές των ανηγμένων δαπανών απεικονίζουν τα ονόματα υποκατηγορίας στην έκθεση δαπανών [Επανενεργοποιημένες εκθέσεις δαπανών-Νέες δυνατότητες](../expense/expense-reports-reimagined.md#new-features).
 - Η μέθοδος πληρωμής είναι διαθέσιμη στο νέο παράθυρο δαπανών κατά τη δημιουργία μιας νέας δαπάνης.
+- Γενική διαθεσιμότητα API χρονοδιαγράμματος έργου. Αυτή η νέα λειτουργικότητα επιτρέπει στους πελάτες την προγραμματική εκτέλεση δημιουργία, ενημέρωση και διαγραφή λειτουργιών σε εργασίες έργου, αναθέσεις πόρων, εξαρτήσεις εργασιών και καρτέλες μελών ομάδας έργου. Για περισσότερες πληροφορίες, ανατρέξτε στο [Χρήση API χρονοδιαγράμματος έργου για την εκτέλεση λειτουργιών με οντότητες προγραμματισμού](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Ενημερώσεις χαρτών διπλής εγγραφής Project Operations
 
