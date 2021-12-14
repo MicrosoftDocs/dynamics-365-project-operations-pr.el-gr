@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
-ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
+ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "7773583"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892175"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Χρονοδιάγραμμα έκδοσης ενημέρωσης για το Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7773583"
 
 | Λύση  | Τελευταία έκδοση |
 |-------|----|
-| Project Service Automation    | 3.10.58.120 |
+| Project Service Automation    | 3.10.58.130 |
 | Πρόσθετο επιφάνειας εργασίας Project Service Automation                | 3.15          |
 
 Για πληροφορίες σχετικά με τις ενημερώσεις για το Project Service, επισκεφθείτε την τοποθεσία [Πλάνα έκδοσης του Dynamics 365](/dynamics365/release-plans/). 
@@ -55,18 +55,18 @@ ms.locfileid: "7773583"
 | | <i>Γερμανία</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 Δεκεμβρίου 2021
 | | <i>Ελβετία</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 Δεκεμβρίου 2021
 |<strong>Σταθμός 3</strong> | |  |  | |
-| | <i>Ιαπωνία</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 Νοεμβρίου 2021
-| | <i>Ασία-Ειρηνικός</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 Νοεμβρίου 2021
-| | <i>Μεγάλη Βρετανία</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 Νοεμβρίου 2021
-| | <i>Ωκεανία</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 Νοεμβρίου 2021
-| | <i>Ηνωμένα Αραβικά Εμιράτα</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 Νοεμβρίου 2021
+| | <i>Ιαπωνία</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Δεκεμβρίου 2021
+| | <i>Ασία-Ειρηνικός</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Δεκεμβρίου 2021
+| | <i>Μεγάλη Βρετανία</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Δεκεμβρίου 2021
+| | <i>Ωκεανία</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Δεκεμβρίου 2021
+| | <i>Ηνωμένα Αραβικά Εμιράτα</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 17 Δεκεμβρίου 2021
 |<strong>Σταθμός 4</strong> | |  |  | |
-| | <i>Ευρώπη</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 19 Νοεμβρίου 2021
+| | <i>Ευρώπη</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 07 Ιανουαρίου 2022
 |<strong>Σταθμός 5</strong> | |  |  | |
-| | <i>Βόρεια Αμερική</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 Δεκεμβρίου 2021
+| | <i>Βόρεια Αμερική</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14 Ιανουαρίου 2022
 |<strong>Σταθμός 6</strong> | |  |  | |
-| | <i>Cloud Δημόσιες Κοινότητες</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 Δεκεμβρίου 2021
-| | <i>Ομάδες ειδικής κλίμακας</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 10 Δεκεμβρίου 2021
+| | <i>Cloud Δημόσιες Κοινότητες</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 14 Ιανουαρίου 2022
+| | <i>Ομάδες ειδικής κλίμακας</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 10 Δεκεμβρίου 2021
 
 
 

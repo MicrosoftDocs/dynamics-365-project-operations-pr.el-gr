@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Τι νέα υπάρχουν
       items:
+        - name: Νοέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Οκτώβριος 2021 - Project Operations για σενάρια βασισμένα σε πόρους / μη εφοδιασμένα σενάρια
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: Σεπτέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Απόδοση API χρονοδιαγράμματος έργου
               href: project-management/project-schedule-api-performance.md
+            - name: Αρχεία καταγραφής προγραμματισμού έργων
+              href: project-management/schedule-api-logs.md
     - name: Διαχείριση πόρων
       items:
         - name: Βασικές έννοιες
@@ -544,6 +548,8 @@
       items:
         - name: Τι νέα υπάρχουν για πρώιμη πρόσβαση στο κύμα 2 του 2021 - ελαφριά ανάπτυξη
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Τι νέα υπάρχουν, Νοέμβριος 2021 - ελαφριά ανάπτυξη'
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 'Τι νέα υπάρχουν, Οκτώβριος 2021 - ελαφριά ανάπτυξη'
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2021 - ελαφριά ανάπτυξη'
@@ -952,6 +958,10 @@
   items:
     - name: Τι νέα υπάρχουν
       items:
+        - name: 'Τι νέα υπάρχουν, Οκτώβριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: 'Τι νέα υπάρχουν, Ιούλιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: 'Τι νέα υπάρχουν, Μάιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
@@ -1108,6 +1118,8 @@
       items:
         - name: Ενημέρωση χρονοδιαγράμματος έκδοσης για το Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 36, V3'
