@@ -2,16 +2,16 @@
 title: Εγγραφείτε για τις δοκιμαστικές εκδόσεις του Project Operations
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ανάπτυξης μια δοκιμαστικής έκδοσης του Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599213"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901617"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Εγγραφείτε για τις δοκιμαστικές εκδόσεις του Project Operations 
 
@@ -90,7 +90,8 @@ _**Ισχύει για:** Project Operations για μη εφοδιασμένα 
 4.  Επιλέξτε την αντίστοιχη διεύθυνση URL Microsoft Dataverse και τις διευθύνσεις URL των εφαρμογών Finance and Operations για να επικυρώσετε την ανάπτυξη.
 
 ## <a name="configuring-dual-write"></a>Ρύθμιση διπλής εγγραφής
-Για αναπτύξεις μη εφοδιασμένου υλικού μόνο, ρυθμίστε τις παραμέτρους των αντιστοιχίσεων διπλής εγγραφής. Για περισσότερες πληροφορίες, ανατρέξτε στο θέμα [Εκδόσεις αντιστοίχισης διπλής εγγραφής Project Operations](resource-dual-write-maps.md).
+- Για να ρυθμίσετε τις παραμέτρους των ρόλων ασφαλείας για διπλή εγγραφή, ανατρέξτε στο θέμα [Ενημέρωση των ρυθμίσεων ασφαλείας στο Project Operations στο Dataverse](resource-provision-new-environment.md).
+- Για να ρυθμίσετε τις παραμέτρους των αντιστοιχίσεων διπλής εγγραφής, ανατρέξτε στο θέμα [Εκτέλεση αντιστοιχίσεων διπλής εγγραφής Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps)έργου.
 
 ## <a name="assign-licenses"></a>Παραχώρηση αδειών χρήσης
 
