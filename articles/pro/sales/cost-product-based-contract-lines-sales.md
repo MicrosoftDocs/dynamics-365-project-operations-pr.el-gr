@@ -2,17 +2,19 @@
 title: Κοστολόγηση γραμμών σύμβασης βάσει προϊόντων - lite
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη δημιουργία
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 55f74b016b55945433083e11902003cea99f1aa463264cdd95b0aad389592e20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a81c972f36179621f0547c24fc53d294485f638c
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997336"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764459"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>Κοστολόγηση γραμμών σύμβασης βάσει προϊόντων - lite
 
@@ -28,6 +30,3 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
 Ο σκοπός της ύπαρξης ενός κόστους μονάδας σε μια γραμμή σύμβασης βασισμένης σε προϊόντα είναι να επιτρέπεται διαφορετικό κόστος για ένα προϊόν για κάθε πώληση μονάδας. Παρόλο που δεν είναι πάντα απαραίτητο, υπάρχουν ορισμένα σενάρια στα οποία το κόστος του προϊόντος μπορεί να έχει έκπτωση για τον πελάτη από τον προμηθευτή. Σκεφτείτε το ακόλουθο σενάριο:
 
 Η Fabrikam Robotics εγκαθιστά ρομποτικούς βραχίονες στις γραμμές συναρμολόγησης της Adatum Corporation. Η Fabrikam παρέχει υπηρεσίες εγκατάστασης αλλά οι ρομποτικοί βραχίονες είναι της Trey Research. Εάν η εγκατάσταση των ρομποτικών βραχιόνων στη Adatum Corporation ανοίγει μια νέα βιομηχανία κάθετη για τους ρομποτικούς βραχίονες της Trey Research, τότε η Trey μπορεί να δώσει μια ειδική έκπτωση για την εν λόγω συμφωνία στη Fabrikam. Σε αυτή την περίπτωση, η Fabrikam δημιουργεί μια γραμμή σύμβασης βασισμένης σε προϊόν για ρομποτικούς βραχίονες. Καταχωρείται μια τιμή ανά κόστος μονάδας για αυτήν τη σύμβαση. Το κόστος είναι διαφορετικό από το κόστος της έρευνας στην Trey Research.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

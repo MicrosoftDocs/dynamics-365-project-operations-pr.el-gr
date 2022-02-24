@@ -2,9 +2,11 @@
 title: Καθορισμός ημερολογίων έργου
 description: Αυτό θέμα παρέχει πληροφορίες σχετικά με τον τρόπο εφαρμογής ενός προτύπου ημερολογίου σε ένα έργο, για την παρακολούθηση του χρονοδιαγράμματος του έργου.
 author: ruhercul
+manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487640"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981300"
 ---
 # <a name="define-project-calendars"></a>Καθορισμός ημερολογίων έργου
 
@@ -46,7 +48,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 1. Μεταβείτε στα στοιχεία **Πόροι** \> **Πόροι**.
 2. Δημιουργήστε έναν νέο πόρο για αναφορά στο πρότυπο ημερολογίου ή επιλέξτε έναν υπάρχοντα πόρο.
-3. Επιλέξτε την καρτέλα **Ώρες εργασίας** του πόρου και ολοκληρώστε τις οδηγίες στο στοιχείο [Ορισμός ωρών εργασίας για έναν πόρο](/dynamics365/field-service/set-work-hours-resource) για τη ρύθμιση των κανόνων ημερολογίου.
+3. Επιλέξτε την καρτέλα **Ώρες εργασίας** του πόρου και ολοκληρώστε τις οδηγίες στο στοιχείο [Ορισμός ωρών εργασίας για έναν πόρο](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) για τη ρύθμιση των κανόνων ημερολογίου.
 
 **Δημιουργήστε ένα νέο πρότυπο ημερολογίου**
 

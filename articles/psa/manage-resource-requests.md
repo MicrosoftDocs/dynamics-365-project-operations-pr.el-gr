@@ -2,6 +2,8 @@
 title: Διαχείριση αιτήσεων πόρων
 description: Πώς γίνεται η διαχείριση αιτήσεων πόρων στο Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985141"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149858"
 ---
 # <a name="manage-resource-requests-project-service"></a>Διαχείριση ερωτημάτων πόρων (Project Service)
 
@@ -43,12 +45,9 @@ ms.locfileid: "6985141"
   
    -   Επιλέξτε **Φίλτρο** για να εμφανίσετε το παράθυρο **Φίλτρο**, το οποίο σας επιτρέπει να φιλτράρετε τα αποτελέσματά σας βάσει οργανωτικής μονάδας, ρόλου, δεξιότητας ή άλλων χαρακτηριστικών.  
   
-       ![Οθόνη αιτήσεων πόρων του Project Service.](../psa/media/project-service-resource-request-screen.png "Οθόνη αιτήσεων πόρων του Project Service")  
+       ![Οθόνη αιτήσεων πόρων του Project Service](../psa/media/project-service-resource-request-screen.png "Οθόνη αιτήσεων πόρων του Project Service")  
   
 3. Στο ημερολόγιο του πόρου για τον οποίο θέλετε να κάνετε κράτηση, επιλέξτε τη χρονική περίοδο για την κράτηση του πόρου και, στη συνέχεια, είτε πατήστε **Κράτηση** για να κάνετε κράτηση στον πόρο ή **Πρόταση κράτησης** για να προτείνετε την κράτηση και να ζητήσετε από τον αιτούντα να την εγκρίνει. Κατά την κράτηση ενός πόρου, μπορείτε να κάνετε προκαταρκτική κράτηση ή οριστική κράτηση.  
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Οδηγός υπεύθυνου πόρων](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

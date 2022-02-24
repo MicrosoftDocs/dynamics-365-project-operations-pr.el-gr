@@ -2,16 +2,18 @@
 title: Ρύθμιση προτύπων κόστους
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο δημιουργίας και χρήσης προτύπων κόστους στο Project Operations.
 author: sigitac
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993556"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642723"
 ---
 # <a name="set-up-cost-templates"></a>Ρύθμιση προτύπων κόστους
 
@@ -77,6 +79,3 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 7. Στην καρτέλα **Κατηγορίες**, επιλέξτε τις κατηγορίες έργου που θα συμπεριληφθούν στη γραμμή του προτύπου κόστους.
 8. Στην καρτέλα **Γενικά**, επιλέξτε εάν αυτή η γραμμή θα συμπεριληφθεί στον υπολογισμό του ποσοστού ολοκλήρωσης.
 9. Επιλέξτε τη μέθοδο κόστους για ολοκλήρωση που θα χρησιμοποιηθεί για τον υπολογισμό του ποσοστού ολοκλήρωσης.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

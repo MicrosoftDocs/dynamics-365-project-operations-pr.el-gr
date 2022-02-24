@@ -2,16 +2,18 @@
 title: Ορισμός απαιτήσεων πόρων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον ορισμό απαίτησης πόρου.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0fe030610424e84c823ae454542f2609a0b206033ab549619865e2c649cce113
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db3446c360c2d9278774d49ca3d5950cf2ce85ad
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990271"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076811"
 ---
 # <a name="define-resource-requirements"></a>Ορισμός απαιτήσεων πόρων
 
@@ -24,5 +26,3 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 3.  Στην καρτέλα **Μέλος ομάδας**, επιλέξτε το μέλος της ομάδας και στη συνέχεια, επιλέξτε **Δημιουργία απαίτησης**.
 
 Για πληροφορίες σχετικά με τον τρόπο τροποποίησης της απαίτησης πόρου, ανατρέξτε στην ενότητα [Ενημέρωση των λεπτομερειών απαίτησης πόρου](define-resource-requirements.md) για τροποποίηση της απαίτησης πόρου.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

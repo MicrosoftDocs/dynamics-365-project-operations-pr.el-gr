@@ -1,24 +1,25 @@
 ---
-title: Επισκόπηση ελαφριάς ανάπτυξης
+title: Επισκόπηση lite ανάπτυξης
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη lite ανάπτυξη του Dynamics 365 Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997381"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365488"
 ---
-# <a name="lite-deployment-overview"></a>Επισκόπηση ελαφριάς ανάπτυξης
+# <a name="lite-deployment-overview"></a>Επισκόπηση lite ανάπτυξης
 
 _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
 
-Ο ελαφρύς τύπος ανάπτυξης του Dynamics 365 Project Operations έχει τις ακόλουθες δυνατότητες για εταιρείες που βασίζονται σε έργα:
+Ο τύπος lite ανάπτυξης του Dynamics 365 Project Operations έχει τις ακόλουθες δυνατότητες για εταιρείες που βασίζονται σε έργα:
 
 - Προγραμματισμός έργου με χρήση του Microsoft Project for the Web
 - Πολυδιάστατη τιμολόγηση και κοστολόγηση εργατικού δυναμικού
@@ -36,6 +37,3 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
 - Ένα ολοκληρωμένο σύστημα που διαχειρίζεται εσωτερικά και χρεώσιμα προγράμματα για χρονοδιαγράμματα και οικονομικά στοιχεία από τις πωλήσεις έργου ως την τιμολόγηση.
 - Ένας τρίτος προγραμματισμός εταιρικών πόρων (ERP/χρηματοοικονομικό λογιστικό σύστημα για ενοποίηση με το Project Operations.
 - Ένα σύστημα τρίτου που θα εργάζεται με τους φόρους πωλήσεων, τις συναλλαγματικές ισοτιμίες, τις αποζημιώσεις δαπανών και τις δαπάνες εκτός έργου.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

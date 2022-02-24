@@ -2,17 +2,19 @@
 title: Τι νέο υπάρχει ή τι άλλαξε στο Project Operations, Απρίλιος 2021 για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Απριλίου 2021 του Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής.
 author: andchoi
+manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e2e3c1c717b5296964e0921aeec4999dd2f6e29
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005571"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935564"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Τι νέο υπάρχει ή τι άλλαξε στο Project Operations, Απρίλιος 2021 για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 

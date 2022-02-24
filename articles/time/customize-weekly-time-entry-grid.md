@@ -2,16 +2,18 @@
 title: Επέκταση χρονικών καταχωρήσεων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο με τον οποίο οι προγραμματιστές έχουν τη δυνατότητα επέκτασης του στοιχείου ελέγχου καταχώρησης ώρας.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993331"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124638"
 ---
 # <a name="extending-time-entries"></a>Επέκταση χρονικών καταχωρήσεων
 
@@ -142,6 +144,3 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 ### <a name="copying-time-entries"></a>Αντιγραφή χρονικών καταχωρήσεων
 Χρησιμοποιήστε την προβολή **Αντιγραφή στηλών χρονικής καταχώρησης** για να καθορίσετε τη λίστα των πεδίων που θα αντιγραφούν κατά την καταχώρηση του χρόνου. Τα πεδία **Ημερομηνία** και **Διάρκεια** είναι απαραίτητα και δεν πρέπει να καταργηθούν από την προβολή.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

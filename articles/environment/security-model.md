@@ -2,16 +2,18 @@
 title: Μοντέλο ασφαλείας
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με το μοντέλο ασφαλείας στο Dynamics 365 Project Operations.
 author: stsporen
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991486"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642903"
 ---
 # <a name="security-model"></a>Μοντέλο ασφαλείας
 
@@ -56,9 +58,9 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 Το Project Operations δεν δημιουργεί μια ομάδα μέσω ρητών ενεργειών και το κάνει μόνο μέσω της ρητής ενέργειας των ομάδων πίεσης.
 
-Η αναζήτηση μέλους ομάδας στο παράθυρο διαλόγου **Διαχείριση ομάδας** περιορίζεται σε εκείνους που έχουν οριστεί ως μέλη της ομάδας ασφαλείας του περιβάλλοντος. Για περισσότερες πληροφορίες, δείτε [Έλεγχος πρόσβασης χρηστών σε περιβάλλοντα: ομάδες ασφαλείας και άδειες χρήσης](/power-platform/admin/control-user-access).
+Η αναζήτηση μέλους ομάδας στο παράθυρο διαλόγου **Διαχείριση ομάδας** περιορίζεται σε εκείνους που έχουν οριστεί ως μέλη της ομάδας ασφαλείας του περιβάλλοντος. Για περισσότερες πληροφορίες, δείτε [Έλεγχος πρόσβασης χρηστών σε περιβάλλοντα: ομάδες ασφαλείας και άδειες χρήσης](https://docs.microsoft.com/power-platform/admin/control-user-access).
 
-![Λειτουργία ομαδοποίησης.](./media/groupsmode.png)
+![Λειτουργία ομαδοποίησης](./media/groupsmode.png)
 
 1. Το έργο δημιουργείται και ανήκει στο χρήστη που το δημιουργεί.
 2. Ο κάτοχος του έργου ενημερώνεται στην ομάδα.
@@ -68,7 +70,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 ## <a name="deployment-recommendation"></a>Σύσταση ανάπτυξης
 Καθώς το μοντέλο συνεργασίας της Ομάδας του Office εξελίσσεται, η λειτουργικότητα θα προστεθεί για να παρέχει πιο λεπτομερή έλεγχο με την πάροδο του χρόνου. Οι πελάτες που αναπτύσσουν το Project Operations σήμερα ενθαρρύνονται να εστιάσουν σε ένα παραδοσιακό μοντέλο ασφαλείας του Microsoft Dynamics 365.
 
-Για περισσότερες πληροφορίες σχετικά με την ασφάλεια δείτε [Ασφάλεια στο Common Data Service](/power-platform/admin/wp-security).
+Για περισσότερες πληροφορίες σχετικά με την ασφάλεια δείτε [Ασφάλεια στο Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations και ασφάλεια Microsoft Dynamics 365 Finance 
 Το Project Operations περιλαμβάνει τους ακόλουθους ρόλους:
@@ -76,9 +78,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 - Υπεύθυνος έργου
 - Λογιστικής έργου
 
-Για περισσότερες πληροφορίες σχετικά με την ασφάλεια στο Finance, ανατρέξτε στην ενότητα [Ασφάλεια βασισμένη σε ρόλους](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+Για περισσότερες πληροφορίες σχετικά με την ασφάλεια στο Finance, ανατρέξτε στην ενότητα [Ασφάλεια βασισμένη σε ρόλους](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,30 +1,28 @@
 ---
 title: Επισκόπηση διαχείρισης έργων
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη διαχείριση έργου στο Dynamics 365 Project Operations.
+description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη διαχείριση έργων στο Dynamics 365 Project Operations.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c2bca0c7dfc957753f0d05f9a3b5cc45bc13b920
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990991"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127563"
 ---
-# <a name="project-management-overview"></a>Επισκόπηση Διαχείρισης έργων
+# <a name="project-management-overview"></a>Επισκόπηση διαχείρισης έργων
 
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
-Τα εργαλεία διαχείρισης έργου στο Dynamics 365 Project Operations σάς βοηθούν με την εύκολη εκτέλεση των έργων. Τα εργαλεία προγραμματισμού βοηθούν τους διαχειριστές και τις ομάδες έργου να παραμένουν παραγωγικοί. Ακολουθούν ορισμένες από τις εργασίες για τις οποίες υπάρχουν εργαλεία:
+Τα εργαλεία διαχείρισης έργου στο Dynamics 365 Project Operations σάς βοηθούν ως προς την εύκολη εκτέλεση των έργων. Τα εργαλεία προγραμματισμού βοηθούν τους διαχειριστές και τις ομάδες έργου να παραμένουν παραγωγικοί. Ακολουθούν ορισμένες από τις εργασίες για τις οποίες υπάρχουν εργαλεία:
 
 - Προγραμματισμός έργων χρησιμοποιώντας χρονοδιάγραμμα εργασιών και εκτιμήσεις.
 - Εκτιμήσεις και παρακολούθηση κόστους έργου και εσόδων.
 - Χρήση εκτιμήσεων έργου κατά τη διαδικασία πωλήσεων.
 - Πρόβλεψη απαιτήσεων πόρων για έργα που είναι σε διοχέτευση.
 - Επιτυχημένη παράδοση έργων με την παρακολούθηση της προόδου και της κατανάλωσης κόστους.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

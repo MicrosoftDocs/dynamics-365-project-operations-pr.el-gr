@@ -2,16 +2,18 @@
 title: Δημιουργία λύσης για προσαρμοσμένες διαστάσεις τιμολόγησης
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο δημιουργίας λύσεων για προσαρμοσμένες διαστάσεις τιμολόγησης.
 author: Rumant
+manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992206"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513985"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Δημιουργία λύσης για προσαρμοσμένες διαστάσεις τιμολόγησης
 
@@ -26,7 +28,7 @@ ms.locfileid: "6992206"
 2.  Ονομάστε τη λύση, *διαστάσεις τιμολόγησης του <your organization name>*.
 3. Πληκτρολογήστε τις απαιτούμενες υπόλοιπες πληροφορίες και, στη συνέχεια επιλέξτε **Αποθήκευση**.
 
-  ![Δημιουργία λύσης διαστάσεων προσαρμοσμένης τιμολόγησης.](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Δημιουργία λύσης διαστάσεων προσαρμοσμένης τιμολόγησης](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Προσθήκη όλων των απαιτούμενων οντοτήτων και σχετικών στοιχείων στη Λύση διάστασης τιμολόγησης
 
@@ -49,19 +51,16 @@ ms.locfileid: "6992206"
    - **Τιμή ρόλου**
    - **Χρονική καταχώρηση**
  
-   ![Προσθήκη λύσης διαστάσεων προσαρμοσμένης τιμολόγησης υπαρχουσών οντοτήτων.](./media/Existing-entities-to-PD-solution.png)
+   ![Προσθήκη λύσης διαστάσεων προσαρμοσμένης τιμολόγησης υπαρχουσών οντοτήτων](./media/Existing-entities-to-PD-solution.png)
  
  4. Για κάθε οντότητα, εξετάστε τα στοιχεία που προστίθενται και την τελική λίστα των πάγιων στοιχείων μιας οντότητας για κάθε οντότητα. 
 
    >[!NOTE]
    > Συμπεριλάβετε όλες τις φόρμες και τις προβολές για καθεμία από τις επιλεγμένες οντότητες.
 
-  ![Οντότητες που προστέθηκαν.](./media/solution-component-selection.png)
+  ![Οντότητες που προστέθηκαν](./media/solution-component-selection.png)
 
 
 5.  Όταν σας ζητηθεί να συμπεριλάβετε εξαρτημένες οντότητες για τις επιλεγμένες οντότητες, επιλέξτε **Όχι, να μην συμπεριληφθούν τα απαιτούμενα στοιχεία.**
 
-    ![Συμπερίληψη εξαρτημένων οντοτήτων.](./media/Do-not-include-required.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    ![Συμπερίληψη εξαρτημένων οντοτήτων](./media/Do-not-include-required.png)

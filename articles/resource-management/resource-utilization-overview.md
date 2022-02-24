@@ -2,17 +2,18 @@
 title: Επισκόπηση χρήσης πόρων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη χρήση πόρου στο Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 152f85669b56d128a7bb2317ee2cf0857c90ade1273d47ad1f0f387e00a6bbd8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002061"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401376"
 ---
 # <a name="resource-utilization-overview"></a>Επισκόπηση χρήσης πόρων
 
@@ -44,6 +45,3 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 Στην καρτέλα **Project Service** μπορείτε επίσης να ορίσετε μια μεμονωμένη χρήση-στόχο για τον πόρο. Στη συνέχεια, ο υπολογισμός χρήσης χρησιμοποιεί την εν λόγω χρήση-στόχο για την αξιολόγηση του στόχου πόρου αντί του στόχου του προεπιλεγμένου ρόλου του πόρου.
 
 Η χρήση εμφανίζεται για έναν πόρο εάν αυτός ο πόρος έχει εγκρίνει τον χρεώσιμο χρόνο κατά τη διάρκεια της περιόδου που εμφανίζεται στο πλέγμα.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

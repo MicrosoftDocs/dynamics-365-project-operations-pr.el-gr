@@ -2,9 +2,10 @@
 title: Αρχική σελίδα αναφοράς
 description: Αυτό το θέμα παρέχει συνδέσεις σε πληροφορίες σχετικά με τις αναφορές στο Dynamics 365 Project Service Automation.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,28 +18,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4e60fc8c3788f4a2997d894e79d0d510d63209dd1570d79f1c43c2814d8ab819
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998281"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147698"
 ---
-# <a name="reporting-home-page"></a>Αρχική σελίδα αναφορών
+# <a name="reporting-home-page"></a>Αρχική σελίδα αναφοράς
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Το Microsoft Dynamics 365 Project Service Automation επιτρέπει στους οργανισμούς που βασίζονται σε έργα να διαχειρίζονται αποτελεσματικά τις λειτουργίες της επιχείρησής τους. Σε οποιοδήποτε έργο, τα μέλη της ομάδας πρέπει να διαχειρίζονται την ευκαιρία, να κάνουν προσφορά και να σχεδιάζουν την εργασία, να διαχειρίζονται τα έργα, να διαχειρίζονται την εργασία σύμφωνα με το σχέδιο, να τιμολογούν την εργασία και, στη συνέχεια, να κάνουν την εργασία για την ολοκλήρωση του έργου. Η δυνατότητα αναφοράς για λειτουργίες είναι το κλειδί για τον καθορισμό της εύρυθμης λειτουργίας του οργανισμού και τη λήψη των απαραίτητων διορθωτικών μέτρων. Το PSA χρησιμοποιεί τις μεθόδους αναφοράς και τις τεχνολογίες του Microsoft Dynamics 365 για όλα τα στοιχεία που αναφέρει. Για περισσότερες πληροφορίες σχετικά με τις επιλογές αναφοράς, ανατρέξτε στον [οδηγό σύνταξης αναφορών για το Dynamics 365 Customer Engagement (on-premises), έκδοση 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Το Microsoft Dynamics 365 Project Service Automation επιτρέπει στους οργανισμούς που βασίζονται σε έργα να διαχειρίζονται αποτελεσματικά τις λειτουργίες της επιχείρησής τους. Σε οποιοδήποτε έργο, τα μέλη της ομάδας πρέπει να διαχειρίζονται την ευκαιρία, να κάνουν προσφορά και να σχεδιάζουν την εργασία, να διαχειρίζονται τα έργα, να διαχειρίζονται την εργασία σύμφωνα με το σχέδιο, να τιμολογούν την εργασία και, στη συνέχεια, να κάνουν την εργασία για την ολοκλήρωση του έργου. Η δυνατότητα αναφοράς για λειτουργίες είναι το κλειδί για τον καθορισμό της εύρυθμης λειτουργίας του οργανισμού και τη λήψη των απαραίτητων διορθωτικών μέτρων. Το PSA χρησιμοποιεί τις μεθόδους αναφοράς και τις τεχνολογίες του Microsoft Dynamics 365 για όλα τα στοιχεία που αναφέρει. Για περισσότερες πληροφορίες σχετικά με τις επιλογές αναφοράς, ανατρέξτε στον [οδηγό σύνταξης αναφορών για το Dynamics 365 Customer Engagement (on-premises), έκδοση 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Οδηγός αναφοράς
 
-Ο Οδηγός αναφοράς επιτρέπει στους μη προγραμματιστές να δημιουργούν απλές αναφορές. Επειδή η εφαρμογή είναι ενσωματωμένη σε μια υπάρχουσα πλατφόρμα, η εμπειρία είναι η ίδια με την εμπειρία που τεκμηριώνεται στη [Δημιουργία ή την επεξεργασία μιας αναφοράς χρησιμοποιώντας τον "Οδηγό αναφοράς"](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). Ωστόσο, θα χρησιμοποιήσετε τις οντότητες που αφορούν το Project Service Automation.
+Ο Οδηγός αναφοράς επιτρέπει στους μη προγραμματιστές να δημιουργούν απλές αναφορές. Επειδή η εφαρμογή είναι ενσωματωμένη σε μια υπάρχουσα πλατφόρμα, η εμπειρία είναι η ίδια με την εμπειρία που τεκμηριώνεται στη [Δημιουργία ή την επεξεργασία μιας αναφοράς χρησιμοποιώντας τον "Οδηγό αναφοράς"](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). Ωστόσο, θα χρησιμοποιήσετε τις οντότητες που αφορούν το Project Service Automation.
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>Προσαρμοσμένες αναφορές υπηρεσιών αναφοράς του SQL Server
 
-Εάν η επιχείρησή σας απαιτεί μια συγκεκριμένη αναφορά η οποία δεν είναι δυνατό να δημιουργηθεί με χρήση του οδηγού αναφοράς, μπορείτε να δημιουργήσετε μια προσαρμοσμένη αναφορά. Πρέπει να έχετε εγκαταστήσει το Microsoft Visual Studio μαζί με τις κατάλληλες επεκτάσεις σύνταξης αναφορών Microsoft SQL Server Data Tools. Για περισσότερες πληροφορίες σχετικά με τα εργαλεία και τις εκδόσεις δείτε [Περιβάλλον σύνταξης αναφορών χρησιμοποιώντας το SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Για πληροφορίες σχετικά με τον τρόπο δημιουργίας μιας προσαρμοσμένης αναφοράς δείτε [Δημιουργία νέας αναφοράς χρησιμοποιώντας SQL Server Data Tools](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
+Εάν η επιχείρησή σας απαιτεί μια συγκεκριμένη αναφορά η οποία δεν είναι δυνατό να δημιουργηθεί με χρήση του οδηγού αναφοράς, μπορείτε να δημιουργήσετε μια προσαρμοσμένη αναφορά. Πρέπει να έχετε εγκαταστήσει το Microsoft Visual Studio μαζί με τις κατάλληλες επεκτάσεις σύνταξης αναφορών Microsoft SQL Server Data Tools. Για περισσότερες πληροφορίες σχετικά με τα εργαλεία και τις εκδόσεις δείτε [Περιβάλλον σύνταξης αναφορών χρησιμοποιώντας το SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools). Για πληροφορίες σχετικά με τον τρόπο δημιουργίας μιας προσαρμοσμένης αναφοράς δείτε [Δημιουργία νέας αναφοράς χρησιμοποιώντας SQL Server Data Tools](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools).
 
 ## <a name="power-bi-insights-apps"></a>Εφαρμογές Power BI insights
 
@@ -51,6 +52,3 @@ ms.locfileid: "6998281"
 - [Εργασία με το μοντέλο δεδομένων Project Service](reports-working-project-service-data-model.md)
 - [Πίνακες εργαλείων](reports-dashboards.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

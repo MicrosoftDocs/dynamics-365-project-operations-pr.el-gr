@@ -4,15 +4,9 @@
   items:
     - name: Προσδιορισμός του τύπου ανάπτυξής σας
       href: environment/determine-deployment-type.md
-    - name: Εγγραφείτε για τις δοκιμαστικές εκδόσεις του Project Operations
-      href: environment/admin-trials.md
-    - name: Ενημερώσεις του Project Operations
+    - name: Ενημερώσεις Project Operations
       href: whats-new/project-operations-updates.md
-    - name: Δυνατότητες που έχουν καταργηθεί ή είναι υπό απόσυρση
-      items:
-        - name: Δυνατότητες που έχουν καταργηθεί ή αποσυρθεί στο Project Operations
-          href: whats-new/removed-depreciated-features-project.md
-- name: Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα
+- name: Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
   items:
     - name: Έναρξη
       items:
@@ -34,8 +28,6 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Ανάπτυξη περιβαλλόντων
           items:
-            - name: Μη αυτόματη ανάπτυξη της εφαρμογής Project Operations Dataverse με υποστήριξη διπλής εγγραφής
-              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Παροχή ενός νέου περιβάλλοντος
               href: environment/resource-provision-new-environment.md
             - name: Μοντέλο ασφαλείας
@@ -58,26 +50,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Ενοποίηση τιμολογίων προμηθευτή
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Απεγκαταστήσετε το Dynamics 365 Project Operations
-          href: environment/uninstall-project-operations.md
-    - name: Τι νέα υπάρχουν
+    - name: Τι νέο υπάρχει
       items:
-        - name: Δεκέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: Νοέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: Οκτώβριος 2021 - Project Operations για σενάρια βασισμένα σε πόρους / μη εφοδιασμένα σενάρια
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: Σεπτέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: Αύγουστος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: Ιούλιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: Ιούνιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: Μάιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Απρίλιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Μάρτιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
@@ -306,12 +280,8 @@
           items:
             - name: Ανάπτυξη προτύπων έργου με την Αντιγραφή έργου
               href: project-management/dev-copy-project.md
-            - name: Χρήση API χρονοδιαγράμματος προγράμματος
+            - name: Χρήση API χρονοδιαγράμματος (Δημόσια έκδοση προεπισκόπησης)
               href: project-management/schedule-api-preview.md
-            - name: Απόδοση API χρονοδιαγράμματος έργου
-              href: project-management/project-schedule-api-performance.md
-            - name: Αρχεία καταγραφής προγραμματισμού έργων
-              href: project-management/schedule-api-logs.md
     - name: Διαχείριση πόρων
       items:
         - name: Βασικές έννοιες
@@ -366,7 +336,7 @@
               href: resource-management/manage-multiple-time-zones.md
         - name: Χρήση πόρων
           items:
-            - name: Επισκόπηση χρήσης πόρων
+            - name: Επισκόπηση χρήσης πόρου
               href: resource-management/resource-utilization-overview.md
     - name: Χρόνος
       items:
@@ -374,7 +344,7 @@
           href: time/time-entry-overview.md
         - name: Δημιουργία καταχωρήσεων χρόνου
           items:
-            - name: Περιβάλλον εργασίας χρήστη για την καταχώρηση χρόνου
+            - name: Περιβάλλον εργασίας χρήστη για την καταχώρηση ώρας
               href: time/ui-behavior-time.md
         - name: Σημειώσεις προγραμματιστή
           items:
@@ -404,10 +374,6 @@
               href: expense/set-up-credit-card-integration.md
             - name: Ρύθμιση κατηγοριών εξόδων
               href: expense/set-up-expense-categories.md
-            - name: Ρύθμιση διανυθείσας απόστασης με χρήση επιπέδων χρέωσης διανυθείσας απόστασης
-              href: expense/set-up-mileage.md
-        - name: Τμηματοποίηση δαπανών
-          href: prod-exp/expense-itemization.md
         - name: Προσωπικές δαπάνες
           href: expense/personal-expenses-expense-report.md
         - name: Διεταιρικά έξοδα
@@ -442,8 +408,6 @@
       items:
         - name: Επισκόπηση εγκρίσεων
           href: approvals/approvals-overview.md
-        - name: Σύνολα εγκρίσεων
-          href: approvals/approval-sets.md
         - name: Σημειώσεις προγραμματιστή
           items:
             - name: Σημειώσεις προγραμματιστή για Εγκρίσεις
@@ -462,20 +426,14 @@
       items:
         - name: Ρύθμιση παραμέτρων μη εφοδιασμένου υλικού και εκκρεμών τιμολογίων προμηθευτών
           href: procurement/configure-materials-nonstocked.md
-        - name: Προμήθεια μη εφοδιασμένων υλικών για έργα με χρήση εκκρεμών τιμολογίων προμηθευτών
+        - name: Προμήθεια μη εφοδιασμένου υλικού για έργα με χρήση εκκρεμών τιμολογίων προμηθευτών
           href: procurement/pending-vendor-invoices.md
-        - name: Παραγγελία μη εφοδιασμένων υλικών για έργα με χρήση παραγγελιών αγοράς έργου
-          href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: Διατήρηση προμηθευτή
-          items:
-            - name: Επισκόπηση διατήρησης προμηθευτή
-              href: procurement/vendor-retention-overview.md
-            - name: Εγκατάσταση διατήρησης προμηθευτή
-              href: procurement/set-up-vendor-retention.md
     - name: Τιμολόγηση
       items:
         - name: Επισκόπηση διεργασίας τιμολόγησης
           href: invoicing/post-project-invoices.md
+        - name: Διαχείριση προτάσεων τιμολογίου έργου
+          href: invoicing/format-update-project-invoice-proposals.md
         - name: Προτιμολόγηση
           items:
             - name: Διαχείριση λίστας εκκρεμοτήτων χρέωσης βάσει έργου
@@ -494,22 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Ρύθμιση παραμέτρων αυτοματοποίησης τιμολογίου βάσει έργου
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Τιμολόγηση πελατών
-          items:
-            - name: Διαχείριση προτάσεων τιμολογίου έργου
-              href: invoicing/format-update-project-invoice-proposals.md
-            - name: Διόρθωση λογιστικής σε προτάσεις προσχέδιου τιμολογίου έργου
-              href: invoicing/correct-project-invoice-proposals.md
-        - name: Διεταιρική τιμολόγηση
-          items:
-            - name: Επισκόπηση διεταιρικής τιμολόγησης
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Ρύθμιση παραμέτρων διεταιρικής τιμολόγησης
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Δημιουργία διεταιρικών συναλλαγών
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Δημιουργία διεταιρικών τιμολογίων πελατών και προμηθευτών
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+        - name: Διαχείριση προτάσεων τιμολογίου έργου
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: Λογιστική έργου
       items:
         - name: Προεπιλογές οικονομικής διάστασης
@@ -522,6 +466,16 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Ημερολόγιο ενοποίησης στο Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Διεταιρική τιμολόγηση
+          items:
+            - name: Επισκόπηση διεταιρικής τιμολόγησης
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Ρύθμιση παραμέτρων διεταιρικής τιμολόγησης
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Δημιουργία διεταιρικών συναλλαγών
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Δημιουργία διεταιρικών τιμολογίων πελατών και προμηθευτών
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Αναγνώριση εσόδων
       items:
         - name: Επισκόπηση αναγνώρισης εσόδων
@@ -538,12 +492,6 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Διαχείριση εκτιμήσεων εσόδων
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: Αντιμετώπιση προβλημάτων
-      items:
-        - name: Διεργασία πωλήσεων έργου
-          items:
-            - name: 'Σφάλμα αναντιστοιχίας νομισματικής μονάδας κατά τη δημιουργία έργου, σύμβασης, προσφοράς ή πόρου με δυνατότητα κράτησης'
-              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση
   items:
     - name: Έναρξη
@@ -558,37 +506,19 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Μοντέλο ασφαλείας
           href: environment/security-model.md
-    - name: Τι νέα υπάρχουν
+    - name: Τι νέο υπάρχει
       items:
-        - name: Τι νέα υπάρχουν για πρώιμη πρόσβαση στο κύμα 2 του 2021 - ελαφριά ανάπτυξη
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: 'Τι νέα υπάρχουν, Δεκέμβριος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Νοέμβριος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Οκτώβριος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Αύγουστος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Ιούλιος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Ιούνιος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Μάιος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Απρίλιος 2021 - ελαφριά ανάπτυξη'
+        - name: Τι νέο υπάρχει Απρίλιος 2021 - ελαφριά ανάπτυξη
           href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Μάρτιος 2021 - ελαφριά ανάπτυξη'
+        - name: 'Τι νέο υπάρχει, Μάρτιος 2021 - ελαφριά ανάπτυξη'
           href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Φεβρουάριος 2021 - ελαφριά ανάπτυξη'
+        - name: 'Τι νέο υπάρχει, Φεβρουάριος 2021 - ελαφριά ανάπτυξη'
           href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Ιανουάριος 2021 - ελαφριά ανάπτυξη'
+        - name: 'Τι νέο υπάρχει, Ιανουάριος 2021 - ελαφριά ανάπτυξη'
           href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Δεκέμβριος 2020 - ελαφριά ανάπτυξη'
+        - name: 'Τι νέο υπάρχει, Δεκέμβριος 2020 - ελαφριά ανάπτυξη'
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: 'Τι νέα υπάρχουν, Νοέμβριος 2020 - ελαφριά ανάπτυξη'
+        - name: 'Τι νέο υπάρχει, Νοέμβριος 2020 - ελαφριά ανάπτυξη'
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Διεργασία πωλήσεων έργου
       items:
@@ -826,10 +756,8 @@
           items:
             - name: Ανάπτυξη προτύπων έργου με την Αντιγραφή έργου
               href: project-management/dev-copy-project.md
-            - name: Χρήση API χρονοδιαγράμματος προγράμματος
+            - name: Χρήση API χρονοδιαγράμματος (Δημόσια έκδοση προεπισκόπησης)
               href: project-management/schedule-api-preview.md
-            - name: Απόδοση API χρονοδιαγράμματος έργου
-              href: project-management/project-schedule-api-performance.md
     - name: Διαχείριση πόρων
       items:
         - name: Βασικές έννοιες
@@ -884,53 +812,15 @@
               href: resource-management/manage-multiple-time-zones.md
         - name: Χρήση πόρων
           items:
-            - name: Επισκόπηση χρήσης πόρων
+            - name: Επισκόπηση χρήσης πόρου
               href: resource-management/resource-utilization-overview.md
-    - name: Διαχείριση υπεργολαβίας στο Project Operations
-      items:
-        - name: Διαχείριση υπεργολαβίας στο Project Operations
-          href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Ανάθεση υπεργολάβων στην πρώιμη πρόσβαση Οκτωβρίου 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: Βασικές έννοιες στην υπεργολαβία
-          href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Διαχείριση προμηθευτών και τιμοκατάλογοι έργων
-          href: pro/subcontracting/vendors-purchase-price-lists.md
-        - name: Οι υπεργολάβοι ως πόροι με δυνατότητα κράτησης
-          href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Λεπτομέρειες κεφαλίδας για υπεργολαβίες
-          href: pro/subcontracting/subcontract-header-details.md
-        - name: Γραμμές για χρόνο στην υπεργολαβία
-          href: pro/subcontracting/subcontract-line-time.md
-        - name: Γραμμές για κατηγορίες εξόδων στην υπεργολαβία
-          href: pro/subcontracting/subcontract-line-expense.md
-        - name: Γραμμές για προϊόντα στην υπεργολαβία
-          href: pro/subcontracting/subcontract-line-products.md
-        - name: Πόροι γραμμής για υπεργολάβο
-          href: pro/subcontracting/subcontract-line-resources.md
-        - name: Ορόσημα γραμμής υπεργολαβίας
-          href: pro/subcontracting/subcontract-line-milestones.md
-        - name: Υπεργολαβία μελών ομάδας έργου
-          href: pro/subcontracting/subcontracting-project-team-members.md
-        - name: Επιλογές υπεργολαβίας για μέλη ομάδας έργου
-          href: pro/subcontracting/subcon-options.md
-        - name: Εκτίμηση κόστους αναθέσεων πόρων υπεργολαβιών
-          href: pro/subcontracting/costing-subcon-ra.md
-        - name: Ρύθμιση παραμέτρων του πίνακα χρονοδιαγράμματος για εμφάνιση των συμβασιούχων εργαζομένων και των ανάδοχων εκχωρημένων πόρων
-          href: pro/subcontracting/configure-sb-subcon.md
-        - name: Στελέχωση ενός έργου με συμβασιούχους εργαζομένους και αναδόχους εκχωρημένους πόρους
-          href: pro/subcontracting/staffing-cw.md
-        - name: 'Καταγραφή χρόνου, δαπανών και χρήσης υλικού για υπεργολάβους'
-          href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Κρατικές μεταβάσεις σε υπεργολαβία
-          href: pro/subcontracting/subcon-states.md
     - name: Χρόνος
       items:
         - name: Επισκόπηση χρόνου
           href: time/time-entry-overview.md
         - name: Δημιουργία καταχωρήσεων χρόνου
           items:
-            - name: Περιβάλλον εργασίας χρήστη για την καταχώρηση χρόνου
+            - name: Περιβάλλον εργασίας χρήστη για την καταχώρηση ώρας
               href: time/ui-behavior-time.md
         - name: Σημειώσεις προγραμματιστή
           items:
@@ -950,8 +840,6 @@
       items:
         - name: Επισκόπηση εγκρίσεων
           href: approvals/approvals-overview.md
-        - name: Σύνολα εγκρίσεων
-          href: approvals/approval-sets.md
         - name: Σημειώσεις προγραμματιστή
           items:
             - name: Σημειώσεις προγραμματιστή για Εγκρίσεις
@@ -986,25 +874,17 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
   items:
-    - name: Τι νέα υπάρχουν
+    - name: Τι νέο υπάρχει
       items:
-        - name: 'Τι νέα υπάρχουν, Οκτώβριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Ιούλιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Μάιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Απρίλιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+        - name: 'Τι νέο υπάρχει, Απρίλιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Μάρτιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+        - name: 'Τι νέο υπάρχει, Μάρτιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Ιανουάριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+        - name: 'Τι νέο υπάρχει, Ιανουάριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Δεκέμβριος 2020 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+        - name: 'Τι νέο υπάρχει, Δεκέμβριος 2020 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
           href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: 'Τι νέα υπάρχουν, Νοέμβριος 2020 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+        - name: 'Τι νέο υπάρχει, Νοέμβριος 2020 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Επισκόπηση ανάπτυξης του Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
       href: prod-pma/project-operations-prod-order-deployment-overview.md
@@ -1144,83 +1024,65 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: Τι νέα υπάρχουν
+    - name: Τι νέο υπάρχει
       items:
-        - name: Ενημέρωση χρονοδιαγράμματος έκδοσης για το Project Service 3.x
+        - name: Χρονοδιάγραμμα έκδοσης ενημέρωσης για το Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 38, V3'
-          href: psa/whats-new-ur-38.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 37.5, V3'
-          href: psa/whats-new-ur-37-5.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 37, V3'
-          href: psa/whats-new-ur-37.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 36, V3'
-          href: psa/whats-new-ur-36.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 35, V3'
-          href: psa/whats-new-ur-35.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 34, V3'
-          href: psa/whats-new-ur-34.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 33, V3'
-          href: psa/whats-new-ur-33.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 32.5, V3'
-          href: psa/whats-new-ur-32-5.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 32, V3'
-          href: psa/whats-new-ur-32.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 31, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 31, V3'
           href: psa/whats-new-ur-31.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 30, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 30, V3'
           href: psa/whats-new-ur-30.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 29.5, Άμεση επιδιόρθωση, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 29.5, Άμεση επιδιόρθωση, V3'
           href: psa/whats-new-ur-29-5.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 29, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 29, V3'
           href: psa/whats-new-ur-29.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 28.6, Άμεση επιδιόρθωση, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 28.6, Άμεση επιδιόρθωση, V3'
           href: psa/whats-new-ur-28-6.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 28.5, Άμεση επιδιόρθωση, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 28.5, Άμεση επιδιόρθωση, V3'
           href: psa/whats-new-ur-28-5.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 28, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 28, V3'
           href: psa/whats-new-ur-28.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 27.6, Άμεση επιδιόρθωση, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 27.6, Άμεση επιδιόρθωση, V3'
           href: psa/whats-new-ur-27-6.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 27.5, Άμεση επιδιόρθωση, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 27.5, Άμεση επιδιόρθωση, V3'
           href: psa/whats-new-ur-27-5.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 27, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 27, V3'
           href: psa/whats-new-ur-27.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 26, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 26, V3'
           href: psa/whats-new-ur-26.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 25, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 25, V3'
           href: psa/whats-new-ur-25.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 24, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 24, V3'
           href: psa/whats-new-ur-24.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 23, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 23, V3'
           href: psa/whats-new-ur-23.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 22, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 22, V3'
           href: psa/whats-new-ur-21.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 20, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 20, V3'
           href: psa/whats-new-ur-20.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 19, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 19, V3'
           href: psa/whats-new-ur-19.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 18, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 18, V3'
           href: psa/whats-new-ur-18.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 17.5, Άμεση επιδιόρθωση, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 17.5, Άμεση επιδιόρθωση, V3'
           href: psa/whats-new-ur-17-5.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 17, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 17, V3'
           href: psa/whats-new-ur-17.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 16, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 16, V3'
           href: psa/whats-new-ur-16.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 15, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 15, V3'
           href: psa/whats-new-ur-15.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 14, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 14, V3'
           href: psa/whats-new-ur-14.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 13, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 13, V3'
           href: psa/whats-new-ur-13.md
-        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 12, V3'
+        - name: 'Τι νέο υπάρχει ή τι άλλαξε στην Έκδοση ενημέρωσης 12, V3'
           href: psa/whats-new-ur-12.md
-        - name: Τι νέα υπάρχουν ή τι άλλαξε στο Project Service Automation V3.x κύμα 1 2021
+        - name: Τι νέο υπάρχει ή τι άλλαξε στο Project Service Automation V3.x κύμα 1 2021
           href: psa/whats-new-2021-wave1.md
-        - name: Τι νέα υπάρχουν ή τι άλλαξε στο Project Service Automation V3.x κύμα 1 2020
+        - name: Τι νέο υπάρχει ή τι άλλαξε στο Project Service Automation V3.x κύμα 1 2020
           href: psa/whats-new-v3-2020-wave1.md
-        - name: Τι νέα υπάρχουν ή τι άλλαξε στο Project Service Automation V3
+        - name: Τι νέο υπάρχει ή τι άλλαξε στο Project Service Automation V3
           href: psa/whats-new-changed-v3.md
     - name: Σχεδιάστε την υλοποίηση σας (έκδοση εφαρμογής 3.x)
       items:
@@ -1236,8 +1098,6 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Οδηγός για τις αναφορές
           href: psa/implementation-guides/reporting-guide.md
-    - name: Αναβάθμιση από Project Service Automation σε Project Operations - lite
-      href: psa/upgrade-project-operations-non-stocked.md
     - name: Αναβάθμιση του Project Service Automation (έκδοση εφαρμογής 3.x)
       items:
         - name: Αναβάθμιση του Project Service Automation
@@ -1406,8 +1266,6 @@
               href: psa/time-entry-calendar.md
             - name: Προσαρμογή καταχώρησης εβδομαδιαίου χρόνου
               href: psa/time-entry-extensibility-v3.md
-            - name: Σύνολα εγκρίσεων στο Project Service Automation
-              href: psa/approval-set.md
     - name: Συνήθεις ερωτήσεις και αντιμετώπιση προβλημάτων (3.x)
       items:
         - name: Γιατί η τιμή είναι μηδέν κατά προεπιλογή στις πραγματικές τιμές του κόστους εξόδων;

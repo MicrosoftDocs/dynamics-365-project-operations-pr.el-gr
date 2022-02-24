@@ -2,16 +2,18 @@
 title: Εργασία με γραμμές σύμβασης βάσει έργου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις γραμμές σύμβασης βάσει έργου.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990046"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181720"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Εργασία με γραμμές σύμβασης βάσει έργου
 
@@ -55,6 +57,3 @@ ms.locfileid: "6990046"
 | C1       | CL2           | Π1      | No           | Ναι             | No          | Έγκυρα           | Ο χρόνος και οι χρεώσεις στο έργο P1 περιλαμβάνονται στο CL1. Η δαπάνη στο έργο P1 περιλαμβάνεται στο CL2. </br>   Δεν υπάρχει επικάλυψη σε αυτό που περιλαμβάνεται σε κάθε γραμμή σύμβασης και επομένως είναι έγκυρο.  |
 | C1       | CL1           | Π1      | Ναι          | Ναι             | Ναι         | Μη έγκυρο       | Παραβιάζει τον κανόνα. Ο χρόνος, η δαπάνη και οι χρεώσεις στο έργο P1 περιλαμβάνονται στις γραμμές και των δύο συμβάσεων.                                                                                               |
 | CL2      | CL2           | Π1      | Ναι          | Ναι             | Ναι         | Μη έγκυρο       | Παραβιάζει τον κανόνα. Ο χρόνος, η δαπάνη και οι χρεώσεις στο έργο P1 περιλαμβάνονται στις γραμμές και των δύο συμβάσεων.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

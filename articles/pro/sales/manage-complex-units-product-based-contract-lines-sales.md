@@ -2,16 +2,18 @@
 title: Διαχείριση σύνθετων μονάδων για γραμμές σύμβασης βάσει προϊόντων - lite
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την υποστήριξη της πώλησης προϊόντων που βασίζονται σε συνδρομή.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003366"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177376"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Διαχείριση σύνθετων μονάδων για γραμμές σύμβασης βάσει προϊόντων - lite
 
@@ -44,6 +46,3 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
 7. Επαναλάβετε τα βήματα 2-6 για όλες τις ιδιότητες που αποτελούν το σύνολο της ποσότητας για τη γραμμή σύμβασης με βάση τα προϊόντα.
 
 Ενώ έχουν ρυθμιστεί οι ποσοτικοί συντελεστές, όταν ο χρήστης δημιουργεί μια γραμμή σύμβασης για αυτό το προϊόν, η ποσότητα της γραμμή σύμβασης είναι κλειδωμένη. Στη συνέχεια, η ποσότητα υπολογίζεται ως προϊόν των τιμών ιδιοτήτων για τη συγκεκριμένη γραμμή σύμβασης.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

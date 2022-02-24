@@ -2,6 +2,8 @@
 title: Εύρεση του επόμενου έργου σας με την εφαρμογή Project Finder Mobile
 description: Πώς να βρείτε το επόμενο έργο σας με την εφαρμογή Project Finder Mobile για το Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990774"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149273"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Βρείτε το επόμενο έργο σας με την εφαρμογή Project Finder Mobile (Project Service)
 
@@ -38,15 +40,12 @@ ms.locfileid: "6990774"
   
  Πατήστε το βέλος που βρίσκεται δεξιά από το έργο που σας ενδιαφέρει για να δείτε περισσότερες λεπτομέρειες και να εγγραφείτε για αυτό.  
   
- ![Λίστα δεξιοτήτων που ταιριάζουν με έργα στην εφαρμογή Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Λίστα δεξιοτήτων που ταιριάζουν με έργα στην εφαρμογή Project Finder Mobile")  
+ ![Λίστα δεξιοτήτων που ταιριάζουν με έργα στην εφαρμογή Project Finder Mobile](../psa/media/project-service-project-finder-list.png "Λίστα δεξιοτήτων που ταιριάζουν με έργα στην εφαρμογή Project Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Ενημέρωση των δεξιοτήτων σας  
  Πατήστε το κουμπί προφίλ κάτω δεξιά στην οθόνη για να ενημερώσετε τα επίπεδα επάρκειας και τις ικανότητές σας.  
   
- ![Κουμπί προφίλ στην εφαρμογή Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Κουμπί προφίλ στην εφαρμογή Project Finder Mobile")  
+ ![Κουμπί προφίλ στην εφαρμογή Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "Κουμπί προφίλ στην εφαρμογή Project Finder Mobile")  
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Οδηγός Χρόνου, Εξόδων και Συνεργασίας](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Αντιγραφή ευκαιριών βάσει έργου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο αντιγραφής ευκαιριών βάσει έργου στο Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999721"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181646"
 ---
 # <a name="copy-project-based-opportunities"></a>Αντιγραφή ευκαιριών βάσει έργου
 
@@ -32,6 +34,3 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
     | Αντιγραφή τιμολόγησης | Μια τιμή Ναι/Όχι που υποδεικνύει εάν η τιμολόγηση της ευκαιρίας θα πρέπει να αντιγραφεί από την ευκαιρία προέλευσης. | Εάν επιλέξετε **Ναι**, οι τιμοκατάλογοι αντιγράφονται από την προέλευση στην ευκαιρία-στόχο. Εάν επιλεγεί **Όχι** οι τιμοκατάλογοι προεπιλέγονται με βάση τους πιο πρόσφατους τιμοκαταλόγους που έχουν οριστεί. |
 
 3. Επιλέξτε **OK**. Το σύστημα δημιουργεί ένα αντίγραφο της ευκαιρίας έργου με βάση τις επιλεγμένες παραμέτρους και ανοίγει η νέα ευκαιρία έργου.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

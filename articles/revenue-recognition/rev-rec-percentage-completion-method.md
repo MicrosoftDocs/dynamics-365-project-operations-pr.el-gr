@@ -2,16 +2,18 @@
 title: Έργα εκτίμησης εσόδων σταθερής τιμής
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τα έσοδα σταθερής τιμής σε έργα.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006426"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531438"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Έργα εκτίμησης εσόδων σταθερής τιμής 
 
@@ -33,6 +35,3 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
   Το κόστος έργου, το προφίλ εσόδων, το πρότυπο κόστους και ο κωδικός περιόδου μπορούν να οριστούν με μη αυτόματο τρόπο. Εάν δεν έχουν οριστεί με μη αυτόματο τρόπο, οι προεπιλεγμένες τιμές στη διάρκεια του πρώτου υπολογισμού εκτίμησης για το έργο με τη χρήση των κανόνων που έχουν ρυθμιστεί για προφίλ κόστους και εσόδων έργου.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

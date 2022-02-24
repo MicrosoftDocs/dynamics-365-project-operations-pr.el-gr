@@ -2,16 +2,18 @@
 title: Προσθήκη μιας συνδρομής Azure σε ένα έργο LCS
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο σύνδεσης της συνδρομής σας Azure σε ένα έργο LCS.
 author: sigitac
+manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986671"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880538"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Προσθήκη μιας συνδρομής Azure σε ένα έργο LCS
 
@@ -23,35 +25,35 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 1. Στο έργο σας LCS, στην ενότητα **Περιβάλλοντα**, επιλέξτε **Ρυθμίσεις Microsoft Azure**.
 
-![Ρυθμίσεις του Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
+![Ρυθμίσεις του Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
 2. Στη σελίδα **Ρυθμίσεις έργου**, στην καρτέλα **Συνδέσεις Azure** επιλέξτε **Εξουσιοδότηση**. Με αυτόν τον τρόπο, επιτρέπεται η ανάπτυξη περιβαλλόντων σε αυτό το έργο.
 
-![Συνδέσεις Azure.](./media/2AzureConnectors.png)
+![Συνδέσεις Azure](./media/2AzureConnectors.png)
 
 3. Επιλέξτε **Εξουσιοδότηση** ξανά για να παράσχετε τη συγκατάθεση του διαχειριστή.
 
-![Παραχώρηση συγκατάθεσης διαχειριστή.](./media/3GrantAdminConsent.png)
+![Εκχώρηση συγκατάθεσης διαχειριστή](./media/3GrantAdminConsent.png)
 
 4. Αποδεχτείτε το αίτημα για δικαιώματα.
 
-![Αποδοχή του αιτήματος για δικαιώματα.](./media/4AcceptPermissionRequest.png)
+![Αποδεχτείτε το αίτημα για δικαιώματα](./media/4AcceptPermissionRequest.png)
 
 Η εξουσιοδότηση έχει πλέον ολοκληρωθεί. 
 
-![Επιτυχής εξουσιοδότηση.](./media/5AuthorizationComplete.png)
+![Επιτυχής εξουσιοδότηση](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Παροχή υπηρεσιών ανάπτυξης Dynamics για πρόσβαση στη συνδρομή σας Azure
 
 1. Μεταβείτε στη [Χρέωση Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) και επιλέξτε τη συνδρομή σας. Οι υπηρεσίες ανάπτυξης του Dynamics πρέπει να αποκτήσουν πρόσβαση σε αυτήν τη συνδρομή για να είναι δυνατή η ανάπτυξη περιβαλλόντων.
 
-![Λεπτομέρειες συνδρομής Azure.](./media/6AzureSubscription.png)
+![Πληροφορίες συνδρομής Azure](./media/6AzureSubscription.png)
 
 2. Επιλέξτε **Έλεγχος πρόσβασης (IAM)** στο παράθυρο περιήγησης και, στη συνέχεια, επιλέξτε **Προσθήκη ανάθεσης ρόλου**.
 3. Στο ρυθμιστικό στη δεξιά πλευρά, επιλέξτε **Ρόλος συμμετέχοντα** και στη λίστα που παρέχεται, βρείτε και επιλέξτε **Υπηρεσίες ανάπτυξης του Dynamics**. 
 4. Επιλέξτε **Αποθήκευση**.
 
-![Πρόσβαση συνδρομής.](./media/7SubscriptionAccess.png)
+![Πρόσβαση συνδρομής](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Προσθήκη μιας σύνδεσης συνδρομής στο έργο LCS
 

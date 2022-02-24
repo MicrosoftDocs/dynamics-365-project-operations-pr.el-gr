@@ -2,9 +2,10 @@
 title: Τι είναι το Dynamics 365 Project Service Automation;
 description: Εισαγωγή και επισκόπηση του Project Service
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000261"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150533"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Τι είναι το Dynamics 365 Project Service Automation;
 
@@ -46,10 +47,10 @@ ms.locfileid: "7000261"
 ## <a name="whats-new-in-psa"></a>Τι νέο υπάρχει στο PSA
 Η ομάδα σας ανακοινώνει με χαρά τις πιο πρόσφατες ενημερωμένες εκδόσεις! Κυμαίνονται από βελτιώσεις στο περιβάλλον εργασίας χρήστη, διορθώσεις σφαλμάτων και προσθήκες σημαντικών νέων χαρακτηριστικών και δυνατοτήτων. Ζητήσατε κάτι; Εμείς σας ακούσαμε.
 
-Ρίξτε μια ματιά στις [Σημειώσεις έκδοσης Οκτωβρίου '19](/dynamics365-release-plan/2019wave2/index) για να δείτε το πιο πρόσφατες βελτιώσεις και προσθήκες.
+Ρίξτε μια ματιά στις [Σημειώσεις έκδοσης Οκτωβρίου '19](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) για να δείτε το πιο πρόσφατες βελτιώσεις και προσθήκες.
 
 ### <a name="in-development"></a>Σε ανάπτυξη
-Για να δείτε τι έχουμε προγραμματίσει για το μέλλον, δείτε το [Dynamics 365: 1 πλάνο για το κύμα κυκλοφορίας 2020](/dynamics365-release-plan/2020wave1/index).
+Για να δείτε τι έχουμε προγραμματίσει για το μέλλον, δείτε το [Dynamics 365: πλάνο κύματος 1 έκδοσης 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Λήψη Βοήθειας σχετικά με την έκδοση PSA 3.x
 Αναζήτηση για πόρους που θα σας βοηθήσουν να σχεδιάσετε την υλοποίηση; Δείτε τους οδηγούς αυτούς με δυνατότητα λήψης.
@@ -82,9 +83,6 @@ ms.locfileid: "7000261"
  [Σημειώσεις για προγραμματιστές (έκδοση εφαρμογής 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Παρακολουθήστε ένα βίντεο επισκόπησης διάρκειας 2 λεπτών
- <a name="heroArea"></a> [![ProjectService_IntroVideo](.. /psa/media/project-service-intro-video.png "ProjectService_IntroVideo".](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

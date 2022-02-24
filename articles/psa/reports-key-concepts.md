@@ -2,6 +2,8 @@
 title: Βασικές έννοιες
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις βασικές έννοιες για τη διαχείριση πόρων στο Project Service Automation.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995086"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147743"
 ---
 # <a name="key-concepts"></a>Βασικές έννοιες
 
@@ -46,6 +48,3 @@ ms.locfileid: "6995086"
 | Καμπύλη                    | Εργασία, απαίτηση ή ώρες ανάθεσης, καθώς αναλύονται σε καθημερινή διανομή. Για παράδειγμα, μια εργασία πέντε ημερών, 40 ωρών μπορεί να περιοριστεί σε οκτώ ώρες την ημέρα σε πέντε ημέρες. |
 | Προβολή εναρμόνισης        | Μια προβολή που εμφανίζει τις κρατήσεις και όλες τις αναθέσεις για κάθε μέλος της ομάδας έργου. Αυτή η προβολή επιτρέπει στο διαχειριστή έργου να αναζητά τυχόν ασυμφωνία μεταξύ των κρατήσεων και των αναθέσεων και να λαμβάνει διορθωτικές ενέργειες εάν προκύψει ασυμφωνία. |
 | Ώρες εργασίας                 | Μια οντότητα που χρησιμοποιείται για τον προσδιορισμό της παραγωγικής ικανότητας των πόρων και των εργάσιμων και μη εργάσιμων ωρών. Αυτή η οντότητα αναφέρεται επίσης ως ημερολόγιο πόρου. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,17 +2,18 @@
 title: Επισκόπηση διεταιρικής τιμολόγησης
 description: Αυτό το θέμα παρέχει πληροφορίες και παραδείγματα σχετικά με τη διεταιρική τιμολόγηση για έργα.
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005391"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595475"
 ---
 # <a name="intercompany-invoicing-overview"></a>Επισκόπηση διεταιρικής τιμολόγησης
 
@@ -20,9 +21,9 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 Ο οργανισμός σας μπορεί να έχει πολλαπλά τμήματα, θυγατρικές και άλλες νομικές οντότητες που μεταφέρουν τα προϊόντα και τις υπηρεσίες μεταξύ τους για τα έργα. Η νομική οντότητα που παρέχει την υπηρεσία ή το προϊόν ονομάζεται *νομική οντότητα που δανείζει*. Η νομική οντότητα που λαμβάνει την υπηρεσία ή το προϊόν ονομάζεται *νομική οντότητα που δανείζεται*.
 
-Παρακάτω παρουσιάζεται ένα τυπικό σενάριο, όπου δύο νομικές οντότητες, η Contoso Robotics USA (το νομικό πρόσωπο που δανείζεται) και η Contoso Robotics UK. (το νομικό πρόσωπο που δανείζει) μοιράζονται πόρους για την παροχή ενός έργου για τον πελάτη, Adventure works. Για το συγκεκριμένο σενάριο, η Contoso Robotics USA έχει συμβάσεις για την παράδοση της εργασίας στην Adventure Works.
+Η εικόνα που ακολουθεί δείχνει ένα τυπικό σενάριο όπου δύο νομικές οντότητες, η Contoso Robotics USA (η νομική οντότητα που δανείζεται) και η Contoso Robotics UK (νομική οντότητα που δανείζει) μοιράζονται πόρους για την παράδοση ενός έργου για τον πελάτη, την Adventure Works. Για αυτό το σενάριο, η Contoso Robotics USA αναλαμβάνει την παροχή της εργασίας στην Adventure Works.
 
-![Διεταιρική τιμολόγηση.](./media/IntercompanyScenario.png) 
+![Διεταιρική τιμολόγηση](./media/IntercompanyScenario.png) 
 
 Το Dynamics 365 Project Operations χρησιμοποιεί την ακόλουθη ροή για την επεξεργασία διεταιρικών συναλλαγών:
 
@@ -35,13 +36,10 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 Στο ακόλουθο διάγραμμα απεικονίζεται η διεταιρική τιμολόγηση, όπως σχετίζεται με τα λογιστικά συμβάντα και τις αναμενόμενες καταχωρήσεις στο γενικό καθολικό.
 
-![Διεταιρική ροή.](./media/IntercompanyFlow.png)
+![Διεταιρική ροή](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Πρόσθετοι πόροι
 
 - [Ρύθμιση παραμέτρων διεταιρικής τιμολόγησης](configure-intercompany-invoicing.md)
 - [Καταγραφή διεταιρικών συναλλαγών](create-intercompany-transactions.md)
 - [Δημιουργία διεταιρικών τιμολογίων πελατών και προμηθευτών](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

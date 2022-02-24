@@ -2,9 +2,11 @@
 title: Ορισμός πολιτικών εξόδων
 description: Μπορείτε να καθορίσετε πολιτικές εξόδων που πρέπει να ακολουθούν οι εργαζόμενοι σας όταν εισάγουν και υποβάλλουν αναφορές εξόδων και αιτήσεις μετάβασης.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986356"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128418"
 ---
 # <a name="define-expense-policies"></a>Ορισμός πολιτικών εξόδων
 
@@ -51,6 +53,3 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 ## <a name="when-to-evaluate-policies"></a>Πότε πρέπει να αξιολογούνται οι πολιτικές
 
 Στις παραμέτρους διαχείρισης εξόδων, μπορείτε να επιλέξετε να αξιολογείτε τις πολιτικές διαχείρισης δαπανών όταν αποθηκεύεται μια γραμμή ή όταν υποβάλλεται μια αναφορά εξόδων. Εάν επιλέξετε να αξιολογείτε κατά την αποθήκευση μιας γραμμής, οι χρήστες θα έχουν νωρίτερα εικόνα σχετικά με το τι πρέπει να κάνουν προκειμένου να ολοκληρώσουν την αναφορά εξόδων τους ταυτόχρονα. Διαφορετικά, μπορείτε να καθυστερήσετε την αξιολόγηση πολιτικής και να εξοικονομήσετε χρόνο με την επικύρωση στο τέλος, κατά την υποβολή στη ροή εργασιών.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

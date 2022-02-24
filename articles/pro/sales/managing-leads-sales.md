@@ -2,16 +2,18 @@
 title: Διαχείριση υποψήφιων πελατών - lite
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη διαχείριση υποψήφιων πελατών βάσει έργου (pro).
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 218461e6b2013b014d59e2846fe19681d785771aa82284db33ff18c8b6b83946
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991396"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272838"
 ---
 # <a name="manage-leads---lite"></a>Διαχείριση υποψήφιων πελατών - lite
 
@@ -53,7 +55,7 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
 - Μια καρτέλα επαφής που συσχετίζεται με το λογαριασμό με βάση τις τιμές στα πεδία **Όνομα** και **Επώνυμο** στον υποψήφιο πελάτη.
 - Μια ευκαιρία βάσει έργου με το πεδίο **Τύπος** ορισμένο σε **Βάσει εργασίας**.
 
-Για πιο αναλυτικές πληροφορίες σχετικά με τους εγκεκριμένους υποψήφιους πελάτες, ανατρέξτε στην ενότητα [Έγκριση υποψήφιων πελατών ή μετατροπή](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Για πιο αναλυτικές πληροφορίες σχετικά με τους εγκεκριμένους υποψήφιους πελάτες, ανατρέξτε στην ενότητα [Έγκριση υποψήφιων πελατών ή μετατροπή](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Ροή επιχειρηματικής διαδικασίας για συμφωνίες που βασίζονται σε έργο
 

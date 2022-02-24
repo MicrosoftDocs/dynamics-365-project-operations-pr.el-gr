@@ -2,10 +2,12 @@
 title: Τιμολόγηση στο Project Service Automation
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την τιμολόγηση.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985501"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151388"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Τιμολόγηση στο Project Service Automation
 
@@ -50,7 +52,7 @@ ms.locfileid: "6985501"
 
 - Στη σελίδα λίστας **Συμβάσεις έργου** ανοίξτε μια σύμβαση έργου και, στη συνέχεια επιλέξτε **Δημιουργία τιμολογίου**.
 
-    ![Δημιουργία τιμολογίων έργου για μια συγκεκριμένη σύμβαση έργου.](media/CreateProjectInvoicesOneByOne.png)
+    ![Δημιουργία τιμολογίων έργου για μια συγκεκριμένη σύμβαση έργου](media/CreateProjectInvoicesOneByOne.png)
 
     Δημιουργείται ένα τιμολόγιο για όλες τις συναλλαγές για την επιλεγμένη σύμβαση έργου που έχουν κατάσταση **Έτοιμο προς τιμολόγηση**. Στις συναλλαγές αυτές περιλαμβάνονται ο χρόνος, τα έξοδα, τα ορόσημα και οι γραμμές σύμβασης βάσει προϊόντων.
 
@@ -58,7 +60,7 @@ ms.locfileid: "6985501"
 
 1. Στη σελίδα λίστας **Συμβάσεις έργου**, επιλέξτε μία ή περισσότερες συμβάσεις έργου για τις οποίες θα πρέπει να δημιουργήσετε ένα τιμολόγιο και μετά επιλέξτε **Δημιουργία τιμολογίων έργων**.
 
-    ![Δημιουργία τιμολογίων έργων μαζικά.](media/CreateProjectInvoicesBulk.png)
+    ![Δημιουργία τιμολογίων έργων μαζικά](media/CreateProjectInvoicesBulk.png)
 
     Ένα μήνυμα προειδοποίησης σας ενημερώνει ότι ενδέχεται να υπάρξει καθυστέρηση πριν δημιουργηθούν τα τιμολόγια. Επίσης, εμφανίζεται η διεργασία.
 
@@ -115,6 +117,3 @@ ms.locfileid: "6985501"
 
 - Μια πραγματική τιμολόγηση πωλήσεων για έξι ώρες.
 - Μια πραγματική πώληση που δεν έχει χρεωθεί για τις υπόλοιπες δύο ώρες. Αυτή η συναλλαγή μπορεί είτε να χρεωθεί αργότερα είτε να χαρακτηριστεί ως μη τιμολογημένη, ανάλογα με τις διαπραγματεύσεις με τον πελάτη.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

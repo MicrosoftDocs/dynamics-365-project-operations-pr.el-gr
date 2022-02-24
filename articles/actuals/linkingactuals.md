@@ -2,17 +2,19 @@
 title: Σύνδεση πραγματικών τιμών με αρχικές καρτέλες
 description: Αυτό θέμα εξηγεί τον τρόπο σύνδεσης πραγματικών τιμών με τις αρχικές καρτέλες, όπως η καταχώρηση χρόνου, η καταχώρηση δαπανών ή τα αρχεία καταγραφής χρήσης υλικού.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991756"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852589"
 ---
 # <a name="link-actuals-to-original-records"></a>Σύνδεση πραγματικών τιμών με αρχικές καρτέλες
 
@@ -77,7 +79,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 Το παρακάτω παράδειγμα δείχνει τη συνήθη επεξεργασία καταχωρήσεων χρόνου σε έναν κύκλο ζωής έργου Project Operations.
 
-> ![Επεξεργασία ολόκληρου του χρόνου σε έναν κύκλο ζωής Project Service.](media/basic-guide-17.png)
+> ![Επεξεργασία ολόκληρου του χρόνου σε έναν κύκλο ζωής Project Service](media/basic-guide-17.png)
  
 1. Μια υποβολή καταχώρησης χρόνου προκαλεί δύο γραμμές ημερολογίου: μία γραμμή για το κόστος και μία γραμμή για πωλήσεις που δεν έχουν τιμολογηθεί.
 2. Η τελική έγκριση της καταχώρησης χρόνου δημιουργεί δύο πραγματικές τιμές: μία για το κόστος και μία πραγματική τιμή για πωλήσεις που δεν έχουν τιμολογηθεί.

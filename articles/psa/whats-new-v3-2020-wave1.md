@@ -1,6 +1,8 @@
 ---
 title: Τι νέο υπάρχει ή τι αλλάζει στο Project Service Automation, έκδοση 3.x, κύμα 1 2020
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με το τι νέο υπάρχει και τι έχει αλλάξει στο Project Service Automation, έκδοση 3, κύμα 1 2020.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a88b777c54ce54935d5483f616f3a24724ee192d40fbfd5d514f990e958dd5ea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5110679038ae7ed1e21a3e7dc80a4657e0752b49
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002106"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150938"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Τι νέο υπάρχει ή τι αλλάζει στο Project Service Automation, έκδοση 3.x, κύμα 1 2020
 
@@ -41,6 +43,3 @@ ms.locfileid: "7002106"
 
 ### <a name="currently-extended-time-entry-changes"></a>Αλλαγές χρονικής καταχώρησης που επεκτείνονται προς το παρόν
 Για να ελαχιστοποιηθεί ο αντίκτυπος σε τρέχοντες χρήστες της χρονικής καταχώρησης, αυτή η αλλαγή ρόλου είναι η μόνη βασική απαίτηση που είναι αναγκαία για τη συνέχιση της χρήσης της χρονικής καταχώρησης. Εάν έχετε δημιουργήσει προσαρμοσμένες προβολές ή ξεχωριστές εμπειρίες χρονικών καταχωρήσεων, πρέπει να ορίσετε τα πεδία **Ρύθμσης χρονικής καταχώρησης** στη σωστή τιμή PSA.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

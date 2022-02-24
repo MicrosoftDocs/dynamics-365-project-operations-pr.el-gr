@@ -2,9 +2,11 @@
 title: Στάδια έργου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τα στάδια του έργου που είναι διαθέσιμα στο Microsoft Dynamics Project Operations (Λειτουργίες έργου).
 author: ruhercul
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ea8b74813e8a51930a03571eab0d962e14f66a8fd6cb978d3435570a01ce5c5d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aa3d692a46165b01eafbd7619578cead8dd912d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003052"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127473"
 ---
 # <a name="project-stages"></a>Στάδια έργου
 
@@ -61,6 +63,3 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 Όταν καταγραφούν όλες οι συναλλαγές για το έργο, ο υπεύθυνος έργου μπορεί να ενημερώσει το στάδιο σε **Κλείσιμο**. Σε αυτό το σημείο, καμία συναλλαγή δεν μπορεί να καταγραφεί και το έργο έχει οριστεί ως "μόνο για ανάγνωση".
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

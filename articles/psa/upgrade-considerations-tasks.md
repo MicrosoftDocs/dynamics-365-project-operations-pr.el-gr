@@ -1,6 +1,8 @@
 ---
 title: Ζητήματα αναβάθμισης για τη δομή ανάλυσης εργασίας
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την αναβάθμιση της δομής ανάλυσης εργασίας από το Project Service Automation 2.x σε 3.x.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992341"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149543"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Ζητήματα αναβάθμισης για τη δομή ανάλυσης εργασίας
 
@@ -32,20 +34,20 @@ ms.locfileid: "6992341"
 ## <a name="key-entities"></a>Βασικές οντότητες
 Για μια ακριβή δομή ανάλυσης εργασίας που έχει ήδη φορτωθεί με πόρους, απαιτούνται οι ακόλουθες οντότητες:
 
-- [Έργο](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Ομάδα έργου](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Εργασία έργου](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Αναθέσεις πόρων](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Εξάρτηση εργασίας έργου](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Πόροι με δυνατότητα κράτησης](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Έργο](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Ομάδα έργου](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Εργασία έργου](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Αναθέσεις πόρων](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Εξάρτηση εργασίας έργου](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Πόροι με δυνατότητα κράτησης](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Για να καθορίσετε μια φορτωμένη δομή ανάλυσης εργασίας πόρου πρέπει να ολοκληρώσετε τα παρακάτω βήματα:
 
-1. Δημιουργία νέου έργου. Για περισσότερες πληροφορίες σχετικά με τον τρόπο δημιουργίας ενός νέου έργου, δείτε [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Δημιουργήστε μία ή περισσότερες εργασίες. Για περισσότερες πληροφορίες σχετικά με τον τρόπο δημιουργίας μιας εργασίας δείτε [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Καθορίστε τις εξαρτήσεις εργασιών. Για περισσότερες πληροφορίες, ανατρέξτε στην ενότητα [Εξάρτηση εργασίας έργου](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Ανάθεση μελών ομάδας έργου στο έργο. Για περισσότερες πληροφορίες, δείτε [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-5. Ανάθεση μελών ομάδας έργου σε εργασίες. Για περισσότερες πληροφορίες, δείτε [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+1. Δημιουργία νέου έργου. Για περισσότερες πληροφορίες σχετικά με τον τρόπο δημιουργίας ενός νέου έργου, δείτε [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Δημιουργήστε μία ή περισσότερες εργασίες. Για περισσότερες πληροφορίες σχετικά με τον τρόπο δημιουργίας μιας εργασίας δείτε [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Καθορίστε τις εξαρτήσεις εργασιών. Για περισσότερες πληροφορίες, ανατρέξτε στην ενότητα [Εξάρτηση εργασίας έργου](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Ανάθεση μελών ομάδας έργου στο έργο. Για περισσότερες πληροφορίες, δείτε [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+5. Ανάθεση μελών ομάδας έργου σε εργασίες. Για περισσότερες πληροφορίες, δείτε [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
 
 ## <a name="project-team-relationships"></a>Σχέσεις ομάδας έργου
 
@@ -94,6 +96,3 @@ ms.locfileid: "6992341"
 
 - Όλες οι εξαρτήσεις εργασιών έργου πρέπει να σχετίζονται με το ίδιο έργο.
 - Μια εργασία δεν μπορεί να έχει την ίδια εξάρτηση που αναφέρεται περισσότερες από μία φορές.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
