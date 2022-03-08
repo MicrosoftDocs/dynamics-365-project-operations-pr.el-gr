@@ -2,11 +2,9 @@
 title: Αναφορές εξόδων και πολλαπλοί υπεύθυνοι έγκρισης
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις αναφορές εξόδων που απαιτούν έγκριση από περισσότερα από ένα άτομα.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfa8677f38e9468aa3236f587d2e9bd5af839054
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2acae2d518a02539f01d5498450236999fe609d1e8f26b5f90e18b986b83cab1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120993"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988426"
 ---
 # <a name="expense-reports-and-multiple-approvers"></a>Αναφορές εξόδων και πολλαπλοί υπεύθυνοι έγκρισης
 
@@ -41,3 +39,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
     1. Ο προϊστάμενος του υπαλλήλου εγκρίνει την αναφορά εξόδων.
     2. Ο κάτοχος του προϋπολογισμού εγκρίνει την αναφορά εξόδων.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

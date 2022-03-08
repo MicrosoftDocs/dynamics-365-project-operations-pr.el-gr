@@ -2,11 +2,9 @@
 title: Δημιουργία προσαρμοσμένων πεδίων και οντοτήτων ως διαστάσεις τιμολόγησης
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο δημιουργίας προσαρμοσμένων συνόλων επιλογών ή οντοτήτων.
 author: rumant
-manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642813"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003636"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Δημιουργία προσαρμοσμένων πεδίων και οντοτήτων ως διαστάσεις τιμολόγησης
 
@@ -46,7 +44,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 3. Επιλέξτε **Νέα** για να δημιουργήσετε μια νέα οντότητα που καλείται **Τυπικός τίτλος**. 
 4. Πληκτρολογήστε τις απαιτούμενες υπόλοιπες πληροφορίες και, στη συνέχεια επιλέξτε **Αποθήκευση**.
 
-> ![Ορισμός τυπικού τίτλου οντότητας](media/Standard-Title-entity-definition.png)
+> ![Ορισμός τυπικού τίτλου οντότητας.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Διαστάσεις που βασίζονται σε σύνολο επιλογών 
 Μπορείτε να δημιουργήσετε δύο διαστάσεις που βασίζονται σε σύνολο επιλογών. 
@@ -56,11 +54,11 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 Το παρακάτω γραφικό παρέχει μια προβολή της διάστασης **Θέση εργασίας πόρου**. 
 
-> ![Η διάσταση τιμολόγησης που βασίζεται σε σύνολο επιλογών καλείται Τοποθεσία εργασίας πόρου](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Η διάσταση τιμολόγησης που βασίζεται σε σύνολο επιλογών καλείται Τοποθεσία εργασίας πόρου.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Το παρακάτω γραφικό παρέχει μια προβολή της διάστασης **Ώρες εργασίας πόρου**. 
 
-> ![Η διάσταση τιμολόγησης που βασίζεται σε σύνολο επιλογών καλείται Ώρες εργασίας πόρου](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Η διάσταση τιμολόγησης που βασίζεται σε σύνολο επιλογών καλείται Ώρες εργασίας πόρου.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Μεταβείτε στο **Ρυθμίσεις** > **Λύσεις** και κάντε διπλό κλικ στις **διαστάσεις τιμολόγησης \<your organization name>**. 
 2. Στην εξερεύνηση λύσεων, στο αριστερό παράθυρο περιήγησης, επιλέξτε **Σύνολα επιλογών**. 
@@ -76,4 +74,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 4. Κλείστε τη σελίδα. 
 5. Επαναλάβετε τα βήματα 1-3, για να δημιουργήσετε έναν άλλο τυπικό τίτλο για τον "επικεφαλής μηχανικό συστημάτων".
 
-> ![Δείγμα δεδομένων για την οντότητα τυπικού τίτλου](media/ST-data.png)
+> ![Δείγμα δεδομένων για την οντότητα τυπικού τίτλου.](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

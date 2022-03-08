@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727790"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950534"
 ---
 # <a name="provision-a-new-environment"></a>Παροχή ενός νέου περιβάλλοντος
 
@@ -36,7 +36,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 ## <a name="provision-a-project-operations-environment"></a>Παροχή περιβάλλοντος Project Operations
 
-1. Ανοίξτε ένα νέο Dynamics 365 Finance [περιβάλλον επίδειξης](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ή μια ανάπτυξη [περιβάλλοντος προστατευμένης εκτέλεσης / παραγωγής](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Ανοίξτε ένα νέο Dynamics 365 Finance [περιβάλλον επίδειξης](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ή μια ανάπτυξη [περιβάλλοντος προστατευμένης εκτέλεσης / παραγωγής](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Περιηγηθείτε στον οδηγό **Παροχής περιβάλλοντος**. 
 
 > [!IMPORTANT]
@@ -209,3 +209,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 
 Το περιβάλλον Project Operations έχει πλέον δοθεί και ρυθμιστεί. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Διεταιρικές τιμολογήσεις
 description: Σε αυτό το άρθρο παρέχονται πληροφορίες και παραδείγματα σχετικά με τη διεταιρική τιμολόγηση για έργα.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270768"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995806"
 ---
 # <a name="intercompany-invoicing"></a>Διεταιρικές τιμολογήσεις
 
@@ -35,7 +33,7 @@ ms.locfileid: "5270768"
 
 Η εικόνα που ακολουθεί δείχνει ένα τυπικό σενάριο όπου δύο νομικές οντότητες, η SI FR (η δανειζόμενη νομική οντότητα) και η SI USA (η νομική οντότητα δανεισμού) χρησιμοποιούν από κοινού πόρους για την παροχή ενός έργου για τον πελάτη Α. Για αυτό το σενάριο, η SI FR έχει σύμβαση ώστε να παραδώσει την εργασία στον πελάτη Α. 
 
-[![Παράδειγμα διεταιρικών τιμολογήσεων](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Παράδειγμα διεταιρικών τιμολογήσεων.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Ο στόχος είναι να γίνει ο έλεγχος του κόστους, η αναγνώριση των εσόδων, οι φόροι και η τιμή μεταφοράς για τις διεταιρετικές συναλλαγές έργων πιο ευέλικτες και ισχυρές. Επιπλέον, παρέχονται οι ακόλουθες δυνατότητες:
 

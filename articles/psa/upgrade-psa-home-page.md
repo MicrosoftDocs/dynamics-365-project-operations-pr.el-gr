@@ -1,11 +1,10 @@
 ---
 title: Αρχική σελίδα αναβάθμισης
 description: Αυτό το θέμα δείχνει πού θα βρείτε σημαντικές πληροφορίες σχετικά με τις νέες και τις τροποποιημένες δυνατότητες του Dynamics 365 Project Service Automation και τη διεργασία για την αναβάθμιση στην πιο πρόσφατη έκδοση.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -19,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150083"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006741"
 ---
 # <a name="upgrade-home-page"></a>Αρχική σελίδα αναβάθμισης
 
@@ -65,3 +64,6 @@ ms.locfileid: "5150083"
 
 > [!NOTE]
 > Για την καλύτερη εμπειρία κατά τη χρήση παλαιότερων εκδόσεων των εφαρμογών Field Service και PSA, μεταβείτε στη σελίδα **Ρυθμίσεις συστήματος** και για το πεδίο **Χρήση ενοποιημένου περιβάλλοντος εργασίας μόνο (συνιστάται)**, επιλέξτε **Όχι** καθώς αυτές οι εκδόσεις δεν έχουν σχεδιαστεί για να φορτώνονται σωστά στο UCI. Αφού απενεργοποιηθεί το UCI, μπορείτε να ανοίξετε και να χρησιμοποιήσετε αυτές τις εκδόσεις του Field Service και του PSA χρησιμοποιώντας το παλιό πρόγραμμα-πελάτη Web. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

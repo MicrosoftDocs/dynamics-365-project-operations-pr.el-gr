@@ -2,18 +2,16 @@
 title: Επεξεργασία απαίτησης πόρου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την ενημέρωση των πληροφοριών απαίτησης πόρου.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128778"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999766"
 ---
 # <a name="edit-a-resource-requirement"></a>Επεξεργασία απαίτησης πόρου
 
@@ -37,3 +35,5 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 ## <a name="edit-resource-assignment-contours"></a>Επεξεργασία περιγράμματος ανάθεσης πόρων
 
 Εκτός από την επεξεργασία των λεπτομερειών των απαιτήσεων των πόρων, ένας διαχειριστής έργου μπορεί να ενημερώσει τα μεμονωμένα περιγράμματα της απαίτησης πόρου χρησιμοποιώντας τη λειτουργία **Καθορισμός μοτίβου**. Όταν επιλέγετε **Καθορισμός μοτίβου**, ανοίγει μια σελίδα και μπορείτε να προβάλλετε τα περιγράμματα την ημέρα, την εβδομάδα ή την κλίμακα χρόνου του μήνα. Κάθε περίγραμμα μπορεί να προσαρμοστεί για την ώρα έναρξης, την ώρα λήξης και τη συνολική προσπάθεια σε ένα δεδομένο χρονικό διάστημα.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

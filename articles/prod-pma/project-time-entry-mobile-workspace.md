@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f087e15780272fd376a14b42ed9e00420f86a61f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989551"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009931"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Χώρος εργασίας κινητών συσκευών καταχώρισης χρόνου έργου
 
@@ -94,7 +94,7 @@ ms.locfileid: "6989551"
 3.  Την πρώτη φορά που θα συνδεθείτε, θα σας ζητηθεί το όνομα χρήστη και ο κωδικός πρόσβασής σας. Εισαγάγετε τα διαπιστευτήρια σας.
 4.  Αφού συνδεθείτε, εμφανίζονται οι διαθέσιμοι χώροι εργασίας για την εταιρεία σας. Λάβετε υπόψη σας ότι, εάν ο διαχειριστής του συστήματός σας δημοσιεύσει έναν νέο χώρο εργασίας αργότερα, θα πρέπει να ανανεώσετε τη λίστα των χώρων εργασίας κινητών συσκευών.
 
-[![Έλξη για ανανέωση.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Έλξη για ανανέωση](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Εισαγωγή χρόνου με χρήση του χώρου εργασίας κινητών συσκευών καταχώρισης χρόνου έργου
 1.  Στην κινητή συσκευή σας, επιλέξτε τον χώρο εργασίας **Καταχώριση χρόνου έργου**.

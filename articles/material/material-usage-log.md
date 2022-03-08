@@ -2,18 +2,16 @@
 title: Καταγραφή χρήσης υλικού σε έργα και εργασίες έργων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο καταγραφής της χρήσης υλικού για έργα και εργασίες έργων.
 author: rumant
-manager: AnnBe
 ms.date: 03/31/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab431ce4c18a4283cd887de9afcba0dd556d2567
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: 4d8757049953fab0ad8bf6ee1a1d695fcb6df75b1be52641ad4af3b3137d7a0a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852856"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999271"
 ---
 # <a name="record-material-usage-on-projects-and-project-tasks"></a>Καταγραφή χρήσης υλικού σε έργα και εργασίες έργων
 

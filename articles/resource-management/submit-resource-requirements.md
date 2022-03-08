@@ -2,18 +2,16 @@
 title: Υποβολή μιας αίτησης πόρου
 description: Μπορείτε να υποβάλετε μια απαίτηση πόρου που έχει δημιουργηθεί ως αίτημα πόρου. Στη συνέχεια, το αίτημα αποστέλλεται σε έναν υπεύθυνο διαχείρισης πόρων για ολοκλήρωση.
 author: ruhercul
-manager: Annbe
 ms.date: 10/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: dedde7778cc726d3f06aefc0243edfe130e6d0b58773e0bb8e87cfcb13f1cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128823"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994726"
 ---
 # <a name="submit-a-resource-request"></a>Υποβολή μιας αίτησης πόρου
 
@@ -27,3 +25,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 Η κατάσταση αίτησης του γενικού μέλους ομάδας θα αλλάξει σε **Υποβλήθηκε**.
 
 Μετά την ολοκλήρωση της αίτησης, ο γενικός πόρος θα αντικατασταθεί από έναν καθορισμένο πόρο, εάν ο υπεύθυνος πόρου εκπληρώσει την αίτηση με την κράτηση ενός καθορισμένου πόρου. Διαφορετικά, αν ο υπεύθυνος πόρου προτείνει έναν καθορισμένο πόρο, τότε ο γενικός πόρος θα παραμείνει στην ομάδα και η κατάσταση αίτησης θα αλλάξει σε **Χρειάζεται έλεγχο**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

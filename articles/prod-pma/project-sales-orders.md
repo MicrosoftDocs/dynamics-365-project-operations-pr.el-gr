@@ -2,9 +2,11 @@
 title: Παραγγελίες πώλησης έργου για έργα χρόνου και υλικά έργα
 description: Αυτό το θέμα επεξηγεί τον τρόπο δημιουργίας παραγγελιών πώλησης βάσει έργου για έργα χρόνου και υλικά έργα.
 author: Yowelle
+manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 74a90ea0bdb8f760273c0f6b1c61bffcb70b6c8d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992836"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289054"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Παραγγελίες πώλησης έργου για έργα χρόνου και υλικά έργα
 

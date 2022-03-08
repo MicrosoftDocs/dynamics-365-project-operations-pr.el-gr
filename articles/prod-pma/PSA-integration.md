@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d2eace497f4291022da0775cca7cda7d600df7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271083"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077057"
 ---
 # <a name="project-service-automation-overview"></a>Επισκόπηση του Project Service Automation
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Η λύση ενοποίησης του Project Service Automation στο Finance χρησιμοποιεί τη δυνατότητα ενοποίησης δεδομένων για το συγχρονισμό δεδομένων σε παρουσίες των Dynamics 365 Finance και Dynamics 365 Project Service Automation μέσω Common Data Service. Τα πρότυπα ενοποίησης που είναι διαθέσιμα με τη δυνατότητα ενοποίησης δεδομένων ενεργοποιούν τη ροή των έργων, τις συμβάσεις έργου, τις γραμμές σύμβασης έργου, τα ορόσημα γραμμής σύμβασης έργου, τις εργασίες έργου, τις κατηγορίες των συναλλαγών εξόδων, τις εκτιμήσεις ωρών και τις εκτιμήσεις εξόδων από το Project Service Automation στο Finance.
 
@@ -75,6 +74,3 @@ ms.locfileid: "5271083"
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Εγκατάσταση λύσης ενοποίησης του Project Service Automation με το Finance στην παρουσία Project Service Automation
 
 Πραγματοποιήστε λήψη της λύσης ενοποίησης του Project Service Automation με το Finance από το [Κέντρο λήψης της Microsoft](https://www.microsoft.com/download/details.aspx?id=57016) και ακολουθήστε τις οδηγίες που περιλαμβάνονται με τη λύση.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

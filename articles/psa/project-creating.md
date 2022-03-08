@@ -2,8 +2,6 @@
 title: Χρονοδιαγράμματα έργου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο δημιουργίας ενός χρονοδιαγράμματος.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148418"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998416"
 ---
 # <a name="project-schedules"></a>Χρονοδιαγράμματα έργου 
 
@@ -96,7 +94,7 @@ ms.locfileid: "5148418"
 
 Το όνομα μιας εργασίας περιγράφει την εργασία που πρέπει να ολοκληρωθεί. Στο PSA, τα χαρακτηριστικά που σχετίζονται με μια εργασία περιγράφουν το χρονοδιάγραμμα της εργασίας και τις απαιτήσεις στελέχωσης.
 
-> ![Χαρακτηριστικά εργασίας](media/project-2.png)
+> ![Χαρακτηριστικά εργασίας.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Χαρακτηριστικά χρονοδιαγράμματος
 
@@ -149,3 +147,6 @@ ms.locfileid: "5148418"
 ### <a name="manual-scheduling"></a>Μη αυτόματος προγραμματισμός
 
 Εάν οι κανόνες του αυτόματου προγραμματισμού δεν πληρούν τις απαιτήσεις σας, μπορείτε να ορίσετε τη λειτουργία εργασίας για την εργασία σε **Μη αυτόματα προγραμματισμένη**. Αυτή η ρύθμιση διακόπτει το μηχανισμό προγραμματισμού από τον υπολογισμό των τιμών για άλλα χαρακτηριστικά του χρονοδιαγράμματος. Ανεξάρτητα από τη λειτουργία εργασίας, εάν ορίσετε προαπαιτούμενες εργασίες, μπορείτε πάντα να επηρεάσετε την ημερομηνία έναρξης της εξαρτημένης εργασίας.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

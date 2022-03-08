@@ -2,12 +2,10 @@
 title: Υπολογίστε τις πωλήσεις και το κόστος του έργου όταν ένας πόρος με δυνατότητα κράτησης εκτελεί πολλαπλούς ρόλους σε ένα έργο
 description: Αυτό το θέμα εξηγεί τον τρόπο χρήσης των διαστάσεων τιμολόγησης για την υποστήριξη της τιμολόγησης και της κοστολόγησης για έναν πόρο που εκτελεί πολλαπλούς ρόλους σε ένα έργο.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145043"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987481"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Υπολογίστε τις πωλήσεις και το κόστος του έργου όταν ένας πόρος με δυνατότητα κράτησης εκτελεί πολλαπλούς ρόλους σε ένα έργο 
 
@@ -74,3 +72,6 @@ ms.locfileid: "5145043"
 Όταν μεταβαίνετε στο πλέγμα **Εκτιμήσεις**, θα παρατηρήσετε ότι και οι δύο αναθέσεις για τον ίδιο πόρο τιμολογούνται διαφορετικά.
 Η ανάθεση για τον πόρο στην Εργασία Α διατιμάται με χρήση της τιμής του χαρακτηριστικού **Ρόλος** της **Συνεννόησης με υποψήφιο πελάτη**. Η ανάθεση για τον ίδιο πόρο στην Εργασία Β διατιμάται με χρήση της τιμής του χαρακτηριστικού **Ρόλος** του **Τεχνικού δικτύου**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

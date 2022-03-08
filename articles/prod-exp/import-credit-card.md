@@ -2,11 +2,9 @@
 title: Εισαγωγή και διατήρηση συναλλαγών με πιστωτικές κάρτες
 description: Αυτό το θέμα επεξηγεί τον τρόπο εισαγωγής και διατήρησης των συναλλαγών με πιστωτικές κάρτες που σχετίζονται με έξοδα. Αυτές οι συναλλαγές μπορούν να ρυθμιστούν έτσι ώστε να εισαγάγονται αυτόματα σε ένα επαναλαμβανόμενο χρονοδιάγραμμα ή μπορούν να εισαχθούν με μη αυτόματο τρόπο, όπως απαιτείται.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
@@ -18,18 +16,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c3a53d2ae4eae411364aaf68ac806b55335c75d4870a24715954ccae327f4358
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271578"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995851"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Εισαγωγή και διατήρηση συναλλαγών με πιστωτικές κάρτες
 
 Οι συναλλαγές με πιστωτική κάρτα που σχετίζονται με έξοδα μπορούν να ρυθμιστούν με τρόπο ώστε να εισάγονται αυτόματα σε επαναλαμβανόμενο χρονοδιάγραμμα. Εναλλακτικά, οι συναλλαγές μπορούν να εισαχθούν με μη αυτόματο τρόπο, όπως απαιτείται. Οι συναλλαγές με πιστωτικές κάρτες εισάγονται μέσω της οντότητας Δεδομένων συναλλαγών με πιστωτικές κάρτες.
 
-Για περισσότερες πληροφορίες σχετικά με τις οντότητες δεδομένων, ανατρέξτε στο θέμα [Οντότητες δεδομένων](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Για περισσότερες πληροφορίες σχετικά με τις οντότητες δεδομένων, ανατρέξτε στο θέμα [Οντότητες δεδομένων](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Εισαγωγή συναλλαγών με πιστωτικές κάρτες
 

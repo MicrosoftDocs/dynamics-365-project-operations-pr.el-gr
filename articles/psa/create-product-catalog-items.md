@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f29d36b97615dbaa9b85987b749045c0e9daf262
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6343ff4dcfeae5d53eaf8eaa860afaf42559857a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144683"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950354"
 ---
 # <a name="create-product-catalog-items-project-service"></a>Δημιουργία στοιχείων καταλόγου προϊόντων (Project Service)
 
@@ -33,7 +33,10 @@ ms.locfileid: "5144683"
 
 Εάν θέλετε να συμπεριλάβετε προϊόντα, όπως άδειες χρήσης λογισμικού, στις προσφορές και τις εκτιμήσεις των έργων σας, πρέπει να προσθέσετε κάθε προϊόν στον κατάλογο προϊόντων.  
   
- Για περισσότερες πληροφορίες σχετικά με την προσθήκη προϊόντων στον κατάλογο προϊόντων, ανατρέξτε στο θέμα [Δημιουργία προϊόντος (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales).  
+ Για περισσότερες πληροφορίες σχετικά με την προσθήκη προϊόντων στον κατάλογο προϊόντων, ανατρέξτε στο θέμα [Δημιουργία προϊόντος (Sales)](/dynamics365/sales-enterprise/create-product-sales).  
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Ρύθμιση παραμέτρων του Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

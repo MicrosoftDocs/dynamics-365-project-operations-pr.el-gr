@@ -2,8 +2,6 @@
 title: Προβολή διαθεσιμότητας πόρων
 description: Πώς γίνεται η προβολή διαθεσιμότητας πόρων στο Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af05506481d96193c01c063c00e044242f786f5e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e71fa745103b5d40d8a0056fe894d791c1213dac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143873"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012901"
 ---
 # <a name="view-resource-availability-project-service"></a>Προβολή διαθεσιμότητας πόρων (Project Service)
 
@@ -48,3 +46,6 @@ ms.locfileid: "5143873"
 
 ### <a name="see-also"></a>Δείτε επίσης  
  [Οδηγός υπεύθυνου πόρων](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

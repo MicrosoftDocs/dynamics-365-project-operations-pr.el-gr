@@ -2,24 +2,22 @@
 title: Ρύθμιση παραμέτρων για την ενοποίηση του Project Operations ανά νομική οντότητα
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ρύθμισης της ενοποίησης ανά νομική οντότητα στο Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e5a12de275a9f886434da45fbbed5140e3913d83
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122883"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000076"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Ρύθμιση παραμέτρων για την ενοποίηση του Project Operations ανά νομική οντότητα 
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Αυτό το θέμα αναλύει τα βήματα που απαιτούνται για τη ρύθμιση των παραμέτρων του Dynamics 365 Project Operations ανά νομική οντότητα.
+Αυτό το θέμα σάς καθοδηγεί στα βήματα που απαιτούνται για τη ρύθμιση παραμέτρων του Dynamics 365 Project Operations ανά νομική οντότητα.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Ενεργοποίηση βασικών δυνατοτήτων στο Dynamics 365 Finance
 
@@ -51,3 +49,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
   - **Προεπιλογές τύπου χρέωσης**: Το Project Operations χρησιμοποιεί ένα σταθερό σύνολο προεπιλογών τύπου χρέωσης, το οποίο πρέπει να αντιστοιχιστεί στις ιδιότητες γραμμής του Finance. Δημιουργήστε μια καρτέλα για κάθε τύπο χρέωσης: **Δεν καθορίζεται**, **Χρεώσιμο**, **Μη χρεώσιμο**, **Δωρεάν** και **Μη διαθέσιμο**.
   - **Προεπιλογές κατηγορίας έργου**: Επιλέξτε τις προεπιλεγμένες κατηγορίες έργου που θα χρησιμοποιηθούν για κάθε τύπο συναλλαγής. Αυτές οι προεπιλογές θα χρησιμοποιηθούν στο **Ημερολόγιο ενοποίησης Project Operations** και σε εκτιμήσεις όπου καμία κατηγορία συναλλαγής δεν έχει καθοριστεί για το πραγματικό έργο.
   - **Προβλέψεις**: Επιλέξτε το μοντέλο πρόβλεψης που θα χρησιμοποιηθεί για τις εκτιμήσεις χρόνου και εξόδων.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

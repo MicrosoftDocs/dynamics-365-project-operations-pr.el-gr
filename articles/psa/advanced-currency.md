@@ -2,8 +2,6 @@
 title: Σενάρια πολλαπλών νομισματικών μονάδων (έκδοση 3.x)
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τα σενάρια πολλών νομισματικών μονάδων.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145673"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005121"
 ---
 # <a name="multiple-currency-scenarios"></a>Σενάρια πολλαπλών νομισματικών μονάδων
 
@@ -105,3 +103,6 @@ ms.locfileid: "5145673"
 | Έξοδο           | Μη χρεωμένες πωλήσεις   | 17 Ιουνίου | Prakash  | Ενοικίαση αυτοκινήτου           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Για να υπολογίσετε τη συνολική αξία των πωλήσεων που δεν έχουν χρεωθεί στο έργο, μπορείτε να δημιουργήσετε ένα πεδίο συνάθροισης για το πεδίο **Ποσό** σε όλες τις σχετικές πραγματικές πωλήσεις που δεν έχουν χρεωθεί. Το πεδίο συνάθροισης είναι μια κατασκευή του Dynamics 365 που επιτρέπει γρήγορους τύπους σε σχετικές καρτέλες.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

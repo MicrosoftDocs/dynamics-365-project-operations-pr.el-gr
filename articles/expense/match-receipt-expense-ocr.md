@@ -1,12 +1,12 @@
 ---
-title: Καταγραφή απόδειξης με χρήση OCR
+title: Συμφωνία μιας απόδειξης με ένα έξοδο με χρήση OCR
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την επεξεργασία οπτικής αναγνώρισης χαρακτήρων (OCR) για αποδείξεις.
 author: suvaidya
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499851"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076881"
 ---
-# <a name="capture-a-receipt-using-ocr"></a>Καταγραφή απόδειξης με χρήση OCR
+# <a name="match-a-receipt-to-an-expense-using-ocr"></a>Συμφωνία μιας απόδειξης με ένα έξοδο με χρήση OCR
 
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
@@ -94,6 +94,3 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 Το Finance θα επικοινωνήσει με το Cognitive Services για την εξαγωγή των δεδομένων πεδίων. Οι Cognitive Services θα διατηρήσουν ένα αντίγραφο της απόδειξής σας για 24 ώρες, ενώ γίνεται η επεξεργασία. Μετά την ολοκλήρωση της επεξεργασίας, οι Cognitive Services θα αφαιρέσουν την απόδειξη. Οι αποδείξεις παραμένουν αποθηκευμένες στο Finance.
 
 Για περισσότερες πληροφορίες, ανατρέξτε στο θέμα [Ενεργοποίηση κατανόησης αποδείξεων με τη νέα δυνατότητα Αναγνώρισης φορμών](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

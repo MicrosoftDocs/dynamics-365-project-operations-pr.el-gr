@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: 539d0ba6be6f49a6f0509595a0776ef67135496d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590946"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276753"
 ---
 # <a name="expense-entry-lite"></a>Καταχώρηση εξόδων (ελαφριά)
 
@@ -55,3 +55,6 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
 ## <a name="see-also"></a>Δείτε επίσης
 
 - [Επισκόπηση εγκρίσεων](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

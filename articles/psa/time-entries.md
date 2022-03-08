@@ -2,8 +2,6 @@
 title: Δημιουργία χρονικών καταχώρησεων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο δημιουργίας χρονικών καταχωρήσεων.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149678"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990406"
 ---
 # <a name="create-time-entries"></a>Δημιουργία χρονικών καταχώρησεων
 
@@ -70,3 +68,6 @@ ms.locfileid: "5149678"
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Ομαδοποίηση κατά, ταξινόμηση, αναζήτηση και φιλτράρισμα
 
 Μπορείτε να ομαδοποιήσετε και να φιλτράρετε καταχωρήσεις χρόνου με βάση τις διαστάσεις που καθορίζονται στις στήλες. Στο πεδίο **Ομαδοποίηση κατά**, επιλέξτε τη διάσταση που θα χρησιμοποιηθεί για την φιλτράρισμα καταχωρήσεων ώρας. Μπορείτε, επίσης, να ταξινομήσετε τις καρτέλες της καταχώρησης ώρας σε αύξουσα ή φθίνουσα σειρά χρησιμοποιώντας το βέλος ταξινόμησης στις επικεφαλίδες των στηλών. Επιπλέον, μπορείτε να εμφανίσετε ή να αποκρύψετε καταχωρήσεις επιλέγοντας το κουμπί **Φίλτρο** στις επικεφαλίδες των στηλών και, στη συνέχεια, στο πλαίσιο **Αναζήτηση**, εισάγοντας το κείμενο που θα πρέπει να χρησιμοποιηθεί για την αναζήτηση καταχωρήσεων χρόνου κατά όνομα έργου, εργασία έργου, ώρα καταχώρηση ή πόρο.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

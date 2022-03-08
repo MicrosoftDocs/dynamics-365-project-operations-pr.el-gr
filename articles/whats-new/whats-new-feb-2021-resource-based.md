@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8270214d47f712cdb0942991b0ffb5baff64cbfb
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 12708a9b847f1f87ee0f5f45688adf48638d709f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948014"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291889"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει τον Φεβρουάριο του 2021 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 
@@ -53,7 +53,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 ## <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
 
-Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Finance and Operations, ανατρέξτε στην ενότητα [Ενημέρωση κανονισμών](/dynamics365/finance/localizations/regulatory-updates). Ένας άλλος τρόπος για να μάθετε σχετικά με τις ρυθμιστικές ενημερώσεις είναι να συνδεθείτε στο Lifecycle Services (LCS) και να προβάλετε τις προγραμματισμένες ρυθμιστικές ενημερώσεις χρησιμοποιώντας το εργαλείο αναζήτησης θεμάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Finance and Operations, ανατρέξτε στην ενότητα [Ενημέρωση κανονισμών](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Ένας άλλος τρόπος για να μάθετε σχετικά με τις ρυθμιστικές ενημερώσεις είναι να συνδεθείτε στο Lifecycle Services (LCS) και να προβάλετε τις προγραμματισμένες ρυθμιστικές ενημερώσεις χρησιμοποιώντας το εργαλείο αναζήτησης θεμάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

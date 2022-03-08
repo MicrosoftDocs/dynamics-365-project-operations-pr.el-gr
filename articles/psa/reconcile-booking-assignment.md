@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 30af3cca9b4c3dc3f1a9412de7380c963bde88f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147923"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283413"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Εναρμόνιση κρατήσεων και αναθέσεων
 
@@ -101,3 +101,6 @@ ms.locfileid: "5147923"
 
 Ωστόσο, μια πιο προσεκτική ματιά στις λεπτομέρειες των κρατήσεων παρουσιάζει διαφορές στην ώρα έναρξης των κρατήσεων. Οι κρατήσεις θα ξεκινήσουν κατά την ώρα έναρξης της καμπύλης ανάθεσης και κατά τη διαθέσιμη ώρα έναρξης του πόρου.
  ![Νέες κρατήσεις πόρων στον πίνακα χρονοδιαγράμματος](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270678"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076969"
 ---
 # <a name="eliminate-a-project-estimate"></a>Κατάργηση εκτίμησης έργου
 
@@ -51,6 +51,3 @@ ms.locfileid: "5270678"
 5. Μετά την ολοκλήρωση της διεργασίας κατάργησης, το έργο εκτίμησης που καταργείται εμφανίζεται με αρνητική τιμή. 
 
 Εάν δεν είχατε πρόθεση να καταργήσετε μια εκτίμηση, μπορείτε να επιλέξετε την εκτίμηση που καταργήσατε και να επιλέξετε **Αντιστροφή κατάργησης**.   
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

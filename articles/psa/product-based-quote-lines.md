@@ -2,8 +2,6 @@
 title: Γραμμές προσφοράς βάσει προϊόντων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις γραμμές προσφοράς βάσει προϊόντων.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151253"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008586"
 ---
 # <a name="product-based-quote-lines"></a>Γραμμές προσφοράς βάσει προϊόντων
 
@@ -60,7 +58,7 @@ ms.locfileid: "5151253"
 
 Μετά την εγκατάσταση του PSA, οι προεπιλεγμένοι τιμοκατάλογοι καταχωρούνται στις γραμμές με βάση το προϊόν σε μια προσφορά. Το πεδίο **Τιμολόγηση** ορίζεται σε **Παράκαμψη τιμολόγησης** ώστε να παρακάμπτει την τιμολόγηση ώστε να μπορείτε να επεξεργαστείτε την προεπιλεγμένη τιμή στις γραμμές προσφοράς.
 
-> ![Ρύθμιση παράκαμψης τιμολόγησης](media/basic-guide-10.png)
+> ![Ρύθμιση παράκαμψης τιμολόγησης.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Συντελεστές ποσότητας για τα προϊόντα
 
@@ -80,5 +78,8 @@ ms.locfileid: "5151253"
 
 Οι ιδιότητες **Αριθμός χρηστών** και **Αριθμός μηνών** μπορούν να επισημανθούν ως συντελεστές ποσότητας με επεξεργασία των ιδιοτήτων της γραμμής προϊόντων. 
 
-> ![Επισήμανση αριθμού χρηστών και μηνών ως παράγοντες ποιότητας](media/basic-guide-11.png)
+> ![Επισήμανση αριθμού χρηστών και μηνών ως παραγόντων ποιότητας.](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

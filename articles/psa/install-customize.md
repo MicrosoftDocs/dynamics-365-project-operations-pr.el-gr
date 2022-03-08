@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947924"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284313"
 ---
 # <a name="install-and-customize-project-service"></a>Εγκατάσταση και προσαρμογή (Project Service)
 
@@ -34,20 +34,20 @@ ms.locfileid: "5947924"
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Εγκατάσταση Project Service  
- Το [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] είναι μια προτιμώμενη λύση. Υπάρχουν πολλοί τρόποι για την αγορά της λύσης. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Προσθέστε τον οργανισμό σας και χρήστες](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ Το [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] είναι μια προτιμώμενη λύση. Υπάρχουν πολλοί τρόποι για την αγορά της λύσης. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Προσθέστε τον οργανισμό σας και χρήστες](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>Προσαρμογή των φορμών και αναφορών του [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]  
  Εάν θέλετε να προσαρμόσετε τυχόν φόρμες, πίνακες εργαλείων ή αναφορές του [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], μπορείτε να βρείτε περισσότερες πληροφορίες στις παρακάτω συνδέσεις:  
   
-- [Γρήγορα αποτελέσματα με δημιουργία και προσαρμογή εφαρμογών](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [Γρήγορα αποτελέσματα με δημιουργία και προσαρμογή εφαρμογών](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Δημιουργία και σχεδίαση φορμών](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [Δημιουργία και σχεδίαση φορμών](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Δημιουργία και επεξεργασία πινάκων εργαλείων](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [Δημιουργία και επεξεργασία πινάκων εργαλείων](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Δημιουργία και επεξεργασία διεργασιών](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [Δημιουργία και επεξεργασία διεργασιών](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Εισαγωγή στην αναφορά και την ανάλυση](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [Εισαγωγή στην αναφορά και την ανάλυση](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Οδηγός διαχειριστή](../psa/admin-guide.md)   

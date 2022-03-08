@@ -2,18 +2,16 @@
 title: Αντιγραφή συμβάσεων έργων - lite
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την αντιγραφή συμβάσεων έργου στο Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181407"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006021"
 ---
 # <a name="copy-project-contracts---lite"></a>Αντιγραφή συμβάσεων έργων - lite
 
@@ -45,3 +43,6 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
   - Πληροφορίες προϋπολογισμού πελάτη
 
 Επειδή αυτές οι πληροφορίες είναι πολύ συγκεκριμένες για κάθε σύμβαση, αυτά τα πεδία και οι καρτέλες δεν αντιγράφονται. Οι γραμμές σύμβασης για έργα και προϊόντα, οι εκτιμήσεις σχετικά με τις λεπτομέρειες της γραμμής σύμβασης και οι τιμές που δεν υπερβαίνουν τις τιμές στο επίπεδο σύμβασης αντιγράφονται. Οι προεπιλογές χρέωσης και τιμής εξαρτώνται από την επιλογή στο πεδίο **Αντιγραφή τιμολόγησης** που έχει επιλεγεί στο παράθυρο διαλόγου **Αντιγραφή παραμέτρων**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

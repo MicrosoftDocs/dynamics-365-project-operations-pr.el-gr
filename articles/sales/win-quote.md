@@ -2,24 +2,22 @@
 title: Κλείσιμο προσφοράς
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με το κλείσιμο προσφορών στο Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124683"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993421"
 ---
 # <a name="close-a-quote"></a>Κλείσιμο προσφοράς
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Μια προσφορά έργου μπορεί να κλείσει ως κερδισμένη ή χαμένη. Επειδή οι λειτουργίες ενεργοποίησης και αναθεώρησης δεν υποστηρίζονται σε προσφορές στο Microsoft Dynamics 365 Project Operations, μπορείτε να κλείσετε μια προσχέδια προσφορά.
+Μια προσφορά έργου μπορεί να κλείσει ως κερδισμένη ή χαμένη. Επειδή οι συναρτήσεις Activate και Revise δεν υποστηρίζονται σε προσφορές στο Microsoft Dynamics 365 Project Operations, μπορείτε να κλείσετε ένα προσχέδιο προσφοράς.
 
 ## <a name="close-a-quote-as-won"></a>Κλείσιμο μιας προσφοράς ως κερδισμένης
 
@@ -43,3 +41,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 > [!NOTE]
 > Στο Project Operations, η κλείσιμο μιας προσφοράς ως κερδισμένης ή χαμένης δεν θα επηρεάσει την εν λόγω κατάσταση της ευκαιρίας, η οποία θα παραμείνει ανοιχτή μέχρι να κλείσει με μη αυτόματο τρόπο.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

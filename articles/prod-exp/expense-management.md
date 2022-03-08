@@ -2,9 +2,11 @@
 title: Επισκόπηση διαχείρισης εξόδου
 description: Αυτό το θέμα παρέχει γενικές πληροφορίες σχετικά με τη διαχείριση εξόδων και συνδέσεις σε πρόσθετους πόρους. Μπορείτε να χρησιμοποιήσετε τη διαχείριση δαπανών για να δημιουργήσετε μια ενσωματωμένη ροή εργασιών όπου μπορείτε να αποθηκεύσετε πληροφορίες για τη μέθοδο πληρωμής, να εισαγάγετε συναλλαγές με πιστωτικές κάρτες και να παρακολουθήσετε τα χρήματα που δαπανούν οι υπάλληλοι όταν επιβαρύνονται με έξοδα για την επιχείρησή σας.
 author: ShylaThompson
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fe9f763e18507fa232cb830f8e0b6852374b65b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2db1c2cd34a2b99ac8e0cc88c34bac804bbafdb6
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993551"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949769"
 ---
 # <a name="expense-management-overview"></a>Επισκόπηση διαχείρισης εξόδου
 

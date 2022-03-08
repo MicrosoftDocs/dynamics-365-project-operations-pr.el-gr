@@ -2,18 +2,17 @@
 title: Επισκόπηση βοηθού χρονοδιαγράμματος
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την εργασία με τον βοηθό χρονοδιαγράμματος για την κράτηση πόρων.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 83583c97e4ecb5f1fdc0d8d98098afe8e12d27e4
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076772"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368116"
 ---
 # <a name="schedule-assistant-overview"></a>Επισκόπηση βοηθού χρονοδιαγράμματος
 
@@ -25,7 +24,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 ## <a name="prerequisites"></a>Προαπαιτούμενα στοιχεία
 
-Ο βοηθός χρονοδιαγράμματος αποτελεί μέρος της Universal Resource Scheduling λύσης. Αυτή η λύση περιλαμβάνεται και εγκαθίσταται με το Dynamics 365 Project Operations, το Dynamics 365 Field Service και το Dynamics 365 Customer Service.
+Ο βοηθός χρονοδιαγράμματος αποτελεί μέρος της Universal Resource Scheduling λύσης. Αυτή η λύση συμπεριλαμβάνεται και εγκαθίσταται με το Dynamics 365 Project Operations, το Dynamics 365 Field Service και το Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Απαιτήσεις και πόροι αντιστοίχισης
 
@@ -57,3 +56,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 -   Εταιρεία πόρων
 -   Τύποι πόρων
 -   Προτιμώμενοι πόροι
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

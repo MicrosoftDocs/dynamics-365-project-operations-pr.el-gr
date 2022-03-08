@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 8241e74e8d9fb5a748bedbd5e913adea0bafa450
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 429c289c4ec653b81a1c5302b788db8c8ad26d8c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271128"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4077058"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Φύλλα κατανομής χρόνου έργου σε μια κινητή συσκευή
 
@@ -62,6 +62,3 @@ ms.locfileid: "5271128"
 13. Προαιρετικό: Καταχωρίστε πρόσθετες γραμμές φύλλου κατανομής χρόνου.
 
 14. Αφού ολοκληρώσετε την εισαγωγή των γραμμών του φύλλου κατανομής χρόνου, επιλέξτε την ενέργεια **Ροή εργασίας** \> **Υποβολή** για την υποβολή του φύλλου κατανομής χρόνου στη διεργασία έγκρισης ροής εργασιών.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

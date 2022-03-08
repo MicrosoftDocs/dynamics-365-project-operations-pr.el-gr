@@ -2,8 +2,6 @@
 title: Ρύθμιση παραμέτρων κατηγοριών εξόδων
 description: Πώς γίνεται η ρύθμιση παραμέτρων κατηγοριών εξόδων στο Project Service
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 802da28a9079ae348aae14e260f280ef17f346f5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ba34905b68b7de1d1fc33eae46759d2d9623e3fd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151523"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012496"
 ---
 # <a name="configure-expense-categories-project-service"></a>Ρύθμιση παραμέτρων κατηγοριών εξόδων (Project Service)
 
@@ -55,3 +53,6 @@ ms.locfileid: "5151523"
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Ρύθμιση παραμέτρων του Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

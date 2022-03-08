@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 3b1818f20a0d54848939b689f87986154943c57a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176521"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274278"
 ---
 # <a name="confirm-a-proforma-invoice---lite"></a>Επιβεβαίωση προτιμολογίου - lite
 
@@ -273,3 +273,6 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

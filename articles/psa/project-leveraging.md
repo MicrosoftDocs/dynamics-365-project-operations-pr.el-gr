@@ -2,8 +2,6 @@
 title: Εκτιμήσεις πωλήσεων και έργων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο αξιοποίησης του χρονοδιαγράμματος και των εκτιμήσεων στη διαδικασία πωλήσεων.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148373"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998411"
 ---
 # <a name="sales-estimates-and-projects"></a>Εκτιμήσεις πωλήσεων και έργων
 
@@ -54,3 +52,6 @@ ms.locfileid: "5148373"
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Εισαγωγή εκτιμήσεων από ένα έργο σε μια προσφορά
 
 Αφού καθορίσετε τις εκτιμήσεις του έργου, μπορείτε να τις εισαγάγετε στη γραμμή προσφοράς. Στη σελίδα **Λεπτομέρειες γραμμής προσφοράς** επιλέξτε **Εισαγωγή από εκτιμήσεις** στην κορδέλα για να συνοψίσετε εκτιμήσεις έργου ανά τύπο συναλλαγής, ρόλο ή επίπεδο εργασίας.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

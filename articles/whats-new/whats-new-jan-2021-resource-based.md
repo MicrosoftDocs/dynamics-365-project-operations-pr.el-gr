@@ -2,19 +2,17 @@
 title: Τι νέο υπάρχει τον Ιανουάριο του 2021 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ενημερωμένες εκδόσεις ποιότητας που είναι διαθέσιμες στην έκδοση του Ιανουαρίου 2021 του Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια.
 author: sigitac
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: c600c30acd5e07e6370459928e33033a6ba418d6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958913"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995756"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει τον Ιανουάριο του 2021 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 
@@ -88,4 +86,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 ## <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
 
-Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Finance and Operations, ανατρέξτε στην ενότητα [Ενημέρωση κανονισμών](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Μπορείτε, επίσης, να συνδεθείτε στο LCS και να προβάλετε τις προγραμματισμένες ενημερώσεις κανονισμών χρησιμοποιώντας το εργαλείο αναζήτησης ζητημάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Finance and Operations, ανατρέξτε στην ενότητα [Ενημέρωση κανονισμών](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε, επίσης, να συνδεθείτε στο LCS και να προβάλετε τις προγραμματισμένες ενημερώσεις κανονισμών χρησιμοποιώντας το εργαλείο αναζήτησης ζητημάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

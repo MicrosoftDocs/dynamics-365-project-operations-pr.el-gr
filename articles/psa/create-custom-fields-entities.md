@@ -2,12 +2,10 @@
 title: Δημιουργία προσαρμοσμένων πεδίων και οντοτήτων
 description: Αυτό το θέμα επεξηγεί τον τρόπο δημιουργίας συνόλων επιλογών και οντοτήτων στη δική σας λύση στην πλατφόρμα Power Apps.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144863"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992431"
 ---
 # <a name="create-custom-fields-and-entities"></a>Δημιουργία προσαρμοσμένων πεδίων και οντοτήτων 
 
@@ -45,7 +43,7 @@ ms.locfileid: "5144863"
 2. Στην εξερεύνηση λύσεων, στο αριστερό παράθυρο περιήγησης, επιλέξτε **Οντότητες**.
 3. Κάντε κλικ στην επιλογή **Νέα** για να δημιουργήσετε μια νέα οντότητα που καλείται **Τυπικός τίτλος**. Πληκτρολογήστε τις απαιτούμενες υπόλοιπες πληροφορίες και, στη συνέχεια, πατήστε **Αποθήκευση**.
 
-> ![Ορισμός τυπικού τίτλου οντότητας](media/Standard-Title-entity-definition.png)
+> ![Ορισμός τυπικού τίτλου οντότητας.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Διαστάσεις που βασίζονται σε σύνολο επιλογών 
@@ -56,9 +54,9 @@ ms.locfileid: "5144863"
 2. Στην εξερεύνηση λύσεων, στο αριστερό παράθυρο περιήγησης, επιλέξτε **Σύνολα επιλογών**. 
 3. Επιλέξτε **Νέο** για να δημιουργήσετε ένα νέο σύνολο επιλογών, καταγράψτε τις υπόλοιπες απαιτούμενες πληροφορίες και πατήστε **Αποθήκευση**.
 
-> ![Η διάσταση τιμολόγησης που βασίζεται σε σύνολο επιλογών καλείται Τοποθεσία εργασίας πόρου ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Η διάσταση τιμολόγησης που βασίζεται σε σύνολο επιλογών καλείται Τοποθεσία εργασίας πόρου.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Η διάσταση τιμολόγησης που βασίζεται σε σύνολο επιλογών καλείται Ώρες εργασίας πόρου ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Η διάσταση τιμολόγησης που βασίζεται σε σύνολο επιλογών καλείται Ώρες εργασίας πόρου.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Δημιουργία δεδομένων για διαστάσεις βασισμένες σε οντότητες
@@ -70,6 +68,9 @@ ms.locfileid: "5144863"
 3. Κλείστε τη φόρμα. 
 4. Επαναλάβετε τα βήματα 1-3, για να δημιουργήσετε έναν άλλο τυπικό τίτλο για τον "επικεφαλής μηχανικό συστημάτων".
 
-> ![Δείγμα δεδομένων για την οντότητα τυπικού τίτλου ](media/ST-data.png)
+> ![Δείγμα δεδομένων για την οντότητα τυπικού τίτλου.](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: Επισκόπηση διαστάσεων τιμολόγησης
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις διαστάσεις τιμολόγησης στο Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650191"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004981"
 ---
 # <a name="pricing-dimensions-overview"></a>Επισκόπηση διαστάσεων τιμολόγησης
 
@@ -61,13 +59,16 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 | Ρόλος        | Οργανωτική μονάδα    |Μονάδα      |Τιμή      |Νομισματική μονάδα  |
 | ------------|-------------|----------|----------:|----------|
-| Προγραμματιστής   | Contoso US  |Hour | 200|USD     |
-| Προγραμματιστής   | Contoso India |Hour|   112|USD     |
+| Προγραμματιστής   | Contoso ΗΠΑ  |Ώρα | 200|USD     |
+| Προγραμματιστής   | Contoso India |Ώρα|   112|USD     |
 
 
 **Δείγμα ποσοστών κόστους**
 
 | Ζώνη αποδοχών     | Οργανωτική μονάδα    |Μονάδα      |Τιμή      |Νομισματική μονάδα  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hour | 145|USD     |
-| My company_Band2 | Contoso India |Hour|   67|USD     |
+| My company_Band1 | Contoso ΗΠΑ  |Ώρα | 145|USD     |
+| My company_Band2 | Contoso India |Ώρα|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

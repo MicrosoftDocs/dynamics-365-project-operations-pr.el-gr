@@ -2,11 +2,9 @@
 title: Διαχείριση τιμοκαταλόγων έργου σε μια προσφορά
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την οντότητα τιμοκαταλόγου Έργου.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177196"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003906"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Διαχείριση τιμοκαταλόγων έργου σε μια προσφορά
 
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
-Το Dynamics 365 Project Operations επεκτείνει την οντότητα Τιμοκατάλογος στο Dynamics 365 Sales. 
+Το Dynamics 365 Project Operations επεκτείνει την οντότητα "Τιμοκατάλογος" στο Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Βασικές οντότητες
 
@@ -120,3 +118,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
     1. Ο τιμοκατάλογος κόστους που επισυνάπτεται στην οργανωτική μονάδα.
     2. Ο τιμοκατάλογος κόστους που επισυνάπτεται στις παραμέτρους του Project Operations. Επειδή οι τιμοκατάλογοι κόστους σε πολλές διαφορετικές νομισματικές μονάδες μπορούν να επισυναφθούν στις παραμέτρους, πραγματοποιείται μια αντιστοιχία νομίσματος μεταξύ της νομισματικής μονάδας της αναθέτουσας οργανωτικής μονάδας του έργου, της σύμβασης ή της προσφοράς και της νομισματικής μονάδας του τιμοκαταλόγου κόστους.
     3. Για τα έξοδα, οι μέθοδοι τιμολόγησης με κόστος και χωρίς αύξηση κόστους δεν ισχύουν για τους τιμοκαταλόγους κόστους. Ακόμα κι αν αυτές οι μέθοδοι τιμολόγησης χρησιμοποιούνται σε γραμμές τιμοκαταλόγου κόστους για τη ρύθμιση του κόστους κατηγορίας συναλλαγής, το σύστημα τις αγνοεί και δεν καταχωρείται καμία προεπιλεγμένη τιμή κόστους.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

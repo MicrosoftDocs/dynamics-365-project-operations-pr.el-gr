@@ -2,18 +2,16 @@
 title: Δεξιότητες και πιστοποιήσεις
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την προσθήκη δεξιοτήτων και χαρακτηριστικών πιστοποίησης σε πόρους.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 966db35a4af55665105518b51e90a494db199397
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128868"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014071"
 ---
 # <a name="skills-and-certifications"></a>Δεξιότητες και πιστοποιήσεις
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
@@ -43,3 +41,5 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 3. Στο υποπλέγμα **Δεξιότητες**, επιλέξτε **+ Προσθήκη νέου απαιτούμενου χαρακτηριστικού**.
 4. Στο παράθυρο γρήγορης δημιουργίας, βρείτε και επιλέξτε τα απαιτούμενα χαρακτηριστικά και προσθέστε μια **Τιμή αξιολόγησης**.
 5. Επιλέξτε **Αποθήκευση και κλείσιμο**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

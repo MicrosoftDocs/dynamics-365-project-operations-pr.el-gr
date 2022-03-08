@@ -2,9 +2,11 @@
 title: Ρύθμιση τυπικού κόστους εργατικών και εξόδων
 description: Αυτό το θέμα επεξηγεί τον τρόπο ρύθμισης του τυπικού κόστους εργατικών και των εξόδων για ένα έργο.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b8f65709433ed6f9ff9d23ed6d99624ee1d4aaef6927ee689c9f7651807340c5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3eb6b1d4d75b095383689dd53a59a15fe9e884a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987976"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4076973"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Ρύθμιση τυπικού κόστους εργατικών και εξόδων
 
@@ -52,6 +54,3 @@ ms.locfileid: "6987976"
 22. Στο πεδίο **Τιμολόγηση**, καταχωρίστε έναν αριθμό. Η πραγματική τιμή πώλησης, η οποία εφαρμόζεται όταν ένας εργαζόμενος εισαγάγει μια συναλλαγή στο ημερολόγιο εξόδων, είναι η τιμή πώλησης με το υψηλότερο επίπεδο λεπτομερειών. Για παράδειγμα, εάν έχουν ρυθμιστεί τόσο μια γενική τιμή πώλησης όσο και μια τιμή πώλησης για ένα συγκεκριμένο εργαζόμενο, χρησιμοποιείται η τιμή πώλησης του συγκεκριμένου εργαζομένου.  
 23. Επιλέξτε **Αποθήκευση**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

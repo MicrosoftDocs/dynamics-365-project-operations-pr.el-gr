@@ -2,18 +2,16 @@
 title: Πλοήγηση Project Operations
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο πρόσβασης στο Project Operations από το Lifecycle Services.
 author: sigitac
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642048"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994591"
 ---
 # <a name="navigate-project-operations"></a>Πλοήγηση Project Operations
 
@@ -30,11 +28,14 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 Χρησιμοποιήστε το όνομα περιβάλλοντος στην ενότητα, **Όνομα περιβάλλοντος Common Data Service** για να μεταβείτε στο Project Operations σε περιβάλλον CDS. 
 
-  ![Όνομα περιβάλλοντος Common Data Service](./media/environment-name.PNG)
+  ![Όνομα περιβάλλοντος Common Data Service.](./media/environment-name.PNG)
 
 Επιλέξτε **Σύνδεση** > **Σύνδεση σε περιβάλλον** για να μεταβείτε στη μονάδα **Διαχείριση έργου και λογιστική** στο Finance.  
 
-   ![Σύνδεση στο Finance](./media/environment-login.PNG)
+   ![Σύνδεση στο Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Μπορείτε να αποκτήσετε πρόσβαση στο Project Operations στο Common Data Service και στη μονάδα **Διαχείριση έργου και λογιστική** απευθείας χρησιμοποιώντας τις αντίστοιχες διευθύνσεις URL. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

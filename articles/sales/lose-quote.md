@@ -2,18 +2,16 @@
 title: Αντιγραφή προσφορών βάσει έργου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο αντιγραφής προσφορών έργου στο Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181812"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992161"
 ---
 # <a name="copy-project-based-quotes"></a>Αντιγραφή προσφορών βάσει έργου
 
@@ -45,3 +43,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 > - Αναφορά έργου σχετικά με τις γραμμές προσφοράς βάσει έργου - Πληροφορίες για τον προϋπολογισμό του πελάτη
 >
 >Επειδή αυτές οι πληροφορίες είναι πολύ συγκεκριμένες για κάθε προσφορά, αυτά τα πεδία και οι καρτέλες δεν αντιγράφονται. Οι γραμμές προσφοράς για έργα και προϊόντα, οι εκτιμήσεις σχετικά με τις λεπτομέρειες της γραμμής προσφοράς και οι τιμές που δεν υπερβαίνουν τις τιμές στο επίπεδο προσφοράς αντιγράφονται. Οι προεπιλογές χρέωσης και τιμής εξαρτώνται από την επιλογή **Αντιγραφή τιμολόγησης** που έχει επιλεγεί στο παράθυρο διαλόγου **Αντιγραφή παραμέτρων**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
 title: Πεδία Project Operations Ρύθμιση ως διαστάσεις τιμολόγησης
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη χρήση των πεδίων ως διαστάσεις τιμολόγησης στο Dynamics 365 Project Operations.
+description: Αυτό το θέμα παρέχει πληροφορίες χρησιμοποιώντας πεδία ως διαστάσεις τιμολόγησης στο Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,17 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 59367b35f15f806b109f606e912edc487d9e7685
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2f95228cd765d9f220aa4b143412b237ec609eb89fd9aeb786818af828dd3229
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119238"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001926"
 ---
-# <a name="project-operations-fields-as-pricing-dimensions"></a>Πεδία Project Operations Ρύθμιση ως διαστάσεις τιμολόγησης
+# <a name="project-operations-fields-as-pricing-dimensions"></a>Πεδία Project Operations ως διαστάσεων τιμολόγησης
 
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
 Η οντότητα **Πραγματικές τιμές** έχει πολλά πεδία που μπορούν να χρησιμοποιηθούν ως διαστάσεις τιμολόγησης για τιμολόγηση βασισμένη σε πόρους. Για παράδειγμα, ένα συνηθισμένο πεδίο είναι ο **Πόρος με δυνατότητα κράτησης**. Οι μικρότερες εταιρείες με λιγότερους από 20-30 πόρους με δυνατότητα χρέωσης μπορεί να διαπιστώσουν ότι η ύπαρξη ποσοστού τιμολόγησης και κόστους για κάθε πόρο είναι μια απλούστερη προσέγγιση. Ωστόσο, καθώς το χρεώσιμο εργατικό δυναμικό αναπτύσσεται, οι τιμές για συγκεκριμένους πόρους ενδέχεται να μην είναι ρεαλιστικό να παραμείνουν ως έχουν. Το κόστος πόρων και οι χρεώσεις λογαριασμών αρχίζουν να ποικίλλουν καθώς οι πόροι προωθούνται, κερδίζουν περισσότερη εμπειρία ή αποκτούν ένα διαφορετικό σύνολο δεξιοτήτων. 
 
 Ένα άλλο παράδειγμα είναι η κατηγορία των συναλλαγών. Οι πελάτες και οι υπεύθυνοι υλοποίησης έχουν χρησιμοποιήσει την κατηγορία συναλλαγής για να ταξινομήσουν την εργασία και να χρησιμοποιήσουν το πεδίο σε τιμή και κόστος με βάση την κατηγορία εργασίας.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

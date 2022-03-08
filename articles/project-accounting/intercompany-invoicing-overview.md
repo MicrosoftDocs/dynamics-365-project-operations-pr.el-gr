@@ -2,18 +2,16 @@
 title: Επισκόπηση διεταιρικής τιμολόγησης
 description: Αυτό το θέμα παρέχει πληροφορίες και παραδείγματα σχετικά με τη διεταιρική τιμολόγηση για έργα.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
-ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4595475"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002641"
 ---
 # <a name="intercompany-invoicing-overview"></a>Επισκόπηση διεταιρικής τιμολόγησης
 
@@ -21,7 +19,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 Ο οργανισμός σας μπορεί να έχει πολλαπλά τμήματα, θυγατρικές και άλλες νομικές οντότητες που μεταφέρουν τα προϊόντα και τις υπηρεσίες μεταξύ τους για τα έργα. Η νομική οντότητα που παρέχει την υπηρεσία ή το προϊόν ονομάζεται *νομική οντότητα που δανείζει*. Η νομική οντότητα που λαμβάνει την υπηρεσία ή το προϊόν ονομάζεται *νομική οντότητα που δανείζεται*.
 
-Η εικόνα που ακολουθεί δείχνει ένα τυπικό σενάριο όπου δύο νομικές οντότητες, η Contoso Robotics USA (η νομική οντότητα που δανείζεται) και η Contoso Robotics UK (νομική οντότητα που δανείζει) μοιράζονται πόρους για την παράδοση ενός έργου για τον πελάτη, την Adventure Works. Για αυτό το σενάριο, η Contoso Robotics USA αναλαμβάνει την παροχή της εργασίας στην Adventure Works.
+Παρακάτω παρουσιάζεται ένα τυπικό σενάριο, όπου δύο νομικές οντότητες, η Contoso Robotics USA (το νομικό πρόσωπο που δανείζεται) και η Contoso Robotics UK. (το νομικό πρόσωπο που δανείζει) μοιράζονται πόρους για την παροχή ενός έργου για τον πελάτη, Adventure works. Για το συγκεκριμένο σενάριο, η Contoso Robotics USA έχει συμβάσεις για την παράδοση της εργασίας στην Adventure Works.
 
 ![Διεταιρική τιμολόγηση](./media/IntercompanyScenario.png) 
 
@@ -43,3 +41,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 - [Ρύθμιση παραμέτρων διεταιρικής τιμολόγησης](configure-intercompany-invoicing.md)
 - [Καταγραφή διεταιρικών συναλλαγών](create-intercompany-transactions.md)
 - [Δημιουργία διεταιρικών τιμολογίων πελατών και προμηθευτών](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

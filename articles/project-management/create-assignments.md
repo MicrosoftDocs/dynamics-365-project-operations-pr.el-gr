@@ -2,18 +2,16 @@
 title: Δημιουργία αναθέσεων πόρων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη δημιουργία αναθέσεων σε γενικούς και καθορισμένους πόρους.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131748"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987886"
 ---
 # <a name="create-resource-assignments"></a>Δημιουργία αναθέσεων πόρων
 
@@ -42,3 +40,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 1. Από το πλέγμα εργασιών, τον πίνακα ή τη λωρίδα χρόνου, μεταβείτε στο κελί **Ανατέθηκε σε**.
 2. Στο πλαίσιο αναζήτησης, αρχίστε να πληκτρολογείτε ένα όνομα. Τα αποτελέσματα αναζήτησης για το όνομα εμφανίζονται στον **Επιλογέα πόρων** κάτω από το στοιχείο **Άλλοι πόροι**.
 3. Επιλέξτε τον πόρο που θέλετε να αναθέσετε στην εργασία ή επιλέξτε το όνομα του πόρου κάτω από το στοιχείο **Άλλες ομάδες πόρων**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

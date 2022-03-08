@@ -2,18 +2,16 @@
 title: Καθορισμός ημερολογίων πόρων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ορισμού των ημερολογίων ώρας εργασίας για πόρους στο Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 5ac834e16afc2f559bee6e10434f7015e8a8e51f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123918"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012181"
 ---
 # <a name="define-resource-calendars"></a>Καθορισμός ημερολογίων πόρων
 
@@ -43,3 +41,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 2. Από την προβολή πλέγματος, επιλέξτε έως και 25 **πόρους με δυνατότητα κράτησης** για ενημέρωση.
 3. Επιλέξτε **Ορισμός ημερολογίου** και ένα παράθυρο διαλόγου θα σας ζητήσει μια λίστα με τα διαθέσιμα πρότυπα ωρών εργασίας.
 4. Επιλέξτε το πρότυπο που θέλετε να χρησιμοποιήσετε και, στη συνέχεια, επιλέξτε **Εφαρμογή**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 9e3504a89f598c9acf3925e8b27930724ef2d3a5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271488"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960787"
 ---
 # <a name="manage-expense-delegation"></a>Διαχείριση ανάθεσης εξόδων
 
@@ -41,6 +41,3 @@ ms.locfileid: "5271488"
 Ένας πληρεξούσιος χρήστης μπορεί γρήγορα να φιλτράρει και να αναζητήσει τις υπάρχουσες αναφορές δαπανών που έχουν ανατεθεί σε αυτόν. Επίσης, μπορεί να δημιουργήσει μια νέα αναφορά δαπανών για άλλους χρήστες επιλέγοντας **Νέα αναφορά δαπανών**.
 
 Οι πληρεξούσιοι χρήστες μπορούν επίσης να δημιουργούν και να διαχειρίζονται αναφορές δαπανών για άλλους υπαλλήλους, επιλέγοντας **Διαχείριση δαπανών** > **Τα έξοδά μου** > **Αναφορές δαπανών** και επιλέγοντας **Άνοιγμα δαπανών άλλου χρήστη**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

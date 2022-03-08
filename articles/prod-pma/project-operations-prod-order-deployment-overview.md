@@ -2,18 +2,16 @@
 title: Επισκόπηση ανάπτυξης του Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τύπο ανάπτυξης, το Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 7b2a606bc587b99c16d45b19689ba90b422c3c62
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365485"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999401"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Επισκόπηση ανάπτυξης του Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 
@@ -43,3 +41,6 @@ _**Ισχύει για:** Project Operations για Εφοδιασμένα σε�
 - Ένας μηχανισμός πωλήσεων εταιρικού επιπέδου και συναλλαγματικών ισοτιμιών για τη δημιουργία τιμολογίων με πελάτη για τα έργα.
 - Ένα σύστημα αναγνώρισης εσόδων και λογιστικής έργων που συμμορφώνεται με ένα διεθνές πρότυπο χρηματοοικονομικών αναφορών (IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

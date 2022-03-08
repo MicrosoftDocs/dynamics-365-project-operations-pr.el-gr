@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727880"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951029"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει τον Δεκέμβριο του 2020 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 
@@ -108,4 +108,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 | Ταξίδι και έξοδα                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Η ροή εργασιών αυτόματης καταχώρησης αναφοράς εξόδων έχει ολοκληρωθεί, αλλά το τιμολόγιο δεν έχει καταχωρηθεί                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
-Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Finance and Operations, ανατρέξτε στην ενότητα [Ενημέρωση κανονισμών](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Μπορείτε, επίσης, να συνδεθείτε στο LCS και να προβάλετε τις προγραμματισμένες ενημερώσεις κανονισμών χρησιμοποιώντας το εργαλείο αναζήτησης ζητημάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Finance and Operations, ανατρέξτε στην ενότητα [Ενημέρωση κανονισμών](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε, επίσης, να συνδεθείτε στο LCS και να προβάλετε τις προγραμματισμένες ενημερώσεις κανονισμών χρησιμοποιώντας το εργαλείο αναζήτησης ζητημάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

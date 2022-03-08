@@ -2,18 +2,16 @@
 title: Τι νέο υπάρχει τον Νοέμβριο του 2020 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ενημερωμένες εκδόσεις ποιότητας που είναι διαθέσιμες στην έκδοση του Νοεμβρίου 2020 των λειτουργιών έργου για σενάρια πόρων/μη εφοδιασμένα σενάρια.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
+ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367265"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007956"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει τον Νοέμβριο του 2020 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 
@@ -67,4 +65,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 | Λογιστική έργου  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Η ενεργοποίηση της δυνατότητας, πολλές γραμμές σύμβασης, δεν είναι δυνατή χωρίς ενοποίηση CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
-Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Finance and Operations, ανατρέξτε στην ενότητα [Ενημέρωση κανονισμών](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Μπορείτε, επίσης, να συνδεθείτε στο LCS και να προβάλετε τις προγραμματισμένες ενημερώσεις κανονισμών χρησιμοποιώντας το εργαλείο αναζήτησης ζητημάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Finance and Operations, ανατρέξτε στην ενότητα [Ενημέρωση κανονισμών](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε, επίσης, να συνδεθείτε στο LCS και να προβάλετε τις προγραμματισμένες ενημερώσεις κανονισμών χρησιμοποιώντας το εργαλείο αναζήτησης ζητημάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

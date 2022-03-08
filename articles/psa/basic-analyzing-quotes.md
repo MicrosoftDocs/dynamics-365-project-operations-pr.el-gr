@@ -2,8 +2,6 @@
 title: Ανάλυση προσφορών έργου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την ανάλυση των προσφορών έργου.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145223"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002826"
 ---
 # <a name="analysis-of-project-quotes"></a>Ανάλυση προσφορών έργου
 
@@ -60,3 +58,6 @@ ms.locfileid: "5145223"
 Η ανάλυση των προσδοκιών του πελάτη σχετικά με το χρονοδιάγραμμα γίνεται με τη σύγκριση της πιο πρόσφατης ημερομηνίας λήξης της λεπτομέρειας της γραμμής προσφοράς με την αιτούμενη ημερομηνία παράδοσης σε όλες τις γραμμές προσφοράς της προσφοράς.
 
 Η ανάλυση των προσδοκιών του πελάτη σχετικά με τον προϋπολογισμό γίνεται με τη σύγκριση του αθροίσματος του συνολικού προϋπολογισμού του πελάτη με το ποσό της προσφοράς σε όλες τις γραμμές προσφοράς.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

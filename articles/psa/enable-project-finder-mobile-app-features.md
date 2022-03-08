@@ -2,9 +2,7 @@
 title: Ενεργοποίηση δυνατοτήτων εφαρμογής Project Finder Mobile
 description: Πώς γίνεται η ενεργοποίηση δυνατοτήτων εφαρμογής Project Finder Mobile για το Project Service
 author: JohnPBurrows
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144548"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004896"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Ενεργοποίηση δυνατοτήτων εφαρμογής Project Finder Mobile (Project Service)
 
@@ -49,11 +47,11 @@ ms.locfileid: "5144548"
   
 4. Ορίστε το στοιχείο **Να επιτρέπεται η ενημέρωση δεξιότητας από πόρο** σε **Ναι**.  
   
-   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Αυτή είναι μια καθολική ρύθμιση. Οι διαχειριστές έργων μπορούν να ορίσουν το αν ένα μεμονωμένο έργο θα είναι ορατό στη σελίδα **Ομάδα έργου** αυτού του έργου.  
   
-   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Ειδοποιήσεις ηλεκτρονικού ταχυδρομείου  
  Το [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] αποστέλλει μηνύματα ηλεκτρονικού ταχυδρομείου σχετικά με τις αιτήσεις πόρων στους ακόλουθους παραλήπτες κατά τις ακόλουθες ώρες:  
@@ -68,3 +66,6 @@ ms.locfileid: "5144548"
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Ρύθμιση πόρων](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

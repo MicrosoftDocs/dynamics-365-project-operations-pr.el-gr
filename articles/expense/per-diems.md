@@ -2,18 +2,16 @@
 title: Ημερήσιες αποζημιώσεις
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τους κανόνες ημερήσιας αποζημίωσης που χρησιμοποιούνται στη διαχείριση δαπανών.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128508"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986401"
 ---
 # <a name="per-diems"></a>Ημερήσιες αποζημιώσεις
 
@@ -31,3 +29,6 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
     
 ## <a name="submit-expenses-using-per-diem"></a>Υποβολή εξόδων με τη χρήση ημερήσιων αποζημιώσεων
 Για να υποβάλετε τα έξοδα χρησιμοποιώντας τις ημερήσιες αποζημιώσεις, χρησιμοποιήστε την κατηγορία εξόδων **Ημερήσια αποζημίωση** όταν δημιουργείτε μια αναφορά εξόδων. Καταχωρείστε την **Ημερήσια αποζημίωση από την ημερομηνία**, την **Ημερήσια αποζημίωση έως** και την **Τοποθεσία ημερήσιας αποζημίωσης**. Το ποσό θα υπολογιστεί με βάση τις τιμές ημερήσιας αποζημίωσης για την επιλεγμένη θέση και η μείωση γεύματος θα υπολογιστεί με βάση τα επίπεδα ανά ποσοστό ημερήσιας αποζημίωσης.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

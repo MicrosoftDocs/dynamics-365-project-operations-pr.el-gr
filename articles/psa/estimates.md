@@ -2,8 +2,6 @@
 title: Εκτιμήσεις
 description: Αυτό το θέμα παρέχει συνδέσεις σε πληροφορίες σχετικά με τις εκτιμήσεις στο Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151433"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992386"
 ---
 # <a name="estimates"></a>Εκτιμήσεις
 
@@ -85,24 +83,27 @@ ms.locfileid: "5151433"
 1. Ανοίξτε το PluginRegistrationTool και συνδέστε το με την online παρουσία σας.
 2. Κάντε κλικ στην **Αναζήτηση** και αναζητήστε την προσθήκη που θέλετε να ενημερώσετε.
 
-    ![Παράθυρο διαλόγου δέντρου αναζήτησης](media/basic-guide-19.png)
+    ![Παράθυρο διαλόγου "Αναζήτηση δέντρου.](media/basic-guide-19.png)
 
 3. Επιλέξτε την προσθήκη και, στη συνέχεια, στην κύρια σελίδα, επιλέξτε **Επιλογή**.
 4. Επιλέξτε το βήμα της προσθήκης που θα ενημερωθεί, κάντε δεξί κλικ και, στη συνέχεια, επιλέξτε **Ενημέρωση**.
 
-    ![Επιλογή ενός βήματος στην προσθήκη](media/basic-guide-20.png)
+    ![Επιλογή ενός βήματος στην προσθήκη.](media/basic-guide-20.png)
 
 5. Στο παράθυρο διαλόγου **Ενημέρωση υφιστάμενου βήματος**, στο πεδίο **Φιλτράρισμα χαρακτηριστικών**, επιλέξτε το κουμπί με τα αποσιωπητικά (**...**):
  
-    ![Παράθυρο διαλόγου "Ενημέρωση υπαρχόντων βημάτων"](media/basic-guide-21.png)
+    ![Παράθυρο διαλόγου "Ενημέρωση υπαρχόντων βημάτων".](media/basic-guide-21.png)
 
 6. Στο παράθυρο διαλόγου **Επιλογή χαρακτηριστικών** επιλέξτε τα πλαίσια ελέγχου για τα προσαρμοσμένα χαρακτηριστικά.
 
-    ![Παράθυρο διαλόγου επιλογής χαρακτηριστικών](media/basic-guide-22.png)
+    ![Παράθυρο διαλόγου "Επιλογή χαρακτηριστικών".](media/basic-guide-22.png)
 
 7. Κάντε κλικ στο **ΟΚ** για να κλείσετε το παράθυρο διαλόγου και επιλέξτε **Βήμα ενημέρωσης**.
  
-    ![Κουμπί βήματος ενημέρωσης](media/basic-guide-23.png)
+    ![Κουμπί "Βήμα ενημέρωσης".](media/basic-guide-23.png)
 
 8. Επαναλάβετε τα βήματα 1 έως και 7 για τη δεύτερη προσθήκη.
 9. Κλείστε το εργαλείο PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

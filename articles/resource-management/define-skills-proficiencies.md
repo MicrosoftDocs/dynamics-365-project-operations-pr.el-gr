@@ -2,11 +2,9 @@
 title: Ορισμός δεξιοτήτων και επαρκειών
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη ρύθμιση των μοντέλων επάρκειας για την αξιολόγηση πόρων.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8738a4743554704ef76807c81fdefcd74e668e1b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 982f64677b74f2195eacc287fc07b80c34f7acc0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124773"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015331"
 ---
 # <a name="define-skills-and-proficiencies"></a>Ορισμός δεξιοτήτων και επαρκειών
 
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
-Οι δεξιότητες είναι χαρακτηριστικά πόρου τα οποία είναι κοινόχρηστα στο Dynamics 365 Project Operations και αν υπάρχει, στο Dynamics 365 Field Service. 
+Οι δεξιότητες είναι χαρακτηριστικά πόρου τα οποία είναι κοινόχρηστα στο Dynamics 365 Project Operations και αν υπάρχουν στο Dynamics 365 Field Service. 
 
 - Για να διατηρήσετε το αρχείο φύλαξης δεξιοτήτων στο Project Operations, μεταβείτε στα στοιχεία **Πόροι** \> **Δεξιότητες πόρων**. 
 
@@ -42,3 +40,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 
 Αυτές οι τιμές αξιολόγησης εμφανίζονται στα φίλτρα **"Απαιτήσεις πόρου**, **Πίνακας χρονοδιαγράμματος** και **Βοηθός χρονοδιαγράμματος**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

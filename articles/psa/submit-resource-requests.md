@@ -2,8 +2,6 @@
 title: Υποβολή αιτήσεων πόρων
 description: Πώς γίνεται η υποβολή αιτήσεων πόρων στο Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b8b136e8d1b8c7acbb8616789ad274c89438e7d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d3ff2b51e29bd7196761dcdfbd563f309dfddade
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150218"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013126"
 ---
 # <a name="submit-resource-requests-project-service"></a>Υποβολή ερωτημάτων πόρων (Project Service)
 
@@ -55,3 +53,6 @@ ms.locfileid: "5150218"
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Οδηγός υπευθύνου έργου](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
