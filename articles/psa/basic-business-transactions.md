@@ -2,8 +2,6 @@
 title: Επιχειρηματικές συναλλαγές
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις επιχειρηματικές συναλλαγές.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 048bd2d98e6332e6c48a24f4eacee5b937ef04a9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126978"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987526"
 ---
 # <a name="business-transactions"></a>Επιχειρηματικές συναλλαγές
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -88,7 +88,7 @@ ms.locfileid: "4126978"
 
 Το παρακάτω παράδειγμα δείχνει τη συνήθη επεξεργασία καταχωρήσεων χρόνου σε έναν κύκλο ζωής έργου PSA.
 
-> ![Επεξεργασία ολόκληρου του χρόνου σε έναν κύκλο ζωής Project Service](media/basic-guide-17.png)
+> ![Επεξεργασία ολόκληρου του χρόνου σε έναν κύκλο ζωής Project Service.](media/basic-guide-17.png)
  
 1. Η υποβολή μιας καταχώρησης χρόνου προκαλεί τη δημιουργία δύο γραμμών εγγραφών: μία για το κόστος και μία για τις πωλήσεις που δεν έχουν τιμολογηθεί.
 2. Η τελική έγκριση της καταχώρησης χρόνου προκαλεί τη δημιουργία δύο πραγματικών τιμών: μία για το κόστος και μία για τις πωλήσεις που δεν έχουν τιμολογηθεί.
@@ -147,3 +147,6 @@ ms.locfileid: "4126978"
 | Διόρθωση προσχέδιου τιμολογίου       | GUID συναλλαγών γραμμής τιμολογίου | Αντικατάσταση          | msdyn_invoicelinetransaction | Χρεωμένες πωλήσεις GUID            | Αρχική           | msdyn_actual       |
 | Επιβεβαίωση διόρθωσης τιμολογίου     | GUID καθολικών χρεώσιμων πωλήσεων    | Αντιστροφή          | msdyn_actual                 | Χρεωμένες πωλήσεις GUID            | Αρχική           | msdyn_actual       |
 | Πραγματικό GUID νέων πωλήσεων με χρέωση | Αντικατάσταση                     | msdyn_actual       | Χρεωμένες πωλήσεις GUID            | Αρχική                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

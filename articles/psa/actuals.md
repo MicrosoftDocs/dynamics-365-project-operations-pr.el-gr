@@ -2,10 +2,9 @@
 title: Επισκόπηση πραγματικών τιμών
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις πραγματικές τιμές έργου.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -18,20 +17,22 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077114"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992476"
 ---
 # <a name="actuals-overview"></a>Επισκόπηση πραγματικών τιμών
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Οι πραγματικές τιμές είναι ο όγκος εργασίας που έχει ολοκληρωθεί σε ένα έργο. Οι πραγματικές τιμές του έργου μπορούν να επισημανθούν στα έγγραφα προέλευσης. Στα εν λόγω έγγραφα προέλευσης περιλαμβάνονται καταχωρήσεις χρόνου, εξόδων και ημερολογίου καθώς επίσης και τιμολόγια.
 
-![Πώς ανιχνεύονται οι πραγματικές τιμές του έργου στα έγγραφα προέλευσης](media/basic-guide-18.png)
+![Πώς ανιχνεύονται οι πραγματικές τιμές του έργου στα έγγραφα προέλευσης.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Υποβολή χρονικής καταχώρησης
 
@@ -328,3 +329,6 @@ ms.locfileid: "4077114"
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

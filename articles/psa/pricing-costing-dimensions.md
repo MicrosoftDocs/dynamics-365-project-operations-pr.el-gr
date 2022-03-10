@@ -2,12 +2,11 @@
 title: Αρχική σελίδα διαστάσεων τιμολόγησης και κοστολόγησης
 description: Αυτό το θέμα παρέχει μια επισκόπηση των διαστάσεων τιμολόγησης.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076957"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998461"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Αρχική σελίδα διαστάσεων τιμολόγησης και κοστολόγησης
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Οι διαστάσεις που χρησιμοποιούνται για τον καθορισμό της τιμολόγησης εργασίας και της κοστολόγησης σε οργανισμούς που βασίζονται σε έργα, επηρεάζονται από τα ακόλουθα χαρακτηριστικά:
 
@@ -40,7 +41,7 @@ ms.locfileid: "4076957"
 
 Το PSA διαθέτει ένα προεπιλεγμένο σύνολο διαστάσεων τιμολόγησης. Μπορείτε να τις δείτε μεταβαίνοντας στο **Project Service** > **Παράμετροι**. Στην καρτέλα της παραμέτρου, στην καρτέλα **Διαστάσεις τιμολόγησης βάσει ποσού** επαληθεύστε ότι ο ρόλος **msdyn_resourcecategory** και η οργανωτική μονάδα πόρου **msdyn_organizationalunit** έχουν τα πεδία **Ισχύει για τις πωλήσεις** και **Ισχύει για το κόστος** σε **Ναι**. Αυτό θα σας επιτρέψει να ορίσετε την τιμή και το κόστος για κάθε συνδυασμό ρόλου και οργανωτικής μονάδας.
 
-![Στιγμιότυπο οθόνης των παραμέτρων Project Service με επισήμανση "Ισχύει για πωλήσεις"](media/PS-OOB-parameters.png)
+![Στιγμιότυπο οθόνης των παραμέτρων Project Service με επισήμανση "Ισχύει για πωλήσεις".](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Εάν χρησιμοποιούσατε τα έτοιμα πεδία ρόλου και οργανωτικής μονάδας όπως οι διαστάσεις τιμολόγησης πριν από την έκδοση 3 του PSA, δεν θα υπάρξει καμία παρατηρήσιμη αλλαγή. Μπορείτε να συνεχίσετε να χρησιμοποιείτε το Project Service ως συνήθως. 
@@ -65,13 +66,16 @@ ms.locfileid: "4076957"
 
 | Ρόλος        | Οργανωτική μονάδα    |Μονάδα      |Τιμή      |Νομισματική μονάδα  |
 | ------------|-------------|----------|----------:|----------|
-| Προγραμματιστής   | Contoso US  |Hour | 200|USD     |
-| Προγραμματιστής   | Contoso India |Hour|   112|USD     |
+| Προγραμματιστής   | Contoso ΗΠΑ  |Ώρα | 200|USD     |
+| Προγραμματιστής   | Contoso India |Ώρα|   112|USD     |
 
 
 **Δείγμα ποσοστών κόστους**
 
 | Ζώνη αποδοχών     | Οργανωτική μονάδα    |Μονάδα      |Τιμή      |Νομισματική μονάδα  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hour | 145|USD     |
-| My company_Band2 | Contoso India |Hour|   67|USD     |
+| My company_Band1 | Contoso ΗΠΑ  |Ώρα | 145|USD     |
+| My company_Band2 | Contoso India |Ώρα|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

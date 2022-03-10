@@ -2,18 +2,16 @@
 title: Διαχείριση πολλών πελατών σε γραμμές σύμβασης βάσει έργου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την εργασία με γραμμές σύμβασης και συμβάσεις που περιέχουν πολλούς πελάτες.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 205363d2ea5f1f5bf5fa8879cedd5b3e857eb772
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278013"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992116"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Διαχείριση πολλών πελατών σε γραμμές σύμβασης βάσει έργου
 

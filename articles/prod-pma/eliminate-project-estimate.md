@@ -2,11 +2,9 @@
 title: Κατάργηση εκτίμησης έργου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την κατάργηση μιας εκτίμησης έργου μετά την ολοκλήρωσή της.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a7c9f5a03e3b5e9ad43e23c6174a820088025dc8419ae4f80d247d69e80c8038
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076969"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994096"
 ---
 # <a name="eliminate-a-project-estimate"></a>Κατάργηση εκτίμησης έργου
 
@@ -51,3 +49,6 @@ ms.locfileid: "4076969"
 5. Μετά την ολοκλήρωση της διεργασίας κατάργησης, το έργο εκτίμησης που καταργείται εμφανίζεται με αρνητική τιμή. 
 
 Εάν δεν είχατε πρόθεση να καταργήσετε μια εκτίμηση, μπορείτε να επιλέξετε την εκτίμηση που καταργήσατε και να επιλέξετε **Αντιστροφή κατάργησης**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Αντιστοίχιση έργων και εργασιών σε μια γραμμή προσφοράς βάσει έργου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο αντιστοίχισης έργων και εργασιών σε μια γραμμή εργασιών που βασίζονται σε έργα.
 author: rumant
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 871d323136cd982bd48ed9aa2b9c34017951d2d8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6ad46f3636d749740115b11584eb81977c73cb30b63ef1092c0c2aac97cbc647
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130713"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988246"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Αντιστοίχιση έργων και εργασιών σε μια γραμμή προσφοράς βάσει έργου
 
@@ -90,3 +88,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 >[!NOTE]
 > Αυτή η διαδικασία δεν διαγράφει την εργασία από το έργο. Καταργεί μόνο τη συσχέτιση εργασιών από τη γραμμή προσφοράς βάσει έργου.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

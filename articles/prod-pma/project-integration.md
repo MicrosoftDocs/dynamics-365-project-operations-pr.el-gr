@@ -2,11 +2,9 @@
 title: Ενοποίηση του Microsoft Project client
 description: Ο προγραμματισμός και η συντήρηση ενός χρονοδιαγράμματος έργου μπορεί να είναι πολύπλοκα, επομένως οι διαχειριστές έργου πρέπει να χρησιμοποιούν τα εργαλεία που τους βοηθούν να διαχειρίζονται αυτήν την εργασία. Με την ενοποίηση με το Microsoft Project Client παρέχεται υποστήριξη για το άνοιγμα και τη διαχείριση μιας δομής ανάλυσης εργασίας έργου.
 author: Yowelle
-manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289324"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988021"
 ---
 # <a name="microsoft-project-client-integration"></a>Ενοποίηση του Microsoft Project client
 
@@ -128,5 +126,12 @@ ms.locfileid: "5289324"
 
 11. Κάντε κλικ στο κουμπί **OK**.
 
+> [!NOTE]
+> Το πρόσθετο προγράμματος-πελάτη έργου δεν υποστηρίζει τους παρακάτω χαρακτήρες στη μορφή του αναγνωριστικού έργου:
+> 
+>   - Χαρακτήρας υπογράμμισης
+>   - Τελεία
+>   - Πλήκτρο διαστήματος
+>   - Κάθετος
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

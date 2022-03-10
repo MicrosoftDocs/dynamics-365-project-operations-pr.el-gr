@@ -2,11 +2,9 @@
 title: Φύλλα κατανομής χρόνου έργου σε μια κινητή συσκευή
 description: Τα φύλλα κατανομής χρόνου μου (βελτιστοποιημένα για κινητές συσκευές) επιτρέπουν στους εργαζομένους να δημιουργούν και να υποβάλλουν φύλλα κατανομής χρόνου έργου για να καταγράψουν τις ώρες τους για ένα συγκεκριμένο έργο σε μια κινητή συσκευή.
 author: abruer
-manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 429c289c4ec653b81a1c5302b788db8c8ad26d8c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6b602bf60a451bcb3c489e371f698611678477245581f58f76145a4b846c7b8a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077058"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989596"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Φύλλα κατανομής χρόνου έργου σε μια κινητή συσκευή
 
@@ -62,3 +60,6 @@ ms.locfileid: "4077058"
 13. Προαιρετικό: Καταχωρίστε πρόσθετες γραμμές φύλλου κατανομής χρόνου.
 
 14. Αφού ολοκληρώσετε την εισαγωγή των γραμμών του φύλλου κατανομής χρόνου, επιλέξτε την ενέργεια **Ροή εργασίας** \> **Υποβολή** για την υποβολή του φύλλου κατανομής χρόνου στη διεργασία έγκρισης ροής εργασιών.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

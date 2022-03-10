@@ -2,11 +2,9 @@
 title: Πολλοί υπεύθυνοι έγκρισης αναφορικά με την αναφορά εξόδων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις αναφορές εξόδων που απαιτούν έγκριση από πολλά άτομα.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpensesReportList
 audience: Application User
@@ -16,16 +14,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce24b156a268f9f5aada35f9314d2d9c6607200b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 437f782d6a30cb6369fb7c7a2b79e59509ef603446098389ce946be6427dee9d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077072"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995896"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Πολλοί υπεύθυνοι έγκρισης αναφορικά με την αναφορά εξόδων
-
-[!include [banner](../includes/banner.md)]
 
 Ανάλογα με τις πολιτικές έγκρισης εξόδων του οργανισμού σας, περισσότερα από ένα άτομα μπορεί να πρέπει να εγκρίνουν μια αναφορά εξόδων που έχει υποβληθεί από έναν εργαζόμενο. Όταν ρυθμίζετε τη διεργασία ροής εργασιών για έγκριση αναφοράς εξόδων, μπορείτε να προσθέσετε στοιχεία ροής εργασίας που περιλαμβάνουν εργασίες ή βήματα για έναν ή περισσότερους υπεύθυνους έγκρισης αναφορών εξόδων. Για παράδειγμα, μπορείτε να απαιτήσετε την έγκριση όλων των αναφορών εξόδων πρώτα από τον προϊστάμενο του υπαλλήλου που υπέβαλε την αναφορά και μετά από τον συντονιστή πληρωτέων λογαριασμών.
 
@@ -42,3 +38,6 @@ ms.locfileid: "4077072"
 
     1. Ο προϊστάμενος του υπαλλήλου εγκρίνει την αναφορά εξόδων.
     2. Ο κάτοχος του προϋπολογισμού εγκρίνει την αναφορά εξόδων.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

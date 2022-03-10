@@ -2,19 +2,17 @@
 title: Τι νέο υπάρχει τον Φεβρουάριο του 2021 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ενημερωμένες εκδόσεις ποιότητας που είναι διαθέσιμες στην έκδοση του Φεβρουαρίου 2021 του Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια.
 author: sigitac
-manager: tfehr
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 12708a9b847f1f87ee0f5f45688adf48638d709f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291889"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986806"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει τον Φεβρουάριο του 2021 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 
@@ -53,7 +51,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 ## <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
 
-Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Finance and Operations, ανατρέξτε στην ενότητα [Ενημέρωση κανονισμών](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Ένας άλλος τρόπος για να μάθετε σχετικά με τις ρυθμιστικές ενημερώσεις είναι να συνδεθείτε στο Lifecycle Services (LCS) και να προβάλετε τις προγραμματισμένες ρυθμιστικές ενημερώσεις χρησιμοποιώντας το εργαλείο αναζήτησης θεμάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Finance and Operations, ανατρέξτε στην ενότητα [Ενημέρωση κανονισμών](/dynamics365/finance/localizations/regulatory-updates). Ένας άλλος τρόπος για να μάθετε σχετικά με τις ρυθμιστικές ενημερώσεις είναι να συνδεθείτε στο Lifecycle Services (LCS) και να προβάλετε τις προγραμματισμένες ρυθμιστικές ενημερώσεις χρησιμοποιώντας το εργαλείο αναζήτησης θεμάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

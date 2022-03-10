@@ -2,18 +2,16 @@
 title: Ρύθμιση συντελεστών κόστους και πωλήσεων για υλικά
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο καθορισμού των συντελεστών κόστους και πωλήσεων για υλικά που χρησιμοποιούνται σε έργα.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 05abefcec5c64632d00e2317107fe7a84ded4908
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877787"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999181"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Ρύθμιση συντελεστών κόστους και πωλήσεων για υλικά
 
@@ -27,6 +25,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 2. Στα **Στοιχεία τιμοκαταλόγου** στο μενού υποπλέγματος, επιλέξτε **Νέο στοιχείο τιμοκαταλόγου**. 
 3. Στη σελίδα **Γρήγορη δημιουργία**, καταχωρήστε το προϊόν και τη μονάδα για τα οποία δημιουργείτε τη νέα τιμή.
 
-Για περισσότερες πληροφορίες σχετικά με τον τρόπο καθορισμού των τιμών για τα στοιχεία καταλόγου, ανατρέξτε στο θέμα [Ρύθμιση τιμολόγησης για προϊόντα](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products) και [Ακρίβεια δεκαδικών ψηφίων στη νομισματική μονάδα και στην τιμολόγηση](https://docs.microsoft.com/dynamics365/sales-enterprise/decimal-precision-currency-pricing).
+Για περισσότερες πληροφορίες σχετικά με τον τρόπο καθορισμού των τιμών για τα στοιχεία καταλόγου, ανατρέξτε στο θέμα [Ρύθμιση τιμολόγησης για προϊόντα](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) και [Ακρίβεια δεκαδικών ψηφίων στη νομισματική μονάδα και στην τιμολόγηση](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

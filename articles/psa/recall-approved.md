@@ -2,8 +2,6 @@
 title: Ανάκληση εγκεκριμένων καταχωρήσεων χρόνου ή εξόδων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ανάκλησης μιας συναλλαγής χρόνου ή δαπάνης που έχει εγκριθεί προηγουμένως.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,14 +15,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120543"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998326"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Ανάκληση εγκεκριμένων καταχωρήσεων χρόνου ή εξόδων
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -98,10 +98,13 @@ ms.locfileid: "4120543"
 
 Η εικόνα που ακολουθεί εμφανίζει τις αλλαγές που πραγματοποιούνται για εγκεκριμένες καταχωρήσεις χρόνου, όταν αυτές ανακαλούνται.
 
-![Μεταβάσεις κατάστασης χρονικών καταχωρήσεων](media/TimeEntryStateTransitions.png)
+![Μεταβάσεις κατάστασης χρονικών καταχωρήσεων.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Αλλαγές σε καρτέλες καταχωρήσεων δαπανών
 
 Η εικόνα που ακολουθεί εμφανίζει τις αλλαγές που πραγματοποιούνται για εγκεκριμένες καταχωρήσεις δαπανών, όταν αυτές ανακαλούνται.
 
-![Μεταβάσεις κατάστασης καταχωρήσεων δαπανών](media/ExpenseEntryStateTransitions.png)
+![Μεταβάσεις κατάστασης καταχωρήσεων εξόδων.](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

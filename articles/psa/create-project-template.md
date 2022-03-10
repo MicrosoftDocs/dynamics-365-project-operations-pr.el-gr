@@ -2,8 +2,6 @@
 title: Δημιουργία προτύπου έργου
 description: Πώς γίνεται η δημιουργία προτύπου έργου στο Project Service
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 700d1bb1fd7299b49b6c6f8e4d84d14bc1d52c1a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1423dfedccfdc471662581707b4441c9ed477f7c0811ccf3905af8c59f774f77
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076929"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990856"
 ---
 # <a name="create-a-project-template-project-service"></a>Δημιουργία προτύπου έργου (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -60,3 +60,6 @@ ms.locfileid: "4076929"
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Οδηγός υπευθύνου έργου](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

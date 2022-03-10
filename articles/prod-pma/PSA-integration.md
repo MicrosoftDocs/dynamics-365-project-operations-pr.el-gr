@@ -2,31 +2,30 @@
 title: Επισκόπηση του Project Service Automation
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη λύση ενοποίησης του Dynamics 365 Project Service Automation στο Dynamics 365 Finance.
 author: ruhercul
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ruhercul
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077057"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005886"
 ---
 # <a name="project-service-automation-overview"></a>Επισκόπηση του Project Service Automation
 
 [!include[banner](../includes/banner.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Η λύση ενοποίησης του Project Service Automation στο Finance χρησιμοποιεί τη δυνατότητα ενοποίησης δεδομένων για το συγχρονισμό δεδομένων σε παρουσίες των Dynamics 365 Finance και Dynamics 365 Project Service Automation μέσω Common Data Service. Τα πρότυπα ενοποίησης που είναι διαθέσιμα με τη δυνατότητα ενοποίησης δεδομένων ενεργοποιούν τη ροή των έργων, τις συμβάσεις έργου, τις γραμμές σύμβασης έργου, τα ορόσημα γραμμής σύμβασης έργου, τις εργασίες έργου, τις κατηγορίες των συναλλαγών εξόδων, τις εκτιμήσεις ωρών και τις εκτιμήσεις εξόδων από το Project Service Automation στο Finance.
 
@@ -57,7 +56,7 @@ ms.locfileid: "4077057"
 > [!NOTE]
 > Αυτήν τη στιγμή δεν είναι διαθέσιμα όλα τα πρότυπα. Τα πρότυπα θα διατεθούν μετά την ολοκλήρωσή τους.
 
-[![Ενοποίηση του Project Service Automation με το Finance](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Ενοποίηση του Project Service Automation με το Finance.](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Απαιτήσεις συστήματος για το Finance
 
@@ -74,3 +73,6 @@ ms.locfileid: "4077057"
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Εγκατάσταση λύσης ενοποίησης του Project Service Automation με το Finance στην παρουσία Project Service Automation
 
 Πραγματοποιήστε λήψη της λύσης ενοποίησης του Project Service Automation με το Finance από το [Κέντρο λήψης της Microsoft](https://www.microsoft.com/download/details.aspx?id=57016) και ακολουθήστε τις οδηγίες που περιλαμβάνονται με τη λύση.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

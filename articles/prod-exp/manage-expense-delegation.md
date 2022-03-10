@@ -2,11 +2,9 @@
 title: Διαχείριση ανάθεσης εξόδων
 description: Ένας πληρεξούσιος χρήστης δαπανών μπορεί να δημιουργήσει και να διαχειριστεί αναφορές δαπανών για έναν άλλο υπάλληλο στον οργανισμό.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 8294e4c51c08298937f2a4d4b271470d2f30e80a043e72aa874aa91306ac6712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960787"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001161"
 ---
 # <a name="manage-expense-delegation"></a>Διαχείριση ανάθεσης εξόδων
 
@@ -41,3 +39,6 @@ ms.locfileid: "4960787"
 Ένας πληρεξούσιος χρήστης μπορεί γρήγορα να φιλτράρει και να αναζητήσει τις υπάρχουσες αναφορές δαπανών που έχουν ανατεθεί σε αυτόν. Επίσης, μπορεί να δημιουργήσει μια νέα αναφορά δαπανών για άλλους χρήστες επιλέγοντας **Νέα αναφορά δαπανών**.
 
 Οι πληρεξούσιοι χρήστες μπορούν επίσης να δημιουργούν και να διαχειρίζονται αναφορές δαπανών για άλλους υπαλλήλους, επιλέγοντας **Διαχείριση δαπανών** > **Τα έξοδά μου** > **Αναφορές δαπανών** και επιλέγοντας **Άνοιγμα δαπανών άλλου χρήστη**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

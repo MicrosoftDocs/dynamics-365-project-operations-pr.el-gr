@@ -2,12 +2,10 @@
 title: Αλλαγές οντότητας, στοιχείου ελέγχου και περιβάλλοντος εργασίας χρήστη (Project Service Automation 3.x)
 description: Αυτό το θέμα περιγράφει τις αλλαγές για το Microsoft Dynamics Project Service Automation 3.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/15/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,14 +14,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2d93e5eaae7cff302be1cb2e96e3f45c24739b0c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 86b51e58189a62f15a5ded039e9265733a0d9d4a7c7bf8d18ac46aadf1d2a931
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4077111"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987346"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Αλλαγές οντότητας, στοιχείου ελέγχου και περιβάλλοντος εργασίας χρήστη (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
+
 Με την κυκλοφορία του Microsoft Dynamics Project Service Automation 3.x., έχουν γίνει πολλές αλλαγές στις οντότητες, τα στοιχεία ελέγχου, τις προβολές και το περιβάλλον εργασίας χρήστη. Αυτό το θέμα παρέχει σημαντικές πληροφορίες σχετικά με αυτές τις σημαντικές αλλαγές.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Θυγατρικές-γονικές σχέσεις για έγγραφο πωλήσεων, γραμμές εγγράφου πωλήσεων, οντότητες λεπτομερειών γραμμής εγγράφου πωλήσεων
@@ -80,3 +82,6 @@ SalesOrderDetail (Γραμμή παραγγελίας) | msdyn_quotelineid | msd
 > Για την πλήρη λίστα των πόρων που δεν χρησιμοποιούνται δείτε [Πόροι web που δεν χρησιμοποιούνται στο Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

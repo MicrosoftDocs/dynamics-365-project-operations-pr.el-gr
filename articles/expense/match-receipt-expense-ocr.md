@@ -1,12 +1,10 @@
 ---
-title: Συμφωνία μιας απόδειξης με ένα έξοδο με χρήση OCR
+title: Καταγραφή απόδειξης με χρήση OCR
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την επεξεργασία οπτικής αναγνώρισης χαρακτήρων (OCR) για αποδείξεις.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,14 +13,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 62d6316c9602089518a94267d8ef2b7fb8d59cd0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076881"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798040"
 ---
-# <a name="match-a-receipt-to-an-expense-using-ocr"></a>Συμφωνία μιας απόδειξης με ένα έξοδο με χρήση OCR
+# <a name="capture-a-receipt-using-ocr"></a>Καταγραφή απόδειξης με χρήση OCR
 
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
@@ -87,10 +85,24 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 **Πού είναι διαθέσιμη αυτή η δυνατότητα και πού γίνεται επεξεργασία της;**
 
-Προς το παρόν, υποστηρίζονται οι Ηνωμένες Πολιτείες.
+Η διαθεσιμότητα αυτής της δυνατότητας σε διαφορετικές περιοχές παρατίθενται στον ακόλουθο πίνακα. Εάν η περιοχή σας δεν υποστηρίζεται αυτή τη στιγμή, υποβάλετε ένα αίτημα για να προτεραιότητες τη διαθεσιμότητα της υπηρεσίας OCR στην περιοχή σας. 
+
+| Περιοχή | Υποστηρίζεται                         |
+|--------|-----------------------------------|
+| ΗΠΑ    | Ναι                               |
+| CAN    | Ναι                               |
+| Ηνωμένο Βασίλειο     | Ναι                               |
+| ΑΥΣ    | Ναι                               |
+| ΕΕ     | Μερικώς. Μόνο αγγλικά αποδεικτικά. |
+| Ασία   | No                                |
+| Ιαπωνία  | No                                |
+| Αφρική | No                                |
 
 **Πού καταλήγουν οι αποδείξεις μου;**
 
 Το Finance θα επικοινωνήσει με το Cognitive Services για την εξαγωγή των δεδομένων πεδίων. Οι Cognitive Services θα διατηρήσουν ένα αντίγραφο της απόδειξής σας για 24 ώρες, ενώ γίνεται η επεξεργασία. Μετά την ολοκλήρωση της επεξεργασίας, οι Cognitive Services θα αφαιρέσουν την απόδειξη. Οι αποδείξεις παραμένουν αποθηκευμένες στο Finance.
 
 Για περισσότερες πληροφορίες, ανατρέξτε στο θέμα [Ενεργοποίηση κατανόησης αποδείξεων με τη νέα δυνατότητα Αναγνώρισης φορμών](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

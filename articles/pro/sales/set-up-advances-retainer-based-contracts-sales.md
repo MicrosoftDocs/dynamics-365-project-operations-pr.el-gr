@@ -2,18 +2,16 @@
 title: Συμβάσεις βάσει προπληρωμών και προκαταβολών
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με συμβατικά μοντέλα και προπληρωμές βάσει προκαταβολής στο Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 87e275cb72f1edc5a2a9913b4aa47d461d1f3d3d9bf177bf0ffba8b463f4ce01
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596102"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994411"
 ---
 # <a name="advances-and-retainer-based-contracts"></a>Συμβάσεις βάσει προπληρωμών και προκαταβολών
 
@@ -37,3 +35,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 | --- | --- | --- |
 | Διαθέσιμο ποσό | Το ποσό που είναι διαθέσιμο για χρήση στην καρτέλα προκαταβολής ή προπληρωμής. | Έως ότου τιμολογηθεί η προκαταβολή ή η προπληρωμή, δεν είναι διαθέσιμη για χρήση, γεγονός που σημαίνει ότι το διαθέσιμο ποσό θα είναι μηδέν. |
 | Χρησιμοποιημένο ποσό | Το ποσό που χρησιμοποιείται ήδη στην προκαταβολή ή την προπληρωμή. | Μια προκαταβολή ή μια προπληρωμή μπορεί να συμβιβαστεί μερικώς σε ένα τιμολόγιο με πραγματικό κόστος, το οποίο θα έχει κάποιο μέρος σημειωμένο ως ήδη χρησιμοποιημένο ή αναλωμένο. Το υπόλοιπο του ποσού προκαταβολής ή προπληρωμής είναι διαθέσιμο για συμφωνία σε ένα μελλοντικό τιμολόγιο με πραγματικό κόστος. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

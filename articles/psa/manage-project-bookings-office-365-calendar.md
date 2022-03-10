@@ -2,8 +2,6 @@
 title: Διαχείριση έργων και κρατήσεων στο ημερολόγιο του Office 365
 description: Τρόπος διαχείρισης έργων και κρατήσεων στο ημερολόγιο του Office 365
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,17 +15,19 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129048"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985322"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Διαχείριση έργων και κρατήσεων στο ημερολόγιο (Project Service)
 
 > [!Note]
 > ΔΕΝ ΧΡΗΣΙΜΟΠΟΙΕΤΑΙ: Αυτή η δυνατότητα έχει καταργηθεί και δεν είναι πλέον διαθέσιμη.
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -50,7 +50,7 @@ ms.locfileid: "4129048"
   
 - Θα χρειαστείτε διαπιστευτήρια καθολικού διαχειριστή ή διαχειριστή συστήματος του [!INCLUDE[pn_office_365](../includes/pn-office-365.md)].  
   
-- Ο διαχειριστής σας θα πρέπει να ρυθμίσει το προφίλ διακομιστή ηλεκτρονικού ταχυδρομείου και κάθε χρήστης θα πρέπει να ρυθμίσει τις παραμέτρους του γραμματοκιβωτίου του. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Ρύθμιση επεξεργασίας ηλεκτρονικού ταχυδρομείου μέσω συγχρονισμού από την πλευρά του διακομιστή](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Ο διαχειριστής σας θα πρέπει να ρυθμίσει το προφίλ διακομιστή ηλεκτρονικού ταχυδρομείου και κάθε χρήστης θα πρέπει να ρυθμίσει τις παραμέτρους του γραμματοκιβωτίου του. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Ρύθμιση επεξεργασίας ηλεκτρονικού ταχυδρομείου μέσω συγχρονισμού από την πλευρά του διακομιστή](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Ενεργοποίηση συγχρονισμού για τον οργανισμό σας (εργασία διαχειριστή)  
   
@@ -89,3 +89,6 @@ ms.locfileid: "4129048"
   
 ### <a name="see-also"></a>Δείτε επίσης  
  [Οδηγός Χρόνου, Εξόδων και Συνεργασίας](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,17 @@
 title: Μέλη ομάδας έργου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο επεξεργασίας των πληροφοριών των μελών ομάδας έργου, των χαρακτηριστικών και του προγραμματισμού.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4076807"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994006"
 ---
 # <a name="project-team-members"></a>Μέλη ομάδας έργου
 
@@ -60,3 +59,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 - **Νέο**: Εκτός από την προσθήκη πόρων απευθείας από το χρονοδιάγραμμα, οι υπεύθυνοι έργου μπορούν να προσθέσουν νέα μέλη ομάδων που έχουν όνομα ή γενικά μέλη ομάδας από το πλέγμα μελών ομάδας.
 - **Διαγραφή**: Με την επιλογή ενός ή πολλών μελών της ομάδας, ο υπεύθυνος έργου μπορεί να διαγράψει πόρους που δεν πρόκειται πλέον να συμμετάσχουν στο έργο. Η διαγραφή ενός μέλους ομάδας θα διαγράψει επίσης όλες τις συσχετισμένες αναθέσεις πόρων και θα ακυρώσει όλες τις υπάρχουσες κρατήσεις.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

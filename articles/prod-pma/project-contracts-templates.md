@@ -1,12 +1,10 @@
 ---
-title: Συγχρονισμός συμβάσεων έργου και έργων απευθείας από το Project Service Automation στο Finance and Operations
+title: Συγχρονισμός συμβάσεων έργου και έργων απευθείας από το Project Service Automation στο Finance
 description: Αυτό το θέμα περιγράφει τα πρότυπο και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό συμβάσεων έργου και έργων απευθείας από το Microsoft Dynamics 365 Project Service Automation στο Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +15,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642633"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001071"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Συγχρονισμός συμβάσεων έργου και έργων απευθείας από το Project Service Automation στο Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Συγχρονισμός συμβάσεων έργου και έργων απευθείας από το Project Service Automation στο Finance 
 
 [!include[banner](../includes/banner.md)]
 
@@ -44,7 +42,7 @@ ms.locfileid: "4642633"
 
 Η εικόνα που ακολουθεί δείχνει τον τρόπο με τον οποίο συγχρονίζονται τα δεδομένα μεταξύ Project Service Automation και Finance.
 
-[![Ροή δεδομένων για την ενοποίηση του Project Service Automation με το Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Ροή δεδομένων για την ενοποίηση του Project Service Automation με το Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Πρότυπα και εργασίες
 
@@ -53,24 +51,24 @@ ms.locfileid: "4642633"
 Τα παρακάτω πρότυπα και οι υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό συμβάσεων έργου και έργων από το Project Service Automation στο Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Ενοποίηση με το Dynamics 365 Project Service Automation v2.x
-- **Όνομα του προτύπου στην ενοποίηση δεδομένων:** Έργα και συμβάσεις (PSA σε Fin και Ops)
+- **Όνομα του προτύπου στην ενοποίηση δεδομένων:** Έργα και συμβάσεις (Project Service Automation σε Finance)
 - **Όνομα των εργασιών στο έργο:**
 
-    - Συμβάσεις έργου PSA σε Fin και Ops
-    - Έργα PSA σε Fin και Ops
-    - Γραμμές σύμβασης έργου PSA σε Fin και Ops
-    - Ορόσημα γραμμών σύμβασης έργου PSA σε Fin και Ops
+    - Συμβάσεις έργου Project Service Automation σε Finance
+    - Έργα Project Service Automation σε Finance
+    - Γραμμές σύμβασης έργου Project Service Automation σε Finance
+    - Ορόσημα γραμμής σύμβασης έργου Project Service Automation σε Finance
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Ενοποίηση με το Dynamics 365 Project Service Automation v3.x
 Υπάρχει μια αλλαγή σχήματος στο Project Service Automation που επηρεάζει το πρότυπο ορόσημο της γραμμής σύμβασης έργου και η χρήση της έκδοσης v2 του προτύπου απαιτείται για την ενοποίηση του Project Service Automation v3.x με το Dynamics 365.
 
-- **Όνομα του προτύπου στην ενοποίηση δεδομένων:** Έργα και συμβάσεις (PSA 3.x σε Fin και Ops) - v2
+- **Όνομα του προτύπου στην ενοποίηση δεδομένων:** Έργα και Συμβάσεις (Project Service Automation 3.x σε Finance) - v2
 - **Όνομα των εργασιών στο έργο:**
 
-    - Συμβάσεις έργου PSA σε Fin και Ops
-    - Έργα PSA σε Fin και Ops
-    - Γραμμές σύμβασης έργου PSA σε Fin και Ops
-    - Ορόσημα γραμμών σύμβασης έργου PSA σε Fin και Ops
+    - Συμβάσεις έργου Project Service Automation σε Finance
+    - Έργα Project Service Automation σε Finance
+    - Γραμμές σύμβασης έργου Project Service Automation σε Finance
+    - Ορόσημα γραμμής σύμβασης έργου Project Service Automation σε Finance
 
 Για να είναι δυνατός ο συγχρονισμός των συμβάσεων έργου και έργου, πρέπει να συγχρονίσετε τους λογαριασμούς.
 
@@ -87,7 +85,8 @@ ms.locfileid: "4642633"
 
 Η διαχείριση των συμβάσεων έργου γίνεται στο Project Service Automation και συγχρονίζονται με το Finance ως συμβάσεις έργου. Ως μέρος του προτύπου ενοποίησης, μπορείτε να ορίσετε την προέλευση ενοποίησης στο Finance για τη σύμβαση έργου.
 
-Η διαχείριση του έργου χρόνου και υλικού και των έργων με προκαθορισμένη τιμή στο Project Service Automation και συγχρονίζονται με το Finance ως έργα. Ως μέρος του προτύπου ενοποίησης, μπορείτε να ορίσετε την προέλευση ενοποίησης στο Finance για το έργο.
+Η διαχείριση έργων χρόνου και υλικού και έργων με προκαθορισμένη τιμή γίνεται στο Project Service Automation και συγχρονίζονται με το Finance ως έργα. Στο πλαίσιο της ενοποίησης προτύπων, μπορείτε να ορίσετε την προέλευση ενοποίησης για το έργο στο Finance. Προς το παρόν, υποστηρίζονται μόνο έργα χρόνου και υλικού και έργα με προκαθορισμένη τιμή.
+
 
 Η διαχείριση γραμμών σύμβασης έργου γίνεται στο Project Service Automation και συγχρονίζονται με το Finance ως κανόνες χρέωσης σύμβασης έργου. Εάν η μέθοδος χρέωσης διαφέρει από τον προεπιλεγμένο τύπο έργου, ο συγχρονισμός ενημερώνει τον τύπο έργου για το έργο γραμμής σύμβασης και την ομάδα έργου.
 
@@ -108,8 +107,8 @@ ms.locfileid: "4642633"
 ## <a name="prerequisites-and-mapping-setup"></a>Προϋποθέσεις και ρύθμιση αντιστοίχισης
 
 - Για να είναι δυνατός ο συγχρονισμός των συμβάσεων έργου και έργου, πρέπει να συγχρονίσετε τους λογαριασμούς.
-- Στο σύνολο της σύνδεσής σας, προσθέστε μια αντιστοίχιση πεδίου κλειδιού ενοποίησης για **msdyn\_organizationalunits** σε **msdyn\_name \[Name\]**. Μπορεί να χρειαστεί να προσθέσετε πρώτα ένα έργο στο σύνολο συνδέσεων. Για περισσότερες πληροφορίες, ανατρέξτε στην ενότητα [Ενοποίηση δεδομένων στο Common Data Service για εφαρμογές](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Στο σύνολο της σύνδεσής σας, προσθέστε μια αντιστοίχιση πεδίου κλειδιού ενοποίησης για **msdyn\_projects** σε **msdynce\_projectnumber \[Αριθμός έργου\]**. Μπορεί να χρειαστεί να προσθέσετε πρώτα ένα έργο στο σύνολο συνδέσεων. Για περισσότερες πληροφορίες, ανατρέξτε στην ενότητα [Ενοποίηση δεδομένων στο Common Data Service για εφαρμογές](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Στο σύνολο της σύνδεσής σας, προσθέστε μια αντιστοίχιση πεδίου κλειδιού ενοποίησης για **msdyn\_organizationalunits** σε **msdyn\_name \[Name\]**. Μπορεί να χρειαστεί να προσθέσετε πρώτα ένα έργο στο σύνολο συνδέσεων. Για περισσότερες πληροφορίες, ανατρέξτε στην ενότητα [Ενοποίηση δεδομένων στο Common Data Service για εφαρμογές](/powerapps/administrator/data-integrator).
+- Στο σύνολο της σύνδεσής σας, προσθέστε μια αντιστοίχιση πεδίου κλειδιού ενοποίησης για **msdyn\_projects** σε **msdynce\_projectnumber \[Αριθμός έργου\]**. Μπορεί να χρειαστεί να προσθέσετε πρώτα ένα έργο στο σύνολο συνδέσεων. Για περισσότερες πληροφορίες, ανατρέξτε στην ενότητα [Ενοποίηση δεδομένων στο Common Data Service για εφαρμογές](/powerapps/administrator/data-integrator).
 - Το **SourceDataID** για συμβάσεις έργου και έργα μπορεί να ενημερωθεί σε μια διαφορετική τιμή ή να καταργηθούν από την αντιστοίχιση. Η προεπιλεγμένη τιμή προτύπου είναι **Project Service Automation**.
 - Η αντιστοίχιση **PaymentTerms** πρέπει να ενημερωθεί έτσι ώστε να αντικατοπτρίζει τους έγκυρους όρους πληρωμής στο Finance. Επίσης, μπορείτε να καταργήσετε την αντιστοίχιση από την εργασία έργου. Η προεπιλεγμένη αντιστοίχιση τιμών έχει προεπιλεγμένες τιμές για τα δεδομένα επίδειξης. Στον ακόλουθο πίνακα παρουσιάζονται οι τιμές στο Project Service Automation.
 
@@ -122,7 +121,7 @@ ms.locfileid: "4642633"
 
 ## <a name="power-query"></a>Power Query
 
-Πρέπει να χρησιμοποιήσετε το Microsoft Power Query για Excel για να φιλτράρετε τα δεδομένα, εάν πληρούνται αυτές οι προϋποθέσεις:
+Χρησιμοποιήστε το Microsoft Power Query για Excel για να φιλτράρετε τα δεδομένα, εάν πληρούνται οι ακόλουθες συνθήκες:
 
 - Διαθέτετε παραγγελίες πωλήσεων στο Dynamics 365 Sales.
 - Διαθέτετε πολλές οργανωτικές μονάδες στο Project Service Automation και αυτές οι οργανωτικές μονάδες θα αντιστοιχιστούν σε πολλές νομικές οντότητες στο Finance.
@@ -130,7 +129,7 @@ ms.locfileid: "4642633"
 Εάν πρέπει να χρησιμοποιήσετε το Power Query, ακολουθήστε αυτές τις οδηγίες:
 
 - Το πρότυπο έργων και συμβάσεων (PSA σε Fin και OPS) έχει ένα προεπιλεγμένο φίλτρο το οποίο περιλαμβάνει μόνο τις παραγγελίες πωλήσεων του **Στοιχείου εργασίας (msdyn\_ordertype = 192350001)**. Αυτό το φίλτρο σάς βοηθάει να εγγυηθείτε ότι οι συμβάσεις έργου δεν δημιουργούνται για παραγγελίες πωλήσεων στο Finance. Εάν δημιουργήσετε το δικό σας πρότυπο, πρέπει να προσθέσετε αυτό το φίλτρο.
-- Πρέπει να δημιουργήσετε ένα φίλτρο Power Query που να περιλαμβάνει μόνο τους οργανισμούς σύμβασης που θα πρέπει να συγχρονίζονται με τη νομική οντότητα του συνόλου συνδέσεων ενοποίησης. Για παράδειγμα, οι συμβάσεις έργου που έχετε με την οργανωτική μονάδα σύμβασης της Contoso US θα πρέπει να συγχρονίζονται με τη νομική οντότητα USSI, αλλά οι συμβάσεις έργου που έχετε με την οργανωτική μονάδα σύμβασης της Contoso global θα πρέπει να συγχρονίζονται με τη νομική οντότητα USMF. Εάν δεν προσθέσετε αυτό το φίλτρο στην αντιστοίχιση εργασιών, όλες οι συμβάσεις έργου θα συγχρονιστούν με τη νομική οντότητα που καθορίζεται για το σύνολο συνδέσεων, ανεξάρτητα από την οργανωτική μονάδα της σύμβασης.
+- Δημιουργήστε ένα Power Query που περιλαμβάνει μόνο τους οργανισμούς σύμβασης που πρέπει να συγχρονιστούν με τη νομική οντότητα της σύνδεσης ενοποίησης που έχει οριστεί. Για παράδειγμα, οι συμβάσεις έργου που έχετε με την οργανωτική μονάδα των συμβάσεων της Contoso US πρέπει να συγχρονίζονται με τη νόμιμη οντότητα USSI, αλλά οι συμβάσεις έργου που έχετε με την οργανωτική μονάδα των συμβάσεων της Contoso Global πρέπει να συγχρονίζονται με τη νόμιμη οντότητα USMF. Εάν δεν προσθέσετε αυτό το φίλτρο στην αντιστοίχιση εργασιών, όλες οι συμβάσεις έργου θα συγχρονιστούν με τη νομική οντότητα που καθορίζεται για το σύνολο συνδέσεων, ανεξάρτητα από την οργανωτική μονάδα της σύμβασης.
 
 ## <a name="template-mapping-in-data-integration"></a>Αντιστοίχιση προτύπου στην ενοποίηση δεδομένων
 
@@ -141,14 +140,17 @@ ms.locfileid: "4642633"
 
 Οι εικόνες που ακολουθούν δείχνουν παραδείγματα των αντιστοιχίσεων εργασιών προτύπου στην ενοποίηση δεδομένων. Η αντιστοίχιση εμφανίζει τις πληροφορίες πεδίου που θα συγχρονιστούν από το Project Service Automation στο Finance.
 
-[![Αντιστοίχιση προτύπου σύμβασης έργου](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Αντιστοίχιση προτύπου σύμβασης έργου.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Αντιστοίχιση προτύπου έργου](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Αντιστοίχιση προτύπου έργου.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Αντιστοίχιση προτύπου γραμμών σύμβασης έργου](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Αντιστοίχιση προτύπου γραμμών σύμβασης έργου.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Αντιστοίχιση προτύπου ορόσημου γραμμής σύμβασης έργου](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Αντιστοίχιση προτύπου ορόσημου γραμμής σύμβασης έργου.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Αντιστοίχιση ορόσημων της γραμμής σύμβασης έργου στα έργα και τις συμβάσεις (PSA 3.x σε Dynamics) - πρότυπο v2:
 
-[![Αντιστοίχιση ορόσημου γραμμής σύμβασης έργου με πρότυπο έκδοσης δύο](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Αντιστοίχιση ορόσημου γραμμής σύμβασης έργου με πρότυπο έκδοσης δύο.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

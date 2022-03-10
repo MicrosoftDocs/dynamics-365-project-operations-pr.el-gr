@@ -2,11 +2,9 @@
 title: Διανομές αναφορών εξόδων
 description: Όταν καταχωρείτε έξοδα σε μια αναφορά εξόδων, μπορείτε να τα κατανείμετε τα έξοδα σε πολλά έργα, νομικές οντότητες ή λογαριασμούς στον οργανισμό σας.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a43de30d916d2775f28f59f404c34b60a43fff9c
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: a00ea4337e59e5412bd885db9e80c82a34e4eb638a7482c98a4946c44c4d734e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960742"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001341"
 ---
 # <a name="expense-report-distributions"></a>Διανομές αναφορών εξόδων
 
@@ -37,3 +35,6 @@ ms.locfileid: "4960742"
 |Ξενοδοχείο         |EUR 725              |EUR 557                        |EUR 168                          |
 |Γεύματα         |EUR 346              |EUR 284                        |EUR 62                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

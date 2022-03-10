@@ -2,11 +2,9 @@
 title: Νομισματική μονάδα
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο προσθήκης και κατάργησης τύπων νομισματικής μονάδας στο Project Operations (Λειτουργίες έργου).
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121218"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999586"
 ---
 # <a name="currency"></a>Νομισματική μονάδα
 
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Οι νομισματικές μονάδες καθορίζουν τις τιμές των προϊόντων στον κατάλογο προϊόντων και το κόστος συναλλαγών, όπως οι παραγγελίες πωλήσεων. Εάν οι πελάτες σας είναι διασκορπισμένοι σε διάφορες γεωγραφικές περιοχές, προσθέστε τα νομίσματά τους για να διαχειριστείτε τις συναλλαγές. Προσθέστε τα νομίσματα που είναι πιο κατάλληλα για τις τρέχουσες και μελλοντικές επαγγελματικές σας ανάγκες.  
 
@@ -69,3 +69,6 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 > [!IMPORTANT]
 >  Οι νομισματικές μονάδες που χρησιμοποιούνται από άλλες καρτέλες δεν είναι δυνατό να διαγραφούν, παρά μόνο να απενεργοποιηθούν. Η απενεργοποίηση των καρτελών νομισματικής μονάδας δεν καταργεί τις πληροφορίες νομισματικής μονάδας που είναι αποθηκευμένες στις υπάρχουσες καρτέλες, για παράδειγμα, τις ευκαιρίες ή τις παραγγελίες. Ωστόσο, δεν θα μπορείτε να επιλέξετε την απενεργοποιημένη νομισματική μονάδα για νέες συναλλαγές.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,8 @@
 title: Μαζικές διορθώσεις πραγματικών τιμών που δημιουργήθηκαν από εγκεκριμένες καταχωρήσεις χρόνου και εξόδων
 description: Αυτό το θέμα περιγράφει τον τρόπο με τον οποίο ένας διαχειριστής μπορεί να πραγματοποιήσει μεμονωμένες ή μαζικές διορθώσεις σε προηγουμένως εγκεκριμένες καταχωρήσεις ώρας ή εξόδων, εάν η χρέωση δεν είναι ολοκληρωμένη.
 author: rumant
-manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -18,12 +16,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144953"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995401"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Μαζικές διορθώσεις πραγματικών τιμών που δημιουργήθηκαν από εγκεκριμένες καταχωρήσεις χρόνου και εξόδων
 
@@ -64,7 +62,7 @@ ms.locfileid: "5144953"
 
 Για παράδειγμα, στο ακόλουθο γραφικό, υπάρχουν δύο στοιχεία γραμμής με ποσότητα 8,00 που περιλαμβάνουν χρεώσεις που παρατίθενται στη στήλη "Ποσό". Επιπλέον, υπάρχουν δύο στοιχεία γραμμής με ποσότητα - 8,00 που εμφανίζουν τα ποσά που πιστώνονται στη στήλη "Ποσό". Αυτές οι διορθώσεις φέρνουν την ποσότητα στο μηδέν.
 
-![Λίστα πραγματικής συσχετισμένης προβολής](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Λίστα πραγματικής συσχετισμένης προβολής.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Σωστές εγκεκριμένες καταχωρήσεις εξόδων
 
@@ -89,4 +87,7 @@ ms.locfileid: "5144953"
 
 8. Στη σελίδα έργου, στην καρτέλα **Πραγματικές τιμές**, εξετάστε την **Πραγματική συσχετισμένη προβολή**. Οι αρχικές καταχωρήσεις και οι διορθωμένες καταχωρήσεις παρατίθενται. Στο παρακάτω γραφικό εμφανίζονται τα αρχικά ποσά καταχώρησης εξόδων και τα αντίστοιχα διορθωμένα ποσά καταχώρησης εξόδων. 
 
-![Πραγματικές τιμές εξόδων](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+![Πραγματικές τιμές εξόδων.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
