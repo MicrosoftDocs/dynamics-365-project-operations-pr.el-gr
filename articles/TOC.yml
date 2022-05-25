@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Τι νέα υπάρχουν
       items:
+        - name: Μάιος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: Απρίλιος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: Μάρτιος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: Φεβρουάριος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: Δεκέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: Νοέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Νομισματική μονάδα
               href: sales/sales-currency.md
+            - name: Οργανικές μονάδες
+              href: sales/OrgUnits.md
         - name: Διαχείριση υποψήφιων πελατών έργου
           href: sales/manage-leads.md
         - name: Διαχείριση ευκαιριών έργου
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: Παρακολούθηση εσόδων εργασίας σε έργα
               href: project-management/project-sales-tracking.md
-            - name: Ενημέρωση εκτίμησης κατά την ολοκλήρωση
-              href: project-management/update-completed-estimate.md
         - name: Μέλη ομάδας έργου
           items:
             - name: Επισκόπηση μελών ομάδας έργου
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: Χρήση API χρονοδιαγράμματος προγράμματος
               href: project-management/schedule-api-preview.md
+            - name: Χρήση API χρονοδιαγράμματος έργου με το Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Απόδοση API χρονοδιαγράμματος έργου
               href: project-management/project-schedule-api-performance.md
             - name: Αρχεία καταγραφής προγραμματισμού έργων
@@ -386,7 +396,7 @@
           href: expense/expense-overview.md
         - name: Εμπειρία νέου εξόδου
           items:
-            - name: Νέα σύλληψη αναφορών εξόδων
+            - name: Οι νέες αναφορές εξόδων
               href: expense/expense-reports-reimagined.md
             - name: Καταγραφή αποδεικτικού με χρήση της δυνατότητας OCR
               href: expense/match-receipt-expense-ocr.md
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: Προκαταβολή μετρητών
           href: expense/cash-advance.md
-        - name: Ημερήσιες αποζημιώσεις
-          href: expense/per-diems.md
+        - name: Ημερήσια έξοδα
+          href: expense/per-diem-expenses.md
         - name: Εφαρμογή κινητών εξόδων
           href: expense/expense-using-mobile.md
         - name: Χρηματοοικονομική διαχείριση
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: Σύνολα εγκρίσεων
           href: approvals/approval-sets.md
+        - name: Ακύρωση έγκρισης για καταχωρήσεις που είχαν εγκριθεί προηγουμένως
+          href: approvals/cancelapproval.md
+        - name: Ανάκληση καταχωρήσεων που είχαν εγκριθεί
+          href: approvals/recall-cancel.md
         - name: Σημειώσεις προγραμματιστή
           items:
             - name: Σημειώσεις προγραμματιστή για Εγκρίσεις
               href: approvals/dev-notes-approvals.md
     - name: Πραγματικές τιμές
       items:
+        - name: Επιχειρηματικές συναλλαγές στο Project Operations
+          href: actuals/businesstransactions.md
         - name: Επισκόπηση πραγματικών τιμών
           href: actuals/actuals-overview.md
-        - name: Σύνδεση των πραγματικών τιμών με τις αρχικές καρτέλες
+        - name: Προέλευση συναλλαγής - Σύνδεση των πραγματικών δεδομένων με την προέλευση
           href: actuals/linkingactuals.md
-        - name: Ημερολόγια διόρθωσης
+        - name: Συνδέσεις συναλλαγών - Σύνδεση πραγματικών τιμών διαφορετικών τύπων συναλλαγών
+          href: actuals/connectingactuals.md
+        - name: Ημερολόγια
           items:
-            - name: Δημιουργία και επιβεβαίωση Ημερολογίων διόρθωσης
+            - name: Δημιουργία και επιβεβαίωση ημερολογίων καταχωρήσεων
+              href: actuals/create-confirm-entry-journals.md
+            - name: Δημιουργία και επιβεβαίωση ημερολογίων διόρθωσης
               href: actuals/create-confirm-correction-journals.md
     - name: Προμήθειες
       items:
         - name: Ρύθμιση παραμέτρων μη εφοδιασμένου υλικού και εκκρεμών τιμολογίων προμηθευτών
           href: procurement/configure-materials-nonstocked.md
-        - name: Προμήθεια μη εφοδιασμένων υλικών για έργα με χρήση εκκρεμών τιμολογίων προμηθευτών
+        - name: Ρύθμιση παραμέτρων κατηγοριών για έργα
+          href: procurement/configure-procurement-categories.md
+        - name: Προμήθεια αγαθών και υπηρεσιών για έργα με χρήση εκκρεμών τιμολογίων προμηθευτών
           href: procurement/pending-vendor-invoices.md
-        - name: Παραγγελία μη εφοδιασμένων υλικών για έργα με χρήση παραγγελιών αγοράς έργου
+        - name: Παραγγελία αγαθών και υπηρεσιών για έργα με χρήση παραγγελιών αγοράς έργου
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: Διατήρηση προμηθευτή
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Διαχείριση εκτιμήσεων εσόδων
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Ρύθμιση παραμέτρων για προχωρημένους
+      items:
+        - name: Μετεγκατάσταση πλήρως τιμολογημένων ορόσημων χρέωσης κατά τη διάρκεια της μετάβασης
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Αναβάθμιση
+      items:
+        - name: Αναβάθμιση ζητημάτων προς εξέταση για σύγχρονες εγκρίσεις
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Εφαρμογές Project Operations
+      items:
+        - name: Εφαρμογή μέλους ομάδας Project Operations
+          href: team-member/project-operations-team-member.md
     - name: Αντιμετώπιση προβλημάτων
       items:
         - name: Διεργασία πωλήσεων έργου
@@ -562,6 +596,14 @@
       items:
         - name: Τι νέα υπάρχουν για πρώιμη πρόσβαση στο κύμα 2 του 2021 - ελαφριά ανάπτυξη
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 'Τι νέα υπάρχουν, Μάιος 2022 - ελαφριά ανάπτυξη'
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: 'Τι νέα υπάρχουν, Απρίλιος 2022 - ελαφριά ανάπτυξη'
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: 'Τι νέα υπάρχουν, Μάρτιος 2022 - ελαφριά ανάπτυξη'
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: 'Τι νέα υπάρχουν, Φεβρουάριος 2022 - ελαφριά ανάπτυξη'
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: 'Τι νέα υπάρχουν, Δεκέμβριος 2021 - ελαφριά ανάπτυξη'
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 'Τι νέα υπάρχουν, Νοέμβριος 2021 - ελαφριά ανάπτυξη'
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: Νομισματική μονάδα
               href: sales/sales-currency.md
+            - name: Οργανικές μονάδες
+              href: sales/OrgUnits.md
         - name: Διαχείριση υποψήφιων πελατών έργου
           href: pro/sales/managing-leads-sales.md
         - name: Διαχείριση ευκαιριών έργου
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: Παρακολούθηση εσόδων εργασίας σε έργα
               href: project-management/project-sales-tracking.md
-            - name: Ενημέρωση εκτίμησης κατά την ολοκλήρωση
-              href: project-management/update-completed-estimate.md
         - name: Μέλη ομάδας έργου
           items:
             - name: Επισκόπηση μελών ομάδας έργου
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: Χρήση API χρονοδιαγράμματος προγράμματος
               href: project-management/schedule-api-preview.md
+            - name: Χρήση API χρονοδιαγράμματος έργου με το Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: Απόδοση API χρονοδιαγράμματος έργου
               href: project-management/project-schedule-api-performance.md
     - name: Διαχείριση πόρων
@@ -886,15 +930,13 @@
           items:
             - name: Επισκόπηση χρήσης πόρων
               href: resource-management/resource-utilization-overview.md
-    - name: Διαχείριση υπεργολαβίας στο Project Operations
+    - name: Διαχείριση υπεργολαβίας
       items:
         - name: Διαχείριση υπεργολαβίας στο Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Ανάθεση υπεργολάβων στην πρώιμη πρόσβαση Οκτωβρίου 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Βασικές έννοιες στην υπεργολαβία
           href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Διαχείριση προμηθευτών και τιμοκατάλογοι έργων
+        - name: Διαχείριση προμηθευτών και τιμοκατάλογοι έργου
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Οι υπεργολάβοι ως πόροι με δυνατότητα κράτησης
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
@@ -922,8 +964,30 @@
           href: pro/subcontracting/staffing-cw.md
         - name: 'Καταγραφή χρόνου, δαπανών και χρήσης υλικού για υπεργολάβους'
           href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Κρατικές μεταβάσεις σε υπεργολαβία
+        - name: Μεταβάσεις κατάστασης σε υπεργολαβία
           href: pro/subcontracting/subcon-states.md
+    - name: Τιμολόγια προμηθευτή έργου
+      items:
+        - name: Τιμολόγηση προμηθευτή - Έννοια και δημιουργία
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: Λεπτομέρειες κεφαλίδας για τιμολόγια προμηθευτών
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: Γραμμές για χρόνο στο τιμολόγιο προμηθευτή
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: Γραμμές τιμολογίου προμηθευτή για προϊόντα
+          href: pro/subcontracting/vi-line-material.md
+        - name: Γραμμές τιμολογίου προμηθευτή για ορόσημα
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: Γραμμές τιμολογίου προμηθευτή για κατηγορίες εξόδων
+          href: pro/subcontracting/vi-line-expense.md
+        - name: Επαλήθευση τιμολογίων προμηθευτή με εγκεκριμένες πραγματικές τιμές
+          href: pro/subcontracting/VI-Verification.md
+        - name: Ακύρωση τιμολογίου προμηθευτή έργου
+          href: pro/subcontracting/cancel-vi.md
+        - name: Επιβεβαίωση τιμολογίου προμηθευτή έργου
+          href: pro/subcontracting/confirm-vi.md
+        - name: Μεταβολές κατάστασης στο τιμολόγιο προμηθευτή
+          href: pro/subcontracting/vi-state-model.md
     - name: Χρόνος
       items:
         - name: Επισκόπηση χρόνου
@@ -952,19 +1016,29 @@
           href: approvals/approvals-overview.md
         - name: Σύνολα εγκρίσεων
           href: approvals/approval-sets.md
+        - name: Ακύρωση έγκρισης για καταχωρήσεις που είχαν εγκριθεί προηγουμένως
+          href: approvals/cancelapproval.md
+        - name: Ανάκληση καταχωρήσεων που είχαν εγκριθεί
+          href: approvals/recall-cancel.md
         - name: Σημειώσεις προγραμματιστή
           items:
             - name: Σημειώσεις προγραμματιστή για Εγκρίσεις
               href: approvals/dev-notes-approvals.md
     - name: Πραγματικές τιμές
       items:
+        - name: Επιχειρηματικές συναλλαγές στο Project Operations
+          href: actuals/businesstransactions.md
         - name: Επισκόπηση πραγματικών τιμών
           href: actuals/actuals-overview.md
-        - name: Σύνδεση των πραγματικών τιμών με τις αρχικές καρτέλες
+        - name: Προέλευση συναλλαγής - Σύνδεση των πραγματικών δεδομένων με την προέλευση
           href: actuals/linkingactuals.md
-        - name: Ημερολόγια διόρθωσης
+        - name: Συνδέσεις συναλλαγών - Σύνδεση πραγματικών τιμών διαφορετικών τύπων συναλλαγών
+          href: actuals/connectingactuals.md
+        - name: Ημερολόγια
           items:
-            - name: Δημιουργία και επιβεβαίωση Ημερολογίων διόρθωσης
+            - name: Δημιουργία και επιβεβαίωση ημερολογίων καταχωρήσεων
+              href: actuals/create-confirm-entry-journals.md
+            - name: Δημιουργία και επιβεβαίωση ημερολογίων διόρθωσης
               href: actuals/create-confirm-correction-journals.md
     - name: Προτιμολόγηση
       items:
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Ρύθμιση παραμέτρων αυτοματοποίησης τιμολογίου έργου
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: Αναβάθμιση
+      items:
+        - name: Αναβάθμιση ζητημάτων προς εξέταση για σύγχρονες εγκρίσεις
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: Εφαρμογές Project Operations
+      items:
+        - name: Εφαρμογή μέλους ομάδας Project Operations
+          href: team-member/project-operations-team-member.md
 - name: Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
   items:
     - name: Τι νέα υπάρχουν
@@ -1008,45 +1090,41 @@
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Επισκόπηση ανάπτυξης του Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Επισκόπηση Διαχείρισης έργων και λογιστικής
+    - name: Επισκόπηση διαχείρισης έργων και λογιστικής
       href: prod-pma/overview-project-management-accounting.md
-    - name: Διεταιρική τιμολόγηση
-      href: prod-pma/intercompany-invoicing.md
-    - name: Ρύθμιση παραμέτρων διεταιρικής τιμολόγησης έργου
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: Ρύθμιση παραμέτρων για τυπικά κόστη εργασίας και εξόδων
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: Δημιουργία και εφαρμογή όρων διατήρησης πληρωμής προμηθευτών
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: Ρύθμιση και χρήση πληρωμών προμηθευτών με πληρωμή κατά την πληρωμή
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: Προσαύξηση κόστους έργου σε αποδείξεις αγορών
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: Τιμολόγηση έργου
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Εκτέλεση προτάσεων τιμολογίου έργου
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Συμβάσεις έργων
-      href: prod-pma/project-contracts.md
-    - name: Δημιουργία σύνθετων συμβάσεων για χρέωση με βάση την πρόοδο
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Προβλέψεις και προϋπολογισμοί έργων
-      href: prod-pma/project-forecasts-budgets.md
-    - name: Δημιουργία μοντέλων πρόβλεψης για προϋπολογισμούς έργων
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: Μεταφορά προϋπολογισμών έργων στο τέλος οικονομικού έτους
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: Παραγγελίες πωλήσεων έργου
-      href: prod-pma/project-sales-orders.md
-    - name: Παραγγελίες αγοράς για ένα έργο
-      href: prod-pma/project-purchase-orders.md
-    - name: Προσφορές έργου
-      href: prod-pma/project-quotations.md
-    - name: 'Επιβεβαίωση, ενημέρωση και αποστολή προσφοράς έργου'
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: Μεταφορά προσφοράς σε ένα έργο
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: Πόροι έργου
+    - name: Διεργασία πωλήσεων έργου
+      items:
+        - name: Προσφορές έργου
+          href: prod-pma/project-quotations.md
+        - name: 'Επιβεβαίωση, ενημέρωση και αποστολή προσφοράς έργου'
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: Μεταφορά προσφοράς σε ένα έργο
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: Συμβάσεις έργων
+          href: prod-pma/project-contracts.md
+        - name: Εκχωρήσεις έργου
+          href: prod-pma/project-grants.md
+    - name: Τιμολόγηση και κοστολόγηση
+      items:
+        - name: Ρύθμιση παραμέτρων για τυπικά κόστη εργασίας και εξόδων
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: Διαχείριση έργων
+      items:
+        - name: Επισκόπηση Δομών ανάλυσης εργασίας
+          href: prod-pma/work-breakdown-structures.md
+        - name: Ενοποίηση του Microsoft Project Client
+          href: prod-pma/project-integration.md
+        - name: Επισκόπηση εφαρμογών Project για κινητές συσκευές
+          href: prod-pma/project-mobile-application-overview.md
+        - name: Χώρος εργασίας κινητών συσκευών για καταχώρηση χρόνου έργου
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: Εφαρμογή φύλλου κατανομής χρόνου έργου για κινητές συσκευές
+          href: prod-pma/project-timesheet.md
+        - name: Φύλλα κατανομής χρόνου έργου σε κινητή συσκευή
+          href: prod-pma/mobile-timesheets.md
+        - name: Υλοποίηση προσαρμοσμένων πεδίων για την εφαρμογή Project timesheet για κινητές συσκευές
+          href: prod-pma/custom-fields-mobile.md
+    - name: Διαχείριση πόρων
       items:
         - name: Επισκόπηση πόρων έργου
           href: prod-pma/project-resourcing.md
@@ -1068,35 +1146,113 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: Ολοκλήρωση πόρου για προγραμματισμένους πόρους
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: Λήψη στοιχείων σχετικά με την παραγγελία αγοράς από απαίτηση στοιχείου
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: Δομές ανάλυσης εργασίας
+    - name: Προϋπολογισμοί και προβλέψεις έργου
       items:
-        - name: Επισκόπηση Δομών ανάλυσης εργασίας
-          href: prod-pma/work-breakdown-structures.md
-        - name: Ενοποίηση του Microsoft Project Client
-          href: prod-pma/project-integration.md
-        - name: Επισκόπηση εφαρμογών Project για κινητές συσκευές
-          href: prod-pma/project-mobile-application-overview.md
-        - name: Χώρος εργασίας κινητών συσκευών για καταχώρηση χρόνου έργου
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Εφαρμογή φύλλου κατανομής χρόνου έργου για κινητές συσκευές
-          href: prod-pma/project-timesheet.md
-        - name: Φύλλα κατανομής χρόνου έργου σε κινητή συσκευή
-          href: prod-pma/mobile-timesheets.md
-        - name: Υλοποίηση προσαρμοσμένων πεδίων για την εφαρμογή κατανομής χρόνου Project για κινητές συσκευές
-          href: prod-pma/custom-fields-mobile.md
-    - name: Εκχωρήσεις έργου
-      href: prod-pma/project-grants.md
-    - name: Κατάργηση εκτίμησης έργου
-      href: prod-pma/eliminate-project-estimate.md
+        - name: Προβλέψεις και προϋπολογισμοί έργων
+          href: prod-pma/project-forecasts-budgets.md
+        - name: Δημιουργία μοντέλων πρόβλεψης για προϋπολογισμούς έργων
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: Μεταφορά προϋπολογισμών έργων στο τέλος οικονομικού έτους
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: Χρόνος
+      items:
+        - name: Προεπιλογή οικονομικών διαστάσεων για καταχωρήσεις χρόνου έργου
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: Έξοδο
+      items:
+        - name: Επισκόπηση εξόδων
+          href: expense/expense-overview.md
+        - name: Εμπειρία νέου εξόδου
+          items:
+            - name: Οι νέες αναφορές εξόδων
+              href: expense/expense-reports-reimagined.md
+            - name: Καταγραφή αποδεικτικού με χρήση της δυνατότητας OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: Ρύθμιση παραμέτρων και εγκατάσταση
+          items:
+            - name: Καθορισμός πολιτικών
+              href: expense/set-up-policies.md
+            - name: Ρύθμιση ροών εργασίας
+              href: expense/set-up-workflows.md
+            - name: Διαχείριση ανάθεσης
+              href: expense/manage-delegation.md
+            - name: Ρύθμιση παραμέτρων διαχείρισης εξόδων
+              href: expense/configure-expense-management-parameters.md
+            - name: Ρύθμιση ενοποίησης πιστωτικών καρτών
+              href: expense/set-up-credit-card-integration.md
+            - name: Ρύθμιση κατηγοριών εξόδων
+              href: expense/set-up-expense-categories.md
+            - name: Ρύθμιση διανυθείσας απόστασης με χρήση επιπέδων χρέωσης διανυθείσας απόστασης
+              href: expense/set-up-mileage.md
+        - name: Τμηματοποίηση δαπανών
+          href: prod-exp/expense-itemization.md
+        - name: Προσωπικές δαπάνες
+          href: expense/personal-expenses-expense-report.md
+        - name: Διεταιρικά έξοδα
+          href: prod-exp/intercompany-expense.md
+        - name: Δημιουργία αναφορών εξόδων
+          items:
+            - name: Διανομές σε μια αναφορά εξόδων
+              href: expense/distributions-expense-report.md
+        - name: Έγκριση αναφορών εξόδων
+          items:
+            - name: Αναφορές εξόδων και πολλαπλοί υπεύθυνοι έγκρισης
+              href: expense/expense-reports-multiple-approvers.md
+        - name: Καταχώρηση αναφορών εξόδων
+          href: expense/posting-expense-reports.md
+        - name: Ταξιδιωτική αναπλήρωση
+          href: expense/travel-requisition.md
+        - name: Προκαταβολή μετρητών
+          href: expense/cash-advance.md
+        - name: Ημερήσια έξοδα
+          href: expense/per-diem-expenses.md
+        - name: Εφαρμογή κινητών εξόδων
+          href: expense/expense-using-mobile.md
+        - name: Χρηματοοικονομική διαχείριση
+          items:
+            - name: Επιστροφή ΦΠΑ
+              href: expense/vat-recovery.md
+    - name: Προμήθειες
+      items:
+        - name: Παραγγελίες αγοράς για ένα έργο
+          href: prod-pma/project-purchase-orders.md
+        - name: Προσαύξηση κόστους έργου σε αποδείξεις αγορών
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: Λήψη στοιχείων σχετικά με την παραγγελία αγοράς από απαίτηση στοιχείου
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: Ρύθμιση και χρήση πληρωμών προμηθευτών με πληρωμή κατά την πληρωμή
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: Δημιουργία και εφαρμογή όρων διατήρησης πληρωμής προμηθευτών
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: Τιμολόγηση έργου
+      items:
+        - name: Τιμολόγηση έργου
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: Εκτέλεση προτάσεων τιμολογίου έργου
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: Δημιουργία σύνθετων συμβάσεων για χρέωση με βάση την πρόοδο
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: Παραγγελίες πωλήσεων έργου
+          href: prod-pma/project-sales-orders.md
+        - name: Απαιτήσεις στοιχείων για συμβάσεις έργου με πολλαπλές προελεύσεις υποστήριξης
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: Διεταιρική τιμολόγηση
+      items:
+        - name: Διεταιρική τιμολόγηση
+          href: prod-pma/intercompany-invoicing.md
+        - name: Ρύθμιση παραμέτρων διεταιρικής τιμολόγησης έργου
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: Αναγνώριση εσόδων
+      items:
+        - name: Κατάργηση εκτίμησης έργου
+          href: prod-pma/eliminate-project-estimate.md
 - name: Διαχείριση εξόδων
   items:
     - name: Επισκόπηση διαχείρισης εξόδου
       href: prod-exp/expense-management.md
     - name: Εμπειρία νέου εξόδου
       items:
-        - name: Νέα σύλληψη αναφορών εξόδων
+        - name: Οι νέες αναφορές εξόδων
           href: expense/expense-reports-reimagined.md
         - name: Καταγραφή αποδεικτικού με χρήση της δυνατότητας OCR
           href: expense/match-receipt-expense-ocr.md
@@ -1148,6 +1304,16 @@
       items:
         - name: Ενημέρωση χρονοδιαγράμματος έκδοσης για το Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 43, V3'
+          href: psa/whats-new-ur43.md
+        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 42, V3'
+          href: psa/whats-new-ur-42.md
+        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 41, V3'
+          href: psa/whats-new-ur-41.md
+        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 40, V3'
+          href: psa/whats-new-ur-40.md
+        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 39, V3'
+          href: psa/whats-new-ur-39.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 38, V3'
           href: psa/whats-new-ur-38.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 37.5, V3'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: Αναβάθμιση από Project Service Automation σε Project Operations - lite
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: Αλλαγές λειτουργιών από Project Service Automation σε Project Operations
+      href: psa/psa-project-operations-changes.md
     - name: Αναβάθμιση του Project Service Automation (έκδοση εφαρμογής 3.x)
       items:
         - name: Αναβάθμιση του Project Service Automation
