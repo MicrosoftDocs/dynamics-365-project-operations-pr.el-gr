@@ -2,16 +2,16 @@
 title: Ρύθμιση συντελεστών κόστους και πωλήσεων για υλικά
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο καθορισμού των συντελεστών κόστους και πωλήσεων για υλικά που χρησιμοποιούνται σε έργα.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999181"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576868"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Ρύθμιση συντελεστών κόστους και πωλήσεων για υλικά
 
@@ -25,6 +25,9 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 2. Στα **Στοιχεία τιμοκαταλόγου** στο μενού υποπλέγματος, επιλέξτε **Νέο στοιχείο τιμοκαταλόγου**. 
 3. Στη σελίδα **Γρήγορη δημιουργία**, καταχωρήστε το προϊόν και τη μονάδα για τα οποία δημιουργείτε τη νέα τιμή.
 
-Για περισσότερες πληροφορίες σχετικά με τον τρόπο καθορισμού των τιμών για τα στοιχεία καταλόγου, ανατρέξτε στο θέμα [Ρύθμιση τιμολόγησης για προϊόντα](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) και [Ακρίβεια δεκαδικών ψηφίων στη νομισματική μονάδα και στην τιμολόγηση](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Για περισσότερες πληροφορίες σχετικά με τον τρόπο καθορισμού των τιμών για τα στοιχεία καταλόγου, ανατρέξτε στο θέμα [Καθορισμός τιμολόγησης προϊόντων με τιμοκαταλόγους και στοιχεία τιμοκαταλόγου](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) και [Ακρίβεια δεκαδικών ψηφίων σε νομισματική μονάδα και τιμολόγηση](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Το Dynamics 365 Project Operations δεν υποστηρίζει όλες τις μεθόδους τιμολόγησης για προϊόντα ως Dynamics 365 Sales. Η μόνη μέθοδος τιμολόγησης που υποστηρίζεται για προϊόντα που θα χρησιμοποιηθούν σε έργα είναι το *ποσό νομισματικής μονάδας*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

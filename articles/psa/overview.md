@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000261"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580180"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Τι είναι το Dynamics 365 Project Service Automation;
 
@@ -42,14 +43,6 @@ ms.locfileid: "7000261"
 - ...και πολλά άλλα
 
 Επίσης, για να σας βοηθήσουν να παρακολουθείτε και να ελέγχετε το κόστος για την εργασία σας βάσει έργων, μεμονωμένοι σύμβουλοι καταχωρίζουν και παρακολουθούν τον χρόνο του έργου και τα έξοδα μέσω φορητών συσκευών ή ενός προγράμματος περιήγησης web.
-
-## <a name="whats-new-in-psa"></a>Τι νέο υπάρχει στο PSA
-Η ομάδα σας ανακοινώνει με χαρά τις πιο πρόσφατες ενημερωμένες εκδόσεις! Κυμαίνονται από βελτιώσεις στο περιβάλλον εργασίας χρήστη, διορθώσεις σφαλμάτων και προσθήκες σημαντικών νέων χαρακτηριστικών και δυνατοτήτων. Ζητήσατε κάτι; Εμείς σας ακούσαμε.
-
-Ρίξτε μια ματιά στις [Σημειώσεις έκδοσης Οκτωβρίου '19](/dynamics365-release-plan/2019wave2/index) για να δείτε το πιο πρόσφατες βελτιώσεις και προσθήκες.
-
-### <a name="in-development"></a>Σε ανάπτυξη
-Για να δείτε τι έχουμε προγραμματίσει για το μέλλον, δείτε το [Dynamics 365: 1 πλάνο για το κύμα κυκλοφορίας 2020](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Λήψη Βοήθειας σχετικά με την έκδοση PSA 3.x
 Αναζήτηση για πόρους που θα σας βοηθήσουν να σχεδιάσετε την υλοποίηση; Δείτε τους οδηγούς αυτούς με δυνατότητα λήψης.
@@ -80,10 +73,6 @@ ms.locfileid: "7000261"
  [Λευκές βίβλοι (έκδοση εφαρμογής 2.x ή 1.x)](../psa/white-papers.md)
 
  [Σημειώσεις για προγραμματιστές (έκδοση εφαρμογής 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>Παρακολουθήστε ένα βίντεο επισκόπησης διάρκειας 2 λεπτών
- <a name="heroArea"></a> [![ProjectService_IntroVideo](.. /psa/media/project-service-intro-video.png "ProjectService_IntroVideo".](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 

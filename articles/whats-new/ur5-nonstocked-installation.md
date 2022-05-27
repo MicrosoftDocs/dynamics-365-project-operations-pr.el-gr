@@ -1,25 +1,25 @@
 ---
 title: Ενημέρωση του Project Operations στο περιβάλλον Finance
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ενημέρωσης του Project Operations στο περιβάλλον Dynamics 365 Finance.
+description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ενημέρωσης του Project Operations στο περιβάλλον του Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986761"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579934"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Ενημέρωση του Project Operations στο περιβάλλον Finance
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
 
-Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ενημέρωσης του Dynamics 365 Project Operations στο περιβάλλον Dynamics 365 Finance. Υπάρχουν τρεις διαδικασίες που απαιτούνται για την ενημέρωση του Project Operations στην Ενημέρωση 5 (UR5):
+Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ενημέρωσης του Dynamics 365 Project Operations στο περιβάλλον του Dynamics 365 Finance. Υπάρχουν τρεις διαδικασίες που απαιτούνται για την ενημέρωση του Project Operations στην Ενημέρωση 5 (UR5):
 
 - [Εισαγωγή του πακέτου στο έργο προεπισκόπησης](#import)
 - [Εφαρμογή της ενημέρωσης](#apply)
@@ -119,7 +119,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 4. Στη σελίδα **Έκδοση χάρτη πίνακα**, εφαρμόστε μια νέα έκδοση του χάρτη σε καθεμία από τις τρεις οντότητες.
 5. Στη σελίδα **Διπλή εγγραφή** επιλέξτε εκτέλεση για επανεκκίνηση των αντιστοιχίσεων.
 6. Από τη λίστα χαρτών, επιλέξτε την αντιστοίχιση **Καθολικό (msdyn_ledgers)** με όλες τις προϋποθέσεις και επιλέξτε το πλαίσιο ελέγχου **Αρχικός συγχρονισμός**. 
-7. Στο πεδίο **Κύρια για αρχικό συγχρονισμό**, επιλέξτε **Εφαρμογές Finance and Operations** και στη συνέχεια, επιλέξτε **Εκτέλεση**.
+7. Στο πεδίο **Κύριο για τον αρχικό συγχρονισμό**, επιλέξτε τις **εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων** και, στη συνέχεια, επιλέξτε **Εκτέλεση**.
  
  ![Συγχρονισμός αντιστοίχισης καθολικού.](media/DW6.png)
  

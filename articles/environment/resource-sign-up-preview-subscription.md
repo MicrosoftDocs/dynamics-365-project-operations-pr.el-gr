@@ -4,20 +4,20 @@ description: Αυτό το θέμα παρέχει πληροφορίες σχε
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323416"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575810"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Εγγραφή για συνδρομές προεπισκόπησης του Project Operations για σενάρια πόρων/ μη εφοδιασμένα
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Αυτό θέμα εξηγεί τον τρόπο εγγραφής στη δοκιμαστική προσφορά και ανάπτυξης του περιβάλλοντος Project Operations για σενάρια που βασίζονται σε πόρους/μη εφοδιασμένα.
 
@@ -40,16 +40,16 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
   Θα δείτε ότι η προσφορά επιβεβαίωσης έχει εξαργυρωθεί με επιτυχία.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Προεπισκόπηση δοκιμαστικής έκδοσης Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Δοκιμαστική έκδοση προεπισκόπησης του Dynamics 365 Finance
 
 Μεταβείτε [στη δοκιμαστική έκδοση του Dynamics 365 for Χρηματοοικονομικά](https://aka.ms/trypoche) και επαναλάβετε τα βήματα από την προηγούμενη ενότητα με την προσφορά, Εγγραφείτε στο Περιβάλλον που φιλοξενείται σε cloud.  
 
 ## <a name="assign-licenses"></a>Εκχώρηση αδειών χρήσης
 
 > [!IMPORTANT]
-> Θα χρειαστείτε πρόσβαση διαχειριστή στην πύλη του οργανισμού σας Microsoft 365 για να ολοκληρώσετε τα παρακάτω βήματα.
+> Θα χρειαστείτε πρόσβαση διαχειριστή στην πύλη Microsoft 365 του οργανισμού σας για να ολοκληρώσετε τα παρακάτω βήματα.
 
-1. Μεταβείτε στο [Κέντρο διαχείρισης της Microsoft 365](https://portal.office.com/) για να αναθέσετε τις άδειες χρήσης στους χρήστες σας.
+1. Μεταβείτε στο [κέντρο διαχείρισης Microsoft 365](https://portal.office.com/) για να αναθέσετε τις άδειες χρήσης στους χρήστες σας.
 
 2. Στη σελίδα **Ενεργοί χρήστες**, επιλέξτε τους χρήστες στους οποίους θέλετε να αναθέσετε μια άδεια χρήσης.
 

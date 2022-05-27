@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c4869f3ab06ec80d620ec51bb4f0429412cd4d00
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943023"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579812"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει τον Δεκέμβριο του 2021 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 
@@ -20,7 +20,7 @@ ms.locfileid: "7943023"
 
 Αυτή θέμα ισχύει για τα ακόλουθα στοιχεία και εκδόσεις Microsoft Dynamics 365 Project Operations:
 
-- Project Operations στο περιβάλλον Dataverse έκδοση 4.27.0.195, 4.27.0.242
+- Project Operations στο περιβάλλον Dataverse έκδοση 4.27.0.195, 4.27.0.242, 4.27.0.244
 - Διαχείριση έργων και λογιστική σε περιβάλλον Dynamics 365 Finance έκδοση 10.0.23
 
 ## <a name="features-included-in-this-release"></a>Δυνατότητες που περιλαμβάνονται σε αυτήν την έκδοση
@@ -48,7 +48,7 @@ ms.locfileid: "7943023"
 | Χρόνος και έξοδα | 2468188 | Επιδιορθώθηκε το πρόβλημα με το κείμενο αρχείου καταγραφής που υπερβαίνει το μέγιστο μήκος στο χαρακτηριστικό **notetext** της οντότητας **Σχόλια**. |
 | Χρέωση και τιμολόγηση | 2488698 | Ενημερωμένο μήνυμα σφάλματος που προκύπτει όταν λείπει από την εγκατάσταση του περιβάλλοντος καρτέλες οντότητας Καθολικού που συμπληρώνονται από τα Οικονομικά. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Διαχείριση έργου και λογιστική στο Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Διαχείριση έργου και λογιστικό στο Dynamics 365 Finance
 
 | **Περιοχή δυνατοτήτων** | **Αριθμός αναφοράς** | **Ενημέρωση ποιότητας** |
 | --- | --- | --- |
