@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 7016d702719b2d432ec929aaca8d609ebf6e996b
-ms.sourcegitcommit: abdd6cb3461ebb12fd2ca7ea78439c29aecd0a94
+ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7815847"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582020"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Τι νέα υπάρχουν ή τι έχει αλλάξει στο Project Operations, Σεπτέμβριο 2021 για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 
@@ -91,6 +91,6 @@ _**Ισχύει για:** Project Operations για Εφοδιασμένα σε�
 
 ## <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
 
-Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Finance and Operations, ανατρέξτε στην ενότητα [Ενημέρωση κανονισμών](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε επίσης να συνδεθείτε στο Microsoft Dynamics Lifecycle Services (LCS) και να χρησιμοποιήσετε το εργαλείο αναζήτησης θεμάτων για να προβάλετε τις προγραμματισμένες ενημερώσεις των ρυθμίσεων. Η αναζήτηση ζητήματος σάς επιτρέπει να κάνετε αναζήτηση κατά χώρα ή περιοχή, τον τύπο της δυνατότητας και την κυκλοφορία.
+Για πληροφορίες σχετικά με τις ρυθμιστικές ενημερώσεις για τις εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων, ανατρέξτε στις [ρυθμιστικές ενημερώσεις](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε επίσης να συνδεθείτε στο Microsoft Dynamics Lifecycle Services (LCS) και να χρησιμοποιήσετε το εργαλείο αναζήτησης θεμάτων για να προβάλετε τις προγραμματισμένες ενημερώσεις των ρυθμίσεων. Η αναζήτηση ζητήματος σάς επιτρέπει να κάνετε αναζήτηση κατά χώρα ή περιοχή, τον τύπο της δυνατότητας και την κυκλοφορία.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

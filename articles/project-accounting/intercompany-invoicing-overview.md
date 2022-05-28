@@ -3,16 +3,15 @@ title: Επισκόπηση διεταιρικής τιμολόγησης
 description: Αυτό το θέμα παρέχει πληροφορίες και παραδείγματα σχετικά με τη διεταιρική τιμολόγηση για έργα.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005391"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586252"
 ---
 # <a name="intercompany-invoicing-overview"></a>Επισκόπηση διεταιρικής τιμολόγησης
 
@@ -20,7 +19,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 Ο οργανισμός σας μπορεί να έχει πολλαπλά τμήματα, θυγατρικές και άλλες νομικές οντότητες που μεταφέρουν τα προϊόντα και τις υπηρεσίες μεταξύ τους για τα έργα. Η νομική οντότητα που παρέχει την υπηρεσία ή το προϊόν ονομάζεται *νομική οντότητα που δανείζει*. Η νομική οντότητα που λαμβάνει την υπηρεσία ή το προϊόν ονομάζεται *νομική οντότητα που δανείζεται*.
 
-Παρακάτω παρουσιάζεται ένα τυπικό σενάριο, όπου δύο νομικές οντότητες, η Contoso Robotics USA (το νομικό πρόσωπο που δανείζεται) και η Contoso Robotics UK. (το νομικό πρόσωπο που δανείζει) μοιράζονται πόρους για την παροχή ενός έργου για τον πελάτη, Adventure works. Για το συγκεκριμένο σενάριο, η Contoso Robotics USA έχει συμβάσεις για την παράδοση της εργασίας στην Adventure Works.
+Η εικόνα που ακολουθεί δείχνει ένα τυπικό σενάριο όπου δύο νομικές οντότητες, η Contoso Robotics USA (η νομική οντότητα που δανείζεται) και η Contoso Robotics UK (νομική οντότητα που δανείζει) μοιράζονται πόρους για την παράδοση ενός έργου για τον πελάτη, την Adventure Works. Για αυτό το σενάριο, η Contoso Robotics USA αναλαμβάνει την παροχή της εργασίας στην Adventure Works.
 
 ![Διεταιρική τιμολόγηση.](./media/IntercompanyScenario.png) 
 

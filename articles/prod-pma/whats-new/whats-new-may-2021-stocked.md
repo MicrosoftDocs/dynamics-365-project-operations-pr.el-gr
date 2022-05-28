@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c4f58842c33ec5f45a6cd9ea4bd0e73b0aa693b7cecf63bfa8889a5671840d7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991126"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586298"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Τι νέο υπάρχει ή έχει αλλάξει στο Project Operations, Μάιος 2021 για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 
@@ -20,7 +20,7 @@ ms.locfileid: "6991126"
 
 Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
 
-- Διαχείριση έργου και λογιστικής στο περιβάλλον Dynamics 365 Finance έκδοση 10.0.19
+- Διαχείριση έργων και λογιστική σε περιβάλλον Dynamics 365 Finance έκδοση 10.0.19
  
 ### <a name="quality-updates"></a>Ενημερώσεις ποιότητας
                                                                                                                                                                                   
@@ -93,7 +93,7 @@ ms.locfileid: "6991126"
 | Ταξίδι και έξοδα                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Υπάρχουν ζητήματα συγχρονισμού με την εφαρμογή Δαπάνες για κινητές συσκευές. 
 
 ### <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
-Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Finance and Operations, ανατρέξτε στην ενότητα [Ενημέρωση κανονισμών](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε επίσης να συνδεθείτε στις Lifecycle Services (LCS) και να προβάλετε τις προγραμματισμένες ρυθμιστικές ενημερώσεις χρησιμοποιώντας το εργαλείο αναζήτησης θεμάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+Για πληροφορίες σχετικά με τις ρυθμιστικές ενημερώσεις για τις εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων, ανατρέξτε στις [ρυθμιστικές ενημερώσεις](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε επίσης να συνδεθείτε στις Lifecycle Services (LCS) και να προβάλετε τις προγραμματισμένες ρυθμιστικές ενημερώσεις χρησιμοποιώντας το εργαλείο αναζήτησης θεμάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

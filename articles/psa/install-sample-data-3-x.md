@@ -3,19 +3,19 @@ title: Εγκατάσταση δείγματος δεδομένων
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την εγκατάσταση δειγμάτων δεδομένων στο Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
 author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 952f3c3c037bb8459bdd1400288c4ea8604ce282
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985546"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581836"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Εγκατάσταση δείγματος δεδομένων για την εφαρμογή Project Service
 
@@ -135,7 +135,7 @@ ms.locfileid: "6985546"
     - Ονοματεπώνυμο χρήστη = "Γιώργος Αντωνίου" ως διαχειριστής λογαριασμών   
     - Ονοματεπώνυμο χρήστη = "Αθανάσιος Γκέκας" ως διαχειριστής πρακτικής και έργου  
     - Ονοματεπώνυμο χρήστη = "Γεωργία Αθανασίου" ως μέλος ομάδας   
-    - Ονοματεπώνυμο χρήστη = "Αντώνης Contoso"
+    - Ονοματεπώνυμο χρήστη = "Ιωάννα Ελευθερίου"
   
 2. Για την εισαγωγή δεδομένων επίδειξης, μπορείτε να αντιστοιχίσετε τους έξι χρήστες παραπάνω στον ρόλο διαχειριστή έτσι ώστε οι καρτέλες-δείγματα να εισαχθούν σωστά. 
 

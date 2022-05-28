@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547154"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582894"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέα υπάρχουν, Σεπτέμβριος 2021 - Λειτουργίες Έργου για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547154"
 Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
 
    - Project Operations στο Microsoft Dataverse στην έκδοση περιβάλλοντος 4.14.0.99.
-   - Διαχείριση έργου και λογιστικής στο περιβάλλον Dynamics 365 Finance έκδοση 10.0.20.
+   - Διαχείριση έργων και λογιστική σε περιβάλλον Dynamics 365 Finance έκδοση 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Ενημερώσεις χαρτών διπλής εγγραφής Project Operations
 
@@ -45,7 +45,7 @@ ms.locfileid: "7547154"
 | Χρέωση και τιμολόγηση | 2385802 | Επιδιορθώθηκε το σφάλμα που προκύπτει με αρνητικές πραγματικές ώρες κατά την ανανέωση των συνόλων του έργου. |
 | Χρέωση και τιμολόγηση | 2389675 | Βελτιωμένη συμπεριφορά επιβεβαίωσης προτιμολογίου. Η οντότητα εργασιών με μεγάλη διάρκεια πρέπει να λαμβάνει υπόψη της τη δραστηριότητα που απαιτείται για την εγγραφή των αποτελεσμάτων επιβεβαίωσης για τη λογιστική. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Διαχείριση έργου και λογιστικής στο Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Διαχείριση έργου και λογιστικό στο Dynamics 365 Finance
 
 | Περιοχή δυνατοτήτων | Αριθμός αναφοράς | Ενημέρωση ποιότητας |
 | --- | --- | --- |

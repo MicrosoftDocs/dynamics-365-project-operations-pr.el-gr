@@ -4,14 +4,14 @@ description: Αυτό το θέμα παρέχει πληροφορίες για
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994636"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584136"
 ---
 # <a name="determine-your-deployment-type"></a>Προσδιορισμός του τύπου ανάπτυξής σας
 
@@ -25,7 +25,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Υπάρχοντες πελάτες του Dynamics που χρησιμοποιούν το Dynamics 365 Project Service Automation
 Το Project Operations περιλαμβάνει τις δυνατότητες που παρέχονται με το Project Service Automation. Θα κυκλοφορήσει μια διαδρομή αναβάθμισης για αυτούς τους πελάτες στο κύμα έκδοσης 1 του 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Υπάρχοντες πελάτες του Dynamics 365 Finance που χρησιμοποιούν τη διαχείριση έργου και λογιστικής 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Υπάρχοντες πελάτες του Dynamics 365 Finance χρησιμοποιώντας διαχείριση έργων και λογιστική 
 
 Οι υφιστάμενοι πελάτες του Finance που χρησιμοποιούν τη λειτουργικότητα "Διαχείριση έργου και Λογιστική" μπορούν να συνεχίσουν να τη χρησιμοποιούν ως έχει. Δείτε [Project Operations για σενάρια εφοδιασμένα/παραγγελίας παραγωγής](#pma).
 
@@ -42,7 +42,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 - [Project Operations για σενάρια πόρων/μη εφοδιασμένα](#integrated)
 - [Project Operations για σενάρια εφοδιασμένα/παραγγελίας παραγωγής](#pma)
 
-Το Project Operations υποστηρίζει σενάρια με απόθεμα/παραγγελίας παραγωγής και σενάρια χωρίς απόθεμα/βάσει πόρου στο ίδιο περιβάλλον μέσω διαμορφώσεων σε επίπεδο νομικής οντότητας. Για παράδειγμα, η Contoso μπορεί να χρησιμοποιήσει δυνατότητες παραγγελίας αποθέματος/παραγωγής στις εγκαταστάσεις παραγωγής στις Η.Π.Α. (Νομική οντότητα = Contoso Manufacturing United States). Η Contoso μπορεί να χρησιμοποιήσει μη εφοδιασμένες/βάσει πόρων δυνατότητες στην εγκατάσταση σέρβις Contoso Robotics Arms στο Η.Β. (Νομική οντότητα = Contoso Robotics United Kingdom).
+Το Project Operations υποστηρίζει σενάρια με απόθεμα/παραγγελίας παραγωγής και σενάρια χωρίς απόθεμα/βάσει πόρου στο ίδιο περιβάλλον μέσω διαμορφώσεων σε επίπεδο νομικής οντότητας. Για παράδειγμα, η Contoso μπορεί να χρησιμοποιήσει τις δυνατότητες αποθήκευσης/παραγγελίας παραγωγής στις αμερικάνικες εγκαταστάσεις παραγωγής (Νομική οντότητα = Contoso Manufacturing United States). Η Contoso μπορεί να χρησιμοποιήσει τις δυνατότητες που βασίζονται σε μη εφοδιασμένο/πόρο στο Contoso Robotics Arms που εξυπηρετεί το Ηνωμένο Βασίλειο (Νομική οντότητα = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση
 
