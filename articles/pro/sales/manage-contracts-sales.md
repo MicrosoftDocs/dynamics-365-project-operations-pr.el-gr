@@ -4,14 +4,14 @@ description: Αυτό το θέμα παρέχει πληροφορίες σχε
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64e81593065d97272af6261e17175c76bd8dca7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001836"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590484"
 ---
 # <a name="manage-project-contracts"></a>Διαχείριση συμβάσεων έργου
 
@@ -31,6 +31,9 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 2. Επιλέξτε την **Εναλλαγή προβολής** (το αναπτυσσόμενο βέλος δίπλα στο όνομα της προβολής) για να επιλέξετε άλλες φιλτραρισμένες προβολές. Μπορείτε να δημιουργήσετε τις δικές σας προβολές με προσαρμοσμένα κριτήρια φιλτραρίσματος.
 
 Οι συμβάσεις μπορούν να δημιουργηθούν ή να διαγραφούν από αυτήν τη σελίδα λίστας ή τις σελίδες λεπτομερειών.
+
+> [!NOTE]
+> Οι συμβάσεις με έργα, εργασίες, εκτιμήσεις, ημερολόγια ή/και πραγματικές τιμές που σχετίζονται με αυτά δεν είναι δυνατό να διαγραφούν. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

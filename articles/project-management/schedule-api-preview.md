@@ -2,16 +2,16 @@
 title: Χρήση API χρονοδιαγράμματος έργου για την εκτέλεση λειτουργιών με οντότητες προγραμματισμού
 description: Αυτό το θέμα παρέχει πληροφορίες και δείγματα για τη χρήση των API χρονοδιαγράμματος έργου.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487685"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592048"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Χρήση API χρονοδιαγράμματος έργου για την εκτέλεση λειτουργιών με οντότητες προγραμματισμού
 
@@ -56,14 +56,14 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 ## <a name="supported-operations"></a>Υποστηριζόμενες λειτουργίες
 
-| Οντότητα προγραμματισμού | Δημιουργία | Ενημέρωση | Delete | Σημαντικές επισημάνσεις |
+| Οντότητα προγραμματισμού | Δημιουργία | Update | Delete | Σημαντικές επισημάνσεις |
 | --- | --- | --- | --- | --- |
-Εργασία έργου | Ναι | Ναι | Ναι | Κανένας |
-| Εξάρτηση εργασίας έργου | Ναι | Ναι | | Οι καρτέλες εξάρτησης εργασιών έργου δεν ενημερώνονται. Αντίθετα, είναι δυνατό να διαγραφεί μια παλιά καρτέλα και να δημιουργηθεί μια νέα καρτέλα. |
+Εργασία έργου | Ναι | Ναι | Ναι | Μπορείτε να επεξεργαστείτε τα πεδία **Πρόοδος**, **EffortCompleted** και **EffortRemaining** στο Project for the Web, αλλά δεν είναι δυνατή η επεξεργασία τους στο Project Operations.  |
+| Εξάρτηση εργασίας έργου | Ναι |  | Ναι | Οι καρτέλες εξάρτησης εργασιών έργου δεν ενημερώνονται. Αντίθετα, είναι δυνατό να διαγραφεί μια παλιά καρτέλα και να δημιουργηθεί μια νέα καρτέλα. |
 | Ανάθεση πόρου | Ναι | Ναι | | Οι λειτουργίες με τα ακόλουθα πεδία δεν υποστηρίζονται: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** και **PlannedWork**. Οι καρτέλες ανάθεσης πόρων δεν ενημερώνονται. Αντίθετα, είναι δυνατό να διαγραφεί η παλιά καρτέλα και να δημιουργηθεί μια νέα καρτέλα. |
-| Κάδος έργου | Μη διαθέσιμο | Μη διαθέσιμο | Μη διαθέσιμο | Ο προεπιλεγμένος κάδος δημιουργείται με χρήση του API **CreateProjectV1**. |
+| Κάδος έργου | Ναι | Ναι | Ναι | Ο προεπιλεγμένος κάδος δημιουργείται με τη χρήση του API **CreateProjectV1**. Η υποστήριξη για τη δημιουργία και διαγραφή κάδων έργων προστέθηκε στην έκδοση ενημέρωσης 16. |
 | Μέλος ομάδας έργου | Ναι | Ναι | Ναι | Για τη λειτουργία δημιουργίας, χρησιμοποιήστε το API **CreateTeamMemberV1**. |
-| Project | Ναι | Ναι | Μη διαθέσιμο | Οι λειτουργίες με τα ακόλουθα πεδία δεν υποστηρίζονται: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** και **Duration**. |
+| Project | Ναι | Ναι |  | Οι λειτουργίες με τα ακόλουθα πεδία δεν υποστηρίζονται: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** και **Duration**. |
 
 Αυτά τα API μπορούν να καλούνται με αντικείμενα οντότητας που περιλαμβάνουν προσαρμοσμένα πεδία.
 
@@ -71,196 +71,207 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 ## <a name="restricted-fields"></a>Περιορισμένα πεδία
 
-Οι παρακάτω πίνακες ορίζουν τα πεδία που περιορίζονται από τα **Δημιουργία** και **Επεξεργασία.**
+Οι παρακάτω πίνακες ορίζουν τα πεδία που περιορίζονται από τα **Δημιουργία** και **Επεξεργασία**.
 
 ### <a name="project-task"></a>Εργασία έργου
 
-| **Λογικό όνομα**                       | **Δυνατότητα δημιουργίας** | **Δυνατότητα επεξεργασίας**     |
+| Λογικό όνομα                           | Δυνατότητα δημιουργίας     | Δυνατότητα επεξεργασίας         |
 |----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | όχι             | όχι               |
-| msdyn_actualcost_base                  | όχι             | όχι               |
-| msdyn_actualend                        | όχι             | όχι               |
-| msdyn_actualsales                      | όχι             | όχι               |
-| msdyn_actualsales_base                 | όχι             | όχι               |
-| msdyn_actualstart                      | όχι             | όχι               |
-| msdyn_costatcompleteestimate           | όχι             | όχι               |
-| msdyn_costatcompleteestimate_base      | όχι             | όχι               |
-| msdyn_costconsumptionpercentage        | όχι             | όχι               |
-| msdyn_effortcompleted                  | όχι             | όχι               |
-| msdyn_effortestimateatcomplete         | όχι             | όχι               |
-| msdyn_iscritical                       | όχι             | όχι               |
-| msdyn_iscriticalname                   | όχι             | όχι               |
-| msdyn_ismanual                         | όχι             | όχι               |
-| msdyn_ismanualname                     | όχι             | όχι               |
-| msdyn_ismilestone                      | όχι             | όχι               |
-| msdyn_ismilestonename                  | όχι             | όχι               |
-| msdyn_LinkStatus                       | όχι             | όχι               |
-| msdyn_linkstatusname                   | όχι             | όχι               |
-| msdyn_msprojectclientid                | όχι             | όχι               |
-| msdyn_plannedcost                      | όχι             | όχι               |
-| msdyn_plannedcost_base                 | όχι             | όχι               |
-| msdyn_plannedsales                     | όχι             | όχι               |
-| msdyn_plannedsales_base                | όχι             | όχι               |
-| msdyn_pluginprocessingdata             | όχι             | όχι               |
-| msdyn_progress                         | όχι             | όχι (ναι για P4W) |
-| msdyn_remainingcost                    | όχι             | όχι               |
-| msdyn_remainingcost_base               | όχι             | όχι               |
-| msdyn_remainingsales                   | όχι             | όχι               |
-| msdyn_remainingsales_base              | όχι             | όχι               |
-| msdyn_requestedhours                   | όχι             | όχι               |
-| msdyn_resourcecategory                 | όχι             | όχι               |
-| msdyn_resourcecategoryname             | όχι             | όχι               |
-| msdyn_resourceorganizationalunitid     | όχι             | όχι               |
-| msdyn_resourceorganizationalunitidname | όχι             | όχι               |
-| msdyn_salesconsumptionpercentage       | όχι             | όχι               |
-| msdyn_salesestimateatcomplete          | όχι             | όχι               |
-| msdyn_salesestimateatcomplete_base     | όχι             | όχι               |
-| msdyn_salesvariance                    | όχι             | όχι               |
-| msdyn_salesvariance_base               | όχι             | όχι               |
-| msdyn_scheduleddurationminutes         | όχι             | όχι               |
-| msdyn_scheduledend                     | όχι             | όχι               |
-| msdyn_scheduledstart                   | όχι             | όχι               |
-| msdyn_schedulevariance                 | όχι             | όχι               |
-| msdyn_skipupdateestimateline           | όχι             | όχι               |
-| msdyn_skipupdateestimatelinename       | όχι             | όχι               |
-| msdyn_summary                          | όχι             | όχι               |
-| msdyn_varianceofcost                   | όχι             | όχι               |
-| msdyn_varianceofcost_base              | όχι             | όχι               |
+| msdyn_actualcost                       | No             | No               |
+| msdyn_actualcost_base                  | No             | No               |
+| msdyn_actualend                        | No             | No               |
+| msdyn_actualsales                      | No             | No               |
+| msdyn_actualsales_base                 | No             | No               |
+| msdyn_actualstart                      | No             | No               |
+| msdyn_costatcompleteestimate           | No             | No               |
+| msdyn_costatcompleteestimate_base      | No             | No               |
+| msdyn_costconsumptionpercentage        | No             | No               |
+| msdyn_effortcompleted                  | Όχι (ναι για το Project)             | Όχι (ναι για το Project)               |
+| msdyn_effortremaining                  | Όχι (ναι για το Project)              | Όχι (ναι για το Project)                |
+| msdyn_effortestimateatcomplete         | No             | No               |
+| msdyn_iscritical                       | No             | No               |
+| msdyn_iscriticalname                   | No             | No               |
+| msdyn_ismanual                         | No             | No               |
+| msdyn_ismanualname                     | No             | No               |
+| msdyn_ismilestone                      | No             | No               |
+| msdyn_ismilestonename                  | No             | No               |
+| msdyn_LinkStatus                       | No             | No               |
+| msdyn_linkstatusname                   | No             | No               |
+| msdyn_msprojectclientid                | No             | No               |
+| msdyn_plannedcost                      | No             | No               |
+| msdyn_plannedcost_base                 | No             | No               |
+| msdyn_plannedsales                     | No             | No               |
+| msdyn_plannedsales_base                | No             | No               |
+| msdyn_pluginprocessingdata             | No             | No               |
+| msdyn_progress                         | Όχι (ναι για το Project)             | Όχι (ναι για το Project) |
+| msdyn_remainingcost                    | No             | No               |
+| msdyn_remainingcost_base               | No             | No               |
+| msdyn_remainingsales                   | No             | No               |
+| msdyn_remainingsales_base              | No             | No               |
+| msdyn_requestedhours                   | No             | No               |
+| msdyn_resourcecategory                 | No             | No               |
+| msdyn_resourcecategoryname             | No             | No               |
+| msdyn_resourceorganizationalunitid     | No             | No               |
+| msdyn_resourceorganizationalunitidname | No             | No               |
+| msdyn_salesconsumptionpercentage       | No             | No               |
+| msdyn_salesestimateatcomplete          | No             | No               |
+| msdyn_salesestimateatcomplete_base     | No             | No               |
+| msdyn_salesvariance                    | No             | No               |
+| msdyn_salesvariance_base               | No             | No               |
+| msdyn_scheduleddurationminutes         | No             | No               |
+| msdyn_scheduledend                     | No             | No               |
+| msdyn_scheduledstart                   | No             | No               |
+| msdyn_schedulevariance                 | No             | No               |
+| msdyn_skipupdateestimateline           | No             | No               |
+| msdyn_skipupdateestimatelinename       | No             | No               |
+| msdyn_summary                          | No             | No               |
+| msdyn_varianceofcost                   | No             | No               |
+| msdyn_varianceofcost_base              | No             | No               |
 
 ### <a name="project-task-dependency"></a>Εξάρτηση εργασίας έργου
 
-| **Λογικό όνομα**              | **Δυνατότητα δημιουργίας** | **Δυνατότητα επεξεργασίας** |
+| Λογικό όνομα                  | Δυνατότητα δημιουργίας     | Δυνατότητα επεξεργασίας     |
 |-------------------------------|----------------|--------------|
-| msdyn_linktype                | όχι             | όχι           |
-| msdyn_linktypename            | όχι             | όχι           |
-| msdyn_predecessortask         | ναι            | όχι           |
-| msdyn_predecessortaskname     | ναι            | όχι           |
-| msdyn_project                 | ναι            | όχι           |
-| msdyn_projectname             | ναι            | όχι           |
-| msdyn_projecttaskdependencyid | ναι            | όχι           |
-| msdyn_successortask           | ναι            | όχι           |
-| msdyn_successortaskname       | ναι            | όχι           |
+| msdyn_linktype                | No             | No           |
+| msdyn_linktypename            | No             | No           |
+| msdyn_predecessortask         | Ναι            | No           |
+| msdyn_predecessortaskname     | Ναι            | No           |
+| msdyn_project                 | Ναι            | No           |
+| msdyn_projectname             | Ναι            | No           |
+| msdyn_projecttaskdependencyid | Ναι            | No           |
+| msdyn_successortask           | Ναι            | No           |
+| msdyn_successortaskname       | Ναι            | No           |
 
 ### <a name="resource-assignment"></a>Ανάθεση πόρου
 
-| **Λογικό όνομα**             | **Δυνατότητα δημιουργίας** | **Δυνατότητα επεξεργασίας** |
+| Λογικό όνομα                 | Δυνατότητα δημιουργίας     | Δυνατότητα επεξεργασίας     |
 |------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | ναι            | όχι           |
-| msdyn_bookableresourceidname | ναι            | όχι           |
-| msdyn_bookingstatusid        | όχι             | όχι           |
-| msdyn_bookingstatusidname    | όχι             | όχι           |
-| msdyn_committype             | όχι             | όχι           |
-| msdyn_committypename         | όχι             | όχι           |
-| msdyn_effort                 | όχι             | όχι           |
-| msdyn_effortcompleted        | όχι             | όχι           |
-| msdyn_effortremaining        | όχι             | όχι           |
-| msdyn_finish                 | όχι             | όχι           |
-| msdyn_plannedcost            | όχι             | όχι           |
-| msdyn_plannedcost_base       | όχι             | όχι           |
-| msdyn_plannedcostcontour     | όχι             | όχι           |
-| msdyn_plannedsales           | όχι             | όχι           |
-| msdyn_plannedsales_base      | όχι             | όχι           |
-| msdyn_plannedsalescontour    | όχι             | όχι           |
-| msdyn_plannedwork            | όχι             | όχι           |
-| msdyn_projectid              | ναι            | όχι           |
-| msdyn_projectidname          | όχι             | όχι           |
-| msdyn_projectteamid          | όχι             | όχι           |
-| msdyn_projectteamidname      | όχι             | όχι           |
-| msdyn_start                  | όχι             | όχι           |
-| msdyn_taskid                 | όχι             | όχι           |
-| msdyn_taskidname             | όχι             | όχι           |
-| msdyn_userresourceid         | όχι             | όχι           |
+| msdyn_bookableresourceid     | Ναι            | No           |
+| msdyn_bookableresourceidname | Ναι            | No           |
+| msdyn_bookingstatusid        | No             | No           |
+| msdyn_bookingstatusidname    | No             | No           |
+| msdyn_committype             | No             | No           |
+| msdyn_committypename         | No             | No           |
+| msdyn_effort                 | No             | No           |
+| msdyn_effortcompleted        | No             | No           |
+| msdyn_effortremaining        | No             | No           |
+| msdyn_finish                 | No             | No           |
+| msdyn_plannedcost            | No             | No           |
+| msdyn_plannedcost_base       | No             | No           |
+| msdyn_plannedcostcontour     | No             | No           |
+| msdyn_plannedsales           | No             | No           |
+| msdyn_plannedsales_base      | No             | No           |
+| msdyn_plannedsalescontour    | No             | No           |
+| msdyn_plannedwork            | No             | No           |
+| msdyn_projectid              | Ναι            | No           |
+| msdyn_projectidname          | No             | No           |
+| msdyn_projectteamid          | No             | No           |
+| msdyn_projectteamidname      | No             | No           |
+| msdyn_start                  | No             | No           |
+| msdyn_taskid                 | No             | No           |
+| msdyn_taskidname             | No             | No           |
+| msdyn_userresourceid         | No             | No           |
 
 ### <a name="project-team-member"></a>Μέλος ομάδας έργου
 
-| **Λογικό όνομα**                                 | **Δυνατότητα δημιουργίας** | **Δυνατότητα επεξεργασίας** |
+| Λογικό όνομα                                     | Δυνατότητα δημιουργίας     | Δυνατότητα επεξεργασίας     |
 |--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | όχι             | όχι           |
-| msdyn_creategenericteammemberwithrequirementname | όχι             | όχι           |
-| msdyn_deletestatus                               | όχι             | όχι           |
-| msdyn_deletestatusname                           | όχι             | όχι           |
-| msdyn_effort                                     | όχι             | όχι           |
-| msdyn_effortcompleted                            | όχι             | όχι           |
-| msdyn_effortremaining                            | όχι             | όχι           |
-| msdyn_finish                                     | όχι             | όχι           |
-| msdyn_hardbookedhours                            | όχι             | όχι           |
-| msdyn_hours                                      | όχι             | όχι           |
-| msdyn_markedfordeletiontimer                     | όχι             | όχι           |
-| msdyn_markedfordeletiontimestamp                 | όχι             | όχι           |
-| msdyn_msprojectclientid                          | όχι             | όχι           |
-| msdyn_percentage                                 | όχι             | όχι           |
-| msdyn_requiredhours                              | όχι             | όχι           |
-| msdyn_softbookedhours                            | όχι             | όχι           |
-| msdyn_start                                      | όχι             | όχι           |
+| msdyn_calendarid                                 | No             | No           |
+| msdyn_creategenericteammemberwithrequirementname | No             | No           |
+| msdyn_deletestatus                               | No             | No           |
+| msdyn_deletestatusname                           | No             | No           |
+| msdyn_effort                                     | No             | No           |
+| msdyn_effortcompleted                            | No             | No           |
+| msdyn_effortremaining                            | No             | No           |
+| msdyn_finish                                     | No             | No           |
+| msdyn_hardbookedhours                            | No             | No           |
+| msdyn_hours                                      | No             | No           |
+| msdyn_markedfordeletiontimer                     | No             | No           |
+| msdyn_markedfordeletiontimestamp                 | No             | No           |
+| msdyn_msprojectclientid                          | No             | No           |
+| msdyn_percentage                                 | No             | No           |
+| msdyn_requiredhours                              | No             | No           |
+| msdyn_softbookedhours                            | No             | No           |
+| msdyn_start                                      | No             | No           |
 
 ### <a name="project"></a>Project
 
-| **Λογικό όνομα**                       | **Δυνατότητα δημιουργίας** | **Δυνατότητα επεξεργασίας** |
+| Λογικό όνομα                           | Δυνατότητα δημιουργίας     | Δυνατότητα επεξεργασίας     |
 |----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | όχι             | όχι           |
-| msdyn_actualexpensecost_base           | όχι             | όχι           |
-| msdyn_actuallaborcost                  | όχι             | όχι           |
-| msdyn_actuallaborcost_base             | όχι             | όχι           |
-| msdyn_actualsales                      | όχι             | όχι           |
-| msdyn_actualsales_base                 | όχι             | όχι           |
-| msdyn_contractlineproject              | ναι            | όχι           |
-| msdyn_contractorganizationalunitid     | ναι            | όχι           |
-| msdyn_contractorganizationalunitidname | ναι            | όχι           |
-| msdyn_costconsumption                  | όχι             | όχι           |
-| msdyn_costestimateatcomplete           | όχι             | όχι           |
-| msdyn_costestimateatcomplete_base      | όχι             | όχι           |
-| msdyn_costvariance                     | όχι             | όχι           |
-| msdyn_costvariance_base                | όχι             | όχι           |
-| msdyn_duration                         | όχι             | όχι           |
-| msdyn_effort                           | όχι             | όχι           |
-| msdyn_effortcompleted                  | όχι             | όχι           |
-| msdyn_effortestimateatcompleteeac      | όχι             | όχι           |
-| msdyn_effortremaining                  | όχι             | όχι           |
-| msdyn_finish                           | ναι            | ναι          |
-| msdyn_globalrevisiontoken              | όχι             | όχι           |
-| msdyn_islinkedtomsprojectclient        | όχι             | όχι           |
-| msdyn_islinkedtomsprojectclientname    | όχι             | όχι           |
-| msdyn_linkeddocumenturl                | όχι             | όχι           |
-| msdyn_msprojectdocument                | όχι             | όχι           |
-| msdyn_msprojectdocumentname            | όχι             | όχι           |
-| msdyn_plannedexpensecost               | όχι             | όχι           |
-| msdyn_plannedexpensecost_base          | όχι             | όχι           |
-| msdyn_plannedlaborcost                 | όχι             | όχι           |
-| msdyn_plannedlaborcost_base            | όχι             | όχι           |
-| msdyn_plannedsales                     | όχι             | όχι           |
-| msdyn_plannedsales_base                | όχι             | όχι           |
-| msdyn_progress                         | όχι             | όχι           |
-| msdyn_remainingcost                    | όχι             | όχι           |
-| msdyn_remainingcost_base               | όχι             | όχι           |
-| msdyn_remainingsales                   | όχι             | όχι           |
-| msdyn_remainingsales_base              | όχι             | όχι           |
-| msdyn_replaylogheader                  | όχι             | όχι           |
-| msdyn_salesconsumption                 | όχι             | όχι           |
-| msdyn_salesestimateatcompleteeac       | όχι             | όχι           |
-| msdyn_salesestimateatcompleteeac_base  | όχι             | όχι           |
-| msdyn_salesvariance                    | όχι             | όχι           |
-| msdyn_salesvariance_base               | όχι             | όχι           |
-| msdyn_scheduleperformance              | όχι             | όχι           |
-| msdyn_scheduleperformancename          | όχι             | όχι           |
-| msdyn_schedulevariance                 | όχι             | όχι           |
-| msdyn_taskearlieststart                | όχι             | όχι           |
-| msdyn_teamsize                         | όχι             | όχι           |
-| msdyn_teamsize_date                    | όχι             | όχι           |
-| msdyn_teamsize_state                   | όχι             | όχι           |
-| msdyn_totalactualcost                  | όχι             | όχι           |
-| msdyn_totalactualcost_base             | όχι             | όχι           |
-| msdyn_totalplannedcost                 | όχι             | όχι           |
-| msdyn_totalplannedcost_base            | όχι             | όχι           |
+| msdyn_actualexpensecost                | No             | No           |
+| msdyn_actualexpensecost_base           | No             | No           |
+| msdyn_actuallaborcost                  | No             | No           |
+| msdyn_actuallaborcost_base             | No             | No           |
+| msdyn_actualsales                      | No             | No           |
+| msdyn_actualsales_base                 | No             | No           |
+| msdyn_contractlineproject              | Ναι            | No           |
+| msdyn_contractorganizationalunitid     | Ναι            | No           |
+| msdyn_contractorganizationalunitidname | Ναι            | No           |
+| msdyn_costconsumption                  | No             | No           |
+| msdyn_costestimateatcomplete           | No             | No           |
+| msdyn_costestimateatcomplete_base      | No             | No           |
+| msdyn_costvariance                     | No             | No           |
+| msdyn_costvariance_base                | No             | No           |
+| msdyn_duration                         | No             | No           |
+| msdyn_effort                           | No             | No           |
+| msdyn_effortcompleted                  | No             | No           |
+| msdyn_effortestimateatcompleteeac      | No             | No           |
+| msdyn_effortremaining                  | No             | No           |
+| msdyn_finish                           | Ναι            | Ναι          |
+| msdyn_globalrevisiontoken              | No             | No           |
+| msdyn_islinkedtomsprojectclient        | No             | No           |
+| msdyn_islinkedtomsprojectclientname    | No             | No           |
+| msdyn_linkeddocumenturl                | No             | No           |
+| msdyn_msprojectdocument                | No             | No           |
+| msdyn_msprojectdocumentname            | No             | No           |
+| msdyn_plannedexpensecost               | No             | No           |
+| msdyn_plannedexpensecost_base          | No             | No           |
+| msdyn_plannedlaborcost                 | No             | No           |
+| msdyn_plannedlaborcost_base            | No             | No           |
+| msdyn_plannedsales                     | No             | No           |
+| msdyn_plannedsales_base                | No             | No           |
+| msdyn_progress                         | No             | No           |
+| msdyn_remainingcost                    | No             | No           |
+| msdyn_remainingcost_base               | No             | No           |
+| msdyn_remainingsales                   | No             | No           |
+| msdyn_remainingsales_base              | No             | No           |
+| msdyn_replaylogheader                  | No             | No           |
+| msdyn_salesconsumption                 | No             | No           |
+| msdyn_salesestimateatcompleteeac       | No             | No           |
+| msdyn_salesestimateatcompleteeac_base  | No             | No           |
+| msdyn_salesvariance                    | No             | No           |
+| msdyn_salesvariance_base               | No             | No           |
+| msdyn_scheduleperformance              | No             | No           |
+| msdyn_scheduleperformancename          | No             | No           |
+| msdyn_schedulevariance                 | No             | No           |
+| msdyn_taskearlieststart                | No             | No           |
+| msdyn_teamsize                         | No             | No           |
+| msdyn_teamsize_date                    | No             | No           |
+| msdyn_teamsize_state                   | No             | No           |
+| msdyn_totalactualcost                  | No             | No           |
+| msdyn_totalactualcost_base             | No             | No           |
+| msdyn_totalplannedcost                 | No             | No           |
+| msdyn_totalplannedcost_base            | No             | No           |
 
+### <a name="project-bucket"></a>Κάδος έργου
+
+| Λογικό όνομα          | Δυνατότητα δημιουργίας      | Δυνατότητα επεξεργασίας     |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | Ναι             | No           |
+| msdyn_name            | Ναι             | Ναι          |
+| msdyn_project         | Ναι             | No           |
+| msdyn_projectbucketid | Ναι             | No           |
 
 ## <a name="limitations-and-known-issues"></a>Περιορισμοί και γνωστά προβλήματα
 Ακολουθεί μια λίστα με περιορισμούς και γνωστά ζητήματα:
 
-- Τα API χρονοδιαγράμματος έργου μπορούν να χρησιμοποιηθούν μόνο από **Χρήστες με Άδεια χρήσης του Microsoft Project.** Δεν είναι δυνατό να χρησιμοποιηθούν από:
+- Τα API χρονοδιαγράμματος έργου μπορούν να χρησιμοποιηθούν μόνο από **Χρήστες με Άδεια χρήσης του Microsoft Project**. Δεν είναι δυνατό να χρησιμοποιηθούν από:
+
     - Χρήστες εφαρμογής
     - Χρήστες συστήματος
     - Χρήστες ενοποίησης
     - Άλλοι χρήστες που δεν διαθέτουν την απαιτούμενη άδεια χρήσης
+
 - Κάθε **OperationSet** μπορεί να έχει μέγιστο αριθμό 100 λειτουργιών.
 - Κάθε χρήστης μπορεί να έχει μόνο μέγιστο αριθμό 10 ανοιχτών **OperationSets**.
 - Το Project Operations υποστηρίζει πλέον το πολύ έως 500 συνολικές εργασίες σε ένα έργο.
@@ -269,8 +280,8 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 ## <a name="error-handling"></a>Χειρισμός σφαλμάτων
 
-   - Για να εξετάσετε τα σφάλματα που δημιουργούνται από τα σύνολα λειτουργιών, μεταβείτε στην επιλογή **Ρυθμίσεις** \> **Προγραμματισμός ενοποίησης** \> **Σύνολα λειτουργιών**.
-   - Για να εξετάσετε τα σφάλματα που δημιουργούνται από την υπηρεσία χρονοδιαγράμματος έργου, μεταβείτε στις **Ρυθμίσεις** \> **Ενοποίηση προγραμματισμού** \> **Αρχεία καταγραφής σφαλμάτων PSS**.
+- Για να εξετάσετε τα σφάλματα που δημιουργούνται από τα σύνολα λειτουργιών, μεταβείτε στην επιλογή **Ρυθμίσεις** \> **Προγραμματισμός ενοποίησης** \> **Σύνολα λειτουργιών**.
+- Για να εξετάσετε τα σφάλματα που δημιουργούνται από την υπηρεσία χρονοδιαγράμματος έργου, μεταβείτε στις **Ρυθμίσεις** \> **Ενοποίηση προγραμματισμού** \> **Αρχεία καταγραφής σφαλμάτων PSS**.
 
 ## <a name="sample-scenario"></a>Δείγμα σεναρίου
 
@@ -492,7 +503,6 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
-    task["msdyn_progress"] = 0.34m;
     task["msdyn_start"] = DateTime.Now.AddDays(1);
     task["msdyn_projectbucket"] = GetBucket(projectReference).ToEntityReference();
     task["msdyn_LinkStatus"] = new OptionSetValue(192350000);
@@ -524,9 +534,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_taskid"] = task.ToEntityReference();
     assignment["msdyn_projectid"] = project.ToEntityReference();
     assignment["msdyn_name"] = name;
-    assignment["msdyn_start"] = DateTime.Now;
-    assignment["msdyn_finish"] = DateTime.Now;
-
+   
     return assignment;
 }
 

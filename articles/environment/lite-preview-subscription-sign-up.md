@@ -4,14 +4,14 @@ description: Αυτό το θέμα παρέχει πληροφορίες σχε
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991531"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588000"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Εγγραφή για μια συνδρομή έκδοσης προεπισκόπησης - ελαφριά 
 
@@ -40,10 +40,10 @@ ms.locfileid: "6991531"
 ## <a name="assign-licenses"></a>Εκχώρηση αδειών χρήσης
 
 > [!IMPORTANT]
-> Θα χρειαστείτε πρόσβαση διαχειριστή στην πύλη του οργανισμού σας Microsoft 365 για να ολοκληρώσετε τα παρακάτω βήματα.
+> Θα χρειαστείτε πρόσβαση διαχειριστή στην πύλη Microsoft 365 του οργανισμού σας για να ολοκληρώσετε τα παρακάτω βήματα.
 
 
-1. Μεταβείτε στο [Κέντρο διαχείρισης της Microsoft 365](https://portal.office.com/) για να αναθέσετε τις άδειες χρήσης στους χρήστες σας.
+1. Μεταβείτε στο [κέντρο διαχείρισης Microsoft 365](https://portal.office.com/) για να αναθέσετε τις άδειες χρήσης στους χρήστες σας.
 2. Στη σελίδα **Ενεργοί χρήστες**, επιλέξτε τους χρήστες στους οποίους θέλετε να αναθέσετε μια άδεια χρήσης.
 3. Επαληθεύστε ότι έχει επιλεγεί η άδεια χρήσης **Dynamics 365 Project Operations**. 
 4. Επιλέξτε **Αποθήκευση αλλαγών**.

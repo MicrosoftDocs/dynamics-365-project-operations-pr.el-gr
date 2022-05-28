@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986491"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591175"
 ---
 # <a name="vendor-invoice-integration"></a>Ενοποίηση τιμολογίων προμηθευτή
 
@@ -34,7 +34,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
      > [!NOTE]
      > Οι λεπτομέρειες τιμολογίου πωλητή Dataverse δεν είναι επεξεργάσιμες.
 
-Το επιμέρους καθολικό φόρου, το επιμέρους καθολικό προμηθευτή, και άλλες οικονομικές καταχωρήσεις καταγράφονται όπως ισχύουν στο Dynamics 365 Finance όταν καταχωρείται το τιμολόγιο του προμηθευτή.
+Το αναλυτικό καθολικό, το αναλυτικό καθολικό πωλητή και άλλες οικονομικές καταχωρήσεις καταγράφονται όπως ισχύουν στο Dynamics 365 Finance όταν καταχωρείται το τιμολόγιο του πωλητή.
 
 ![Ενοποίηση τιμολογίων προμηθευτή.](media/DW7VendorInvoice.png)
 

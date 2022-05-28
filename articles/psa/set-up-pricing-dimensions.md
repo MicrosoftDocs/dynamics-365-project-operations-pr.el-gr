@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002331"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591910"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Ρύθμιση προσαρμοσμένων πεδίων ως διαστάσεις τιμολόγησης 
 
@@ -72,8 +73,8 @@ ms.locfileid: "7002331"
 | Ρόλος        | Οργανωτική μονάδα    |Θέση εργασίας      |Τυπικός τίτλος      |Ώρες εργασίας πόρου      |  Αύξηση|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|Επιτόπου            |                    |Υπερωρία                 |15     |
-|             | Contoso India|Τοπικό             |                    |Υπερωρία                 |10     |
-|             | Contoso ΗΠΑ   |Τοπικό             |                    |Υπερωρία                 |20     |
+|             | Contoso India|Τοπικά             |                    |Υπερωρία                 |10     |
+|             | Contoso US   |Τοπικά             |                    |Υπερωρία                 |20     |
 
 
 Εάν ένας πόρος από το Contoso India του οποίου τη βασική χρέωση είναι 100 USD εργάζεται στο χώρο και καταγράφει 8 ώρες κανονικού χρόνου και 2 ώρες υπερωριακής απασχόλησης στην καταχώριση ώρας, ο μηχανισμός τιμολόγησης Project Service θα χρησιμοποιήσει τη βασική ισοτιμία 100 για τις 8 ώρες για την εγγραφή 800 USD. Για τις 2 ώρες υπερωρίες, η αύξηση του 15% θα εφαρμοστεί στο βασικό συντελεστή 100, για να αποδοθεί μια τιμή μονάδας 115 USD και θα καταγραφεί ένα συνολικό κόστος 230 USD.

@@ -4,25 +4,25 @@ description: Αυτό το θέμα παρέχει πληροφορίες σχε
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994591"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591864"
 ---
 # <a name="navigate-project-operations"></a>Πλοήγηση Project Operations
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Το Dynamics 365 Project Operations για σενάρια πόρων/μη εφοδιασμένα αποτελούνται από δύο συνιστώσες: 
 
  - **Project Operations σε περιβάλλον Common Data Service (CDS)**: Αυτό το στοιχείο καλύπτει δυνατότητες και διαδικασίες από την ευκαιρία έως την προτιμολόγηση. 
- - **Διαχείριση έργου και λογιστική σε περιβάλλον Dynamics 365 Finance**: Αυτό το στοιχείο καλύπτει τις δυνατότητες διαχείρισης εξόδων, τη λογιστική έργου και την αναγνώριση εσόδων. 
+ - **Η διαχείριση έργων και η λογιστική στο περιβάλλον Dynamics 365 Finance**: Αυτό το στοιχείο καλύπτει τις δυνατότητες διαχείρισης δαπανών, τη λογιστική έργων και την αναγνώριση των εσόδων. 
 
 Μετά την παροχή του Project Operations όπως περιγράφεται σε αυτό το θέμα, η σελίδα **Λεπτομέρειες περιβάλλοντος** του Lifecycle Services (LCS) παρέχει εύκολη πρόσβαση και στα δύο στοιχεία του Project Operations.  
 

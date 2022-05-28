@@ -4,14 +4,14 @@ description: Αυτό θέμα εξηγεί τον τρόπο ανάθεσης �
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b98fc356d7de77fa7f05667acaa5569a7053e4d1
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: f43f817e59ef83fbf4dda6267327080f7c56e0f7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903428"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587846"
 ---
 # <a name="subcontracting-project-team-members"></a>Υπεργολαβία μελών ομάδας έργου
 

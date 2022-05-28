@@ -2,76 +2,80 @@
 title: Ανάπτυξη προτύπων έργου με την αντιγραφή έργου
 description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο δημιουργίας προτύπων έργου χρησιμοποιώντας την προσαρμοσμένη ενέργεια αντιγραφής έργου.
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989253"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590898"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Ανάπτυξη προτύπων έργου με την αντιγραφή έργου
 
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Το Dynamics 365 Project Operations υποστηρίζει τη δυνατότητα αντιγραφής ενός έργου και την επαναφορά οποιωνδήποτε αναθέσεων στους γενικούς πόρους που αντιπροσωπεύουν τον ρόλο. Οι πελάτες μπορούν να χρησιμοποιήσουν αυτήν τη λειτουργικότητα για τη δημιουργία βασικών προτύπων έργου.
 
 Όταν επιλέγετε **Αντιγραφή έργου**, ενημερώνεται η κατάσταση του έργου προορισμού. Χρησιμοποιήστε την **Αιτιολογία κατάστασης** για να καθορίσετε το πότε ολοκληρώνεται η ενέργεια αντιγραφής. Αν επιλέξτε **Αντιγραφή έργου** ενημερώνεται επίσης η ημερομηνία έναρξης του έργου με την τρέχουσα ημερομηνία έναρξης, εάν δεν εντοπιστεί ημερομηνία-στόχος στην οντότητα έργου προορισμού.
 
-## <a name="copy-project-custom-action"></a>Προσαρμοσμένη ενέργεια αντιγραφής έργου 
+## <a name="copy-project-custom-action"></a>Προσαρμοσμένη ενέργεια αντιγραφής έργου
 
-### <a name="name"></a>Ονομασία 
+### <a name="name"></a>'Ονομα 
 
-**msdyn_CopyProjectV2**
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Παράμετροι εισόδου
+
 Υπάρχουν τρεις παράμετροι καταχώρισης:
 
-| Παράμετρος          | Τύπος   | Τιμές                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** ή **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | Αναφορά οντότητας | Έργο προέλευσης |
-| Στόχος             | Αναφορά οντότητας | Έργο-στόχος |
+- **ReplaceNamedResources** ή **ClearTeamsAndAssignments** – Ορίστε μόνο μία από τις επιλογές. Μην ορίσετε και τις δύο.
 
+    - **\{"ReplaceNamedResources":true\}** – Η προεπιλεγμένη συμπεριφορά για το Project Operations. Οποιοιδήποτε πόροι με όνομα αντικαθίστανται με γενικούς πόρους.
+    - **\{"ClearTeamsAndAssignments":true\}** – Η προεπιλεγμένη συμπεριφορά για το Project for the Web. Όλες οι αναθέσεις και τα μέλη ομάδας καταργούνται.
 
-- **{"clearTeamsAndAssignments":true}**: Η προεπιλεγμένη συμπεριφορά για το Project for the Web και θα καταργηθούν όλες οι αναθέσεις και τα μέλη της ομάδας.
-- **{"removeNamedResources":true}** Η προεπιλεγμένη συμπεριφορά για το Project Operations και θα γίνει επαναφορά των αναθέσεων σε γενικούς πόρους.
+- **SourceProject** - Η αναφορά οντότητας του έργου προέλευσης από το οποίο θα αντιγραφούν. Αυτή η παράμετρος δεν μπορεί να είναι null.
+- **Target** - Η αναφορά οντότητας του έργου στόχου στο οποίο θα αντιγραφούν. Αυτή η παράμετρος δεν μπορεί να είναι null.
 
-Για περισσότερες προεπιλογές όσον αφορά ενέργειες δείτε [Χρήση ενεργειών Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Ο παρακάτω πίνακας παρέχει μια σύνοψη των τριών παραμέτρων.
 
-## <a name="specify-fields-to-copy"></a>Καθορισμός πεδίων προς αντιγραφή 
+| Παράμετρος                | Type             | Τιμή                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | Boolean          | **True** ή **False** |
+| ClearTeamsAndAssignments | Boolean          | **True** ή **False** |
+| SourceProject            | Αναφορά οντότητας | Το έργο προέλευσης    |
+| Στόχος                   | Αναφορά οντότητας | Το έργο προορισμός    |
+
+Για περισσότερες προεπιλογές όσον αφορά ενέργειες δείτε [Χρήση ενεργειών Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+
+### <a name="validations"></a>Επικυρώσεις
+
+Οι ακόλουθες επικυρώσεις έχουν τελειώσει.
+
+1. Η τιμή Null ελέγχει και ανακτά τα έργα προέλευσης και προορισμού για επιβεβαίωση της ύπαρξης και των δύο έργων στον οργανισμό.
+2. Το σύστημα επικυρώνει ότι το έργο προορισμού είναι έγκυρο για αντιγραφή, με επαλήθευση των ακόλουθων συνθηκών:
+
+    - Δεν υπάρχει προηγούμενη δραστηριότητα στο έργο (συμπεριλαμβανομένης της επιλογής της καρτέλας **Εργασίες**) και το έργο δημιουργήθηκε πρόσφατα.
+    - Δεν υπάρχει προηγούμενο αντίγραφο, δεν ζητήθηκε εισαγωγή σε αυτό το έργο και το έργο δεν έχει κατάσταση **αποτυχία**.
+
+3. Η λειτουργία δεν καλείται με χρήση του HTTP.
+
+## <a name="specify-fields-to-copy"></a>Καθορισμός πεδίων προς αντιγραφή
+
 Όταν καλείται η ενέργεια, η **Αντιγραφή έργου** θα εξετάσει την προβολή έργου **Αντιγραφή στηλών έργου** για να προσδιορίσει ποια πεδία θα αντιγραφούν κατά την αντιγραφή του έργου.
 
-
 ### <a name="example"></a>Παράδειγμα
-Το παρακάτω παράδειγμα δείχνει τον τρόπο κλήσης της προσαρμοσμένης ενέργειας **CopyProject** με την παράμετρο **removeNamedResources**.
+
+Το παρακάτω παράδειγμα δείχνει τον τρόπο κλήσης της προσαρμοσμένης ενέργειας **CopyProjectV3** με την παράμετρο **removeNamedResources** να έχει οριστεί.
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
