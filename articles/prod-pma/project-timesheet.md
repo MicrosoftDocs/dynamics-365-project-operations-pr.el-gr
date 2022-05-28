@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997201"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683128"
 ---
 # <a name="project-timesheet-mobile-application"></a>Εφαρμογή Project Timesheet για κινητές συσκευές
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997201"
 
 ## <a name="overview"></a>Επισκόπηση
 
-Η εφαρμογή για κινητές συσκευές Microsoft Dynamics 365 Project Timesheet δίνει τη δυνατότητα στους χρήστες να υποβάλλουν και να εγκρίνουν φύλλα κατανομής χρόνου στην κινητή συσκευή τους (iPhone ή Android). Αυτή η εφαρμογή για κινητές συσκευές εμφανίζει τη λειτουργικότητα του φύλλου κατανομής χρόνου που βρίσκεται στην περιοχή "Διαχείριση έργου και λογιστική του Dynamics 365 Finance, βελτιώνοντας την παραγωγικότητα και την αποδοτικότητα του χρήστη, καθώς και επιτρέποντας την έγκαιρη καταχώρηση και έγκριση των φύλλων κατανομής χρόνου του έργου.
+Η εφαρμογή για κινητές συσκευές Microsoft Dynamics 365 Project Timesheet δίνει τη δυνατότητα στους χρήστες να υποβάλλουν και να εγκρίνουν φύλλα κατανομής χρόνου στην κινητή συσκευή τους (iPhone ή Android). Αυτή η εφαρμογή για κινητές συσκευές παρέχει τη λειτουργικότητα του φύλλου χρόνου που υπάρχει στην περιοχή διαχείρισης έργων και λογιστικής του Dynamics 365 Finance, βελτίωση της παραγωγικότητας και αποτελεσματικότητας των χρηστών, καθώς και ενεργοποίηση της έγκαιρης εισαγωγής και έγκρισης των φύλλων χρόνου έργου.
 
 ## <a name="download-and-install-the-mobile-app"></a>Λήψη και εγκατάσταση της εφαρμογής για κινητές συσκευές
 

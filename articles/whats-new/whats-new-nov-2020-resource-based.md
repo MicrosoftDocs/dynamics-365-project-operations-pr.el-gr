@@ -4,14 +4,14 @@ description: Αυτό το θέμα παρέχει πληροφορίες σχε
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007956"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600374"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει τον Νοέμβριο του 2020 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 
@@ -20,7 +20,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
 
 - Project Operations σε περιβάλλον CDS έκδοση 4.4.0.70
-- Διαχείριση έργου και λογιστικής στο περιβάλλον Dynamics 365 Finance έκδοση 10.0.14
+- Διαχείριση έργων και λογιστική σε περιβάλλον Dynamics 365 Finance έκδοση 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Ενημερώνει το Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα
 
@@ -42,7 +42,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 | Καταχώρηση χρόνου και εξόδων | 2059859          | Όταν δημιουργείτε μια καταχώρηση εξόδων, ανοίγει ένα μη αναμενόμενο αναδυόμενο παράθυρο.                                                                                                                         |
 | Άλλη                        | 2044181          | (Κατάργηση εγκατάστασης παραγγελίας αγοράς) Όταν προσπαθείτε να καταργήσετε τις βασικές λύσεις υπηρεσίας msdyn_ProjectServiceCore_Patch και msdyn Project, εμφανίζεται το σφάλμα "Η καρτέλα δεν είναι διαθέσιμη".  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Διαχείριση έργου και λογιστικής στο Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Διαχείριση έργου και λογιστικό στο Dynamics 365 Finance
 
 | Περιοχή δυνατοτήτων        | Αριθμός αναφοράς | Ενημέρωση ποιότητας                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 | Λογιστική έργου  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Η ενεργοποίηση της δυνατότητας, πολλές γραμμές σύμβασης, δεν είναι δυνατή χωρίς ενοποίηση CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
-Για πληροφορίες σχετικά με τις ενημερώσεις κανονισμών για εφαρμογές Finance and Operations, ανατρέξτε στην ενότητα [Ενημέρωση κανονισμών](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε, επίσης, να συνδεθείτε στο LCS και να προβάλετε τις προγραμματισμένες ενημερώσεις κανονισμών χρησιμοποιώντας το εργαλείο αναζήτησης ζητημάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+Για πληροφορίες σχετικά με τις ρυθμιστικές ενημερώσεις για τις εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων, ανατρέξτε στις [ρυθμιστικές ενημερώσεις](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε, επίσης, να συνδεθείτε στο LCS και να προβάλετε τις προγραμματισμένες ενημερώσεις κανονισμών χρησιμοποιώντας το εργαλείο αναζήτησης ζητημάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

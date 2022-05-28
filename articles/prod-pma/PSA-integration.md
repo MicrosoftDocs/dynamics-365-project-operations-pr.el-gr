@@ -1,33 +1,31 @@
 ---
 title: Επισκόπηση του Project Service Automation
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη λύση ενοποίησης του Dynamics 365 Project Service Automation στο Dynamics 365 Finance.
+description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη λύση ενοποίησης Dynamics 365 Project Service Automation  στο Dynamics 365 Finance.
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005886"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685516"
 ---
 # <a name="project-service-automation-overview"></a>Επισκόπηση του Project Service Automation
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Η λύση ενοποίησης του Project Service Automation στο Finance χρησιμοποιεί τη δυνατότητα ενοποίησης δεδομένων για το συγχρονισμό δεδομένων σε παρουσίες των Dynamics 365 Finance και Dynamics 365 Project Service Automation μέσω Common Data Service. Τα πρότυπα ενοποίησης που είναι διαθέσιμα με τη δυνατότητα ενοποίησης δεδομένων ενεργοποιούν τη ροή των έργων, τις συμβάσεις έργου, τις γραμμές σύμβασης έργου, τα ορόσημα γραμμής σύμβασης έργου, τις εργασίες έργου, τις κατηγορίες των συναλλαγών εξόδων, τις εκτιμήσεις ωρών και τις εκτιμήσεις εξόδων από το Project Service Automation στο Finance.
+
+Η λύση ενοποίησης Project Service Automation στα Οικονομικά χρησιμοποιεί τη δυνατότητα ενοποίησης δεδομένων για τον συγχρονισμό δεδομένων σε παρουσίες του Dynamics 365 Finance και Dynamics 365 Project Service Automation μέσω Common Data Service. Τα πρότυπα ενοποίησης που είναι διαθέσιμα με τη δυνατότητα ενοποίησης δεδομένων ενεργοποιούν τη ροή των έργων, τις συμβάσεις έργου, τις γραμμές σύμβασης έργου, τα ορόσημα γραμμής σύμβασης έργου, τις εργασίες έργου, τις κατηγορίες των συναλλαγών εξόδων, τις εκτιμήσεις ωρών και τις εκτιμήσεις εξόδων από το Project Service Automation στο Finance.
 
 > [!NOTE]
 > - Εάν χρησιμοποιείτε την έκδοση 7.3.0, θα πρέπει να εγκαταστήσετε το KB 4074835. Στη συνέχεια, θα έχετε τη δυνατότητα να ενσωματώσετε έργα σταθερών τιμών.

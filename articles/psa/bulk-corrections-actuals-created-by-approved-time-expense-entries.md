@@ -5,8 +5,7 @@ author: rumant
 ms.date: 04/02/2020
 ms.topic: article
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995401"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683362"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Μαζικές διορθώσεις πραγματικών τιμών που δημιουργήθηκαν από εγκεκριμένες καταχωρήσεις χρόνου και εξόδων
 
@@ -60,10 +59,7 @@ ms.locfileid: "6995401"
 
 10. Στη λίστα **Πραγματική συσχετισμένη προβολή**, μπορείτε να δείτε ότι οι αρχικές καταχωρήσεις ώρας που αντιστράφηκαν παραμένουν στη λίστα, όπως και οι αντίστοιχες διορθωμένες καταχωρήσεις ώρας. 
 
-Για παράδειγμα, στο ακόλουθο γραφικό, υπάρχουν δύο στοιχεία γραμμής με ποσότητα 8,00 που περιλαμβάνουν χρεώσεις που παρατίθενται στη στήλη "Ποσό". Επιπλέον, υπάρχουν δύο στοιχεία γραμμής με ποσότητα - 8,00 που εμφανίζουν τα ποσά που πιστώνονται στη στήλη "Ποσό". Αυτές οι διορθώσεις φέρνουν την ποσότητα στο μηδέν.
 
-![Λίστα πραγματικής συσχετισμένης προβολής.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
- 
 ## <a name="correct-approved-expense-entries"></a>Σωστές εγκεκριμένες καταχωρήσεις εξόδων
 
 Ολοκληρώστε τα παρακάτω βήματα για να διορθώσετε μία ή περισσότερες καταχωρήσεις εξόδων. 
@@ -86,8 +82,6 @@ ms.locfileid: "6995401"
 7. Αφού επιβεβαιώσετε το ημερολόγιο διορθώσεων, μεταβείτε ξανά στο έργο ή τα έργα που ενημερώσατε, για να προβάλετε τις αλλαγές σας.  
 
 8. Στη σελίδα έργου, στην καρτέλα **Πραγματικές τιμές**, εξετάστε την **Πραγματική συσχετισμένη προβολή**. Οι αρχικές καταχωρήσεις και οι διορθωμένες καταχωρήσεις παρατίθενται. Στο παρακάτω γραφικό εμφανίζονται τα αρχικά ποσά καταχώρησης εξόδων και τα αντίστοιχα διορθωμένα ποσά καταχώρησης εξόδων. 
-
-![Πραγματικές τιμές εξόδων.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

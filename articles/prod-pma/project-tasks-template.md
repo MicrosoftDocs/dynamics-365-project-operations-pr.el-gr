@@ -1,32 +1,31 @@
 ---
 title: Συγχρονισμός εργασιών έργου απευθείας από το Project Service Automation στο Finance and Operations
-description: Αυτό το θέμα περιγράφει το πρότυπο και την υποκείμενη εργασία που χρησιμοποιούνται για το συγχρονισμό των εργασιών έργου απευθείας από το Microsoft Dynamics 365 Project Service Automation στο Dynamics 365 Finance.
+description: Αυτό το θέμα περιγράφει το πρότυπο και την υποκείμενη εργασία που χρησιμοποιούνται για το συγχρονισμό των εργασιών του έργου απευθείας από το Dynamics 365 Finance του Microsoft Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992791"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683310"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Συγχρονισμός εργασιών έργου απευθείας από το Project Service Automation στο Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Αυτό το θέμα περιγράφει το πρότυπο και την υποκείμενη εργασία που χρησιμοποιούνται για το συγχρονισμό των εργασιών έργου απευθείας από το Dynamics 365 Project Service Automation στο Dynamics 365 Finance.
+Αυτό το θέμα περιγράφει το πρότυπο και την υποκείμενη εργασία που χρησιμοποιούνται για το συγχρονισμό των εργασιών του έργου απευθείας από το Dynamics 365 Finance του Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Η ενοποίηση εργασιών έργου, οι κατηγορίες εξόδων, οι εκτιμήσεις ωρών, οι εκτιμήσεις εξόδων και το κλείδωμα λειτουργιών είναι διαθέσιμα στην έκδοση 8.0.
@@ -72,7 +71,7 @@ ms.locfileid: "6992791"
 
 - Διαθέτετε καρτέλες συγκεκριμένων πόρων σε μια εργασία έργου.
 
-Εάν πρέπει να χρησιμοποιήσετε το Power Query, ακολουθήστε την παρακάτω οδηγία:
+Εάν πρέπει να χρησιμοποιήσετε το Power Query, ακολουθήστε την παρούσα οδηγία:
 
 - Το πρότυπο Εργασίες έργου (PSA σε Fin και Ops) έχει ένα προεπιλεγμένο φίλτρο που αποκλείει καρτέλες που αφορούν πόρους από μια εργασία έργου, ορίζοντας το φίλτρο στο **IsLineTask** σε **Ψευδές**. Εάν δημιουργήσετε το δικό σας πρότυπο, πρέπει να προσθέσετε αυτό το φίλτρο.
 

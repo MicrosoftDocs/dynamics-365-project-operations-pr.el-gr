@@ -1,32 +1,31 @@
 ---
-title: Συγχρονισμός πραγματικών τιμών έργου απευθείας από το Project Service Automation στο ημερολόγιο ενοποίησης έργου για καταχώρηση στο Finance and Operations
-description: Αυτό το θέμα περιγράφει τα πρότυπο και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των πραγματικών τιμών έργου απευθείας από το Microsoft Dynamics 365 Project Service Automation στο Finance and Operations.
+title: Συγχρονισμός των πραγματικών τιμών του έργου απευθείας από το Project Service Automation στο ημερολόγιο ενοποίησης έργου για καταχώρηση στα Finance and Operations
+description: Αυτό το θέμα περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των πραγματικών τιμών του έργου απευθείας από το Microsoft Dynamics 365 Project Service Automation στο Finance and Operations.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988111"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683538"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Συγχρονισμός πραγματικών τιμών έργου απευθείας από το Project Service Automation στο ημερολόγιο ενοποίησης έργου για καταχώρηση στο Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Συγχρονισμός των πραγματικών τιμών του έργου απευθείας από το Project Service Automation στο ημερολόγιο ενοποίησης έργου για καταχώρηση στα Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Αυτό το θέμα περιγράφει τα πρότυπο και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των πραγματικών τιμών έργου απευθείας από το Dynamics 365 Project Service Automation στο Dynamics 365 Finance.
+Αυτό το θέμα περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των πραγματικών τιμών του έργου απευθείας από το Dynamics 365 Finance του Dynamics 365 Project Service Automation.
 
 Το πρότυπο συγχρονίζει τις συναλλαγές από το Project Service Automation σε έναν πίνακα δημιουργίας σταδίων στο Finance. Αφού ολοκληρωθεί ο συγχρονισμός, **πρέπει** να εισαγάγετε τα δεδομένα από τον πίνακα δημιουργίας σταδίων στο ημερολόγιο ενοποίησης.
 
@@ -42,7 +41,7 @@ ms.locfileid: "6988111"
 
 Η εικόνα που ακολουθεί δείχνει τον τρόπο με τον οποίο συγχρονίζονται τα δεδομένα μεταξύ Project Service Automation και Finance.
 
-[![Ροή δεδομένων για την ενοποίηση του Project Service Automation με το Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Ροή δεδομένων για ενοποίηση του Project Service Automation με το Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Πραγματικές τιμές έργου από το Project Service Automation
 
@@ -75,7 +74,7 @@ ms.locfileid: "6988111"
 
 ### <a name="power-query"></a>Power Query
 
-Στο πρότυπο πραγματικών τιμών έργου, πρέπει να χρησιμοποιήσετε το Microsoft Power Query για Excel για την ολοκλήρωση αυτών των εργασιών:
+Στο πρότυπο πραγματικών τιμών έργου, πρέπει να χρησιμοποιήσετε το Microsoft Power Query για Excel για να ολοκληρώσετε αυτές τις εργασίες:
 
 - Μεταμορφώστε τον τύπο συναλλαγής στο Project Service Automation στον σωστό τύπο συναλλαγής στο Finance. Αυτός ο μετασχηματισμός ορίζεται ήδη στο πρότυπο πραγματικών τιμών έργου (PSA σε Fin και Ops).
 - Μεταμορφώστε τον τύπο χρέωσης στο Project Service Automation στον σωστό τύπο χρέωσης στο Finance. Αυτός ο μετασχηματισμός ορίζεται ήδη στο πρότυπο πραγματικών τιμών έργου (PSA σε Fin και Ops). Στη συνέχεια, ο τύπος χρέωσης αντιστοιχίζεται στην ιδιότητα γραμμής, με βάση τη ρύθμιση παραμέτρων στη σελίδα **Παράμετροι ενοποίησης Project Service Automation**.
@@ -84,9 +83,9 @@ ms.locfileid: "6988111"
 - Εάν οι διεταιρικές ώρες ή τα πραγματικά στοιχεία διεταιρικών εξόδων δεν συγχρονίζονται με το Finance, θα πρέπει να διαγράψετε την τελευταία στήλη υπό όρους που έχει εισαχθεί από το πρότυπό σας. Διαφορετικά, μπορεί να προκύψει κάποιο σφάλμα ενοποίησης ή λανθασμένες πραγματικές συναλλαγές να εισαχθούν στο Finance.
 
 #### <a name="contract-organizational-unit"></a>Οργανωτική μονάδα σύμβασης
-Για να ενημερώσετε τη στήλη υπό όρους που έχει εισαχθεί στο πρότυπο, κάντε κλικ στο βέλος **Αντιστοίχιση** για να ανοίξετε την αντιστοίχιση. Επιλέξτε τη σύνδεση **Υποβολή ερωτημάτων και φιλτράρισμα για προχωρημένους** για να ανοίξετε το Power Query.
+Για να ενημερώσετε τη στήλη υπό όρους που έχει εισαχθεί στο πρότυπο, κάντε κλικ στο βέλος **Αντιστοίχιση** για να ανοίξετε την αντιστοίχιση. Επιλέξτε τη σύνδεση **Σύνθετο ερώτημα και φιλτράρισμα** για να ανοίξετε το Power Query.
 
-- Εάν χρησιμοποιείτε το πρότυπο προεπιλεγμένων πραγματικών τιμών έργου (PSA σε Fin και Ops), στο Power Query, επιλέξτε την τελευταία **Συνθήκη που έχει εισαχθεί** από την ενότητα **Εφαρμοσμένα βήματα**. Στην καταχώριση **Συνάρτηση**, αντικαταστήστε το **USSI** με το όνομα της νομικής οντότητας που θα πρέπει να χρησιμοποιηθεί με την ενοποίηση. Προσθέστε επιπλέον όρους στην καταχώριση **Συνάρτηση** όπως απαιτείτε και ενημερώστε τη συνθήκη **else** από το **USMF** στη σωστή νομική οντότητα.
+- Αν χρησιμοποιείτε το προεπιλεγμένο πρότυπο πραγματικών τιμών έργου (PSA σε Fin και Ops), στο στοιχείο, Power Query, επιλέξτε την τελευταία **συνθήκη που εισαγάγατε** από την ενότητα **Εφαρμοσμένα βήματα**. Στην καταχώριση **Συνάρτηση**, αντικαταστήστε το **USSI** με το όνομα της νομικής οντότητας που θα πρέπει να χρησιμοποιηθεί με την ενοποίηση. Προσθέστε επιπλέον όρους στην καταχώριση **Συνάρτηση** όπως απαιτείτε και ενημερώστε τη συνθήκη **else** από το **USMF** στη σωστή νομική οντότητα.
 - Εάν δημιουργείτε ένα νέο πρότυπο, πρέπει να προσθέσετε τη στήλη για την υποστήριξη του χρόνου και των διεταιρικών εξόδων. Επιλέξτε **Προσθήκη στήλης υπό όρους** και καταχωρίστε ένα όνομα για τη στήλη, για παράδειγμα, **LegalEntity**. Εισάγετε μια συνθήκη για τη στήλη, όπου, εάν **msdyn\_contractorganizationalunitid.msdyn\_name** είναι \<organizational unit\>, τότε \<enter the legal entity\>; else null.
 
 ### <a name="template-mapping-in-data-integration"></a>Αντιστοίχιση προτύπου στην ενοποίηση δεδομένων
@@ -126,7 +125,7 @@ ms.locfileid: "6988111"
 
 ### <a name="power-query"></a>Power Query
 
-Στο πρότυπο ενημέρωσης πραγματικών τιμών έργου, πρέπει να χρησιμοποιήσετε το Power Query για Excel για την ολοκλήρωση αυτών των εργασιών:
+Στο πρότυπο ενημέρωσης πραγματικών τιμών έργου, πρέπει να χρησιμοποιήσετε το Power Query για να ολοκληρώσετε αυτές τις εργασίες:
 
 - Μεταμορφώστε τον τύπο συναλλαγής στο Finance στον σωστό τύπο συναλλαγής στο Project Service Automation. Αυτός ο μετασχηματισμός ορίζεται ήδη στο πρότυπο ενημέρωσης πραγματικών τιμών έργου (Fin Ops σε PSA).
 - Μεταμορφώστε τον τύπο χρέωσης στο Finance στον σωστό τύπο χρέωσης στο Project Service Automation. Αυτός ο μετασχηματισμός ορίζεται ήδη στο πρότυπο ενημέρωσης πραγματικών τιμών έργου (Fin Ops σε PSA).

@@ -4,14 +4,14 @@ description: Αυτό το θέμα παρέχει πληροφορίες σχε
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992206"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601110"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Δημιουργία λύσης για προσαρμοσμένες διαστάσεις τιμολόγησης
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992206"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>Δημιουργία λύσης για προσαρμοσμένες διαστάσεις τιμολόγησης
 
 1.  Επιλέξτε **Ρυθμίσεις** > **Λύσεις** και, στη συνέχεια, επιλέξτε **Δημιουργία**.
-2.  Ονομάστε τη λύση, *διαστάσεις τιμολόγησης του <your organization name>*.
+2.  Ονομάστε τη λύση, *διαστάσεις τιμολόγησης του \<your organization name\>*.
 3. Πληκτρολογήστε τις απαιτούμενες υπόλοιπες πληροφορίες και, στη συνέχεια επιλέξτε **Αποθήκευση**.
 
   ![Δημιουργία λύσης διαστάσεων προσαρμοσμένης τιμολόγησης.](./media/Creation-of-custom-pricing-dimension-solution.png)

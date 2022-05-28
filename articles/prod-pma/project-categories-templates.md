@@ -1,32 +1,31 @@
 ---
-title: Συγχρονισμός κατηγοριών εξόδων έργου μεταξύ του Finance and Operations και του Project Service Automation
-description: Αυτό το θέμα περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των κατηγοριών εξόδων έργου μεταξύ του Microsoft Dynamics 365 Finance και του Dynamics 365 Project Service Automation.
+title: Συγχρονισμός καητγοριών δαπανών έργου μεταξύ Finance and Operations και Project Service Automation
+description: Αυτό το θέμα περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των κατηγοριών εξόδων έργου μεταξύ Microsoft Dynamics 365 Finance και Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001116"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685470"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Συγχρονισμός κατηγοριών εξόδων έργου μεταξύ του Finance and Operations και του Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Συγχρονισμός καητγοριών δαπανών έργου μεταξύ Finance and Operations και Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Αυτό το θέμα περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των κατηγοριών εξόδων έργου μεταξύ του Dynamics 365 Finance και του Dynamics 365 Project Service Automation.
+Αυτό το θέμα περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των κατηγοριών εξόδων έργου μεταξύ Dynamics 365 Finance και Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Η ενοποίηση εργασιών έργου, οι κατηγορίες εξόδων, οι εκτιμήσεις ωρών, οι εκτιμήσεις εξόδων και το κλείδωμα λειτουργιών είναι διαθέσιμα στην έκδοση 8.0.
@@ -81,10 +80,10 @@ ms.locfileid: "7001116"
 
 ### <a name="power-query"></a>Power Query
 
-Όταν εκτελείτε συγχρονισμό με το Project Service Automation, πρέπει να χρησιμοποιήσετε το Microsoft Power Query για Excel για να ορίσετε τον τύπο χρέωσης στην κατηγορία συναλλαγής. Το πρότυπο "κατηγορίες συναλλαγών εξόδων έργου" (FIN και OPS σε PSA) παρέχει μια προεπιλεγμένη στήλη και αντιστοίχιση. Εάν δημιουργήσετε το δικό σας πρότυπο, θα πρέπει να προσθέσετε μια στήλη υπό όρους στο Power Query. Ακολουθήστε αυτά τα βήματα.
+Όταν συγχρονίζεται με το Project Service Automation, πρέπει να χρησιμοποιήσετε το Microsoft Power Query για Excel για να ορίσετε τον τύπο χρέωσης στην κατηγορία συναλλαγής. Το πρότυπο "κατηγορίες συναλλαγών εξόδων έργου" (FIN και OPS σε PSA) παρέχει μια προεπιλεγμένη στήλη και αντιστοίχιση. Εάν δημιουργήσετε το δικό σας πρότυπο, πρέπει να προσθέσετε μια στήλη υπό όρους στο Power Query. Ακολουθήστε αυτά τα βήματα.
 
 1. Κάντε κλικ στο βέλος για να ανοίξετε την αντιστοίχιση των κατηγοριών εξόδων έργου στο πρότυπο κατηγοριών συναλλαγών εξόδων έργου (FIN και OPS σε PSA).
-2. Κάντε κλικ στη σύνδεση **Υποβολή ερωτημάτων και φιλτράρισμα για προχωρημένους** για να ανοίξετε το Power Query.
+2. Πατήστε τη σύνδεση **Σύνθετο ερώτημα και φιλτράρισμα** για να ανοίξετε το Power Query.
 2. Επιλέξτε **Προσθήκη στήλης υπό όρους**.
 3. Καταγράψτε ένα όνομα για τη νέα στήλη, για παράδειγμα, **BillingType**.
 4. Καταγράψτε την ακόλουθη συνθήκη: **Εάν το CATEGORYID δεν ισούται με null, τότε 19235001, διαφορετικά null**.
