@@ -4,14 +4,14 @@ description: Αυτό θέμα εξηγεί τον τρόπο δημιουργί
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928615"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597798"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Δημιουργία μιας δομής ανάλυσης εργασίας (WBS)
 
@@ -124,7 +124,7 @@ ms.locfileid: "7928615"
 |----------------------------------------------------|----------------------|
 | Μέγιστος συνολικός αριθμός εργασιών για ένα έργο                  | 500                  |
 | Μέγιστη συνολική διάρκεια για ένα έργο               | 3650 ημέρες (10 έτη) |
-| Μέγιστοι συνολικοί πόροι για ένα έργο              | 150                  |
+| Μέγιστοι συνολικοί πόροι για ένα έργο              | 300                  |
 | Μέγιστες συνολικές συνδέσεις (μόνο διάδοχος) για ένα έργο | 600                  |
 | Μέγιστα συνολικά προσαρμοσμένα πεδία για ένα έργο          | 10                   |
 | Μέγιστα στοιχεία λίστας ελέγχου ανά εργασία                   | 20                   |

@@ -4,27 +4,27 @@ description: Αυτό το θέμα παρέχει πληροφορίες σχε
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986626"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594716"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Ρύθμιση και εφαρμογή δεδομένων ρύθμισης παραμέτρων στο Common Data Service 
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Προϋποθέσεις
 
 Πριν αρχίσετε να ρυθμίζετε τις παραμέτρους των δεδομένων στο Common Data Service (CDS), πρέπει να πληρούνται οι παρακάτω προϋποθέσεις:
 
-1.  Παροχή ενός περιβάλλοντος CDS και ενός Dynamics 365 Finance περιβάλλοντος για το Project Operations.
-2.  Οι πληροφορίες νομικής οντότητας από το Dynamics 365 Finance είναι κοινόχρηστες στο περιβάλλον CDS. Αυτό σημαίνει ότι η οντότητα **Εταιρεία** στο CDS έχει τις ακόλουθες εταιρικές καρτέλες:
+1.  Παροχή ενός περιβάλλοντος CDS και ενός περιβάλλοντος Dynamics 365 Finance για Project Operations.
+2.  Γίνεται κοινή χρήση των πληροφοριών νομικών οντοτήτων από το Dynamics 365 Finance στο περιβάλλον CDS. Αυτό σημαίνει ότι η οντότητα **Εταιρεία** στο CDS έχει τις ακόλουθες εταιρικές καρτέλες:
   - THPM
   - USPM
   - GBPM

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753292"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598488"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέα υπάρχουν, Οκτώβριος 2021 - Λειτουργίες Έργου για σενάρια βασισμένα σε πόρους / μη εφοδιασμένα σενάρια
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753292"
 Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
 
    - Λειτουργίες Έργου στο περιβάλλον Microsoft Dataverse έκδοση 4.25.0.91
-   - Διαχείριση έργου και λογιστικής στο περιβάλλον Dynamics 365 Finance έκδοση 10.0.21
+   - Διαχείριση έργων και λογιστική σε περιβάλλον Dynamics 365 Finance έκδοση 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Δυνατότητες που περιλαμβάνονται σε αυτήν την έκδοση
 
@@ -49,7 +49,7 @@ ms.locfileid: "7753292"
 | Χρέωση και τιμολόγηση | 2338357 | Η νομισματική μονάδα στο αρχείο καταγραφής χρήσης υλικού πρέπει να είναι η προεπιλεγμένη από τη νομισματική μονάδα του έργου, όταν επιλέγεται το έργο. |
 | Χρόνος και έξοδα | 2414777 | Πρέπει να είναι δυνατή η ακύρωση μιας έγκρισης όταν η καταχώρηση δαπανών ή χρόνου έχει περισσότερες από μία συσχετισμένες εγκρίσεις έργου. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Διαχείριση έργου και λογιστική στο Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Διαχείριση έργου και λογιστικό στο Dynamics 365 Finance
 
 | Περιοχή δυνατοτήτων | Αριθμός αναφοράς | Ενημέρωση ποιότητας |
 | --- | --- | --- |

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798040"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596280"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Καταγραφή απόδειξης με χρήση OCR
 
@@ -52,7 +52,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 ## <a name="installation"></a>Εγκατάσταση
 
-Για να χρησιμοποιήσετε αυτές τις προηγμένες δυνατότητες εξόδων, εγκαταστήστε το πρόσθετο Υπηρεσίας Διαχείρισης Εξόδων για το Microsoft Dynamics 365 Finance και ενεργοποιήστε τις δυνατότητες που υπάρχουν στην παρουσία σας. Μπορείτε να αποκτήσετε πρόσβαση στο πρόσθετο από το έργο σας στο Microsoft Dynamics Lifecycle Services (LCS).
+Για να χρησιμοποιήσετε αυτές τις σύνθετες δυνατότητες δαπανών, εγκαταστήστε το πρόσθετο για την Υπηρεσία διαχείρισης δαπανών για το Microsoft Dynamics 365 Finance και ενεργοποιήστε τις δυνατότητες που περιλαμβάνει η παρουσία σας. Μπορείτε να αποκτήσετε πρόσβαση στο πρόσθετο από το έργο σας στο Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Πραγματοποιήστε είσοδο στο LCS και ανοίξτε το επιθυμητό περιβάλλον.
 2. Μεταβείτε στην επιλογή **Πλήρεις λεπτομέρειες**.

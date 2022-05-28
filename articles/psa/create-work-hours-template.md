@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 5788378c7e015c4b11182aaf427aca7d1da48b40
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987391"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598948"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Δημιουργήστε ένα πρότυπο ωρών εργασίας (Project Service)
 
@@ -49,7 +50,7 @@ ms.locfileid: "6987391"
 
 1. Μεταβείτε στα στοιχεία **Πόροι** \> **Πόροι**.
 2. Δημιουργήστε έναν νέο πόρο για αναφορά στο πρότυπο ημερολογίου ή επιλέξτε έναν υπάρχοντα πόρο.
-3. Επιλέξτε την καρτέλα **Ώρες εργασίας** του πόρου και ολοκληρώστε τις οδηγίες στο στοιχείο [Ορισμός ωρών εργασίας για έναν πόρο](/dynamics365/field-service/set-work-hours-resource.md) για τη ρύθμιση των κανόνων ημερολογίου.
+3. Επιλέξτε την καρτέλα **Ώρες εργασίας** του πόρου και ολοκληρώστε τις οδηγίες στο στοιχείο [Ορισμός ωρών εργασίας για έναν πόρο](/dynamics365/field-service/set-work-hours-resource) για τη ρύθμιση των κανόνων ημερολογίου.
 
 **Δημιουργήστε ένα νέο πρότυπο ημερολογίου**
 

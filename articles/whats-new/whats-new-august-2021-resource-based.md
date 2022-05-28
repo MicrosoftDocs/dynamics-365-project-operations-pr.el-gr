@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501371"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594164"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει, Αύγουστος 2021 - Project Operations για σενάρια βάσει πόρων ή μη εφοδιασμένα σενάρια
 
@@ -21,7 +21,7 @@ ms.locfileid: "7501371"
 Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
 
    - Project Operations στο Microsoft Dataverse στην έκδοση περιβάλλοντος 4.13.0.152.
-   - Διαχείριση έργου και λογιστικής στο περιβάλλον Dynamics 365 Finance έκδοση 10.0.20.
+   - Διαχείριση έργων και λογιστική σε περιβάλλον Dynamics 365 Finance έκδοση 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Δυνατότητες που περιλαμβάνονται σε αυτήν την έκδοση
 
@@ -54,7 +54,7 @@ ms.locfileid: "7501371"
 | Χρόνος και έξοδα | 2336884 | Το κουμπί καταχώρησης χρόνου **Αντιγραφή εβδομάδας** πρέπει να λειτουργεί περισσότερο από τον τρέχοντα χρήστη. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Διαχείριση έργου και λογιστική στο Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Διαχείριση έργου και λογιστικό στο Dynamics 365 Finance
 
 | Περιοχή δυνατοτήτων | Αριθμός αναφοράς | Ενημέρωση ποιότητας |
 | --- | --- | --- |

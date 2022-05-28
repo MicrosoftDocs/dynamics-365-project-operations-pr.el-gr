@@ -2,17 +2,17 @@
 title: Αντιμετώπιση προβλημάτων κατά την εργασία στο πλέγμα εργασιών
 description: Αυτό το θέμα παρέχει πληροφορίες αντιμετώπισης προβλημάτων που είναι απαραίτητες κατά την εργασία στο πλέγμα εργασιών.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547199"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596418"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Αντιμετώπιση προβλημάτων κατά την εργασία στο πλέγμα εργασιών 
 
@@ -70,6 +70,9 @@ _**Ισχύει για:** Λειτουργίες Έργου για σενάρι�
       | Project Operations                   | τύπος=2             |
 
 4. Καταργήστε το πεδίο από τη σελίδα **Παράμετροι έργου**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>άμβλυνση 3: Σύνδεση στο project.microsoft.com
+Στο πρόγραμμα περιήγησής σας Microsoft Edge, ανοίξτε μια νέα καρτέλα, μεταβείτε στο project.microsoft.com και συνδεθείτε χρησιμοποιώντας το ρόλο χρήστη που χρησιμοποιείτε για να αποκτήσετε πρόσβαση στο Project Operations.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Θέμα: Το έργο δεν φορτώνεται και το περιβάλλον εργασίας χρήστη έχει κολλήσει στο κουμπί αυξομείωσης
 

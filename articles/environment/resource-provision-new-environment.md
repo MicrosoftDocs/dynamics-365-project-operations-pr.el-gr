@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928661"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594854"
 ---
 # <a name="provision-a-new-environment"></a>Παροχή ενός νέου περιβάλλοντος
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο προμήθειας ενός νέου περιβάλλοντος Dynamics 365 Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βάσει πόρων.
 
@@ -34,7 +34,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 ## <a name="provision-a-project-operations-environment"></a>Παροχή περιβάλλοντος Project Operations
 
-1. Ανοίξτε ένα νέο Dynamics 365 Finance [περιβάλλον επίδειξης](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ή μια ανάπτυξη [περιβάλλοντος προστατευμένης εκτέλεσης / παραγωγής](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Ανοίξτε μια νέα ανάπτυξη [περιβάλλοντος επίδειξης](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ή [περιβάλλοντος προστατευμένης εκτέλεσης/παραγωγής](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) του Dynamics 365 Finance. 
 2. Περιηγηθείτε στον οδηγό **Παροχής περιβάλλοντος**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
     ![Εφαρμογή λύσεων.](./media/13ApplySolutions.png)
 
-5. Επιλέξτε και τις δύο λύσεις, τον **Χάρτη οντοτήτων διπλής γραφής Dynamics 365 Finance and Operations** και **Χάρτες οντοτήτων διπλής γραφής Dynamics 365 Project Operations** και, στη συνέχεια, επιλέξτε **Εφαρμογή**.
+5. Επιλέξτε και τις δύο λύσεις, **αντιστοίιχση οντοτήτων διπλής εγγραφής Dynamics 365 Finance and Operations** και **Αντιστοιχίσεις οντοτήτων διπλής εγγραφής Dynamics 365 Project Operations** και, στη συνέχεια, επιλέξτε **Εφαρμογή**.
 
     ![Επιβεβαίωση λύσεων.](./media/14ConfirmSolutions.png)
 
