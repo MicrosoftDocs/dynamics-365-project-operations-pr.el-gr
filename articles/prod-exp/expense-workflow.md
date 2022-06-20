@@ -1,6 +1,6 @@
 ---
 title: Ροή εργασίας διαχείρισης εξόδων
-description: Αυτό το θέμα εξηγεί τον τρόπο με τον οποίο μπορείτε να χρησιμοποιήσετε το σύστημα ροής εργασιών στο Microsoft Dynamics 365 Finance, για να ρυθμίσετε μια διαδικασία αναθεώρησης για τις αναφορές δαπανών στη διαχείριση δαπανών.
+description: Αυτό το άρθρο εξηγεί τον τρόπο με τον οποίο μπορείτε να χρησιμοποιήσετε το σύστημα ροής εργασιών στο Microsoft Dynamics 365 Finance, για να ρυθμίσετε μια διαδικασία αναθεώρησης για τις αναφορές εξόδων στη διαχείριση εξόδων.
 author: ShylaThompson
 ms.date: 09/13/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3eb4d57194ce2dd7f80d75c2c765f1cfa48b0348
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 71efc89d9167ef1ee546c67c123efeb37125cc02
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684274"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929720"
 ---
 # <a name="expense-management-workflow"></a>Ροή εργασίας διαχείρισης εξόδων
 

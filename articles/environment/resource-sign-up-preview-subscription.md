@@ -1,17 +1,17 @@
 ---
 title: Εγγραφή για συνδρομές προεπισκόπησης του Project Operations για σενάρια πόρων/ μη εφοδιασμένα
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο εγγραφής και ανάπτυξης του Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τον τρόπο εγγραφής στο Project Operations και την ανάπτυξή του για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575810"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920106"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Εγγραφή για συνδρομές προεπισκόπησης του Project Operations για σενάρια πόρων/ μη εφοδιασμένα
 
@@ -19,7 +19,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 
 
-Αυτό θέμα εξηγεί τον τρόπο εγγραφής στη δοκιμαστική προσφορά και ανάπτυξης του περιβάλλοντος Project Operations για σενάρια που βασίζονται σε πόρους/μη εφοδιασμένα.
+Αυτό το άρθρο εξηγεί τον τρόπο εγγραφής στην δοκιμαστική προσφορά και την ανάπτυξή του περιβάλλοντος του Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα.
 
 ## <a name="prerequisites"></a>Προϋποθέσεις
 - Ο χρήστης που αναπτύσσει την προεπισκόπηση πρέπει να έχει δικαιώματα καθολικού διαχειριστή μισθωτή Azure. Μπορείτε να δημιουργήσετε έναν μισθωτή κατά τη διάρκεια της εξαργύρωσης της πρώτης προσφοράς. 
@@ -60,19 +60,19 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 ## <a name="start-a-new-project-in-lcs"></a>Έναρξη νέου έργου στο LCS
 
-Δημιουργήστε ένα νέο έργο LCS, όπως περιγράφεται στο θέμα, [Έναρξη νέου έργου στο LCS](create-lcs-project.md)
+Δημιουργία ενός νέου έργου LCS όπως περιγράφεται στο άρθρο, [Έναρξη νέου έργου στο LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Προσθήκη μιας συνδρομής Azure σε ένα έργο LCS
 
-Για να ολοκληρώσετε αυτήν την εργασία, ακολουθήστε τα βήματα που περιγράφονται στο θέμα, [Προσθήκη συνδρομής Azure σε έργο LCS](resource-add-azure-subscription-lcs-project.md).
+Για να ολοκληρώσετε αυτήν την εργασία, ακολουθήστε τα βήματα του άρθρου [Προσθήκη μιας συνδρομής Azure στο έργο LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Ανάπτυξη του περιβάλλοντος επίδειξης Finance για σενάρια πόρων/μη εφοδιασμένα
 
-Ακολουθήστε τις οδηγίες στο θέμα [Παροχή ενός νέου περιβάλλοντος](resource-provision-new-environment.md) για την ολοκλήρωση της ανάπτυξης. Χρησιμοποιήστε τον τύπο ανάπτυξης [περιβάλλον επίδειξης](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) για προεπισκόπηση. 
+Ακολουθήστε τις οδηγίες στο άρθρο [Παροχή ενός νέου περιβάλλοντος](resource-provision-new-environment.md) για να ολοκληρώσετε την ανάπτυξη. Χρησιμοποιήστε τον τύπο ανάπτυξης [περιβάλλον επίδειξης](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) για προεπισκόπηση. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Εγκατάσταση δεδομένων ρύθμισης παραμέτρων και διαμόρφωσης του CDS
 
-Εγκαταστήστε τα δεδομένα ρύθμισης παραμέτρων και διαμόρφωσης του CDS, όπως περιγράφεται στο θέμα [Ρύθμιση και εφαρμογή δεδομένων στο Common Data Service](resource-apply-pro-setup-config-data.md).
+Εγκαταστήστε τα δεδομένα ρύθμισης και διαμόρφωσης για CDS όπως περιγράφεται στο άρθρο [Ρύθμιση και εφαρμογή δεδομένων διαμόρφωσης στο Common Data Service](resource-apply-pro-setup-config-data.md).
 Ολοκληρώστε αυτό το βήμα μόνο μετά την ανάπτυξη του περιβάλλοντος επίδειξης Οικονομικών και όταν τα δεδομένα επίδειξης είναι έτοιμα.
 
 

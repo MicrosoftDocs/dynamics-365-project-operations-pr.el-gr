@@ -1,24 +1,24 @@
 ---
 title: Τι νέα υπάρχουν, Δεκέμβριος 2021 - ελαφριά ανάπτυξη Project Operations
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Δεκεμβρίου 2021 της ελαφριάς ανάπτυξης του Project Operations.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Δεκεμβρίου 2021 της ελαφριάς ανάπτυξης του Project Operations.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 301acc5be76fb0318d6298820b62ae5bb05efac3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585378"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914080"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Τι νέα υπάρχουν, Δεκέμβριος 2021 - ελαφριά ανάπτυξη Project Operations
 
 _Ισχύει για: Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
 
-Αυτή θέμα ισχύει για τα ακόλουθα στοιχεία και εκδόσεις Microsoft Dynamics 365 Project Operations:
+Αυτό το άρθρο ισχύει για τα ακόλουθα στοιχεία και εκδόσεις του Microsoft Dynamics 365 Project Operations:
 
 - Project Operations στο περιβάλλον Dataverse έκδοση 4.27.0.195, 4.27.0.242, 4.27.0.244
 

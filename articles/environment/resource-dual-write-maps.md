@@ -1,17 +1,17 @@
 ---
 title: Εκδόσεις χάρτη διπλής εγγραφής Project Operations
-description: Αυτή θέμα παρέχει τη λίστα των χαρτών διπλής εγγραφής που απαιτούνται για το Dynamics 365 Project Operations.
+description: Αυτό το άρθρο παρέχει τη λίστα αντιστοιχίσεων διπλής εγγραφής που απαιτείται για το Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612750"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959453"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Εκδόσεις χάρτη διπλής εγγραφής Project Operations
 
@@ -54,7 +54,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 | Οντότητα ενοποίησης Project Operations για ωριαίες εκτιμήσεις (msdyn_resourceassignments) | 1.0.0.5 | Δεν απαιτείται για προμήθεια. ||
 | Οντότητα εξαγωγής κατηγοριών δαπανών έργου ενοποίησης Project Operations (msdyn_expensecategories) | 1.0.0.1 | Δεν απαιτείται για προμήθεια. ||
 | Οντότητα εξαγωγής δαπανών έργου ενοποίησης Project Operations (msdyn_expenses) | 1.0.0.3 | Δεν απαιτείται για προμήθεια. ||
-| Οντότητα εξαγωγής τιμολογίου πωλητή έργου ενοποίησης Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Δεν απαιτείται για προμήθεια. ||
+| Οντότητα εξαγωγής τιμολογίου πωλητή έργου ενοποίησης Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Δεν απαιτείται για προμήθεια. |10.0.26 ή νεότερη έκδοση|
 | Οντότητα εξαγωγής γραμμής τιμολογίου πωλητή έργου ενοποίησης Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Δεν απαιτείται για προμήθεια. | 10.0.26 ή νεότερη έκδοση |
 | Ρόλοι πόρων έργου για όλες τις εταιρείες (bookableresourcecategories) | 1.0.0.1 | Απαιτεί αρχικό συγχρονισμό για την αντιστοίχιση πίνακα για το συγχρονισμό των ρόλων πόρων του Διαχειριστή έργου και του Μέλους ομάδας που συμπληρώνονται στο περιβάλλον Dynamics 365 Dataverse κατά την προμήθεια. Το Dataverse είναι η κύρια προέλευση για τον αρχικό συγχρονισμό. ||
 | Εργασίες έργου (msdyn_projecttasks) | 1.0.0.4 | Δεν απαιτείται για προμήθεια. ||

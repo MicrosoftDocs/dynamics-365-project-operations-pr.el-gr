@@ -1,17 +1,17 @@
 ---
 title: Να επιχειρηθεί να μην υπάρξει υπέρβαση κατάστασης και επικυρώσεων
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τους ελέγχους ορίων που δεν πρέπει να υπερβαίνονται και οι οποίοι εκτελούνται στο Project Operations.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τους ελέγχους ορίου μη υπέρβασης που εκτελούνται στο Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3444d311386ae925617c9c9be657fe012f8f867b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d10a88305339a84b36d8606631ea9761806098a1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576132"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932756"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Να επιχειρηθεί να μην υπάρξει υπέρβαση κατάστασης και επικυρώσεων 
 

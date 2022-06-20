@@ -1,17 +1,17 @@
 ---
 title: Επίλυση τιμών πώλησης για εκτιμήσεις και πραγματικές τιμές
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο με τον οποίο επιλύονται οι συντελεστές πώλησης για τις εκτιμήσεις και τα πραγματικά στοιχεία.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τον τρόπο επίλυσης συντελεστών κόστους για εκτιμήσεις και πραγματικές τιμές.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 697d5e330fec1874e8cb59fb86dd688637860346
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578248"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911826"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Επίλυση τιμών πώλησης για εκτιμήσεις και πραγματικές τιμές
 

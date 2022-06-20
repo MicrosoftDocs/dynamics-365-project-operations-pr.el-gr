@@ -1,6 +1,6 @@
 ---
 title: Αλλαγές οντότητας, στοιχείου ελέγχου και περιβάλλοντος εργασίας χρήστη (Project Service Automation 3.x)
-description: Αυτό το θέμα περιγράφει τις αλλαγές για το Microsoft Dynamics Project Service Automation 3.x.
+description: Αυτό το άρθρο περιγράφει τις αλλαγές για το Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926868"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Αλλαγές οντότητας, στοιχείου ελέγχου και περιβάλλοντος εργασίας χρήστη (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Με την κυκλοφορία του Microsoft Dynamics Project Service Automation 3.x., έχουν γίνει πολλές αλλαγές στις οντότητες, τα στοιχεία ελέγχου, τις προβολές και το περιβάλλον εργασίας χρήστη. Αυτό το θέμα παρέχει σημαντικές πληροφορίες σχετικά με αυτές τις σημαντικές αλλαγές.
+Με την κυκλοφορία του Microsoft Dynamics Project Service Automation 3.x., έχουν γίνει πολλές αλλαγές στις οντότητες, τα στοιχεία ελέγχου, τις προβολές και το περιβάλλον εργασίας χρήστη. Αυτό το άρθρο παρέχει σημαντικές πληροφορίες σχετικά με αυτές τις σημαντικές αλλαγές.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Θυγατρικές-γονικές σχέσεις για έγγραφο πωλήσεων, γραμμές εγγράφου πωλήσεων, οντότητες λεπτομερειών γραμμής εγγράφου πωλήσεων
 Σε εκδόσεις του Dynamics 365 Project Service Automation (PSA) που κυκλοφόρησαν πριν την έκδοση 3.0, ορισμένες από τις σχέσεις μεταξύ εγγράφων πωλήσεων, γραμμών εγγράφου πωλήσεων και οντοτήτων λεπτομερειών γραμμής εγγράφου πωλήσεων εφαρμόστηκαν μέσω πεδίων συμβολοσειράς που θα διατηρήσουν μια αναπαράσταση συμβολοσειράς του GUID της σχετικής οντότητας. Αυτό οφειλόταν σε περιορισμούς πλατφόρμας που απαίτησαν σημαντικό προσαρμοσμένο κώδικα στον διακομιστή και τις πλευρές του προγράμματος-πελάτη της λύσης ώστε αυτές οι σχέσεις να λειτουργούν παρόμοια με τις τυπικές σχέσεις οντότητας Dynamics CRM και να κάνουν τα πεδία συμβολοσειράς να ενεργούν ως πεδία αναζήτησης.

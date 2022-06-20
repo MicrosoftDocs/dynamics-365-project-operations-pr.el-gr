@@ -1,6 +1,6 @@
 ---
 title: Αλλαγές δυνατοτήτων από το Project Service Automation στο Project Operations
-description: Αυτό το θέμα παρέχει μια επισκόπηση των αλλαγών των δυνατοτήτων από το Project Service Automation στο Dynamics 365 Project Operations.
+description: Αυτό το άρθρο παρέχει μια επισκόπηση των αλλαγών των δυνατοτήτων από το Project Service Automation στο Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925350"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Αλλαγές δυνατοτήτων από το Project Service Automation στο Project Operations
 
-Η αναβάθμιση από το Dynamics 365 Project Service Automation στο Dynamics 365 Project Operations Lite θα παραδοθεί σε τρεις φάσεις. Αυτό θέμα παρέχει πληροφορίες σχετικά με τις μεγάλες αλλαγές που μπορείτε να περιμένετε να δείτε όταν ολοκληρωθεί η αναβάθμιση.
+Η αναβάθμιση από το Dynamics 365 Project Service Automation στο Dynamics 365 Project Operations Lite θα παραδοθεί σε τρεις φάσεις. Αυτό άρθρο παρέχει πληροφορίες σχετικά με τις μεγάλες αλλαγές που μπορείτε να περιμένετε να δείτε όταν ολοκληρωθεί η αναβάθμιση.
 
 | Παράδοση αναβάθμισης | Φάση 1 <br>(Ιανουάριος 2022) | Φάση 2 <br>(Κύμα Απριλίου 2022) | Φάση 3  |
 |------------------|------------------------|---------------------------|---------------------------|

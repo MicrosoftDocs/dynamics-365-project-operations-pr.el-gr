@@ -1,23 +1,23 @@
 ---
 title: Ρύθμιση παραμέτρων για την ενοποίηση του Project Operations ανά νομική οντότητα
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ρύθμισης της ενοποίησης ανά νομική οντότητα στο Project Operations.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τη ρύθμιση της ενοποίησης από νομική οντότητα στο Project Operations.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585838"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914678"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Ρύθμιση παραμέτρων για την ενοποίηση του Project Operations ανά νομική οντότητα 
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Αυτό το θέμα σάς καθοδηγεί στα βήματα που απαιτούνται για τη ρύθμιση παραμέτρων του Dynamics 365 Project Operations ανά νομική οντότητα.
+Αυτό το άρθρο σας περιγράφει τα βήματα που απαιτούνται για τη ρύθμιση παραμέτρων του Dynamics 365 Project Operations ανά νομική οντότητα.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Ενεργοποίηση κλειδιών δυνατοτήτων στο Dynamics 365 Finance
 

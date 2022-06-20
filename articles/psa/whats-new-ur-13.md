@@ -1,6 +1,6 @@
 ---
 title: Τι νέο υπάρχει ή άλλαξε στο Project Service Automation, έκδοση ενημέρωσης 13, V3
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με το τι νέο υπάρχει Project Service Automation, έκδοση ενημέρωσης 13, V3.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με το τι νέο υπάρχει στο Project Service Automation, έκδοση ενημέρωσης 13, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: eb935d5bf3d2deb95db420f20a8102dae1864515
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f4898391922f5ecbc99d78e49358ea749fe27b3f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930686"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Τι νέο υπάρχει στο Project Service Automation, έκδοση ενημέρωσης 13, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8596156"
 
 Είμαστε στην ευχάριστη θέση να ανακοινώσουμε την πιο πρόσφατη ενημέρωση για την εφαρμογή Dynamics 365 Project Service Automation (PSA). Αυτή η έκδοση περιλαμβάνει ορισμένες σημαντικές βελτιώσεις όσον αφορά την ποιότητα, την απόδοση και τη χρηστικότητα. Αυτή η έκδοση είναι συμβατή με το Dynamics 365 9.x. Για να πραγματοποιήσετε ενημέρωση σε αυτήν την έκδοση, επισκεφθείτε το κέντρο διαχείρισης για το Dynamics 365 online και μεταβείτε στη σελίδα λύσεων για να εγκαταστήσετε την ενημέρωση. Για περισσότερες πληροφορίες, δείτε [Εγκατάσταση, ενημέρωση ή κατάργηση μιας προτιμώμενης λύσης](/power-platform/admin/install-remove-preferred-solution).
 
-Αυτό το θέμα παραθέτει τις νέες ή τροποποιημένες δυνατότητες και επιδιορθώσεις για το Project Service Automation V3, έκδοση ενημέρωσης 13. Αυτή η έκδοση έχει αριθμό δομής V3.10.3.18 και είναι διαθέσιμη σύμφωνα με το παρακάτω χρονοδιάγραμμα:
+Αυτό το άρθρο παραθέτει τις δυνατότητες και τις επιδιορθώσεις που είναι νέες ή έχουν αλλάξει για το Project Service Automation V3, Έκδοση ενημέρωσης 13. Αυτή η έκδοση έχει αριθμό δομής V3.10.3.18 και είναι διαθέσιμη σύμφωνα με το παρακάτω χρονοδιάγραμμα:
 
 - **Γενική διαθεσιμότητα (αυτοενημέρωση):** Νοέμβριος 2019
 - **Αυτοενημέρωση:** Δεκέμβριος 2019

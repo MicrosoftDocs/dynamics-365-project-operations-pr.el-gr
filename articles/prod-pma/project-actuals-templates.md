@@ -1,6 +1,6 @@
 ---
 title: Συγχρονισμός των πραγματικών τιμών του έργου απευθείας από το Project Service Automation στο ημερολόγιο ενοποίησης έργου για καταχώρηση στα Finance and Operations
-description: Αυτό το θέμα περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των πραγματικών τιμών του έργου απευθείας από το Microsoft Dynamics 365 Project Service Automation στο Finance and Operations.
+description: Αυτό το άρθρο περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των πραγματικών τιμών του έργου απευθείας από το Microsoft Dynamics 365 Project Service Automation στο "Χρηματοοικονομικά και λειτουργίες".
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683538"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929490"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Συγχρονισμός των πραγματικών τιμών του έργου απευθείας από το Project Service Automation στο ημερολόγιο ενοποίησης έργου για καταχώρηση στα Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Αυτό το θέμα περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των πραγματικών τιμών του έργου απευθείας από το Dynamics 365 Finance του Dynamics 365 Project Service Automation.
+Αυτό το άρθρο περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των πραγματικών τιμών του έργου απευθείας από το Dynamics 365 Finance του Dynamics 365 Project Service Automation.
 
 Το πρότυπο συγχρονίζει τις συναλλαγές από το Project Service Automation σε έναν πίνακα δημιουργίας σταδίων στο Finance. Αφού ολοκληρωθεί ο συγχρονισμός, **πρέπει** να εισαγάγετε τα δεδομένα από τον πίνακα δημιουργίας σταδίων στο ημερολόγιο ενοποίησης.
 

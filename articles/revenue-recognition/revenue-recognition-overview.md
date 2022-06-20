@@ -1,23 +1,23 @@
 ---
 title: Επισκόπηση αναγνώρισης εσόδων
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την αναγνώριση εσόδων στο Project Operations.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με την αναγνώριση εσόδων στο Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926270"
 ---
 # <a name="revenue-recognition-overview"></a>Επισκόπηση αναγνώρισης εσόδων
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Στο Dynamics 365 Project Operations, οι αρχές αναγνώρισης εσόδων ποικίλλουν ανάλογα με την επιλεγμένη μέθοδο χρέωσης για ένα έργο ή τμήμα του έργου. Αυτό το θέμα παρέχει πληροφορίες σχετικά με την αναγνώριση εσόδων στο Project Operations.
+Στο Dynamics 365 Project Operations, οι αρχές αναγνώρισης εσόδων ποικίλλουν ανάλογα με την επιλεγμένη μέθοδο χρέωσης για ένα έργο ή τμήμα του έργου. Αυτό το άρθρο παρέχει πληροφορίες σχετικά με την αναγνώριση εσόδων στο Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Οι συναλλαγές υπολογίζονται ψρησιμοποιώντας μέθοδο χρέωσης χρόνου και υλικών
 

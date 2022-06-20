@@ -1,17 +1,17 @@
 ---
 title: Υπεργολαβία μελών ομάδας έργου
-description: Αυτό θέμα εξηγεί τον τρόπο ανάθεσης σε υπεργολαβία τα μέλη της ομάδας έργου στο Microsoft Dynamics 365 Project Operations.
+description: Αυτό άρθρο εξηγεί τον τρόπο ανάθεσης σε υπεργολαβία τα μέλη της ομάδας έργου στο Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f43f817e59ef83fbf4dda6267327080f7c56e0f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 649687cb9ac66e684069434a353b63155103aefb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916886"
 ---
 # <a name="subcontracting-project-team-members"></a>Υπεργολαβία μελών ομάδας έργου
 

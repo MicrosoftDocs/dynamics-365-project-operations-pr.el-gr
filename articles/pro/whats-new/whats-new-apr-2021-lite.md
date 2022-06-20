@@ -1,24 +1,24 @@
 ---
 title: Τι νέο υπάρχει στον Απρίλιο 2021 - Ελαφριά ανάπτυξη του Project Operations
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Απριλίου 2021 της ελαφριάς ανάπτυξης του Project Operations.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Απριλίου 2021 της ελαφριάς ανάπτυξης του Project Operations.
 author: sigitac
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 10d9498636d8c5f72b7544be4ec30f399d5e0311
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 987eeaf2e57659a6facae6b0a3688f15992e8bb9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598120"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931239"
 ---
 # <a name="whats-new-april-2021---project-operations-lite-deployment"></a>Τι νέο υπάρχει στον Απρίλιο 2021 - Ελαφριά ανάπτυξη του Project Operations
 
 _Ισχύει για: Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
 
-Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
+Αυτό το άρθρο ισχύει για τα ακόλουθα στοιχεία και εκδόσεις του Dynamics 365 Project Operations:
 
   - Project Operations σε περιβάλλον Dataverse έκδοση 4.9.0.221 
 

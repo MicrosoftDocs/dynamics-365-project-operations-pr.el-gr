@@ -1,17 +1,17 @@
 ---
 title: Λεπτομέρειες κεφαλίδας για υπεργολαβίες
-description: Αυτό θέμα εξηγεί τις λειτουργίες που παρέχονται στην κεφαλίδα υπεργολαβίας στο Project Operations.
+description: Αυτό το άρθρο εξηγεί τις λειτουργίες που παρέχονται στην κεφαλίδα υπεργολαβίας στο Project Operations.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598166"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914172"
 ---
 # <a name="header-details-for-subcontracts"></a>Λεπτομέρειες κεφαλίδας για υπεργολαβίες
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598166"
 
 _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
 
-Αυτό θέμα εξηγεί τις λειτουργίες που παρέχονται στην κεφαλίδα υπεργολαβίας στο Dynamics 365 Project Operations.
+Αυτό το άρθρο εξηγεί τις λειτουργίες που παρέχονται στην κεφαλίδα υπεργολαβίας στο Dynamics 365 Project Operations.
 
 Καθώς ένας Διαχειριστής έργου σχεδιάζει και εκτελεί έργα, μπορεί να απασχολεί υπεργολάβους και να αγοράζει προϊόντα και υπηρεσίες από προμηθευτές. Όταν ένας διαχειριστής έργου πρέπει να αγοράσει προϊόντα ή υπηρεσίες, μπορεί να δημιουργήσει μια υπεργολαβία στο Project Operations.
 

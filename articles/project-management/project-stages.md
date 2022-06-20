@@ -1,6 +1,6 @@
 ---
 title: Στάδια έργου
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τα στάδια του έργου που είναι διαθέσιμα στο Microsoft Dynamics Project Operations (Λειτουργίες έργου).
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τα στάδια του έργου που είναι διαθέσιμα στις λειτουργίες στο Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a25f32badd8776c89ad6eb56ad77ff61ad0cccae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b146174583fdea45481b87375158ebe83ed63418
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911136"
 ---
 # <a name="project-stages"></a>Στάδια έργου
 
@@ -35,7 +35,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 - Πρόγραμμα
 - Παράδοση
 - Ολοκλήρωση
-- Κλείσιμο  
+- Κλείσιμο 
 
 ## <a name="new"></a>Δημιουργία
 

@@ -1,17 +1,17 @@
 ---
 title: Δημιουργία μιας δομής ανάλυσης εργασίας
-description: Αυτό θέμα εξηγεί τον τρόπο δημιουργίας μιας δομής ανάλυσης εργασίας (WBS) για τα βασικά στοιχεία ελέγχου στο νέο περιβάλλον εργασίας προγραμματισμού.
+description: Αυτό το άρθρο εξηγεί τον τρόπο δημιουργίας δομής ανάλυσης εργασίας (WBS) για τα βασικά στοιχεία ελέγχου στο νέο περιβάλλον εργασίας προγραμματισμού.
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932066"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Δημιουργία μιας δομής ανάλυσης εργασίας (WBS)
 

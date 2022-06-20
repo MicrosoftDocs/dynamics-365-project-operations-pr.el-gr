@@ -1,24 +1,24 @@
 ---
 title: Ενοποίηση διαχείρισης εξόδων
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την ενοποίηση αναφοράς εξόδων στο Project Operations χρησιμοποιώντας διπλή εγγραφή.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με την ενοποίηση αναφορών δαπανών στο Project Operations με χρήση διπλής εγγραφής.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585792"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924614"
 ---
 # <a name="expense-management-integration"></a>Ενοποίηση διαχείρισης εξόδων
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Αυτό το θέμα παρέχει πληροφορίες σχετικά με την ενοποίηση αναφορών εξόδων στο Project Operations [πλήρους ανάπτυξης εξόδων](../expense/expense-overview.md) χρησιμοποιώντας διπλή εγγραφή.
+Αυτό το άρθρο παρέχει πληροφορίες σχετικά με την ενοποίηση αναφορών δαπανών στο Project Operations [πλήρης ανάπτυξη δαπανών](../expense/expense-overview.md) με χρήση διπλής εγγραφής.
 
 ## <a name="expense-categories"></a>Κατηγορίες εξόδων
 

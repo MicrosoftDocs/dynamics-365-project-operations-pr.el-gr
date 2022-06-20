@@ -1,17 +1,17 @@
 ---
-title: Επισκόπηση λειτουργιών διαχείρισης πόρων
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη λειτουργία διαχείρισης πόρων στο Dynamics 365 Project Operations.
+title: Επισκόπηση λειτουργιών διαχείρισης πόρου
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τη λειτουργία διαχείρισης πόρων στο Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928432"
 ---
 # <a name="resource-management-modes-overview"></a>Επισκόπηση λειτουργιών διαχείρισης πόρου
 
@@ -38,7 +38,7 @@ _**Ισχύει για:** Εργασίες έργου για σενάρια βα
 
 ![Υβριδική λειτουργία.](./media/resource-management-hybrid.png)
 
-Εκτός από τη διεργασία κεντρικής λειτουργίας που υποστηρίζεται, ανατρέξτε στα παρακάτω θέματα για να διαχειριστείτε όλες τις άλλες υποστηριζόμενες ροές κρατήσεων στην υβριδική λειτουργία:
+Εκτός από την υποστηριζόμενη διαδικασία κεντρικής λειτουργίας, ανατρέξτε στα παρακάτω άρθρα για να διαχειριστείτε όλες τις άλλες υποστηριζόμενες ροές κράτησης σε υβριδική λειτουργία:
 
 Κράτηση πόρου απευθείας σε έργο:
 - [Κράτηση καθορισμένων πόρων με δυνατότητα κράτησης σε μια ομάδα έργου και ανάθεση εργασιών](/dynamics365/project-service/assign-named-bookable-resource)

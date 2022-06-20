@@ -1,24 +1,24 @@
 ---
 title: Τι νέο υπάρχει, Ιούλιος 2021 - Project Operations για σενάρια βάσει πόρων ή μη εφοδιασμένα σενάρια
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Ιουλίου 2021 του Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Ιουλίου 2021 του Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα.
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c004a6adc265f8f02fc557700d9b88a174c221c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600880"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931698"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει, Ιούλιος 2021 - Project Operations για σενάρια βάσει πόρων ή μη εφοδιασμένα σενάρια
 
 *Ισχύει για: Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα*
 
-Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
+Αυτό το άρθρο ισχύει για τα ακόλουθα στοιχεία και εκδόσεις του Dynamics 365 Project Operations:
 
    - Το Project Operations στην έκδοση περιβάλλοντος 4.12.0.148 ή 4.12.0.152 του Microsoft Dataverse.
    - Διαχείριση έργων και λογιστική σε περιβάλλον Dynamics 365 Finance έκδοση 10.0.20.

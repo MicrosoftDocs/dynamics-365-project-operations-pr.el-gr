@@ -1,24 +1,24 @@
 ---
 title: Ρύθμιση Project Operations και ρύθμιση παραμέτρων ενοποίησης δεδομένων
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη ρύθμιση και τη ρύθμιση παραμέτρων αντιστοιχίσεων διπλής εγγραφής Project Operations.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τη ρύθμιση και διαμόρφωση αντιστοιχίσεων διπλής εγγραφής του Project Operations.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914540"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Ρύθμιση Project Operations και ρύθμιση παραμέτρων ενοποίησης δεδομένων
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Αυτό το θέμα παρέχει πληροφορίες σχετικά με την ενοποίηση διπλής εγγραφής Project Operations για οντότητες εγκατάστασης και ρύθμισης παραμέτρων.
+Αυτό το άρθρο παρέχει πληροφορίες σχετικά με την ενοποίηση διπλής εγγραφής του Project Operations για ρύθμιση και διαμόρφωση οντοτήτων.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Συμβάσεις έργου, γραμμές συμβάσεων και έργα
 

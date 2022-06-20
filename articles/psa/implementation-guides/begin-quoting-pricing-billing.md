@@ -1,6 +1,6 @@
 ---
 title: Βασικός οδηγός σχετικά με την προσφορά, την τιμολόγηση και τη χρέωση
-description: Αυτό το θέμα παρέχει πληροφορίες για τη βασική προσφορά, τη χρέωση και την τιμολόγηση στο Project Service Automation.
+description: Αυτό το άρθρο παρέχει πληροφορίες για τη βασική προσφορά, τη χρέωση και την τιμολόγηση στο Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592232"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910798"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Βασικός οδηγός σχετικά με την προσφορά, την τιμολόγηση και τη χρέωση
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592232"
 
 Η δυνατότητα να βρείτε τους κατάλληλους πόρους την κατάλληλη στιγμή, να κάνετε κράτηση αυτών των πόρων σε έργα και να τους αξιοποιήσετε, βοηθάει τον οργανισμό να καλύψει τους στόχους εσόδων και τους στόχους ικανοποίησης πελατών. 
 
-Η σύνδεση PDF που ήταν προηγουμένως σε αυτό το θέμα έχει καταργηθεί και το περιεχόμενο έχει μετακινηθεί στα εξής θέματα:
+Η σύνδεση PDF που ήταν προηγουμένως σε αυτό το άρθρο έχει καταργηθεί και το περιεχόμενο έχει μετακινηθεί στα εξής άρθρα:
 
 - [Προσφορά, χρέωση και τιμολόγηση](../quote-bill-price.md)
 - [Διαδικασίες πώλησης](../basic-sales-process.md)
@@ -50,7 +50,7 @@ ms.locfileid: "8592232"
 - [Καταγραφή πραγματικών τιμών](../advanced-actuals.md)
 
 > [!NOTE]
-> Αυτό το θέμα θα καταργηθεί σε μια μελλοντική ενημέρωση τεκμηρίωσης. 
+> Αυτό το άρθρο θα καταργηθεί σε μια μελλοντική ενημέρωση τεκμηρίωσης. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

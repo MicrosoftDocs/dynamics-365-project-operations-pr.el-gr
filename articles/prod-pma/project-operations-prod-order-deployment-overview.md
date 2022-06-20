@@ -1,17 +1,17 @@
 ---
 title: Επισκόπηση ανάπτυξης του Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τύπο ανάπτυξης, το Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τον τύπο ανάπτυξης, το Project Operations εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: de9a83949a838f8ca90771022339c6da17f6dde1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582480"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922774"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Επισκόπηση ανάπτυξης του Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 

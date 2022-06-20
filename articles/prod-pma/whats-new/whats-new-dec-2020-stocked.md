@@ -1,24 +1,24 @@
 ---
 title: Τι νέο υπάρχει για τον Δεκέμβριο 2020 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ενημερωμένες εκδόσεις ποιότητας που είναι διαθέσιμες στην έκδοση του Δεκεμβρίου 2020 του Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Δεκεμβρίου 2020 του Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911366"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Τι νέο υπάρχει ή τι άλλαξε τον Δεκέμβριο 2020 στο Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 
 _Ισχύει για: Project Operations για Εφοδιασμένα σενάρια ή Σενάρια βάσει παραγωγής_
 
-Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
+Αυτό το άρθρο ισχύει για τα ακόλουθα στοιχεία και εκδόσεις του Dynamics 365 Project Operations:
 
   - Διαχείριση έργων και λογιστική σε περιβάλλον Dynamics 365 Finance έκδοση 10.0.15
 

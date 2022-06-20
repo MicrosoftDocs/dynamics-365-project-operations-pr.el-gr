@@ -1,24 +1,24 @@
 ---
 title: Τι νέο υπάρχει τον Νοέμβριο του 2021 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Νοεμβρίου 2021 του Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Νοεμβρίου 2021 του Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b58965f728321cc30d4e476b0dacf621fdec71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932894"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει τον Νοέμβριο του 2021 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 
 *Ισχύει για: Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα*
 
-Αυτή θέμα ισχύει για τα ακόλουθα στοιχεία και εκδόσεις Microsoft Dynamics 365 Project Operations:
+Αυτό το άρθρο ισχύει για τα ακόλουθα στοιχεία και εκδόσεις του Microsoft Dynamics 365 Project Operations:
 
 - Project Operations στο περιβάλλον Dataverse έκδοση 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
 - Διαχείριση έργων και λογιστική σε περιβάλλον Dynamics 365 Finance έκδοση 10.0.22

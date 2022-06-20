@@ -1,17 +1,17 @@
 ---
 title: Συμβάσεις έργων - Βασικές έννοιες
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις βασικές έννοιες των συμβάσεων έργου στο Project Operations.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τις βασικές έννοιες των συμβάσεων έργου στο Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926224"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Έννοιες μοναδικές για συμβάσεις βάσει έργου
 
@@ -19,7 +19,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 
 
-Αυτό το θέμα παρέχει τις βασικές έννοιες που πρέπει να γνωρίζετε πριν αρχίσετε να χρησιμοποιείτε συμβάσεις έργου στο Dynamics 365 Project Operations:
+Αυτό το άρθρο παρέχει τις βασικές έννοιες που πρέπει να γνωρίζετε πριν αρχίσετε να χρησιμοποιείτε συμβάσεις έργου στο Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Εταιρεία-κάτοχος
 

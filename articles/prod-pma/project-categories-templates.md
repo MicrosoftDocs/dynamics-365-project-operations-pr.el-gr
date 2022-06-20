@@ -1,6 +1,6 @@
 ---
 title: Συγχρονισμός καητγοριών δαπανών έργου μεταξύ Finance and Operations και Project Service Automation
-description: Αυτό το θέμα περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των κατηγοριών εξόδων έργου μεταξύ Microsoft Dynamics 365 Finance και Dynamics 365 Project Service Automation.
+description: Αυτό το άρθρο περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των κατηγοριών εξόδων έργου μεταξύ Microsoft Dynamics 365 Finance και Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685470"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927236"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Συγχρονισμός καητγοριών δαπανών έργου μεταξύ Finance and Operations και Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Αυτό το θέμα περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των κατηγοριών εξόδων έργου μεταξύ Dynamics 365 Finance και Dynamics 365 Project Service Automation.
+Αυτό το άρθρο περιγράφει τα πρότυπα και τις υποκείμενες εργασίες που χρησιμοποιούνται για το συγχρονισμό των κατηγοριών εξόδων έργου μεταξύ Dynamics 365 Finance και Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Η ενοποίηση εργασιών έργου, οι κατηγορίες εξόδων, οι εκτιμήσεις ωρών, οι εκτιμήσεις εξόδων και το κλείδωμα λειτουργιών είναι διαθέσιμα στην έκδοση 8.0.

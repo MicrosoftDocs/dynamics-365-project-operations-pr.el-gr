@@ -1,24 +1,24 @@
 ---
 title: Δημιουργία αναθέσεων πόρων
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τη δημιουργία αναθέσεων σε γενικούς και καθορισμένους πόρους.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τη δημιουργία γενικών και καθορισμένων αναθέσεων πόρων.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933492"
 ---
 # <a name="create-resource-assignments"></a>Δημιουργία αναθέσεων πόρων
 
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
 
-Μια ανάθεση πόρου είναι η άμεση συσχέτιση ενός μέλους ομάδας έργου με μια εργασία κόμβου φύλλου. Αυτό το θέμα παρέχει πληροφορίες σχετικά με τους διαφορετικούς τρόπους ανάθεσης πόρων.
+Μια ανάθεση πόρου είναι η άμεση συσχέτιση ενός μέλους ομάδας έργου με μια εργασία κόμβου φύλλου. Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τους διάφορους τρόπους ανάθεσης πόρων.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Δημιουργία γενικού μέλους ομάδας μέσω ανάθεσης εργασίας
 

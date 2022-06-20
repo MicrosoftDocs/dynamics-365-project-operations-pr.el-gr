@@ -1,24 +1,24 @@
 ---
 title: Τι νέα υπάρχουν, Σεπτέμβριος 2021 - Λειτουργίες Έργου για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Σεπτεμβρίου 2021 των Λειτουργιών Έργου για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Σεπτεμβρίου 2021 του Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα.
 author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c7f764b3e8ee3775167ee57b4f034e383899aea3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923372"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέα υπάρχουν, Σεπτέμβριος 2021 - Λειτουργίες Έργου για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
 
 *Ισχύει για: Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα*
 
-Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
+Αυτό το άρθρο ισχύει για τα ακόλουθα στοιχεία και εκδόσεις του Dynamics 365 Project Operations:
 
    - Project Operations στο Microsoft Dataverse στην έκδοση περιβάλλοντος 4.14.0.99.
    - Διαχείριση έργων και λογιστική σε περιβάλλον Dynamics 365 Finance έκδοση 10.0.20.

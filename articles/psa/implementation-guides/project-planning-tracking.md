@@ -1,6 +1,6 @@
 ---
 title: Σχεδιασμός και παρακολούθηση έργων
-description: Αυτό το θέμα παρέχει μια σύνδεση σε πληροφορίες σχετικά με το σχεδιασμό και την παρακολούθηση στο Project Service Automation.
+description: Αυτό το άρθρο παρέχει μια σύνδεση σε πληροφορίες σχετικά με το σχεδιασμό και την παρακολούθηση στο Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933262"
 ---
 # <a name="project-planning-and-tracking"></a>Σχεδιασμός και παρακολούθηση έργων
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589886"
 
 Η εφαρμογή Project Service βοηθάει τους οργανισμούς υπηρεσιών να προσδιορίσουν τις ευκαιρίες, να υποβάλουν προσφορές, να επιτύχουν συμβατικές συμφωνίες, να διαχειρίζονται πόρους, να παρακολουθούν χρόνο και έξοδα, να τιμολογούν τους πελάτες και να παρέχουν έργα εγκαίρως και εντός του προϋπολογισμού. 
 
-Η σύνδεση PDF που ήταν προηγουμένως σε αυτό το θέμα έχει καταργηθεί και το περιεχόμενο έχει μετακινηθεί στα εξής θέματα:
+Η σύνδεση PDF που ήταν προηγουμένως σε αυτό το άρθρο έχει καταργηθεί και το περιεχόμενο έχει μετακινηθεί στα εξής άρθρα:
 
 - [Χρονοδιαγράμματα έργου](../project-creating.md)
 - [Έσοδα και κόστη έργου](../project-estimating.md)
@@ -43,7 +43,7 @@ ms.locfileid: "8589886"
 - [Ρυθμίσεις έργου](../project-settings.md)
 
 > [!NOTE]
-> Αυτό το θέμα θα καταργηθεί σε μια μελλοντική ενημέρωση τεκμηρίωσης. 
+> Αυτό το άρθρο θα καταργηθεί σε μια μελλοντική ενημέρωση τεκμηρίωσης. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

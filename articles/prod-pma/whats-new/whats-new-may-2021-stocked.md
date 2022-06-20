@@ -1,24 +1,24 @@
 ---
 title: Τι νέο υπάρχει ή έχει αλλάξει στο Project Operations, Μάιος 2021 για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Μαΐου 2021 του Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Μαΐου 2021 του Project Operations για σενάρια βασισμένα σε εφοδιασμένη παραγωγή.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927144"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Τι νέο υπάρχει ή έχει αλλάξει στο Project Operations, Μάιος 2021 για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 
 **Ισχύει για:** Project Operations για Εφοδιασμένα σενάρια ή Σενάρια βάσει παραγωγής
 
-Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
+Αυτό το άρθρο ισχύει για τα ακόλουθα στοιχεία και εκδόσεις του Dynamics 365 Project Operations:
 
 - Διαχείριση έργων και λογιστική σε περιβάλλον Dynamics 365 Finance έκδοση 10.0.19
  

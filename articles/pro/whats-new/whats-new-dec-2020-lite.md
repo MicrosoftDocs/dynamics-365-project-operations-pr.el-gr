@@ -1,24 +1,24 @@
 ---
 title: Τι νέο υπάρχει για τον Δεκέμβριος 2020 - lite ανάπτυξη Project Operations - συμφωνία για προτιμολόγηση
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ενημερωμένες εκδόσεις ποιότητας που είναι διαθέσιμες στην έκδοση του Δεκεμβρίου 2020 της lite ανάπτυξης του Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Δεκεμβρίου 2020 της ελαφριάς ανάπτυξης του Project Operations ‑ συμφωνία για προτιμολόγηση.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924062"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Τι νέο υπάρχει για τον Δεκέμβριος 2020 - lite ανάπτυξη Project Operations - συμφωνία για προτιμολόγηση
 
 _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
 
-Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
+Αυτό το άρθρο ισχύει για τα ακόλουθα στοιχεία και εκδόσεις του Dynamics 365 Project Operations:
 
   - Project Operations σε περιβάλλον Dataverse έκδοση 4.5.0.134 
 

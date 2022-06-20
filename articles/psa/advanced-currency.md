@@ -1,6 +1,6 @@
 ---
 title: Σενάρια πολλαπλών νομισματικών μονάδων (έκδοση 3.x)
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τα σενάρια πολλών νομισματικών μονάδων.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τα σενάρια πολλών νομισματικών μονάδων.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c302526991f8887395c11fb6c07dd29f5e6f65d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925488"
 ---
 # <a name="multiple-currency-scenarios"></a>Σενάρια πολλαπλών νομισματικών μονάδων
 

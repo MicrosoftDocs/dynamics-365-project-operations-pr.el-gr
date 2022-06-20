@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919232"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Ρύθμιση πρόσθετων ρυθμίσεων παραμέτρων (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592324"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Αφού ρυθμίσετε τις παραμέτρους των στοιχείων στα προηγούμενα θέματα, πρέπει να ορίσετε πρόσθετες παραμέτρους έργων για τα έργα σας. Κατά την αρχική εγκατάσταση του [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], δημιουργήσατε μια ρύθμιση παραμέτρων για την πρώτη δημιουργία όλων των καρτελών που απαιτούνται για τη λειτουργία του [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Ήρθε η ώρα να επιστρέψετε και να ρυθμίσετε τις παραμέτρους πρόσθετων πεδίων για αυτές τις ρυθμίσεις.  
+Αφού ρυθμίσετε τις παραμέτρους των στοιχείων στα προηγούμενα άρθρα, πρέπει να ορίσετε πρόσθετες παραμέτρους έργων για τα έργα σας. Κατά την αρχική εγκατάσταση του [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], δημιουργήσατε μια ρύθμιση παραμέτρων για την πρώτη δημιουργία όλων των καρτελών που απαιτούνται για τη λειτουργία του [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Ήρθε η ώρα να επιστρέψετε και να ρυθμίσετε τις παραμέτρους πρόσθετων πεδίων για αυτές τις ρυθμίσεις.  
   
  Θα πρέπει να ρυθμίσετε τις παραμέτρους των παρακάτω ρυθμίσεων:  
   

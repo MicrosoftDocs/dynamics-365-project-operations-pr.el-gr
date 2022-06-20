@@ -1,24 +1,24 @@
 ---
 title: Τι νέα υπάρχουν για πρώιμη πρόσβαση στο κύμα 2 του 2021 - ελαφριά ανάπτυξη Project Operations
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις δυνατότητες που είναι διαθέσιμες στην έκδοση πρώιμης πρόσβασης του κύματος 2 του 2021 του Project Operations για ελαφριά ανάπτυξη.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τις δυνατότητες που είναι διαθέσιμες στην έκδοση πρώιμης πρόσβασης κύματος 2 του 2021 της ελαφριάς ανάπτυξης του Project Operations.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924108"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Τι νέα υπάρχουν για πρώιμη πρόσβαση στο κύμα 2 του 2021 - ελαφριά ανάπτυξη Project Operations
 
 _Ισχύει για: Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
 
-Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
+Αυτό το άρθρο ισχύει για τα ακόλουθα στοιχεία και εκδόσεις του Dynamics 365 Project Operations:
 
   - Project Operations σε περιβάλλον Dataverse έκδοση 4.23.0.4
 

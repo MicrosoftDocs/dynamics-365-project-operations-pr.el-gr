@@ -1,25 +1,25 @@
 ---
 title: Ενημέρωση του Project Operations στο περιβάλλον Finance
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ενημέρωσης του Project Operations στο περιβάλλον του Dynamics 365 Finance.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τον τρόπο ενημέρωσης του Project Operations στο περιβάλλον του Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912470"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Ενημέρωση του Project Operations στο περιβάλλον Finance
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
 
-Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ενημέρωσης του Dynamics 365 Project Operations στο περιβάλλον του Dynamics 365 Finance. Υπάρχουν τρεις διαδικασίες που απαιτούνται για την ενημέρωση του Project Operations στην Ενημέρωση 5 (UR5):
+Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τον τρόπο ενημέρωσης του Dynamics 365 Project Operations στο περιβάλλον του Dynamics 365 Finance. Υπάρχουν τρεις διαδικασίες που απαιτούνται για την ενημέρωση του Project Operations στην Ενημέρωση 5 (UR5):
 
 - [Εισαγωγή του πακέτου στο έργο προεπισκόπησης](#import)
 - [Εφαρμογή της ενημέρωσης](#apply)

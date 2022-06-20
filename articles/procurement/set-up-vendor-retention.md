@@ -1,24 +1,24 @@
 ---
 title: Διαμόρφωση κράτησης προμηθευτή
-description: Αυτό θέμα εξηγεί τον τρόπο διαμόρφωσης της κράτησης προμηθευτών.
+description: Αυτό το άρθρο εξηγεί τον τρόπο διαμόρφωσης της κράτησης προμηθευτών.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929766"
 ---
 # <a name="set-up-vendor-retention"></a>Διαμόρφωση κράτησης προμηθευτή
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Αυτό θέμα παρέχει πληροφορίες για τον τρόπο διαμόρφωσης της κράτησης προμηθευτών.
+Αυτό το άρθρο παρέχει πληροφορίες για τον τρόπο διαμόρφωσης της κράτησης προμηθευτών.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Ρύθμιση λογαριασμού κράτησης προμηθευτή στο Γενικό καθολικό
 

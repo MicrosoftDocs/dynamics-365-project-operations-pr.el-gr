@@ -1,24 +1,24 @@
 ---
 title: Εκτιμήσεις έργου και ενοποίηση πραγματικών τιμών
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την ενοποίηση διπλής εγγραφής Project Operations για εκτιμήσεις έργων και πραγματικές τιμές.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με την ενοποίηση διπλής εγγραφής του Project Operations για εκτιμήσεις και πραγματικές τιμές έργου.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577190"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914586"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Εκτιμήσεις έργου και ενοποίηση πραγματικών τιμών
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Αυτό το θέμα παρέχει πληροφορίες σχετικά με την ενοποίηση διπλής εγγραφής Project Operations για εκτιμήσεις έργων και πραγματικές τιμές.
+Αυτό το άρθρο παρέχει πληροφορίες σχετικά με την ενοποίηση διπλής εγγραφής του Project Operations για εκτιμήσεις και πραγματικές τιμές έργου.
 
 ## <a name="project-estimates"></a>Εκτιμήσεις έργων
 

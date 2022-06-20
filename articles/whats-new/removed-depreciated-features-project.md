@@ -1,24 +1,24 @@
 ---
 title: Δυνατότητες που έχουν καταργηθεί ή αποσυρθεί στο Dynamics 365 Project Operations
-description: Αυτό θέμα περιγράφει δυνατότητες που έχουν καταργηθεί ή που σχεδιάζεται να καταργηθούν από το Dynamics 365 Project Operations.
+description: Αυτό άρθρο περιγράφει δυνατότητες που έχουν καταργηθεί ή που σχεδιάζεται να καταργηθούν από το Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601570"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921486"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Δυνατότητες που έχουν καταργηθεί ή αποσυρθεί στο Dynamics 365 Project Operations
 
 _**Ισχύει για:** Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους, Lite ανάπτυξη - προσφορά σε προτιμολόγηση και Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους_
 
-Αυτό θέμα περιγράφει δυνατότητες που έχουν καταργηθεί ή που σχεδιάζεται να καταργηθούν από το Dynamics 365 Project Operations.
+Αυτό άρθρο περιγράφει δυνατότητες που έχουν καταργηθεί ή που σχεδιάζεται να καταργηθούν από το Dynamics 365 Project Operations.
 
 - Μια δυνατότητα που *έχει καταργηθεί* δεν είναι πλέον διαθέσιμη στο προϊόν.
 - Μια δυνατότητα *υπό απόσυρση* δεν βρίσκεται σε ενεργή ανάπτυξη και μπορεί να καταργηθεί σε μια μελλοντική ενημέρωση.

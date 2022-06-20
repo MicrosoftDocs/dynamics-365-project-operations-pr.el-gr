@@ -1,23 +1,23 @@
 ---
 title: Τι νέο υπάρχει τον Νοέμβριο του 2020 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ενημερωμένες εκδόσεις ποιότητας που είναι διαθέσιμες στην έκδοση του Νοεμβρίου 2020 των λειτουργιών έργου για σενάρια πόρων/μη εφοδιασμένα σενάρια.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τις ενημερώσεις ποιότητας που είναι διαθέσιμες στην έκδοση Νοεμβρίου 2020 του Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600374"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923418"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει τον Νοέμβριο του 2020 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Αυτό το θέμα ισχύει για τα ακόλουθα στοιχεία και τις εκδόσεις του Dynamics 365 Project Operations:
+Αυτό το άρθρο ισχύει για τα ακόλουθα στοιχεία και εκδόσεις του Dynamics 365 Project Operations:
 
 - Project Operations σε περιβάλλον CDS έκδοση 4.4.0.70
 - Διαχείριση έργων και λογιστική σε περιβάλλον Dynamics 365 Finance έκδοση 10.0.14

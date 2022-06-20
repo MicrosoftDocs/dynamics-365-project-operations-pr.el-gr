@@ -1,17 +1,17 @@
 ---
 title: Επιβεβαίωση προτιμολογίου βάσει έργου
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με την επιβεβαίωση προτιμολογίων βάσει έργου.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με την επιβεβαίωση ενός προτιμολογίου βάσει έργου.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 46db66be0c346b9ad0006efc3ca2f3019a467daa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a4ad243e8959af61993e2ff6ce89209be378f7df
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580502"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929444"
 ---
 # <a name="confirm-a-proforma-project-based-invoice"></a>Επιβεβαίωση προτιμολογίου βάσει έργου
 

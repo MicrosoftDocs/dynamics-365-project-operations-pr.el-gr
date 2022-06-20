@@ -1,6 +1,6 @@
 ---
 title: Ρυθμίσεις έργου
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις ρυθμίσεις διαχείρισης έργου.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τις ρυθμίσεις διαχείρισης έργου.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 075cbdd30c4986e514e4d357a08ef99cf3eb101f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3d4b9b920150d31ae2366b4a1ee4168d71d70a17
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915828"
 ---
 # <a name="project-settings"></a>Ρυθμίσεις έργου
 

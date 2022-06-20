@@ -1,17 +1,17 @@
 ---
 title: Πληροφορίες σύνοψης σε μια προσφορά έργου - lite
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τις πληροφορίες και τις ρυθμίσεις που ισχύουν για τις προσφορές και τις επιπτώσεις των προσφορών του έργου. (Sales)
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τις πληροφορίες και τις ρυθμίσεις που ισχύουν για προσφορές έργου και τις επηρεάζουν. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 267978da59ba1c916272ec0c9ff9044ed0d81f50
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3441348cb46804f8f76cb23b3f916fe69c3fbe99
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574890"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917024"
 ---
 # <a name="header-details-for-project-quotes"></a>Λεπτομέρειες κεφαλίδας για προσφορές έργου
 

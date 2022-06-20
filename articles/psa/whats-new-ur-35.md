@@ -1,6 +1,6 @@
 ---
 title: Τι νέο υπάρχει ή άλλαξε στο Project Service Automation, έκδοση ενημέρωσης 35, V3
-description: Αυτό θέμα παραθέτει τις δυνατότητες και τις επιδιορθώσεις που είναι διαθέσιμες στο Microsoft Dynamics 365 Project Service Automation έκδοση ενημέρωσης 35, V3.
+description: Αυτό το άρθρο παραθέτει τις δυνατότητες και τις επιδιορθώσεις που είναι διαθέσιμες στο Microsoft Dynamics 365 Project Service Automation, Έκδοση ενημέρωσης 35, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 09/03/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e210777f1e4d149b700721ac7fb9bd129b1166fe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 28b4a5ccbfff83c9b1a18cb0b4062af9cdaf8f6e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912838"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-35-v3"></a>Τι νέο υπάρχει ή άλλαξε στο Project Service Automation, έκδοση ενημέρωσης 35, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8574028"
 
 Έχουμε τη χαρά να ανακοινώσουμε την πιο πρόσφατη ενημέρωση για την εφαρμογή Microsoft Dynamics 365 Project Service Automation. Αυτή η έκδοση περιλαμβάνει ορισμένες σημαντικές βελτιώσεις όσον αφορά την ποιότητα, την απόδοση και τη χρηστικότητα. Είναι συμβατή με το Dynamics 365 9.x. Για να κάνετε ενημέρωση σε αυτήν την έκδοση, επισκεφθείτε τη σελίδα του Κέντρου διαχείρισης για λύσεις Dynamics 365 Online και εγκαταστήστε την ενημέρωση. Για περισσότερες πληροφορίες, δείτε [Εγκατάσταση, ενημέρωση ή κατάργηση μιας προτιμώμενης λύσης](/power-platform/admin/install-remove-preferred-solution).
 
-Αυτό το θέμα παραθέτει τις νέες ή τροποποιημένες δυνατότητες και επιδιορθώσεις για το Project Service Automation V3, έκδοση ενημέρωσης 35, V3. Αυτή η έκδοση έχει αριθμό έκδοσης V3.10.56.110 και είναι γενικά διαθέσιμη μέσω μιας αυτο-ενημέρωσης τον Σεπτέμβριο του 2021.
+Αυτό το άρθρο παραθέτει τις δυνατότητες και τις επιδιορθώσεις που είναι νέες ή έχουν αλλάξει για το Project Service Automation, Έκδοση ενημέρωσης 35, V3. Αυτή η έκδοση έχει αριθμό έκδοσης V3.10.56.110 και είναι γενικά διαθέσιμη μέσω μιας αυτο-ενημέρωσης τον Σεπτέμβριο του 2021.
 
 ## <a name="update-release-35"></a>Έκδοση κυκλοφορίας 35
 

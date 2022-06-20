@@ -1,21 +1,21 @@
 ---
-title: Εγγραφή για μια συνδρομή προεπισκόπησης - lite
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο εγγραφής και την ελαφριά ανάπτυξη του Project Operations - συμφωνία για προτιμολόγηση.
+title: Εγγραφή για μια συνδρομή έκδοσης προεπισκόπησης - ελαφριά
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τον τρόπο εγγραφής στην ελαφριά ανάπτυξη του Project Operations και την ανάπτυξή του ‑ συμφωνία για προτιμολόγηση.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921256"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Εγγραφή για μια συνδρομή έκδοσης προεπισκόπησης - ελαφριά 
 
-Αυτό θέμα εξηγεί τον τρόπο εγγραφής στη δοκιμαστική προσφορά και ανάπτυξης του Dynamics 365 Project Operations για ελαφρά ανάπτυξη - συμφωνία για προτιμολόγηση.
+Αυτό το άρθρο εξηγεί τον τρόπο εγγραφής στην προσφορά δοκιμαστικής έκδοσης και ανάπτυξης στην ελαφριά ανάπτυξη του Dynamics 365 Project Operations ‑ συμφωνία για προτιμολόγηση.
 
 > [!NOTE]
 > Αυτή η διαδικασία θα αλλάξει στις επερχόμενες εκδόσεις του Project Operations.
@@ -50,7 +50,7 @@ ms.locfileid: "8588000"
 
 ## <a name="create-a-new-dataverse-environment"></a>Δημιουργία νέου περιβάλλοντος Dataverse
 
-1. Δώστε ένα νέο περιβάλλον ανάπτυξης Project Operations Dataverse ακολουθώντας τις οδηγίες στο θέμα, [Μοντέλο ανάπτυξης Dataverse](lite-deployment.md). Όταν επιλέγετε τον τύπο περιβάλλοντος, βεβαιωθείτε ότι χρησιμοποιείτε τη **Δοκιμαστική έκδοση (βάσει συνδρομής)**.
+1. Παροχή ενός νέου περιβάλλοντος ανάπτυξης Project Operations Dataverse ακολουθώντας τις οδηγίες στο άρθρο [Μοντέλο ανάπτυξης του Dataverse](lite-deployment.md). Όταν επιλέγετε τον τύπο περιβάλλοντος, βεβαιωθείτε ότι χρησιμοποιείτε τη **Δοκιμαστική έκδοση (βάσει συνδρομής)**.
 
   ![Νέο περιβάλλον.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "8588000"
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Εγκαταστήστε μια διαμόρφωση CDS και τα δεδομένα επίδειξης ρύθμισης παραμέτρων
 
-Εγκαταστήστε τη διαμόρφωση CDS και ρυθμίστε τα δεδομένα επίδειξης ακολουθώντας τις οδηγίες στο θέμα, [Εφαρμογή δεδομένων ρύθμισης επίδειξης και δεδομένων διαμόρφωσης](lite-apply-demo-setup-config-data.md).
+Εγκαταστήστε τη ρύθμιση παραμέτρων CDS και ρυθμίστε τα δεδομένα επίδειξης ακολουθώντας τις οδηγίες στο άρθρο [Εφαρμογή ρύθμισης επίδειξης και δεδομένων ρύθμισης παραμέτρων](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

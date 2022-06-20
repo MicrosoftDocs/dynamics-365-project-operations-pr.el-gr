@@ -1,17 +1,17 @@
 ---
 title: Επιστροφή ΦΠΑ στη διαχείριση εξόδων
-description: Αυτό το θέμα επεξηγεί τον τρόπο λήψης των επιστροφών στις συναλλαγές με επιλέξιμο φόρο προστιθέμενης αξίας (ΦΠΑ).
+description: Αυτό το άρθρο εξηγεί τον τρόπο λήψης επιστροφών χρημάτων για επιλέξιμες συναλλαγές με φόρο προστιθέμενης αξίας (ΦΠΑ).
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 7c961763d3d670117c5a576db485ebcfdcf9ec9f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1df921bbef4c11c7e07ed38775644117215a50fb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581146"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927926"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Επιστροφή ΦΠΑ στη διαχείριση εξόδων
 

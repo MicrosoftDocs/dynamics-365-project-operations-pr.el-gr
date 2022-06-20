@@ -1,6 +1,6 @@
 ---
 title: Κράτηση καθορισμένων πόρων με δυνατότητα κράτησης σε μια ομάδα έργου και ανάθεση εργασιών
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο κράτησης καθορισμένων πόρων σε ομάδες εργασίας και την ανάθεσή τους σε εργασίες.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τον τρόπο κράτησης καθορισμένων πόρων σε ομάδες εργασίας και την ανάθεση εργασιών σε αυτές.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cdbcd84d2277ba1c8e68270d5b1f8ca45c17f05e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 61c9b47088e836c0a9c78477adf891df3d14853b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919324"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Κράτηση καθορισμένων πόρων με δυνατότητα κράτησης σε μια ομάδα έργου και ανάθεση εργασιών 
 

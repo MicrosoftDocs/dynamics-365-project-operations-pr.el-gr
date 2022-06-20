@@ -1,17 +1,17 @@
 ---
 title: Εγγραφείτε για τις δοκιμαστικές εκδόσεις του Project Operations
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο ανάπτυξης μια δοκιμαστικής έκδοσης του Dynamics 365 Project Operations.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με τον τρόπο ανάπτυξης μιας δοκιμαστικής έκδοσης του Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584274"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959489"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Εγγραφείτε για τις δοκιμαστικές εκδόσεις του Project Operations 
 
@@ -19,9 +19,9 @@ _**Ισχύει για:** Project Operations για μη εφοδιασμένα 
 
 
 
-Αυτό το θέμα εξηγεί τον τρόπο εγγραφής στην προσφορά συνεργάτη προεπισκόπησης και ανάπτυξης ενός περιβάλλοντος Dynamics 365 Project Operations.
+Αυτό το άρθρο εξηγεί τον τρόπο εγγραφής στην έκδοση προεπισκόπησης προσφοράς συνεργάτη και τον τρόπο ανάπτυξης ενός περιβάλλοντος Dynamics 365 Project Operations.
 
-Με τη νέα δοκιμαστική έκδοση Project Operations, μπορείτε να αναπτύξετε αυτόματα οποιοδήποτε από τα τρία υποστηριζόμενα σενάρια ανάπτυξης ολοκληρώνοντας ένα ερωτηματολόγιο που συνιστά τη βέλτιστη προσέγγιση ανάπτυξης. Αυτό το θέμα παρέχει πληροφορίες σχετικά με τον τρόπο:
+Με τη νέα δοκιμαστική έκδοση Project Operations, μπορείτε να αναπτύξετε αυτόματα οποιοδήποτε από τα τρία υποστηριζόμενα σενάρια ανάπτυξης ολοκληρώνοντας ένα ερωτηματολόγιο που συνιστά τη βέλτιστη προσέγγιση ανάπτυξης. Αυτό το άρθρο παρέχει πληροφορίες σχετικά με το πώς:
 
 - Να εξαργυρώσετε την προσφορά της δοκιμαστικής σας έκδοσης.
 - Να ξεκινήσετε την προμήθεια.
@@ -89,7 +89,8 @@ _**Ισχύει για:** Project Operations για μη εφοδιασμένα 
 4.  Επιλέξτε την αντίστοιχη διεύθυνση URL Microsoft Dataverse και τις διευθύνσεις URL των εφαρμογών οικονομικών και επιχειρηματικών δραστηριοτήτων για να επικυρώσετε την ανάπτυξη.
 
 ## <a name="configuring-dual-write"></a>Ρύθμιση διπλής εγγραφής
-- Για να ρυθμίσετε τις παραμέτρους των ρόλων ασφαλείας για διπλή εγγραφή, ανατρέξτε στο θέμα [Ενημέρωση των ρυθμίσεων ασφαλείας στο Project Operations στο Dataverse](resource-provision-new-environment.md).
+- Για να ρυθμίσετε τις παραμέτρους των ρόλων ασφαλείας για διπλή εγγραφή, ανατρέξτε στο θέμα [Ενημέρωση των ρυθμίσεων ασφαλείας στο Project Operations στο Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Για πρόσβαση στις ρυθμίσεις παραμέτρων διπλής εγγραφής, μεταβείτε στην παρουσία "Χρηματοοικονομικά και λειτουργίες" και, στη συνέχεια, μεταβείτε στη **Διαχείριση δεδομένων** > **Διπλή εγγραφή**.
 - Για να ρυθμίσετε τις παραμέτρους των αντιστοιχίσεων διπλής εγγραφής, ανατρέξτε στο θέμα [Εκτέλεση αντιστοιχίσεων διπλής εγγραφής Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps)έργου.
 
 ## <a name="assign-licenses"></a>Παραχώρηση αδειών χρήσης

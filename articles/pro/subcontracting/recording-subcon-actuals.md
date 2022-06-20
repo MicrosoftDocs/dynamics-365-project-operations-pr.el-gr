@@ -1,17 +1,17 @@
 ---
 title: Καταγραφή χρόνου, δαπανών και χρήσης υλικού για στοιχεία υπεργολαβίας
-description: Αυτό θέμα περιγράφει τον τρόπο με τον οποίο ο χρόνος, οι δαπάνες και η χρήση υλικού που καταγράφονται σε έργα από στοιχεία σε υπεργολαβία παρακολουθείται από το Microsoft Dynamics 365 Project Operations.
+description: Αυτό το άρθρο περιγράφει τον τρόπο με τον οποίο ο χρόνος, οι δαπάνες και η χρήση υλικού που καταγράφονται σε έργα από στοιχεία σε υπεργολαβία παρακολουθείται από το Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599224"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927650"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Καταγραφή χρόνου, δαπανών και χρήσης υλικού σε έργα για στοιχεία υπεργολαβίας
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599224"
 
 _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
 
-Αυτό θέμα περιγράφει τον τρόπο με τον οποίο ο χρόνος, οι δαπάνες και η χρήση υλικού που καταγράφονται σε έργα από στοιχεία σε υπεργολαβία παρακολουθείται από το Microsoft Dynamics 365 Project Operations.
+Αυτό το άρθρο περιγράφει τον τρόπο με τον οποίο ο χρόνος, οι δαπάνες και η χρήση υλικού που καταγράφονται σε έργα από στοιχεία σε υπεργολαβία παρακολουθείται από το Microsoft Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Κοστολόγηση χρόνου υπεργολάβου σε έργα
 Στο Project Operations, οι συμβασιούχοι μπορούν να καταγράφουν το χρόνο σε έργα με τον ίδιο τρόπο όπως οι υπάλληλοι. Κατά την εισαγωγή χρόνου σε έργα ή/και εργασίες έργου, ένας συμβασιούχος μπορεί να επιλέξει μια συγκεκριμένη υπεργολαβία και γραμμή υπεργολαβίας.

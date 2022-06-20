@@ -1,17 +1,17 @@
 ---
 title: Ρύθμιση παραμέτρων των χρεώσιμων στοιχείων μιας γραμμής προσφοράς βάσει έργου
-description: Αυτό το θέμα παρέχει πληροφορίες σχετικά με τα περιλαμβανόμενα, φορολογήσιμα και μη φορολογήσιμα στοιχεία σε γραμμές προσφοράς βάσει έργου.
+description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με περιλαμβανόμενα, χρεώσιμα και μη χρεώσιμα στοιχεία σε γραμμές προσφοράς βάσει έργου.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 025a04fa63bfdb53aaababcd964a5dcb92c0a3a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ff409132ef9103641578f9c94f8ea1ff56738a71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601192"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915552"
 ---
 # <a name="configure-the-chargeable-components-of-a-project-based-quote-line"></a>Ρύθμιση παραμέτρων των χρεώσιμων στοιχείων μιας γραμμής προσφοράς βάσει έργου
 

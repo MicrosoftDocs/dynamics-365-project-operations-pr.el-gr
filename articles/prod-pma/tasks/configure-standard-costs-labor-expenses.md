@@ -1,6 +1,6 @@
 ---
 title: Ρύθμιση τυπικού κόστους εργατικών και εξόδων
-description: Αυτό το θέμα επεξηγεί τον τρόπο ρύθμισης του τυπικού κόστους εργατικών και των εξόδων για ένα έργο.
+description: Αυτό το άρθρο εξηγεί τον τρόπο ρύθμισης τυπικού κόστους για την εργασία και τα έξοδα για ένα έργο.
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd74da69986a73e933f8cfedce40158555c2ac60
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a51eee8d2eb960b6f24b6511dab7b7a27303dddb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685332"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919509"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Ρύθμιση τυπικού κόστους εργατικών και εξόδων
 
 [!include [banner](../../includes/banner.md)]
 
-Αυτό το θέμα επεξηγεί τον τρόπο ρύθμισης του τυπικού κόστους εργατικών και των εξόδων για ένα έργο. Αυτή η εργασία χρησιμοποιεί το σύνολο δεδομένων USSI.
+Αυτό το άρθρο εξηγεί τον τρόπο ρύθμισης τυπικού κόστους για την εργασία και τα έξοδα για ένα έργο. Αυτή η εργασία χρησιμοποιεί το σύνολο δεδομένων USSI.
 
 1. Στο τμήμα παραθύρου περιήγησης, μεταβείτε στις **Λειτουργικές μονάδες > Διαχείριση έργου και λογιστική > Ρύθμιση > Τιμές> Τιμή κόστους (ώρα)**.
 2. Επιλέξτε **Νέα**.

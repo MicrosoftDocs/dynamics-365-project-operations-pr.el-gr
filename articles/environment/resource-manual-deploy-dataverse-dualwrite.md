@@ -1,25 +1,25 @@
 ---
 title: Μη αυτόματη ανάπτυξη της εφαρμογής Project Operations Dataverse με υποστήριξη διπλής εγγραφής
-description: Αυτό θέμα εξηγεί τον τρόπο μη αυτόματης ανάπτυξης της εφαρμογής Project Operations Dataverse ώστε να υποστηρίζει διπλή εγγραφή.
+description: Αυτό το άρθρο εξηγεί τον τρόπο μη αυτόματης ανάπτυξης της εφαρμογής Project Operations Dataverse έτσι ώστε να υποστηρίζει τη δυνατότητα διπλής εγγραφής.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591220"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912010"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Μη αυτόματη ανάπτυξη της εφαρμογής Project Operations Dataverse με υποστήριξη διπλής εγγραφής
 
 _**Ισχύει για:** Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_
 
-Αυτό θέμα εξηγεί τον τρόπο μη αυτόματης ανάπτυξης του Microsoft Dynamics 365 Project Operations στο Microsoft Dataverse ώστε να υποστηρίζει διπλή εγγραφή. Το Project Operations εντοπίζει τη ρύθμιση παραμέτρων του περιβάλλοντος και προσθέτουν πρόσθετη υποστήριξη για διπλή εγγραφή, εάν πληρούνται οι προϋποθέσεις.
+Αυτό το άρθρο εξηγεί τον τρόπο μη αυτόματης ανάπτυξης της του Microsoft Dynamics 365 Project Operations στο Microsoft Dataverse έτσι ώστε να υποστηρίζει τη δυνατότητα διπλής εγγραφής. Το Project Operations εντοπίζει τη ρύθμιση παραμέτρων του περιβάλλοντος και προσθέτουν πρόσθετη υποστήριξη για διπλή εγγραφή, εάν πληρούνται οι προϋποθέσεις.
 
-Κατά τη διάρκεια της ανάπτυξης μέσω Microsoft Dynamics Lifecycle Services (LCS), αν έχετε ακολουθήσει τις οδηγίες σε αυτό το θέμα, μπορείτε να παραλείψετε την ανάπτυξη της ενοποίησης Microsoft Power Platform (παλαιότερα γνωστή ως περιβάλλον Common Data Service).
+Κατά τη διάρκεια της ανάπτυξης μέσω του Lifecycle Services (LCS) του Microsoft Dynamics, εάν έχετε ακολουθήσει τις οδηγίες αυτού του άρθρου, μπορείτε να παραλείψετε την ανάπτυξη της ενοποίησης του Microsoft Power Platform (παλαιότερα γνωστή ως περιβάλλον του Common Data Service).
 
 Η διαδικασία ανάπτυξης Project Operations σε Dataverse έτσι ώστε να υποστηρίζει τη δυνατότητα διπλής εγγραφής, έχει τέσσερα κύρια βήματα:
 
