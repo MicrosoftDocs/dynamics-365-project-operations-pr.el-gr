@@ -58,46 +58,52 @@
               href: environment/resource-dual-write-expense.md
             - name: Ενοποίηση τιμολογίων προμηθευτή
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Απεγκαταστήσετε το Dynamics 365 Project Operations
+        - name: Απεγκατάσταση του Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Τι νέα υπάρχουν
       items:
-        - name: Μάιος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: Απρίλιος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: Μάρτιος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: Φεβρουάριος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: Δεκέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: Νοέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: Οκτώβριος 2021 - Project Operations για σενάρια βασισμένα σε πόρους / μη εφοδιασμένα σενάρια
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: Σεπτέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: Αύγουστος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: Ιούλιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: Ιούνιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: Μάιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: Απρίλιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: Μάρτιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: Φεβρουάριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: Ιανουάριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: Δεκέμβριος 2020 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: Νοέμβριος 2020 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: Ιούλιος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Αρχειοθήκη
+          items:
+            - name: Ιούνιος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: Μάιος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: Απρίλιος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: Μάρτιος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: Φεβρουάριος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: Δεκέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: Νοέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: Οκτώβριος 2021 - Project Operations για σενάρια βασισμένα σε πόρους / μη εφοδιασμένα σενάρια
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: Σεπτέμβριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: Αύγουστος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: Ιούλιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: Ιούνιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: Μάιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: Απρίλιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: Μάρτιος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: Φεβρουάριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: Ιανουάριος 2021 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: Δεκέμβριος 2020 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: Νοέμβριος 2020 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Διεργασία πωλήσεων έργου
       items:
         - name: Επισκόπηση διεργασίας πωλήσεων έργου
@@ -438,7 +444,7 @@
           href: expense/cash-advance.md
         - name: Ημερήσια έξοδα
           href: expense/per-diem-expenses.md
-        - name: Εφαρμογή κινητών εξόδων
+        - name: Εφαρμογή εξόδων για κινητές συσκευές
           href: expense/expense-using-mobile.md
         - name: Χρηματοοικονομική διαχείριση
           items:
@@ -468,7 +474,15 @@
           href: actuals/businesstransactions.md
         - name: Επισκόπηση πραγματικών τιμών
           href: actuals/actuals-overview.md
-        - name: Προέλευση συναλλαγής - Σύνδεση των πραγματικών δεδομένων με την προέλευση
+        - name: Αντίκτυπος πραγματικών τιμών σε μια δέσμευση χρόνου και υλικών
+          href: actuals/ActualsonTM.md
+        - name: Αντίκτυπος πραγματικών τιμών σε μια δέσμευση σταθερής τιμής
+          href: actuals/ActualonFP.md
+        - name: Αντίκτυπος πραγματικών τιμών κατά τη διάρκεια σταδίου προπωλήσεων μιας δέσμευσης
+          href: actuals/ActualonPreSales.md
+        - name: Αντίκτυπος πραγματικών τιμών για ένα εσωτερικό έργο
+          href: actuals/ActualonInternal.md
+        - name: Προελεύσεις συναλλαγών - Σύνδεση πραγματικών τιμών με προέλευση
           href: actuals/linkingactuals.md
         - name: Συνδέσεις συναλλαγών - Σύνδεση πραγματικών τιμών διαφορετικών τύπων συναλλαγών
           href: actuals/connectingactuals.md
@@ -513,9 +527,11 @@
             - name: Επιβεβαίωση προτιμολογίου βάσει έργου
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: Δημιουργία διορθωτικών τιμολογίων βάσει έργου
-              href: proforma-invoicing/corrective-invoices.md
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
             - name: Ρύθμιση παραμέτρων αυτοματοποίησης τιμολογίου βάσει έργου
               href: proforma-invoicing/configure-automated-invoice-creation.md
+            - name: Διορθωτικά τιμολόγια βάσει έργου
+              href: proforma-invoicing/corrective-invoices.md
         - name: Τιμολόγηση πελατών
           items:
             - name: Διαχείριση προτάσεων τιμολογίου έργου
@@ -594,44 +610,50 @@
           href: environment/security-model.md
     - name: Τι νέα υπάρχουν
       items:
-        - name: Τι νέα υπάρχουν για πρώιμη πρόσβαση στο κύμα 2 του 2021 - ελαφριά ανάπτυξη
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: 'Τι νέα υπάρχουν, Μάιος 2022 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: 'Τι νέα υπάρχουν, Απρίλιος 2022 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: 'Τι νέα υπάρχουν, Μάρτιος 2022 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: 'Τι νέα υπάρχουν, Φεβρουάριος 2022 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: 'Τι νέα υπάρχουν, Δεκέμβριος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Νοέμβριος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Οκτώβριος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Αύγουστος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Ιούλιος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Ιούνιος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Μάιος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Απρίλιος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Μάρτιος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Φεβρουάριος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Ιανουάριος 2021 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: 'Τι νέα υπάρχουν, Δεκέμβριος 2020 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: 'Τι νέα υπάρχουν, Νοέμβριος 2020 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: 'Τι νέα υπάρχουν, Ιούλιος 2022 - ελαφριά ανάπτυξη'
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Αρχειοθήκη
+          items:
+            - name: 'Τι νέα υπάρχουν, Ιούνιος 2022 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: Τι νέα υπάρχουν για πρώιμη πρόσβαση στο κύμα 2 του 2021 - ελαφριά ανάπτυξη
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: 'Τι νέα υπάρχουν, Μάιος 2022 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: 'Τι νέα υπάρχουν, Απρίλιος 2022 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: 'Τι νέα υπάρχουν, Μάρτιος 2022 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: 'Τι νέα υπάρχουν, Φεβρουάριος 2022 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: 'Τι νέα υπάρχουν, Δεκέμβριος 2021 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: 'Τι νέα υπάρχουν, Νοέμβριος 2021 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: 'Τι νέα υπάρχουν, Οκτώβριος 2021 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2021 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: 'Τι νέα υπάρχουν, Αύγουστος 2021 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: 'Τι νέα υπάρχουν, Ιούλιος 2021 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: 'Τι νέα υπάρχουν, Ιούνιος 2021 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: 'Τι νέα υπάρχουν, Μάιος 2021 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: 'Τι νέα υπάρχουν, Απρίλιος 2021 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: 'Τι νέα υπάρχουν, Μάρτιος 2021 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: 'Τι νέα υπάρχουν, Φεβρουάριος 2021 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: 'Τι νέα υπάρχουν, Ιανουάριος 2021 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: 'Τι νέα υπάρχουν, Δεκέμβριος 2020 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: 'Τι νέα υπάρχουν, Νοέμβριος 2020 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Διεργασία πωλήσεων έργου
       items:
         - name: Επισκόπηση διεργασίας πωλήσεων έργου
@@ -1030,7 +1052,7 @@
           href: actuals/businesstransactions.md
         - name: Επισκόπηση πραγματικών τιμών
           href: actuals/actuals-overview.md
-        - name: Προέλευση συναλλαγής - Σύνδεση των πραγματικών δεδομένων με την προέλευση
+        - name: Προελεύσεις συναλλαγών - Σύνδεση πραγματικών τιμών με προέλευση
           href: actuals/linkingactuals.md
         - name: Συνδέσεις συναλλαγών - Σύνδεση πραγματικών τιμών διαφορετικών τύπων συναλλαγών
           href: actuals/connectingactuals.md
@@ -1068,26 +1090,54 @@
           href: team-member/project-operations-team-member.md
 - name: Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
   items:
+    - name: Έναρξη
+      items:
+        - name: Ρύθμιση παραμέτρων ενοποίησης δεδομένων
+          items:
+            - name: Επισκόπηση για το Project Service Automation
+              href: prod-pma/PSA-integration.md
+            - name: Παράμετροι ενοποίησης για το Project Service Automation
+              href: prod-pma/PSA-parameters.md
+            - name: Συγχρονισμός συμβάσεων έργου και έργων απευθείας από το Project Service Automation στο Finance
+              href: prod-pma/project-contracts-templates.md
+            - name: Συγχρονισμός πραγματικών τιμών έργου απευθείας από το Project Service Automation στο ημερολόγιο ενοποίησης έργου για καταχώρηση στα χρηματοοικονομικά στοιχεία και τις λειτουργίες
+              href: prod-pma/project-actuals-templates.md
+            - name: Συγχρονισμός εκτιμήσεων έργου απευθείας από το Project Service Automation στα χρηματοοικονομικά στοιχεία και τις λειτουργίες
+              href: prod-pma/project-estimates-templates.md
+            - name: 'Συγχρονισμός κατηγοριών εξόδων έργου ανάμεσα στα χρηματοοικονομικά στοιχεία και τις λειτουργίες, καθώς και το Project Service Automation'
+              href: prod-pma/project-categories-templates.md
+            - name: Συγχρονισμός εργασιών έργου απευθείας από το Project Service Automation στα χρηματοοικονομικά στοιχεία και τις λειτουργίες
+              href: prod-pma/project-tasks-template.md
+        - name: Ανάπτυξη περιβαλλόντων
+          items:
+            - name: Ενημέρωση του Project Operations στο περιβάλλον Finance
+              href: whats-new/ur5-nonstocked-installation.md
     - name: Τι νέα υπάρχουν
       items:
-        - name: 'Τι νέα υπάρχουν, Οκτώβριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Ιούλιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Μάιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Απρίλιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Μάρτιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Ιανουάριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: 'Τι νέα υπάρχουν, Δεκέμβριος 2020 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: 'Τι νέα υπάρχουν, Νοέμβριος 2020 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: 'Τι νέα υπάρχουν, Ιούλιος 2022 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Αρχειοθήκη
+          items:
+            - name: 'Τι νέα υπάρχουν, Ιούνιος 2022 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: 'Τι νέα υπάρχουν, Οκτώβριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: 'Τι νέα υπάρχουν, Ιούλιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: 'Τι νέα υπάρχουν, Μάιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: 'Τι νέα υπάρχουν, Απρίλιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: 'Τι νέα υπάρχουν, Μάρτιος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: 'Τι νέα υπάρχουν, Ιανουάριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: 'Τι νέα υπάρχουν, Δεκέμβριος 2020 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: 'Τι νέα υπάρχουν, Νοέμβριος 2020 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Επισκόπηση ανάπτυξης του Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Επισκόπηση διαχείρισης έργων και λογιστικής
@@ -1118,11 +1168,13 @@
           href: prod-pma/project-mobile-application-overview.md
         - name: Χώρος εργασίας κινητών συσκευών για καταχώρηση χρόνου έργου
           href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Εφαρμογή φύλλου κατανομής χρόνου έργου για κινητές συσκευές
+        - name: Εφαρμογή Project Timesheet για κινητές συσκευές
           href: prod-pma/project-timesheet.md
-        - name: Φύλλα κατανομής χρόνου έργου σε κινητή συσκευή
+        - name: Project Timesheet σε κινητή συσκευή
           href: prod-pma/mobile-timesheets.md
-        - name: Υλοποίηση προσαρμοσμένων πεδίων για την εφαρμογή Project timesheet για κινητές συσκευές
+        - name: Μετονομασία ή τροποποίηση σταδίου έργου
+          href: prod-pma/tasks/rename-project.md
+        - name: Υλοποίηση προσαρμοσμένων πεδίων για την εφαρμογή Project Timesheet για κινητές συσκευές
           href: prod-pma/custom-fields-mobile.md
     - name: Διαχείριση πόρων
       items:
@@ -1150,6 +1202,8 @@
       items:
         - name: Προβλέψεις και προϋπολογισμοί έργων
           href: prod-pma/project-forecasts-budgets.md
+        - name: Επιμερισμός προϋπολογισμού έργου ή αναθεώρησης προϋπολογισμού σε όλες τις περιόδους
+          href: prod-pma/tasks/allocate-project.md
         - name: Δημιουργία μοντέλων πρόβλεψης για προϋπολογισμούς έργων
           href: prod-pma/create-forecast-models-project-budgets.md
         - name: Μεταφορά προϋπολογισμών έργων στο τέλος οικονομικού έτους
@@ -1206,7 +1260,7 @@
           href: expense/cash-advance.md
         - name: Ημερήσια έξοδα
           href: expense/per-diem-expenses.md
-        - name: Εφαρμογή κινητών εξόδων
+        - name: Εφαρμογή εξόδων για κινητές συσκευές
           href: expense/expense-using-mobile.md
         - name: Χρηματοοικονομική διαχείριση
           items:
@@ -1246,6 +1300,10 @@
       items:
         - name: Κατάργηση εκτίμησης έργου
           href: prod-pma/eliminate-project-estimate.md
+    - name: Δημόσιος τομέας
+      items:
+        - name: Διερεύνηση για το Schedule of Expenditures of Federal Awards
+          href: prod-pma/project-sefa-inquiry.md
 - name: Διαχείριση εξόδων
   items:
     - name: Επισκόπηση διαχείρισης εξόδου
@@ -1265,6 +1323,8 @@
         - name: Διαχείριση ανάθεσης
           href: expense/manage-delegation.md
         - name: Ρύθμιση παραμέτρων διαχείρισης εξόδων
+          href: prod-exp/plan-expense-management.md
+        - name: Ρύθμιση παραμέτρων διαχείρισης εξόδων
           href: expense/configure-expense-management-parameters.md
         - name: Ρύθμιση ενοποίησης πιστωτικών καρτών
           href: expense/set-up-credit-card-integration.md
@@ -1278,10 +1338,14 @@
       items:
         - name: Διανομές σε μια αναφορά εξόδων
           href: expense/distributions-expense-report.md
+        - name: Εισαγωγή και διατήρηση συναλλαγών με πιστωτική κάρτα
+          href: prod-exp/import-credit-card.md
     - name: Έγκριση αναφορών εξόδων
       items:
         - name: Αναφορές εξόδων και πολλαπλοί υπεύθυνοι έγκρισης
           href: expense/expense-reports-multiple-approvers.md
+        - name: Διαχείριση ανάθεσης εξόδων
+          href: prod-exp/manage-expense-delegation.md
     - name: Καταχώρηση αναφορών εξόδων
       href: expense/posting-expense-reports.md
     - name: Ταξιδιωτική αναπλήρωση
@@ -1290,12 +1354,14 @@
       href: expense/cash-advance.md
     - name: Ημερήσιες αποζημιώσεις
       href: expense/per-diems.md
-    - name: Εφαρμογή κινητών εξόδων
+    - name: Εφαρμογή εξόδων για κινητές συσκευές
       href: expense/expense-using-mobile.md
     - name: Χρηματοοικονομική διαχείριση
       items:
         - name: Επιστροφή ΦΠΑ
           href: expense/vat-recovery.md
+        - name: Προβολή αναφοράς εξόδων από το Γενικό καθολικό ή την Προμήθεια
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -1304,6 +1370,8 @@
       items:
         - name: Ενημέρωση χρονοδιαγράμματος έκδοσης για το Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 44, V3'
+          href: psa/whats-new-ur-44.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 43, V3'
           href: psa/whats-new-ur43.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 42, V3'
@@ -1361,6 +1429,8 @@
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 23, V3'
           href: psa/whats-new-ur-23.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 22, V3'
+          href: psa/whats-new-ur-22.md
+        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 21, V3'
           href: psa/whats-new-ur-21.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 20, V3'
           href: psa/whats-new-ur-20.md
