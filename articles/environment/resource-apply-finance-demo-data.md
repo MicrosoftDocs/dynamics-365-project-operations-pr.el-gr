@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924660"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029897"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Εφαρμογή δεδομένων επίδειξης σε ένα περιβάλλον που φιλοξενείται σε cloud του Finance
 
@@ -76,7 +76,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 
 18. Κλείστε την περίοδο λειτουργίας της απομακρυσμένης επιφάνειας εργασίας και χρησιμοποιήστε τη σελίδα **Λεπτομέρειες περιβάλλοντος** του LCS για να συνδεθείτε στο περιβάλλον για να επιβεβαιώσετε ότι λειτουργεί όπως αναμενόταν.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Οικονομικές και επιχειρηματικές δραστηριότητες.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

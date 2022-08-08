@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931192"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028473"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Απαιτήσεις στοιχείων για συμβάσεις έργου με πολλαπλές προελεύσεις υποστήριξης
 
@@ -33,7 +33,7 @@ _**Ισχύει για:** Project Operations για Εφοδιασμένα σε�
 
 ### <a name="prerequisites"></a>Προϋποθέσεις
 
-- Απαιτείται Microsoft Dynamics 365 Finance and Operations **έκδοση 10.0.27 ή μεταγενέστερη** για τη χρήση απαιτήσεων στοιχείων που έχουν πολλούς λογαριασμούς τιμολογίων.
+- Απαιτείται Microsoft Dynamics 365 Finance **έκδοση 10.0.27 ή μεταγενέστερη** για τη χρήση απαιτήσεων στοιχείων που έχουν πολλούς λογαριασμούς τιμολογίων.
 - Ο διαχειριστής συστήματος πρέπει να ενεργοποιήσει τη δυνατότητα **Να επιτρέπονται απαιτήσεις στοιχείων με πολλές προελεύσεις χρηματοδότησης για σενάρια αποθέματος/βάσει παραγωγής Project Operations** στον χώρο εργασίας **Διαχείριση δυνατοτήτων**.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Ορισμός των κανόνων προεπιλογής λογαριασμού τιμολογίου

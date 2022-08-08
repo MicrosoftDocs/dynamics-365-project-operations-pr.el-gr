@@ -6,12 +6,12 @@ ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 75a7b63c12b0ad3c6808785b6cbe6f22bd65f126
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923418"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029530"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Τι νέο υπάρχει τον Νοέμβριο του 2020 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
 
@@ -65,7 +65,7 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 | Λογιστική έργου  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Η ενεργοποίηση της δυνατότητας, πολλές γραμμές σύμβασης, δεν είναι δυνατή χωρίς ενοποίηση CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
-Για πληροφορίες σχετικά με τις ρυθμιστικές ενημερώσεις για τις εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων, ανατρέξτε στις [ρυθμιστικές ενημερώσεις](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε, επίσης, να συνδεθείτε στο LCS και να προβάλετε τις προγραμματισμένες ενημερώσεις κανονισμών χρησιμοποιώντας το εργαλείο αναζήτησης ζητημάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+Για πληροφορίες σχετικά με τις ρυθμιστικές ενημερώσεις για τις εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων, ανατρέξτε στις [Ρυθμιστικές ενημερώσεις](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε, επίσης, να συνδεθείτε στο LCS και να προβάλετε τις προγραμματισμένες ενημερώσεις κανονισμών χρησιμοποιώντας το εργαλείο αναζήτησης ζητημάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

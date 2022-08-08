@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d693177ac68a92cec3893b4126a0bd7c79e0bb74
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934044"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029346"
 ---
 # <a name="expense-management-overview"></a>Επισκόπηση διαχείρισης εξόδου
 
@@ -43,7 +43,7 @@ ms.locfileid: "8934044"
 
 ### <a name="blogs"></a>Ιστολόγια
 
-Μπορείτε να βρείτε απόψεις, ειδήσεις και άλλες πληροφορίες στο [ιστολόγιο Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) και το [ιστολόγιο του Microsoft Dynamics 365 Finance and Operations - Οικονομικά](https://community.dynamics.com/365/financeandoperations/b/financials).
+Μπορείτε να βρείτε γνώμες, ειδήσεις και άλλες πληροφορίες στο [Ιστολόγιο Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) και στο [Ιστολόγιο Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Το [Ιστολόγιο Κοινότητας Συνεργατών του Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) δίνει στους συνεργάτες του Microsoft Dynamics έναν μόνο πόρο όπου μπορούν να μάθουν τι νέο υπάρχει και τις τάσεις στο MBS Operations.
 

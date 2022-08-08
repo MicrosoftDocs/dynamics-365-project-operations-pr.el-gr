@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ec1f256e77bad581bb415611260809e377dc38e8
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: eff34a4e9fc1fc6429f1fa7a3e4b0d5b664222f9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927144"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029392"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Τι νέο υπάρχει ή έχει αλλάξει στο Project Operations, Μάιος 2021 για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 
@@ -93,7 +93,7 @@ ms.locfileid: "8927144"
 | Ταξίδι και έξοδα                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | Υπάρχουν ζητήματα συγχρονισμού με την εφαρμογή Δαπάνες για κινητές συσκευές. 
 
 ### <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
-Για πληροφορίες σχετικά με τις ρυθμιστικές ενημερώσεις για τις εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων, ανατρέξτε στις [ρυθμιστικές ενημερώσεις](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε επίσης να συνδεθείτε στις Lifecycle Services (LCS) και να προβάλετε τις προγραμματισμένες ρυθμιστικές ενημερώσεις χρησιμοποιώντας το εργαλείο αναζήτησης θεμάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+Για πληροφορίες σχετικά με τις ρυθμιστικές ενημερώσεις για τις εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων, ανατρέξτε στις [Ρυθμιστικές ενημερώσεις](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε επίσης να συνδεθείτε στις Lifecycle Services (LCS) και να προβάλετε τις προγραμματισμένες ρυθμιστικές ενημερώσεις χρησιμοποιώντας το εργαλείο αναζήτησης θεμάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c04d0465f5f7dd43ba50d4c0d2937b45fed6df86
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933630"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028840"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Τι νέο υπάρχει ή έχει αλλάξει στο Project Operations, Ιούλιος 2021 για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 
@@ -64,7 +64,7 @@ _**Ισχύει για:** Project Operations για Εφοδιασμένα σε�
 | Ταξίδι και έξοδα                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Το εργαλείο **Κατάσταση εγγράφου Επαναφοράς δαπανών** θα πρέπει να επαναφέρει την κατάσταση της αναφοράς δαπανών σε **Προσχέδιο** σε περίπτωση που δεν βρεθεί η ροή εργασιών. 
 
 ### <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
-Για πληροφορίες σχετικά με τις ρυθμιστικές ενημερώσεις για τις εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων, ανατρέξτε στις [ρυθμιστικές ενημερώσεις](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε επίσης να συνδεθείτε στις Lifecycle Services (LCS) και να προβάλετε τις προγραμματισμένες ρυθμιστικές ενημερώσεις χρησιμοποιώντας το εργαλείο αναζήτησης θεμάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+Για πληροφορίες σχετικά με τις ρυθμιστικές ενημερώσεις για τις εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων, ανατρέξτε στις [Ρυθμιστικές ενημερώσεις](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε επίσης να συνδεθείτε στις Lifecycle Services (LCS) και να προβάλετε τις προγραμματισμένες ρυθμιστικές ενημερώσεις χρησιμοποιώντας το εργαλείο αναζήτησης θεμάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

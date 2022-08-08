@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 84a49994267d0c070769090f9fce9c6a969c98be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 210ef2bf0316c5e88c287052f739e438f3796c5b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923924"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029438"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Τι νέο υπάρχει ή τι άλλαξε τον Ιανουάριου του 2021 στο Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 
@@ -142,7 +142,7 @@ _**Ισχύει για:** Project Operations για Εφοδιασμένα σε�
 | Ταξίδι και έξοδα                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | Στο Project Operations, ο χρόνος με τις διεταιρικές εργασίες Dataverse δεν μπορεί να δημιουργηθεί ή να εγκριθεί.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
-Για πληροφορίες σχετικά με τις ρυθμιστικές ενημερώσεις για τις εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων, ανατρέξτε στις [ρυθμιστικές ενημερώσεις](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε, επίσης, να συνδεθείτε στο LCS και να προβάλετε τις προγραμματισμένες ενημερώσεις κανονισμών χρησιμοποιώντας το εργαλείο αναζήτησης ζητημάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
+Για πληροφορίες σχετικά με τις ρυθμιστικές ενημερώσεις για τις εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων, ανατρέξτε στις [Ρυθμιστικές ενημερώσεις](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε, επίσης, να συνδεθείτε στο LCS και να προβάλετε τις προγραμματισμένες ενημερώσεις κανονισμών χρησιμοποιώντας το εργαλείο αναζήτησης ζητημάτων. Η αναζήτηση ζητημάτων σάς δίνει τη δυνατότητα να πραγματοποιήσετε αναζήτηση με βάση τη χώρα, τον τύπο δυνατότητας και την έκδοση.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

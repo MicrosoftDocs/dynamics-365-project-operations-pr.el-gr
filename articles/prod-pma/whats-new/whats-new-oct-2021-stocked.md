@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aa36199c9e7b0a70307c5e9fb163d82554f6be16
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933676"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029943"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Τι νέα υπάρχουν ή τι έχει αλλάξει στο Project Operations, Οκτώβριος 2021 για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 
@@ -80,6 +80,6 @@ _**Ισχύει για:** Project Operations για Εφοδιασμένα σε�
 
 ### <a name="regulatory-updates"></a>Ενημερώσεις κανονισμών
 
-Για πληροφορίες σχετικά με τις ρυθμιστικές ενημερώσεις για τις εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων, ανατρέξτε στις [ρυθμιστικές ενημερώσεις](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε επίσης να συνδεθείτε στο Microsoft Dynamics Lifecycle Services (LCS) και να χρησιμοποιήσετε το εργαλείο αναζήτησης θεμάτων για να προβάλετε τις προγραμματισμένες ενημερώσεις των ρυθμίσεων. Η αναζήτηση ζητήματος σάς επιτρέπει να κάνετε αναζήτηση κατά χώρα ή περιοχή, τον τύπο της δυνατότητας και την κυκλοφορία.
+Για πληροφορίες σχετικά με τις ρυθμιστικές ενημερώσεις για τις εφαρμογές οικονομικών και επιχειρηματικών δραστηριοτήτων, ανατρέξτε στις [Ρυθμιστικές ενημερώσεις](/dynamics365/finance/localizations/regulatory-updates). Μπορείτε επίσης να συνδεθείτε στο Microsoft Dynamics Lifecycle Services (LCS) και να χρησιμοποιήσετε το εργαλείο αναζήτησης θεμάτων για να προβάλετε τις προγραμματισμένες ενημερώσεις των ρυθμίσεων. Η αναζήτηση ζητήματος σάς επιτρέπει να κάνετε αναζήτηση κατά χώρα ή περιοχή, τον τύπο της δυνατότητας και την κυκλοφορία.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

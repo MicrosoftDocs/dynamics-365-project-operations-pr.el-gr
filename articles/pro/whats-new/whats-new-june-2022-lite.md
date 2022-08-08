@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2d773603abef7ab45d4d1c298e5553e57893294d
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 8313288ecf7ff1350cd82c62d3d0c291d8a3ded4
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959438"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031193"
 ---
 # <a name="whats-new-june-2022---project-operations-lite-deployment"></a>Τι νέο υπάρχει, Ιούνιος 2022 - ελαφριά ανάπτυξη Project Operations
 
@@ -20,7 +20,7 @@ _**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία γ�
 
 Αυτό το άρθρο ισχύει για τα ακόλουθα στοιχεία και εκδόσεις του Microsoft Dynamics 365 Project Operations:
 
-- Project Operations στο περιβάλλον Dataverse έκδοση 4.43.0.77
+- Project Operations σε περιβάλλον Dataverse έκδοση 4.43.0.77 ή 4.43.0.119
 
 ## <a name="quality-updates"></a>Ενημερώσεις ποιότητας
 

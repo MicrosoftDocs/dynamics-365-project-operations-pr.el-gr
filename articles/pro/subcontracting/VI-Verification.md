@@ -6,18 +6,18 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7bf48dd17063daece5df3ce44c0375eec3dc3cae
+ms.sourcegitcommit: 49c2a668b8d7bf0acb9e9b0bb44687e6d3dcaa8c
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914218"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9204174"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Επαλήθευση τιμολογίων πωλητή με εγκεκριμένες πραγματικές τιμές
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
-_ **Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση
+_**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
 
 Το Microsoft Dynamics 365 Project Operations επιτρέπει στους διαχειριστές έργου να επαληθεύουν τις γραμμές τιμολογίου του πωλητή με τους εξής τρόπους:
 
