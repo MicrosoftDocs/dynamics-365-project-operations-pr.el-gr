@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ef2be1f6286c55861e92abf5c85a5387aec8cd1c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: a3173b98bee90b138bb7ce1b59bde90d8d0f5db2
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959474"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316941"
 ---
 # <a name="whats-new-or-changed-in-project-operations-june-2022-for-stockedproduction-based-scenarios"></a>Τι νέα υπάρχουν ή τι έχει αλλάξει στο Project Operations, Ιούνιος 2022 για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
 
@@ -24,7 +24,7 @@ _**Ισχύει για:** Project Operations για Εφοδιασμένα σε�
 
 ## <a name="features-included-in-this-release"></a>Δυνατότητες που περιλαμβάνονται σε αυτήν την έκδοση
 
-Οι απαιτήσεις στοιχείων μπορούν να χρησιμοποιηθούν για συμβάσεις έργου που έχουν πολλαπλές πηγές χρηματοδότησης. Για περισσότερες πληροφορίες, βλ. [Απαιτήσεις στοιχείων για συμβάσεις έργου με πολλαπλές πηγές χρηματοδότησης](/multiple-funding-sources-item-req.md)
+Οι απαιτήσεις στοιχείων μπορούν να χρησιμοποιηθούν για συμβάσεις έργου που έχουν πολλαπλές πηγές χρηματοδότησης. Για περισσότερες πληροφορίες, βλ. [Απαιτήσεις στοιχείων για συμβάσεις έργου με πολλαπλές πηγές χρηματοδότησης](../multiple-funding-sources-item-req.md)
 
 ## <a name="quality-updates"></a>Ενημερώσεις ποιότητας
 
