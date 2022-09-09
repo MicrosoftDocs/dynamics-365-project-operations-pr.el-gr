@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Αντιγραφή προσφορών έργου
               href: sales/lose-quote.md
+            - name: Ενεργοποίηση και αναθεώρηση προσφοράς έργου
+              href: sales/activation-and-revision.md
             - name: Κλείσιμο προσφορών έργου
               href: sales/win-quote.md
         - name: Διαχείριση συμβάσεων έργου
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Δημιουργία χρονοδιαγραμμάτων τιμολογίου σε γραμμές σύμβασης βάσει έργου
                   href: sales/invoice-schedules-contract-line.md
+            - name: Αντιγραφή συμβάσεων βάσει έργου
+              href: sales/copy-project-based-contracts-sales.md
             - name: Επιβεβαίωση σύμβασης έργου
               href: pro/sales/confirm-contract-sales.md
             - name: Προκαταβολές και προπληρωμές
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Παράκαμψη τιμοκαταλόγων πωλήσεων έργου
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Επίλυση τιμών κόστους για εκτιμήσεις και πραγματικές τιμές
+            - name: Καθορισμός τιμών κόστους για εκτιμήσεις και πραγματικές τιμές
               href: pricing-costing/cost-price-resolution.md
-            - name: Επίλυση τιμών πωλήσεων για εκτιμήσεις και πραγματικές τιμές
+            - name: Καθορισμός τιμών πωλήσεων για εκτιμήσεις και πραγματικές τιμές
               href: pricing-costing/sales-price-resolution.md
             - name: Αντιγραφή τιμοκαταλόγων
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Αντιγραφή προσφορών βάσει έργου
               href: sales/lose-quote.md
+            - name: Ενεργοποίηση και αναθεώρηση προσφοράς έργου
+              href: sales/activation-and-revision.md
             - name: Κλείσιμο προσφορών βάσει έργου
               href: pro/sales/win-quote-sales.md
         - name: Διαχείριση συμβάσεων βάσει έργου
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Παράκαμψη τιμοκαταλόγων πωλήσεων έργου
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Επίλυση τιμών κόστους σε εκτιμήσεις και πραγματικές τιμές έργου
+            - name: Καθορισμός τιμών κόστους σε εκτιμήσεις και πραγματικές τιμές έργου
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Επίλυση τιμών πωλήσεων για εκτιμήσεις και πραγματικές τιμές έργου
+            - name: Καθορισμός τιμών πωλήσεων για εκτιμήσεις και πραγματικές τιμές έργου
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Αντιγραφή τιμοκαταλόγων
               href: pricing-costing/copy-price-lists.md
