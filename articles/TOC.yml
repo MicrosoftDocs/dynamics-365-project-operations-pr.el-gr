@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Παράκαμψη τιμοκαταλόγων πωλήσεων έργου
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Ορισμός παρακάμψεων ημερομηνίας έναρξης ισχύος για συγκεκριμένες τιμές σε έναν τιμοκατάλογο
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Καθορισμός τιμών κόστους για εκτιμήσεις και πραγματικές τιμές
               href: pricing-costing/cost-price-resolution.md
             - name: Καθορισμός τιμών πωλήσεων για εκτιμήσεις και πραγματικές τιμές
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Παραγγελία αγαθών και υπηρεσιών για έργα με χρήση παραγγελιών αγοράς έργου
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Τιμολόγια προμηθευτών για υπεργολάβους στο Dataverse
+          items:
+            - name: Δημιουργία τιμολογίων προμηθευτών
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Επαλήθευση τιμολογίων προμηθευτή με εγκεκριμένες πραγματικές τιμές
+              href: pro/subcontracting/VI-Verification.md
+            - name: Επιβεβαίωση τιμολογίων προμηθευτή έργου
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Διατήρηση προμηθευτή
           items:
             - name: Επισκόπηση διατήρησης προμηθευτή
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Παράκαμψη τιμοκαταλόγων πωλήσεων έργου
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Ορισμός παρακάμψεων ημερομηνίας έναρξης ισχύος για συγκεκριμένες τιμές σε έναν τιμοκατάλογο
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Καθορισμός τιμών κόστους σε εκτιμήσεις και πραγματικές τιμές έργου
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Καθορισμός τιμών πωλήσεων για εκτιμήσεις και πραγματικές τιμές έργου
