@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Ανάκληση καταχωρήσεων που είχαν εγκριθεί
           href: approvals/recall-cancel.md
+        - name: Ασφάλεια και εγκρίσεις
+          href: approvals/approvals-security.md
         - name: Σημειώσεις προγραμματιστή
           items:
             - name: Σημειώσεις προγραμματιστή για Εγκρίσεις
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Εγκατάσταση διατήρησης προμηθευτή
               href: procurement/set-up-vendor-retention.md
+            - name: Πληρωμή κατά την πληρωμή
+              href: procurement/Pay-when-paid.md
     - name: Τιμολόγηση
       items:
         - name: Επισκόπηση διεργασίας τιμολόγησης
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Ανάκληση καταχωρήσεων που είχαν εγκριθεί
           href: approvals/recall-cancel.md
+        - name: Ασφάλεια και εγκρίσεις
+          href: approvals/approvals-security.md
         - name: Σημειώσεις προγραμματιστή
           items:
             - name: Σημειώσεις προγραμματιστή για Εγκρίσεις
