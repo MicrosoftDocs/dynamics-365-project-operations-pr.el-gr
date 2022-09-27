@@ -2,20 +2,20 @@
 title: Στελέχωση έργου με συμβασιούχους και υπεργολάβους
 description: Αυτό το άρθρο εξηγεί τον τρόπο στελέχωσης απαιτήσεων έργου χρησιμοποιώντας συμβασιούχους ή υπεργολάβους στο Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261254"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522435"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Στελέχωση έργου με συμβασιούχους και υπεργολάβους
 
-_**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
+_**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
 Τα μέλη της ομάδας γενικού έργου μπορούν να στελεχώνονται με υπαλλήλους ή συμβασιούχους. Κατά τη στελέχωση ενός έργου με συμβασιούχους, μπορείτε να περιορίσετε τις επιλογές στελέχωσης σε συγκεκριμένους συμβασιούχους που έχουν ανατεθεί σε μια γραμμή υπεργολαβίας. 
 

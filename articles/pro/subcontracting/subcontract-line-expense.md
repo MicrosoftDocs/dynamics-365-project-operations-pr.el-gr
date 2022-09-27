@@ -2,20 +2,20 @@
 title: Γραμμές για κατηγορίες εξόδων στην υπεργολαβία
 description: Αυτό το άρθρο εξηγεί τον τρόπο καταγραφής γραμμών υπεργολαβίας για έξοδα και τη χρήση πεδίων για την καταγραφή των αγορών χρόνου από προμηθευτές.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261840"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522607"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Γραμμές για κατηγορίες εξόδων στην υπεργολαβία
 
-_**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
+_**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
 Μια υπεργολαβία στο Dynamics 365 Project Operations μπορεί να έχει μια γραμμή για τις κατηγορίες δαπανών. Οι γραμμές υπεργολαβίας για κατηγορίες δαπανών επιτρέπουν σε έναν υπεύθυνο έργου να αγοράσει κατηγορίες υπηρεσιών ή προϊόντων από προμηθευτές, τις οποίες μπορούν να χρεώσουν σε ένα έργο.
 

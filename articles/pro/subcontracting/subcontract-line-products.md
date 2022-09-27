@@ -2,20 +2,20 @@
 title: Γραμμές για προϊόντα στην υπεργολαβία
 description: Αυτό το άρθρο εξηγεί τον τρόπο καταγραφής γραμμών υπεργολαβίας για προϊόντα και τη χρήση διαφόρων πεδίων για την καταχώρηση αγορών προϊόντων από προμηθευτές.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262112"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522842"
 ---
 # <a name="subcontract-lines-for-products"></a>Γραμμές για προϊόντα στην υπεργολαβία
 
-_**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
+_**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
 Μια υπεργολαβία στο Dynamics 365 Project Operations μπορεί να έχει μια γραμμή υπεργολαβίας για προϊόντα. Αυτές οι γραμμές επιτρέπουν σε έναν υπεύθυνο έργου να αγοράσει προϊόντα από προμηθευτές, τα οποία μπορούν έπειτα να χρησιμοποιήσουν σε εργασίες έργου.
 

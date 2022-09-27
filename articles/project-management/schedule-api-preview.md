@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230315"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541124"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Χρήση API χρονοδιαγράμματος έργου για την εκτέλεση λειτουργιών με οντότητες προγραμματισμού
 
 _**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
 
-
-## <a name="scheduling-entities"></a>Οντότητες προγραμματισμού
+**Οντότητες προγραμματισμού**
 
 Τα API χρονοδιαγράμματος έργου παρέχουν τη δυνατότητα εκτέλεσης λειτουργιών δημιουργίας, ενημέρωσης και διαγραφής με **Οντότητες προγραμματισμού**. Η διαχείριση αυτών των οντοτήτων γίνεται μέσω της μηχανής προγραμματισμού στο Έργο για το web. Οι λειτουργίες δημιουργίας, ενημέρωσης και διαγραφής με **Οντότητες προγραμματισμού** περιορίστηκαν σε προηγούμενες εκδόσεις του Dynamics 365 Project Operations.
 
 Ο παρακάτω πίνακας παρέχει μια πλήρη λίστα των οντοτήτων χρονοδιαγράμματος έργου.
 
-| Όνομα οντότητας  | Λογικό όνομα οντότητας |
-| --- | --- |
-| Project | msdyn_project |
-| Εργασία έργου  | msdyn_projecttask  |
-| Εξάρτηση εργασίας έργου  | msdyn_projecttaskdependency  |
-| Ανάθεση πόρου | msdyn_resourceassignment |
-| Κάδος έργου  | msdyn_projectbucket |
-| Μέλος ομάδας έργου | msdyn_projectteam |
+| **Όνομα οντότητας**         | **Λογικό όνομα οντότητας**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| Εργασία έργου            | msdyn_projecttask           |
+| Εξάρτηση εργασίας έργου | msdyn_projecttaskdependency |
+| Ανάθεση πόρου     | msdyn_resourceassignment    |
+| Κάδος έργου          | msdyn_projectbucket         |
+| Μέλος ομάδας έργου     | msdyn_projectteam           |
+| Λίστες ελέγχου έργου      | msdyn_projectchecklist      |
+| Ετικέτα έργου           | msdyn_projectlabel          |
+| Εργασία έργου για την ετικέτα   | msdyn_projecttasktolabel    |
+| Κύκλος επανάληψης έργου          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 Το OperationSet είναι ένα μοτίβο μονάδας εργασίας που μπορεί να χρησιμοποιηθεί όταν διάφορα αιτήματα που επηρεάζουν το χρονοδιάγραμμα πρέπει να υποβληθούν σε επεξεργασία εντός μιας συναλλαγής.
 
-## <a name="project-schedule-apis"></a>API χρονοδιαγράμματος έργου
+**API χρονοδιαγράμματος έργου**
 
 Ακολουθεί μια λίστα με τα τρέχοντα API χρονοδιαγράμματος έργου.
 
-- **msdyn_CreateProjectV1**: αυτό το API μπορεί να χρησιμοποιηθεί για τη δημιουργία ενός έργου. Το έργο και ο προεπιλεγμένος κάδος έργου δημιουργούνται αμέσως.
-- **msdyn_CreateTeamMemberV1**: αυτό το API μπορεί να χρησιμοποιηθεί για τη δημιουργία ενός μέλους ομάδας έργου. Η καρτέλα μέλους ομάδας δημιουργείται αμέσως.
-- **msdyn_CreateOperationSetV1**: αυτό το API μπορεί να χρησιμοποιηθεί για τον προγραμματισμό διαφόρων αιτήσεων που πρέπει να εκτελεστούν εντός μιας συναλλαγής.
-- **msdyn_PssCreateV1**: αυτό το API μπορεί να χρησιμοποιηθεί για τη δημιουργία μιας οντότητας. Η οντότητα μπορεί να είναι οποιαδήποτε από τις οντότητες προγραμματισμού έργου που υποστηρίζουν τη λειτουργία δημιουργίας.
-- **msdyn_PssUpdateV1**: αυτό το API μπορεί να χρησιμοποιηθεί για την ενημέρωση μιας οντότητας. Η οντότητα μπορεί να είναι οποιαδήποτε από τις οντότητες προγραμματισμού έργου που υποστηρίζουν τη λειτουργία ενημέρωσης.
-- **msdyn_PssDeleteV1**: αυτό το API μπορεί να χρησιμοποιηθεί για τη διαγραφή μιας οντότητας. Η οντότητα μπορεί να είναι οποιαδήποτε από τις οντότητες προγραμματισμού έργου που υποστηρίζουν τη λειτουργία διαγραφής.
-- **msdyn_ExecuteOperationSetV1**: αυτό το API χρησιμοποιείται για την εκτέλεση όλων των λειτουργιών εντός του δεδομένου συνόλου λειτουργιών.
+| **API**                                 | Description                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | Αυτό το API χρησιμοποιείται για τη δημιουργία ενός έργου. Το έργο και ο προεπιλεγμένος κάδος έργου δημιουργούνται αμέσως.                         |
+| **msdyn_CreateTeamMemberV1**            | Αυτό το API χρησιμοποιείται για τη δημιουργία ενός μέλους ομάδας έργου. Η καρτέλα μέλους ομάδας δημιουργείται αμέσως.                                  |
+| **msdyn_CreateOperationSetV1**          | Αυτό το API μπορεί να χρησιμοποιηθεί για τον προγραμματισμό διαφόρων αιτήσεων που πρέπει να εκτελεστούν εντός μιας συναλλαγής.                                        |
+| **msdyn_PssCreateV1**                   | Αυτό το API χρησιμοποιείται για τη δημιουργία μιας οντότητας. Η οντότητα μπορεί να είναι οποιαδήποτε από τις οντότητες προγραμματισμού έργου που υποστηρίζουν τη λειτουργία δημιουργίας. |
+| **msdyn_PssUpdateV1**                   | Αυτό το API χρησιμοποιείται για την ενημέρωση μιας οντότητας. Η οντότητα μπορεί να είναι οποιαδήποτε από τις οντότητες προγραμματισμού έργου που υποστηρίζουν τη λειτουργία ενημέρωσης  |
+| **msdyn_PssDeleteV1**                   | Αυτό το API χρησιμοποιείται για τη διαγραφή μιας οντότητας. Η οντότητα μπορεί να είναι οποιαδήποτε από τις οντότητες προγραμματισμού έργου που υποστηρίζουν τη λειτουργία διαγραφής. |
+| **msdyn_ExecuteOperationSetV1**         | Αυτό το API χρησιμοποιείται για την εκτέλεση όλων των λειτουργιών εντός του δεδομένου συνόλου λειτουργιών.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | Αυτό το API χρησιμοποιείται για την ενημέρωση μιας προγραμματισμένης εργασίας ανάθεσης πόρων.                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>Χρήση API χρονοδιαγράμματος έργου με το OperationSet
+
+
+**Χρήση API χρονοδιαγράμματος έργου με το OperationSet**
 
 Επειδή οι καρτέλες και με το **CreateProjectV1** και το **CreateTeamMemberV1** δημιουργούνται αμέσως, αυτά τα API δεν μπορούν να χρησιμοποιηθούν απευθείας στο **OperationSet**. Ωστόσο, μπορείτε να χρησιμοποιήσετε το API για να δημιουργήσετε απαραίτητες καρτέλες, να δημιουργήσετε ένα **OperationSet** και, στη συνέχεια, να χρησιμοποιήσετε αυτές τις προ-δημιουργημένες καρτέλες στο **OperationSet**.
 
-## <a name="supported-operations"></a>Υποστηριζόμενες λειτουργίες
+**Υποστηριζόμενες λειτουργίες**
 
-| Οντότητα προγραμματισμού | Δημιουργία | Update | Delete | Σημαντικές επισημάνσεις |
-| --- | --- | --- | --- | --- |
-Εργασία έργου | Ναι | Ναι | Ναι | Μπορείτε να επεξεργαστείτε τα πεδία **Πρόοδος**, **EffortCompleted** και **EffortRemaining** στο Project for the Web, αλλά δεν είναι δυνατή η επεξεργασία τους στο Project Operations.  |
-| Εξάρτηση εργασίας έργου | Ναι |  | Ναι | Οι καρτέλες εξάρτησης εργασιών έργου δεν ενημερώνονται. Αντίθετα, είναι δυνατό να διαγραφεί μια παλιά καρτέλα και να δημιουργηθεί μια νέα καρτέλα. |
-| Ανάθεση πόρου | Ναι | Ναι | | Οι λειτουργίες με τα ακόλουθα πεδία δεν υποστηρίζονται: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** και **PlannedWork**. Οι καρτέλες ανάθεσης πόρων δεν ενημερώνονται. Αντίθετα, είναι δυνατό να διαγραφεί η παλιά καρτέλα και να δημιουργηθεί μια νέα καρτέλα. |
-| Κάδος έργου | Ναι | Ναι | Ναι | Ο προεπιλεγμένος κάδος δημιουργείται με τη χρήση του API **CreateProjectV1**. Η υποστήριξη για τη δημιουργία και διαγραφή κάδων έργων προστέθηκε στην έκδοση ενημέρωσης 16. |
-| Μέλος ομάδας έργου | Ναι | Ναι | Ναι | Για τη λειτουργία δημιουργίας, χρησιμοποιήστε το API **CreateTeamMemberV1**. |
-| Project | Ναι | Ναι |  | Οι λειτουργίες με τα ακόλουθα πεδία δεν υποστηρίζονται: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** και **Duration**. |
+| **Οντότητα προγραμματισμού**   | **Δημιουργία** | **Ενημέρωση** | **Delete** | **Σημαντικές επισημάνσεις**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Εργασία έργου            | Ναι        | Ναι        | Ναι        | Μπορείτε να επεξεργαστείτε τα πεδία **Πρόοδος**, **EffortCompleted** και **EffortRemaining** στο Project for the Web, αλλά δεν είναι δυνατή η επεξεργασία τους στο Project Operations.                                                                                                                                                                                             |
+| Εξάρτηση εργασίας έργου | Όχι        | όχι         | Όχι        | Οι καρτέλες εξάρτησης εργασιών έργου δεν ενημερώνονται. Αντίθετα, είναι δυνατό να διαγραφεί μια παλιά καρτέλα και να δημιουργηθεί μια νέα καρτέλα.                                                                                                                                                                                                                                 |
+| Ανάθεση πόρου     | Όχι        | Ναι\*      | Όχι        | Οι λειτουργίες με τα ακόλουθα πεδία δεν υποστηρίζονται: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** και **PlannedWork**. Οι καρτέλες ανάθεσης πόρων δεν ενημερώνονται. Αντίθετα, είναι δυνατό να διαγραφεί η παλιά καρτέλα και να δημιουργηθεί μια νέα καρτέλα. Έχει παρασχεθεί ένα ξεχωριστό API για την ενημέρωση των αδειών εκχώρησης πόρων. |
+| Κάδος έργου          | Όχι        | Όχι        | Όχι        | Ο προεπιλεγμένος κάδος δημιουργείται με τη χρήση του API **CreateProjectV1**. Η υποστήριξη για τη δημιουργία και διαγραφή κάδων έργων προστέθηκε στην έκδοση ενημέρωσης 16.                                                                                                                                                                                                   |
+| Μέλος ομάδας έργου     | Ναι        | Ναι        | Ναι        | Για τη λειτουργία δημιουργίας, χρησιμοποιήστε το API **CreateTeamMemberV1**.                                                                                                                                                                                                                                                                                           |
+| Project                 | Ναι        | Ναι        |            | Οι λειτουργίες με τα ακόλουθα πεδία δεν υποστηρίζονται: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** και **Duration**.                                                                                       |
+| Λίστες ελέγχου έργου      | Όχι        | Όχι        | Όχι        |                                                                                                                                                                                                                                                                                                                                                         |
+| Ετικέτα έργου           | όχι         | Όχι        | όχι         | Τα ονόματα ετικετών μπορούν να αλλάξουν. Αυτή η δυνατότητα είναι διαθέσιμη μόνο στο Project for the Web                                                                                                                                                                                                                                                                      |
+| Εργασία έργου για την ετικέτα   | Όχι        | όχι         | Όχι        | Αυτή η δυνατότητα είναι διαθέσιμη μόνο στο Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Κύκλος επανάληψης έργου          | Όχι        | Όχι        | Όχι        | Το πεδίο **Έναρξη** πρέπει να έχει μια ημερομηνία προγενέστερη από το πεδίο **Τέλος**. Οι κύκλοι επανάληψης για το ίδιο έργο δεν επικαλύπτονται μεταξύ τους. Αυτή η δυνατότητα είναι διαθέσιμη μόνο στο Project for the Web                                                                                                                                                                    |
 
-Αυτά τα API μπορούν να καλούνται με αντικείμενα οντότητας που περιλαμβάνουν προσαρμοσμένα πεδία.
+
+
 
 Η ιδιότητα αναγνωριστικού είναι μόνο για ανάγνωση. Εάν παρέχεται, το σύστημα επιχειρεί να τη χρησιμοποιήσει και προσφέρει εξαίρεση, εάν δεν μπορεί να χρησιμοποιηθεί. Εάν δεν παρέχεται, το σύστημα θα το δημιουργήσει.
 
-## <a name="restricted-fields"></a>Περιορισμένα πεδία
+**Περιορισμοί και γνωστά προβλήματα**
 
-Οι παρακάτω πίνακες ορίζουν τα πεδία που περιορίζονται από τα **Δημιουργία** και **Επεξεργασία**.
-
-### <a name="project-task"></a>Εργασία έργου
-
-| Λογικό όνομα                           | Δυνατότητα δημιουργίας     | Δυνατότητα επεξεργασίας         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | No             | No               |
-| msdyn_actualcost_base                  | No             | No               |
-| msdyn_actualend                        | No             | No               |
-| msdyn_actualsales                      | No             | No               |
-| msdyn_actualsales_base                 | No             | No               |
-| msdyn_actualstart                      | No             | No               |
-| msdyn_costatcompleteestimate           | No             | No               |
-| msdyn_costatcompleteestimate_base      | No             | No               |
-| msdyn_costconsumptionpercentage        | No             | No               |
-| msdyn_effortcompleted                  | Όχι (ναι για το Project)             | Όχι (ναι για το Project)               |
-| msdyn_effortremaining                  | Όχι (ναι για το Project)              | Όχι (ναι για το Project)                |
-| msdyn_effortestimateatcomplete         | No             | No               |
-| msdyn_iscritical                       | No             | No               |
-| msdyn_iscriticalname                   | No             | No               |
-| msdyn_ismanual                         | No             | No               |
-| msdyn_ismanualname                     | No             | No               |
-| msdyn_ismilestone                      | No             | No               |
-| msdyn_ismilestonename                  | No             | No               |
-| msdyn_LinkStatus                       | No             | No               |
-| msdyn_linkstatusname                   | No             | No               |
-| msdyn_msprojectclientid                | No             | No               |
-| msdyn_plannedcost                      | No             | No               |
-| msdyn_plannedcost_base                 | No             | No               |
-| msdyn_plannedsales                     | No             | No               |
-| msdyn_plannedsales_base                | No             | No               |
-| msdyn_pluginprocessingdata             | No             | No               |
-| msdyn_progress                         | Όχι (ναι για το Project)             | Όχι (ναι για το Project) |
-| msdyn_remainingcost                    | No             | No               |
-| msdyn_remainingcost_base               | No             | No               |
-| msdyn_remainingsales                   | No             | No               |
-| msdyn_remainingsales_base              | No             | No               |
-| msdyn_requestedhours                   | No             | No               |
-| msdyn_resourcecategory                 | No             | No               |
-| msdyn_resourcecategoryname             | No             | No               |
-| msdyn_resourceorganizationalunitid     | No             | No               |
-| msdyn_resourceorganizationalunitidname | No             | No               |
-| msdyn_salesconsumptionpercentage       | No             | No               |
-| msdyn_salesestimateatcomplete          | No             | No               |
-| msdyn_salesestimateatcomplete_base     | No             | No               |
-| msdyn_salesvariance                    | No             | No               |
-| msdyn_salesvariance_base               | No             | No               |
-| msdyn_scheduleddurationminutes         | No             | No               |
-| msdyn_scheduledend                     | No             | No               |
-| msdyn_scheduledstart                   | No             | No               |
-| msdyn_schedulevariance                 | No             | No               |
-| msdyn_skipupdateestimateline           | No             | No               |
-| msdyn_skipupdateestimatelinename       | No             | No               |
-| msdyn_summary                          | No             | No               |
-| msdyn_varianceofcost                   | No             | No               |
-| msdyn_varianceofcost_base              | No             | No               |
-
-### <a name="project-task-dependency"></a>Εξάρτηση εργασίας έργου
-
-| Λογικό όνομα                  | Δυνατότητα δημιουργίας     | Δυνατότητα επεξεργασίας     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | No             | No           |
-| msdyn_linktypename            | No             | No           |
-| msdyn_predecessortask         | Ναι            | No           |
-| msdyn_predecessortaskname     | Ναι            | No           |
-| msdyn_project                 | Ναι            | No           |
-| msdyn_projectname             | Ναι            | No           |
-| msdyn_projecttaskdependencyid | Ναι            | No           |
-| msdyn_successortask           | Ναι            | No           |
-| msdyn_successortaskname       | Ναι            | No           |
-
-### <a name="resource-assignment"></a>Ανάθεση πόρου
-
-| Λογικό όνομα                 | Δυνατότητα δημιουργίας     | Δυνατότητα επεξεργασίας     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | Ναι            | No           |
-| msdyn_bookableresourceidname | Ναι            | No           |
-| msdyn_bookingstatusid        | No             | No           |
-| msdyn_bookingstatusidname    | No             | No           |
-| msdyn_committype             | No             | No           |
-| msdyn_committypename         | No             | No           |
-| msdyn_effort                 | No             | No           |
-| msdyn_effortcompleted        | No             | No           |
-| msdyn_effortremaining        | No             | No           |
-| msdyn_finish                 | No             | No           |
-| msdyn_plannedcost            | No             | No           |
-| msdyn_plannedcost_base       | No             | No           |
-| msdyn_plannedcostcontour     | No             | No           |
-| msdyn_plannedsales           | No             | No           |
-| msdyn_plannedsales_base      | No             | No           |
-| msdyn_plannedsalescontour    | No             | No           |
-| msdyn_plannedwork            | No             | No           |
-| msdyn_projectid              | Ναι            | No           |
-| msdyn_projectidname          | No             | No           |
-| msdyn_projectteamid          | No             | No           |
-| msdyn_projectteamidname      | No             | No           |
-| msdyn_start                  | No             | No           |
-| msdyn_taskid                 | No             | No           |
-| msdyn_taskidname             | No             | No           |
-| msdyn_userresourceid         | No             | No           |
-
-### <a name="project-team-member"></a>Μέλος ομάδας έργου
-
-| Λογικό όνομα                                     | Δυνατότητα δημιουργίας     | Δυνατότητα επεξεργασίας     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | No             | No           |
-| msdyn_creategenericteammemberwithrequirementname | No             | No           |
-| msdyn_deletestatus                               | No             | No           |
-| msdyn_deletestatusname                           | No             | No           |
-| msdyn_effort                                     | No             | No           |
-| msdyn_effortcompleted                            | No             | No           |
-| msdyn_effortremaining                            | No             | No           |
-| msdyn_finish                                     | No             | No           |
-| msdyn_hardbookedhours                            | No             | No           |
-| msdyn_hours                                      | No             | No           |
-| msdyn_markedfordeletiontimer                     | No             | No           |
-| msdyn_markedfordeletiontimestamp                 | No             | No           |
-| msdyn_msprojectclientid                          | No             | No           |
-| msdyn_percentage                                 | No             | No           |
-| msdyn_requiredhours                              | No             | No           |
-| msdyn_softbookedhours                            | No             | No           |
-| msdyn_start                                      | No             | No           |
-
-### <a name="project"></a>Project
-
-| Λογικό όνομα                           | Δυνατότητα δημιουργίας     | Δυνατότητα επεξεργασίας     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | No             | No           |
-| msdyn_actualexpensecost_base           | No             | No           |
-| msdyn_actuallaborcost                  | No             | No           |
-| msdyn_actuallaborcost_base             | No             | No           |
-| msdyn_actualsales                      | No             | No           |
-| msdyn_actualsales_base                 | No             | No           |
-| msdyn_contractlineproject              | Ναι            | No           |
-| msdyn_contractorganizationalunitid     | Ναι            | No           |
-| msdyn_contractorganizationalunitidname | Ναι            | No           |
-| msdyn_costconsumption                  | No             | No           |
-| msdyn_costestimateatcomplete           | No             | No           |
-| msdyn_costestimateatcomplete_base      | No             | No           |
-| msdyn_costvariance                     | No             | No           |
-| msdyn_costvariance_base                | No             | No           |
-| msdyn_duration                         | No             | No           |
-| msdyn_effort                           | No             | No           |
-| msdyn_effortcompleted                  | No             | No           |
-| msdyn_effortestimateatcompleteeac      | No             | No           |
-| msdyn_effortremaining                  | No             | No           |
-| msdyn_finish                           | Ναι            | Ναι          |
-| msdyn_globalrevisiontoken              | No             | No           |
-| msdyn_islinkedtomsprojectclient        | No             | No           |
-| msdyn_islinkedtomsprojectclientname    | No             | No           |
-| msdyn_linkeddocumenturl                | No             | No           |
-| msdyn_msprojectdocument                | No             | No           |
-| msdyn_msprojectdocumentname            | No             | No           |
-| msdyn_plannedexpensecost               | No             | No           |
-| msdyn_plannedexpensecost_base          | No             | No           |
-| msdyn_plannedlaborcost                 | No             | No           |
-| msdyn_plannedlaborcost_base            | No             | No           |
-| msdyn_plannedsales                     | No             | No           |
-| msdyn_plannedsales_base                | No             | No           |
-| msdyn_progress                         | No             | No           |
-| msdyn_remainingcost                    | No             | No           |
-| msdyn_remainingcost_base               | No             | No           |
-| msdyn_remainingsales                   | No             | No           |
-| msdyn_remainingsales_base              | No             | No           |
-| msdyn_replaylogheader                  | No             | No           |
-| msdyn_salesconsumption                 | No             | No           |
-| msdyn_salesestimateatcompleteeac       | No             | No           |
-| msdyn_salesestimateatcompleteeac_base  | No             | No           |
-| msdyn_salesvariance                    | No             | No           |
-| msdyn_salesvariance_base               | No             | No           |
-| msdyn_scheduleperformance              | No             | No           |
-| msdyn_scheduleperformancename          | No             | No           |
-| msdyn_schedulevariance                 | No             | No           |
-| msdyn_taskearlieststart                | No             | No           |
-| msdyn_teamsize                         | No             | No           |
-| msdyn_teamsize_date                    | No             | No           |
-| msdyn_teamsize_state                   | No             | No           |
-| msdyn_totalactualcost                  | No             | No           |
-| msdyn_totalactualcost_base             | No             | No           |
-| msdyn_totalplannedcost                 | No             | No           |
-| msdyn_totalplannedcost_base            | No             | No           |
-
-### <a name="project-bucket"></a>Κάδος έργου
-
-| Λογικό όνομα          | Δυνατότητα δημιουργίας      | Δυνατότητα επεξεργασίας     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | Ναι             | No           |
-| msdyn_name            | Ναι             | Ναι          |
-| msdyn_project         | Ναι             | No           |
-| msdyn_projectbucketid | Ναι             | No           |
-
-## <a name="limitations-and-known-issues"></a>Περιορισμοί και γνωστά προβλήματα
 Ακολουθεί μια λίστα με περιορισμούς και γνωστά ζητήματα:
 
-- Τα API χρονοδιαγράμματος έργου μπορούν να χρησιμοποιηθούν μόνο από **Χρήστες με Άδεια χρήσης του Microsoft Project**. Δεν είναι δυνατό να χρησιμοποιηθούν από:
+-   Τα API χρονοδιαγράμματος έργου μπορούν να χρησιμοποιηθούν μόνο από **Χρήστες με Άδεια χρήσης του Microsoft Project**. Δεν είναι δυνατό να χρησιμοποιηθούν από:
+    -   Χρήστες εφαρμογής
+    -   Χρήστες συστήματος
+    -   Χρήστες ενοποίησης
+    -   Άλλοι χρήστες που δεν διαθέτουν την απαιτούμενη άδεια χρήσης
+-   Κάθε **OperationSet** μπορεί να έχει μέγιστο αριθμό 100 λειτουργιών.
+-   Κάθε χρήστης μπορεί να έχει μόνο μέγιστο αριθμό 10 ανοιχτών **OperationSets**.
+-   Το Project Operations υποστηρίζει πλέον το πολύ έως 500 συνολικές εργασίες σε ένα έργο.
+-   Κάθε λειτουργία ενημέρωσης ενημέρωσης καμπύλης εκχώρησης πόρων μετράει ως μία λειτουργία.
+-   Κάθε λίστα ενημερωμένων καμπυλών μπορεί να περιέχει το πολύ έως 100 τμήματα χρόνου.
+-   Η κατάσταση αποτυχίας και τα αρχεία καταγραφής αποτυχίας του **OperationSet** δεν είναι αυτή τη στιγμή διαθέσιμα.
+-   Υπάρχει μέγιστο όριο 400 κύκλοι επανάληψης ανά έργο.
+-   [Όρια και περιορισμοί για έργα και εργασίες](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   Οι ετικέτες είναι αυτήν τη στιγμή διαθέσιμες μόνο για το Project for the Web.
 
-    - Χρήστες εφαρμογής
-    - Χρήστες συστήματος
-    - Χρήστες ενοποίησης
-    - Άλλοι χρήστες που δεν διαθέτουν την απαιτούμενη άδεια χρήσης
+**Χειρισμός σφαλμάτων**
 
-- Κάθε **OperationSet** μπορεί να έχει μέγιστο αριθμό 100 λειτουργιών.
-- Κάθε χρήστης μπορεί να έχει μόνο μέγιστο αριθμό 10 ανοιχτών **OperationSets**.
-- Το Project Operations υποστηρίζει πλέον το πολύ έως 500 συνολικές εργασίες σε ένα έργο.
-- Η κατάσταση αποτυχίας και τα αρχεία καταγραφής αποτυχίας του **OperationSet** δεν είναι αυτή τη στιγμή διαθέσιμα.
-- [Όρια και περιορισμοί για έργα και εργασίες](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   Για να εξετάσετε τα σφάλματα που δημιουργούνται από τα σύνολα λειτουργιών, μεταβείτε στην επιλογή **Ρυθμίσεις** \> **Προγραμματισμός ενοποίησης** \> **Σύνολα λειτουργιών**.
+-   Για να εξετάσετε τα σφάλματα που δημιουργούνται από την υπηρεσία χρονοδιαγράμματος έργου, μεταβείτε στις **Ρυθμίσεις** \> **Ενοποίηση προγραμματισμού** \> **Αρχεία καταγραφής σφαλμάτων PSS**.
 
-## <a name="error-handling"></a>Χειρισμός σφαλμάτων
+**Επεξεργασία καμπύλων εκχώρησης πόρων**
 
-- Για να εξετάσετε τα σφάλματα που δημιουργούνται από τα σύνολα λειτουργιών, μεταβείτε στην επιλογή **Ρυθμίσεις** \> **Προγραμματισμός ενοποίησης** \> **Σύνολα λειτουργιών**.
-- Για να εξετάσετε τα σφάλματα που δημιουργούνται από την υπηρεσία χρονοδιαγράμματος έργου, μεταβείτε στις **Ρυθμίσεις** \> **Ενοποίηση προγραμματισμού** \> **Αρχεία καταγραφής σφαλμάτων PSS**.
+Σε αντίθεση με όλα τα άλλα API προγραμματισμού έργου που ενημερώνουν μια οντότητα, το API καμπύλης ανάθεσης πόρων είναι αποκλειστικά υπεύθυνο για τις ενημερώσεις σε ένα μόνο πεδίο, msdyn_plannedwork, σε μία μόνο οντότητα msydn_resourceassignment.
 
-## <a name="sample-scenario"></a>Δείγμα σεναρίου
+Η δεδομένη λειτουργία χρονοδιαγράμματος είναι:
+
+-   **σταθερές μονάδες**
+-   το ημερολόγιο έργου είναι 9-5p είναι 9-5ps, Δευτ., Τρίτ., Πέμπ., Παρασκ. (ΚΑΜΙΑ ΕΡΓΑΣΙΑ ΤΗΝ ΤΕΤΑΡΤΗ)
+-   και το ημερολόγιο πόρων είναι 9-1p PST Δευτέρα έως Παρασκευή
+
+Αυτή η εκχώρηση είναι για μία εβδομάδα, τέσσερις ώρες την ημέρα. Αυτό συμβαίνει επειδή το ημερολόγιο πόρου προέρχεται από 9-1 PST ή τέσσερις ώρες την ημέρα.
+
+| &nbsp;     | Κλείσιμο εργασίας | Ημερομηνία έναρξης | Ημερομηνία λήξης  | Ποσότητα | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 υπάλληλος |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+Για παράδειγμα, εάν θέλετε ο εργαζόμενος να εργάζεται μόνο τρεις ώρες κάθε ημέρα αυτήν την εβδομάδα και να έχει μια ώρα για άλλες εργασίες.
+
+#### <a name="updatedcontours-sample-payload"></a>Δείγμα ωφέλιμου φορτίου UpdatedContours:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+Αυτή είναι η εκχώρηση μετά την εκτέλεση του API χρονοδιαγράμματος ενημέρωσης καμπύλης.
+
+| &nbsp;     | Κλείσιμο εργασίας | Ημερομηνία έναρξης | Ημερομηνία λήξης  | Ποσότητα | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 υπάλληλος | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**Δείγμα σεναρίου**
 
 Σε αυτό το σενάριο, θα δημιουργήσετε ένα έργο, ένα μέλος ομάδας, τέσσερις εργασίες και δύο αναθέσεις πόρων. Στη συνέχεια, θα ενημερώσετε μία εργασία, θα ενημερώσετε το έργο, θα διαγράψετε μια εργασία, θα διαγράψετε μία ανάθεση πόρου και θα δημιουργήσετε μια εξάρτηση εργασίας.
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>Πρόσθετα δείγματα
+** Πρόσθετα δείγματα
 
 ```csharp
 #region Call actions --- Sample code ----

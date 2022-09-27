@@ -2,20 +2,20 @@
 title: Πόροι γραμμής υπεργολαβίας
 description: Αυτό το άρθρο εξηγεί τον τρόπο καθορισμού των αποκλειστικών πόρων που παρέχονται από τον προμηθευτή για μια συγκεκριμένη γραμμή υπεργολαβίας για τον χρόνο.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261464"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522372"
 ---
 # <a name="subcontract-line-resources"></a>Πόροι γραμμής υπεργολαβίας
 
-_**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
+_**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
 Στο Dynamics 365 Project Operations, ένας προμηθευτής μπορεί να καθορίσει τους πόρους που θα χρησιμοποιηθούν για τον ανεφοδιασμό της παραγωγικής ικανότητας του πόρου που αγοράζεται στη γραμμή υπεργολαβίας για κάποιο χρονικό διάστημα.
 

@@ -2,20 +2,20 @@
 title: Μεταβάσεις κατάστασης σε υπεργολαβία
 description: Αυτό το άρθρο περιγράφει τις μεταβάσεις κατάστασης σε μια υπεργολαβία στο Microsoft Dynamics 365 Project Operations καθώς η υπεργολαβία δημιουργείται, εκτελείται και κλείνει.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261197"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522889"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Μεταβάσεις κατάστασης σε υπεργολαβία 
 
-_**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
+_**Ισχύει για:** Εργασίες έργου για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα, ανάπτυξη Lite - συμφωνία για προτιμολόγηση_
 
 Αυτό άρθρο εξηγεί τις μεταβάσεις κατάστασης σε υπεργολαβία στο Microsoft Dynamics 365 Project Operations. Κάθε κατάσταση αντιπροσωπεύεται ως προσχέδιο, επιβεβαιωμένη, κλειστή ή ακυρωμένη. Η εικόνα που ακολουθεί αντιπροσωπεύει τις μεταβάσεις κατάστασης.
 
