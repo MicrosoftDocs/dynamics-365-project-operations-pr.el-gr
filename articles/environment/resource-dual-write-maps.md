@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112429"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621081"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Εκδόσεις χάρτη διπλής εγγραφής Project Operations
 
@@ -48,14 +48,14 @@ _**Ισχύει για:** Project Operations για σενάρια βασισμ�
 | Προέλευση διαχείρισης έργων (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Δεν απαιτείται για προμήθεια. ||
 | Πίνακας ενοποίησης έργων για εκτιμήσεις υλικού (msdyn\_estimatelines) | 1.0.0.0 | Δεν απαιτείται για προμήθεια. ||
 | Προτάσεις τιμολογίου έργου V2 (τιμολόγια) | 1.0.0.3 | Δεν απαιτείται για προμήθεια. ||
-| Πραγματικές τιμές ενοποίησης Project Operations (msdyn_actuals) | 1.0.0.14 | Δεν απαιτείται για προμήθεια. ||
+| Πραγματικές τιμές ενοποίησης Project Operations (msdyn_actuals) | 1.0.0.15 | Δεν απαιτείται για προμήθεια. |10.0.29 ή νεότερη έκδοση|
 | Ορόσημα γραμμής σύμβασης ενοποίησης στις Λειτουργίες Έργου (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Δεν απαιτείται για προμήθεια. ||
 | Οντότητα ενοποίησης Λειτουργιών Έργου για εκτιμήσεις εξόδων (msdyn_estimatelines) | 1.0.0.2 | Δεν απαιτείται για προμήθεια. ||
 | Οντότητα ενοποίησης Project Operations για ωριαίες εκτιμήσεις (msdyn_resourceassignments) | 1.0.0.5 | Δεν απαιτείται για προμήθεια. ||
 | Οντότητα εξαγωγής κατηγοριών δαπανών έργου ενοποίησης Project Operations (msdyn_expensecategories) | 1.0.0.1 | Δεν απαιτείται για προμήθεια. ||
 | Οντότητα εξαγωγής δαπανών έργου ενοποίησης Project Operations (msdyn_expenses) | 1.0.0.3 | Δεν απαιτείται για προμήθεια. ||
-| Οντότητα εξαγωγής τιμολογίου πωλητή έργου ενοποίησης Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Δεν απαιτείται για προμήθεια. |10.0.26 ή νεότερη έκδοση|
-| Οντότητα εξαγωγής γραμμής τιμολογίου πωλητή έργου ενοποίησης Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Δεν απαιτείται για προμήθεια. | 10.0.26 ή νεότερη έκδοση |
+| Οντότητα εξαγωγής τιμολογίου πωλητή έργου ενοποίησης Project Operations (msdyn_projectvendorinvoices) | 1.0.0.2 | Δεν απαιτείται για προμήθεια. |10.0.29 ή νεότερη έκδοση|
+| Οντότητα εξαγωγής γραμμής τιμολογίου πωλητή έργου ενοποίησης Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Δεν απαιτείται για προμήθεια. | 10.0.29 ή νεότερη έκδοση |
 | Ρόλοι πόρων έργου για όλες τις εταιρείες (bookableresourcecategories) | 1.0.0.1 | Απαιτεί αρχικό συγχρονισμό για την αντιστοίχιση πίνακα για το συγχρονισμό των ρόλων πόρων του Διαχειριστή έργου και του Μέλους ομάδας που συμπληρώνονται στο περιβάλλον Dynamics 365 Dataverse κατά την προμήθεια. Το Dataverse είναι η κύρια προέλευση για τον αρχικό συγχρονισμό. ||
 | Εργασίες έργου (msdyn_projecttasks) | 1.0.0.4 | Δεν απαιτείται για προμήθεια. ||
 | Κατηγορίες συναλλαγών έργου (msdyn_transactioncategories) | 1.0.0.0 | Δεν απαιτείται για προμήθεια. ||

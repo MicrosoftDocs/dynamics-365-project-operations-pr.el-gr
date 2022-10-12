@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Τι νέα υπάρχουν
       items:
-        - name: Αύγουστος 2022 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
-          href: whats-new/whats-new-aug-2022-resource-based.md
-        - name: Αρχειοθήκη
+        - name: Σεπτέμβριος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: Αρχείο
           items:
+            - name: Αύγουστος 2022 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Ιούλιος 2022 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: Ιούνιος 2022 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Τι νέα υπάρχουν
       items:
-        - name: 'Τι νέα υπάρχουν, Αύγουστος 2022 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-aug-2022-lite.md
-        - name: Αρχειοθήκη
+        - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2022 - ελαφριά ανάπτυξη'
+          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Αρχείο
           items:
+            - name: 'Τι νέα υπάρχουν, Αύγουστος 2022 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: 'Τι νέα υπάρχουν, Ιούλιος 2022 - ελαφριά ανάπτυξη'
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: 'Τι νέα υπάρχουν, Ιούνιος 2022 - ελαφριά ανάπτυξη'
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Τι νέα υπάρχουν
       items:
-        - name: 'Τι νέα υπάρχουν, Ιούλιος 2022 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
-        - name: Αρχειοθήκη
+        - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2022 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Αρχείο
           items:
+            - name: 'Τι νέα υπάρχουν, Ιούλιος 2022 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: 'Τι νέα υπάρχουν, Ιούνιος 2022 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: 'Τι νέα υπάρχουν, Οκτώβριος 2021 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
@@ -1436,6 +1442,10 @@
       items:
         - name: Ενημέρωση χρονοδιαγράμματος έκδοσης για το Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 47, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 45, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 44, V3'
           href: psa/whats-new-ur-44.md
         - name: 'Τι νέα υπάρχουν ή τι άλλαξε στην Έκδοση ενημέρωσης 43, V3'
