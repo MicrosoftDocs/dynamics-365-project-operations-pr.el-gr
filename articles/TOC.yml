@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Τι νέα υπάρχουν ή τι άλλαξε στο Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: Αναβάθμιση Project Service Automation (έκδοση εφαρμογής σε Project Operations Ελαφρύ 4.x)
+      items:
+        - name: Αναβάθμιση από Project Service Automation σε Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Αλλαγές λειτουργιών από Project Service Automation σε Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Διεργασία μετατροπής χρονοδιαγράμματος Project Service Automation σε Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Σχεδιάστε την υλοποίηση σας (έκδοση εφαρμογής 3.x)
       items:
         - name: Εγκατάσταση δεδομένων δείγματος
