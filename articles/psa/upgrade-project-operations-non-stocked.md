@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686975"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709444"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Αναβάθμιση από Project Service Automation σε Project Operations
 
@@ -70,7 +70,7 @@ ms.locfileid: "9686975"
 
 ## <a name="licensing"></a>Παραχώρηση αδειών χρήσης
 
-Εάν έχετε ενεργές άδειες για το Project Service Automation, μπορείτε να εγκαταστήσετε και να χρησιμοποιήσετε το Project Operations, που περιλαμβάνει όλες τις δυνατότητες του Project Service Automation και πολλά άλλα. Μπορείτε, έπειτα, να δοκιμάσετε τις δυνατότητες του Project Operations σε ξεχωριστό περιβάλλον ενώ συνεχίζετε να χρησιμοποιείτε το Project Service Automation στην παραγωγή. Μετά τη λήξη των αδειών χρήσης Project Service Automation, θα πρέπει να κάνετε μετάβαση στο Project Operations. Όταν σχεδιάζετε αυτήν τη μετάβαση, πρέπει να δικαιολογήσετε το γεγονός ότι η άδεια χρήσης Project Operations δεν περιλαμβάνει άδεια χρήσης του Project Service Automation.
+Εάν έχετε ενεργές άδειες για το Project Service Automation, μπορείτε να εγκαταστήσετε και να χρησιμοποιήσετε το Project Operations, που περιλαμβάνει όλες τις δυνατότητες του Project Service Automation και πολλά άλλα. Με αυτόν τον τρόπο, μπορείτε να δοκιμάσετε τις δυνατότητες του Project Operations ενώ συνεχίζετε να χρησιμοποιείτε το Project Service Automation στην παραγωγή. Μετά τη λήξη των αδειών χρήσης Project Service Automation, θα πρέπει να κάνετε μετάβαση στο Project Operations. Όταν σχεδιάζετε αυτήν τη μετάβαση, πρέπει να δικαιολογήσετε το γεγονός ότι η άδεια χρήσης Project Operations δεν περιλαμβάνει άδεια χρήσης του Project Service Automation. Οι πελάτες που διαθέτουν σενάρια όπου έχουν αναπτύξει το Project Service Automation και πρέπει να συνεχίσουν να χρησιμοποιούν ή να αυξήσουν τις άδειες χρήσης για το PSA ενώ σχεδιάζουν να μετακινηθούν στο Project Operations, μπορούν να ζητήσουν προσωρινές άδειες PSA με βάση αγορασμένες άδειες χρήσης του Project Operations. Θα εκδίδεται μία άδεια χρήσης Project Service Automation για μία άδεια χρήσης Project Operations. Ενδέχεται να ζητηθεί η έκδοση προσωρινών αδειών PSA χρησιμοποιώντας αυτήν τη σύνδεση: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Δοκιμή και επανασχεδιασμός προσαρμογών
 

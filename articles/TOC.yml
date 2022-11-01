@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Πώς μπορώ να προσαρμόσω τη ροή επιχειρηματικής διαδικασίας σταδίων έργου;
               href: psa/FAQ-customize-bpf.md
-            - name: Ζητήματα αναβάθμισης για τη δομή ανάλυσης εργασίας
-              href: psa/upgrade-considerations-tasks.md
         - name: Λευκές βίβλοι
           href: psa/white-papers.md
         - name: Οδηγός διαχειριστή
