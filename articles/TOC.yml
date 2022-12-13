@@ -62,10 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: Τι νέα υπάρχουν
       items:
-        - name: Σεπτέμβριος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
-          href: whats-new/whats-new-sept-2022-resource-based.md
-        - name: Αρχείο
+        - name: Νοέμβριος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+          href: whats-new/whats-new-nov-2022-resource-based.md
+        - name: Αρχειοθήκη
           items:
+            - name: Οκτώβριος 2022 - Project Operations για σενάρια βασισμένα σε πόρους / μη εφοδιασμένα σενάρια
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: Σεπτέμβριος 2022 - Project Operations για μη εφοδιασμένα σενάρια ή σενάρια βασισμένα σε πόρους
+              href: whats-new/whats-new-sept-2022-resource-based.md
             - name: Αύγουστος 2022 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
               href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Ιούλιος 2022 - Project Operations για σενάρια πόρων/μη εφοδιασμένα σενάρια
@@ -118,13 +122,13 @@
               href: sales/sales-products.md
             - name: Μονάδες και ομάδες μονάδων
               href: sales/sales-units-unit-groups.md
-            - name: Νομισματική μονάδα
+            - name: Νόμισμα
               href: sales/sales-currency.md
             - name: Οργανικές μονάδες
               href: sales/OrgUnits.md
-        - name: Διαχείριση υποψήφιων πελατών έργου
+        - name: Διαχείριση υποψηφίων βάσει έργου
           href: sales/manage-leads.md
-        - name: Διαχείριση ευκαιριών έργου
+        - name: Διαχείριση ευκαιριών βάσει έργων
           items:
             - name: Επισκόπηση διαχείρισης ευκαιριών έργου
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: Γραμμές ευκαιρίας βάσει έργου
               href: sales/project-based-lines.md
-            - name: Δημιουργία προσφορών έργου από ευκαιρίες
+            - name: Δημιουργία προσφορών από ευκαιρίες έργου
               href: sales/link-quotes-opportunities.md
-            - name: Αντιγραφή ευκαιριών βάσει έργου
+            - name: Αντιγραφή ευκαιριών έργων
               href: sales/copy-project-based-opportunity.md
             - name: Κλείσιμο ευκαιρίας έργου
               href: sales/close-opportunity.md
-        - name: Διαχείριση προσφορών έργου
+        - name: Διαχείριση προσφορών βάσει έργου
           items:
             - name: Επισκόπηση διαχείρισης προσφορών έργου
               href: pro/sales/manage-quotes-sales.md
@@ -146,61 +150,59 @@
               href: sales/quotes-key-concepts.md
             - name: Λεπτομέρειες κεφαλίδας για προσφορές βάσει έργου
               href: sales/quote-values-budget-limits-contract.md
-            - name: Διαχείριση πολλών πελατών σε προσφορά έργου
+            - name: Διαχείριση πολλών πελατών σε προσφορά βάσει έργου
               href: sales/manage-multiple-customers-quote.md
-            - name: Διαχείριση τιμοκαταλόγων έργου σε μια προσφορά
+            - name: Τιμοκατάλογοι έργου σε προσφορές έργου
               href: pro/sales/manage-project-price-lists-sales.md
             - name: Γραμμές προσφοράς βάσει έργου
               items:
-                - name: Επισκόπηση γραμμών προσφοράς βάσει έργου
+                - name: Επισκόπηση γραμμών προσφοράς έργου
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: Διαχείριση πολλών πελατών σε γραμμές προσφοράς βάσει έργου
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: Αντιστοίχιση έργων και εργασιών σε γραμμές προσφοράς βάσει έργου
+                - name: Αντιστοίχιση έργων και εργασιών σε γραμμές προσφοράς έργου
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Ρύθμιση παραμέτρων χρεώσιμων στοιχείων για γραμμές προσφοράς βάσει έργου
+                - name: Ρύθμιση παραμέτρων των χρεώσιμων στοιχείων σε γραμμές προσφοράς έργου
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Ρύθμιση παραμέτρων των χρεώσιμων στοιχείων μιας γραμμής προσφοράς έργου
-                  href: sales/configure-chargeable-quoteline.md
                 - name: Εκτίμηση μιας γραμμής προσφοράς έργου
-                  href: sales/create-estimate-quote-line.md
-                - name: Εισαγωγή εκτιμήσεων από ένα έργο σε γραμμή προσφοράς βάσει έργου
-                  href: sales/import-estimate-quote-line.md
-                - name: Χρονοδιαγράμματα τιμολογίων σε γραμμές προσφοράς βάσει έργου
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: Εισαγωγή εκτιμήσεων από ένα έργο σε μια γραμμή προσφοράς έργου
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: Χρονοδιαγράμματα τιμολογίων σε γραμμές προσφοράς έργου
                   href: sales/invoice-schedule-quote-line.md
             - name: Αντιγραφή προσφορών έργου
               href: sales/lose-quote.md
             - name: Ενεργοποίηση και αναθεώρηση προσφοράς έργου
               href: sales/activation-and-revision.md
-            - name: Κλείσιμο προσφορών έργου
+            - name: Κλείσιμο προσφορών βάσει έργου
               href: sales/win-quote.md
-        - name: Διαχείριση συμβάσεων έργου
+        - name: Διαχείριση συμβάσεων βάσει έργου
           items:
-            - name: Επισκόπηση διαχείρισης συμβάσεων έργου
+            - name: Διαχείριση συμβάσεων έργου
               href: pro/sales/manage-contracts-sales.md
-            - name: Έννοιες μοναδικές για συμβάσεις βάσει έργου
+            - name: Έννοιες μοναδικές για Συμβάσεις βάσει έργου
               href: sales/contracts-key-concepts.md
             - name: Λεπτομέρειες κεφαλίδας για συμβάσεις βάσει έργου
               href: sales/project-contract-settings.md
-            - name: Διαχείριση τιμοκαταλόγων έργου σε συμβάσεις έργου
+            - name: Διαχείριση τιμοκαταλόγων έργου σε συμβάσεις βάσει έργου
               href: sales/contracts-manage-project-price-lists.md
-            - name: Διαχείριση πολλών πελατών σε συμβάσεις έργου
+            - name: Διαχείριση πολλών πελατών σε συμβάσεις βάσει έργου
               href: sales/manage-multiple-customers-contract.md
             - name: Γραμμές σύμβασης βάσει έργου
               items:
-                - name: Επισκόπηση γραμμών σύμβασης βάσει έργου
+                - name: Επισκόπηση γραμμών σύμβασης έργου
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: Διαχείριση πολλών πελατών σε γραμμές σύμβασης βάσει έργου
                   href: sales/manage-multiple-customers-contract-line.md
                 - name: Αντιστοίχιση έργων και εργασιών σε μια γραμμή σύμβασης έργου
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: Ρύθμιση παραμέτρων χρεώσιμων στοιχείων για μια γραμμή σύμβασης έργου
+                - name: Ρύθμιση παραμέτρων χρεώσιμων στοιχείων μιας γραμμής σύμβασης έργου
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Εκτίμηση μιας γραμμής σύμβασης έργου
+                - name: Εκτίμηση μιας γραμμής σύμβασης βάσει έργου
                   href: sales/create-estimate-contract-line.md
-                - name: Εισαγωγή εκτιμήσεων από ένα έργο σε γραμμή σύμβασης βάσει έργου
-                  href: sales/import-estimate-project-contract-line.md
-                - name: Δημιουργία χρονοδιαγραμμάτων τιμολογίου σε γραμμές σύμβασης βάσει έργου
+                - name: Εισαγωγή εκτιμήσεων από ένα έργο σε μια γραμμή σύμβασης έργου
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Δημιουργία χρονοδιαγραμμάτων τιμολογίου σε μια γραμμή σύμβασης βάσει έργου
                   href: sales/invoice-schedules-contract-line.md
             - name: Αντιγραφή συμβάσεων βάσει έργου
               href: sales/copy-project-based-contracts-sales.md
@@ -208,11 +210,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Προκαταβολές και προπληρωμές
               items:
-                - name: Συμβάσεις βάσει προπληρωμών και προκαταβολών
+                - name: Προπληρωμές και συμβάσεις βάσει προκαταβολής
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Ρύθμιση χρονοδιαγράμματος προκαταβολής
+                - name: Ρύθμιση χρονοδιαγράμματος προκαταβολών
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Δημιουργία μιας επί τούτου προπληρωμής σε μια σύμβαση
+                - name: Δημιουργία μιας επί τούτου προπληρωμής σε μια σύμβαση έργου
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Τιμολόγηση και κοστολόγηση
       items:
@@ -642,9 +644,11 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: 'Συγχρονίστε την κατάσταση έργου, για να αποτραπεί η εισαγωγή σε κλειστά έργα'
           href: advanced-configuration/sync-project-status.md
+        - name: Ρύθμιση μετατροπής νομίσματος για τον υπολογισμό των τιμών πωλήσεων από τους συντελεστές κόστους
+          href: advanced-configuration/currencyconversion.md
     - name: Αναβάθμιση
       items:
-        - name: Αναβάθμιση ζητημάτων προς εξέταση για σύγχρονες εγκρίσεις
+        - name: Ζητήματα αναβάθμισης προς εξέταση για σύγχρονες εγκρίσεις
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Εφαρμογές Project Operations
       items:
@@ -664,7 +668,7 @@
           href: pro/project-operations-overview-lite.md
         - name: Εγγραφή για μια συνδρομή έκδοσης προεπισκόπησης - ελαφριά
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Ανάπτυξη Project Operations - ελαφριά
+        - name: Ελαφριά ανάπτυξη Project Operations
           href: environment/lite-deployment.md
         - name: Εφαρμογή ρύθμισης επίδειξης και δεδομένων ρύθμισης παραμέτρων - ελαφριά
           href: environment/lite-apply-demo-setup-config-data.md
@@ -672,10 +676,14 @@
           href: environment/security-model.md
     - name: Τι νέα υπάρχουν
       items:
-        - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2022 - ελαφριά ανάπτυξη'
-          href: pro/whats-new/whats-new-sept-2022-lite.md
-        - name: Αρχείο
+        - name: 'Τι νέα υπάρχουν, Νοέμβριος 2022 - ελαφριά ανάπτυξη'
+          href: pro/whats-new/whats-new-nov-2022-lite.md
+        - name: Αρχειοθήκη
           items:
+            - name: 'Τι νέα υπάρχουν, Οκτώβριος 2022 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2022 - ελαφριά ανάπτυξη'
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: 'Τι νέα υπάρχουν, Αύγουστος 2022 - ελαφριά ανάπτυξη'
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: 'Τι νέα υπάρχουν, Ιούλιος 2022 - ελαφριά ανάπτυξη'
@@ -730,7 +738,7 @@
               href: sales/sales-products.md
             - name: Μονάδες και ομάδες μονάδων
               href: sales/sales-units-unit-groups.md
-            - name: Νομισματική μονάδα
+            - name: Νόμισμα
               href: sales/sales-currency.md
             - name: Οργανικές μονάδες
               href: sales/OrgUnits.md
@@ -748,19 +756,19 @@
               href: pro/sales/project-based-lines-sales.md
             - name: Δημιουργία προσφορών από ευκαιρίες έργου
               href: sales/link-quotes-opportunities.md
-            - name: Αντιγραφή ευκαιριών βάσει έργου
+            - name: Αντιγραφή ευκαιριών έργων
               href: sales/copy-project-based-opportunity.md
             - name: Κλείσιμο ευκαιρίας έργου
               href: sales/close-opportunity.md
-        - name: Διαχείριση προσφορών βάσει έργου
+        - name: Διαχείριση προσφορών έργου
           items:
-            - name: Επισκόπηση προσφορών βάσει έργου
+            - name: Επισκόπηση προσφορών έργου
               href: pro/sales/manage-quotes-sales.md
             - name: Έννοιες μοναδικές για προσφορές έργων
               href: pro/sales/quotes-key-concepts-sales.md
             - name: Λεπτομέρειες κεφαλίδας για προσφορές έργου
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Πολλοί πελάτες σε προσφορές έργου
+            - name: Διαχείριση πολλών πελατών σε προσφορές έργου
               href: pro/sales/manage-multiple-customers-quote-sales.md
             - name: Τιμοκατάλογοι έργου σε προσφορές έργου
               href: pro/sales/manage-project-price-lists-sales.md
@@ -772,37 +780,37 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: Διαχείριση σύνθετων μονάδων για γραμμές προσφοράς βάσει προϊόντων
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: Γραμμές προσφοράς βάσει έργου
+            - name: Γραμμές προσφορών έργων
               items:
-                - name: Επισκόπηση γραμμών προσφοράς βάσει έργου
+                - name: Επισκόπηση γραμμών προσφοράς έργου
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Διαχείριση πολλών πελατών
+                - name: Διαχείριση πολλών πελατών σε γραμμές προσφοράς έργου
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Αντιστοίχιση έργων και εργασιών
+                - name: Αντιστοίχιση έργων και εργασιών σε γραμμές προσφοράς έργου
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: Ρύθμιση παραμέτρων χρεώσιμων στοιχείων
+                - name: Ρύθμιση παραμέτρων των χρεώσιμων στοιχείων σε γραμμές προσφοράς έργου
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: Εκτίμηση μιας γραμμής προσφοράς βάσει έργου
+                - name: Εκτίμηση μιας γραμμής προσφοράς έργου
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Εισαγωγή εκτίμησης από ένα έργο
+                - name: Εισαγωγή εκτιμήσεων από ένα έργο σε μια γραμμή προσφοράς έργου
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Διαχείριση χρονοδιαγραμμάτων τιμολογίου
+                - name: Χρονοδιαγράμματα τιμολογίων σε γραμμές προσφοράς έργου
                   href: sales/invoice-schedule-quote-line.md
-            - name: Αντιγραφή προσφορών βάσει έργου
+            - name: Αντιγραφή προσφορών έργου
               href: sales/lose-quote.md
             - name: Ενεργοποίηση και αναθεώρηση προσφοράς έργου
               href: sales/activation-and-revision.md
-            - name: Κλείσιμο προσφορών βάσει έργου
+            - name: Κλείσιμο προσφορών έργου
               href: pro/sales/win-quote-sales.md
-        - name: Διαχείριση συμβάσεων βάσει έργου
+        - name: Διαχείριση συμβάσεων έργου
           items:
-            - name: Επισκόπηση συμβάσεων βάσει έργου
+            - name: Επισκόπηση συμβάσεων έργου
               href: pro/sales/manage-contracts-sales.md
             - name: Έννοιες μοναδικές για συμβάσεις έργου
               href: pro/sales/contracts-key-concepts-sales.md
             - name: Λεπτομέρειες κεφαλίδας για συμβάσεις έργου
               href: pro/sales/project-contract-settings-sales.md
-            - name: Πολλοί πελάτες σε συμβάσεις έργου
+            - name: Διαχείριση πολλών πελατών σε συμβάσεις έργου
               href: pro/sales/manage-multiple-customers-contract-sales.md
             - name: Τιμοκατάλογοι έργου σε συμβάσεις έργου
               href: sales/contracts-manage-project-price-lists.md
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: Διαχείριση σύνθετων μονάδων για γραμμές σύμβασης βάσει προϊόντων
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: Γραμμές σύμβασης βάσει έργου
+            - name: Γραμμές συμβάσεων έργων
               items:
-                - name: Επισκόπηση γραμμών σύμβασης βάσει έργου
+                - name: Επισκόπηση γραμμών σύμβασης έργου
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: Διαχείριση πολλών πελατών σύμβασης
+                - name: Διαχείριση πολλών πελατών σε συμβάσεις έργου
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: Αντιστοίχιση έργων και εργασιών σε μια γραμμή σύμβασης έργου
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
                 - name: Ρύθμιση παραμέτρων χρεώσιμων στοιχείων σε μια γραμμή σύμβασης έργου
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: Εκτίμηση μιας γραμμής σύμβασης βάσει έργου
+                - name: Εκτίμηση μιας γραμμής σύμβασης έργου
                   href: pro/sales/create-estimate-project-contract-line-sales.md
                 - name: Εισαγωγή εκτιμήσεων από ένα έργο σε μια γραμμή σύμβασης έργου
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: Διαχείριση χρονοδιαγραμμάτων τιμολογίου σε μια γραμμή σύμβασης έργου
+                - name: Δημιουργία χρονοδιαγραμμάτων τιμολογίου σε μια γραμμή σύμβασης έργου
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Αντιγραφή συμβάσεων έργου
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,11 +844,11 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Προκαταβολές και προπληρωμές
               items:
-                - name: Συμβάσεις βάσει προπληρωμών και προκαταβολών - ελαφριά
+                - name: Συμβάσεις βάσει προπληρωμών και προκαταβολών
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Ρύθμιση χρονοδιαγράμματος προκαταβολών - ελαφριά
+                - name: Ρύθμιση χρονοδιαγράμματος προκαταβολών Ρύθμιση χρονοδιαγράμματος προκαταβολών
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: Δημιουργία μιας επί τούτου προπληρωμής σε μια σύμβαση - ελαφριά
+                - name: Δημιουργία μιας επί τούτου προπληρωμής σε μια σύμβαση έργου
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Τιμολόγηση και κοστολόγηση
       items:
@@ -1156,7 +1164,7 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
     - name: Αναβάθμιση
       items:
-        - name: Αναβάθμιση ζητημάτων προς εξέταση για σύγχρονες εγκρίσεις
+        - name: Ζητήματα αναβάθμισης προς εξέταση για σύγχρονες εγκρίσεις
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Εφαρμογές Project Operations
       items:
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Τι νέα υπάρχουν
       items:
-        - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2022 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
-        - name: Αρχείο
+        - name: 'Τι νέα υπάρχουν, Οκτώβριος 2022 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
+        - name: Αρχειοθήκη
           items:
+            - name: 'Τι νέα υπάρχουν, Σεπτέμβριος 2022 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: 'Τι νέα υπάρχουν, Ιούλιος 2022 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: 'Τι νέα υπάρχουν, Ιούνιος 2022 - Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής'
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Επισκόπηση ανάπτυξης του Project Operations για εφοδιασμένα σενάρια ή σενάρια βάσει παραγωγής
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: Επισκόπηση διαχείρισης έργων και λογιστικής
-      href: prod-pma/overview-project-management-accounting.md
+    - name: Λογιστική έργου
+      items:
+        - name: Επισκόπηση διαχείρισης έργων και λογιστικής
+          href: prod-pma/overview-project-management-accounting.md
+        - name: Προσαρμογές έργου
+          href: project-accounting/project-adjustments.md
     - name: Διεργασία πωλήσεων έργου
       items:
         - name: Προσφορές έργου
