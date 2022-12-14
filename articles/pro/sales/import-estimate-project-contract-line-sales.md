@@ -1,21 +1,21 @@
 ---
-title: Εισαγωγή εκτίμησης σε μια γραμμή σύμβασης βάσει έργου - lite
+title: Εισαγωγή εκτιμήσεων από ένα έργο σε μια γραμμή σύμβασης έργου
 description: Αυτό το άρθρο παρέχει πληροφορίες σχετικά με την εισαγωγή οικονομικών εκτιμήσεων από ένα έργο σε μια γραμμή σύμβασης.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: el-GR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924200"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824674"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Εισαγωγή εκτίμησης σε μια γραμμή σύμβασης βάσει έργου - lite
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Εισαγωγή εκτιμήσεων από ένα έργο σε μια γραμμή σύμβασης έργου
 
-_**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση_
+_**Ισχύει για:** Ελαφριά ανάπτυξη - συμφωνία για προτιμολόγηση, Project Operations για σενάρια βασισμένα σε πόρους/μη εφοδιασμένα_ _
 
 Στο Dynamics 365 Project Operations,μπορείτε να εισαγάγετε εκτιμήσεις από ένα έργο σε γραμμή σύμβασης βάσει έργου.
 
