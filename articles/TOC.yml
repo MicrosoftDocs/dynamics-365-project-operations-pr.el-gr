@@ -738,7 +738,7 @@
               href: sales/sales-products.md
             - name: Μονάδες και ομάδες μονάδων
               href: sales/sales-units-unit-groups.md
-            - name: Νόμισμα
+            - name: Νομισματική μονάδα
               href: sales/sales-currency.md
             - name: Οργανικές μονάδες
               href: sales/OrgUnits.md
@@ -846,7 +846,7 @@
               items:
                 - name: Συμβάσεις βάσει προπληρωμών και προκαταβολών
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Ρύθμιση χρονοδιαγράμματος προκαταβολών Ρύθμιση χρονοδιαγράμματος προκαταβολών
+                - name: Ρύθμιση χρονοδιαγράμματος προκαταβολών
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Δημιουργία μιας επί τούτου προπληρωμής σε μια σύμβαση έργου
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -1164,7 +1164,7 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
     - name: Αναβάθμιση
       items:
-        - name: Ζητήματα αναβάθμισης προς εξέταση για σύγχρονες εγκρίσεις
+        - name: Αναβάθμιση ζητημάτων προς εξέταση για σύγχρονες εγκρίσεις
           href: upgrade/upgrade-considerations-modern-approvals.md
     - name: Εφαρμογές Project Operations
       items:
